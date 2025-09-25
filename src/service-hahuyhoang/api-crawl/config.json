@@ -1,0 +1,11 @@
+{
+  "soundcloud": {
+    "clientId": "jHEka5S67uXVaQRAQZVR8fhxpQI2tcsq",
+    "lastUpdate": "2025-05-20T04:03:33.445Z"
+  },
+  "zingmp3": {
+    "apiKey": "X5BM3w8N7MKozC0B85o4KMlzLZKhV00y",
+    "secretKey": "acOrvUS15XRW2o9JksiK1KgQ6Vbds8ZW",
+    "version": "1.11.13"
+  }
+}
