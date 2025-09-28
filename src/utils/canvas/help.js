@@ -46,12 +46,13 @@ export async function createInstructionsImage(helpContent, isAdminBox, width = 8
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext("2d");
 
+  // Áp dụng nền động và gradient
   const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
-  backgroundGradient.addColorStop(0, "#0A0A0A"); // Đen đậm hơn (gần như đen thuần)
-  backgroundGradient.addColorStop(1, "#121212"); // Đen đậm hơn nhưng có chút sắc xám
+  backgroundGradient.addColorStop(0, "#3B82F6");
+  backgroundGradient.addColorStop(1, "#111827");
   ctx.fillStyle = backgroundGradient;
   ctx.fillRect(0, 0, width, height);
-  
+
   let y = 60;
 
   ctx.textAlign = "left";
