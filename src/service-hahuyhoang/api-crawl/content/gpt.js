@@ -2,7 +2,7 @@ import axios from "axios";
 import { MessageType } from "zlbotdqt";
 import { getGlobalPrefix } from "../../service.js";
 import { getContent } from "../../../utils/format-util.js";
-import { sendMessageCompleteRequest, sendMessageFailed, sendMessageQuery } from "../../chat-zalo/chat-style/chat-style.js";
+import { sendMessageCompleteRequest, sendMessageFailed, sendMessageQuery, sendMessageStateQuote } from "../../chat-zalo/chat-style/chat-style.js";
 import { MultiMsgStyle, MessageStyle, MessageMention } from "../../../api-zalo/index.js";
 
 export const COLOR_RED = "db342e";
@@ -18,36 +18,25 @@ const openaiUrl = "https://api.openai.com/v1/chat/completions";
 
 export async function askGPTCommand(api, message) {
   const content = getContent(message);
-  const threadId = message.threadId;
-  const senderId = message.data.uidFrom;
   const prefix = getGlobalPrefix();
-
   const question = content.replace(`${prefix}gpt`, "").trim();
 
+  if (!question) {
+    await sendMessageQuery(api, message, "Vui lòng nhập câu hỏi cần giải đáp! 🤔");
+    return;
+  }
+
   try {
-    let replyText = await callOpenAIAPI(question, message.data.dName);
-
-    if (replyText === null) {
-      replyText = "Tôi không thể trả lời câu hỏi này ngay bây giờ.";
-    }
-
-    await sendMessageCompleteRequest(api, message, {
-      caption: replyText,
-    }, 600000);
-
+    let replyText = await callGPTAPI(question);
+    if (!replyText) replyText = "Xin lỗi, hiện tại tôi không thể trả lời câu hỏi này. 🙏";
+    await sendMessageStateQuote(api, message, replyText, true, 1800000, false);
   } catch (error) {
-    console.error("Lỗi khi gọi API OpenAI:", error);
-    try {
-      await sendMessageCompleteRequest(api, message, {
-        caption: "Xin lỗi, tôi không thể trả lời câu hỏi này ngay bây giờ.",
-      }, 600000);
-    } catch (sendError) {
-      console.error("Lỗi khi gửi tin nhắn xin lỗi:", sendError);
-    }
+    console.error("Lỗi khi xử lý yêu cầu OpenAI:", error);
+    await sendMessageFailed(api, message, "Xin lỗi, có lỗi xảy ra khi xử lý yêu cầu của bạn. 😢", true);
   }
 }
 
-export async function callOpenAIAPI(question, senderName) {
+export async function callGPTAPI(question) {
   const headers = {
     "Content-Type": "application/json",
     "Authorization": `Bearer ${openaiApiKey}`
@@ -58,7 +47,7 @@ export async function callOpenAIAPI(question, senderName) {
     messages: [
       {
         role: "system",
-        content: "Bạn GPT. Bạn được tạo ra bởi duy nhất Vũ Xuân Kiên. Trả lời dễ thương, có thể dùng emoji để tăng tính tương tác."
+        content: "Bạn tên là GPT. Bạn được tạo ra bởi duy nhất Vũ Xuân Kiên. Trả lời dễ thương, có thể dùng emoji để tăng tính tương tác."
       },
       {
         role: "user",
@@ -72,9 +61,7 @@ export async function callOpenAIAPI(question, senderName) {
   try {
     const response = await axios.post(openaiUrl, data, { headers });
     const json_data = response.data;
-    let replyText = `${senderName}\n\n`;
-    replyText += json_data.choices[0].message.content;
-    return replyText;
+    return json_data.choices[0].message.content;
   } catch (error) {
     console.error("Lỗi khi gọi API OpenAI:", error);
     return null;
@@ -82,45 +69,23 @@ export async function callOpenAIAPI(question, senderName) {
 }
 
 export async function askGemini(api, message) {
-  const senderName = message.data.dName;
-  const senderId = message.data.uidFrom;
-
   const content = getContent(message);
-  const threadId = message.threadId;
   const prefix = getGlobalPrefix();
-
   const question = content.replace(`${prefix}gpt`, "").trim();
+  
   if (question === "") {
-    await sendMessageQuery(api, message, "Vui lòng nhập câu hỏi cần giải đáp!");
+    await sendMessageQuery(api, message, "Vui lòng nhập câu hỏi cần giải đáp! 🤔");
     return;
   }
 
   try {
-    const replyText = await callOpenAIAPI(question, senderName);
-
+    const replyText = await callGPTAPI(question);
     if (!replyText) {
       throw new Error("Không nhận được phản hồi từ API");
     }
-
-    const fullMessage = `${senderName}\n\n${replyText.replace(`${senderName}\n`, "")}`;
-    const style = MultiMsgStyle([
-      MessageStyle(senderName.length + 1, fullMessage.length, COLOR_GREEN, SIZE_16, IS_BOLD)
-    ]);
-    
-    await api.sendMessage(
-      {
-        msg: fullMessage,
-        quote: message,
-        mentions: [MessageMention(senderId, senderName.length, 0)],
-        style: style,
-        ttl: 300000,
-      },
-      message.threadId,
-      message.type
-    );
-
+    await sendMessageStateQuote(api, message, replyText, true, 1800000, false);
   } catch (error) {
     console.error("Lỗi khi xử lý yêu cầu GPT:", error);
-    await sendMessageFailed(api, message, "Xin lỗi, có lỗi xảy ra khi xử lý yêu cầu của bạn.");
+    await sendMessageFailed(api, message, "Xin lỗi, có lỗi xảy ra khi xử lý yêu cầu của bạn. 😢", true);
   }
 }
