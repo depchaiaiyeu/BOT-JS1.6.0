@@ -143,7 +143,7 @@ export async function sendTikTokVideo(api, message, videoData, isRandom = false,
       };
       await sendVoiceMusic(api, message, object, 1800000);
     } else {
-      const sentMessage = await api.sendVideo({
+      const sentMessage = await api.sendVideov2({
         videoUrl,
         threadId: message.threadId,
         threadType: message.type,
