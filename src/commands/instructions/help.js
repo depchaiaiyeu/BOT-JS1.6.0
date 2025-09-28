@@ -295,11 +295,6 @@ export async function adminCommand(api, message) {
         description: "Gỡ quyền phó cộng đồng",
         icon: "🔖",
       },
-      unkey: {
-        command: `ADMIN`,
-        description: "HÀ HUY HOÀNG <-",
-        icon: "👮",
-      },
     },
   };
 
