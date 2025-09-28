@@ -428,11 +428,6 @@ export async function gameInfoCommand(api, message, groupSettings) {
         description: "Mở khóa tài khoản người chơi",
         icon: "🔓",
       },
-      unban: {
-        command: `ADMIN`,
-        description: "HÀ HUY HOÀNG <-",
-        icon: "👮",
-      },
     },
   };
   try {
