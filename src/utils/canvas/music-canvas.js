@@ -325,23 +325,6 @@ export async function createMusicCard(musicInfo) {
             }
         }
 
-        const creditText = "Description: Hà Huy Hoàng❤️";
-        const creditFont = `${CREDIT_FONT_SIZE}px ${FONT_FAMILY}`;
-        const creditX = CARD_WIDTH / 2;
-        const creditY = finalHeight - PADDING / 1.5;
-
-        ctx.textAlign = 'center';
-        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH); // Credit màu loang
-        ctx.save();
-        ctx.font = creditFont;
-        ctx.shadowColor = 'rgba(0, 0, 0, 0.5)';
-        ctx.shadowBlur = 2;
-        ctx.shadowOffsetX = 1;
-        ctx.shadowOffsetY = 1;
-        ctx.fillText(creditText, creditX, creditY);
-        ctx.restore();
-        ctx.textAlign = 'left';
-
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
         ctx.lineWidth = 1;
         ctx.strokeRect(0.5, 0.5, CARD_WIDTH - 1, finalHeight - 1);
