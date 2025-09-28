@@ -351,7 +351,7 @@ export async function handleSendSubNhanhChillEpisode(api, message, media) {
           await setCacheData(PLATFORM, key, { fileUrl: uploadedUrl });
         }
 
-        await api.sendVideo({
+        await api.sendVideov2({
           videoUrl: fileUrl,
           threadId: message.threadId,
           threadType: message.type,
