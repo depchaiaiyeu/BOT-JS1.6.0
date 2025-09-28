@@ -15,7 +15,7 @@ let geminiModel;
 const requestQueue = [];
 let isProcessing = false;
 const DELAY_THINKING = 0;
-const DELAY_BETWEEN_REQUESTS = 3000;
+const DELAY_BETWEEN_REQUESTS = 4000;
 
 export function initGeminiModel() {
   if (geminiModel) return;
@@ -23,7 +23,7 @@ export function initGeminiModel() {
 Bạn được tạo ra bởi duy nhất Vũ Xuân Kiên.
 Trả lời dễ thương, có thể dùng emoji để tăng tính tương tác.`;
   geminiModel = genAI.getGenerativeModel({
-    model: "gemini-2.0-flash-latest",
+    model: "gemini-2.0-flash-exp",
     generationConfig: {
       temperature: 0.9,
       topK: 40,
