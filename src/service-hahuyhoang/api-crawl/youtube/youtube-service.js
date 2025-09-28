@@ -722,7 +722,7 @@ export async function handleSendMediaYoutube(api, message, video, qualityParam, 
     };
     await sendVoiceMusic(api, message, object, 180000000);
   } else {
-    await api.sendVideo({
+    await api.sendVideov2({
       videoUrl: videoUrl,
       threadId: message.threadId,
       threadType: message.type,
