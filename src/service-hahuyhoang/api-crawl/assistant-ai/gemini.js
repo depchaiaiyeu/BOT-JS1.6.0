@@ -9,7 +9,7 @@ import {
   sendMessageStateQuote 
 } from "../../chat-zalo/chat-style/chat-style.js";
 
-const geminiApiKey = "AIzaSyCG4xn5IZSjfdBhwZ2DMC5GfMIwi_ZseQA";
+const geminiApiKey = "AIzaSyBaluNjfNY9HEykFgoFCSNapC_Q_jkRRTA";
 const genAI = new GoogleGenerativeAI(geminiApiKey);
 let geminiModel;
 const requestQueue = [];
