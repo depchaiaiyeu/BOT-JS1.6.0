@@ -10,13 +10,44 @@ import ffmpeg from "fluent-ffmpeg";
 import ffprobeInstaller from "@ffprobe-installer/ffprobe";
 import fs from "fs";
 import { promisify } from "util";
+import { spawn } from "child_process";
 
-ffmpeg.setFfprobePath(ffprobeInstaller.path);
+let systemFFprobePath = null;
+let useSystemFFprobe = false;
 
-const getVideoInfo = (url, timeout = 30000) => {
+const findSystemFFprobe = async () => {
+  if (systemFFprobePath) return systemFFprobePath;
+  
+  try {
+    const { stdout } = await execAsync('which ffprobe', { timeout: 5000 });
+    systemFFprobePath = stdout.trim();
+    if (systemFFprobePath && fs.existsSync(systemFFprobePath)) {
+      useSystemFFprobe = true;
+      return systemFFprobePath;
+    }
+  } catch (error) {
+    try {
+      const { stdout } = await execAsync('whereis ffprobe', { timeout: 5000 });
+      const paths = stdout.split(' ').slice(1).filter(p => p.endsWith('ffprobe'));
+      for (const p of paths) {
+        if (fs.existsSync(p)) {
+          systemFFprobePath = p;
+          useSystemFFprobe = true;
+          return systemFFprobePath;
+        }
+      }
+    } catch (e) {}
+  }
+  
+  return ffprobeInstaller.path;
+};
+
+const getVideoInfoSafe = async (url, timeout = 25000) => {
+  const ffprobePath = await findSystemFFprobe();
+  
   return new Promise((resolve, reject) => {
     const timeoutId = setTimeout(() => {
-      reject(new Error(`Video analysis timeout after ${timeout}ms`));
+      reject(new Error('Video analysis timeout'));
     }, timeout);
 
     if (!url || typeof url !== 'string') {
@@ -25,84 +56,96 @@ const getVideoInfo = (url, timeout = 30000) => {
       return;
     }
 
-    ffmpeg.ffprobe(url, [
-      '-v', 'error',
+    const args = [
+      '-v', 'quiet',
+      '-print_format', 'json',
+      '-show_format',
+      '-show_streams',
       '-select_streams', 'v:0',
-      '-show_entries', 'stream=width,height,duration:format=size,duration',
-      '-of', 'json'
-    ], (err, metadata) => {
+      url
+    ];
+
+    const child = spawn(ffprobePath, args, {
+      stdio: ['ignore', 'pipe', 'pipe'],
+      timeout: timeout - 1000,
+      killSignal: 'SIGKILL'
+    });
+
+    let stdout = '';
+    let stderr = '';
+
+    child.stdout?.on('data', (data) => {
+      stdout += data.toString();
+    });
+
+    child.stderr?.on('data', (data) => {
+      stderr += data.toString();
+    });
+
+    child.on('close', (code, signal) => {
       clearTimeout(timeoutId);
       
-      if (err) {
-        if (err.message.includes('SIGSEGV')) {
-          reject(new Error('Video file is corrupted or in unsupported format'));
-        } else if (err.message.includes('timeout')) {
-          reject(new Error('Video analysis timeout - file may be too large or corrupted'));
-        } else if (err.message.includes('Permission denied')) {
-          reject(new Error('Permission denied accessing video file'));
-        } else if (err.message.includes('No such file')) {
-          reject(new Error('Video file not found or URL is invalid'));
-        } else {
-          reject(new Error(`Unable to analyze video: ${err.message}`));
-        }
+      if (signal === 'SIGKILL' || signal === 'SIGSEGV') {
+        reject(new Error('FFprobe process killed or crashed'));
+        return;
+      }
+
+      if (code !== 0) {
+        reject(new Error(`FFprobe exited with code ${code}: ${stderr}`));
         return;
       }
 
       try {
+        const metadata = JSON.parse(stdout);
+        
         let duration = 0;
         let width = 1280;
         let height = 720;
         let fileSize = 0;
 
         if (metadata.streams && metadata.streams.length > 0) {
-          const videoStream = metadata.streams.find(stream => stream.codec_type === 'video') || metadata.streams[0];
-          
-          duration = parseFloat(videoStream.duration) || parseFloat(metadata.format?.duration) || 0;
+          const videoStream = metadata.streams.find(s => s.codec_type === 'video') || metadata.streams[0];
+          duration = parseFloat(videoStream.duration) || 0;
           width = parseInt(videoStream.width) || 1280;
           height = parseInt(videoStream.height) || 720;
         }
 
-        if (metadata.format && metadata.format.size) {
+        if (metadata.format) {
+          if (!duration && metadata.format.duration) {
+            duration = parseFloat(metadata.format.duration) || 0;
+          }
           fileSize = parseInt(metadata.format.size) || 0;
         }
 
-        duration = duration * 1000;
-
-        if (width <= 0 || height <= 0) {
-          width = 1280;
-          height = 720;
-        }
-
-        if (duration < 0) {
-          duration = 0;
-        }
-
         resolve({
-          duration,
-          width,
-          height,
-          fileSize
+          duration: Math.max(0, duration * 1000),
+          width: Math.max(1, width),
+          height: Math.max(1, height),
+          fileSize: Math.max(0, fileSize)
         });
 
       } catch (parseError) {
-        reject(new Error(`Failed to parse video metadata: ${parseError.message}`));
+        reject(new Error('Failed to parse video metadata'));
       }
+    });
+
+    child.on('error', (error) => {
+      clearTimeout(timeoutId);
+      reject(new Error(`FFprobe spawn error: ${error.message}`));
     });
   });
 };
 
-const getVideoInfoAlternative = async (url) => {
+const getVideoInfoFallback = async (url) => {
   try {
-    const command = `"${ffprobeInstaller.path}" -v error -select_streams v:0 -show_entries stream=width,height,duration:format=size,duration -of json "${url}"`;
+    const ffprobePath = await findSystemFFprobe();
+    const command = `"${ffprobePath}" -v quiet -print_format json -show_format -show_streams -select_streams v:0 "${url}"`;
     
-    const { stdout, stderr } = await execAsync(command, { 
-      timeout: 30000,
-      maxBuffer: 1024 * 1024
+    const { stdout } = await execAsync(command, { 
+      timeout: 20000,
+      maxBuffer: 2 * 1024 * 1024,
+      killSignal: 'SIGKILL'
     });
-
-    if (stderr && stderr.includes('error')) {
-      throw new Error(`FFprobe stderr: ${stderr}`);
-    }
 
     const metadata = JSON.parse(stdout);
     
@@ -112,27 +155,37 @@ const getVideoInfoAlternative = async (url) => {
     let fileSize = 0;
 
     if (metadata.streams && metadata.streams.length > 0) {
-      const videoStream = metadata.streams[0];
-      duration = parseFloat(videoStream.duration) || parseFloat(metadata.format?.duration) || 0;
+      const videoStream = metadata.streams.find(s => s.codec_type === 'video') || metadata.streams[0];
+      duration = parseFloat(videoStream.duration) || 0;
       width = parseInt(videoStream.width) || 1280;
       height = parseInt(videoStream.height) || 720;
     }
 
-    if (metadata.format && metadata.format.size) {
+    if (metadata.format) {
+      if (!duration && metadata.format.duration) {
+        duration = parseFloat(metadata.format.duration) || 0;
+      }
       fileSize = parseInt(metadata.format.size) || 0;
     }
 
     return {
-      duration: duration * 1000,
-      width: width > 0 ? width : 1280,
-      height: height > 0 ? height : 720,
-      fileSize
+      duration: Math.max(0, duration * 1000),
+      width: Math.max(1, width),
+      height: Math.max(1, height),
+      fileSize: Math.max(0, fileSize)
     };
 
   } catch (error) {
-    throw new Error(`Alternative video analysis failed: ${error.message}`);
+    throw new Error(`Fallback analysis failed: ${error.message}`);
   }
 };
+
+const getDefaultVideoInfo = () => ({
+  duration: 10000,
+  width: 1280,
+  height: 720,
+  fileSize: 1024 * 1024
+});
 
 export function sendVideov2Factory(api) {
   const directMessageServiceURL = makeURL(`${api.zpwServiceMap.file[0]}/api/message/forward`, {
@@ -158,46 +211,27 @@ export function sendVideov2Factory(api) {
     if (!appContext.cookie) throw new ZaloApiError("Cookie is not available");
     if (!appContext.userAgent) throw new ZaloApiError("User agent is not available");
     
-    let fileSize = 0;
-    let duration = 0;
-    let width = 1280;
-    let height = 720;
-    let thumbnailUrl = null;
+    let videoInfo = getDefaultVideoInfo();
 
     try {
-      let videoInfo;
       try {
-        videoInfo = await getVideoInfo(videoUrl, 30000);
+        videoInfo = await getVideoInfoSafe(videoUrl);
       } catch (primaryError) {
         try {
-          videoInfo = await getVideoInfoAlternative(videoUrl);
-        } catch (alternativeError) {
-          videoInfo = {
-            duration: 10000,
-            width: 1280,
-            height: 720,
-            fileSize: 1024 * 1024
-          };
+          videoInfo = await getVideoInfoFallback(videoUrl);
+        } catch (fallbackError) {
+          videoInfo = getDefaultVideoInfo();
         }
       }
-
-      duration = videoInfo.duration || 0;
-      width = videoInfo.width || 1280;
-      height = videoInfo.height || 720;
-      fileSize = videoInfo.fileSize || 0;
-      
-      try {
-        thumbnailUrl = videoUrl.replace(/\.[^/.]+$/, ".jpg");
-      } catch (urlError) {
-        thumbnailUrl = null;
-      }
-
     } catch (error) {
-      duration = 10000;
-      width = 1280;
-      height = 720;
-      fileSize = 1024 * 1024;
-      thumbnailUrl = null;
+      videoInfo = getDefaultVideoInfo();
+    }
+
+    let thumbnailUrl = null;
+    try {
+      thumbnailUrl = videoUrl.replace(/\.[^/.]+$/, ".jpg");
+    } catch (e) {
+      thumbnailUrl = "";
     }
 
     const payload = {
@@ -209,10 +243,10 @@ export function sendVideov2Factory(api) {
         msgInfo: JSON.stringify({
           videoUrl: String(videoUrl),
           thumbUrl: String(thumbnailUrl || ""),
-          duration: Number(duration),
-          width: Number(width),
-          height: Number(height),
-          fileSize: Number(fileSize),
+          duration: Number(videoInfo.duration),
+          width: Number(videoInfo.width),
+          height: Number(videoInfo.height),
+          fileSize: Number(videoInfo.fileSize),
           properties: {
             color: -1,
             size: -1,
@@ -262,4 +296,4 @@ export function sendVideov2Factory(api) {
     
     return result.data;
   };
-    }
+          }
