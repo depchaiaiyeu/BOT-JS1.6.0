@@ -131,7 +131,7 @@ export async function helpCommand(api, message, groupAdmins) {
       },
       commandAdmin: {
         command: `${prefix}command admin`,
-        description: "ADMIN HÀ HUY HOÀNG <-",
+        description: "Xem danh sách lệnh Admin",
         icon: "👮",
       },
     },
