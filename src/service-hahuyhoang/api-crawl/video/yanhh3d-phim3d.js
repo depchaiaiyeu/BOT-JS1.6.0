@@ -415,7 +415,7 @@ export async function handleSendHH3DEpisode(api, message, media) {
     }
 
     if (videoUrl) {
-      await api.sendVideo({
+      await api.sendVideov2({
         videoUrl,
         threadId: message.threadId,
         threadType: message.type,
