@@ -25,8 +25,8 @@ export const COLOR_GREEN = "15a85f";
 export const SIZE_16 = "14";
 export const IS_BOLD = true;
 
-export const API_KEY_HUNGDEV = "0c590fbeeb556d3cd29f419181c4a2"; // tự thay
-export const API_URL_DOWNAIO_HUNGDEV = "https://hungdev.id.vn/medias/down-aio"; // tự thay
+export const API_KEY_HUNGDEV = "Kien@123itvn"; // tự thay
+export const API_URL_DOWNAIO_HUNGDEV = "https://hoangdev.io.vn/aio/aio-download"; // tự thay
 
 const MEDIA_TYPES = {
   "tiktok.com": "tiktok",
@@ -104,7 +104,7 @@ export const getDurationVideo = async (path) => {
 
 export const getDataDownloadVideo = async (url) => {
   try {
-    const response = await axios.get(`${API_URL_DOWNAIO_HUNGDEV}?url=${encodeURIComponent(url)}&version=v2&apikey=${API_KEY_HUNGDEV}`, {
+    const response = await axios.get(`${API_URL_DOWNAIO_HUNGDEV}?url=${encodeURIComponent(url)}&apikey=${API_KEY_HUNGDEV}`, {
       headers: {
         "Content-Type": "application/json",
       },
