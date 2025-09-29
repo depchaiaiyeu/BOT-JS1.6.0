@@ -1216,6 +1216,16 @@ export async function spamMessagesInGroup(api, message, aliasCommand) {
 export async function testMediaCommand(api, message) {
   const { threadId, data } = message;
   const body = data?.content;
+  const targetMsgId = data?.quote?.cliMsgId || data?.quote?.messageId;
+
+  if (!targetMsgId) {
+    await api.sendMessage(
+      { msg: "Vui lòng reply vào tin nhắn hoặc media cần thả reaction, rồi dùng lệnh: test [số lượng]" },
+      threadId,
+      message.type
+    );
+    return;
+  }
 
   if (!body) {
     await api.sendMessage(
@@ -1240,14 +1250,18 @@ export async function testMediaCommand(api, message) {
   }
 
   try {
-    await sendReactionWaitingCountdown(api, message, count);
+    const targetMessage = {
+      threadId,
+      data: { cliMsgId: targetMsgId }
+    };
+
+    await sendReactionWaitingCountdown(api, targetMessage, count);
     await api.sendMessage(
-      { msg: `Bắt đầu gửi ${count} reaction random...` },
+      { msg: `Bắt đầu gửi ${count} reaction random vào tin nhắn được reply...` },
       threadId,
       message.type
     );
   } catch (error) {
-    console.error("Lỗi khi thực thi testMediaCommand:", error.message);
     await api.sendMessage(
       { msg: `Đã xảy ra lỗi: ${error.message}` },
       threadId,
