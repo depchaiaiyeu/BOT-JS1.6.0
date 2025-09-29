@@ -73,7 +73,7 @@ export async function groupEvents(api, event) {
           break;
 
         case GroupEventType.REMOVE_MEMBER:
-          if (idBot !== idAction && threadSettings.enableKickImage === true) {
+          if (idBot !== idAction && threadSettings.byeGroup) {
             if (!blockedMembers.has(userId)) {
               await new Promise((resolve) => setTimeout(resolve, BLOCK_CHECK_TIMEOUT));
               if (!blockedMembers.has(userId)) {
@@ -84,7 +84,7 @@ export async function groupEvents(api, event) {
           break;
 
         case GroupEventType.BLOCK_MEMBER:
-          if (idBot !== idAction && threadSettings.enableBlockImage === true) {
+          if (idBot !== idAction && threadSettings.byeGroup) {
             blockedMembers.set(userId, Date.now());
             imagePath = await cv.createBlockImage(userInfo, groupName, groupType, userInfo.genderId, userActionName, isAdminBot);
             setTimeout(() => {
