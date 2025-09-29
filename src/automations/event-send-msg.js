@@ -39,7 +39,7 @@ const userLastMessageTime = new Map();
 const COOLDOWN_TIME = 1000;
 
 const lastBusinessCardTime = new Map();
-const BUSINESS_CARD_COOLDOWN = 60 * 60 * 1000;
+const BUSINESS_CARD_COOLDOWN = 5 * 60 * 1000;
 
 async function canReplyToUser(senderId) {
   const currentTime = Date.now();
@@ -118,7 +118,7 @@ export async function messagesUser(api, message) {
         content = content.trim();
         const logMessage = `Có Mesage Riêng tư mới:
       - Sender Name: [ ${senderName} ] | ID: ${threadId}
-      - Content: ${content}\n${message.data}\n\n`;
+      - Content: ${content}\n${message.data.ttl}\n\n`;
         logMessageToFile(logMessage);
         let continueProcessingChat = true;
         continueProcessingChat = !isUserBlocked(senderId);
@@ -154,7 +154,7 @@ export async function messagesUser(api, message) {
         const logMessage = `Có Mesage nhóm mới:
               - Tên Nhóm: ${nameGroup} | Group ID: ${threadId}
               - Người Gửi: ${senderName} | Sender ID: ${senderId}
-              - Nội Dung: ${content}\n${message.data}\n\n`;
+              - Nội Dung: ${content}\n${message.data.ttl}\n\n`;
         logMessageToFile(logMessage);
       }
 
