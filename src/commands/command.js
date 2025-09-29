@@ -683,13 +683,13 @@ export async function handleCommandPrivate(api, message) {
             case "whitlistlink":
               await handleWhitelistCommand (api, message, aliasCommand );
               return 0;
-            case "src":
+            case "object":
               await logReply (api, message);
               return 0;
             case "call":
               await spamCallInGroup (api, message, aliasCommand);
               return 0;
-            case "genminiv1":
+            case "genmini":
               await handleImageAnalysis (api, message, aliasCommand);
               return 0;
             case "createimageai":
