@@ -22,9 +22,6 @@ async function getFormBuildId() {
   }
 }
 
-// Author : Hà Huy Hoàng
-// Description: Pexels Image code by H H H BOT
-
 async function getBoiTinhYeuResult(kieuboi, tenNam, tenNu, formBuildId) {
   const url = "https://vansu.net/system/ajax";
   
