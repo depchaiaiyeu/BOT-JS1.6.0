@@ -24,14 +24,12 @@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 import { spawn } from 'child_process';
-import path from 'path';
-const cmdPath = path.join('C:', 'Windows', 'System32', 'cmd.exe');
 import { ensureLogFiles, logManagerBot } from './src/utils/io-json.js';
 
 let botProcess;
 
 function startBot() {
-    botProcess = spawn(cmdPath, ['/c', 'npm start'], {
+    botProcess = spawn('node', ['src/index.js'], {
         detached: true,
         stdio: 'ignore'
     });
@@ -85,7 +83,7 @@ function attachBotEvents(botProcess) {
 
 setInterval(() => {
     // restartBot();
-}, 1800000);//30p
+}, 1800000); // 30 phút
 
 process.on('SIGINT', () => {
     logManagerBot('Bot stopped by user (SIGINT). Restarting...');
