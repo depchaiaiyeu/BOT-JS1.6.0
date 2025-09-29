@@ -149,7 +149,7 @@ export async function handleAntiBotCommand(api, message, groupSettings) {
   }
 
   const newStatus = groupSettings[threadId].filterBot ? "bật" : "tắt";
-  const caption = `Chức năng chống bot đã được ${newStatus}!`;
+  const caption = `Chức năng chặn bot đã được ${newStatus}!`;
   await sendMessageStateQuote(
     api,
     message,
@@ -228,9 +228,9 @@ export async function antiBot(
         botCheck.reason
       );
 
-      let warningMsg = `${senderName} > Tin nhắn bị xóa vì bị phát hiện là Bot\n`;
+      let warningMsg = `${senderName} > Tin nhắn bị xóa vì nghi ngờ là BOT\n`;
       warningMsg += `Lý do: ${botCheck.reason}\n`;
-      warningMsg += `Cảnh báo lần ${violation.count}/3`;
+      warningMsg += `Cảnh cáo lần: ${violation.count}/3`;
 
       if (violation.count >= 3) {
         if (!groupSettings[threadId]) {
@@ -257,7 +257,7 @@ export async function antiBot(
           });
         }
 
-        warningMsg += "\n⚠️ Phát hiện bot lần 3, cấm chat trong 15 phút!";
+        warningMsg += "\n⚠️ Phát hiện bot lần 3, bị cấm chat trong 15 phút!";
       }
 
       await api.sendMessage(
@@ -272,7 +272,7 @@ export async function antiBot(
       );
       return true;
     } catch (error) {
-      console.error("Có lỗi xảy ra khi xử lí anti bot:", error.message);
+      console.error("Có lỗi xảy ra khi anti bot:", error.message);
     }
   }
   return false;
