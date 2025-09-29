@@ -1,5 +1,5 @@
 import { GroupMessage, Message, MessageMention } from "../../api-zalo/index.js";
-import { sendReactionWaitingCountdown } from "../set-countdown.js";
+import { sendReactionWaitingCountdown } from "../manager-command/set-countdown.js";
 
 import { getCommandConfig, isAdmin } from "../../index.js";
 import { sendMessageFailed, sendMessageFromSQL, sendMessageStateQuote } from "../../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
