@@ -16,7 +16,7 @@ import { getCommandConfig, isAdmin } from "../../index.js";
 import { removeMention } from "../../utils/format-util.js";
 import { managerData } from "./active-bot.js";
 
-export async function handleKick(api, message, groupInfo, groupSettings) {
+export async function handleKick(api, message, groupInfo) {
   const threadId = message.threadId;
   const groupName = groupInfo.name;
   const senderName = message.data.dName;
@@ -25,7 +25,7 @@ export async function handleKick(api, message, groupInfo, groupSettings) {
     await sendMessageWarning(
       api,
       message,
-      ":D Sếp muốn kick ai? 🚀",
+      ":D Đại Ca muốn kick ai? 🚀",
       false
     );
     return;
@@ -38,7 +38,7 @@ export async function handleKick(api, message, groupInfo, groupSettings) {
       await sendMessageWarning(
         api,
         message,
-        "Sếp không thể bảo em kick quản trị bot được 🚀",
+        "Đại Ca Không thể bảo em kick quản trị bot được 🚀",
         false
       );
       continue;
@@ -51,7 +51,7 @@ export async function handleKick(api, message, groupInfo, groupSettings) {
       }
     } catch (error) {
       console.error(
-        `Không thể lấy thông tin cho người dùng ${mention.uid}:`,
+        ` Không lấy được thông tin cho người dùng ${mention.uid}:`,
         error
       );
     }
@@ -67,7 +67,7 @@ export async function handleKick(api, message, groupInfo, groupSettings) {
       await sendMessageWarning(
         api,
         message,
-        "Đưa Em Key Vàng 🔑, Em Kick Cho Sếp Xem :D 🚀",
+        "Đưa Em Key Vàng 🔑, Em Kick Cho Đại Ca Xem :D 🚀",
         false
       );
       return;
@@ -76,22 +76,20 @@ export async function handleKick(api, message, groupInfo, groupSettings) {
     for (const userInfo of UserDataMentions) {
       let imagePath = null;
       try {
-        if (groupSettings?.[threadId]?.enableKickImage === true) {
-          imagePath = await cv.createKickImage(
-            userInfo,
-            groupInfo.name,
-            groupInfo.type,
-            userInfo.genderId,
-            senderName
-          );
-    
-          const kickMessage = {
-            msg: "",
-            attachments: [imagePath],
-          };
-    
-          await api.sendMessage(kickMessage, threadId, MessageType.GroupMessage);
-        }
+        imagePath = await cv.createKickImage(
+          userInfo,
+          groupName,
+          groupInfo.type,
+          userInfo.genderId,
+          senderName
+        );
+
+        const kickMessage = {
+          msg: "",
+          attachments: imagePath ? [imagePath] : [],
+        };
+
+        await api.sendMessage(kickMessage, threadId, MessageType.GroupMessage);
       } catch (error) {
         console.error("Lỗi khi tạo và gửi ảnh kết quả:", error);
       } finally {
@@ -103,18 +101,24 @@ export async function handleKick(api, message, groupInfo, groupSettings) {
     await sendMessageWarning(
       api,
       message,
-      "Đưa Em Key Vàng 🔑, Em Kick Cho Sếp Xem :D 🚀",
+      "Đưa Em Key Vàng 🔑, Em Kick Cho Đại Ca Xem :D 🚀",
       false
     );
   }
 }
 
-export async function handleBlock(api, message, groupInfo, groupSettings) {
+export async function handleBlock(api, message, groupInfo) {
   const threadId = message.threadId;
+  const groupName = groupInfo.name;
   const senderName = message.data.dName;
 
   if (!message.data.mentions || message.data.mentions.length === 0) {
-    await sendMessageWarning(api, message, ":D Sếp muốn chặn ai? 🚀", false);
+    await sendMessageWarning(
+      api,
+      message,
+      ":D Đại Ca muốn chặn ai? 🚀",
+      false
+    );
     return;
   }
 
@@ -122,7 +126,12 @@ export async function handleBlock(api, message, groupInfo, groupSettings) {
   const UserDataMentions = [];
   for (const mention of message.data.mentions) {
     if (isAdmin(mention.uid, threadId)) {
-      await sendMessageWarning(api, message, "Sếp không thể bảo em block quản trị bot được 🚀", false);
+      await sendMessageWarning(
+        api,
+        message,
+        "Đại Ca Không thể bảo em block quản trị bot được 🚀",
+        false
+      );
       continue;
     }
     uids.push(mention.uid);
@@ -132,7 +141,10 @@ export async function handleBlock(api, message, groupInfo, groupSettings) {
         UserDataMentions.push(userInfo);
       }
     } catch (error) {
-      console.error(`Không thể lấy thông tin cho người dùng ${mention.uid}:`, error);
+      console.error(
+        `Không lấy thông tin cho người dùng ${mention.uid}:`,
+        error
+      );
     }
   }
 
@@ -143,40 +155,49 @@ export async function handleBlock(api, message, groupInfo, groupSettings) {
   try {
     const result = await api.blockUsers(threadId, uids);
     if (result.errorMembers && result.errorMembers.length > 0) {
-      await sendMessageWarning(api, message, "Đưa Em Key Vàng 🔑, Em Block Cho Sếp Xem :D 🚀", false);
+      await sendMessageWarning(
+        api,
+        message,
+        "Đưa Em Key Vàng 🔑, Em Block Cho Đại Ca Xem :D 🚀",
+        false
+      );
       return;
     }
 
-    if (groupSettings?.[threadId]?.enableBlockImage === true) {
-      for (const userInfo of UserDataMentions) {
-        let imagePath = null;
-        try {
-          imagePath = await cv.createBlockImage(
-            userInfo,
-            groupInfo.name,
-            groupInfo.type,
-            userInfo.genderId,
-            senderName
-          );
+    for (const userInfo of UserDataMentions) {
+      let imagePath = null;
+      try {
+        imagePath = await cv.createBlockImage(
+          userInfo,
+          groupName,
+          groupInfo.type,
+          userInfo.genderId,
+          senderName
+        );
 
-          const blockMessage = {
-            msg: "",
-            attachments: [imagePath],
-          };
+        const blockMessage = {
+          msg: "",
+          attachments: imagePath ? [imagePath] : [],
+        };
 
-          await api.sendMessage(blockMessage, threadId, message.type);
-        } catch (error) {
-          console.error("Lỗi khi tạo và gửi ảnh block:", error);
-        } finally {
-          await cv.clearImagePath(imagePath);
-        }
+        await api.sendMessage(blockMessage, threadId, message.type);
+      } catch (error) {
+        console.error("Lỗi khi tạo và gửi ảnh kết quả:", error);
+      } finally {
+        await cv.clearImagePath(imagePath);
       }
     }
   } catch (error) {
     console.error("Chắc Chắn Là Đã Có Lỗi Gì Đó :D", error);
-    await sendMessageWarning(api, message, "Đưa Em Key Vàng 🔑, Em Block Cho Sếp Xem :D 🚀", false);
+    await sendMessageWarning(
+      api,
+      message,
+      "Đưa Em Key Vàng 🔑, Em Block Cho Đại Ca Xem :D 🚀",
+      false
+    );
   }
 }
+
 export async function handleKeyCommands(api, message, groupSettings, isAdminLevelHighest) {
   const content = removeMention(message);
   const senderId = message.data.uidFrom;
