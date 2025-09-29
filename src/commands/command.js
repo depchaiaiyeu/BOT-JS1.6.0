@@ -249,8 +249,6 @@ export function initGroupSettings(groupSettings, threadId, nameGroup) {
     onlyText: false,
     memberApprove: false,
     antiNude: false,
-    enableKickImage: false,
-    enableBlockImage: false,
     whiteList: {},
     autoLockChat: {},
     antiMedia: false,
@@ -442,7 +440,7 @@ export async function handleCommandPrivate(api, message) {
         case "alias":
           await handleAliasCommand(api, message, commandParts);
           return 0;
-        case "setcmd":
+        case "setcommand":
           await handleSetCommandActive(api, message, commandParts);
           return 0;
          case "downloadresource":
@@ -610,8 +608,8 @@ export async function handleCommandPrivate(api, message) {
             await handleCheckSimPhongThuyCommand(api, message);
             return 0;
           case "duyenphan":
-              await duyenphan(api, message);
-              return 0;
+            await duyenphan(api, message);
+            return 0;
           case "tuonglai":
               await tuonglai(api, message);
               return 0;
@@ -701,7 +699,7 @@ export async function handleCommandPrivate(api, message) {
             case "lienminhhuyenthoai":
               await handleLOLCommand (api, message, aliasCommand);
               return 0;
-            case "settinggr":
+            case "settingsgroup":
               await handleToggleGroupEventNotify (api, message, aliasCommand);
               return 0;
               case "checkhost":
@@ -818,7 +816,7 @@ export async function handleCommand(
       case "ddos":
         await handleRunDDoSCommand(api, message, commandParts);
         break;
-      case "setavt":
+      case "setavatar":
         await handleSetAvatarFromReply(api, message, groupInfo);
         break;
       case "test":
@@ -943,7 +941,7 @@ export async function handleCommand(
         await handleSendToDo(api, message);
         break;
 
-      case "sendp":
+      case "sendprivate":
         await handleSendMessagePrivate(api, message);
         break;
 
