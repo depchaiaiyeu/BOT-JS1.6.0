@@ -1219,7 +1219,7 @@ export async function testMediaCommand(api, message) {
 
   if (!body) {
     await api.sendMessage(
-      { msg: "Không tìm thấy nội dung lệnh! Vui lòng sử dụng: test [số lượng reaction]." },
+      { msg: "Không tìm thấy nội dung lệnh! Vui lòng sử dụng: test [số lượng reaction]" },
       threadId,
       message.type
     );
@@ -1228,22 +1228,21 @@ export async function testMediaCommand(api, message) {
 
   const args = body.split(" ").slice(1);
   const countArg = args[0];
+  const count = parseInt(countArg, 10);
+
+  if (!Number.isInteger(count) || count <= 0) {
+    await api.sendMessage(
+      { msg: "Vui lòng nhập số reaction hợp lệ, ví dụ: test 100" },
+      threadId,
+      message.type
+    );
+    return;
+  }
 
   try {
-    if (!countArg || isNaN(countArg)) {
-      await api.sendMessage(
-        { msg: "Vui lòng nhập số reaction, ví dụ: test 1000" },
-        threadId,
-        message.type
-      );
-      return;
-    }
-
-    const count = parseInt(countArg, 100);
     await sendReactionWaitingCountdown(api, message, count);
-
     await api.sendMessage(
-      { msg: `Đang gửi ${count} reaction...` },
+      { msg: `Bắt đầu gửi ${count} reaction random...` },
       threadId,
       message.type
     );
