@@ -1993,7 +1993,7 @@
       "author": "Vũ Xuân Kiên",
       "active": true,
       "alias": [
-        "bithuat"
+        "goi"
       ]
     },
     {
@@ -2021,7 +2021,8 @@
       "author": "Vũ Xuân Kiên",
       "active": true,
       "alias": [
-        "lqm"
+        "lqm",
+        "lqmb"
       ]
     },
     {
@@ -2052,28 +2053,6 @@
       "alias": [
         "cimg"
       ]
-    },
-    {
-      "name": "kickimage",
-      "description": "Bật tắt thông báo khi thành viên bị kick khỏi nhóm",
-      "syntax": "{p}kickimg",
-      "permission": "adminLevelHigh",
-      "countdown": 60,
-      "icon": "✅",
-      "type": 1,
-      "author": "Vũ Xuân Kiên",
-      "active": true
-    },
-    {
-      "name": "blockimage",
-      "description": "Bật tắt thông báo khi thành viên bị chặn khỏi nhóm",
-      "syntax": "{p}blockimg",
-      "permission": "adminLevelHigh",
-      "countdown": 60,
-      "icon": "✅",
-      "type": 1,
-      "author": "Vũ Xuân Kiên",
-      "active": true
     },
     {
       "name": "sendvideodownload",
@@ -2120,7 +2099,7 @@
     {
       "name": "settingsgroup",
       "description": "Bật / Tắt Thông Báo Sự Kiện Nhóm",
-      "syntax": "{p}settinggr",
+      "syntax": "{p}settingsgroup",
       "permission": "adminLevelHigh",
       "countdown": 60,
       "icon": "✅",
