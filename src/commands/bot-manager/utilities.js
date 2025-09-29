@@ -1,5 +1,4 @@
 import { GroupMessage, Message, MessageMention } from "../../api-zalo/index.js";
-import { sendReactionWaitingCountdown } from "../manager-command/check-countdown.js";
 
 import { getCommandConfig, isAdmin } from "../../index.js";
 import { sendMessageFailed, sendMessageFromSQL, sendMessageStateQuote } from "../../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
@@ -1216,16 +1215,6 @@ export async function spamMessagesInGroup(api, message, aliasCommand) {
 export async function testMediaCommand(api, message) {
   const { threadId, data } = message;
   const body = data?.content;
-  const targetMsgId = data?.quote?.cliMsgId || data?.quote?.messageId;
-
-  if (!targetMsgId) {
-    await api.sendMessage(
-      { msg: "Vui lòng reply vào tin nhắn hoặc media cần thả reaction, rồi dùng lệnh: test [số lượng]" },
-      threadId,
-      message.type
-    );
-    return;
-  }
 
   if (!body) {
     await api.sendMessage(
@@ -1250,14 +1239,10 @@ export async function testMediaCommand(api, message) {
   }
 
   try {
-    const targetMessage = {
-      threadId,
-      data: { cliMsgId: targetMsgId }
-    };
-
+    const targetMessage = { threadId };
     await sendReactionWaitingCountdown(api, targetMessage, count);
     await api.sendMessage(
-      { msg: `Bắt đầu gửi ${count} reaction random vào tin nhắn được reply...` },
+      { msg: `Bắt đầu gửi ${count} reaction random vào cuộc trò chuyện này...` },
       threadId,
       message.type
     );
