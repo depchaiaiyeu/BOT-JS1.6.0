@@ -107,6 +107,8 @@ import {
 import { handleBauCua } from "../service-hahuyhoang/game-service/bau-cua/bau-cua.js";
 import { handleKBBCommand } from "../service-hahuyhoang/game-service/keobuabao/keobuabao.js";
 import { handleAntiBadWordCommand } from "../service-hahuyhoang/anti-service/anti-badword.js";
+import { handleAntiBotCommand } from "../service-hahuyhoang/anti-service/anti-bot.js";
+
 import { handleChanLe } from "../service-hahuyhoang/game-service/chan-le/chan-le.js";
 import {
   handleGetVoiceCommand,
@@ -243,6 +245,7 @@ export function initGroupSettings(groupSettings, threadId, nameGroup) {
     byeGroup: false,
     antiSpam: false,
     filterBadWords: false,
+    filterBot: false,
     removeLinks: false,
     learnEnabled: false,
     replyEnabled: false,
@@ -905,6 +908,10 @@ export async function handleCommand(
 
       case "antibadword":
         isChangeSetting = await handleAntiBadWordCommand(api, message, groupSettings);
+        break;
+
+      case "antibot":
+        isChangeSetting = await handleAntiBotCommand(api, message, groupSettings);
         break;
 
       case "antimedia":
