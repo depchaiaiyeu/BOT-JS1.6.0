@@ -7,11 +7,18 @@ import { sendMessageStateQuote } from "../chat-zalo/chat-style/chat-style.js";
 import { removeMention } from "../../utils/format-util.js";
 import { getAntiState, updateAntiConfig } from "./index.js";
 
-async function detectBot(message) {
+async function detectBot(quote) {
   try {
-    const ownerId = message.data.uidFrom;
-    const ttl = message.data.ttl || 0;
-    const attach = message.data.attach;
+    const ownerId = quote.ownerId;
+    const ttl = quote.ttl || 0;
+    let attach = quote.attach;
+    
+    if (typeof attach === 'string') {
+      attach = JSON.parse(attach);
+      if (attach.params) {
+        attach.params = JSON.parse(attach.params.replace(/\\\\/g, '\\').replace(/\\\//g, '/'));
+      }
+    }
     
     if (ttl !== 0) {
       return {
@@ -217,7 +224,13 @@ export async function antiBot(
     )
       return false;
 
-    const detectionResult = await detectBot(message);
+    const quote = message.data?.quote || message.reply;
+    
+    if (!quote) {
+      return false;
+    }
+
+    const detectionResult = await detectBot(quote);
 
     if (detectionResult.isBot) {
       try {
@@ -324,4 +337,4 @@ export async function startBotViolationCheck() {
   });
 
   console.log(chalk.yellow("Đã khởi động schedule kiểm tra phát hiện bot"));
-}
+                }
