@@ -1301,13 +1301,13 @@ export async function handleCommand(
               case "whitlistlink":
                 await handleWhitelistCommand (api, message, aliasCommand );
                 break;
-              case "src":
+              case "object":
                 await logReply (api, message);
                 break;
               case "call":
                 await spamCallInGroup (api, message, aliasCommand);
                 break;
-              case "genminiv1":
+              case "genmini":
                 await handleImageAnalysis (api, message, aliasCommand);
                 break;
               case "createimageai":
@@ -1319,7 +1319,7 @@ export async function handleCommand(
               case "lienminhhuyenthoai":
                 await handleLOLCommand (api, message, aliasCommand);
                 break;
-              case "settinggr":
+              case "settingsgroup":
                 await handleToggleGroupEventNotify (api, message, aliasCommand);
                 break;
               case "checkhost":
