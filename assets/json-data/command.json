@@ -1928,7 +1928,7 @@
     },
     {
       "name": "phimvnsapchieu",
-      "description": "Gửi Phim VN sap chieu",
+      "description": "Gửi Phim VN sắp chiếu",
       "syntax": "{p}phimvnsapchieu",
       "permission": "all",
       "countdown": 500,
@@ -1969,11 +1969,11 @@
       ]
     },
     {
-      "name": "src",
-      "description": "Lấy SRC từ API",
-      "syntax": "{p}src",
+      "name": "object",
+      "description": "Lấy thông tin chi tiết về tin nhắn/media",
+      "syntax": "{p}object",
       "permission": "all",
-      "countdown": 60,
+      "countdown": 5,
       "icon": "✅",
       "type": 1,
       "author": "Vũ Xuân Kiên",
@@ -1984,7 +1984,7 @@
     },
     {
       "name": "call",
-      "description": "call spam",
+      "description": "Spam Call liên tục đến người dùng",
       "syntax": "{p}call",
       "permission": "adminLevelHigh",
       "countdown": 60,
@@ -1997,7 +1997,7 @@
       ]
     },
     {
-      "name": "genminiv1",
+      "name": "genmini",
       "description": "Phân tích Hình ảnh, hỏi đáp từ genmini",
       "syntax": "{p}genminiv1",
       "permission": "all",
@@ -2054,7 +2054,7 @@
       ]
     },
     {
-      "name": "kickimg",
+      "name": "kickimage",
       "description": "Bật tắt thông báo khi thành viên bị kick khỏi nhóm",
       "syntax": "{p}kickimg",
       "permission": "adminLevelHigh",
@@ -2065,7 +2065,7 @@
       "active": true
     },
     {
-      "name": "blockimg",
+      "name": "blockimage",
       "description": "Bật tắt thông báo khi thành viên bị chặn khỏi nhóm",
       "syntax": "{p}blockimg",
       "permission": "adminLevelHigh",
@@ -2118,7 +2118,7 @@
       ]
     },
     {
-      "name": "settinggr",
+      "name": "settingsgroup",
       "description": "Bật / Tắt Thông Báo Sự Kiện Nhóm",
       "syntax": "{p}settinggr",
       "permission": "adminLevelHigh",
@@ -2142,12 +2142,12 @@
       "author": "Vũ Xuân Kiên",
       "active": true,
       "alias": [
-        "ch"
+        "hosti4"
       ]
     },
     {
       "name": "antimedia",
-      "description": "Chặn media từ người dùng",
+      "description": "Chặn media gửi đi từ người dùng",
       "syntax": "{p}antimedia",
       "permission": "adminLevelHigh",
       "countdown": 60,
@@ -2204,7 +2204,7 @@
     },
     {
       "name": "sendauto",
-      "description": "test",
+      "description": "Tự động send tin nhắn/media, theo thời gian nhất định",
       "syntax": "{p}sendauto",
       "permission": "adminLevelHigh",
       "countdown": 60,
@@ -2218,7 +2218,7 @@
     },
     {
       "name": "danhsachden",
-      "description": "danhsachden",
+      "description": "Thêm/xóa/xem người dùng trong danh sách đen",
       "syntax": "{p}danhsachden",
       "permission": "adminLevelHigh",
       "countdown": 60,
@@ -2232,7 +2232,7 @@
     },
     {
       "name": "subnhanhchill",
-      "description": "Send Video by SUBNHANHCHILL",
+      "description": "Xem phim tại nền tảng https://subnhanhchill.net",
       "syntax": "{p}subnhanhchill",
       "permission": "adminLevelHigh",
       "countdown": 120,
@@ -2245,4 +2245,4 @@
       ]
     }
   ]
-        }
+}
