@@ -11,15 +11,38 @@ import { getGlobalPrefix } from "../../service-hahuyhoang/service.js";
 import { removeMention } from "../../utils/format-util.js";
 import { checkExstentionFileRemote } from "../../utils/util.js";
 
-const genAI = new GoogleGenerativeAI("AIzaSyD197uMmcZj-i1WX5dv6wK-JMBGaB0jIvo");
+const genAI = new GoogleGenerativeAI("AIzaSyBKNInWVa8kKm9G0e9Kz7_VxQkgpFY6gDs");
 
-const SUPPORTED_IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp"];
+const SUPPORTED_IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif"];
 const SUPPORTED_VIDEO_EXTENSIONS = [
-  "mp4", "mpeg", "mov", "avi", "x-flv", "mpg", "webm", "wmv", "3gpp"
+  "mp4", "mpeg", "mov", "avi", "flv", "mpg", "webm", "wmv", "3gpp"
 ];
 const SUPPORTED_AUDIO_EXTENSIONS = [
   "mp3", "wav", "aiff", "aac", "ogg", "flac"
 ];
+
+const MIME_MAP = {
+  jpg: "image/jpeg",
+  jpeg: "image/jpeg",
+  png: "image/png",
+  webp: "image/webp",
+  gif: "image/gif",
+  mp4: "video/mp4",
+  mpeg: "video/mpeg",
+  mov: "video/quicktime",
+  avi: "video/x-msvideo",
+  flv: "video/x-flv",
+  mpg: "video/mpeg",
+  webm: "video/webm",
+  wmv: "video/x-ms-wmv",
+  "3gpp": "video/3gpp",
+  mp3: "audio/mp3",
+  wav: "audio/wav",
+  aiff: "audio/aiff",
+  aac: "audio/aac",
+  ogg: "audio/ogg",
+  flac: "audio/flac"
+};
 
 export async function handleImageAnalysis(api, message, aliasCommand) {
   const prefix = getGlobalPrefix();
@@ -47,8 +70,7 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
       parts.push({ text: `${userInput}\n\n(Trả lời bằng tiếng Việt)` });
     }
 
-    let modelName = "gemini-2.0-flash";
-    let mimeType = "image/png";
+    let modelName = "gemini-2.0-flash-exp";
 
     if (quote?.attach) {
       const attachData = JSON.parse(quote.attach);
@@ -60,7 +82,7 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
         attachData.thumbUrl;
 
       if (fileUrl) {
-        const extension = await checkExstentionFileRemote(fileUrl);
+        const extension = (await checkExstentionFileRemote(fileUrl))?.toLowerCase();
         const isImage = SUPPORTED_IMAGE_EXTENSIONS.includes(extension);
         const isVideo = SUPPORTED_VIDEO_EXTENSIONS.includes(extension);
         const isAudio = SUPPORTED_AUDIO_EXTENSIONS.includes(extension);
@@ -71,14 +93,14 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
           }, 30000);
         }
 
-        if (isVideo || isAudio) modelName = "gemini-2.0-flash";
-        mimeType = isImage
-          ? "image/png"
-          : isVideo
-            ? "video/mp4"
-            : "audio/" + extension;
+        const mimeType = MIME_MAP[extension] || `image/${extension}`;
 
-        const response = await axios.get(fileUrl, { responseType: "arraybuffer" });
+        const response = await axios.get(fileUrl, { 
+          responseType: "arraybuffer",
+          maxRedirects: 5,
+          timeout: 30000
+        });
+        
         const fileSizeMB = response.data.byteLength / (1024 * 1024);
         if (fileSizeMB > 20) {
           return sendMessageWarningRequest(api, message, {
@@ -91,8 +113,8 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
           fs.mkdirSync(tempDir, { recursive: true });
         }
 
-        const tempPath = path.join(tempDir, `tempfile.${extension}`);
-        fs.writeFileSync(tempPath, response.data);
+        const tempPath = path.join(tempDir, `temp_${Date.now()}.${extension}`);
+        fs.writeFileSync(tempPath, Buffer.from(response.data));
 
         const base64 = fs.readFileSync(tempPath, { encoding: "base64" });
 
@@ -105,6 +127,12 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
 
         fs.unlinkSync(tempPath);
       }
+    }
+
+    if (parts.length === 0) {
+      return sendMessageWarningRequest(api, message, {
+        caption: "⚠️ Không tìm thấy nội dung hoặc file đính kèm.",
+      }, 30000);
     }
 
     const model = genAI.getGenerativeModel({ model: modelName });
@@ -124,9 +152,9 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
       } catch (err) {
         console.warn(`⚠️ Thử lần ${attempt} thất bại:`, err.message);
         if (attempt === maxRetries) {
-          throw err; 
+          throw err;
         }
-        await new Promise(res => setTimeout(res, 1000 * attempt));
+        await new Promise(res => setTimeout(res, 1500 * attempt));
       }
     }
 
@@ -135,4 +163,4 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
     console.error("❌ Lỗi xử lý Gemini:", err.message);
     return sendMessageFailed(api, message, "API Quá tải vui lòng thử lại sau...");
   }
-}
+      }
