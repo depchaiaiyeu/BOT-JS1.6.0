@@ -19,9 +19,6 @@ import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js"
 import { deleteFile } from "../../../utils/util.js";
 import { getBotId } from "../../../index.js";
 
-// Author: ndqitvn
-// Description: ZingMP3 API rebuild by N D Q
-
 const PLATFORM = "zingmp3";
 const URL = "https://zingmp3.vn";
 let API_KEY = "Có Trình Mới Lấy Được API";
@@ -33,6 +30,35 @@ const p = ["ctime", "id", "type", "page", "count", "version"];
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const CONFIG_PATH = path.join(__dirname, "../config.json");
+
+const VIETNAM_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'Accept-Language': 'vi-VN,vi;q=0.9,en;q=0.8',
+  'Accept-Encoding': 'gzip, deflate, br',
+  'Connection': 'keep-alive',
+  'Upgrade-Insecure-Requests': '1',
+  'Sec-Fetch-Dest': 'document',
+  'Sec-Fetch-Mode': 'navigate',
+  'Sec-Fetch-Site': 'none',
+  'Sec-Fetch-User': '?1',
+  'DNT': '1',
+  'X-Forwarded-For': '113.161.87.101',
+  'CF-IPCountry': 'VN',
+  'CF-Connecting-IP': '113.161.87.101'
+};
+
+function getSearchReferer(keyword) {
+  const encodedKeyword = encodeURIComponent(keyword);
+  return `https://zingmp3.vn/tim-kiem/tat-ca?q=${encodedKeyword}`;
+}
+
+function getSongReferer(songUrl) {
+  if (songUrl && songUrl.includes('zingmp3.vn')) {
+    return songUrl;
+  }
+  return 'https://zingmp3.vn/';
+}
 
 (async () => {
   const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
@@ -107,7 +133,7 @@ function getSig(path, params) {
 
 async function getCookie() {
   try {
-    const res = await axios.get(URL);
+    const res = await axios.get(URL, { headers: VIETNAM_HEADERS });
     if (res.headers["set-cookie"]) {
       return res.headers["set-cookie"][1];
     }
@@ -117,31 +143,24 @@ async function getCookie() {
     throw error;
   }
 }
-//async function requestZingMp3(path, params = {}) {
- // try {
-//  let cookie = await getCookie();
- // if (path == "/api/v2/song/get/streaming") {
- //     cookie = "za_oauth_v4=7414f6a38828155949bfd1624a18ea18ccea437e0ca75e6159daee089bd024fb;" + cookie;
- // }
-//    const response = await axios.get(`${URL}${path}`, {
- //     headers: {
- //       Cookie: cookie,
- //     },
- //     params,
- //   });
-//    return response.data;
-//  } catch (error) {
- //   console.error("Lỗi request Zing MP3:", error);
- //   throw error;
- // }
-//}
-async function requestZingMp3(path, params = {}) {
+
+async function requestZingMp3(path, params = {}, referer = null) {
   try {
     const cookie = await getCookie();
+    const headers = {
+      ...VIETNAM_HEADERS,
+      Cookie: cookie,
+      Origin: 'https://zingmp3.vn'
+    };
+    
+    if (referer) {
+      headers.Referer = referer;
+    } else {
+      headers.Referer = 'https://zingmp3.vn/';
+    }
+
     const response = await axios.get(`${URL}${path}`, {
-      headers: {
-        Cookie: cookie,
-      },
+      headers,
       params,
     });
     return response.data;
@@ -149,6 +168,24 @@ async function requestZingMp3(path, params = {}) {
     console.error("Lỗi request Zing MP3:", error);
     throw error;
   }
+}
+
+async function downloadWithVietnamHeaders(url, api, message, referer = null) {
+  const headers = {
+    ...VIETNAM_HEADERS,
+    'Origin': 'https://zingmp3.vn',
+    'X-Real-IP': '113.161.87.101',
+    'X-Forwarded-For': '113.161.87.101',
+    'CF-IPCountry': 'VN'
+  };
+  
+  if (referer) {
+    headers.Referer = referer;
+  } else {
+    headers.Referer = 'https://zingmp3.vn/';
+  }
+  
+  return await downloadAndConvertAudio(url, api, message, headers);
 }
 
 export async function chartHomeZingMp3() {
@@ -177,10 +214,11 @@ export async function searchMusicZingMp3(keyword, numberMusic) {
     version: VERSION,
     apiKey: API_KEY,
   };
+  const referer = getSearchReferer(keyword);
   return requestZingMp3(pathSearch, {
     ...params,
     sig: getSig(pathSearch, params),
-  });
+  }, referer);
 }
 
 export async function getSong(songId) {
@@ -192,10 +230,11 @@ export async function getSong(songId) {
     version: VERSION,
     apiKey: API_KEY,
   };
+  const referer = `https://zingmp3.vn/bai-hat/-/${songId}.html`;
   return requestZingMp3(pathSong, {
     ...params,
     sig: getSig(pathSong, params),
-  });
+  }, referer);
 }
 
 export async function getStreamingSong(songId) {
@@ -207,11 +246,13 @@ export async function getStreamingSong(songId) {
     version: VERSION,
     apiKey: API_KEY,
   };
+  const referer = `https://zingmp3.vn/bai-hat/-/${songId}.html`;
   return requestZingMp3(pathStreaming, {
     ...params,
     sig: getSig(pathStreaming, params),
-  });
+  }, referer);
 }
+
 export async function getLyric(songId) {
   CTIME = String(Math.floor(Date.now() / 1000));
   const pathLyric = "/api/v2/lyric/get/lyric";
@@ -222,10 +263,11 @@ export async function getLyric(songId) {
     version: VERSION,
     apiKey: API_KEY,
   };
+  const referer = `https://zingmp3.vn/bai-hat/-/${songId}.html`;
   return requestZingMp3(pathLyric, {
     ...params,
     sig: getSig(pathLyric, params),
-  });
+  }, referer);
 }
 
 function extractZingMp3Url(keyword) {
@@ -282,7 +324,7 @@ async function getChartRankInfo(encodeId) {
   }
 }
 
-async function prepareAndSendMusic(api, message, songData, linkMusic, quality, captionCustom) {
+async function prepareAndSendMusic(api, message, songData, linkMusic, quality, captionCustom, keyword = null) {
   const cachedMusic = await getCachedMedia(PLATFORM, songData.encodeId, quality, songData.title);
   let voiceUrl;
 
@@ -293,7 +335,13 @@ async function prepareAndSendMusic(api, message, songData, linkMusic, quality, c
       caption: `Chờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ ${songData.title}`,
     };
     await sendMessageCompleteRequest(api, message, object, 5000);
-    voiceUrl = await downloadAndConvertAudio(linkMusic, api, message);
+    
+    let referer = `https://zingmp3.vn/bai-hat/-/${songData.encodeId}.html`;
+    if (keyword) {
+      referer = getSearchReferer(keyword);
+    }
+    
+    voiceUrl = await downloadWithVietnamHeaders(linkMusic, api, message, referer);
     setCacheData(PLATFORM, songData.encodeId, {
       fileUrl: voiceUrl,
       title: songData.title,
@@ -317,7 +365,7 @@ async function prepareAndSendMusic(api, message, songData, linkMusic, quality, c
     listen: songData.listen,
     comment: songData.comment,
     source: "ZingMP3",
-    caption: captionCustom || `> From ZingMP3 <\nNhạc đây người đẹp ơi !!!`,
+    caption: captionCustom || `> From ZingMP3 <\nNhạc Đây Người Đẹp Ơi!!!`,
     imageUrl: thumbnailUrl,
     voiceUrl: voiceUrl,
     stats: stats,
@@ -360,7 +408,7 @@ export async function handleZingMp3Command(api, message, aliasCommand) {
           songData.score = chartInfo.score;
         }
 
-        await prepareAndSendMusic(api, message, songData, linkMusic, quality);
+        await prepareAndSendMusic(api, message, songData, linkMusic, quality, null, keyword);
       } catch (error) {
         const object = {
           caption: `Link Không hợp lệ hoặc link thuộc thể loại album!`
@@ -439,12 +487,14 @@ export async function handleZingMp3Command(api, message, aliasCommand) {
       userRequest: senderId,
       collection: songsWithInfo,
       timestamp: Date.now(),
+      keyword: keyword
     });
     setSelectionsMapData(senderId, {
       quotedMsgId: quotedMsgId.toString(),
       collection: songsWithInfo,
       timestamp: Date.now(),
       platform: PLATFORM,
+      keyword: keyword
     });
   } catch (error) {
     console.error("Lỗi xử lý lệnh ZingMP3:", error);
@@ -569,7 +619,7 @@ export async function handleZingMp3Reply(api, message) {
       return true;
     }
 
-    const { collection } = musicSelectionsMap.get(quotedMsgId);
+    const { collection, keyword } = musicSelectionsMap.get(quotedMsgId);
     if (selectedIndex < 0 || selectedIndex >= collection.length) {
       const object = {
         caption: `Số bạn chọn Không nằm trong danh sách. Vui lòng chọn lại.`,
@@ -588,13 +638,12 @@ export async function handleZingMp3Reply(api, message) {
       },
     };
     await api.deleteMessage(msgDel, false);
-    // await api.undoMessage(message);
     musicSelectionsMap.delete(quotedMsgId);
     deleteSelectionsMapData(senderId);
 
     track = collection[selectedIndex];
 
-    return await handleSendTrackZingMp3(api, message, track, subCommand);
+    return await handleSendTrackZingMp3(api, message, track, subCommand, keyword);
   } catch (error) {
     console.error(
       `Không thể lấy stream URL cho track ${track?.encodeId}:`,
@@ -610,9 +659,9 @@ export async function handleZingMp3Reply(api, message) {
   }
 }
 
-export async function handleSendTrackZingMp3(api, message, track, subCommand) {
+export async function handleSendTrackZingMp3(api, message, track, subCommand, keyword = null) {
   const { linkMusic, quality } = await processSongData(track.encodeId, track);
-  await prepareAndSendMusic(api, message, track, linkMusic, quality);
+  await prepareAndSendMusic(api, message, track, linkMusic, quality, null, keyword);
 
   const lyric = subCommand === "lyric" ? await getLyric(track.encodeId) : null;
   if (subCommand) {
@@ -677,7 +726,8 @@ export async function handleRandomChartZingMp3(
       linkMusic = streamingInfo.data["128"];
     }
     const thumbnailUrl = randomSong.thumbnailM.replace(/w\d+_/i, 'w1200_');
-    const voiceUrl = await downloadAndConvertAudio(linkMusic, api, message);
+    const referer = 'https://zingmp3.vn/zing-chart';
+    const voiceUrl = await downloadWithVietnamHeaders(linkMusic, api, message, referer);
 
     captionFinal += `🎵 Music: ${randomSong.title}\n👤 Artist: ${randomSong.artistsNames
       }\n#Top${randomIndex + 1}_ZingMP3\n\n`;
