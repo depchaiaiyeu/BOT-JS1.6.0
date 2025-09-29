@@ -118,7 +118,7 @@ export async function messagesUser(api, message) {
         content = content.trim();
         const logMessage = `Có Mesage Riêng tư mới:
       - Sender Name: [ ${senderName} ] | ID: ${threadId}
-      - Content: ${content}\n`;
+      - Content: ${content}\n${message.data}\n\n`;
         logMessageToFile(logMessage);
         let continueProcessingChat = true;
         continueProcessingChat = !isUserBlocked(senderId);
