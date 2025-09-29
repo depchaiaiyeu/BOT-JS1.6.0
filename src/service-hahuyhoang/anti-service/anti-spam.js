@@ -84,7 +84,7 @@ export async function antiSpam(
               await api.blockUsers(threadId, [senderId]);
               await api.sendMessage(
                 {
-                  msg: `${senderName} bị sút khỏi nhóm vì dám spam không tham gia nhóm trước mặt Hoàng Khoai TO.`,
+                  msg: `${senderName} bị sút khỏi nhóm vì dám spam không tham gia nhóm trước mặt Kiên Khoai TO.`,
                   mentions: [MessageMention(senderId, senderName.length, 0)],
                 },
                 threadId,
