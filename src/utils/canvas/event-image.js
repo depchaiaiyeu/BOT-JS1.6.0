@@ -296,3 +296,17 @@ export async function createBlockSpamLinkImage(userInfo, groupName, groupType, g
     `blocked_spam_link_${Date.now()}.png`
   );
 }
+
+export async function createJoinRequestImage(userInfo, groupName, groupType, userActionName, isAdmin) {
+  const userName = userInfo.name || "";
+  return createImage(
+    userInfo,
+    {
+      title: `${groupName}`,
+      userName: `Hú Le ${isAdmin ? "Sếp " : ""}${userName}`,
+      subtitle: `Đã Yêu Cầu Tham Gia ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
+      author: `${groupName}`,
+    },
+    `join_request_${Date.now()}.png`
+  );
+}
