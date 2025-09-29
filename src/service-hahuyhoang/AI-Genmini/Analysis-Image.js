@@ -13,13 +13,7 @@ import { checkExstentionFileRemote } from "../../utils/util.js";
 
 const genAI = new GoogleGenerativeAI("AIzaSyBKNInWVa8kKm9G0e9Kz7_VxQkgpFY6gDs");
 
-const SUPPORTED_IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif"];
-const SUPPORTED_VIDEO_EXTENSIONS = [
-  "mp4", "mpeg", "mov", "avi", "flv", "mpg", "webm", "wmv", "3gpp"
-];
-const SUPPORTED_AUDIO_EXTENSIONS = [
-  "mp3", "wav", "aiff", "aac", "ogg", "flac"
-];
+const SUPPORTED_IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp", "gif", "bmp"];
 
 const MIME_MAP = {
   jpg: "image/jpeg",
@@ -27,21 +21,7 @@ const MIME_MAP = {
   png: "image/png",
   webp: "image/webp",
   gif: "image/gif",
-  mp4: "video/mp4",
-  mpeg: "video/mpeg",
-  mov: "video/quicktime",
-  avi: "video/x-msvideo",
-  flv: "video/x-flv",
-  mpg: "video/mpeg",
-  webm: "video/webm",
-  wmv: "video/x-ms-wmv",
-  "3gpp": "video/3gpp",
-  mp3: "audio/mp3",
-  wav: "audio/wav",
-  aiff: "audio/aiff",
-  aac: "audio/aac",
-  ogg: "audio/ogg",
-  flac: "audio/flac"
+  bmp: "image/bmp"
 };
 
 export async function handleImageAnalysis(api, message, aliasCommand) {
@@ -51,16 +31,19 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
 
   if (!content && !quote) {
     return sendMessageWarningRequest(api, message, {
-      caption: `Vui lòng nhập câu hỏi hoặc reply vào tin nhắn có hình ảnh / video / âm thanh.\nVí dụ:\n${prefix}${aliasCommand} Đây là gì?`,
+      caption: `Vui lòng nhập câu hỏi hoặc reply vào tin nhắn có hình ảnh.\nVí dụ:\n${prefix}${aliasCommand} Đây là gì?`,
     }, 30000);
   }
 
   let quoteText = "";
   if (!content && quote?.msg) quoteText = quote.msg;
 
+  let tempPath = null;
+
   try {
     const parts = [];
     const userInput = content || quoteText;
+    
     if (userInput) {
       if (userInput.length > 10000) {
         return sendMessageWarningRequest(api, message, {
@@ -69,8 +52,6 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
       }
       parts.push({ text: `${userInput}\n\n(Trả lời bằng tiếng Việt)` });
     }
-
-    let modelName = "gemini-2.0-flash-exp";
 
     if (quote?.attach) {
       const attachData = JSON.parse(quote.attach);
@@ -82,29 +63,40 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
         attachData.thumbUrl;
 
       if (fileUrl) {
-        const extension = (await checkExstentionFileRemote(fileUrl))?.toLowerCase();
-        const isImage = SUPPORTED_IMAGE_EXTENSIONS.includes(extension);
-        const isVideo = SUPPORTED_VIDEO_EXTENSIONS.includes(extension);
-        const isAudio = SUPPORTED_AUDIO_EXTENSIONS.includes(extension);
-
-        if (!isImage && !isVideo && !isAudio) {
+        console.log(`📎 File URL: ${fileUrl}`);
+        
+        let extension = (await checkExstentionFileRemote(fileUrl))?.toLowerCase();
+        if (!extension) {
+          const urlParts = fileUrl.split('.');
+          extension = urlParts[urlParts.length - 1].split('?')[0].toLowerCase();
+        }
+        
+        console.log(`📄 Extension: ${extension}`);
+        
+        if (!SUPPORTED_IMAGE_EXTENSIONS.includes(extension)) {
           return sendMessageWarningRequest(api, message, {
-            caption: `❌ File không hỗ trợ. Chỉ hỗ trợ hình ảnh (.jpg, .png...), video (.mp4, .webm...) và âm thanh (.mp3, .wav...) dưới 20MB.`,
+            caption: `❌ Chỉ hỗ trợ hình ảnh (.jpg, .png, .webp, .gif)`,
           }, 30000);
         }
 
         const mimeType = MIME_MAP[extension] || `image/${extension}`;
+        console.log(`🎯 MIME Type: ${mimeType}`);
 
         const response = await axios.get(fileUrl, { 
           responseType: "arraybuffer",
           maxRedirects: 5,
-          timeout: 30000
+          timeout: 60000,
+          headers: {
+            'User-Agent': 'Mozilla/5.0'
+          }
         });
         
         const fileSizeMB = response.data.byteLength / (1024 * 1024);
+        console.log(`📦 File size: ${fileSizeMB.toFixed(2)} MB`);
+        
         if (fileSizeMB > 20) {
           return sendMessageWarningRequest(api, message, {
-            caption: `⚠️ File quá lớn (${fileSizeMB.toFixed(2)} MB). Vui lòng gửi file dưới 20MB.`,
+            caption: `⚠️ Ảnh quá lớn (${fileSizeMB.toFixed(2)} MB). Tối đa 20MB.`,
           }, 30000);
         }
 
@@ -113,54 +105,68 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
           fs.mkdirSync(tempDir, { recursive: true });
         }
 
-        const tempPath = path.join(tempDir, `temp_${Date.now()}.${extension}`);
+        tempPath = path.join(tempDir, `img_${Date.now()}.${extension}`);
         fs.writeFileSync(tempPath, Buffer.from(response.data));
+        console.log(`💾 Saved: ${tempPath}`);
 
-        const base64 = fs.readFileSync(tempPath, { encoding: "base64" });
+        const base64Data = fs.readFileSync(tempPath).toString('base64');
+        console.log(`✅ Base64 length: ${base64Data.length}`);
 
         parts.push({
           inlineData: {
-            mimeType,
-            data: base64,
-          },
+            mimeType: mimeType,
+            data: base64Data
+          }
         });
-
-        fs.unlinkSync(tempPath);
       }
     }
 
     if (parts.length === 0) {
       return sendMessageWarningRequest(api, message, {
-        caption: "⚠️ Không tìm thấy nội dung hoặc file đính kèm.",
+        caption: "⚠️ Không tìm thấy nội dung hoặc hình ảnh.",
       }, 30000);
     }
 
-    const model = genAI.getGenerativeModel({ model: modelName });
+    console.log(`🚀 Gọi Gemini...`);
+    
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     let replyText = null;
-    const maxRetries = 3;
+    const maxRetries = 2;
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        console.log(`🌀 Gọi Gemini attempt ${attempt}...`);
+        console.log(`🌀 Attempt ${attempt}/${maxRetries}...`);
+        
         const result = await model.generateContent({
-          contents: [{ role: "user", parts }],
+          contents: [{ role: "user", parts }]
         });
 
         replyText = result.response.text();
+        console.log(`✅ Success!`);
         break;
+        
       } catch (err) {
-        console.warn(`⚠️ Thử lần ${attempt} thất bại:`, err.message);
+        console.error(`❌ Attempt ${attempt} failed: ${err.message}`);
+        
         if (attempt === maxRetries) {
           throw err;
         }
-        await new Promise(res => setTimeout(res, 1500 * attempt));
+        await new Promise(res => setTimeout(res, 2000));
       }
     }
 
     return await sendMessageCompleteRequest(api, message, { caption: replyText }, 3000000);
+    
   } catch (err) {
-    console.error("❌ Lỗi xử lý Gemini:", err.message);
-    return sendMessageFailed(api, message, "API Quá tải vui lòng thử lại sau...");
+    console.error(`❌ ERROR: ${err.message}`);
+    console.error(err.stack);
+    return sendMessageFailed(api, message, `Lỗi: ${err.message}`);
+    
+  } finally {
+    if (tempPath && fs.existsSync(tempPath)) {
+      fs.unlinkSync(tempPath);
+      console.log(`🗑️ Cleanup done`);
+    }
   }
-      }
+}
