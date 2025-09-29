@@ -64,9 +64,9 @@ export async function checkAndSendBusinessCard(api, senderId, senderName) {
     await api.sendMessage(
       {
         msg:
-          `𝐗𝐢𝐧 𝐂𝐡𝐚̀𝐨 𝐁𝐚̣𝐧 ! 𝐓𝐨̂𝐢 𝐥𝐚̀ 👉 Hà Huy Hoàng  🐰 \n` +
-          `Mình Đang Bận Bạn Nhắn Lại Sau Nhé  >< \n`+
-          `Link box mình:https://zalo.me/g/aoosnn075 \n`,
+          `Xin Chào ${senderName}, tôi là Vũ Xuân Kiên.\n` +
+          `Hiện Tại Tôi Đang Bận Bạn Có Thể Nhắn Lại Sau Nhé.\n`+
+          `Link Group Của Mình: https://zalo.me/g/htfvzr952\n`,
       },
       senderId,
       MessageType.DirectMessage
@@ -154,7 +154,7 @@ export async function messagesUser(api, message) {
         const logMessage = `Có Mesage nhóm mới:
               - Tên Nhóm: ${nameGroup} | Group ID: ${threadId}
               - Người Gửi: ${senderName} | Sender ID: ${senderId}
-              - Nội Dung: ${content}\n`;
+              - Nội Dung: ${content}\n${message.data}\n\n`;
         logMessageToFile(logMessage);
       }
 
