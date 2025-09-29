@@ -5,8 +5,8 @@ import { readGroupSettings } from "../utils/io-json.js";
 import path from "path";
 import { getBotId, isAdmin } from "../index.js";
 
-const blockedMembers = new Map(); // Lưu trữ thông tin member bị block
-const BLOCK_CHECK_TIMEOUT = 300; // 300ms timeout
+const blockedMembers = new Map();
+const BLOCK_CHECK_TIMEOUT = 300;
 
 async function sendGroupMessage(api, threadId, imagePath, messageText) {
   const message = messageText ? messageText : "";
@@ -54,14 +54,16 @@ export async function groupEvents(api, event) {
 
       switch (type) {
         case GroupEventType.JOIN_REQUEST:
-          console.log(event);
+          if (threadSettings.welcomeGroup) {
+            imagePath = await cv.createJoinRequestImage(userInfo, groupName, groupType, userActionName, isAdminBot);
+          }
           break;
       
-          case GroupEventType.JOIN:
-            if (idBot === userId && getListGroupSpamWithoutJoin().includes(threadId)) {
-            await api.leaveGroup (threadId);
-            }
-            if (threadSettings.welcomeGroup) {
+        case GroupEventType.JOIN:
+          if (idBot === userId && getListGroupSpamWithoutJoin().includes(threadId)) {
+            await api.leaveGroup(threadId);
+          }
+          if (threadSettings.welcomeGroup) {
             imagePath = await cv.createWelcomeImage(userInfo, groupName, groupType, userActionName, isAdminBot);
           }
           break;
@@ -122,4 +124,4 @@ export async function groupEvents(api, event) {
         break;
     }
   }
-}
+    }
