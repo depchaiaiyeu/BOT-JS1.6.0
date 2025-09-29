@@ -1,5 +1,6 @@
 import { GroupMessage, Message, MessageMention } from "../../api-zalo/index.js";
-import {sendGifNPH, sendVideoNPH, sendImageNPH} from "../../service-hahuyhoang/chat-zalo/chat-special/send-voice/send-voice.js"
+import { sendReactionWaitingCountdown } from "../set-countdown.js";
+
 import { getCommandConfig, isAdmin } from "../../index.js";
 import { sendMessageFailed, sendMessageFromSQL, sendMessageStateQuote } from "../../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
 import { getUserInfoData } from "../../service-hahuyhoang/info-service/user-info.js";
@@ -1211,13 +1212,14 @@ export async function spamMessagesInGroup(api, message, aliasCommand) {
     }
   }
 }
+
 export async function testMediaCommand(api, message) {
   const { threadId, data } = message;
   const body = data?.content;
 
   if (!body) {
     await api.sendMessage(
-      { msg: "Không tìm thấy nội dung lệnh! Vui lòng sử dụng: test [image|video|gif]." },
+      { msg: "Không tìm thấy nội dung lệnh! Vui lòng sử dụng: test [số lượng reaction]." },
       threadId,
       message.type
     );
@@ -1225,36 +1227,26 @@ export async function testMediaCommand(api, message) {
   }
 
   const args = body.split(" ").slice(1);
-  const subCommand = args[0]?.toLowerCase();
-
-  const imageUrl = "https://i.imgur.com/Sdjkis2.jpeg";
-  const videoUrl = "https://bfg31.dlfl.me/8f1a95d09c61323f6b70/8938091076818636438";
-  const gifUrl = "https://fg42.dlfl.me/44014749ffe651b808f7/1046098583450403461";
+  const countArg = args[0];
 
   try {
-    switch (subCommand) {
-      case "image":
-        const imageObject = { imageUrl, caption: "Đây là hình ảnh test từ NPH" };
-        await sendImageNPH(api, message, imageObject, 180000);
-        break;
-
-      case "video":
-        const videoObject = { videoUrl, caption: "Đây là video test từ NPH" };
-        await sendVideoNPH(api, message, videoObject, 180000);
-        break;
-
-      case "gif":
-        const gifObject = { gifUrl, caption: "Đây là GIF test từ NPH" };
-        await sendGifNPH(api, message, gifObject, 180000);
-        break;
-
-      default:
-        await api.sendMessage(
-          { msg: "Vui lòng chỉ định loại test: image, video hoặc gif" },
-          threadId,
-          message.type
-        );
+    if (!countArg || isNaN(countArg)) {
+      await api.sendMessage(
+        { msg: "Vui lòng nhập số reaction, ví dụ: test 1000" },
+        threadId,
+        message.type
+      );
+      return;
     }
+
+    const count = parseInt(countArg, 100);
+    await sendReactionWaitingCountdown(api, message, count);
+
+    await api.sendMessage(
+      { msg: `Đang gửi ${count} reaction...` },
+      threadId,
+      message.type
+    );
   } catch (error) {
     console.error("Lỗi khi thực thi testMediaCommand:", error.message);
     await api.sendMessage(
