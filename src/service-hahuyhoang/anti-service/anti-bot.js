@@ -7,11 +7,11 @@ import { sendMessageStateQuote } from "../chat-zalo/chat-style/chat-style.js";
 import { removeMention } from "../../utils/format-util.js";
 import { getAntiState, updateAntiConfig } from "./index.js";
 
-async function detectBot(quote) {
+async function detectBot(data) {
   try {
-    const ownerId = quote.ownerId;
-    const ttl = quote.ttl || 0;
-    let attach = quote.attach;
+    const ownerId = data.uidFrom;
+    const ttl = data.ttl || 0;
+    let attach = data.attach;
     
     if (typeof attach === 'string') {
       attach = JSON.parse(attach);
@@ -224,13 +224,7 @@ export async function antiBot(
     )
       return false;
 
-    const quote = message.data?.quote || message.reply;
-    
-    if (!quote) {
-      return false;
-    }
-
-    const detectionResult = await detectBot(quote);
+    const detectionResult = await detectBot(message.data);
 
     if (detectionResult.isBot) {
       try {
@@ -271,7 +265,7 @@ export async function antiBot(
             });
           }
 
-          warningMsg += "\n⚠️ Phát hiện 3 lần, bạn bị cấm chat trong 15 phút!";
+          warningMsg += "\n⚠️ Phát hiện sử dụng bot lần 3, bị cấm chat trong 15 phút!";
         }
 
         await api.sendMessage(
@@ -337,4 +331,4 @@ export async function startBotViolationCheck() {
   });
 
   console.log(chalk.yellow("Đã khởi động schedule kiểm tra phát hiện bot"));
-                }
+}
