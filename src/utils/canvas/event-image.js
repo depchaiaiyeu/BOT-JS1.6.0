@@ -297,7 +297,7 @@ export async function createBlockSpamLinkImage(userInfo, groupName, groupType, g
   );
 }
 
-export async function createBlockAntiBot(userInfo, groupName, groupType, gender) {
+export async function createBlockAntiBotImage(userInfo, groupName, groupType, gender) {
   const userName = userInfo.name || "";
   const genderText = gender === 0 ? "Thằng" : gender === 1 ? "Con" : "Thằng";
   return createImage(
