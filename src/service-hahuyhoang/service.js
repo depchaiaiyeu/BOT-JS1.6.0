@@ -6,6 +6,7 @@ import { initializeScheduler } from "./scheduler/scheduler.js";
 import { initializeDatabase } from "../database/index.js";
 import { startMuteCheck } from "./anti-service/mute-user.js";
 import { startBadWordViolationCheck } from "./anti-service/anti-badword.js";
+import { startBotViolationCheck } from "../anti-service/anti-bot.js";
 import { handleMusicReply } from "./api-crawl/music/soundcloud.js";
 import { handleZingMp3Reply } from "./api-crawl/music/zingmp3.js";
 import { startNudeViolationCheck } from "./anti-service/anti-nude/anti-nude.js";
