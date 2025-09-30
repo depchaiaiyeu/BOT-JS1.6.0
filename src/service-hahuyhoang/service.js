@@ -55,6 +55,7 @@ export async function initService(api) {
     startAntiConfigCheck(),
     startMuteCheck(api),
     startBadWordViolationCheck(),
+    startBotViolationCheck(),
     startNudeViolationCheck(),
     initRankSystem(),
     notifyResetGroup(api),
