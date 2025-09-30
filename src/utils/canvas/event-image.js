@@ -3,7 +3,10 @@ import fs from "fs";
 import path from "path";
 import * as cs from "./index.js";
 
-registerFont(path.resolve("../../../../assets/fonts/NotoEmoji-Bold.ttf"), { family: "NotoEmoji" });
+const __filename = new URL(import.meta.url).pathname;
+const __dirname = path.dirname(__filename);
+
+registerFont(path.resolve(__dirname, "../../../assets/fonts/NotoEmoji-Bold.ttf"), { family: "NotoEmoji" });
 
 export const linkBackgroundDefault = "https://i.postimg.cc/tTwFPLV1/avt.jpg";
 export const linkBackgroundDefaultZalo = "https://i.postimg.cc/tTwFPLV1/avt.jpg";
