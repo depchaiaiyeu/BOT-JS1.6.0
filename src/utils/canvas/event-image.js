@@ -3,8 +3,8 @@ import fs from "fs";
 import path from "path";
 import * as cs from "./index.js";
 
-export const linkBackgroundDefault = "https://i.postimg.cc/tTwFPLV1/avt.jpg";
-export const linkBackgroundDefaultZalo = "https://i.postimg.cc/tTwFPLV1/avt.jpg";
+export const linkBackgroundDefault = "https://i.postimg.cc/W3PswWM9/generated-image.jpg";
+export const linkBackgroundDefaultZalo = "https://i.postimg.cc/W3PswWM9/generated-image.jpg";
 
 export async function getLinkBackgroundDefault(userInfo) {
   let backgroundImage;
