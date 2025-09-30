@@ -6,7 +6,7 @@ import { initializeScheduler } from "./scheduler/scheduler.js";
 import { initializeDatabase } from "../database/index.js";
 import { startMuteCheck } from "./anti-service/mute-user.js";
 import { startBadWordViolationCheck } from "./anti-service/anti-badword.js";
-import { startBotViolationCheck } from "../anti-service/anti-bot.js";
+import { startBotViolationCheck } from "./anti-service/anti-bot.js";
 import { handleMusicReply } from "./api-crawl/music/soundcloud.js";
 import { handleZingMp3Reply } from "./api-crawl/music/zingmp3.js";
 import { startNudeViolationCheck } from "./anti-service/anti-nude/anti-nude.js";
@@ -30,7 +30,7 @@ import { startAutoLockChatScheduler } from "../commands/bot-manager/group-autolo
 import { handleHH3DReply } from "./api-crawl/video/yanhh3d-phim3d.js";
 import { handleSubNhanhChillReply } from "./api-crawl/video/subnhanhchill.net.js";
 
-let globalPrefix = "@";
+let globalPrefix = ".";
 
 export function getGlobalPrefix() {
   return globalPrefix;
