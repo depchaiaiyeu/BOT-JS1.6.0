@@ -58,7 +58,7 @@ async function handleHighLevelAdmin(api, message, action) {
 
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const adminList = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
-  const fixedAdminId = "8208931991643818966";
+  const fixedAdminId = "-1";
   for (const mention of mentions) {
     const targetId = mention.uid;
     const targetName = message.data.content.substring(mention.pos, mention.pos + mention.len).replace("@", "");
