@@ -1,11 +1,13 @@
 import schedule from "node-schedule";
 import chalk from "chalk";
-import { MessageMention } from "zlbotdqt";
-import { extendMuteDuration } from "./mute-user.js";
+import { MessageMention, MessageType } from "zlbotdqt";
 import { isInWhiteList } from "./white-list.js";
 import { sendMessageStateQuote } from "../chat-zalo/chat-style/chat-style.js";
 import { removeMention } from "../../utils/format-util.js";
 import { getAntiState, updateAntiConfig } from "./index.js";
+import { getGroupInfoData, getUserInfoData } from "../chat-zalo/get-info/get-info.js";
+import { createBlockAntiBotImage } from "../chat-zalo/canvas/canvas.js";
+import { clearImagePath } from "../../utils/clear-image.js";
 
 function isBot(message) {
   if (message.data.ttl && message.data.ttl !== 0) {
@@ -88,14 +90,6 @@ async function saveViolation(threadId, userId, userName) {
   return violations[threadId][userId];
 }
 
-function isMuted(groupSettings, threadId, userId) {
-  const thread = groupSettings[threadId];
-  if (!thread || !thread.muteUsers || !thread.muteUsers[userId]) return false;
-  const muteInfo = thread.muteUsers[userId];
-  if (!muteInfo || !muteInfo.endTime) return false;
-  return Date.now() < muteInfo.endTime;
-}
-
 export async function antiBot(
   api,
   message,
@@ -113,10 +107,6 @@ export async function antiBot(
       return false;
     }
 
-    if (isMuted(groupSettings, threadId, senderId)) {
-      return false;
-    }
-
     if (isBot(message)) {
       try {
         await api.deleteMessage(message, false).catch(console.error);
@@ -128,7 +118,7 @@ export async function antiBot(
         warningMsg += `Cảnh cáo lần ${violation.count}/3`;
 
         if (violation.count >= 3) {
-          warningMsg += "\n⚠️ Vi phạm 3 lần, bạn bị cấm chat trong 15 phút!";
+          warningMsg += "\n⚠️ Vi phạm 3 lần, bạn bị chặn khỏi nhóm!";
         }
 
         await api.sendMessage(
@@ -143,16 +133,42 @@ export async function antiBot(
         );
 
         if (violation.count >= 3) {
-          if (!groupSettings[threadId]) {
-            groupSettings[threadId] = {};
+          try {
+            await api.blockUsers(threadId, [senderId]);
+            const groupInfo = await getGroupInfoData(api, threadId);
+            const userInfo = await getUserInfoData(api, senderId);
+            const imagePath = await createBlockAntiBotImage(
+              userInfo,
+              groupInfo.name,
+              groupInfo.groupType,
+              userInfo.gender
+            );
+            await api.sendMessage(
+              {
+                msg: "",
+                attachments: imagePath ? [imagePath] : [],
+                quote: message,
+              },
+              threadId,
+              MessageType.GroupMessage
+            );
+            try {
+              await api.sendMessage(
+                {
+                  msg: `Chào [ ${senderName} ]\nBạn đã bị chặn khỏi nhóm vì sử dụng bot trong khi admin bật anti!`,
+                  attachments: imagePath ? [imagePath] : [],
+                  quote: message,
+                },
+                senderId,
+                MessageType.DirectMessage
+              );
+            } catch (error) {
+              console.error(`Không thể gửi tin nhắn tới ${senderId}:`, error.message);
+            }
+            await clearImagePath(imagePath);
+          } catch {
+            console.error(`Không thể chặn người dùng ${senderName}`);
           }
-          await extendMuteDuration(
-            threadId,
-            senderId,
-            senderName,
-            groupSettings,
-            900
-          );
 
           const antiState = getAntiState();
           const violations = { ...antiState.data.botViolations };
@@ -304,4 +320,4 @@ export async function startBotViolationCheck() {
   console.log(
     chalk.yellow("Đã khởi động schedule kiểm tra vi phạm bot")
   );
-}
+      }
