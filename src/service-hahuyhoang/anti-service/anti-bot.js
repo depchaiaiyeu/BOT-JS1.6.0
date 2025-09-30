@@ -5,9 +5,10 @@ import { isInWhiteList } from "./white-list.js";
 import { sendMessageStateQuote } from "../chat-zalo/chat-style/chat-style.js";
 import { removeMention } from "../../utils/format-util.js";
 import { getAntiState, updateAntiConfig } from "./index.js";
-import { getGroupInfoData, getUserInfoData } from "../chat-zalo/get-info/get-info.js";
-import { createBlockAntiBotImage } from "../chat-zalo/canvas/canvas.js";
-import { clearImagePath } from "../../utils/clear-image.js";
+import { getGroupInfoData } from "../info-service/group-info.js";
+import { getUserInfoData } from "../info-service/user-info.js";
+import { createBlockAntiBotImage } from "../../utils/canvas/event-image.js";
+import { clearImagePath } from "../../utils/canvas/index.js";
 
 function isBot(message) {
   if (message.data.ttl && message.data.ttl !== 0) {
@@ -166,8 +167,8 @@ export async function antiBot(
               console.error(`Không thể gửi tin nhắn tới ${senderId}:`, error.message);
             }
             await clearImagePath(imagePath);
-          } catch {
-            console.error(`Không thể chặn người dùng ${senderName}`);
+          } catch (error) {
+            console.error(`Không thể chặn người dùng ${senderName}:`, error.message);
           }
 
           const antiState = getAntiState();
@@ -320,4 +321,4 @@ export async function startBotViolationCheck() {
   console.log(
     chalk.yellow("Đã khởi động schedule kiểm tra vi phạm bot")
   );
-      }
+}
