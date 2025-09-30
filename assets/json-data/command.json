@@ -2221,11 +2221,22 @@
       "active": true
     },
     {
+      "name": "mybot",
+      "description": "Tạo các bot con",
+      "syntax": "{p}mybot",
+      "permission": "adminLevelHigh",
+      "countdown": 5,
+      "icon": "🤖",
+      "type": 5,
+      "author": "Vũ Xuân Kiên",
+      "active": true
+    },
+    {
       "name": "subnhanhchill",
       "description": "Xem phim tại nền tảng https://subnhanhchill.net",
       "syntax": "{p}subnhanhchill",
-      "permission": "adminLevelHigh",
-      "countdown": 120,
+      "permission": "all",
+      "countdown": 60,
       "icon": "✅",
       "type": 1,
       "author": "Vũ Xuân Kiên",
