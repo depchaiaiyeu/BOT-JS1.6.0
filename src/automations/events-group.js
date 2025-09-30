@@ -130,7 +130,7 @@ export async function groupEvents(api, event) {
 
   if (!isEventEnabled) return;
 
-  const actorName = event.data?.actorName || (event.data?.updateMembers?.[0]?.dName ?? "Người dùng");
+  const actorName = event.data?.actorName || (event.data?.updateMembers?.[0]?.dName ?? "Admin Đẹp Trai");
   const topicTitle = event.data?.topicTitle || "";
   const link = event.data?.info?.group_link || event.data?.link || "";
   const { subType } = event.data;
