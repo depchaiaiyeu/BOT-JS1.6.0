@@ -20,14 +20,13 @@ export async function getLinkBackgroundDefault(userInfo) {
   return backgroundImage;
 }
 
-async function createImage(userInfo, message, fileName) {
+async function createImage(userInfo, message, fileName, typeImage = -1) {
   const width = 1000;
   const height = 300;
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext("2d");
 
   let backgroundImage;
-  let typeImage = -1;
   let fluent = 0.8;
   if (fileName.includes("welcome")) {
     typeImage = 0;
@@ -38,10 +37,13 @@ async function createImage(userInfo, message, fileName) {
   } else if (["blocked", "kicked", "kicked_spam"].some(keyword => fileName.includes(keyword))) {
     typeImage = 2;
     fluent = 0.85;
+  } else if (["setting", "update", "link", "pin", "unpin", "board", "topic", "admin"].some(keyword => fileName.includes(keyword))) {
+    typeImage = 3;
+    fluent = 0.7;
   }
+
   try {
     backgroundImage = await getLinkBackgroundDefault(userInfo);
-
     ctx.drawImage(backgroundImage, 0, 0, width, height);
 
     const overlay = ctx.createLinearGradient(0, 0, 0, height);
@@ -51,9 +53,7 @@ async function createImage(userInfo, message, fileName) {
 
     ctx.fillStyle = overlay;
     ctx.fillRect(0, 0, width, height);
-
   } catch (error) {
-    console.error("Lỗi khi xử lý background:", error);
     const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
     backgroundGradient.addColorStop(0, "#1E1E35");
     backgroundGradient.addColorStop(0.5, "#1A2547");
@@ -70,49 +70,23 @@ async function createImage(userInfo, message, fileName) {
 
   let gradientColors;
   if (typeImage === 0) {
-    gradientColors = [
-      "#00ffcc", // Xanh cyan neon
-      "#00ff95", // Xanh mint neon
-      "#00ff80", // Xanh spring neon
-      "#1aff8c", // Xanh lá neon sáng
-      "#33ff99", // Xanh aqua neon
-    ];
+    gradientColors = ["#00ffcc", "#00ff95", "#00ff80", "#1aff8c", "#33ff99"];
   } else if (typeImage === 1) {
-    gradientColors = [
-      "#FFFFFF", // Trắng
-      "#F0F0F0", // Xám rất nhạt sáng hơn
-      "#FAFAFF", // Ghost white sáng hơn
-      "#F8FBFF", // Alice blue sáng hơn
-      "#EAEAFF", // Lavender sáng hơn
-      "#FFF5FA", // Lavender blush sáng hơn
-      "#FFFFFF"  // Trắng
-    ];
+    gradientColors = ["#FFFFFF", "#F0F0F0", "#FAFAFF", "#F8FBFF", "#EAEAFF", "#FFF5FA", "#FFFFFF"];
   } else if (typeImage === 2) {
-    gradientColors = [
-      "#ff0000", // Đỏ tươi thuần
-      "#ff1111", // Đỏ tươi sáng
-      "#ff2200", // Đỏ cam tươi 
-      "#ff0022", // Đỏ tươi đậm
-      "#ff3300"  // Đỏ cam sáng
-    ];
+    gradientColors = ["#ff0000", "#ff1111", "#ff2200", "#ff0022", "#ff3300"];
+  } else if (typeImage === 3) {
+    gradientColors = ["#FFD700", "#FFA500", "#FF8C00", "#FFB347", "#FFCC00", "#FFE066"];
   } else {
-    gradientColors = [
-      "#FF1493", // Deep pink
-      "#FF69B4", // Hot pink
-      "#FFD700", // Gold
-      "#FFA500", // Orange
-      "#FF8C00", // Dark orange
-      "#00FF7F", // Spring green
-      "#40E0D0"  // Turquoise
-    ];
+    gradientColors = ["#FF1493", "#FF69B4", "#FFD700", "#FFA500", "#FF8C00", "#00FF7F", "#40E0D0"];
   }
+
   const shuffledColors = [...gradientColors].sort(() => Math.random() - 0.5);
 
   const userAvatarUrl = userInfo.avatar;
   if (userAvatarUrl && cs.isValidUrl(userAvatarUrl)) {
     try {
       const avatar = await loadImage(userAvatarUrl);
-
       const borderWidth = 10;
       const gradient = ctx.createLinearGradient(
         xAvatar - widthAvatar / 2 - borderWidth,
@@ -131,14 +105,12 @@ async function createImage(userInfo, message, fileName) {
       ctx.fillStyle = gradient;
       ctx.fill();
 
-      // Vẽ avatar
       ctx.beginPath();
       ctx.arc(xAvatar, height / 2, widthAvatar / 2, 0, Math.PI * 2, true);
       ctx.clip();
       ctx.drawImage(avatar, xAvatar - widthAvatar / 2, yAvatar, widthAvatar, heightAvatar);
       ctx.restore();
 
-      // Vẽ đường thẳng màu trắng bên phải avatar
       ctx.beginPath();
       ctx.moveTo(xAvatar + widthAvatar / 2 + borderWidth + 30, yAvatar + 30);
       ctx.lineTo(xAvatar + widthAvatar / 2 + borderWidth + 30, yAvatar + heightAvatar - 30);
@@ -148,15 +120,12 @@ async function createImage(userInfo, message, fileName) {
     } catch (error) {
       console.error("Lỗi load avatar:", error);
     }
-  } else {
-    console.error("URL avatar không hợp lệ:", userAvatarUrl);
   }
 
   let x1 = xAvatar - widthAvatar / 2 + widthAvatar;
   let x2 = x1 + (width - x1) / 2 - 5;
   let y1 = 86;
 
-  // Tạo gradient cho title
   const titleGradient = ctx.createLinearGradient(x2 - 150, y1 - 30, x2 + 150, y1);
   shuffledColors.slice(0, 3).forEach((color, index) => {
     titleGradient.addColorStop(index / 2, color);
@@ -166,7 +135,6 @@ async function createImage(userInfo, message, fileName) {
   ctx.font = "bold 36px BeVietnamPro";
   ctx.fillText(message.title, x2, y1);
 
-  // Gradient cho userName
   let y2 = y1 + 50;
   const userNameGradient = ctx.createLinearGradient(x2 - 150, y2 - 30, x2 + 150, y2);
   shuffledColors.slice(2, 5).forEach((color, index) => {
@@ -176,7 +144,6 @@ async function createImage(userInfo, message, fileName) {
   ctx.font = "bold 36px BeVietnamPro";
   ctx.fillText(message.userName, x2, y2);
 
-  // Gradient cho subtitle
   let y3 = y2 + 45;
   const subtitleGradient = ctx.createLinearGradient(x2 - 150, y3 - 30, x2 + 150, y3);
   shuffledColors.slice(1, 4).forEach((color, index) => {
@@ -186,7 +153,6 @@ async function createImage(userInfo, message, fileName) {
   ctx.font = "32px BeVietnamPro";
   ctx.fillText(message.subtitle, x2, y3);
 
-  // Gradient cho author
   let y4 = y3 + 45;
   const authorGradient = ctx.createLinearGradient(x2 - 150, y4 - 30, x2 + 150, y4);
   shuffledColors.slice(3, 6).forEach((color, index) => {
@@ -309,5 +275,145 @@ export async function createBlockAntiBotImage(userInfo, groupName, groupType, ge
       author: `${groupName}`,
     },
     `blocked_anti_bot_${Date.now()}.png`
+  );
+}
+
+export async function createUpdateSettingImage(actorName, groupName) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã cập nhật cài đặt nhóm`,
+      author: ""
+    },
+    `setting_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createUpdateDescImage(actorName, groupName) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã cập nhật mô tả nhóm`,
+      author: ""
+    },
+    `update_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createNewLinkImage(actorName, groupName) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã tạo link nhóm mới`,
+      author: ""
+    },
+    `link_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createPinTopicImage(actorName, groupName, topicTitle) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã ghim chủ đề: ${topicTitle}`,
+      author: ""
+    },
+    `pin_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createUpdateTopicImage(actorName, groupName, topicTitle) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã cập nhật chủ đề: ${topicTitle}`,
+      author: ""
+    },
+    `update_topic_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createUpdateBoardImage(actorName, groupName) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã cập nhật bảng thông tin nhóm`,
+      author: ""
+    },
+    `board_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createReorderPinImage(actorName, groupName) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã thay đổi thứ tự ghim chủ đề`,
+      author: ""
+    },
+    `reorder_pin_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createUnpinTopicImage(actorName, groupName, topicTitle) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã gỡ ghim chủ đề: ${topicTitle}`,
+      author: ""
+    },
+    `unpin_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createRemoveTopicImage(actorName, groupName, topicTitle) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `đã xóa chủ đề: ${topicTitle}`,
+      author: ""
+    },
+    `remove_topic_${Date.now()}.png`,
+    3
+  );
+}
+
+export async function createAdminChangeImage(actorName, targetName, groupName, isAdd) {
+  return createImage(
+    { avatar: linkBackgroundDefault },
+    {
+      title: `Group ${groupName}`,
+      userName: actorName,
+      subtitle: `${isAdd ? "đã thêm" : "đã gỡ"} ${targetName} làm Phó nhóm`,
+      author: ""
+    },
+    `${isAdd ? "add" : "remove"}_admin_${Date.now()}.png`,
+    3
   );
 }
