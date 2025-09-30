@@ -120,12 +120,27 @@ export async function antiBot(
     if (isBot(message)) {
       try {
         await api.deleteMessage(message, false).catch(console.error);
+        
         const senderName = message.data.dName;
-
         const violation = await saveViolation(threadId, senderId, senderName);
 
-        let warningMsg = `${senderName} -> Tin nhắn bị xóa vì nghi ngờ bạn là bot\n`;
+        let warningMsg = `${senderName} > Tin nhắn bị xóa vì phát hiện bot\n`;
         warningMsg += `Cảnh cáo lần ${violation.count}/3`;
+
+        if (violation.count >= 3) {
+          warningMsg += "\n⚠️ Vi phạm 3 lần, bạn bị cấm chat trong 15 phút!";
+        }
+
+        await api.sendMessage(
+          {
+            msg: warningMsg,
+            quote: message,
+            mentions: [MessageMention(senderId, senderName.length, 0)],
+            ttl: 30000,
+          },
+          threadId,
+          message.type
+        );
 
         if (violation.count >= 3) {
           if (!groupSettings[threadId]) {
@@ -150,20 +165,8 @@ export async function antiBot(
               botViolations: violations,
             });
           }
-
-          warningMsg += "\n⚠️ Vi phạm 3 lần, bạn bị cấm chat trong 15 phút!";
         }
 
-        await api.sendMessage(
-          {
-            msg: warningMsg,
-            quote: message,
-            mentions: [MessageMention(senderId, senderName.length, 0)],
-            ttl: 30000,
-          },
-          threadId,
-          message.type
-        );
         return true;
       } catch (error) {
         console.error("Có lỗi xảy ra khi anti bot:", error.message);
