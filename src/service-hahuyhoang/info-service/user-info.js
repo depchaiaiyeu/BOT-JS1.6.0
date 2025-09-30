@@ -9,7 +9,7 @@ export async function userInfoCommand(api, message, aliasCommand) {
   const prefix = getGlobalPrefix();
   content = content.replace(`${prefix}${aliasCommand}`, "").trim();
 
-  const isLogMode = content.endsWith("log");
+  const isLogMode = content.endsWith("text");
   let imagePath = null;
 
   try {
