@@ -11,14 +11,12 @@ function isBot(message) {
   if (message.data.ttl && message.data.ttl !== 0) {
     return true;
   }
-
   if (message.data.mentions && message.data.mentions.length > 0) {
     const firstMention = message.data.mentions[0];
     if (firstMention.uid === message.data.uidFrom) {
       return true;
     }
   }
-
   return false;
 }
 
@@ -90,6 +88,14 @@ async function saveViolation(threadId, userId, userName) {
   return violations[threadId][userId];
 }
 
+function isMuted(groupSettings, threadId, userId) {
+  const thread = groupSettings[threadId];
+  if (!thread || !thread.muteUsers || !thread.muteUsers[userId]) return false;
+  const muteInfo = thread.muteUsers[userId];
+  if (!muteInfo || !muteInfo.endTime) return false;
+  return Date.now() < muteInfo.endTime;
+}
+
 export async function antiBot(
   api,
   message,
@@ -104,6 +110,10 @@ export async function antiBot(
 
   if (groupSettings[threadId]?.filterBot) {
     if (!botIsAdminBox || isAdminBox || isInWhiteList(groupSettings, threadId, senderId)) {
+      return false;
+    }
+
+    if (isMuted(groupSettings, threadId, senderId)) {
       return false;
     }
 
@@ -291,4 +301,4 @@ export async function startBotViolationCheck() {
   console.log(
     chalk.yellow("Đã khởi động schedule kiểm tra vi phạm bot")
   );
-}
+    }
