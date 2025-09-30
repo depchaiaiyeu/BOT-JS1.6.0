@@ -1,307 +1,195 @@
-import schedule from "node-schedule";
-import chalk from "chalk";
-import { MessageMention } from "zlbotdqt";
-import { extendMuteDuration } from "./mute-user.js";
-import { isInWhiteList } from "./white-list.js";
-import { sendMessageStateQuote } from "../chat-zalo/chat-style/chat-style.js";
+import { MessageStyle, MessageType } from "../../api-zalo/index.js";
+import { isAdmin } from "../../index.js";
+import {
+  sendMessageComplete,
+  sendMessageFailed,
+  sendMessageResultRequest,
+} from "../../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
+import { getGlobalPrefix } from "../../service-hahuyhoang/service.js";
 import { removeMention } from "../../utils/format-util.js";
-import { getAntiState, updateAntiConfig } from "./index.js";
+import { readManagerFile, writeManagerFile } from "../../utils/io-json.js";
+import { getNameServer, updateNameServer } from "../../../src/database/index.js";
+import schedule from "node-schedule";
+import fs from "fs/promises";
+import path from "path";
 
-function isBot(message) {
-  if (message.data.ttl && message.data.ttl !== 0) {
-    return true;
+const configPath = path.join(process.cwd(), "assets/json-data/database-config.json");
+
+async function readDatabaseConfig() {
+  try {
+    const data = await fs.readFile(configPath, "utf8");
+    return JSON.parse(data);
+  } catch (err) {
+    return null;
   }
-  if (message.data.mentions && message.data.mentions.length > 0) {
-    const firstMention = message.data.mentions[0];
-    if (firstMention.uid === message.data.uidFrom) {
-      return true;
-    }
-  }
-  return false;
 }
 
-export async function handleAntiBotCommand(api, message, groupSettings) {
+async function writeDatabaseConfig(newData) {
+  try {
+    await fs.writeFile(configPath, JSON.stringify(newData, null, 2), "utf8");
+  } catch (err) {}
+}
+
+export const managerData = {
+  data: readManagerFile(),
+  hasChanges: false,
+};
+
+export async function notifyResetGroup(api) {
+  const groupRequiredReset = managerData.data.groupRequiredReset;
+  if (groupRequiredReset !== "-1") {
+    let group;
+    try {
+      group = await api.getGroupInfo(groupRequiredReset);
+    } catch (error) {
+      group = null;
+    }
+    await sendMessageResultRequest(
+      api,
+      group ? MessageType.GroupMessage : MessageType.DirectMessage,
+      groupRequiredReset,
+      "Khởi động lại hoàn tất!\nBot đã hoạt động trở lại!",
+      true,
+      30000
+    );
+    managerData.data.groupRequiredReset = "-1";
+    managerData.hasChanges = true;
+  }
+}
+
+export async function exitRestartBot(api, message) {
+  try {
+    const threadId = message.threadId;
+    managerData.data.groupRequiredReset = threadId;
+    managerData.hasChanges = true;
+    saveManagerData();
+    await sendMessageResultRequest(api, MessageType.GroupMessage, threadId, "Tiến hành khởi động lại...", true, 12000);
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    process.exit(0);
+  } catch (error) {
+    await sendMessageFailed(api, message, "Không thể tắt bot: " + error.message, false, 15000);
+  }
+}
+
+const saveManagerData = () => {
+  writeManagerFile(managerData.data);
+  managerData.hasChanges = false;
+};
+
+schedule.scheduleJob("*/5 * * * * *", () => {
+  if (managerData.hasChanges) {
+    saveManagerData();
+  }
+});
+
+export async function handleActiveBotUser(api, message, groupSettings) {
   const content = removeMention(message);
   const threadId = message.threadId;
-  const args = content.split(" ");
-  const command = args[1]?.toLowerCase();
+  const senderId = message.data.uidFrom;
+  const prefix = getGlobalPrefix();
+  const botCommand = content.replace(`${prefix}bot`, "").trim();
 
-  if (!groupSettings[threadId]) {
-    groupSettings[threadId] = {};
-  }
-
-  if (command === "show") {
-    await showViolationHistory(api, message, threadId);
+  if (!botCommand) {
+    const caption = `📖 *Hướng dẫn cho sự khởi đầu:*\n\n🔹 *Bật|tắt tương tác bot với thành viên:*\n ➤  .bot on|off\n\n🔹 *Bật|tắt chế độ game riêng tư:*\n ➤  .bot privategame on|off\n\n🔹 *Bật|tắt chế độ bot riêng tư:*\n ➤  .bot privatebot on|off\n\n🔹 *Thay đổi nameServer:*\n ➤  .bot nameserver [newNameServer]\n\n🔹 *Khởi động lại bot:*\n ➤  .bot restart`;
+    await sendMessageComplete(api, message, caption);
     return true;
   }
 
-  if (command === "on") {
-    groupSettings[threadId].filterBot = true;
-  } else if (command === "off") {
-    groupSettings[threadId].filterBot = false;
-  } else {
-    groupSettings[threadId].filterBot = !groupSettings[threadId].filterBot;
-  }
-
-  const newStatus = groupSettings[threadId].filterBot ? "bật" : "tắt";
-  const caption = `Chức năng chặn bot đã được ${newStatus}!`;
-  await sendMessageStateQuote(
-    api,
-    message,
-    caption,
-    groupSettings[threadId].filterBot,
-    300000
-  );
-  return true;
-}
-
-async function saveViolation(threadId, userId, userName) {
-  const antiState = getAntiState();
-  const violations = antiState.data.botViolations || {};
-
-  if (!violations[threadId]) {
-    violations[threadId] = {};
-  }
-
-  if (!violations[threadId][userId]) {
-    violations[threadId][userId] = {
-      count: 0,
-      times: [],
-      name: userName,
-    };
-  }
-
-  violations[threadId][userId].count++;
-  violations[threadId][userId].times.push({
-    time: Date.now(),
-  });
-
-  if (violations[threadId][userId].times.length > 3) {
-    violations[threadId][userId].times = violations[threadId][userId].times.slice(-3);
-  }
-
-  await updateAntiConfig({
-    ...antiState.data,
-    botViolations: violations,
-  });
-
-  return violations[threadId][userId];
-}
-
-function isMuted(groupSettings, threadId, userId) {
-  const thread = groupSettings[threadId];
-  if (!thread || !thread.muteUsers || !thread.muteUsers[userId]) return false;
-  const muteInfo = thread.muteUsers[userId];
-  if (!muteInfo || !muteInfo.endTime) return false;
-  return Date.now() < muteInfo.endTime;
-}
-
-export async function antiBot(
-  api,
-  message,
-  groupSettings,
-  isAdminBox,
-  botIsAdminBox,
-  isSelf
-) {
-  if (isSelf) return false;
-  const threadId = message.threadId;
-  const senderId = message.data.uidFrom;
-
-  if (groupSettings[threadId]?.filterBot) {
-    if (!botIsAdminBox || isAdminBox || isInWhiteList(groupSettings, threadId, senderId)) {
-      return false;
-    }
-
-    if (isMuted(groupSettings, threadId, senderId)) {
-      return false;
-    }
-
-    if (isBot(message)) {
-      try {
-        await api.deleteMessage(message, false).catch(console.error);
-        
-        const senderName = message.data.dName;
-        const violation = await saveViolation(threadId, senderId, senderName);
-
-        let warningMsg = `${senderName} > Tin nhắn bị xóa vì phát hiện bot\n`;
-        warningMsg += `Cảnh cáo lần ${violation.count}/3`;
-
-        if (violation.count >= 3) {
-          warningMsg += "\n⚠️ Vi phạm 3 lần, bạn bị cấm chat trong 15 phút!";
-        }
-
-        await api.sendMessage(
-          {
-            msg: warningMsg,
-            quote: message,
-            mentions: [MessageMention(senderId, senderName.length, 0)],
-            ttl: 30000,
-          },
-          threadId,
-          message.type
-        );
-
-        if (violation.count >= 3) {
-          if (!groupSettings[threadId]) {
-            groupSettings[threadId] = {};
-          }
-          await extendMuteDuration(
-            threadId,
-            senderId,
-            senderName,
-            groupSettings,
-            900
-          );
-
-          const antiState = getAntiState();
-          const violations = { ...antiState.data.botViolations };
-
-          if (violations[threadId]?.[senderId]) {
-            violations[threadId][senderId].count = 0;
-
-            await updateAntiConfig({
-              ...antiState.data,
-              botViolations: violations,
-            });
-          }
-        }
-
-        return true;
-      } catch (error) {
-        console.error("Có lỗi xảy ra khi anti bot:", error.message);
+  if (botCommand === "on" || botCommand === "off") {
+    if (groupSettings) {
+      const newStatus = botCommand === "on";
+      groupSettings[threadId].activeBot = newStatus;
+      const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+      const caption = `Đã ${statusMessage} tương tác với bot trong nhóm này.`;
+      if (newStatus) {
+        await sendMessageComplete(api, message, caption);
+      } else {
+        await sendMessageFailed(api, message, caption);
       }
+    } else {
+      await sendMessageFailed(api, message, "Không thể setup nhóm ở tin nhắn riêng tư!");
     }
+    return true;
+  }
+
+  if (botCommand.includes("privatebot")) {
+    const privateCommand = botCommand.replace("privatebot", "").trim();
+    const newStatus = privateCommand === "on";
+    managerData.data.onBotPrivate = newStatus;
+    managerData.hasChanges = true;
+    const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+    const caption = `Đã ${statusMessage} tương tác lệnh trong tin nhắn riêng tư với tất cả người dùng.`;
+    if (newStatus) {
+      await sendMessageComplete(api, message, caption);
+    } else {
+      await sendMessageFailed(api, message, caption);
+    }
+  }
+
+  if (botCommand.includes("privategame")) {
+    const privateCommand = botCommand.replace("privategame", "").trim();
+    const newStatus = privateCommand === "on";
+    managerData.data.onGamePrivate = newStatus;
+    managerData.hasChanges = true;
+    const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+    const caption = `Đã ${statusMessage} tương tác game trong tin nhắn riêng tư với tất cả người dùng.`;
+    if (newStatus) {
+      await sendMessageComplete(api, message, caption);
+    } else {
+      await sendMessageFailed(api, message, caption);
+    }
+  }
+
+  if (botCommand.startsWith("nameserver")) {
+    const name = botCommand.replace("nameserver", "").trim();
+    if (!name) {
+      const nameServer = await getNameServer();
+      await sendMessageComplete(api, message, `Tên hiện tại của nameServer: ${nameServer ?? "chưa đặt."}`);
+    } else {
+      const dbConfig = await readDatabaseConfig();
+      if (!dbConfig) {
+        await sendMessageFailed(api, message, "Không thể đọc file cấu hình!", false, 10000);
+        return true;
+      }
+      dbConfig.nameServer = name;
+      await writeDatabaseConfig(dbConfig);
+      await updateNameServer(name);
+      await sendMessageComplete(api, message, `Đã cập nhật nameServer thành: ${name}`);
+    }
+    return true;
+  }
+
+  if (["restart", "rs"].includes(botCommand)) {
+    if (isAdmin(senderId)) {
+      await exitRestartBot(api, message);
+      return true;
+    }
+    await sendMessageFailed(api, message, "Bạn không có quyền khởi động lại bot!");
+    return true;
+  }
+}
+
+export async function handleActiveGameUser(api, message, groupSettings) {
+  const content = removeMention(message);
+  const threadId = message.threadId;
+  const prefix = getGlobalPrefix();
+  const gameCommand = `${prefix}gameactive`;
+  if (content === gameCommand || content === `${gameCommand} on` || content === `${gameCommand} off`) {
+    let newStatus;
+    if (content === gameCommand) {
+      newStatus = !groupSettings[threadId].activeGame;
+    } else {
+      newStatus = content === `${gameCommand} off` ? false : true;
+    }
+    groupSettings[threadId].activeGame = newStatus;
+    const statusMessage = newStatus ? "kích hoạt" : "vô hiệu hóa";
+    const caption = `Đã ${statusMessage} xử lý tương tác trò chơi trong nhóm này.`;
+    if (newStatus) {
+      await sendMessageComplete(api, message, caption);
+    } else {
+      await sendMessageFailed(api, message, caption);
+    }
+    return true;
   }
   return false;
-}
-
-export async function showViolationHistory(api, message, threadId) {
-  try {
-    const mentions = message.data.mentions;
-
-    if (!mentions || mentions.length === 0) {
-      await api.sendMessage(
-        {
-          msg: "Vui lòng tag (@mention) người dùng để xem lịch sử vi phạm bot.",
-          quote: message,
-          ttl: 30000,
-        },
-        threadId,
-        message.type
-      );
-      return;
-    }
-
-    const antiState = getAntiState();
-    const violations = antiState.data.botViolations || {};
-
-    let responseMsg = "📝 Lịch sử vi phạm bot:\n\n";
-    const messageMentions = [];
-    let mentionPosition = responseMsg.length;
-
-    for (const mention of mentions) {
-      const userId = mention.uid;
-      const userName = "@" + message.data.content.substr(mention.pos, mention.len).replace("@", "");
-      const userViolations = violations[threadId]?.[userId];
-
-      if (userViolations && userViolations.times.length > 0) {
-        messageMentions.push(
-          MessageMention(userId, userName.length, mentionPosition)
-        );
-
-        const countViolations = userViolations.count;
-        let recentViolations = "Những vi phạm gần nhất:\n";
-        recentViolations += userViolations.times
-          .slice(-3)
-          .map(
-            (v, i) =>
-              `  ${i + 1}. ${new Date(v.time).toLocaleString()}`
-          )
-          .join("\n");
-
-        responseMsg += `${userName}:\n`;
-        responseMsg += `Số lần vi phạm: ${countViolations}\n`;
-        responseMsg += `${recentViolations}\n`;
-
-        mentionPosition = responseMsg.length;
-      } else {
-        messageMentions.push(
-          MessageMention(userId, userName.length, mentionPosition)
-        );
-        responseMsg += `${userName} chưa có vi phạm nào.\n\n`;
-        mentionPosition = responseMsg.length;
-      }
-    }
-
-    await api.sendMessage(
-      {
-        msg: responseMsg.trim(),
-        quote: message,
-        mentions: messageMentions,
-        ttl: 30000,
-      },
-      threadId,
-      message.type
-    );
-  } catch (error) {
-    console.error("Lỗi khi đọc lịch sử vi phạm bot:", error);
-    await api.sendMessage(
-      {
-        msg: "Đã xảy ra lỗi khi đọc lịch sử vi phạm bot.",
-        quote: message,
-        ttl: 30000,
-      },
-      threadId,
-      message.type
-    );
-  }
-}
-
-export async function startBotViolationCheck() {
-  const jobName = "botViolationCheck";
-  const existingJob = schedule.scheduledJobs[jobName];
-  if (existingJob) {
-    existingJob.cancel();
-  }
-  schedule.scheduleJob(jobName, "*/5 * * * * *", async () => {
-    try {
-      const antiState = getAntiState();
-      let hasChanges = false;
-      const currentTime = Date.now();
-      const VIOLATION_TIMEOUT = 30 * 60 * 1000;
-      const violations = { ...antiState.data.botViolations };
-      for (const threadId in violations) {
-        for (const userId in violations[threadId]) {
-          const userViolations = violations[threadId][userId];
-          const recentViolations = userViolations.times.filter((violation) => {
-            return currentTime - violation.time < VIOLATION_TIMEOUT;
-          });
-          if (recentViolations.length < userViolations.times.length) {
-            hasChanges = true;
-            userViolations.times = recentViolations;
-            userViolations.count = recentViolations.length;
-            if (recentViolations.length === 0) {
-              delete violations[threadId][userId];
-            }
-          }
-        }
-        if (Object.keys(violations[threadId]).length === 0) {
-          delete violations[threadId];
-        }
-      }
-      if (hasChanges) {
-        await updateAntiConfig({
-          ...antiState.data,
-          botViolations: violations,
-        });
-      }
-    } catch (error) {
-      console.error("Lỗi khi kiểm tra vi phạm bot:", error);
-    }
-  });
-
-  console.log(
-    chalk.yellow("Đã khởi động schedule kiểm tra vi phạm bot")
-  );
 }
