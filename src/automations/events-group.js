@@ -111,8 +111,9 @@ export async function groupEvents(api, event) {
       for (const user of updateMembers) {
         const userId = user.id;
         const userInfo = await getUserInfoData(api, userId);
+        const isAdminUser = isAdmin(userId, threadId);
 
-        const imagePath = await cv.createWelcomeImage(userInfo, groupName, groupType, userActionName);
+        const imagePath = await cv.createWelcomeImage(userInfo, groupName, groupType, userActionName, isAdminUser);
         await sendGroupMessage(api, threadId, imagePath, "");
         await cv.clearImagePath(imagePath);
       }
@@ -133,49 +134,52 @@ export async function groupEvents(api, event) {
   const topicTitle = event.data?.topicTitle || "";
   const link = event.data?.info?.group_link || event.data?.link || "";
   const { subType } = event.data;
+  const groupTypeText = groupType === 2 ? "Community" : "Group";
+  const vnGroupType = groupType === 2 ? "Cộng Đồng" : "Nhóm";
 
   let imagePath = null;
+  const actorInfo = await getUserInfoData(api, idAction);
 
   switch (type) {
     case GroupEventType.UPDATE_SETTING:
-      imagePath = await cv.createUpdateSettingImage(actorName, groupName);
+      imagePath = await cv.createUpdateSettingImage(actorInfo, actorName, groupName, groupType);
       break;
 
     case GroupEventType.UPDATE:
-      imagePath = await cv.createUpdateDescImage(actorName, groupName);
+      imagePath = await cv.createUpdateDescImage(actorInfo, actorName, groupName, groupType);
       break;
 
     case GroupEventType.NEW_LINK:
-      imagePath = await cv.createNewLinkImage(actorName, groupName);
+      imagePath = await cv.createNewLinkImage(actorInfo, actorName, groupName, groupType);
       if (imagePath && link) {
-        await sendGroupMessage(api, threadId, imagePath, `🔗 Link nhóm mới: ${link}`);
+        await sendGroupMessage(api, threadId, imagePath, `🔗 Link ${groupTypeText.toLowerCase()} mới: ${link}`);
         await cv.clearImagePath(imagePath);
         return;
       }
       break;
 
     case GroupEventType.NEW_PIN_TOPIC:
-      imagePath = await cv.createPinTopicImage(actorName, groupName, topicTitle);
+      imagePath = await cv.createPinTopicImage(actorInfo, actorName, groupName, topicTitle, groupType);
       break;
 
     case GroupEventType.UPDATE_TOPIC:
-      imagePath = await cv.createUpdateTopicImage(actorName, groupName, topicTitle);
+      imagePath = await cv.createUpdateTopicImage(actorInfo, actorName, groupName, topicTitle, groupType);
       break;
 
     case GroupEventType.UPDATE_BOARD:
-      imagePath = await cv.createUpdateBoardImage(actorName, groupName);
+      imagePath = await cv.createUpdateBoardImage(actorInfo, actorName, groupName, groupType);
       break;
 
     case GroupEventType.REORDER_PIN_TOPIC:
-      imagePath = await cv.createReorderPinImage(actorName, groupName);
+      imagePath = await cv.createReorderPinImage(actorInfo, actorName, groupName, groupType);
       break;
 
     case GroupEventType.UNPIN_TOPIC:
-      imagePath = await cv.createUnpinTopicImage(actorName, groupName, topicTitle);
+      imagePath = await cv.createUnpinTopicImage(actorInfo, actorName, groupName, topicTitle, groupType);
       break;
 
     case GroupEventType.REMOVE_TOPIC:
-      imagePath = await cv.createRemoveTopicImage(actorName, groupName, topicTitle);
+      imagePath = await cv.createRemoveTopicImage(actorInfo, actorName, groupName, topicTitle, groupType);
       break;
 
     case GroupEventType.ADD_ADMIN:
@@ -185,7 +189,7 @@ export async function groupEvents(api, event) {
         const targetInfo = event.data?.updateMembers?.[0];
         const targetName = targetInfo?.dName || "Người dùng";
         const sourceInfo = await getUserInfoData(api, idAction);
-        imagePath = await cv.createAdminChangeImage(sourceInfo.name, targetName, groupName, isAdd);
+        imagePath = await cv.createAdminChangeImage(sourceInfo, targetName, groupName, isAdd, groupType);
       }
       break;
 
