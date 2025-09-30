@@ -57,14 +57,13 @@ async function handleHighLevelAdmin(api, message, action) {
   }
 
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
-  const adminList = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
-  const fixedAdminId = "-1";
+  const adminList = JSON.parse(await fs.readFile(adminListPath, "utf-8"));;
   for (const mention of mentions) {
     const targetId = mention.uid;
     const targetName = message.data.content.substring(mention.pos, mention.pos + mention.len).replace("@", "");
     if (action === "admin") {
-      if (message.data.uidFrom !== fixedAdminId) {
-        await sendMessageInsufficientAuthority(api, message, "Chỉ Đấng tối cao mới được phép thêm quản trị viên cấp cao.");
+      if (message.data.uidFrom !== adminList) {
+        await sendMessageInsufficientAuthority(api, message, "Chỉ quản QTV tối cao mới được phép thêm quản trị viên cấp cao.");
         continue;
       }
     
