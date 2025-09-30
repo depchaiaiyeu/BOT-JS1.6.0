@@ -1,8 +1,8 @@
 import { GroupEventType, MessageType } from "../api-zalo/models/index.js";
 import { getUserInfoData } from "../service-hahuyhoang/info-service/user-info.js";
+import { getGroupInfoData } from "../service-hahuyhoang/info-service/group-info.js";
 import * as cv from "../utils/canvas/index.js";
 import { readGroupSettings } from "../utils/io-json.js";
-import path from "path";
 import { getBotId, isAdmin } from "../index.js";
 
 const blockedMembers = new Map();
@@ -34,6 +34,8 @@ export async function groupEvents(api, event) {
 
   const groupSettings = readGroupSettings();
   const threadSettings = groupSettings[threadId] || {};
+  const isEventEnabled = threadSettings.welcomeGroup && threadSettings.byeGroup;
+
   if ((type === GroupEventType.JOIN && !threadSettings.welcomeGroup) 
     || (type === GroupEventType.LEAVE && !threadSettings.byeGroup)) {
     return;
@@ -96,7 +98,7 @@ export async function groupEvents(api, event) {
           break;
 
         default:
-          return;
+          break;
       }
 
       if (imagePath) {
@@ -124,4 +126,75 @@ export async function groupEvents(api, event) {
         break;
     }
   }
-    }
+
+  if (!isEventEnabled) return;
+
+  const actorName = event.data?.actorName || (event.data?.updateMembers?.[0]?.dName ?? "Người dùng");
+  const topicTitle = event.data?.topicTitle || "";
+  const link = event.data?.info?.group_link || event.data?.link || "";
+  const { subType } = event.data;
+
+  let imagePath = null;
+
+  switch (type) {
+    case GroupEventType.UPDATE_SETTING:
+      imagePath = await cv.createUpdateSettingImage(actorName, groupName);
+      break;
+
+    case GroupEventType.UPDATE:
+      imagePath = await cv.createUpdateDescImage(actorName, groupName);
+      break;
+
+    case GroupEventType.NEW_LINK:
+      imagePath = await cv.createNewLinkImage(actorName, groupName);
+      if (imagePath && link) {
+        await sendGroupMessage(api, threadId, imagePath, `🔗 Link nhóm mới: ${link}`);
+        await cv.clearImagePath(imagePath);
+        return;
+      }
+      break;
+
+    case GroupEventType.NEW_PIN_TOPIC:
+      imagePath = await cv.createPinTopicImage(actorName, groupName, topicTitle);
+      break;
+
+    case GroupEventType.UPDATE_TOPIC:
+      imagePath = await cv.createUpdateTopicImage(actorName, groupName, topicTitle);
+      break;
+
+    case GroupEventType.UPDATE_BOARD:
+      imagePath = await cv.createUpdateBoardImage(actorName, groupName);
+      break;
+
+    case GroupEventType.REORDER_PIN_TOPIC:
+      imagePath = await cv.createReorderPinImage(actorName, groupName);
+      break;
+
+    case GroupEventType.UNPIN_TOPIC:
+      imagePath = await cv.createUnpinTopicImage(actorName, groupName, topicTitle);
+      break;
+
+    case GroupEventType.REMOVE_TOPIC:
+      imagePath = await cv.createRemoveTopicImage(actorName, groupName, topicTitle);
+      break;
+
+    case GroupEventType.ADD_ADMIN:
+    case GroupEventType.REMOVE_ADMIN:
+      if (subType === 1) {
+        const isAdd = type === GroupEventType.ADD_ADMIN;
+        const targetInfo = event.data?.updateMembers?.[0];
+        const targetName = targetInfo?.dName || "Người dùng";
+        const sourceInfo = await getUserInfoData(api, idAction);
+        imagePath = await cv.createAdminChangeImage(sourceInfo.name, targetName, groupName, isAdd);
+      }
+      break;
+
+    default:
+      break;
+  }
+
+  if (imagePath) {
+    await sendGroupMessage(api, threadId, imagePath, "");
+    await cv.clearImagePath(imagePath);
+  }
+}
