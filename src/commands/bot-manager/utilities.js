@@ -323,10 +323,10 @@ export async function checkNotFindCommand(api, message, command, availableComman
       {
         success: false,
         message:
-          `Nếu bạn thắc mắc tôi có những lệnh gì, hãy sử dụng:\n` +
-          `${prefix}help - Xem hướng dẫn sử dụng\n` +
-          `${prefix}game - Xem hướng dẫn chơi game\n` +
-          `${prefix}command - Xem danh sách lệnh có sẵn`,
+          `Nếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n` +
+          `${prefix}help - Xem các lệnh cơ bản\n` +
+          `${prefix}game - Xem các lệnh game\n` +
+          `${prefix}command - Xem toàn bộ danh sách lệnh có sẵn`,
       },
       false,
       30000
