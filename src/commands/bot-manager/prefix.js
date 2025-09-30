@@ -18,7 +18,7 @@ export async function handlePrefixCommand(api, message, threadId, isAdmin) {
     if (!isAdmin) return true;
     await api.sendMessage(
       {
-        msg: `Prefix bây giờ của bot là: ${currentPrefix === "" ? "  " : currentPrefix}`,
+        msg: `Prefix hiện tại của bot là: ${currentPrefix === "" ? "  " : currentPrefix}`,
         quote: message,
         ttl: 30000
       },
