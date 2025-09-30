@@ -90,7 +90,22 @@ export async function handleActiveBotUser(api, message, groupSettings) {
   const botCommand = content.replace(`${prefix}bot`, "").trim();
 
   if (!botCommand) {
-    const caption = `📖 *Hướng dẫn cho sự khởi đầu:*\n\n🔹 *Bật|tắt tương tác bot với thành viên:*\n ➤  .bot on|off\n\n🔹 *Thay đổi nameServer:*\n ➤  .bot nameserver [newNameServer]\n\n🔹 *Khởi động lại bot:*\n ➤  .bot restart\n\ncách thay name server:\ntruy cập:\n../../../assets/json-data/database-config.json\ntìm nameServer rồi thay name server mới`;
+    const huongDan = `📖 *Hướng dẫn cho sự khởi đầu:*
+
+🔹 *Bật|tắt tương tác bot với thành viên:*
+ ➤ .bot on|off
+
+🔹 *Bật|tắt chế độ chơi riêng tư:*
+ ➤ .privategame on|off
+
+🔹 *Bật|tắt chế độ bot riêng tư:*
+ ➤ .privatebot on|off
+
+🔹 *Thay đổi nameServer:*
+ ➤ .bot nameserver [newNameServer]
+
+🔹 *Khởi động lại bot:*
+ ➤ .bot restart`;
     await sendMessageComplete(api, message, caption);
     return true;
   }
