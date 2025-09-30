@@ -297,16 +297,17 @@ export async function createBlockSpamLinkImage(userInfo, groupName, groupType, g
   );
 }
 
-export async function createJoinRequestImage(userInfo, groupName, groupType, userActionName, isAdmin) {
+export async function createBlockAntiBot(userInfo, groupName, groupType, gender) {
   const userName = userInfo.name || "";
+  const genderText = gender === 0 ? "Thằng" : gender === 1 ? "Con" : "Thằng";
   return createImage(
     userInfo,
     {
-      title: `${groupName}`,
-      userName: `Hú Le ${isAdmin ? "Sếp " : ""}${userName}`,
-      subtitle: `Đã Yêu Cầu Tham Gia ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
+      title: `Blocked Out Anti Bot Member`,
+      userName: `${genderText} Oắt Con ${userName}`,
+      subtitle: `Do sử dụng bot đã bị chặn khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
       author: `${groupName}`,
     },
-    `join_request_${Date.now()}.png`
+    `blocked_anti_bot_${Date.now()}.png`
   );
 }
