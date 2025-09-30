@@ -1,12 +1,7 @@
-import { createCanvas, loadImage, registerFont } from "canvas";
+import { createCanvas, loadImage } from "canvas";
 import fs from "fs";
 import path from "path";
 import * as cs from "./index.js";
-
-const __filename = new URL(import.meta.url).pathname;
-const __dirname = path.dirname(__filename);
-
-registerFont(path.resolve(__dirname, "../../../assets/fonts/NotoEmoji-Bold.ttf"), { family: "NotoEmoji" });
 
 export const linkBackgroundDefault = "https://i.postimg.cc/tTwFPLV1/avt.jpg";
 export const linkBackgroundDefaultZalo = "https://i.postimg.cc/tTwFPLV1/avt.jpg";
@@ -76,39 +71,39 @@ async function createImage(userInfo, message, fileName) {
   let gradientColors;
   if (typeImage === 0) {
     gradientColors = [
-      "#00ffcc",
-      "#00ff95",
-      "#00ff80",
-      "#1aff8c",
-      "#33ff99",
+      "#00ffcc", // Xanh cyan neon
+      "#00ff95", // Xanh mint neon
+      "#00ff80", // Xanh spring neon
+      "#1aff8c", // Xanh lá neon sáng
+      "#33ff99", // Xanh aqua neon
     ];
   } else if (typeImage === 1) {
     gradientColors = [
-      "#FFFFFF",
-      "#F0F0F0",
-      "#FAFAFF",
-      "#F8FBFF",
-      "#EAEAFF",
-      "#FFF5FA",
-      "#FFFFFF"
+      "#FFFFFF", // Trắng
+      "#F0F0F0", // Xám rất nhạt sáng hơn
+      "#FAFAFF", // Ghost white sáng hơn
+      "#F8FBFF", // Alice blue sáng hơn
+      "#EAEAFF", // Lavender sáng hơn
+      "#FFF5FA", // Lavender blush sáng hơn
+      "#FFFFFF"  // Trắng
     ];
   } else if (typeImage === 2) {
     gradientColors = [
-      "#ff0000",
-      "#ff1111",
-      "#ff2200",
-      "#ff0022",
-      "#ff3300"
+      "#ff0000", // Đỏ tươi thuần
+      "#ff1111", // Đỏ tươi sáng
+      "#ff2200", // Đỏ cam tươi 
+      "#ff0022", // Đỏ tươi đậm
+      "#ff3300"  // Đỏ cam sáng
     ];
   } else {
     gradientColors = [
-      "#FF1493",
-      "#FF69B4",
-      "#FFD700",
-      "#FFA500",
-      "#FF8C00",
-      "#00FF7F",
-      "#40E0D0"
+      "#FF1493", // Deep pink
+      "#FF69B4", // Hot pink
+      "#FFD700", // Gold
+      "#FFA500", // Orange
+      "#FF8C00", // Dark orange
+      "#00FF7F", // Spring green
+      "#40E0D0"  // Turquoise
     ];
   }
   const shuffledColors = [...gradientColors].sort(() => Math.random() - 0.5);
@@ -136,12 +131,14 @@ async function createImage(userInfo, message, fileName) {
       ctx.fillStyle = gradient;
       ctx.fill();
 
+      // Vẽ avatar
       ctx.beginPath();
       ctx.arc(xAvatar, height / 2, widthAvatar / 2, 0, Math.PI * 2, true);
       ctx.clip();
       ctx.drawImage(avatar, xAvatar - widthAvatar / 2, yAvatar, widthAvatar, heightAvatar);
       ctx.restore();
 
+      // Vẽ đường thẳng màu trắng bên phải avatar
       ctx.beginPath();
       ctx.moveTo(xAvatar + widthAvatar / 2 + borderWidth + 30, yAvatar + 30);
       ctx.lineTo(xAvatar + widthAvatar / 2 + borderWidth + 30, yAvatar + heightAvatar - 30);
@@ -159,40 +156,44 @@ async function createImage(userInfo, message, fileName) {
   let x2 = x1 + (width - x1) / 2 - 5;
   let y1 = 86;
 
+  // Tạo gradient cho title
   const titleGradient = ctx.createLinearGradient(x2 - 150, y1 - 30, x2 + 150, y1);
   shuffledColors.slice(0, 3).forEach((color, index) => {
     titleGradient.addColorStop(index / 2, color);
   });
   ctx.fillStyle = titleGradient;
   ctx.textAlign = "center";
-  ctx.font = "bold 36px BeVietnamPro, NotoEmoji";
+  ctx.font = "bold 36px BeVietnamPro";
   ctx.fillText(message.title, x2, y1);
 
+  // Gradient cho userName
   let y2 = y1 + 50;
   const userNameGradient = ctx.createLinearGradient(x2 - 150, y2 - 30, x2 + 150, y2);
   shuffledColors.slice(2, 5).forEach((color, index) => {
     userNameGradient.addColorStop(index / 2, color);
   });
   ctx.fillStyle = userNameGradient;
-  ctx.font = "bold 36px BeVietnamPro, NotoEmoji";
+  ctx.font = "bold 36px BeVietnamPro";
   ctx.fillText(message.userName, x2, y2);
 
+  // Gradient cho subtitle
   let y3 = y2 + 45;
   const subtitleGradient = ctx.createLinearGradient(x2 - 150, y3 - 30, x2 + 150, y3);
   shuffledColors.slice(1, 4).forEach((color, index) => {
     subtitleGradient.addColorStop(index / 2, color);
   });
   ctx.fillStyle = subtitleGradient;
-  ctx.font = "32px BeVietnamPro, NotoEmoji";
+  ctx.font = "32px BeVietnamPro";
   ctx.fillText(message.subtitle, x2, y3);
 
+  // Gradient cho author
   let y4 = y3 + 45;
   const authorGradient = ctx.createLinearGradient(x2 - 150, y4 - 30, x2 + 150, y4);
   shuffledColors.slice(3, 6).forEach((color, index) => {
     authorGradient.addColorStop(index / 2, color);
   });
   ctx.fillStyle = authorGradient;
-  ctx.font = "bold 32px BeVietnamPro, NotoEmoji";
+  ctx.font = "bold 32px BeVietnamPro";
   ctx.fillText(message.author, x2, y4);
 
   const filePath = path.resolve(`./assets/temp/${fileName}`);
@@ -227,7 +228,7 @@ export async function createGoodbyeImage(userInfo, groupName, groupType, isAdmin
     {
       title: "Member Left The Group",
       userName: `${isAdmin ? "Sếp " : ""}${userName}`,
-      subtitle: `Vừa rời khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
+      subtitle: `Vừa Rời Khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
       author: `${groupName}`
     },
     `goodbye_${Date.now()}.png`
@@ -274,7 +275,7 @@ export async function createBlockSpamImage(userInfo, groupName, groupType, gende
     {
       title: `Blocked Out Spam Member`,
       userName: `${genderText} Oắt Con ${userName}`,
-      subtitle: `Do spam đã bị chặn khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
+      subtitle: `Do Spam Đã Bị Chặn Khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
       author: `${groupName}`,
     },
     `blocked_spam_${Date.now()}.png`
@@ -289,7 +290,7 @@ export async function createBlockSpamLinkImage(userInfo, groupName, groupType, g
     {
       title: `Blocked Out Spam Link Member`,
       userName: `${genderText} Oắt Con ${userName}`,
-      subtitle: `Do spam link đã bị chặn khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
+      subtitle: `Do Spam Link Đã Bị Chặn Khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
       author: `${groupName}`,
     },
     `blocked_spam_link_${Date.now()}.png`
@@ -304,7 +305,7 @@ export async function createBlockAntiBotImage(userInfo, groupName, groupType, ge
     {
       title: `Blocked Out Anti Bot Member`,
       userName: `${genderText} Oắt Con ${userName}`,
-      subtitle: `Do sử dụng bot đã bị chặn khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
+      subtitle: `Do Sử Dụng Bot Đã Bị Chặn Khỏi ${groupType ? (groupType === 2 ? "Cộng Đồng" : "Nhóm") : "Nhóm"}`,
       author: `${groupName}`,
     },
     `blocked_anti_bot_${Date.now()}.png`
