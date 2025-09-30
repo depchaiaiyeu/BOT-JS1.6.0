@@ -8,6 +8,7 @@ import { getBotId, isAdmin, admins, checkDisableProphylacticConfig } from "../in
 import { antiLink } from "../service-hahuyhoang/anti-service/anti-link.js";
 import { antiSpam } from "../service-hahuyhoang/anti-service/anti-spam.js";
 import { antiBadWord } from "../service-hahuyhoang/anti-service/anti-badword.js";
+import { antiBot } from "../service-hahuyhoang/anti-service/anti-bot.js";
 import { antiNotText } from "../service-hahuyhoang/anti-service/anti-not-text.js";
 import { handleMute } from "../service-hahuyhoang/anti-service/mute-user.js";
 import { antiMedia } from "../service-hahuyhoang/anti-service/anti-media.js";
@@ -122,7 +123,6 @@ export async function messagesUser(api, message) {
         logMessageToFile(logMessage);
         let continueProcessingChat = true;
         continueProcessingChat = !isUserBlocked(senderId);
-        // continueProcessingChat = continueProcessingChat && (isAdminLevelHighest && !isSelf) && !(await testFutureUser(api, message));
         continueProcessingChat = continueProcessingChat && (await canReplyToUser(senderId));
         continueProcessingChat = continueProcessingChat && !(await handleOnReplyFromUser(api, message));
         if (continueProcessingChat) {
@@ -130,7 +130,6 @@ export async function messagesUser(api, message) {
           continueProcessingChat = continueProcessingChat && commandResult === 1 && !isSelf;
           continueProcessingChat =
             continueProcessingChat && !(!isSelf && (await checkAndSendBusinessCard(api, senderId, senderName)));
-       //   continueProcessingChat = continueProcessingChat && (await chatWithSimsimi(api, message));
         }
       }
       break; 
@@ -163,8 +162,7 @@ export async function messagesUser(api, message) {
       pushMessageToWebLog(io, nameGroup, senderName, content, groupInfo.avt);
 
       if (!isSelf) {
-        if (threadId == "6456980305260228374") { //Có nhóm test thì thay id vào đây để test các canvas
-          // await canvasTest(api,message, senderId, senderName, nameGroup, groupInfo);
+        if (threadId == "6456980305260228374") {
           await testFutureGroup(api, message, groupInfo);
         }
         updateUserRank(threadId, senderId, message.data.dName, nameGroup);
@@ -172,6 +170,7 @@ export async function messagesUser(api, message) {
 
       let handleChat = true;
       handleChat = handleChat && !(await superCheckBox(api, message, isSelf, botIsAdminBox, isAdminBox));
+      handleChat = handleChat && !(await antiBot(api, message, groupSettings, isAdminBox, botIsAdminBox, isSelf));
       handleChat = handleChat && !(await antiSpam(api, message, groupInfo, isAdminBox, groupSettings, botIsAdminBox, isSelf));
       handleChat = handleChat && !(await antiMedia(api, message, groupSettings, isAdminBox, botIsAdminBox, isSelf));
       handleChat = handleChat && !(await antiSticker(api, message, groupSettings, isAdminBox, botIsAdminBox, isSelf));
@@ -190,12 +189,6 @@ export async function messagesUser(api, message) {
         handleChat
       );
       if (isPlainText) {
-        // numberHandleCommand = -1: Không Có Lệnh Nào Được Xử Lý
-        // numberHandleCommand = 1: Đã Xử Lý Lệnh activeBot
-        // numberHandleCommand = 2: Bỏ Qua Xử Lý Lệnh Chat Bot
-        // numberHandleCommand = 3: Đã Xử Lý Lệnh Quản Trị
-        // numberHandleCommand = 5: Đã Xử Lý Lệnh Game
-        // numberHandleCommand = 99: Phát Hiện Dùng Lệnh, Check Lệnh Hiện Tại (Nếu Không Có Lệnh Nào Được Xử Lý -> Đưa Ra Gợi Ý)
         handleChat = handleChat && groupSettings[threadId].activeBot === true;
         handleChat = handleChat && !isSelf;
         if (handleChat || (!isSelf && isAdminBot)) {
@@ -228,4 +221,4 @@ export async function messagesUser(api, message) {
       break;
     }
   }
-}
+                                   }
