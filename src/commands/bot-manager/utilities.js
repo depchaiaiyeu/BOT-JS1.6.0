@@ -1214,44 +1214,46 @@ export async function spamMessagesInGroup(api, message, aliasCommand) {
 }
 
 export async function testMediaCommand(api, message) {
-  const { threadId, data } = message;
+  const { threadId, data, type } = message;
   const body = data?.content;
 
   if (!body) {
     await api.sendMessage(
-      { msg: "Không tìm thấy nội dung lệnh! Vui lòng sử dụng: test [số lượng reaction]" },
+      { msg: "${getGlobalPrefix}test <> count" },
       threadId,
-      message.type
+      type
     );
     return;
   }
 
-  const args = body.split(" ").slice(1);
-  const countArg = args[0];
+  const args = body.split(" ");
+  const contentMatch = body.match(/<([^>]+)>/);
+  const textArg = contentMatch ? contentMatch[1] : null;
+  const countArg = args[args.length - 1];
   const count = parseInt(countArg, 10);
 
-  if (!Number.isInteger(count) || count <= 0) {
+  if (!textArg || !Number.isInteger(count) || count <= 0) {
     await api.sendMessage(
-      { msg: "Vui lòng nhập số reaction hợp lệ, ví dụ: test 100" },
+      { msg: "Err!?" },
       threadId,
-      message.type
+      type
     );
     return;
   }
 
   try {
-    const targetMessage = { threadId };
-    await sendReactionWaitingCountdown(api, targetMessage, count);
-    await api.sendMessage(
-      { msg: `Bắt đầu gửi ${count} reaction random vào cuộc trò chuyện này...` },
-      threadId,
-      message.type
-    );
+    for (let i = 0; i < count; i++) {
+      await api.sendMessage(
+        { msg: textArg, ttl: 100 },
+        threadId,
+        type
+      );
+    }
   } catch (error) {
     await api.sendMessage(
       { msg: `Đã xảy ra lỗi: ${error.message}` },
       threadId,
-      message.type
+      type
     );
   }
 }
