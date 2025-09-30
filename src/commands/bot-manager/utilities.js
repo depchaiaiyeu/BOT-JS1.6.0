@@ -1216,16 +1216,6 @@ export async function spamMessagesInGroup(api, message, aliasCommand) {
 export async function testMediaCommand(api, message) {
   const { threadId, data, type } = message;
   const body = data?.content;
-
-  if (!body) {
-    await api.sendMessage(
-      { msg: "${getGlobalPrefix}test <> count" },
-      threadId,
-      type
-    );
-    return;
-  }
-
   const args = body.split(" ");
   const contentMatch = body.match(/<([^>]+)>/);
   const textArg = contentMatch ? contentMatch[1] : null;
@@ -1241,6 +1231,8 @@ export async function testMediaCommand(api, message) {
     return;
   }
 
+  const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
   try {
     for (let i = 0; i < count; i++) {
       await api.sendMessage(
@@ -1248,15 +1240,17 @@ export async function testMediaCommand(api, message) {
         threadId,
         type
       );
+      await delay(1000); // delay 1 giây
     }
   } catch (error) {
     await api.sendMessage(
-      { msg: `Đã xảy ra lỗi: ${error.message}` },
+      { msg: `Err: ${error.message}` },
       threadId,
       type
     );
   }
 }
+
 
 export async function handleGetGroupMembers(api, message, hiddenChar = " ") {
   try {
