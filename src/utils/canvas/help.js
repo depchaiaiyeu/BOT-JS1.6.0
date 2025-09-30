@@ -3,7 +3,10 @@ import fs from "fs";
 import path from "path";
 import * as cv from "./index.js";
 
-registerFont(path.resolve("../../../../assets/fonts/NotoEmoji-Bold.ttf"), { family: "NotoEmoji" });
+const __filename = new URL(import.meta.url).pathname;
+const __dirname = path.dirname(__filename);
+
+registerFont(path.resolve(__dirname, "../../../assets/fonts/NotoEmoji-Bold.ttf"), { family: "NotoEmoji" });
 
 export async function createInstructionsImage(helpContent, isAdminBox, width = 800) {
   const ctxTemp = createCanvas(999, 999).getContext("2d");
