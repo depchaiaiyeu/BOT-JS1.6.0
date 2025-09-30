@@ -356,12 +356,12 @@ export async function handleSendTrackSoundCloud(api, message, track) {
     track.comment_count && `${track.comment_count.toLocaleString()} 💬`
   ].filter(Boolean);
 
-  const caption = `> From SoundCloud <\nNhạc đây người đẹp ơi !!!`;
+  const caption = `> From SoundCloud <\nNhạc Của Bạn Đây!!!`;
 
   const objectMusic = {
     trackId: track.id,
     title: track.title,
-    artists: track.user?.username || "Unknown Artist",
+    artists: `Artists: ${track.user?.username} || "Unknown Artist"`,
     like: track.likes_count,
     listen: track.playback_count,
     comment: track.comment_count,
