@@ -67,7 +67,7 @@ import { getCommandConfig, isAdmin } from "../index.js";
 import {
   sendMessageFromSQL,
   sendMessageInsufficientAuthority,
-} from "../service-dqt/chat-zalo/chat-style/chat-style.js";
+} from "../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
 import { handleAdminHighLevelCommands, handleListAdmin } from "./bot-manager/admin-manager.js";
 import { handleAntiSpamCommand } from "../service-hahuyhoang/anti-service/anti-spam.js";
 import {
