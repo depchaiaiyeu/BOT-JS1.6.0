@@ -43,7 +43,7 @@ import { handleOnlyText } from "../service-hahuyhoang/anti-service/anti-not-text
 import { scoldUser } from "../service-hahuyhoang/chat-bot/scold-user/scold-user.js";
 import { getBotDetails } from "../service-hahuyhoang/info-service/bot-info.js";
 import { handleDeleteResource, handleDownloadResource } from "../service-hahuyhoang/download-resources/download-resource.js";
-import { handleSaveVoiceLink } from "../service-hahuyhoang/download-resources/download-link.js"
+import { handleSaveVoiceLink } from "../service-hahuyhoang/download-resources/download-link.js";
 import { handleGoogleCommand } from "../service-hahuyhoang/api-crawl/google/google-search.js";
 import { handleSendVoice } from "../service-hahuyhoang/chat-zalo/chat-special/send-voice/send-voice-download.js"
 import { handleSendCustomerStickerVideo } from "../service-hahuyhoang/chat-zalo/chat-special/send-sticker/customer-sticker.js";
@@ -62,11 +62,12 @@ import {
   handleUnbanCommand,
 } from "../service-hahuyhoang/game-service/index.js";
 import { handleAntiLinkCommand } from "../service-hahuyhoang/anti-service/anti-link.js";
+import { handleMyBotCommand } from "../service-hahuyhoang/tien-ich/mybot.js";
 import { getCommandConfig, isAdmin } from "../index.js";
 import {
   sendMessageFromSQL,
   sendMessageInsufficientAuthority,
-} from "../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
+} from "../service-dqt/chat-zalo/chat-style/chat-style.js";
 import { handleAdminHighLevelCommands, handleListAdmin } from "./bot-manager/admin-manager.js";
 import { handleAntiSpamCommand } from "../service-hahuyhoang/anti-service/anti-spam.js";
 import {
@@ -1305,6 +1306,8 @@ export async function handleCommand(
                 break;
               case "whitlistlink":
                 await handleWhitelistCommand (api, message, aliasCommand );
+              case "mybot":
+                await handleMyBotCommand (api, message, aliasCommand );
                 break;
               case "object":
                 await logReply (api, message);
