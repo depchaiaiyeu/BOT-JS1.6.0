@@ -17,7 +17,7 @@ export const COLOR_RED = "db342e";
 export const COLOR_YELLOW = "f7b503";
 export const COLOR_GREEN = "15a85f";
 export const SIZE_18 = "18";
-export const SIZE_16 = "18";
+export const SIZE_16 = "16";
 export const IS_BOLD = true;
 
 async function isValidMediaUrl(url) {
@@ -48,8 +48,8 @@ async function isValidMediaUrl(url) {
 
 export async function removeBackground(imageUrl) {
   try {
-    const apiKey = "0c590fbeeb556d3cd29f419181c4a2";
-    const apiUrl = `https://hungdev.id.vn/ai/rpb?url=${encodeURIComponent(imageUrl)}&version=v3&apikey=${apiKey}`;
+    const apiKey = "Kien@123itvn";
+    const apiUrl = `https://hoangdev.io.vn/media/removebackground?input_url=${encodeURIComponent(imageUrl)}&apikey=${apiKey}`;
     const response = await axios.get(apiUrl);
     const base64Data = response.data?.data;
     if (!response.data?.success || !base64Data || !base64Data.startsWith("data:image")) {
