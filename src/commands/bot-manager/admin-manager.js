@@ -127,7 +127,7 @@ export async function handleListAdmin(api, message, groupSettings) {
 
   await api.sendMessage(
     {
-      msg: "🌟 ${senderName} - Danh sách quản trị viên 🌟",
+      msg: `🌟 ${senderName} - Danh sách quản trị viên 🌟`,
       attachments: [imagePath],
       mentions: [{ pos: 3, uid: senderId, len: senderName.length }],
     },
