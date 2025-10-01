@@ -88,10 +88,7 @@ async function handleHighLevelAdmin(api, message, action) {
 
 export async function handleListAdmin(api, message, groupSettings) {
   const threadId = message.threadId;
-  
-  const senderId = message.data.uidFrom;
-  const senderName = message.data.dName;
-  
+
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const highLevelAdmins = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
 
@@ -127,9 +124,9 @@ export async function handleListAdmin(api, message, groupSettings) {
 
   await api.sendMessage(
     {
-      msg: "🌟 ${senderName} - Danh sách quản trị viên 🌟",
+      msg: "Danh sách quản trị viên",
       attachments: [imagePath],
-      mentions: [{ pos: 3, uid: senderId, len: senderName.length }],
+      quote: message,
     },
     threadId,
     message.type
@@ -194,4 +191,4 @@ async function handleAddRemoveAdmin(api, message, groupSettings, action) {
         break;
     }
   }
-}
+      }
