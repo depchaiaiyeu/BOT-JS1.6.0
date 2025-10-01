@@ -25,8 +25,8 @@ export const COLOR_GREEN = "15a85f";
 export const SIZE_16 = "14";
 export const IS_BOLD = true;
 
-export const API_KEY_HUNGDEV = "Kien@123itvn"; // tự thay
-export const API_URL_DOWNAIO_HUNGDEV = "https://hoangdev.io.vn/aio/aio-download"; // tự thay
+export const API_KEY_HUNGDEV = "Kien@123itvn";
+export const API_URL_DOWNAIO_HUNGDEV = "https://hoangdev.io.vn/aio/aio-download";
 
 const MEDIA_TYPES = {
   "tiktok.com": "tiktok",
@@ -104,13 +104,17 @@ export const getDurationVideo = async (path) => {
 
 export const getDataDownloadVideo = async (url) => {
   try {
-    const response = await axios.get(`${API_URL_DOWNAIO_HUNGDEV}?url=${encodeURIComponent(url)}&apikey=${API_KEY_HUNGDEV}`, {
+    const response = await axios.get(API_URL_DOWNAIO_HUNGDEV, {
+      params: {
+        apikey: API_KEY_HUNGDEV,
+        input_url: url
+      },
       headers: {
         "Content-Type": "application/json",
       },
     });
 
-    if (response.data && response.data.data) {
+    if (response.data && response.data.success && response.data.data) {
       return response.data.data;
     }
     return null;
@@ -119,7 +123,6 @@ export const getDataDownloadVideo = async (url) => {
     return null;
   }
 };
-
 
 const typeText = (type) => {
   switch (type) {
@@ -171,7 +174,6 @@ export async function processAndSendMedia(api, message, mediaData) {
     }
     return;
   }
-
 
   if ((mediaType === "youtube" || mediaType === "instagram") && duration) {
     if (duration * 1000 > 60 * 60 * 1000) {
@@ -349,16 +351,14 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       case "facebook":
         uniqueId = extractFacebookId(dataDownload.url);
         dataDownload.medias.forEach((item) => {
-          if (item.quality.toLowerCase() === "hd") {
-            dataLink.push({
-              url: item.url,
-              quality: item.quality,
-              type: item.type,
-              title: dataDownload.title,
-              thumbnail: item.thumbnail || dataDownload.thumbnail,
-              extension: item.extension,
-            });
-          }
+          dataLink.push({
+            url: item.url,
+            quality: item.quality,
+            type: item.type,
+            title: dataDownload.title,
+            thumbnail: item.thumbnail || dataDownload.thumbnail,
+            extension: item.extension,
+          });
         });
         break;
       case "threads":
@@ -437,7 +437,7 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
           await downloadFile(media.url, filePath);
           attachmentPaths.push(filePath);
         } else {
-          nonImageMedia.push(media); // audio
+          nonImageMedia.push(media);
         }
       }
     
@@ -567,7 +567,9 @@ export async function categoryDownload(api, message, platform, uniqueId, selecte
     return null;
   }
 }
- let hasImageBefore = false;
+
+let hasImageBefore = false;
+
 export async function handleDownloadReply(api, message) {
   const senderId = message.data.uidFrom;
   const senderName = message.data.dName;
