@@ -1,8 +1,9 @@
 import { createCanvas, loadImage } from "canvas";
-import fs from "fs";
+import fs from "fs/promises";
 import path from "path";
 import * as cv from "./index.js";
 import { formatCurrency } from "../format-util.js";
+import { getUserInfoData } from "../../service-hahuyhoang/info-service/user-info.js";
 
 export function hanldeNameUser(name) {
   const words = name.split(" ");
