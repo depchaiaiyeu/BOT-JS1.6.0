@@ -5,9 +5,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 import multer from "multer";
 import chalk from "chalk";
-import cors from "cors";
-import helmet from "helmet";
-import rateLimit from "express-rate-limit";
 import { getDataAllGroup } from "../service-hahuyhoang/info-service/group-info.js";
 import fs from "fs/promises";
 import { readGroupSettings, readWebConfig, writeWebConfig } from "../utils/io-json.js";
@@ -19,6 +16,7 @@ import { getCommandConfig } from "../index.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Cấu hình multer để xử lý tải lên file
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, path.join(__dirname, "../../assets/resources/"));
@@ -33,50 +31,23 @@ const upload = multer({ storage: storage });
 let io;
 let cachedFriends = null;
 let lastFriendsFetchTime = 0;
-const CACHE_DURATION = 10000;
+const CACHE_DURATION = 10000; // 10 giây
 
 let cachedGroups = null;
 let lastGroupsFetchTime = 0;
-const GROUPS_CACHE_DURATION = 10000;
+const GROUPS_CACHE_DURATION = 10000; // 10 giây
 
 export async function startWebServer(api) {
   const app = express();
   const httpServer = createServer(app);
-  io = new Server(httpServer, {
-    cors: {
-      origin: "*",
-      methods: ["GET", "POST"]
-    }
-  });
+  io = new Server(httpServer);
   let filePaths = [];
 
-  app.use(cors({
-    origin: "*",
-    credentials: true
-  }));
-
-  app.use(helmet({
-    contentSecurityPolicy: false,
-    crossOriginEmbedderPolicy: false
-  }));
-
-  const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 100
-  });
-  app.use(limiter);
-
-  app.use(express.json());
-  app.use(express.urlencoded({ extended: true }));
   app.use(express.static(path.join(__dirname, "../../public")));
 
   app.post("/upload", upload.array("files"), (req, res) => {
     filePaths = req.files.map((file) => file.path);
     res.json({ message: "Tải lên thành công", filePaths });
-  });
-
-  app.get("/health", (req, res) => {
-    res.json({ status: "ok", timestamp: new Date().toISOString() });
   });
 
   io.on("connection", (socket) => {
@@ -117,6 +88,7 @@ export async function startWebServer(api) {
 
     socket.on("sendMessageToSingle", async (data) => {
       const { id, type, message, delay } = data;
+
       let messageType = type === "friend" ? MessageType.DirectMessage : MessageType.GroupMessage;
       try {
         await api.sendMessagev1(
@@ -129,11 +101,10 @@ export async function startWebServer(api) {
           id,
           messageType
         );
+
         await deleteFiles(filePaths);
         filePaths = [];
-      } catch (error) {
-        console.error("Lỗi khi gửi tin nhắn:", error);
-      }
+      } catch (error) { }
     });
 
     socket.on("sendMessageAll", async (data) => {
@@ -156,11 +127,10 @@ export async function startWebServer(api) {
                 type
               );
             }
-          } catch (error) {
-            console.error("Lỗi khi gửi tin nhắn:", error);
-          }
+          } catch (error) { }
         }
         socket.emit("messageSent", "Tin nhắn đã được gửi thành công");
+
         await deleteFiles(filePaths);
         filePaths = [];
       } catch (error) {
@@ -188,9 +158,7 @@ export async function startWebServer(api) {
               friendId,
               MessageType.DirectMessage
             );
-          } catch (error) {
-            console.error("Lỗi khi gửi tin nhắn:", error);
-          }
+          } catch (error) { }
         }
         for (const groupId in selectedGroups) {
           try {
@@ -204,11 +172,10 @@ export async function startWebServer(api) {
               groupId,
               MessageType.GroupMessage
             );
-          } catch (error) {
-            console.error("Lỗi khi gửi tin nhắn:", error);
-          }
+          } catch (error) { }
         }
         socket.emit("messageSent", "Tin nhắn đã được gửi thành công");
+
         await deleteFiles(filePaths);
         filePaths = [];
       } catch (error) {
@@ -217,14 +184,11 @@ export async function startWebServer(api) {
       }
     });
 
-    socket.on("updateSelectedGroups", async (selectedGroups) => {
-      try {
-        const webConfig = readWebConfig();
-        webConfig.selectedGroups = selectedGroups;
-        writeWebConfig(webConfig);
-      } catch (error) {
-        console.error("Lỗi khi cập nhật selectedGroups:", error);
-      }
+    socket.on("updateSelectedGroups", (selectedGroups) => {
+      const configPath = path.join(process.cwd(), "assets", "web-config", "web-config.json");
+      let config = JSON.parse(fs.readFileSync(configPath, "utf8"));
+      config.selectedGroups = selectedGroups;
+      fs.writeFileSync(configPath, JSON.stringify(config, null, 2));
     });
 
     socket.on("updateSelected", (selected) => {
@@ -233,6 +197,7 @@ export async function startWebServer(api) {
         webConfig.selectedGroups = selected.groups;
         webConfig.selectedFriends = selected.friends;
         writeWebConfig(webConfig);
+
         socket.emit("configUpdated", { success: true, message: "Cập nhật cấu hình từ websocket thành công" });
       } catch (error) {
         console.error("Lỗi khi cập nhật file config:", error);
@@ -273,6 +238,7 @@ export async function startWebServer(api) {
       try {
         const webConfig = readWebConfig();
         const groupSettings = readGroupSettings();
+
         socket.emit("initialData", { ...webConfig, groupSettings });
       } catch (error) {
         console.error("Lỗi khi đọc dữ liệu ban đầu:", error);
@@ -313,11 +279,9 @@ export async function startWebServer(api) {
     });
   });
 
-  const PORT = process.env.PORT || 3456;
-  httpServer.listen(PORT, '0.0.0.0', () => {
+  const PORT = 3456;
+  httpServer.listen(PORT, () => {
     console.log(chalk.yellow(`Web server đã khởi tạo thành công trên port ${PORT}`));
-    console.log(chalk.cyan(`Truy cập local: http://localhost:${PORT}`));
-    console.log(chalk.cyan(`Truy cập network: http://0.0.0.0:${PORT}`));
   });
 }
 
