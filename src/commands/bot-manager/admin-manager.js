@@ -6,6 +6,7 @@ import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import path from "path";
 import { createAdminListImage } from "../../utils/canvas/info.js";
+import { getUserInfoData } from "../../service-hahuyhoang/info-service/user-info.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -91,25 +92,30 @@ export async function handleListAdmin(api, message, groupSettings) {
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const highLevelAdmins = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
 
-  const highLevelAdminInfo = await api.getUserInfo(highLevelAdmins);
-
   let highLevelAdminList = [];
   let groupAdminList = [];
 
-  if (highLevelAdminInfo.unchanged_profiles && Object.keys(highLevelAdminInfo.unchanged_profiles).length > 0) {
-    highLevelAdminList = highLevelAdminList.concat(
-      Object.values(highLevelAdminInfo.unchanged_profiles).map((user) => user.zaloName)
-    );
+  for (const adminId of highLevelAdmins) {
+    const adminInfo = await getUserInfoData(api, adminId);
+    if (adminInfo) {
+      highLevelAdminList.push({
+        name: adminInfo.name,
+        avatar: adminInfo.avatar,
+        uid: adminInfo.uid
+      });
+    }
   }
 
-  if (highLevelAdminInfo.changed_profiles && Object.keys(highLevelAdminInfo.changed_profiles).length > 0) {
-    highLevelAdminList = highLevelAdminList.concat(
-      Object.values(highLevelAdminInfo.changed_profiles).map((user) => user.zaloName)
-    );
-  }
-
-  if (Object.keys(groupSettings[threadId].adminList).length > 0) {
-    groupAdminList = Object.values(groupSettings[threadId].adminList);
+  const groupAdminIds = Object.keys(groupSettings[threadId].adminList);
+  for (const adminId of groupAdminIds) {
+    const adminInfo = await getUserInfoData(api, adminId);
+    if (adminInfo) {
+      groupAdminList.push({
+        name: adminInfo.name,
+        avatar: adminInfo.avatar,
+        uid: adminInfo.uid
+      });
+    }
   }
 
   const imagePath = path.resolve(process.cwd(), "assets", "temp", `admin_list_${threadId}.png`);
