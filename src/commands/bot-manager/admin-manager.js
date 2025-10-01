@@ -88,7 +88,7 @@ async function handleHighLevelAdmin(api, message, action) {
 
 export async function handleListAdmin(api, message, groupSettings) {
   const threadId = message.threadId;
-  
+
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const highLevelAdmins = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
 
@@ -119,11 +119,11 @@ export async function handleListAdmin(api, message, groupSettings) {
   }
 
   const imagePath = path.resolve(process.cwd(), "assets", "temp", `admin_list_${threadId}.png`);
-  
   await createAdminListImage(highLevelAdminList, groupAdminList, imagePath);
 
   await api.sendMessage(
     {
+      msg: "Danh sách quản trị viên",
       attachments: [imagePath]
     },
     threadId,
