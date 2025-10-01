@@ -1033,108 +1033,158 @@ export async function createGroupInfoImage(groupInfo, owner) {
   });
 }
 
-export async function createAdminListImage(highLevelAdminIds, groupAdminIds, imagePath) {
-  const width = 930;
-  const avatarSize = 80;
-  const nameHeight = 30;
-  const itemHeight = avatarSize + nameHeight + 20;
-  const padding = 40;
-  const columnWidth = (width - padding * 3) / 2;
+export async function createAdminListImage(highLevelAdmins, groupAdmins, outputPath) {
+  const width = 1000;
+  const avatarSize = 120;
+  const avatarSpacing = 20;
+  const rowHeight = avatarSize + 80;
+  const headerHeight = 100;
+  const sectionSpacing = 60;
+  const adminsPerRow = 4;
+
+  // Tính toán số hàng cần thiết
+  const highLevelRows = Math.ceil(highLevelAdmins.length / adminsPerRow);
+  const groupAdminRows = Math.ceil(groupAdmins.length / adminsPerRow);
   
-  const maxItems = Math.max(highLevelAdminIds.length, groupAdminIds.length);
-  const contentHeight = maxItems * itemHeight + 200;
-  const height = Math.max(contentHeight, 400);
-  
-  const canvas = createCanvas(width, height);
+  let totalHeight = headerHeight;
+  if (highLevelAdmins.length > 0) {
+    totalHeight += 80 + (highLevelRows * rowHeight);
+  }
+  if (groupAdmins.length > 0) {
+    totalHeight += sectionSpacing + 80 + (groupAdminRows * rowHeight);
+  }
+  totalHeight += 50;
+
+  const canvas = createCanvas(width, totalHeight);
   const ctx = canvas.getContext("2d");
 
-  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
-  backgroundGradient.addColorStop(0, '#1a1a2e');
-  backgroundGradient.addColorStop(1, '#0f0f1e');
+  // Vẽ background
+  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, totalHeight);
+  backgroundGradient.addColorStop(0, "#1a1a2e");
+  backgroundGradient.addColorStop(1, "#16213e");
   ctx.fillStyle = backgroundGradient;
-  ctx.fillRect(0, 0, width, height);
+  ctx.fillRect(0, 0, width, totalHeight);
 
-  ctx.font = 'bold 36px Tahoma';
-  ctx.fillStyle = '#FFFFFF';
-  ctx.textAlign = 'center';
-  ctx.fillText("Danh Sách Quản Trị Viên", width / 2, 50);
+  let currentY = headerHeight;
 
-  const leftX = padding + columnWidth / 2;
-  const rightX = padding * 2 + columnWidth + columnWidth / 2;
-  let leftY = 120;
-  let rightY = 120;
+  // Tiêu đề chính
+  ctx.textAlign = "center";
+  ctx.font = "bold 48px Tahoma";
+  ctx.fillStyle = cv.getRandomGradient(ctx, width);
+  ctx.fillText("Danh Sách Quản Trị Viên", width / 2, 60);
 
-  ctx.font = 'bold 28px Tahoma';
-  ctx.fillStyle = '#FFD700';
-  ctx.fillText("Quản Trị Cấp Cao", leftX, leftY);
-  leftY += 50;
+  // Vẽ danh sách quản trị viên cấp cao
+  if (highLevelAdmins.length > 0) {
+    currentY += 40;
+    ctx.font = "bold 36px Tahoma";
+    ctx.fillStyle = cv.getRandomGradient(ctx, width);
+    ctx.fillText("👑 Quản Trị Viên Cấp Cao", width / 2, currentY);
+    currentY += 60;
 
-  ctx.fillStyle = '#4ECDC4';
-  ctx.fillText("Quản Trị Nhóm", rightX, rightY);
-  rightY += 50;
-
-  for (let i = 0; i < Math.max(highLevelAdminIds.length, groupAdminIds.length); i++) {
-    if (i < highLevelAdminIds.length) {
-      const adminInfo = await getUserInfoData(null, highLevelAdminIds[i]);
-      if (adminInfo && cv.isValidUrl(adminInfo.avatar)) {
-        try {
-          const avatar = await loadImage(adminInfo.avatar);
-          
-          ctx.save();
-          ctx.beginPath();
-          ctx.arc(leftX, leftY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
-          ctx.strokeStyle = '#FFD700';
-          ctx.lineWidth = 3;
-          ctx.stroke();
-          ctx.clip();
-          ctx.drawImage(avatar, leftX - avatarSize / 2, leftY, avatarSize, avatarSize);
-          ctx.restore();
-
-          ctx.font = 'bold 20px Tahoma';
-          ctx.fillStyle = '#FFFFFF';
-          ctx.textAlign = 'center';
-          const nameLines = cv.handleNameLong(adminInfo.name, 18).lines;
-          nameLines.forEach((line, idx) => {
-            ctx.fillText(line, leftX, leftY + avatarSize + 25 + idx * 22);
-          });
-        } catch (error) {
-          console.error("Lỗi load avatar admin cấp cao:", error);
-        }
-      }
-      leftY += itemHeight;
-    }
-
-    if (i < groupAdminIds.length) {
-      const adminInfo = await getUserInfoData(null, groupAdminIds[i]);
-      if (adminInfo && cv.isValidUrl(adminInfo.avatar)) {
-        try {
-          const avatar = await loadImage(adminInfo.avatar);
-          
-          ctx.save();
-          ctx.beginPath();
-          ctx.arc(rightX, rightY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
-          ctx.strokeStyle = '#4ECDC4';
-          ctx.lineWidth = 3;
-          ctx.stroke();
-          ctx.clip();
-          ctx.drawImage(avatar, rightX - avatarSize / 2, rightY, avatarSize, avatarSize);
-          ctx.restore();
-
-          ctx.font = 'bold 20px Tahoma';
-          ctx.fillStyle = '#FFFFFF';
-          ctx.textAlign = 'center';
-          const nameLines = cv.handleNameLong(adminInfo.name, 18).lines;
-          nameLines.forEach((line, idx) => {
-            ctx.fillText(line, rightX, rightY + avatarSize + 25 + idx * 22);
-          });
-        } catch (error) {
-          console.error("Lỗi load avatar admin nhóm:", error);
-        }
-      }
-      rightY += itemHeight;
-    }
+    await drawAdminList(ctx, highLevelAdmins, currentY, width, avatarSize, avatarSpacing, adminsPerRow);
+    currentY += highLevelRows * rowHeight;
   }
 
-  const buffer = canvas.toBuffer('image/png');
-  await fs.writeFile(imagePath, buffer);
+  // Vẽ danh sách quản trị bot nhóm
+  if (groupAdmins.length > 0) {
+    currentY += sectionSpacing;
+    ctx.font = "bold 36px Tahoma";
+    ctx.fillStyle = cv.getRandomGradient(ctx, width);
+    ctx.fillText("🛡️ Quản Trị Bot Nhóm", width / 2, currentY);
+    currentY += 60;
+
+    await drawAdminList(ctx, groupAdmins, currentY, width, avatarSize, avatarSpacing, adminsPerRow);
+  }
+
+  // Lưu file
+  const out = fs.createWriteStream(outputPath);
+  const stream = canvas.createPNGStream();
+  stream.pipe(out);
+  return new Promise((resolve, reject) => {
+    out.on("finish", () => resolve(outputPath));
+    out.on("error", reject);
+  });
+}
+
+async function drawAdminList(ctx, admins, startY, width, avatarSize, spacing, adminsPerRow) {
+  const totalWidth = adminsPerRow * avatarSize + (adminsPerRow - 1) * spacing;
+  const startX = (width - totalWidth) / 2;
+
+  for (let i = 0; i < admins.length; i++) {
+    const admin = admins[i];
+    const row = Math.floor(i / adminsPerRow);
+    const col = i % adminsPerRow;
+    
+    const x = startX + col * (avatarSize + spacing);
+    const y = startY + row * (avatarSize + 80);
+
+    // Vẽ avatar
+    if (admin.avatar && cv.isValidUrl(admin.avatar)) {
+      try {
+        const avatar = await loadImage(admin.avatar);
+        
+        // Vẽ viền gradient
+        const borderWidth = 5;
+        const gradient = ctx.createLinearGradient(
+          x - borderWidth,
+          y - borderWidth,
+          x + avatarSize + borderWidth,
+          y + avatarSize + borderWidth
+        );
+        
+        const rainbowColors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3"];
+        const shuffledColors = [...rainbowColors].sort(() => Math.random() - 0.5);
+        
+        shuffledColors.forEach((color, index) => {
+          gradient.addColorStop(index / (shuffledColors.length - 1), color);
+        });
+
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(x + avatarSize / 2, y + avatarSize / 2, avatarSize / 2 + borderWidth, 0, Math.PI * 2);
+        ctx.fillStyle = gradient;
+        ctx.fill();
+
+        // Vẽ avatar tròn
+        ctx.beginPath();
+        ctx.arc(x + avatarSize / 2, y + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
+        ctx.clip();
+        ctx.drawImage(avatar, x, y, avatarSize, avatarSize);
+        ctx.restore();
+      } catch (error) {
+        console.error("Lỗi load avatar:", error);
+        drawDefaultAvatar(ctx, x, y, avatarSize);
+      }
+    } else {
+      drawDefaultAvatar(ctx, x, y, avatarSize);
+    }
+
+    // Vẽ tên
+    const { lines } = handleNameLong(admin.name, 12);
+    ctx.textAlign = "center";
+    ctx.font = "bold 18px Tahoma";
+    ctx.fillStyle = "#FFFFFF";
+    
+    const nameY = y + avatarSize + 25;
+    if (lines.length === 1) {
+      ctx.fillText(lines[0], x + avatarSize / 2, nameY);
+    } else {
+      ctx.font = "bold 16px Tahoma";
+      lines.forEach((line, index) => {
+        ctx.fillText(line, x + avatarSize / 2, nameY + index * 20);
+      });
+    }
+  }
+}
+
+function drawDefaultAvatar(ctx, x, y, size) {
+  ctx.fillStyle = "#555555";
+  ctx.beginPath();
+  ctx.arc(x + size / 2, y + size / 2, size / 2, 0, Math.PI * 2);
+  ctx.fill();
+  
+  ctx.fillStyle = "#FFFFFF";
+  ctx.font = "bold 40px Tahoma";
+  ctx.textAlign = "center";
+  ctx.fillText("?", x + size / 2, y + size / 2 + 15);
 }
