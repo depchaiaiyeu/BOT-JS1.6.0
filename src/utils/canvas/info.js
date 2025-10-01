@@ -62,7 +62,6 @@ export function handleNameLong(name, lengthLine = 16) {
 }
 
 export async function createAdminListImage(highLevelAdminList, groupAdminList, imagePath) {
-export async function createAdminListImage(highLevelAdminList, groupAdminList, imagePath) {
   const width = 930;
   const avatarSize = 80;
   const nameHeight = 30;
