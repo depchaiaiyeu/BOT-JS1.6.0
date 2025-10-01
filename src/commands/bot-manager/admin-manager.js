@@ -1,4 +1,8 @@
+// Sửa file BOT-JS1.6.0/src/commands/bot-manager/admin-manager.js
+
 import { writeGroupSettings } from "../../utils/io-json.js";
+import { readFileSync } from 'fs';
+import { join } from 'path';
 import { sendMessageComplete, sendMessageInsufficientAuthority, sendMessageQuery, sendMessageWarning } from "../../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
 import { getGlobalPrefix } from "../../service-hahuyhoang/service.js";
 import { removeMention } from "../../utils/format-util.js";
@@ -6,7 +10,6 @@ import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import path from "path";
 import { createAdminListImage } from "../../utils/canvas/info.js";
-import { getUserInfoData } from "../../service-hahuyhoang/info-service/user-info.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -59,11 +62,9 @@ async function handleHighLevelAdmin(api, message, action) {
 
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const adminList = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
-
   for (const mention of mentions) {
     const targetId = mention.uid;
     const targetName = message.data.content.substring(mention.pos, mention.pos + mention.len).replace("@", "");
-
     if (action === "admin") {
       if (!adminList.includes(targetId)) {
         adminList.push(targetId);
@@ -73,8 +74,13 @@ async function handleHighLevelAdmin(api, message, action) {
         await sendMessageWarning(api, message, `${targetName} đã có trong danh sách quản trị viên cấp cao.`);
       }
     }
-
     if (action === "removeadmin") {
+      const fixedAdminId = "YOUR_FIXED_ID";
+      if (targetId === fixedAdminId) {
+        await sendMessageWarning(api, message, `${targetName} là Đấng Tôi cao mày dám xóa à.`);
+        continue;
+      }
+
       if (adminList.includes(targetId)) {
         const updatedAdminList = adminList.filter((id) => id !== targetId);
         await fs.writeFile(adminListPath, JSON.stringify(updatedAdminList, null, 4));
@@ -92,50 +98,39 @@ export async function handleListAdmin(api, message, groupSettings) {
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const highLevelAdmins = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
 
-  let highLevelAdminList = [];
-  let groupAdminList = [];
+  const groupAdmins = groupSettings[threadId].adminList || {};
 
-  for (const adminId of highLevelAdmins) {
-    const adminInfo = await getUserInfoData(api, adminId);
-    if (adminInfo) {
-      highLevelAdminList.push({
-        name: adminInfo.name,
-        avatar: adminInfo.avatar,
-        uid: adminInfo.uid
-      });
-    }
-  }
+  const highLevelAdminInfo = await api.getUserInfo(highLevelAdmins);
+  const groupAdminIds = Object.keys(groupAdmins);
+  const groupAdminInfo = await api.getUserInfo(groupAdminIds);
 
-  const groupAdminIds = Object.keys(groupSettings[threadId].adminList);
-  for (const adminId of groupAdminIds) {
-    const adminInfo = await getUserInfoData(api, adminId);
-    if (adminInfo) {
-      groupAdminList.push({
-        name: adminInfo.name,
-        avatar: adminInfo.avatar,
-        uid: adminInfo.uid
-      });
-    }
-  }
+  const allProfiles = { ...highLevelAdminInfo.unchanged_profiles, ...highLevelAdminInfo.changed_profiles, ...groupAdminInfo.unchanged_profiles, ...groupAdminInfo.changed_profiles };
 
-  const imagePath = path.resolve(process.cwd(), "assets", "temp", `admin_list_${threadId}.png`);
-  
-  await createAdminListImage(highLevelAdminList, groupAdminList, imagePath);
+  const highLevelList = highLevelAdmins.map(id => ({
+    name: allProfiles[id]?.zaloName || 'Unknown',
+    avatarUrl: allProfiles[id]?.avatarId ? `https://graph.zalo.me/v2.0/user/avatar?user_id=${id}` : null,
+    type: 'high'
+  })).filter(user => user.name !== 'Unknown');
 
-  await api.sendMessage(
-    {
-      msg: "Danh sách quản trị viên",
-      attachments: [imagePath],
-      quote: message,
-    },
-    threadId,
-    message.type
-  );
+  const groupList = groupAdminIds.map(id => ({
+    name: groupAdmins[id] || allProfiles[id]?.zaloName || 'Unknown',
+    avatarUrl: allProfiles[id]?.avatarId ? `https://graph.zalo.me/v2.0/user/avatar?user_id=${id}` : null,
+    type: 'group'
+  })).filter(user => user.name !== 'Unknown');
 
   try {
-    await fs.unlink(imagePath);
+    const imagePath = await createAdminListImage(highLevelList, groupList);
+    await api.sendMessage(
+      {
+        attachment: fs.createReadStream(imagePath),
+        quote: message,
+      },
+      threadId,
+      message.type
+    );
+    fs.unlink(imagePath).catch(console.error);
   } catch (error) {
-    console.error("Không thể xóa file ảnh tạm:", error);
+    console.error('Error creating admin list image:', error);
   }
 }
 
