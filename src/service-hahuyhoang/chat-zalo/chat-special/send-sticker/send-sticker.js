@@ -17,7 +17,7 @@ export const COLOR_RED = "db342e";
 export const COLOR_YELLOW = "f7b503";
 export const COLOR_GREEN = "15a85f";
 export const SIZE_18 = "18";
-export const SIZE_16 = "16";
+export const SIZE_16 = "14";
 export const IS_BOLD = true;
 
 async function isValidMediaUrl(url) {
