@@ -3,7 +3,6 @@ import fs from "fs/promises";
 import path from "path";
 import * as cv from "./index.js";
 import { formatCurrency } from "../format-util.js";
-import { getUserInfoData } from "../../service-hahuyhoang/info-service/user-info.js";
 
 export function hanldeNameUser(name) {
   const words = name.split(" ");
@@ -62,7 +61,7 @@ export function handleNameLong(name, lengthLine = 16) {
   };
 }
 
-export async function createAdminListImage(highLevelAdminIds, groupAdminIds, imagePath) {
+export async function createAdminListImage(highLevelAdminList, groupAdminList, imagePath) {
   const width = 930;
   const avatarSize = 80;
   const nameHeight = 30;
@@ -70,7 +69,7 @@ export async function createAdminListImage(highLevelAdminIds, groupAdminIds, ima
   const padding = 40;
   const columnWidth = (width - padding * 3) / 2;
   
-  const maxItems = Math.max(highLevelAdminIds.length, groupAdminIds.length);
+  const maxItems = Math.max(highLevelAdminList.length, groupAdminList.length);
   const contentHeight = maxItems * itemHeight + 200;
   const height = Math.max(contentHeight, 400);
   
@@ -102,12 +101,12 @@ export async function createAdminListImage(highLevelAdminIds, groupAdminIds, ima
   ctx.fillText("👥 Quản Trị Nhóm", rightX, rightY);
   rightY += 50;
 
-  for (let i = 0; i < Math.max(highLevelAdminIds.length, groupAdminIds.length); i++) {
-    if (i < highLevelAdminIds.length) {
-      const adminInfo = await getUserInfoData(null, highLevelAdminIds[i]);
-      if (adminInfo && cv.isValidUrl(adminInfo.avatar)) {
+  for (let i = 0; i < Math.max(highLevelAdminList.length, groupAdminList.length); i++) {
+    if (i < highLevelAdminList.length) {
+      const admin = highLevelAdminList[i];
+      if (admin && cv.isValidUrl(admin.avatar)) {
         try {
-          const avatar = await loadImage(adminInfo.avatar);
+          const avatar = await loadImage(admin.avatar);
           
           ctx.save();
           ctx.beginPath();
@@ -122,7 +121,7 @@ export async function createAdminListImage(highLevelAdminIds, groupAdminIds, ima
           ctx.font = 'bold 20px Tahoma';
           ctx.fillStyle = '#FFFFFF';
           ctx.textAlign = 'center';
-          const nameLines = cv.handleNameLong(adminInfo.name, 18).lines;
+          const nameLines = handleNameLong(admin.name, 18).lines;
           nameLines.forEach((line, idx) => {
             ctx.fillText(line, leftX, leftY + avatarSize + 25 + idx * 22);
           });
@@ -133,11 +132,11 @@ export async function createAdminListImage(highLevelAdminIds, groupAdminIds, ima
       leftY += itemHeight;
     }
 
-    if (i < groupAdminIds.length) {
-      const adminInfo = await getUserInfoData(null, groupAdminIds[i]);
-      if (adminInfo && cv.isValidUrl(adminInfo.avatar)) {
+    if (i < groupAdminList.length) {
+      const admin = groupAdminList[i];
+      if (admin && cv.isValidUrl(admin.avatar)) {
         try {
-          const avatar = await loadImage(adminInfo.avatar);
+          const avatar = await loadImage(admin.avatar);
           
           ctx.save();
           ctx.beginPath();
@@ -152,7 +151,7 @@ export async function createAdminListImage(highLevelAdminIds, groupAdminIds, ima
           ctx.font = 'bold 20px Tahoma';
           ctx.fillStyle = '#FFFFFF';
           ctx.textAlign = 'center';
-          const nameLines = cv.handleNameLong(adminInfo.name, 18).lines;
+          const nameLines = handleNameLong(admin.name, 18).lines;
           nameLines.forEach((line, idx) => {
             ctx.fillText(line, rightX, rightY + avatarSize + 25 + idx * 22);
           });
