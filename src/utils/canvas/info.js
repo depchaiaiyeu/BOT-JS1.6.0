@@ -1054,7 +1054,7 @@ export async function createAdminListImage(highLevelAdminList, groupAdminList, i
   ctx.fillStyle = backgroundGradient;
   ctx.fillRect(0, 0, width, height);
 
-  ctx.font = 'bold 36px Tahoma';
+  ctx.font = 'bold 36px BeVietnamPro';
   ctx.fillStyle = '#FFFFFF';
   ctx.textAlign = 'center';
   ctx.fillText("Danh Sách Quản Trị Viên", width / 2, 50);
@@ -1064,13 +1064,13 @@ export async function createAdminListImage(highLevelAdminList, groupAdminList, i
   let leftY = 120;
   let rightY = 120;
 
-  ctx.font = 'bold 28px Tahoma';
+  ctx.font = 'bold 28px BeVietnamPro';
   ctx.fillStyle = '#FFD700';
-  ctx.fillText("🔰 Quản Trị Cấp Cao", leftX, leftY);
+  ctx.fillText("Quản Trị Cấp Cao", leftX, leftY);
   leftY += 50;
 
   ctx.fillStyle = '#4ECDC4';
-  ctx.fillText("👥 Quản Trị Nhóm", rightX, rightY);
+  ctx.fillText("Quản Trị Nhóm", rightX, rightY);
   rightY += 50;
 
   for (let i = 0; i < Math.max(highLevelAdminList.length, groupAdminList.length); i++) {
@@ -1090,7 +1090,7 @@ export async function createAdminListImage(highLevelAdminList, groupAdminList, i
           ctx.drawImage(avatar, leftX - avatarSize / 2, leftY, avatarSize, avatarSize);
           ctx.restore();
 
-          ctx.font = 'bold 20px Tahoma';
+          ctx.font = 'bold 20px BeVietnamPro';
           ctx.fillStyle = '#FFFFFF';
           ctx.textAlign = 'center';
           const nameLines = handleNameLong(admin.name, 18).lines;
@@ -1120,7 +1120,7 @@ export async function createAdminListImage(highLevelAdminList, groupAdminList, i
           ctx.drawImage(avatar, rightX - avatarSize / 2, rightY, avatarSize, avatarSize);
           ctx.restore();
 
-          ctx.font = 'bold 20px Tahoma';
+          ctx.font = 'bold 20px BeVietnamPro';
           ctx.fillStyle = '#FFFFFF';
           ctx.textAlign = 'center';
           const nameLines = handleNameLong(admin.name, 18).lines;
