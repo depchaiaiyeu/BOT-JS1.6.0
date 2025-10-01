@@ -1074,7 +1074,7 @@ export async function createAdminListImage(highLevelList, groupList) {
 
     for (const admin of highLevelList) {
       const x = width / 2 - avatarSize / 2;
-      drawAdminItem(ctx, admin, x, y, avatarSize, width);
+      await drawAdminItem(ctx, admin, x, y, avatarSize, width);
       y += itemHeight;
     }
     y += 20;
@@ -1088,12 +1088,12 @@ export async function createAdminListImage(highLevelList, groupList) {
 
     for (const admin of groupList) {
       const x = width / 2 - avatarSize / 2;
-      drawAdminItem(ctx, admin, x, y, avatarSize, width);
+      await drawAdminItem(ctx, admin, x, y, avatarSize, width);
       y += itemHeight;
     }
   }
 
-  function drawAdminItem(ctx, admin, x, y, size, canvasWidth) {
+  async function drawAdminItem(ctx, admin, x, y, size, canvasWidth) {
     ctx.beginPath();
     ctx.arc(x + size / 2, y + size / 2, size / 2, 0, Math.PI * 2);
     ctx.strokeStyle = '#FFFFFF';
