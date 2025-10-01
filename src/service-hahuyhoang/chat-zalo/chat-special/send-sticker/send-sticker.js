@@ -12,6 +12,7 @@ import { removeMention } from "../../../../utils/format-util.js";
 import { getVideoMetadata } from "../../../../api-zalo/utils.js";
 import { isAdmin } from "../../../../index.js";
 import { convertToWebp } from "./create-webp.js";
+
 export const COLOR_RED = "db342e";
 export const COLOR_YELLOW = "f7b503";
 export const COLOR_GREEN = "15a85f";
@@ -19,10 +20,6 @@ export const SIZE_18 = "18";
 export const SIZE_16 = "18";
 export const IS_BOLD = true;
 
-
-/**
- * Kiểm tra URL có phải là media hợp lệ không
- */
 async function isValidMediaUrl(url) {
   try {
     const headResponse = await axios.head(url);
@@ -48,9 +45,7 @@ async function isValidMediaUrl(url) {
     };
   }
 }
-/**
- * Xử lý xóa phông ảnh từ URL
- */
+
 export async function removeBackground(imageUrl) {
   try {
     const apiKey = "0c590fbeeb556d3cd29f419181c4a2";
@@ -73,20 +68,16 @@ export async function removeBackground(imageUrl) {
 async function roundImageCorners(inputPath, outputPath, radiusPercent = 50) {
   const image = sharp(inputPath);
   const { width, height } = await image.metadata();
-
   const radius = Math.min(width, height) * (radiusPercent / 100);
-
   const roundedCorners = Buffer.from(
     `<svg><rect x="0" y="0" width="${width}" height="${height}" rx="${radius}" ry="${radius}"/></svg>`
   );
-
   await image
     .composite([{ input: roundedCorners, blend: "dest-in" }])
+    .png()
     .toFile(outputPath);
 }
-/**
- * Xử lý tạo và gửi sticker từ URL hoặc local path
- */
+
 async function processAndSendSticker(api, message, mediaSource, radius = null) {
   const senderName = message.data.dName;
   const senderId = message.data.uidFrom;
@@ -110,24 +101,25 @@ async function processAndSendSticker(api, message, mediaSource, radius = null) {
       pathSticker = mediaSource;
     }
 
-    // ✨ Nếu có radius, tạo ảnh bo góc rồi convert webp
     if (radius !== null) {
       const roundedPath = path.join(tempDir, `rounded_${Date.now()}.png`);
       await roundImageCorners(pathSticker, roundedPath, radius);
       await convertToWebp(roundedPath, pathWebp);
       await deleteFile(roundedPath);
+      if (!isLocalFile) {
+        await deleteFile(pathSticker);
+      }
     } else {
       await convertToWebp(pathSticker, pathWebp);
+      if (!isLocalFile) {
+        await deleteFile(pathSticker);
+      }
     }
 
     const linkUploadZalo = await api.uploadAttachment([pathWebp], message.threadId, message.type);
-
     const baseUrl = linkUploadZalo[0].fileUrl || linkUploadZalo[0].normalUrl;
-
-    const finalUrl = `${baseUrl}/nguyenphihoang.webp`;
-    const isGroup = message.type === MessageType.GroupMessage;
-    const stickerData = await getVideoMetadata(pathSticker);
-    //const finalUrl = linkUploadZalo[0].fileUrl || linkUploadZalo[0].normalUrl;
+    const finalUrl = `${baseUrl}?createBy=VuXuanKien-Service-Bot`;
+    const stickerData = await getVideoMetadata(pathWebp);
 
     const fullMessage = `${senderName} \nSticker của bạn đây!`;
     const style = MultiMsgStyle([
@@ -155,14 +147,10 @@ async function processAndSendSticker(api, message, mediaSource, radius = null) {
     console.error("Lỗi khi xử lý sticker:", error);
     throw error;
   } finally {
-    await deleteFile(pathSticker);
     await deleteFile(pathWebp);
   }
 }
 
-/**
- * Xử lý lệnh tạo sticker
- */
 export async function handleStickerCommand(api, message) {
   const quote = message.data.quote;
   const senderName = message.data.dName;
@@ -220,8 +208,8 @@ export async function handleStickerCommand(api, message) {
     }
 
     const decodedUrl = decodeURIComponent(mediaUrl.replace(/\\\//g, "/"));
-
     const mediaCheck = await isValidMediaUrl(decodedUrl);
+    
     if (!mediaCheck.isValid) {
       console.error("URL không hợp lệ:", decodedUrl);
       await api.sendMessage(
@@ -259,7 +247,7 @@ export async function handleStickerCommand(api, message) {
     if (!isAdminLevelHighest && mediaCheck.isVideo) {
       await api.sendMessage(
         {
-          msg: `${senderName}, NPH chưa cho phép tạo sticker video.`,
+          msg: `${senderName}, Admin chưa cho phép tạo sticker video.`,
           quote: message,
           mentions: [MessageMention(senderId, senderName.length, 0)],
           ttl: 30000,
@@ -318,5 +306,4 @@ export async function handleStickerCommand(api, message) {
   }
 }
 
-// Export hàm mới để có thể sử dụng từ các module khác
 export { processAndSendSticker };
