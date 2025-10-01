@@ -824,6 +824,112 @@ y += 42;
   });
 }
 
+export async function createAdminListImage(highLevelAdminList, groupAdminList, imagePath) {
+  const width = 930;
+  const avatarSize = 80;
+  const nameHeight = 30;
+  const itemHeight = avatarSize + nameHeight + 20;
+  const padding = 40;
+  const columnWidth = (width - padding * 3) / 2;
+  
+  const maxItems = Math.max(highLevelAdminList.length, groupAdminList.length);
+  const contentHeight = maxItems * itemHeight + 200;
+  const height = Math.max(contentHeight, 400);
+  
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+
+  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
+  backgroundGradient.addColorStop(0, '#1a1a2e');
+  backgroundGradient.addColorStop(1, '#0f0f1e');
+  ctx.fillStyle = backgroundGradient;
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.font = 'bold 36px BeVietnamPro';
+  ctx.fillStyle = '#FFFFFF';
+  ctx.textAlign = 'center';
+  ctx.fillText("Danh Sách Quản Trị Viên", width / 2, 50);
+
+  const leftX = padding + columnWidth / 2;
+  const rightX = padding * 2 + columnWidth + columnWidth / 2;
+  let leftY = 120;
+  let rightY = 120;
+
+  ctx.font = 'bold 28px BeVietnamPro';
+  ctx.fillStyle = '#FFD700';
+  ctx.fillText("Quản Trị Cấp Cao", leftX, leftY);
+  leftY += 50;
+
+  ctx.fillStyle = '#4ECDC4';
+  ctx.fillText("Quản Trị Nhóm", rightX, rightY);
+  rightY += 50;
+
+  for (let i = 0; i < Math.max(highLevelAdminList.length, groupAdminList.length); i++) {
+    if (i < highLevelAdminList.length) {
+      const admin = highLevelAdminList[i];
+      if (admin && cv.isValidUrl(admin.avatar)) {
+        try {
+          const avatar = await loadImage(admin.avatar);
+          
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(leftX, leftY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
+          ctx.strokeStyle = '#FFD700';
+          ctx.lineWidth = 3;
+          ctx.stroke();
+          ctx.clip();
+          ctx.drawImage(avatar, leftX - avatarSize / 2, leftY, avatarSize, avatarSize);
+          ctx.restore();
+
+          ctx.font = 'bold 20px BeVietnamPro';
+          ctx.fillStyle = '#FFFFFF';
+          ctx.textAlign = 'center';
+          const nameLines = handleNameLong(admin.name, 18).lines;
+          nameLines.forEach((line, idx) => {
+            ctx.fillText(line, leftX, leftY + avatarSize + 25 + idx * 22);
+          });
+        } catch (error) {
+          console.error("Lỗi load avatar admin cấp cao:", error);
+        }
+      }
+      leftY += itemHeight;
+    }
+
+    if (i < groupAdminList.length) {
+      const admin = groupAdminList[i];
+      if (admin && cv.isValidUrl(admin.avatar)) {
+        try {
+          const avatar = await loadImage(admin.avatar);
+          
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(rightX, rightY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
+          ctx.strokeStyle = '#4ECDC4';
+          ctx.lineWidth = 3;
+          ctx.stroke();
+          ctx.clip();
+          ctx.drawImage(avatar, rightX - avatarSize / 2, rightY, avatarSize, avatarSize);
+          ctx.restore();
+
+          ctx.font = 'bold 20px BeVietnamPro';
+          ctx.fillStyle = '#FFFFFF';
+          ctx.textAlign = 'center';
+          const nameLines = handleNameLong(admin.name, 18).lines;
+          nameLines.forEach((line, idx) => {
+            ctx.fillText(line, rightX, rightY + avatarSize + 25 + idx * 22);
+          });
+        } catch (error) {
+          console.error("Lỗi load avatar admin nhóm:", error);
+        }
+      }
+      rightY += itemHeight;
+    }
+  }
+
+  const buffer = canvas.toBuffer('image/png');
+  await fs.writeFile(imagePath, buffer);
+}
+
 export async function createGroupInfoImage(groupInfo, owner) {
   const { lines: nameLines, totalLines: nameTotalLines } = handleNameLong(
     groupInfo.name
@@ -1031,110 +1137,4 @@ export async function createGroupInfoImage(groupInfo, owner) {
     out.on("finish", () => resolve(filePath));
     out.on("error", reject);
   });
-}
-
-export async function createAdminListImage(highLevelAdminList, groupAdminList, imagePath) {
-  const width = 930;
-  const avatarSize = 80;
-  const nameHeight = 30;
-  const itemHeight = avatarSize + nameHeight + 20;
-  const padding = 40;
-  const columnWidth = (width - padding * 3) / 2;
-  
-  const maxItems = Math.max(highLevelAdminList.length, groupAdminList.length);
-  const contentHeight = maxItems * itemHeight + 200;
-  const height = Math.max(contentHeight, 400);
-  
-  const canvas = createCanvas(width, height);
-  const ctx = canvas.getContext("2d");
-
-  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
-  backgroundGradient.addColorStop(0, '#1a1a2e');
-  backgroundGradient.addColorStop(1, '#0f0f1e');
-  ctx.fillStyle = backgroundGradient;
-  ctx.fillRect(0, 0, width, height);
-
-  ctx.font = 'bold 36px BeVietnamPro';
-  ctx.fillStyle = '#FFFFFF';
-  ctx.textAlign = 'center';
-  ctx.fillText("Danh Sách Quản Trị Viên", width / 2, 50);
-
-  const leftX = padding + columnWidth / 2;
-  const rightX = padding * 2 + columnWidth + columnWidth / 2;
-  let leftY = 120;
-  let rightY = 120;
-
-  ctx.font = 'bold 28px BeVietnamPro';
-  ctx.fillStyle = '#FFD700';
-  ctx.fillText("Quản Trị Cấp Cao", leftX, leftY);
-  leftY += 50;
-
-  ctx.fillStyle = '#4ECDC4';
-  ctx.fillText("Quản Trị Nhóm", rightX, rightY);
-  rightY += 50;
-
-  for (let i = 0; i < Math.max(highLevelAdminList.length, groupAdminList.length); i++) {
-    if (i < highLevelAdminList.length) {
-      const admin = highLevelAdminList[i];
-      if (admin && cv.isValidUrl(admin.avatar)) {
-        try {
-          const avatar = await loadImage(admin.avatar);
-          
-          ctx.save();
-          ctx.beginPath();
-          ctx.arc(leftX, leftY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
-          ctx.strokeStyle = '#FFD700';
-          ctx.lineWidth = 3;
-          ctx.stroke();
-          ctx.clip();
-          ctx.drawImage(avatar, leftX - avatarSize / 2, leftY, avatarSize, avatarSize);
-          ctx.restore();
-
-          ctx.font = 'bold 20px BeVietnamPro';
-          ctx.fillStyle = '#FFFFFF';
-          ctx.textAlign = 'center';
-          const nameLines = handleNameLong(admin.name, 18).lines;
-          nameLines.forEach((line, idx) => {
-            ctx.fillText(line, leftX, leftY + avatarSize + 25 + idx * 22);
-          });
-        } catch (error) {
-          console.error("Lỗi load avatar admin cấp cao:", error);
-        }
-      }
-      leftY += itemHeight;
-    }
-
-    if (i < groupAdminList.length) {
-      const admin = groupAdminList[i];
-      if (admin && cv.isValidUrl(admin.avatar)) {
-        try {
-          const avatar = await loadImage(admin.avatar);
-          
-          ctx.save();
-          ctx.beginPath();
-          ctx.arc(rightX, rightY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
-          ctx.strokeStyle = '#4ECDC4';
-          ctx.lineWidth = 3;
-          ctx.stroke();
-          ctx.clip();
-          ctx.drawImage(avatar, rightX - avatarSize / 2, rightY, avatarSize, avatarSize);
-          ctx.restore();
-
-          ctx.font = 'bold 20px BeVietnamPro';
-          ctx.fillStyle = '#FFFFFF';
-          ctx.textAlign = 'center';
-          const nameLines = handleNameLong(admin.name, 18).lines;
-          nameLines.forEach((line, idx) => {
-            ctx.fillText(line, rightX, rightY + avatarSize + 25 + idx * 22);
-          });
-        } catch (error) {
-          console.error("Lỗi load avatar admin nhóm:", error);
-        }
-      }
-      rightY += itemHeight;
-    }
-  }
-
-  const buffer = canvas.toBuffer('image/png');
-  await fs.writeFile(imagePath, buffer);
 }
