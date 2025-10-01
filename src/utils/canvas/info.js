@@ -1036,7 +1036,7 @@ export async function createGroupInfoImage(groupInfo, owner) {
 export async function createAdminListImage(highLevelAdmins, groupAdmins, outputPath) {
   const width = 800;
   const headerHeight = 180;
-  const itemHeight = 100;
+  const itemHeight = 120;
   const padding = 30;
   
   const totalItems = highLevelAdmins.length + groupAdmins.length;
@@ -1054,7 +1054,7 @@ export async function createAdminListImage(highLevelAdmins, groupAdmins, outputP
 
   ctx.textAlign = "center";
   ctx.font = "bold 48px Tahoma";
-  ctx.fillStyle = "#B8F5A5";
+  ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText("DANH SÁCH QUẢN TRỊ BOT", width / 2, 70);
 
   ctx.font = "bold 32px Tahoma";
@@ -1075,26 +1075,40 @@ export async function createAdminListImage(highLevelAdmins, groupAdmins, outputP
     ctx.fillStyle = "rgba(0, 0, 0, 0.3)";
     ctx.fillRect(padding, itemY, width - padding * 2, itemHeight);
 
-    const avatarSize = 70;
-    const avatarX = padding + 50;
+    const avatarSize = 80;
+    const avatarX = padding + 20;
     const avatarY = itemY + (itemHeight - avatarSize) / 2;
 
     if (admin.avatar && cv.isValidUrl(admin.avatar)) {
       try {
         const avatar = await loadImage(admin.avatar);
         
+        const borderWidth = 3;
+        const gradient = ctx.createLinearGradient(
+          avatarX - borderWidth,
+          avatarY - borderWidth,
+          avatarX + avatarSize + borderWidth,
+          avatarY + avatarSize + borderWidth
+        );
+
+        const rainbowColors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3"];
+        const shuffledColors = [...rainbowColors].sort(() => Math.random() - 0.5);
+        
+        shuffledColors.forEach((color, index) => {
+          gradient.addColorStop(index / (shuffledColors.length - 1), color);
+        });
+
         ctx.save();
+        ctx.beginPath();
+        ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2 + borderWidth, 0, Math.PI * 2);
+        ctx.fillStyle = gradient;
+        ctx.fill();
+
         ctx.beginPath();
         ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
         ctx.clip();
         ctx.drawImage(avatar, avatarX, avatarY, avatarSize, avatarSize);
         ctx.restore();
-
-        ctx.strokeStyle = admin.type === 'high' ? "#FFD700" : "#FFFFFF";
-        ctx.lineWidth = 3;
-        ctx.beginPath();
-        ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2 + 2, 0, Math.PI * 2);
-        ctx.stroke();
       } catch (error) {
         drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
       }
@@ -1102,30 +1116,18 @@ export async function createAdminListImage(highLevelAdmins, groupAdmins, outputP
       drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
     }
 
+    const nameX = avatarX + avatarSize + 20;
+    
     ctx.textAlign = "left";
     ctx.font = "bold 28px Tahoma";
     ctx.fillStyle = "#FFFFFF";
-    const numberText = `${itemNumber}.`;
-    ctx.fillText(numberText, padding + 15, itemY + itemHeight / 2 + 10);
+    const numberText = `${itemNumber}. ${admin.name}`;
+    ctx.fillText(numberText, nameX, itemY + itemHeight / 2 - 5);
 
-    const nameX = avatarX + avatarSize + 25;
-    ctx.font = "bold 24px Tahoma";
-    ctx.fillStyle = "#FFFFFF";
-    
-    const { lines } = handleNameLong(admin.name, 25);
-    if (lines.length === 1) {
-      ctx.fillText(lines[0], nameX, itemY + itemHeight / 2 + 10);
-    } else {
-      ctx.font = "bold 20px Tahoma";
-      ctx.fillText(lines[0], nameX, itemY + itemHeight / 2 - 5);
-      ctx.fillText(lines[1], nameX, itemY + itemHeight / 2 + 20);
-    }
-
-    ctx.font = "18px Tahoma";
-    ctx.fillStyle = "rgba(255, 255, 255, 0.7)";
-    ctx.textAlign = "left";
-    const roleText = admin.type === 'high' ? "Quản Trị Viên" : "Quản Trị Bot Nhóm";
-    ctx.fillText(roleText, nameX, itemY + itemHeight / 2 + 30);
+    ctx.font = "20px Tahoma";
+    ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+    const roleText = admin.type === 'high' ? "Quản Trị Viên Cấp Cao" : "Quản Trị Bot Nhóm";
+    ctx.fillText(roleText, nameX, itemY + itemHeight / 2 + 25);
 
     currentY += itemHeight + 10;
     itemNumber++;
