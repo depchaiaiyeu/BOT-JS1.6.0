@@ -125,8 +125,7 @@ export async function handleListAdmin(api, message, groupSettings) {
   await api.sendMessage(
     {
       msg: "Danh sách quản trị viên",
-      attachments: [imagePath],
-      quote: message,
+      attachments: [imagePath]
     },
     threadId,
     message.type
