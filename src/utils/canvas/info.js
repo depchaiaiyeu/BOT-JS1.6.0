@@ -1139,42 +1139,111 @@ async function drawAdminList(ctx, admins, startY, width, avatarSize, spacing, ad
           gradient.addColorStop(index / (shuffledColors.length - 1), color);
         });
 
+export async function createAdminListImage(highLevelAdmins, groupAdmins, outputPath) {
+  const width = 800;
+  const headerHeight = 180;
+  const itemHeight = 100;
+  const padding = 30;
+  
+  const totalItems = highLevelAdmins.length + groupAdmins.length;
+  const contentHeight = totalItems * itemHeight + padding * 2;
+  const height = headerHeight + contentHeight + 50;
+  
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+
+  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
+  backgroundGradient.addColorStop(0, "#4A90E2");
+  backgroundGradient.addColorStop(1, "#5B7FCB");
+  ctx.fillStyle = backgroundGradient;
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.textAlign = "center";
+  ctx.font = "bold 48px Tahoma";
+  ctx.fillStyle = "#B8F5A5";
+  ctx.fillText("DANH SÁCH QUẢN TRỊ BOT", width / 2, 70);
+
+  ctx.font = "bold 32px Tahoma";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
+  ctx.fillText("Quản Trị Viên Bot", width / 2, 130);
+
+  let currentY = headerHeight + padding;
+  let itemNumber = 1;
+
+  const allAdmins = [
+    ...highLevelAdmins.map(admin => ({ ...admin, type: 'high' })),
+    ...groupAdmins.map(admin => ({ ...admin, type: 'group' }))
+  ];
+
+  for (const admin of allAdmins) {
+    const itemY = currentY;
+    
+    ctx.fillStyle = "rgba(0, 0, 0, 0.3)";
+    ctx.fillRect(padding, itemY, width - padding * 2, itemHeight);
+
+    const avatarSize = 70;
+    const avatarX = padding + 50;
+    const avatarY = itemY + (itemHeight - avatarSize) / 2;
+
+    if (admin.avatar && cv.isValidUrl(admin.avatar)) {
+      try {
+        const avatar = await loadImage(admin.avatar);
+        
         ctx.save();
         ctx.beginPath();
-        ctx.arc(x + avatarSize / 2, y + avatarSize / 2, avatarSize / 2 + borderWidth, 0, Math.PI * 2);
-        ctx.fillStyle = gradient;
-        ctx.fill();
-
-        // Vẽ avatar tròn
-        ctx.beginPath();
-        ctx.arc(x + avatarSize / 2, y + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
+        ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
         ctx.clip();
-        ctx.drawImage(avatar, x, y, avatarSize, avatarSize);
+        ctx.drawImage(avatar, avatarX, avatarY, avatarSize, avatarSize);
         ctx.restore();
+
+        ctx.strokeStyle = admin.type === 'high' ? "#FFD700" : "#FFFFFF";
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2 + 2, 0, Math.PI * 2);
+        ctx.stroke();
       } catch (error) {
-        console.error("Lỗi load avatar:", error);
-        drawDefaultAvatar(ctx, x, y, avatarSize);
+        drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
       }
     } else {
-      drawDefaultAvatar(ctx, x, y, avatarSize);
+      drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
     }
 
-    // Vẽ tên
-    const { lines } = handleNameLong(admin.name, 12);
-    ctx.textAlign = "center";
-    ctx.font = "bold 18px Tahoma";
+    ctx.textAlign = "left";
+    ctx.font = "bold 28px Tahoma";
+    ctx.fillStyle = "#FFFFFF";
+    const numberText = `${itemNumber}.`;
+    ctx.fillText(numberText, padding + 15, itemY + itemHeight / 2 + 10);
+
+    const nameX = avatarX + avatarSize + 25;
+    ctx.font = "bold 24px Tahoma";
     ctx.fillStyle = "#FFFFFF";
     
-    const nameY = y + avatarSize + 25;
+    const { lines } = handleNameLong(admin.name, 25);
     if (lines.length === 1) {
-      ctx.fillText(lines[0], x + avatarSize / 2, nameY);
+      ctx.fillText(lines[0], nameX, itemY + itemHeight / 2 + 10);
     } else {
-      ctx.font = "bold 16px Tahoma";
-      lines.forEach((line, index) => {
-        ctx.fillText(line, x + avatarSize / 2, nameY + index * 20);
-      });
+      ctx.font = "bold 20px Tahoma";
+      ctx.fillText(lines[0], nameX, itemY + itemHeight / 2 - 5);
+      ctx.fillText(lines[1], nameX, itemY + itemHeight / 2 + 20);
     }
+
+    ctx.font = "18px Tahoma";
+    ctx.fillStyle = "rgba(255, 255, 255, 0.7)";
+    ctx.textAlign = "left";
+    const roleText = admin.type === 'high' ? "Quản Trị Viên" : "Quản Trị Bot Nhóm";
+    ctx.fillText(roleText, nameX, itemY + itemHeight / 2 + 30);
+
+    currentY += itemHeight + 10;
+    itemNumber++;
   }
+
+  const out = fs.createWriteStream(outputPath);
+  const stream = canvas.createPNGStream();
+  stream.pipe(out);
+  return new Promise((resolve, reject) => {
+    out.on("finish", () => resolve(outputPath));
+    out.on("error", reject);
+  });
 }
 
 function drawDefaultAvatar(ctx, x, y, size) {
@@ -1184,7 +1253,7 @@ function drawDefaultAvatar(ctx, x, y, size) {
   ctx.fill();
   
   ctx.fillStyle = "#FFFFFF";
-  ctx.font = "bold 40px Tahoma";
+  ctx.font = "bold 32px Tahoma";
   ctx.textAlign = "center";
-  ctx.fillText("?", x + size / 2, y + size / 2 + 15);
+  ctx.fillText("?", x + size / 2, y + size / 2 + 12);
 }
