@@ -119,12 +119,14 @@ export async function handleListAdmin(api, message, groupSettings) {
   }
 
   const imagePath = path.resolve(process.cwd(), "assets", "temp", `admin_list_${threadId}.png`);
+  
   await createAdminListImage(highLevelAdminList, groupAdminList, imagePath);
 
   await api.sendMessage(
     {
       msg: "Danh sách quản trị viên",
-      attachments: [imagePath]
+      attachments: [imagePath],
+      quote: message,
     },
     threadId,
     message.type
