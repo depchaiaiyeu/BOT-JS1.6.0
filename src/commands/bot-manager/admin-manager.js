@@ -5,7 +5,7 @@ import { removeMention } from "../../utils/format-util.js";
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import path from "path";
-import { createAdminListImage } from "../../utils/canvas/list-info.js";
+import { createAdminListImage } from "../../utils/canvas/info.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
