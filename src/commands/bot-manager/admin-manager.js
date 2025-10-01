@@ -1,12 +1,11 @@
 import { writeGroupSettings } from "../../utils/io-json.js";
-import { readFileSync } from 'fs';
-import { join } from 'path';
 import { sendMessageComplete, sendMessageInsufficientAuthority, sendMessageQuery, sendMessageWarning } from "../../service-hahuyhoang/chat-zalo/chat-style/chat-style.js";
 import { getGlobalPrefix } from "../../service-hahuyhoang/service.js";
 import { removeMention } from "../../utils/format-util.js";
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import path from "path";
+import { createAdminListImage } from "../../utils/canvas/list-info.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -47,6 +46,7 @@ export async function handleAdminHighLevelCommands(api, message, groupAdmins, gr
   writeGroupSettings(groupSettings);
   return true;
 }
+
 async function handleHighLevelAdmin(api, message, action) {
   const mentions = message.data.mentions;
 
@@ -57,16 +57,13 @@ async function handleHighLevelAdmin(api, message, action) {
   }
 
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
-  const adminList = JSON.parse(await fs.readFile(adminListPath, "utf-8"));;
+  const adminList = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
+
   for (const mention of mentions) {
     const targetId = mention.uid;
     const targetName = message.data.content.substring(mention.pos, mention.pos + mention.len).replace("@", "");
+
     if (action === "admin") {
-      if (message.data.uidFrom !== adminList) {
-        await sendMessageInsufficientAuthority(api, message, "Chỉ quản QTV tối cao mới được phép thêm quản trị viên cấp cao.");
-        continue;
-      }
-    
       if (!adminList.includes(targetId)) {
         adminList.push(targetId);
         await fs.writeFile(adminListPath, JSON.stringify(adminList, null, 4));
@@ -75,12 +72,8 @@ async function handleHighLevelAdmin(api, message, action) {
         await sendMessageWarning(api, message, `${targetName} đã có trong danh sách quản trị viên cấp cao.`);
       }
     }
-    if (action === "removeadmin") {
-      if (targetId === fixedAdminId) {
-        await sendMessageWarning(api, message, `${targetName} là Đấng Tôi cao mày dám xóa à.`);
-        continue;
-      }
 
+    if (action === "removeadmin") {
       if (adminList.includes(targetId)) {
         const updatedAdminList = adminList.filter((id) => id !== targetId);
         await fs.writeFile(adminListPath, JSON.stringify(updatedAdminList, null, 4));
@@ -91,55 +84,53 @@ async function handleHighLevelAdmin(api, message, action) {
     }
   }
 }
+
 export async function handleListAdmin(api, message, groupSettings) {
   const threadId = message.threadId;
-  let response = "";
 
   const adminListPath = path.resolve(process.cwd(), "assets", "data", "list_admin.json");
   const highLevelAdmins = JSON.parse(await fs.readFile(adminListPath, "utf-8"));
 
   const highLevelAdminInfo = await api.getUserInfo(highLevelAdmins);
 
-  let highLevelAdminListTxt = "";
-  let index = 1;
+  let highLevelAdminList = [];
+  let groupAdminList = [];
 
   if (highLevelAdminInfo.unchanged_profiles && Object.keys(highLevelAdminInfo.unchanged_profiles).length > 0) {
-    highLevelAdminListTxt += Object.values(highLevelAdminInfo.unchanged_profiles)
-      .map((user) => `${index++}. ${user.zaloName}`)
-      .join("\n");
+    highLevelAdminList = highLevelAdminList.concat(
+      Object.values(highLevelAdminInfo.unchanged_profiles).map((user) => user.zaloName)
+    );
   }
 
   if (highLevelAdminInfo.changed_profiles && Object.keys(highLevelAdminInfo.changed_profiles).length > 0) {
-    if (highLevelAdminListTxt) highLevelAdminListTxt += "\n";
-    highLevelAdminListTxt += Object.values(highLevelAdminInfo.changed_profiles)
-      .map((user) => `${index++}. ${user.zaloName}`)
-      .join("\n");
+    highLevelAdminList = highLevelAdminList.concat(
+      Object.values(highLevelAdminInfo.changed_profiles).map((user) => user.zaloName)
+    );
   }
 
-  if (highLevelAdminListTxt) {
-    response += `Danh sách Quản trị Cấp Cao của Bot:\n${highLevelAdminListTxt}\n\n`;
-  } else {
-    response += "Không thể lấy thông tin Quản trị Cấp Cao của Bot.\n\n";
+  if (Object.keys(groupSettings[threadId].adminList).length > 0) {
+    groupAdminList = Object.values(groupSettings[threadId].adminList);
   }
 
-  if (Object.keys(groupSettings[threadId].adminList).length === 0) {
-    response += "Không có quản trị viên nào được thiết lập cho nhóm này.";
-  } else {
-    const groupAdminListTxt = Object.entries(groupSettings[threadId].adminList)
-      .map(([id, name], index) => `${index + 1}. ${name}`)
-      .join("\n");
-
-    response += `Danh sách quản trị viên của nhóm:\n${groupAdminListTxt}`;
-  }
+  const imagePath = path.resolve(process.cwd(), "assets", "temp", `admin_list_${threadId}.png`);
+  
+  await createAdminListImage(highLevelAdminList, groupAdminList, imagePath);
 
   await api.sendMessage(
     {
-      msg: response,
+      msg: "Danh sách quản trị viên",
+      attachments: [imagePath],
       quote: message,
     },
     threadId,
     message.type
   );
+
+  try {
+    await fs.unlink(imagePath);
+  } catch (error) {
+    console.error("Không thể xóa file ảnh tạm:", error);
+  }
 }
 
 async function handleAddRemoveAdmin(api, message, groupSettings, action) {
