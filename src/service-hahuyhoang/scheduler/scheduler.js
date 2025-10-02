@@ -22,7 +22,7 @@ function readRankInfo() {
 
 const scheduledTasks = [
   {
-    cronExpression: "5 6 * * *",
+    cronExpression: "15 6 * * *",
     task: async (api) => {
       const caption = `-> SendTask 06:05 <-\nThức dậy cho một ngày mới\nđầy năng lượng thôi nào!\n\nĐón bình minh ngày mới cùng tớ nhé!!!`;
       const timeToLive = 1000 * 60 * 60 * 3;
