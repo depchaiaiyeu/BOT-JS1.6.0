@@ -1153,3 +1153,106 @@ function drawDefaultAvatar(ctx, x, y, size) {
   ctx.textAlign = "center";
   ctx.fillText("?", x + size / 2, y + size / 2 + 12);
 }
+
+export async function createWhiteListImage(whiteListUsers, outputPath) {
+  const width = 800;
+  const headerHeight = 180;
+  const itemHeight = 120;
+  const padding = 30;
+  
+  const totalItems = whiteListUsers.length;
+  const contentHeight = totalItems * itemHeight + padding * 2;
+  const height = headerHeight + contentHeight + 50;
+  
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+
+  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
+  backgroundGradient.addColorStop(0, "#4A90E2");
+  backgroundGradient.addColorStop(1, "#5B7FCB");
+  ctx.fillStyle = backgroundGradient;
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.textAlign = "center";
+  ctx.font = "bold 48px Tahoma";
+  ctx.fillStyle = cv.getRandomGradient(ctx, width);
+  ctx.fillText("DANH SÁCH WHITE-LIST", width / 2, 70);
+
+  ctx.font = "bold 32px Tahoma";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
+  ctx.fillText("Người Dùng Được Phép", width / 2, 130);
+
+  let currentY = headerHeight + padding;
+  let itemNumber = 1;
+
+  for (const user of whiteListUsers) {
+    const itemY = currentY;
+    
+    ctx.fillStyle = "rgba(0, 0, 0, 0.3)";
+    ctx.fillRect(padding, itemY, width - padding * 2, itemHeight);
+
+    const avatarSize = 80;
+    const avatarX = padding + 20;
+    const avatarY = itemY + (itemHeight - avatarSize) / 2;
+
+    if (user.avatar && cv.isValidUrl(user.avatar)) {
+      try {
+        const avatar = await loadImage(user.avatar);
+        
+        const borderWidth = 3;
+        const gradient = ctx.createLinearGradient(
+          avatarX - borderWidth,
+          avatarY - borderWidth,
+          avatarX + avatarSize + borderWidth,
+          avatarY + avatarSize + borderWidth
+        );
+
+        const rainbowColors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3"];
+        const shuffledColors = [...rainbowColors].sort(() => Math.random() - 0.5);
+        
+        shuffledColors.forEach((color, index) => {
+          gradient.addColorStop(index / (shuffledColors.length - 1), color);
+        });
+
+        ctx.save();
+        ctx.beginPath();
+        ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2 + borderWidth, 0, Math.PI * 2);
+        ctx.fillStyle = gradient;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
+        ctx.clip();
+        ctx.drawImage(avatar, avatarX, avatarY, avatarSize, avatarSize);
+        ctx.restore();
+      } catch (error) {
+        drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
+      }
+    } else {
+      drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
+    }
+
+    const nameX = avatarX + avatarSize + 20;
+    
+    ctx.textAlign = "left";
+    ctx.font = "bold 28px Tahoma";
+    ctx.fillStyle = "#FFFFFF";
+    const numberText = `${itemNumber}. ${user.name}`;
+    ctx.fillText(numberText, nameX, itemY + itemHeight / 2 - 5);
+
+    ctx.font = "20px Tahoma";
+    ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+    ctx.fillText("Người Dùng White-List", nameX, itemY + itemHeight / 2 + 25);
+
+    currentY += itemHeight + 10;
+    itemNumber++;
+  }
+
+  const out = fs.createWriteStream(outputPath);
+  const stream = canvas.createPNGStream();
+  stream.pipe(out);
+  return new Promise((resolve, reject) => {
+    out.on("finish", () => resolve(outputPath));
+    out.on("error", reject);
+  });
+}
