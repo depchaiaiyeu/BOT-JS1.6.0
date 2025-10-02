@@ -7,6 +7,10 @@ import {
 } from "../chat-zalo/chat-style/chat-style.js";
 import { getGlobalPrefix } from "../service.js";
 import { removeMention } from "../../utils/format-util.js";
+import { createWhiteListImage } from "../../utils/canvas/info.js";
+import { getUserInfoData } from "../info-service/user-info.js";
+import path from "path";
+import fs from "fs/promises";
 
 export async function handleWhiteList(api, message, groupSettings, groupAdmins) {
   const threadId = message.threadId;
@@ -26,20 +30,36 @@ export async function handleWhiteList(api, message, groupSettings, groupAdmins) 
       return isChangeSetting;
     }
 
-    let whiteListMessage = "Danh sách người dùng trong white-list:\n";
-    const whiteListUsers = Object.entries(groupSettings[threadId].whiteList).map(
-      ([id, userInfo], index) => {
-        return `${index + 1}. ${userInfo.name}`;
-      }
-    );
+    const whiteListData = [];
+    for (const [userId, userInfo] of Object.entries(groupSettings[threadId].whiteList)) {
+      const userData = await getUserInfoData(api, userId);
+      whiteListData.push({
+        name: userInfo.name,
+        avatar: userData ? userData.avatar : null,
+        uid: userId
+      });
+    }
 
-    whiteListMessage += whiteListUsers.join("\n");
+    const imagePath = path.resolve(process.cwd(), "assets", "temp", `whitelist_${threadId}.png`);
+    
+    await createWhiteListImage(whiteListData, imagePath);
 
     await api.sendMessage(
-      { msg: whiteListMessage, quote: message, ttl: 300000 },
+      {
+        msg: "Danh sách người dùng trong white-list",
+        attachments: [imagePath],
+        quote: message,
+      },
       threadId,
       message.type
     );
+
+    try {
+      await fs.unlink(imagePath);
+    } catch (error) {
+      console.error("Không thể xóa file ảnh tạm:", error);
+    }
+
     return isChangeSetting;
   }
 
@@ -144,4 +164,3 @@ export function isInWhiteList(groupSettings, threadId, senderId) {
   const whiteList = groupSettings[threadId]?.whiteList || {};
   return whiteList[senderId];
 }
-
