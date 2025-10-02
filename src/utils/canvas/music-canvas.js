@@ -23,19 +23,18 @@ const MUSIC_AVATAR_SHADOW_BLUR = 8;
 const MUSIC_AVATAR_SHADOW_OFFSET = 3;
 
 const FONT_FAMILY = "BeVietnamPro";
-const TITLE_FONT_SIZE = 25;
-const ARTIST_FONT_SIZE = 28;
-const SOURCE_FONT_SIZE = 28;
-const STATS_FONT_SIZE = 28;
-const CREDIT_FONT_SIZE = 9;
+const TITLE_FONT_SIZE = 26;
+const ARTIST_FONT_SIZE = 22;
+const SOURCE_FONT_SIZE = 22;
+const STATS_FONT_SIZE = 20;
 
 const TEXT_SHADOW_COLOR = 'rgba(0, 0, 0, 0.6)';
 const TEXT_SHADOW_BLUR = 4;
 const TEXT_SHADOW_OFFSET = 1;
 
-const TITLE_SPACING_FACTOR = 0.3;
+const TITLE_SPACING_FACTOR = 0.5;
 const ARTIST_SPACING_FACTOR = 0.7;
-const SOURCE_SPACING_FACTOR = 1.2;
+const SOURCE_SPACING_FACTOR = 0.8;
 const STATS_SPACING_FACTOR = 0;
 
 const dataIconPlatform = {
@@ -69,33 +68,22 @@ function drawDefaultBackground(ctx, width, height) {
     ctx.fillRect(0, 0, width, height);
 }
 
-function wrapText(ctx, text, font, maxWidth, maxLines) {
+function truncateText(ctx, text, font, maxWidth) {
     ctx.font = font;
-    const words = text.split(' ');
-    let lines = [];
-    let currentLine = words[0] || '';
-    for (let i = 1; i < words.length; ++i) {
-        const word = words[i];
-        const testLine = currentLine + ' ' + word;
-        const testWidth = ctx.measureText(testLine).width;
-        if (testWidth > maxWidth) {
-            lines.push(currentLine);
-            currentLine = word;
-            if (lines.length === maxLines - 1) break;
-        } else {
-            currentLine = testLine;
-        }
+    let width = ctx.measureText(text).width;
+    const ellipsis = "...";
+    const ellipsisWidth = ctx.measureText(ellipsis).width;
+
+    if (width <= maxWidth) {
+        return text;
     }
-    lines.push(currentLine);
-    if (lines.length > maxLines) lines = lines.slice(0, maxLines);
-    if (lines.length === maxLines && words.length > 0) {
-        let lastLine = lines[maxLines - 1];
-        while (ctx.measureText(lastLine + '...').width > maxWidth && lastLine.length > 0) {
-            lastLine = lastLine.slice(0, -1);
-        }
-        lines[maxLines - 1] = lastLine + '...';
+
+    let truncated = text;
+    while (width + ellipsisWidth > maxWidth && truncated.length > 0) {
+        truncated = truncated.slice(0, -1);
+        width = ctx.measureText(truncated).width;
     }
-    return lines;
+    return truncated + ellipsis;
 }
 
 const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
@@ -114,12 +102,13 @@ const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
 };
 
 export async function createMusicCard(musicInfo) {
+
     let estimatedHeight = PADDING;
-    estimatedHeight += TITLE_FONT_SIZE * 2; // max 2 lines
+    estimatedHeight += TITLE_FONT_SIZE;
     estimatedHeight += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
     estimatedHeight += ARTIST_FONT_SIZE;
     estimatedHeight += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
-    estimatedHeight += SOURCE_FONT_SIZE;
+    estimatedHeight += SOURCE_FONT_SIZE * 2;
     estimatedHeight += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
 
     const stats = [
@@ -136,13 +125,11 @@ export async function createMusicCard(musicInfo) {
         estimatedHeight += STATS_FONT_SIZE * STATS_SPACING_FACTOR;
     }
 
-    estimatedHeight += CREDIT_FONT_SIZE + PADDING / 2;
     estimatedHeight += PADDING;
 
     const minHeightForElements = Math.max(
         THUMB_SIZE + PADDING * 2,
-        MUSIC_AVATAR_SIZE + PADDING * 2,
-        CREDIT_FONT_SIZE + PADDING * 1.5
+        MUSIC_AVATAR_SIZE + PADDING * 2
     );
 
     const finalHeight = Math.ceil(Math.max(minHeightForElements, estimatedHeight));
@@ -172,6 +159,7 @@ export async function createMusicCard(musicInfo) {
                     overlay.addColorStop(1, 'rgba(0, 0, 0, 0.85)');
                     ctx.fillStyle = overlay;
                     ctx.fillRect(0, 0, CARD_WIDTH, finalHeight);
+
                 } else {
                     drawDefaultBackground(ctx, CARD_WIDTH, finalHeight);
                 }
@@ -243,7 +231,9 @@ export async function createMusicCard(musicInfo) {
                     const icon = await loadImage(dataIcon.linkIcon);
                     ctx.drawImage(icon, iconX, iconY, ICON_SIZE, ICON_SIZE);
                     ctx.restore();
-                } catch (iconError) {}
+
+                } catch (iconError) {
+                }
             }
         }
 
@@ -253,27 +243,48 @@ export async function createMusicCard(musicInfo) {
 
         const title = musicInfo.title || "Unknown Title";
         const titleFont = `bold ${TITLE_FONT_SIZE}px ${FONT_FAMILY}`;
-        const titleLines = wrapText(ctx, title, titleFont, maxTextWidth, 2);
+        const truncatedTitle = truncateText(ctx, title, titleFont, maxTextWidth);
+        currentY += TITLE_FONT_SIZE;
         ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        for (let i = 0; i < titleLines.length; i++) {
-            drawTextWithShadow(ctx, titleLines[i], textX, currentY + TITLE_FONT_SIZE * i, titleFont, maxTextWidth);
-        }
-        currentY += TITLE_FONT_SIZE * titleLines.length;
+        drawTextWithShadow(ctx, truncatedTitle, textX, currentY, titleFont, maxTextWidth);
         currentY += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
 
         const artistText = musicInfo.artists || "Unknown Artist";
         const artistFont = `${ARTIST_FONT_SIZE}px ${FONT_FAMILY}`;
-        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        drawTextWithShadow(ctx, artistText, textX, currentY + ARTIST_FONT_SIZE, artistFont, maxTextWidth);
+        const truncatedArtist = truncateText(ctx, artistText, artistFont, maxTextWidth);
         currentY += ARTIST_FONT_SIZE;
+        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+        drawTextWithShadow(ctx, truncatedArtist, textX, currentY, artistFont, maxTextWidth);
         currentY += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
 
         const sourceText = `From ${musicInfo.source || "ZingMp3"}${musicInfo.rank ? ` - 🏆 Top ${musicInfo.rank}` : ""}`;
         const sourceFont = `${SOURCE_FONT_SIZE}px ${FONT_FAMILY}`;
-        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        drawTextWithShadow(ctx, sourceText, textX, currentY + SOURCE_FONT_SIZE, sourceFont, maxTextWidth);
+        const truncatedSource = truncateText(ctx, sourceText, sourceFont, maxTextWidth);
         currentY += SOURCE_FONT_SIZE;
-        currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+        drawTextWithShadow(ctx, truncatedSource, textX, currentY, sourceFont, maxTextWidth);
+
+        let sourceSecondLine = null;
+        if (ctx.measureText(sourceText).width > maxTextWidth) {
+            const words = sourceText.split(' ');
+            let line1 = '';
+            let line2 = '';
+            for (let word of words) {
+                if (ctx.measureText(line1 + word).width <= maxTextWidth) {
+                    line1 += (line1 ? ' ' : '') + word;
+                } else {
+                    line2 += (line2 ? ' ' : '') + word;
+                }
+            }
+            if (line2) {
+                sourceSecondLine = line2;
+                currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+                drawTextWithShadow(ctx, sourceSecondLine, textX, currentY, sourceFont, maxTextWidth);
+                currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+            }
+        } else {
+            currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+        }
 
         if (stats.length > 0) {
             currentY += STATS_FONT_SIZE;
@@ -321,7 +332,9 @@ export async function createMusicCard(musicInfo) {
                 ctx.clip();
                 ctx.drawImage(musicAvatar, musicAvatarX, musicAvatarY, MUSIC_AVATAR_SIZE, MUSIC_AVATAR_SIZE);
                 ctx.restore();
-            } catch (avatarError) {}
+
+            } catch (avatarError) {
+            }
         }
 
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
