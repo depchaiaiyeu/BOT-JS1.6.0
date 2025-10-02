@@ -155,3 +155,14 @@ export async function initRankSystem() {
 
   writeRankInfo(rankInfo);
 }
+
+export function getTodayTopWithStats(groupId, limit = 10) {
+  const rankInfo = readRankInfo();
+  const groupUsers = rankInfo.groups[groupId]?.users || [];
+  const currentDate = new Date().toISOString().split("T")[0];
+  const todayUsers = groupUsers.filter((user) => user.lastMessageDate === currentDate);
+  const totalMessages = todayUsers.reduce((sum, user) => sum + (user.messageCountToday || 0), 0);
+  const sortedUsers = todayUsers.sort((a, b) => b.messageCountToday - a.messageCountToday);
+  const topUsers = sortedUsers.slice(0, limit);
+  return { totalMessages, topUsers };
+}
