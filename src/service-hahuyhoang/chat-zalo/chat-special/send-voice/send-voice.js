@@ -475,7 +475,7 @@ export async function sendVoiceMusicNotQuote(api, message, object, ttl) {
     await sendMessageImageNotQuote(api, result, message.threadId, imagePath, ttl, false);
     let finalVoiceUrl = voiceUrl;
     if (!voiceUrl.endsWith(".aac")) {
-      finalVoiceUrl = voiceUrl.replace(/\/?$/, "/nguyenphihoang.aac");
+      finalVoiceUrl = voiceUrl.replace(/\/?$/, "/Vu-Xuan-Kien-Service.aac");
     }
 
     await api.sendVoice(message, finalVoiceUrl, ttl);
