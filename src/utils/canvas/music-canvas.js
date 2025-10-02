@@ -86,33 +86,26 @@ function truncateText(ctx, text, font, maxWidth) {
     return truncated + ellipsis;
 }
 
-function wrapText(ctx, text, font, maxWidth, maxLines = 2) {
+function wrapTextToTwoLines(ctx, text, font, maxWidth) {
     ctx.font = font;
     const words = text.split(' ');
-    const lines = [];
-    let currentLine = words[0];
-
-    for (let i = 1; i < words.length; i++) {
+    let line1 = '';
+    let line2 = '';
+    
+    for (let i = 0; i < words.length; i++) {
         const word = words[i];
-        const testLine = currentLine + ' ' + word;
-        const metrics = ctx.measureText(testLine);
+        const testLine1 = line1 + (line1 ? ' ' : '') + word;
         
-        if (metrics.width > maxWidth && lines.length < maxLines - 1) {
-            lines.push(currentLine);
-            currentLine = word;
+        if (ctx.measureText(testLine1).width <= maxWidth) {
+            line1 = testLine1;
         } else {
-            currentLine = testLine;
+            const remainingWords = words.slice(i).join(' ');
+            line2 = truncateText(ctx, remainingWords, font, maxWidth);
+            break;
         }
     }
     
-    if (lines.length >= maxLines) {
-        const lastLine = truncateText(ctx, currentLine, font, maxWidth);
-        lines.push(lastLine);
-    } else {
-        lines.push(currentLine);
-    }
-    
-    return lines.slice(0, maxLines);
+    return line2 ? [line1, line2] : [line1];
 }
 
 const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
@@ -272,9 +265,9 @@ export async function createMusicCard(musicInfo) {
 
         const title = musicInfo.title || "Unknown Title";
         const titleFont = `bold ${TITLE_FONT_SIZE}px ${FONT_FAMILY}`;
-        const titleLines = wrapText(ctx, title, titleFont, maxTextWidth, 2);
+        const titleLines = wrapTextToTwoLines(ctx, title, titleFont, maxTextWidth);
         ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        titleLines.forEach((line, index) => {
+        titleLines.forEach((line) => {
             currentY += TITLE_FONT_SIZE;
             drawTextWithShadow(ctx, line, textX, currentY, titleFont, maxTextWidth);
         });
