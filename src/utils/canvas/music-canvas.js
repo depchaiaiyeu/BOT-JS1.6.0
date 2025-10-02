@@ -22,21 +22,18 @@ const MUSIC_AVATAR_BORDER_WIDTH = 3;
 const MUSIC_AVATAR_SHADOW_BLUR = 8;
 const MUSIC_AVATAR_SHADOW_OFFSET = 3;
 
-const QUALITY_BADGE_HEIGHT = 30;
-const QUALITY_BADGE_FONT_SIZE = 13;
-
 const FONT_FAMILY = "BeVietnamPro";
-const TITLE_FONT_SIZE = 28;
-const ARTIST_FONT_SIZE = 22;
-const SOURCE_FONT_SIZE = 18;
-const STATS_FONT_SIZE = 20;
+const TITLE_FONT_SIZE = 25;
+const ARTIST_FONT_SIZE = 28;
+const SOURCE_FONT_SIZE = 28;
+const STATS_FONT_SIZE = 28;
 const CREDIT_FONT_SIZE = 9;
 
 const TEXT_SHADOW_COLOR = 'rgba(0, 0, 0, 0.6)';
 const TEXT_SHADOW_BLUR = 4;
 const TEXT_SHADOW_OFFSET = 1;
 
-const TITLE_SPACING_FACTOR = 0.5;
+const TITLE_SPACING_FACTOR = 0.3;
 const ARTIST_SPACING_FACTOR = 0.7;
 const SOURCE_SPACING_FACTOR = 1.2;
 const STATS_SPACING_FACTOR = 0;
@@ -72,22 +69,33 @@ function drawDefaultBackground(ctx, width, height) {
     ctx.fillRect(0, 0, width, height);
 }
 
-function truncateText(ctx, text, font, maxWidth) {
+function wrapText(ctx, text, font, maxWidth, maxLines) {
     ctx.font = font;
-    let width = ctx.measureText(text).width;
-    const ellipsis = "...";
-    const ellipsisWidth = ctx.measureText(ellipsis).width;
-
-    if (width <= maxWidth) {
-        return text;
+    const words = text.split(' ');
+    let lines = [];
+    let currentLine = words[0] || '';
+    for (let i = 1; i < words.length; ++i) {
+        const word = words[i];
+        const testLine = currentLine + ' ' + word;
+        const testWidth = ctx.measureText(testLine).width;
+        if (testWidth > maxWidth) {
+            lines.push(currentLine);
+            currentLine = word;
+            if (lines.length === maxLines - 1) break;
+        } else {
+            currentLine = testLine;
+        }
     }
-
-    let truncated = text;
-    while (width + ellipsisWidth > maxWidth && truncated.length > 0) {
-        truncated = truncated.slice(0, -1);
-        width = ctx.measureText(truncated).width;
+    lines.push(currentLine);
+    if (lines.length > maxLines) lines = lines.slice(0, maxLines);
+    if (lines.length === maxLines && words.length > 0) {
+        let lastLine = lines[maxLines - 1];
+        while (ctx.measureText(lastLine + '...').width > maxWidth && lastLine.length > 0) {
+            lastLine = lastLine.slice(0, -1);
+        }
+        lines[maxLines - 1] = lastLine + '...';
     }
-    return truncated + ellipsis;
+    return lines;
 }
 
 const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
@@ -106,9 +114,8 @@ const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
 };
 
 export async function createMusicCard(musicInfo) {
-
     let estimatedHeight = PADDING;
-    estimatedHeight += TITLE_FONT_SIZE;
+    estimatedHeight += TITLE_FONT_SIZE * 2; // max 2 lines
     estimatedHeight += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
     estimatedHeight += ARTIST_FONT_SIZE;
     estimatedHeight += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
@@ -165,12 +172,10 @@ export async function createMusicCard(musicInfo) {
                     overlay.addColorStop(1, 'rgba(0, 0, 0, 0.85)');
                     ctx.fillStyle = overlay;
                     ctx.fillRect(0, 0, CARD_WIDTH, finalHeight);
-
                 } else {
                     drawDefaultBackground(ctx, CARD_WIDTH, finalHeight);
                 }
             } catch (thumbError) {
-                console.error("Lỗi khi xử lý thumbnail:", thumbError);
                 drawDefaultBackground(ctx, CARD_WIDTH, finalHeight);
             }
         } else {
@@ -202,29 +207,6 @@ export async function createMusicCard(musicInfo) {
             ctx.beginPath();
             ctx.arc(thumbCenterX, thumbCenterY, THUMB_SIZE / 2, 0, Math.PI * 2);
             ctx.stroke();
-            ctx.restore();
-
-            const qualityText = musicInfo.quality || "Standard Quality";
-            const qualityFont = `${QUALITY_BADGE_FONT_SIZE}px ${FONT_FAMILY}`;
-            ctx.font = qualityFont;
-            const qualityTextWidth = ctx.measureText(qualityText).width;
-            const qualityBadgeWidth = qualityTextWidth + 20;
-            const qualityBadgeX = thumbX;
-            const qualityBadgeY = thumbY + THUMB_SIZE - QUALITY_BADGE_HEIGHT;
-
-            ctx.save();
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
-            ctx.beginPath();
-            ctx.roundRect(qualityBadgeX, qualityBadgeY, qualityBadgeWidth, QUALITY_BADGE_HEIGHT, 6);
-            ctx.fill();
-            ctx.restore();
-
-            ctx.save();
-            ctx.fillStyle = 'white';
-            ctx.font = qualityFont;
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillText(qualityText, qualityBadgeX + qualityBadgeWidth / 2, qualityBadgeY + QUALITY_BADGE_HEIGHT / 2);
             ctx.restore();
 
             const source = musicInfo.source?.toLowerCase() || "zingmp3";
@@ -261,10 +243,7 @@ export async function createMusicCard(musicInfo) {
                     const icon = await loadImage(dataIcon.linkIcon);
                     ctx.drawImage(icon, iconX, iconY, ICON_SIZE, ICON_SIZE);
                     ctx.restore();
-
-                } catch (iconError) {
-                    console.error("Lỗi khi vẽ icon nguồn nhạc:", iconError);
-                }
+                } catch (iconError) {}
             }
         }
 
@@ -274,26 +253,26 @@ export async function createMusicCard(musicInfo) {
 
         const title = musicInfo.title || "Unknown Title";
         const titleFont = `bold ${TITLE_FONT_SIZE}px ${FONT_FAMILY}`;
-        const truncatedTitle = truncateText(ctx, title, titleFont, maxTextWidth);
-        currentY += TITLE_FONT_SIZE;
+        const titleLines = wrapText(ctx, title, titleFont, maxTextWidth, 2);
         ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        drawTextWithShadow(ctx, truncatedTitle, textX, currentY, titleFont, maxTextWidth);
+        for (let i = 0; i < titleLines.length; i++) {
+            drawTextWithShadow(ctx, titleLines[i], textX, currentY + TITLE_FONT_SIZE * i, titleFont, maxTextWidth);
+        }
+        currentY += TITLE_FONT_SIZE * titleLines.length;
         currentY += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
 
         const artistText = musicInfo.artists || "Unknown Artist";
         const artistFont = `${ARTIST_FONT_SIZE}px ${FONT_FAMILY}`;
-        const truncatedArtist = truncateText(ctx, artistText, artistFont, maxTextWidth);
-        currentY += ARTIST_FONT_SIZE;
         ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        drawTextWithShadow(ctx, truncatedArtist, textX, currentY, artistFont, maxTextWidth);
+        drawTextWithShadow(ctx, artistText, textX, currentY + ARTIST_FONT_SIZE, artistFont, maxTextWidth);
+        currentY += ARTIST_FONT_SIZE;
         currentY += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
 
         const sourceText = `From ${musicInfo.source || "ZingMp3"}${musicInfo.rank ? ` - 🏆 Top ${musicInfo.rank}` : ""}`;
         const sourceFont = `${SOURCE_FONT_SIZE}px ${FONT_FAMILY}`;
-        const truncatedSource = truncateText(ctx, sourceText, sourceFont, maxTextWidth);
-        currentY += SOURCE_FONT_SIZE;
         ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        drawTextWithShadow(ctx, truncatedSource, textX, currentY, sourceFont, maxTextWidth);
+        drawTextWithShadow(ctx, sourceText, textX, currentY + SOURCE_FONT_SIZE, sourceFont, maxTextWidth);
+        currentY += SOURCE_FONT_SIZE;
         currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
 
         if (stats.length > 0) {
@@ -342,10 +321,7 @@ export async function createMusicCard(musicInfo) {
                 ctx.clip();
                 ctx.drawImage(musicAvatar, musicAvatarX, musicAvatarY, MUSIC_AVATAR_SIZE, MUSIC_AVATAR_SIZE);
                 ctx.restore();
-
-            } catch (avatarError) {
-                console.error("Lỗi khi vẽ avatar bài nhạc:", avatarError);
-            }
+            } catch (avatarError) {}
         }
 
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
@@ -353,7 +329,6 @@ export async function createMusicCard(musicInfo) {
         ctx.strokeRect(0.5, 0.5, CARD_WIDTH - 1, finalHeight - 1);
 
     } catch (error) {
-        console.error("Lỗi nghiêm trọng khi tạo music card:", error);
         ctx.fillStyle = 'red';
         ctx.fillRect(0, 0, CARD_WIDTH, finalHeight);
         ctx.font = '20px Arial';
@@ -367,7 +342,6 @@ export async function createMusicCard(musicInfo) {
         await fsPromises.mkdir(tempDir, { recursive: true });
     } catch (dirError) {
         if (dirError.code !== 'EEXIST') {
-            console.error("Không thể tạo thư mục temp:", dirError);
             throw dirError;
         }
     }
