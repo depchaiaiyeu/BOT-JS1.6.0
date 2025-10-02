@@ -17,17 +17,19 @@ const ICON_SIZE = 45;
 const ICON_BORDER_WIDTH = 2;
 const ICON_BORDER_COLOR = 'rgba(255, 255, 255, 0.8)';
 
-const AVATAR_SIZE = 75; // Tăng kích thước avatar
+const AVATAR_SIZE = 75;
 const AVATAR_BORDER_WIDTH = 3;
-// Bỏ AVATAR_BORDER_FILL_COLOR
 const AVATAR_SHADOW_BLUR = 8;
 const AVATAR_SHADOW_OFFSET = 3;
 
+const QUALITY_BADGE_HEIGHT = 30;
+const QUALITY_BADGE_FONT_SIZE = 13;
+
 const FONT_FAMILY = "BeVietnamPro";
-const TITLE_FONT_SIZE = 20;
-const ARTIST_FONT_SIZE = 17;
-const SOURCE_FONT_SIZE = 15;
-const STATS_FONT_SIZE = 15;
+const TITLE_FONT_SIZE = 28;
+const ARTIST_FONT_SIZE = 22;
+const SOURCE_FONT_SIZE = 18;
+const STATS_FONT_SIZE = 20;
 const CREDIT_FONT_SIZE = 9;
 
 const TEXT_SHADOW_COLOR = 'rgba(0, 0, 0, 0.6)';
@@ -132,7 +134,7 @@ export async function createMusicCard(musicInfo) {
 
     const minHeightForElements = Math.max(
         THUMB_SIZE + PADDING * 2,
-        AVATAR_SIZE + PADDING * 2, // Sử dụng AVATAR_SIZE mới
+        AVATAR_SIZE + PADDING * 2,
         CREDIT_FONT_SIZE + PADDING * 1.5
     );
 
@@ -195,11 +197,34 @@ export async function createMusicCard(musicInfo) {
             ctx.restore();
 
             ctx.save();
-            ctx.strokeStyle = cv.getRandomGradient(ctx, CARD_WIDTH); // Viền thumbnail màu loang
+            ctx.strokeStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
             ctx.lineWidth = THUMB_BORDER_WIDTH;
             ctx.beginPath();
             ctx.arc(thumbCenterX, thumbCenterY, THUMB_SIZE / 2, 0, Math.PI * 2);
             ctx.stroke();
+            ctx.restore();
+
+            const qualityText = musicInfo.quality || "Standard Quality";
+            const qualityFont = `${QUALITY_BADGE_FONT_SIZE}px ${FONT_FAMILY}`;
+            ctx.font = qualityFont;
+            const qualityTextWidth = ctx.measureText(qualityText).width;
+            const qualityBadgeWidth = qualityTextWidth + 20;
+            const qualityBadgeX = thumbX;
+            const qualityBadgeY = thumbY + THUMB_SIZE - QUALITY_BADGE_HEIGHT;
+
+            ctx.save();
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
+            ctx.beginPath();
+            ctx.roundRect(qualityBadgeX, qualityBadgeY, qualityBadgeWidth, QUALITY_BADGE_HEIGHT, 6);
+            ctx.fill();
+            ctx.restore();
+
+            ctx.save();
+            ctx.fillStyle = 'white';
+            ctx.font = qualityFont;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(qualityText, qualityBadgeX + qualityBadgeWidth / 2, qualityBadgeY + QUALITY_BADGE_HEIGHT / 2);
             ctx.restore();
 
             const source = musicInfo.source?.toLowerCase() || "zingmp3";
@@ -294,7 +319,6 @@ export async function createMusicCard(musicInfo) {
         if (musicInfo.userAvatar) {
             try {
                 const avatar = await loadImage(musicInfo.userAvatar);
-                // Tính toán vị trí dựa trên kích thước avatar mới
                 const avatarX = CARD_WIDTH - PADDING - AVATAR_SIZE;
                 const avatarY = finalHeight - PADDING - AVATAR_SIZE;
                 const avatarCenterX = avatarX + AVATAR_SIZE / 2;
@@ -306,18 +330,17 @@ export async function createMusicCard(musicInfo) {
                 ctx.shadowOffsetX = AVATAR_SHADOW_OFFSET;
                 ctx.shadowOffsetY = AVATAR_SHADOW_OFFSET;
 
-                ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH); // Nền viền avatar màu loang
+                ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
                 ctx.beginPath();
-                // Vẽ viền với kích thước avatar mới
                 ctx.arc(avatarCenterX, avatarCenterY, AVATAR_SIZE / 2 + AVATAR_BORDER_WIDTH, 0, Math.PI * 2);
                 ctx.fill();
                 ctx.restore();
 
                 ctx.save();
                 ctx.beginPath();
-                ctx.arc(avatarCenterX, avatarCenterY, AVATAR_SIZE / 2, 0, Math.PI * 2); // Clip với kích thước avatar mới
+                ctx.arc(avatarCenterX, avatarCenterY, AVATAR_SIZE / 2, 0, Math.PI * 2);
                 ctx.clip();
-                ctx.drawImage(avatar, avatarX, avatarY, AVATAR_SIZE, AVATAR_SIZE); // Vẽ avatar với kích thước mới
+                ctx.drawImage(avatar, avatarX, avatarY, AVATAR_SIZE, AVATAR_SIZE);
                 ctx.restore();
 
             } catch (avatarError) {
