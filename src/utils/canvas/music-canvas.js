@@ -17,10 +17,10 @@ const ICON_SIZE = 45;
 const ICON_BORDER_WIDTH = 2;
 const ICON_BORDER_COLOR = 'rgba(255, 255, 255, 0.8)';
 
-const AVATAR_SIZE = 75;
-const AVATAR_BORDER_WIDTH = 3;
-const AVATAR_SHADOW_BLUR = 8;
-const AVATAR_SHADOW_OFFSET = 3;
+const MUSIC_AVATAR_SIZE = 60;
+const MUSIC_AVATAR_BORDER_WIDTH = 3;
+const MUSIC_AVATAR_SHADOW_BLUR = 8;
+const MUSIC_AVATAR_SHADOW_OFFSET = 3;
 
 const QUALITY_BADGE_HEIGHT = 30;
 const QUALITY_BADGE_FONT_SIZE = 13;
@@ -134,7 +134,7 @@ export async function createMusicCard(musicInfo) {
 
     const minHeightForElements = Math.max(
         THUMB_SIZE + PADDING * 2,
-        AVATAR_SIZE + PADDING * 2,
+        MUSIC_AVATAR_SIZE + PADDING * 2,
         CREDIT_FONT_SIZE + PADDING * 1.5
     );
 
@@ -316,35 +316,35 @@ export async function createMusicCard(musicInfo) {
             });
         }
 
-        if (musicInfo.userAvatar) {
+        if (musicInfo.musicAvatar) {
             try {
-                const avatar = await loadImage(musicInfo.userAvatar);
-                const avatarX = CARD_WIDTH - PADDING - AVATAR_SIZE;
-                const avatarY = finalHeight - PADDING - AVATAR_SIZE;
-                const avatarCenterX = avatarX + AVATAR_SIZE / 2;
-                const avatarCenterY = avatarY + AVATAR_SIZE / 2;
+                const musicAvatar = await loadImage(musicInfo.musicAvatar);
+                const musicAvatarX = CARD_WIDTH - PADDING - MUSIC_AVATAR_SIZE;
+                const musicAvatarY = finalHeight - PADDING - MUSIC_AVATAR_SIZE;
+                const musicAvatarCenterX = musicAvatarX + MUSIC_AVATAR_SIZE / 2;
+                const musicAvatarCenterY = musicAvatarY + MUSIC_AVATAR_SIZE / 2;
 
                 ctx.save();
                 ctx.shadowColor = 'rgba(0, 0, 0, 0.4)';
-                ctx.shadowBlur = AVATAR_SHADOW_BLUR;
-                ctx.shadowOffsetX = AVATAR_SHADOW_OFFSET;
-                ctx.shadowOffsetY = AVATAR_SHADOW_OFFSET;
+                ctx.shadowBlur = MUSIC_AVATAR_SHADOW_BLUR;
+                ctx.shadowOffsetX = MUSIC_AVATAR_SHADOW_OFFSET;
+                ctx.shadowOffsetY = MUSIC_AVATAR_SHADOW_OFFSET;
 
                 ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
                 ctx.beginPath();
-                ctx.arc(avatarCenterX, avatarCenterY, AVATAR_SIZE / 2 + AVATAR_BORDER_WIDTH, 0, Math.PI * 2);
+                ctx.arc(musicAvatarCenterX, musicAvatarCenterY, MUSIC_AVATAR_SIZE / 2 + MUSIC_AVATAR_BORDER_WIDTH, 0, Math.PI * 2);
                 ctx.fill();
                 ctx.restore();
 
                 ctx.save();
                 ctx.beginPath();
-                ctx.arc(avatarCenterX, avatarCenterY, AVATAR_SIZE / 2, 0, Math.PI * 2);
+                ctx.arc(musicAvatarCenterX, musicAvatarCenterY, MUSIC_AVATAR_SIZE / 2, 0, Math.PI * 2);
                 ctx.clip();
-                ctx.drawImage(avatar, avatarX, avatarY, AVATAR_SIZE, AVATAR_SIZE);
+                ctx.drawImage(musicAvatar, musicAvatarX, musicAvatarY, MUSIC_AVATAR_SIZE, MUSIC_AVATAR_SIZE);
                 ctx.restore();
 
             } catch (avatarError) {
-                console.error("Lỗi khi vẽ avatar người dùng:", avatarError);
+                console.error("Lỗi khi vẽ avatar bài nhạc:", avatarError);
             }
         }
 
