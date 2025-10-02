@@ -23,10 +23,10 @@ const MUSIC_AVATAR_SHADOW_BLUR = 8;
 const MUSIC_AVATAR_SHADOW_OFFSET = 3;
 
 const FONT_FAMILY = "BeVietnamPro";
-const TITLE_FONT_SIZE = 23;
-const ARTIST_FONT_SIZE = 22;
-const SOURCE_FONT_SIZE = 22;
-const STATS_FONT_SIZE = 20;
+const TITLE_FONT_SIZE = 20;
+const ARTIST_FONT_SIZE = 18;
+const SOURCE_FONT_SIZE = 18;
+const STATS_FONT_SIZE = 18;
 
 const TEXT_SHADOW_COLOR = 'rgba(0, 0, 0, 0.6)';
 const TEXT_SHADOW_BLUR = 4;
@@ -86,6 +86,35 @@ function truncateText(ctx, text, font, maxWidth) {
     return truncated + ellipsis;
 }
 
+function wrapText(ctx, text, font, maxWidth, maxLines = 2) {
+    ctx.font = font;
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = words[0];
+
+    for (let i = 1; i < words.length; i++) {
+        const word = words[i];
+        const testLine = currentLine + ' ' + word;
+        const metrics = ctx.measureText(testLine);
+        
+        if (metrics.width > maxWidth && lines.length < maxLines - 1) {
+            lines.push(currentLine);
+            currentLine = word;
+        } else {
+            currentLine = testLine;
+        }
+    }
+    
+    if (lines.length >= maxLines) {
+        const lastLine = truncateText(ctx, currentLine, font, maxWidth);
+        lines.push(lastLine);
+    } else {
+        lines.push(currentLine);
+    }
+    
+    return lines.slice(0, maxLines);
+}
+
 const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
     ctx.save();
     ctx.font = font;
@@ -104,7 +133,7 @@ const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
 export async function createMusicCard(musicInfo) {
 
     let estimatedHeight = PADDING;
-    estimatedHeight += TITLE_FONT_SIZE;
+    estimatedHeight += TITLE_FONT_SIZE * 2;
     estimatedHeight += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
     estimatedHeight += ARTIST_FONT_SIZE;
     estimatedHeight += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
@@ -243,10 +272,12 @@ export async function createMusicCard(musicInfo) {
 
         const title = musicInfo.title || "Unknown Title";
         const titleFont = `bold ${TITLE_FONT_SIZE}px ${FONT_FAMILY}`;
-        const truncatedTitle = truncateText(ctx, title, titleFont, maxTextWidth);
-        currentY += TITLE_FONT_SIZE;
+        const titleLines = wrapText(ctx, title, titleFont, maxTextWidth, 2);
         ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
-        drawTextWithShadow(ctx, truncatedTitle, textX, currentY, titleFont, maxTextWidth);
+        titleLines.forEach((line, index) => {
+            currentY += TITLE_FONT_SIZE;
+            drawTextWithShadow(ctx, line, textX, currentY, titleFont, maxTextWidth);
+        });
         currentY += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
 
         const artistText = musicInfo.artists || "Unknown Artist";
