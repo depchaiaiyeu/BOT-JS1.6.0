@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 import { promisify } from 'util';
 import { exec } from 'child_process';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 
 import { getGlobalPrefix } from "../../service.js";
 import { MessageMention } from "../../../api-zalo/index.js";
@@ -38,7 +38,7 @@ const headers = {
   'Accept': '*/*',
   'Accept-Encoding': 'identity;q=1, *;q=0',
   'Accept-Language': 'en-US,en;q=0.9,vi;q=0.8',
-  "Cookie": "_ttp=2p0lHkLPkuuzPy4n9kNCgaqVBFM; tt_chain_token=tioPB+Lui7TvHuzUPNaOHg==; passport_csrf_token=3dfb5a52d5a68f4d5c9bba4538577dfe; passport_csrf_token_default=3dfb5a52d5a68f4d5c9bba4538577dfe; odin_tt=0a5b7e2bc3c60961f0e9463f055e859c8ca0059ae611097cd3dd3f4f259a70c0ec1343ec5dfb12f6361658cbac0ad226f69c1b6cba2089e7f174c7f9388708e449330d0c262c38701c9381fc9a679cae; tt_csrf_token=tRUs25Em-weSrPLvFd61dOW1c5-DwHMbLe8s; s_v_web_id=verify_m5acgd9w_JQLaQCy0_pzpQ_43RZ_BC6o_vhFGHinP4BkJ; ak_bmsc=B383BD0641AA3966BA5467E50FF743C7~000000000000000000000000000000~YAAQb/rSFwVwPRWUAQAAt4m1FRogp3ca2+A8RMlIQ3bVPFbQk32wMIqddY1DgYAkQSrPhPOfWeY09XH9dzjEP/JHNDoF6+1dNfEjFHRPX4UJDFn8vLT0S6np7j/Ln3P7MWvpipgWl4Yv2sbPa6WhsVKHincBk25EcDsuCtubK1wbOQhhDuTXz5/1BD33+zDu3UHgFTB4R/QwxQknEurgT7ejJW+ORo8kt7RlyJW8Re4JTaQbi4KQKQAWl6B6g4D0bWTWGNG5mQn7z7x6O2TDr7gqzidqpNaQ7vKBEs9To5+RcCdvLtOY2zh4f0cD9h+Mrdfkw70ZEt2vi8Sq4zwWwPI5N7WqxvMffMr1vIYBb6bg8Kw62daAZXS4/y3GNRhtimAAq+fnZYB0; bm_sv=C410BFCD013A0C5B8520B329617A1E60~YAAQb/rSF3t8PRWUAQAANe+2FRrx1PREwDh+ViFkDQN6KWGFhaqf+srNGuaupb219rQJ6LqNeKq3o7xTExLzyYYZEfZKrBGnxCcnCSVFz2dXens26fDnmkgY83OYLDclwx+oJyhCBUdPq/CayUnzV9LiOgmoBYpHoDaxG8d6bBsFPuJUuQDBKzDLufGHtbAFzaiiF/AALmC7GeblyI734eWFTU/4NBIme2NvBGQSzaEjqtAGsj+mReMGduvAPgKg~1; ttwid=1%7CaIhJLRa4fvQV5lLYGHleEtravH48pseLFrAf8dwU0ik%7C1735531098%7C93b50b3458c149dc9b6c3b6d7684bb03da5e87ae81d41b52ce2e116eb6927ca1; msToken=OOe0-h21TyN659uHZ5rOZxo4MdlgKsxjPdzEowUi26NgWYUSyN49-R3BEdKoII-GndXvAcqHuWRTe4Rma4ZnoqWcqkm3IO_qLXCP_9sLSPrq57_1K9cT8Lw3LAMXtyNfadDjwQRTQzYO2-NnE5vt7VXB9edV",
+  "Cookie": "_ttp=2p0lHkLPkuuzPy4n9kNCgaqVBFM; tt_chain_token=tioPB+Lui7TvHuzUPNaOHg==; passport_csrf_token=3dfb5a52d5a68f4d5c9bba4538577dfe; passport_csrf_token_default=3dfb5a52d5a68f4d5c9bba4538577dfe; odin_tt=0a5b7e2bc3c60961f0e9463f055e859c8ca0059ae611097cd3dd3f4f259a70c0ec1343ec5dfb12f6361658cbac0ad226f69c1b6cba2089e7f174c7f9388708e449330d0c262c38701c9381fc9a679cae; tt_csrf_token=tRUs25Em-weSrPLvFd61dOW1c5-DwHMbLe8s; s_v_web_id=verify_m5acgd9w_JQLaQCy0_pzpQ_43RZ_BC6o_vhFGHinP4BkJ; ak_bmsc=B383BD0641AA3966BA5467E50FF743C7~000000000000000000000000000000~YAAQb/rSFwVwPRWUAQAAt4m1FRogp3ca2+A8RMlIQ3bVPFbQk32wMIqddY1DgYAkQSrPhPOfWeY09XH9dzjEP/JHNDoF6+1dNfEjFHRPX4UJDFn8vLT0S6np7j/Ln3P7MWvpipgWl4Yv2sbPa6WhsVKHincBk25EcDsuCtubK1wbOQhhDuTXz5/1BD33+zDu3UHgFTB4R/QwxQknEurgT7ejJW+ORo8kt7RlyJW8Re4JTaQbi4KQKQAWl6B6g4D0bWTWGNG5mQn7z7x6O2TDr7gqzidqpNaQ7vKBEs9To5+RcCdvLtOY2zh4f0cD9h+Mrdfkw70ZEt2vi8Sq4zwWwPI5N7WqxvMffMr1vIYBb6bg8Kw62daAZXS4/y3GNRhtimAAq+fnZYB0; bm_sv=C410BFCD013A0C5B8520B329617A1E60~YAAQb/rSF3t8PRWUAQAANe+2FRrx1PREwDh+ViFkDQN6KWGFhaqf+srNGuaupb219rQJ6LqNeKq3o7xTExLzyYYZEfZKrBGnxCcnCSVFz2dXens26fDnmkgY83OYLDclwx+oJyhCBUdPq/CayUnzV9LiOgmoBYpHoDaxG8d6bBsFPuJUuQDBKzDLufGHtbAFzaiiF/AALmC7GemblyI734eWFTU/4NBIme2NvBGQSzaEjqtAGsj+mReMGduvAPgKg~1; ttwid=1%7CaIhJLRa4fvQV5lLYGHleEtravH48pseLFrAf8dwU0ik%7C1735531098%7C93b50b3458c149dc9b6c3b6d7684bb03da5e87ae81d41b52ce2e116eb6927ca1; msToken=OOe0-h21TyN659uHZ5rOZxo4MdlgKsxjPdzEowUi26NgWYUSyN49-R3BEdKoII-GndXvAcqHuWRTe4Rma4ZnoqWcqkm3IO_qLXCP_9sLSPrq57_1K9cT8Lw3LAMXtyNfadDjwQRTQzYO2-NnE5vt7VXB9edV",
 }
 
 schedule.scheduleJob("*/5 * * * * *", () => {
@@ -428,7 +428,7 @@ export async function handleTikTokReaction(api, reaction) {
       stitchSetting: ['Everyone', 'Friends', 'No one'][userData.stitchSetting || 0],
     };
 
-    let caption = `[ ${senderNameOriginal} ]\n\n`;
+    let caption = `[ ${senderNameOriginal} ]\n`;
     caption += `Nickname: ${userData.nickname || 'N/A'}\n`;
     caption += `Unique ID: ${userData.uniqueId || username}\n`;
     caption += `User ID: ${userData.id || 'N/A'}\n`;
