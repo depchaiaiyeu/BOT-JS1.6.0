@@ -197,14 +197,14 @@ export async function createUserInfoImage(userInfo) {
       ctx.stroke();
 
       // Vẽ tên người dùng dưới avatar
-      ctx.font = "bold 32px Tahoma";
+      ctx.font = "bold 32px BeVietnamPro";
       ctx.fillStyle = "#FFFFFF";
       ctx.textAlign = "center";
       const nameY = yAvatar + heightAvatar + 54;
       if (nameLine2) {
-        ctx.font = "bold 24px Tahoma";
+        ctx.font = "bold 24px BeVietnamPro";
         ctx.fillText(nameLine1, xAvatar, nameY);
-        ctx.font = "bold 24px Tahoma";
+        ctx.font = "bold 24px BeVietnamPro";
         ctx.fillText(nameLine2, xAvatar, nameY + 28);
       } else {
         ctx.fillText(nameLine1, xAvatar, nameY);
