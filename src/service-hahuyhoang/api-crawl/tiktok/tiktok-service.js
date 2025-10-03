@@ -387,7 +387,11 @@ export async function handleTikTokReaction(api, reaction) {
     const { username, threadId, type, senderId: senderIdOriginal, senderName: senderNameOriginal } = relatedData;
 
     const url = `https://www.tiktok.com/@${username}`;
-    const response = await axios.get(url, { headers });
+    const response = await axios.get(url, { 
+      headers,
+      timeout: 10000
+    });
+    
     if (response.status !== 200) {
       const msgError = {
         type: type,
@@ -435,23 +439,23 @@ export async function handleTikTokReaction(api, reaction) {
     };
 
     let caption = `[ ${senderNameOriginal} ]\n\n`;
-    caption += `Nickname: ${userData.nickname || 'N/A'}\n`;
-    caption += `Unique ID: ${userData.uniqueId || username}\n`;
-    caption += `User ID: ${userData.id || 'N/A'}\n`;
-    caption += `Followers: ${userData.followerCount || 0}\n`;
-    caption += `Following: ${userData.followingCount || 0}\n`;
-    caption += `Likes: ${userData.heartCount || 0}\n`;
-    caption += `Videos: ${userData.videoCount || 0}\n`;
-    caption += `Digg Count: ${userData.diggCount || 0}\n`;
-    caption += `Signature: ${userData.signature ? userData.signature.replace(/\\n/g, '\n').replace(/\\\\/g, '\\').replace(/\\"/g, '"') : 'N/A'}\n`;
-    caption += `Verified: ${userData.verified ? 'Yes' : 'No'}\n`;
-    caption += `Comment Setting: ${settings.commentSetting}\n`;
-    caption += `Duet Setting: ${settings.duetSetting}\n`;
-    caption += `Stitch Setting: ${settings.stitchSetting}\n`;
-    if (userData.privateAccount) caption += `Private Account: Yes\n`;
-    caption += `Under 18: ${userData.isUnderAge18 ? 'Yes' : 'No'}\n`;
-    caption += `Open Favorite: ${userData.openFavorite ? 'Yes' : 'No'}\n`;
-    if (userData.isADVirtual) caption += `AD Virtual: Yes\n`;
+    caption += `👤 Nickname: ${userData.nickname || 'N/A'}\n`;
+    caption += `🆔 Unique ID: ${userData.uniqueId || username}\n`;
+    caption += `🔢 User ID: ${userData.id || 'N/A'}\n`;
+    caption += `👥 Followers: ${userData.followerCount || 0}\n`;
+    caption += `➕ Following: ${userData.followingCount || 0}\n`;
+    caption += `❤️ Likes: ${userData.heartCount || 0}\n`;
+    caption += `🎬 Videos: ${userData.videoCount || 0}\n`;
+    caption += `👍 Digg Count: ${userData.diggCount || 0}\n`;
+    caption += `📝 Signature: ${userData.signature ? userData.signature.replace(/\\n/g, '\n').replace(/\\\\/g, '\\').replace(/\\"/g, '"') : 'N/A'}\n`;
+    caption += `✅ Verified: ${userData.verified ? 'Yes' : 'No'}\n`;
+    caption += `💬 Comment Setting: ${settings.commentSetting}\n`;
+    caption += `🎭 Duet Setting: ${settings.duetSetting}\n`;
+    caption += `✂️ Stitch Setting: ${settings.stitchSetting}\n`;
+    if (userData.privateAccount) caption += `🔒 Private Account: Yes\n`;
+    caption += `🔞 Under 18: ${userData.isUnderAge18 ? 'Yes' : 'No'}\n`;
+    caption += `⭐ Open Favorite: ${userData.openFavorite ? 'Yes' : 'No'}\n`;
+    if (userData.isADVirtual) caption += `📺 AD Virtual: Yes\n`;
 
     let uploadResult = undefined;
     const profilePicUrl = userData.avatarLarger;
@@ -461,7 +465,7 @@ export async function handleTikTokReaction(api, reaction) {
       uploadResult = await api.uploadAttachment([tempImagePath], threadId, type);
     }
 
-    const msgSend = {
+    const msgToSend = {
       type: type,
       threadId: threadId,
       data: {
@@ -470,7 +474,7 @@ export async function handleTikTokReaction(api, reaction) {
         attachment: uploadResult
       }
     };
-    await api.sendMessage(msgSend);
+    await api.sendMessage(msgToSend);
 
     return true;
   } catch (error) {
