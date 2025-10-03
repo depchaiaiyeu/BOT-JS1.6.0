@@ -10,7 +10,7 @@ import { formatDate } from '../../utils/format-util.js';
 const TIME_TO_LIVE_MESSAGE = 600000;
 const TEST_DURATION = 20000;
 
-const FIXED_LOGO_URL = " https://i.postimg.cc/wBM628Fn/generated-image.jpg";
+const FIXED_LOGO_URL = "https://i.pinimg.com/474x/d6/df/ed/d6dfedf59e840c71eab20e5f3e594450.jpg";
 
 let isTestingSpeed = false;
 let currentTester = {
@@ -36,19 +36,22 @@ export async function createSpeedTestImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
+    const backgroundUrl = "https://i.postimg.cc/wBM628Fn/generated-image.jpg";
     try {
-        const imageBuffer = await loadImageBuffer(FIXED_LOGO_URL);
-        const backgroundImage = await loadImage(imageBuffer);
-        
-        ctx.drawImage(backgroundImage, 0, 0, width, height);
-        
-        ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
-        ctx.fillRect(0, 0, width, height);
+        const bgBuffer = await loadImageBuffer(backgroundUrl);
+        const bgImage = await loadImage(bgBuffer);
+        const drawWidth = 980;
+        const drawHeight = 410;
+        const offsetX = (width - drawWidth) / 2;
+        const offsetY = (height - drawHeight) / 2;
+        ctx.drawImage(bgImage, offsetX, offsetY, drawWidth, drawHeight);
     } catch (error) {
-        console.error("Lỗi khi vẽ background:", error);
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
     }
+
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+    ctx.fillRect(0, 0, width, height);
 
     let yTitleTop = 60;
     ctx.textAlign = "center";
@@ -135,7 +138,6 @@ export async function createSpeedTestImage(result) {
         );
         ctx.restore();
     } catch (error) {
-        console.error("Lỗi khi vẽ logo cố định:", error);
         ctx.fillStyle = "#CCCCCC";
         ctx.font = "bold 20px Arial";
         ctx.textAlign = "center";
@@ -145,14 +147,14 @@ export async function createSpeedTestImage(result) {
     const ispName = result.isp || "Unknown ISP";
     const [nameLine1, nameLine2] = cv.hanldeNameUser(ispName);
     const nameY = yLogo + heightLogo + 54;
-    ctx.font = "bold 36px Tahoma";
+    ctx.font = "bold 32px Tahoma";
     ctx.fillStyle = "#FFFFFF";
     ctx.textAlign = "center";
     if (nameLine2) {
-        ctx.font = "bold 28px Tahoma";
+        ctx.font = "bold 24px Tahoma";
         ctx.fillText(nameLine1, xLogo, nameY);
-        ctx.font = "bold 28px Tahoma";
-        ctx.fillText(nameLine2, xLogo, nameY + 32);
+        ctx.font = "bold 24px Tahoma";
+        ctx.fillText(nameLine2, xLogo, nameY + 28);
     } else {
         ctx.fillText(nameLine1, xLogo, nameY);
     }
@@ -179,7 +181,7 @@ export async function createSpeedTestImage(result) {
     ];
 
     ctx.textAlign = "left";
-    ctx.font = "bold 28px BeVietnamPro";
+    ctx.font = "bold 26px BeVietnamPro";
     const lineHeight = 42;
 
     for (const field of fields) {
@@ -260,7 +262,6 @@ export async function handleSpeedTestCommand(api, message) {
         }
 
     } catch (error) {
-        console.error('Lỗi khi test tốc độ mạng:', error);
 
         await sendMessageCompleteRequest(api, message, {
             caption: `Đã xảy ra lỗi khi kiểm tra tốc độ mạng. Vui lòng thử lại sau.`
