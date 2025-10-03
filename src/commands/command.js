@@ -122,6 +122,7 @@ import { handleMusicCommand } from "../service-hahuyhoang/api-crawl/music/soundc
 import { handleAntiNudeCommand } from "../service-hahuyhoang/anti-service/anti-nude/anti-nude.js";
 import { handleSettingGroupCommand } from "./bot-manager/group-manage.js";
 import { handleTopChartZingMp3, handleZingMp3Command } from "../service-hahuyhoang/api-crawl/music/zingmp3.js";
+import { handleMemeCommand } from "../service-hahuyhoang/api-crawl/meme/sticker.js";
 import { handleVietlott655Command } from "../service-hahuyhoang/game-service/vietlott/vietlott655.js";
 import { startGame } from "../service-hahuyhoang/game-service/mini-game/index.js";
 import { handleYoutubeCommand } from "../service-hahuyhoang/api-crawl/youtube/youtube-service.js";
@@ -232,7 +233,7 @@ export async function checkCommandCountdown(api, message, userId, commandName, c
 
 export async function sendReactionConfirmReceive(api, message, numHandleCommand) {
   if (numHandleCommand === 1 || numHandleCommand === 5) {
-    await api.addReaction("OK", message);
+    await api.addReaction(":;", message);
   }
 }
 
@@ -554,6 +555,9 @@ export async function handleCommandPrivate(api, message) {
             return 0;
           case "soundcloud":
             await handleMusicCommand(api, message, aliasCommand);
+            return 0;
+          case "meme":
+            await handleMemeCommand(api, message, aliasCommand);
             return 0;
           case "zingmp3":
             await handleZingMp3Command(api, message, aliasCommand);
@@ -1163,6 +1167,10 @@ export async function handleCommand(
 
               case "soundcloud":
                 await handleMusicCommand(api, message, aliasCommand);
+                break;
+
+              case "meme":
+                await handleMemeCommand(api, message, aliasCommand);
                 break;
 
               case "zingmp3":
