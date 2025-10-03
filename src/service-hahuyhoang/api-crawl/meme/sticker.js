@@ -3,7 +3,9 @@ import fs from "fs";
 import path from "path";
 import { LRUCache } from "lru-cache";
 import { fileURLToPath } from "url";
+import { MessageMention } from "zlbotdqt";
 import { getGlobalPrefix } from "../../service.js";
+import { tempDir } from "../../../utils/io-json.js";
 import {
   sendMessageCompleteRequest,
   sendMessageWarningRequest,
@@ -12,11 +14,10 @@ import { removeMention } from "../../../utils/format-util.js";
 import { setSelectionsMapData } from "../index.js";
 import { deleteFile, downloadFile } from "../../../utils/util.js";
 import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js";
-import { getBotId, isAdmin } from "../../../index.js";
+import { getBotId } from "../../../index.js";
 import { processAndSendSticker } from "../../chat-zalo/chat-special/send-sticker/send-sticker.js";
-import { tempDir } from "../../../utils/io-json.js";
 
-const PLATFORM = "pinterest";
+const PLATFORM = "meme";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const TIME_TO_SELECT = 60000;
 
@@ -25,7 +26,6 @@ const CONFIG = {
     saveDir: tempDir,
   },
   download: {
-    maxAttempts: 3,
     timeout: 5000,
     minSize: 1024,
   },
@@ -34,9 +34,15 @@ const CONFIG = {
   },
 };
 
-async function handleOriginalPinterest(query) {
+const memeSelectionsMap = new LRUCache({
+  max: 500,
+  ttl: TIME_TO_SELECT,
+});
+
+async function searchPinterestMemes(query) {
   try {
-    const encodedQuery = encodeURIComponent(query);
+    const searchQuery = `meme ${query}`;
+    const encodedQuery = encodeURIComponent(searchQuery);
     const searchUrl = `https://www.pinterest.com/resource/BaseSearchResource/get/`;
 
     const data = {
@@ -55,7 +61,7 @@ async function handleOriginalPinterest(query) {
         price_max: null,
         price_min: null,
         query_pin_sigs: null,
-        query: query,
+        query: searchQuery,
         redux_normalize_feed: true,
         request_params: null,
         rs: "typed",
@@ -98,7 +104,7 @@ async function handleOriginalPinterest(query) {
     if (response.data && response.data.resource_response && response.data.resource_response.data) {
       const results = response.data.resource_response.data.results;
 
-      const memeData = results
+      const memes = results
         .filter((pin) => {
           return (
             pin &&
@@ -106,49 +112,28 @@ async function handleOriginalPinterest(query) {
             (pin.images.orig || pin.images["736x"] || pin.images["474x"] || pin.images["1200x"] || pin.images["600x"])
           );
         })
-        .map((pin) => {
-          const imageUrl = (
+        .map((pin, index) => ({
+          id: pin.id || `meme_${index}`,
+          title: pin.title || pin.grid_title || `Meme ${index + 1}`,
+          imageUrl:
             pin.images.orig?.url ||
             pin.images["1200x"]?.url ||
             pin.images["736x"]?.url ||
             pin.images["600x"]?.url ||
-            pin.images["474x"]?.url
-          );
-          return {
-            title: pin.title || pin.description || 'Meme',
-            imageUrl: imageUrl,
-          };
-        })
-        .filter((data) => data.imageUrl);
+            pin.images["474x"]?.url,
+          thumbnailUrl: pin.images["474x"]?.url || pin.images["236x"]?.url,
+        }))
+        .filter((meme) => meme.imageUrl);
 
-      return memeData;
+      return memes;
     }
 
     return [];
   } catch (error) {
-    console.error("Lỗi Pinterest gốc:", error.message);
-    if (error.response) {
-      console.error("Status:", error.response.status);
-      console.error("Headers:", JSON.stringify(error.response.headers));
-    }
+    console.error("Error searching Pinterest memes:", error.message);
     return [];
   }
 }
-
-async function getMemeInfo(question, limit) {
-  limit = limit || 10;
-  try {
-    return await handleOriginalPinterest(question);
-  } catch (error) {
-    console.error("Error fetching meme info:", error);
-    return null;
-  }
-}
-
-const memeSelectionsMap = new LRUCache({
-  max: 500,
-  ttl: TIME_TO_SELECT
-});
 
 export async function handleMemeCommand(api, message, aliasCommand) {
   let imagePath = null;
@@ -157,39 +142,35 @@ export async function handleMemeCommand(api, message, aliasCommand) {
     const senderId = message.data.uidFrom;
     const prefix = getGlobalPrefix();
     const commandContent = content.replace(`${prefix}${aliasCommand}`, "").trim();
-    const [question, numberMeme] = commandContent.split("&&");
 
-    if (!question) {
+    if (!commandContent) {
       const object = {
-        caption: `Vui lòng nhập từ khóa tìm kiếm\nVí dụ:\n${prefix}${aliasCommand} keyword`,
+        caption: `Vui lòng nhập từ khóa tìm kiếm meme\nVí dụ:\n${prefix}${aliasCommand} funny cat`,
       };
       await sendMessageWarningRequest(api, message, object, 30000);
       return;
     }
 
-    const fullQuery = `meme ${question}`;
-    const memeInfo = await getMemeInfo(fullQuery, parseInt(numberMeme));
-    if (!memeInfo || memeInfo.length === 0) {
+    const memes = await searchPinterestMemes(commandContent);
+
+    if (!memes || memes.length === 0) {
       const object = {
-        caption: `Không tìm thấy meme nào với từ khóa: ${question}`,
+        caption: `Không tìm thấy meme nào với từ khóa: ${commandContent}`,
       };
       await sendMessageWarningRequest(api, message, object, 30000);
       return;
     }
 
     let memeListTxt = "Đây là danh sách meme trên Pinterest mà tôi tìm thấy:\n";
-    memeListTxt += "Hãy trả lời tin nhắn này với số index của meme bạn muốn chọn!";
+    memeListTxt += "Hãy trả lời tin nhắn này với số index của meme bạn muốn!";
 
-    const memes = memeInfo.map((meme) => ({
+    const songs = memes.map((meme) => ({
       title: meme.title,
       artistsNames: "Pinterest",
-      thumbnailM: meme.imageUrl,
-      listen: 0,
-      like: 0,
-      comment: 0
-    })).slice(0, 10);
+      thumbnailM: meme.thumbnailUrl || meme.imageUrl,
+    }));
 
-    imagePath = await createSearchResultImage(memes);
+    imagePath = await createSearchResultImage(songs);
 
     const object = {
       caption: memeListTxt,
@@ -200,19 +181,21 @@ export async function handleMemeCommand(api, message, aliasCommand) {
     const quotedMsgId = memeListMessage?.message?.msgId || memeListMessage?.attachment[0]?.msgId;
     memeSelectionsMap.set(quotedMsgId.toString(), {
       userRequest: senderId,
-      collection: memeInfo,
+      collection: memes,
       timestamp: Date.now(),
     });
     setSelectionsMapData(senderId, {
       quotedMsgId: quotedMsgId.toString(),
-      collection: memeInfo,
+      collection: memes,
       timestamp: Date.now(),
       platform: PLATFORM,
     });
-
   } catch (error) {
     console.error("Error handling meme command:", error);
-    await sendMessageWarningRequest(api, message, { caption: "Đã xảy ra lỗi khi xử lý lệnh của bạn. Vui lòng thử lại sau." }, 30000);
+    const object = {
+      caption: `Đã xảy ra lỗi khi tìm kiếm meme. Vui lòng thử lại sau.`,
+    };
+    await sendMessageWarningRequest(api, message, object, 30000);
   } finally {
     if (imagePath) deleteFile(imagePath);
   }
@@ -221,8 +204,7 @@ export async function handleMemeCommand(api, message, aliasCommand) {
 export async function handleMemeReply(api, message) {
   const senderId = message.data.uidFrom;
   const idBot = getBotId();
-  const isAdminLevelHighest = isAdmin(senderId);
-  let selectedMeme;
+  let downloadedPath = null;
 
   try {
     if (!message.data.quote || !message.data.quote.globalMsgId) return false;
@@ -235,9 +217,10 @@ export async function handleMemeReply(api, message) {
 
     let selection = removeMention(message);
     const selectedIndex = parseInt(selection) - 1;
+    
     if (isNaN(selectedIndex)) {
       const object = {
-        caption: `Lựa chọn Không hợp lệ. Vui lòng chọn một số từ danh sách.`,
+        caption: `Lựa chọn không hợp lệ. Vui lòng chọn một số từ danh sách.`,
       };
       await sendMessageWarningRequest(api, message, object, 30000);
       return true;
@@ -246,13 +229,13 @@ export async function handleMemeReply(api, message) {
     const { collection } = memeSelectionsMap.get(quotedMsgId);
     if (selectedIndex < 0 || selectedIndex >= collection.length) {
       const object = {
-        caption: `Số bạn chọn Không nằm trong danh sách. Vui lòng chọn lại.`,
+        caption: `Số bạn chọn không nằm trong danh sách. Vui lòng chọn lại.`,
       };
       await sendMessageWarningRequest(api, message, object, 30000);
       return true;
     }
 
-    selectedMeme = collection[selectedIndex];
+    const selectedMeme = collection[selectedIndex];
 
     const msgDel = {
       type: message.type,
@@ -266,43 +249,31 @@ export async function handleMemeReply(api, message) {
     await api.deleteMessage(msgDel, false);
     memeSelectionsMap.delete(quotedMsgId);
 
-    return await handleSendMemeSticker(api, message, selectedMeme);
+    const tempFileName = `meme_${Date.now()}.jpg`;
+    downloadedPath = path.join(CONFIG.paths.saveDir, tempFileName);
+    await downloadFile(selectedMeme.imageUrl, downloadedPath);
+
+    const stats = fs.statSync(downloadedPath);
+    if (stats.size < CONFIG.download.minSize) {
+      throw new Error("Ảnh meme tải về quá nhỏ");
+    }
+
+    const object = {
+      caption: `Sticker meme của bạn đây!`,
+    };
+    await sendMessageCompleteRequest(api, message, object, 10000);
+
+    await processAndSendSticker(api, message, downloadedPath, null);
+
+    return true;
   } catch (error) {
     console.error("Error handling meme reply:", error);
     const object = {
-      caption: `Đã xảy ra lỗi khi xử lý lấy meme từ Pinterest cho bạn, vui lòng thử lại sau.`,
+      caption: `Đã xảy ra lỗi khi xử lý meme cho bạn, vui lòng thử lại sau.`,
     };
     await sendMessageWarningRequest(api, message, object, 30000);
     return true;
-  }
-}
-
-async function handleSendMemeSticker(api, message, meme) {
-  try {
-    const imageUrl = meme.imageUrl;
-    const tempFileName = `meme_${Date.now()}.jpg`;
-    const imagePath = path.join(CONFIG.paths.saveDir, tempFileName);
-    await downloadFile(imageUrl, imagePath);
-    const stats = fs.statSync(imagePath);
-    if (stats.size < CONFIG.download.minSize) {
-      deleteFile(imagePath);
-      const object = {
-        caption: `Không thể tải meme này. Vui lòng thử lại.`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return true;
-    }
-
-    await sendMessageCompleteRequest(api, message, { caption: "Sticker meme của bạn đây!" }, 30000);
-    await processAndSendSticker(api, message, imagePath, null);
-    deleteFile(imagePath);
-    return true;
-  } catch (error) {
-    console.error("Error sending meme sticker:", error);
-    const object = {
-      caption: `Đã xảy ra lỗi khi gửi sticker meme. Vui lòng thử lại sau.`,
-    };
-    await sendMessageWarningRequest(api, message, object, 30000);
-    return true;
+  } finally {
+    if (downloadedPath) deleteFile(downloadedPath);
   }
 }
