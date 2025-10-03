@@ -188,7 +188,9 @@ const parseVideoData = (content) => {
 
 export async function searchTiktokSubHatDe(keywords) {
 	try {
-		const response = await axios.get(linkSearchTiktokSubHatDe(keywords));
+		const response = await axios.get(linkSearchTiktokSubHatDe(keywords), {
+			timeout: 10000
+		});
 		const videos = response.data.data.videos;
 		if (!videos) return [];
 		const result = videos.map(data => ({
@@ -221,7 +223,7 @@ export async function searchTiktokSubHatDe(keywords) {
 		}));
 		return result;
 	} catch (error) {
-		console.error("Error while fetching data:", error);
+		console.error("Error while fetching data from SubHatDe:", error.message);
 		return [];
 	}
 };
@@ -229,7 +231,8 @@ export async function searchTiktokSubHatDe(keywords) {
 export async function searchTiktokGeneral(keywords, limit = 10) {
 	try {
 		const response = await axios.get(linkTiktokSearch(keywords), {
-			headers: headersSearch
+			headers: headersSearch,
+			timeout: 10000
 		});
 		const getData = response.data.data;
 		if (!getData) return [];
@@ -263,7 +266,7 @@ export async function searchTiktokGeneral(keywords, limit = 10) {
 		}));
 		return result;
 	} catch (error) {
-		console.error("Error while fetching data:", error);
+		console.error("Error while fetching data from TikTok General:", error.message);
 		return [];
 	}
 };
@@ -282,6 +285,7 @@ export const reqIdVideoTiktok = async (url, proxy) => {
 		const { request } = await axios({
 			method: "HEAD",
 			url,
+			timeout: 10000,
 			httpsAgent: proxy && (
 				proxy.startsWith("http") || proxy.startsWith("https")
 					? new HttpsProxyAgent(proxy)
@@ -318,6 +322,7 @@ export const fetchTiktokData = async (ID, proxy) => {
 			});
 			const res = await axios(url, {
 				method: "OPTIONS",
+				timeout: 10000,
 				headers: {
 					"User-Agent": "com.zhiliaoapp.musically/300904 (2018111632; U; Android 10; en_US; Pixel 4; Build/QQ3A.200805.001; Cronet/58.0.2991.0)"
 				},
@@ -339,6 +344,7 @@ export const fetchTiktokData = async (ID, proxy) => {
 		});
 		return await response;
 	} catch (error) {
+		console.error("Error fetching TikTok data:", error.message);
 		return null;
 	}
 };
@@ -367,54 +373,64 @@ export const getRandomVideoTiktok = (data, currentId) => {
 };
 
 const getDataDownloadSubHatDe = async (url) => {
-	const response = await axios.get(linkDownloadTiktokSubHatDe(url), {
-		timeout: 1500
-	});
-	if (response.data.msg === "success") {
-		const data = response.data.data;
-		return {
-			uid: data.id,
-			desc: data.title,
-			author: {
-				username: data.author.unique_id,
-				nickname: data.author.nickname
-			},
-			video: {
-				url: data.play,
-				cover: data.cover,
-				duration: data.duration * 1000,
-				quality: "540p",
-				type: "mp4",
-			},
-			music: {
-				title: data.music_info.title,
-				url: data.music_info.play,
-				cover: data.music_info.cover,
-				author: data.music_info.author,
-				quality: "audio",
-				type: "mp3",
-			},
-			stat: {
-				playCount: data.play_count,
-				diggCount: data.digg_count,
-				commentCount: data.comment_count,
-				downloadCount: data.download_count,
-				shareCount: data.share_count,
-				collectCount: data.collect_count,
+	try {
+		const response = await axios.get(linkDownloadTiktokSubHatDe(url), {
+			timeout: 10000
+		});
+		if (response.data.msg === "success") {
+			const data = response.data.data;
+			return {
+				uid: data.id,
+				desc: data.title,
+				author: {
+					username: data.author.unique_id,
+					nickname: data.author.nickname
+				},
+				video: {
+					url: data.play,
+					cover: data.cover,
+					duration: data.duration * 1000,
+					quality: "540p",
+					type: "mp4",
+				},
+				music: {
+					title: data.music_info.title,
+					url: data.music_info.play,
+					cover: data.music_info.cover,
+					author: data.music_info.author,
+					quality: "audio",
+					type: "mp3",
+				},
+				stat: {
+					playCount: data.play_count,
+					diggCount: data.digg_count,
+					commentCount: data.comment_count,
+					downloadCount: data.download_count,
+					shareCount: data.share_count,
+					collectCount: data.collect_count,
+				}
 			}
-		}
-	};
-	return null;
+		};
+		return null;
+	} catch (error) {
+		console.error("Error downloading from SubHatDe:", error.message);
+		return null;
+	}
 };
 
 export const getDataDownloadOriginal = async (url, id = null) => {
-	const idVideo = id ? id : await reqIdVideoTiktok(url);
-	if (!idVideo) return null;
+	try {
+		const idVideo = id ? id : await reqIdVideoTiktok(url);
+		if (!idVideo || idVideo.status === "error") return null;
 
-	const data = await fetchTiktokData(idVideo);
-	if (!data) return null;
+		const data = await fetchTiktokData(idVideo);
+		if (!data) return null;
 
-	return getTiktokVideoByID(data, idVideo);
+		return getTiktokVideoByID(data, idVideo);
+	} catch (error) {
+		console.error("Error getting original download data:", error.message);
+		return null;
+	}
 };
 
 export const getDataDownloadVideo = async (url) => {
@@ -456,63 +472,77 @@ export const getDataDownloadVideo = async (url) => {
 };
 
 export const getTiktokRelated = async (idVideo) => {
-	const response = await axios.get(linkTiktokRelated(idVideo));
-	const data = response.data.itemList;
-	let result = [];
-	if (!data) return [];
-	data.map(item => {
-		result.push({
-			id: item.id,
-			desc: item.desc,
-			createTime: item.createTime,
-			stats: {
-				playCount: item.stats.playCount,
-				diggCount: item.stats.diggCount,
-				commentCount: item.stats.commentCount,
-				shareCount: item.stats.shareCount,
-				collectCount: item.stats.collectCount,
-			},
-			video: {
-				url: item.video.playAddr,
-				cover: item.video.originCover,
-				duration: item.video.duration * 1000 || 1000,
-				type: item.video.format,
-				quality: item.video.ratio
-			},
-			author: item.author,
-			music: item.music
+	try {
+		const response = await axios.get(linkTiktokRelated(idVideo), {
+			timeout: 10000
 		});
-	});
-	return result;
+		const data = response.data.itemList;
+		let result = [];
+		if (!data) return [];
+		data.map(item => {
+			result.push({
+				id: item.id,
+				desc: item.desc,
+				createTime: item.createTime,
+				stats: {
+					playCount: item.stats.playCount,
+					diggCount: item.stats.diggCount,
+					commentCount: item.stats.commentCount,
+					shareCount: item.stats.shareCount,
+					collectCount: item.stats.collectCount,
+				},
+				video: {
+					url: item.video.playAddr,
+					cover: item.video.originCover,
+					duration: item.video.duration * 1000 || 1000,
+					type: item.video.format,
+					quality: item.video.ratio
+				},
+				author: item.author,
+				music: item.music
+			});
+		});
+		return result;
+	} catch (error) {
+		console.error("Error fetching related videos:", error.message);
+		return [];
+	}
 };
 
 export const getTiktokPreload = async () => {
-	const response = await axios.get(linkTiktokPreload());
-	const data = response.data.itemList;
-	let result = [];
-	if (!data) return [];
-	data.map(item => {
-		result.push({
-			id: item.id,
-			desc: item.desc,
-			createTime: item.createTime,
-			stats: {
-				playCount: item.stats.playCount,
-				diggCount: item.stats.diggCount,
-				commentCount: item.stats.commentCount,
-				shareCount: item.stats.shareCount,
-				collectCount: item.stats.collectCount,
-			},
-			video: {
-				url: item.video.playAddr,
-				cover: item.video.originCover,
-				duration: item.video.duration * 1000 || 1000,
-				type: item.video.format,
-				quality: item.video.ratio
-			},
-			author: item.author,
-			music: item.music
+	try {
+		const response = await axios.get(linkTiktokPreload(), {
+			timeout: 10000
 		});
-	});
-	return result;
+		const data = response.data.itemList;
+		let result = [];
+		if (!data) return [];
+		data.map(item => {
+			result.push({
+				id: item.id,
+				desc: item.desc,
+				createTime: item.createTime,
+				stats: {
+					playCount: item.stats.playCount,
+					diggCount: item.stats.diggCount,
+					commentCount: item.stats.commentCount,
+					shareCount: item.stats.shareCount,
+					collectCount: item.stats.collectCount,
+				},
+				video: {
+					url: item.video.playAddr,
+					cover: item.video.originCover,
+					duration: item.video.duration * 1000 || 1000,
+					type: item.video.format,
+					quality: item.video.ratio
+				},
+				author: item.author,
+				music: item.music
+			});
+		});
+		return result;
+	} catch (error) {
+		console.error("Error fetching preload videos:", error.message);
+		return [];
+	}
 };
