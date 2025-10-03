@@ -4,6 +4,7 @@ import path from "path";
 import { LRUCache } from "lru-cache";
 import { fileURLToPath } from "url";
 import { getGlobalPrefix } from "../../service.js";
+import { getBotId } from "../../../index.js";
 import { tempDir } from "../../../utils/io-json.js";
 import {
   sendMessageCompleteRequest,
