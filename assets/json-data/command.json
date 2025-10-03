@@ -2232,6 +2232,20 @@
       "active": true
     },
     {
+      "name": "cpubenchmark",
+      "description": "Xem thông tin và test hiệu năng CPU",
+      "syntax": "{p}cpubenchmark",
+      "permission": "all",
+      "countdown": 60,
+      "icon": "💻",
+      "type": 1,
+      "author": "Vũ Xuân Kiên",
+      "active": true,
+      "alias": [
+        "cpuls"
+      ]
+    },
+    {
       "name": "subnhanhchill",
       "description": "Xem phim tại nền tảng https://subnhanhchill.net",
       "syntax": "{p}subnhanhchill",
