@@ -36,12 +36,14 @@ export async function createSpeedTestImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
-    const backgroundUrl = "https://i.postimg.cc/C5d0CWYy/taoanhdep-thu-phap-91339.jpg";
     try {
-        const bgBuffer = await loadImageBuffer(backgroundUrl);
-        const bgImage = await loadImage(bgBuffer);
-        ctx.drawImage(bgImage, 0, 0, width, height);
+        const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
+        backgroundGradient.addColorStop(0, "#3B82F6");
+        backgroundGradient.addColorStop(1, "#111827");
+        ctx.fillStyle = backgroundGradient;
+        ctx.fillRect(0, 0, width, height);
     } catch (error) {
+        console.error("Lỗi khi vẽ background gradient:", error);
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
     }
@@ -134,6 +136,7 @@ export async function createSpeedTestImage(result) {
         );
         ctx.restore();
     } catch (error) {
+        console.error("Lỗi khi vẽ logo cố định:", error);
         ctx.fillStyle = "#CCCCCC";
         ctx.font = "bold 20px Arial";
         ctx.textAlign = "center";
@@ -258,6 +261,8 @@ export async function handleSpeedTestCommand(api, message) {
         }
 
     } catch (error) {
+        console.error('Lỗi khi test tốc độ mạng:', error);
+
         await sendMessageCompleteRequest(api, message, {
             caption: `Đã xảy ra lỗi khi kiểm tra tốc độ mạng. Vui lòng thử lại sau.`
         }, 30000);
