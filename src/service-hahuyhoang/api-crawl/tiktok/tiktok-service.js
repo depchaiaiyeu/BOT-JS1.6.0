@@ -389,11 +389,14 @@ export async function handleTikTokReaction(api, reaction) {
     const url = `https://www.tiktok.com/@${username}`;
     const response = await axios.get(url, { headers });
     if (response.status !== 200) {
-      await api.sendMessage({
-        body: "Không thể lấy thông tin từ username được cung cấp.",
-        threadId,
-        threadType: type
-      });
+      const msgError = {
+        type: type,
+        threadId: threadId,
+        data: {
+          msg: "Không thể lấy thông tin từ username được cung cấp."
+        }
+      };
+      await api.sendMessage(msgError);
       return true;
     }
 
@@ -414,11 +417,14 @@ export async function handleTikTokReaction(api, reaction) {
     });
 
     if (!userData) {
-      await api.sendMessage({
-        body: "Không thể lấy thông tin người dùng.",
-        threadId,
-        threadType: type
-      });
+      const msgError = {
+        type: type,
+        threadId: threadId,
+        data: {
+          msg: "Không thể lấy thông tin người dùng."
+        }
+      };
+      await api.sendMessage(msgError);
       return true;
     }
 
@@ -428,7 +434,7 @@ export async function handleTikTokReaction(api, reaction) {
       stitchSetting: ['Everyone', 'Friends', 'No one'][userData.stitchSetting || 0],
     };
 
-    let caption = `[ ${senderNameOriginal} ]\n`;
+    let caption = `[ ${senderNameOriginal} ]\n\n`;
     caption += `Nickname: ${userData.nickname || 'N/A'}\n`;
     caption += `Unique ID: ${userData.uniqueId || username}\n`;
     caption += `User ID: ${userData.id || 'N/A'}\n`;
@@ -455,13 +461,16 @@ export async function handleTikTokReaction(api, reaction) {
       uploadResult = await api.uploadAttachment([tempImagePath], threadId, type);
     }
 
-    await api.sendMessage({
-      body: caption,
-      mentions: [MessageMention(senderIdOriginal, senderNameOriginal.length, 2, false)],
-      threadId,
-      threadType: type,
-      attachment: uploadResult,
-    });
+    const msgSend = {
+      type: type,
+      threadId: threadId,
+      data: {
+        msg: caption,
+        mentions: [MessageMention(senderIdOriginal, senderNameOriginal.length, 2, false)],
+        attachment: uploadResult
+      }
+    };
+    await api.sendMessage(msgSend);
 
     return true;
   } catch (error) {
