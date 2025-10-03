@@ -68,7 +68,7 @@ export async function createCPUBenchmarkImage(result) {
 
     try {
         const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
-        backgroundGradient.addColorStop(0, "#10B981");
+        backgroundGradient.addColorStop(0, "#3B82F6");
         backgroundGradient.addColorStop(1, "#111827");
         ctx.fillStyle = backgroundGradient;
         ctx.fillRect(0, 0, width, height);
@@ -178,14 +178,14 @@ export async function createCPUBenchmarkImage(result) {
     const cpuName = result.cpuModel || "Unknown CPU";
     const [nameLine1, nameLine2] = cv.hanldeNameUser(cpuName);
     const nameY = yLogo + heightLogo + 54;
-    ctx.font = "bold 32px Tahoma";
+    ctx.font = "bold 36px Tahoma";
     ctx.fillStyle = "#FFFFFF";
     ctx.textAlign = "center";
     if (nameLine2) {
-        ctx.font = "bold 24px Tahoma";
+        ctx.font = "bold 28px Tahoma";
         ctx.fillText(nameLine1, xLogo, nameY);
-        ctx.font = "bold 24px Tahoma";
-        ctx.fillText(nameLine2, xLogo, nameY + 28);
+        ctx.font = "bold 28px Tahoma";
+        ctx.fillText(nameLine2, xLogo, nameY + 32);
     } else {
         ctx.fillText(nameLine1, xLogo, nameY);
     }
@@ -204,7 +204,7 @@ export async function createCPUBenchmarkImage(result) {
     ];
 
     ctx.textAlign = "left";
-    ctx.font = "bold 26px BeVietnamPro";
+    ctx.font = "bold 28px BeVietnamPro";
     const lineHeight = 42;
 
     for (const field of fields) {
