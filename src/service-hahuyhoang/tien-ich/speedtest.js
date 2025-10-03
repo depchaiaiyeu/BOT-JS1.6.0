@@ -10,15 +10,7 @@ import { formatDate } from '../../utils/format-util.js';
 const TIME_TO_LIVE_MESSAGE = 600000;
 const TEST_DURATION = 20000;
 
-const linkLogoISP = {
-    "VNPT": "https://upload.wikimedia.org/wikipedia/vi/6/65/VNPT_Logo.svg",
-    "FPT Telecom": "https://upload.wikimedia.org/wikipedia/commons/1/11/FPT_logo_2010.svg",
-    "Viettel": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Viettel_logo_2021.svg",
-    "CMC Telecom": "https://upload.wikimedia.org/wikipedia/commons/e/e7/CMC_logo_2018.png",
-};
-
 const FIXED_LOGO_URL = "https://i.pinimg.com/474x/d6/df/ed/d6dfedf59e840c71eab20e5f3e594450.jpg";
-
 
 let isTestingSpeed = false;
 let currentTester = {
@@ -28,16 +20,15 @@ let currentTester = {
 };
 let otherThreadRequester = {};
 
-
 function evaluateSpeed(speedInMBps) {
-    if (speedInMBps < 0.625) return "Rất chậm 🐌";
-    if (speedInMBps < 1.25) return "Chậm 😢";
-    if (speedInMBps < 3.75) return "Trung bình 🙂";
-    if (speedInMBps < 6.25) return "Khá tốt 👍";
-    if (speedInMBps < 12.5) return "Tốt 🚀";
-    return "Rất tốt 🏃‍♂️";
+    if (speedInMBps < 0.625) return "Rất chậm";
+    if (speedInMBps < 1.25) return "Chậm";
+    if (speedInMBps < 3.75) return "Trung bình";
+    if (speedInMBps < 6.25) return "Khá tốt";
+    if (speedInMBps < 12.5) return "Tốt";
+    if (speedInMBps < 62.5) return "Rất tốt";
+    return "Siêu tốc";
 }
-
 
 export async function createSpeedTestImage(result) {
     const width = 1000;
@@ -45,7 +36,6 @@ export async function createSpeedTestImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
-    // --- Vẽ nền ---
     try {
         const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
         backgroundGradient.addColorStop(0, "#3B82F6");
@@ -61,20 +51,17 @@ export async function createSpeedTestImage(result) {
     ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
     ctx.fillRect(0, 0, width, height);
 
-    // --- Vẽ tiêu đề trên cùng ---
-    let yTitleTop = 60; // Vị trí Y cho tiêu đề trên cùng
+    let yTitleTop = 60;
     ctx.textAlign = "center";
     ctx.font = "bold 48px BeVietnamPro";
     ctx.fillStyle = cv.getRandomGradient(ctx, width);
-    ctx.fillText("Kết Quả SpeedTest", width / 2, yTitleTop); // Căn giữa theo chiều ngang canvas
+    ctx.fillText("Kết Quả SpeedTest", width / 2, yTitleTop);
 
-    // --- Khu vực logo ---
     let xLogo = 170;
     let widthLogo = 180;
     let heightLogo = 180;
     let yLogo = 100;
 
-    // --- Vẽ viền và nền logo ---
     const borderWidth = 10;
     const gradient = ctx.createLinearGradient(
         xLogo - widthLogo / 2 - borderWidth,
@@ -118,7 +105,6 @@ export async function createSpeedTestImage(result) {
     ctx.fill();
     ctx.restore();
 
-    // --- Vẽ logo cố định ---
     try {
         const imageBuffer = await loadImageBuffer(FIXED_LOGO_URL);
         const image = await loadImage(imageBuffer);
@@ -157,10 +143,9 @@ export async function createSpeedTestImage(result) {
         ctx.fillText("Logo Error", xLogo, yLogo + heightLogo / 2);
     }
 
-    // --- Vẽ tên ISP (quay lại vị trí cũ) ---
     const ispName = result.isp || "Unknown ISP";
     const [nameLine1, nameLine2] = cv.hanldeNameUser(ispName);
-    const nameY = yLogo + heightLogo + 54; // Vị trí Y gốc, dưới khu vực logo
+    const nameY = yLogo + heightLogo + 54;
     ctx.font = "bold 32px Tahoma";
     ctx.fillStyle = "#FFFFFF";
     ctx.textAlign = "center";
@@ -173,11 +158,9 @@ export async function createSpeedTestImage(result) {
         ctx.fillText(nameLine1, xLogo, nameY);
     }
 
-    // --- Khu vực chi tiết bên phải ---
     const infoStartX = xLogo + widthLogo / 2 + 86;
-    let y = 110; // Bắt đầu vẽ chi tiết dưới tiêu đề trên cùng
+    let y = 110;
 
-    // --- Tính toán tốc độ (giữ nguyên như lần cập nhật trước) ---
     const downloadBandwidthBytes = result.download.bandwidth || 0;
     const uploadBandwidthBytes = result.upload.bandwidth || 0;
     const downloadSpeedMbps = (downloadBandwidthBytes / 125000).toFixed(2);
@@ -185,17 +168,15 @@ export async function createSpeedTestImage(result) {
     const downloadSpeedMBps = (downloadBandwidthBytes / 1000000).toFixed(2);
     const uploadSpeedMBps = (uploadBandwidthBytes / 1000000).toFixed(2);
     const ping = Math.round(result.ping?.latency || 0);
-    const packetLoss = result.packetLoss;
 
     const fields = [
-        { label: "📥 Download", value: `${downloadSpeedMbps} Mbps (${downloadSpeedMBps} MB/s)` },
-        { label: "📊 Đánh giá dữ liệu Download", value: evaluateSpeed(parseFloat(downloadSpeedMBps))},
-        { label: "📤 Upload", value: `${uploadSpeedMbps} Mbps (${uploadSpeedMBps} MB/s)` },
-        { label: "📊 Đánh giá dữ liệu Upload", value: evaluateSpeed(parseFloat(uploadSpeedMBps))},
-        { label: "🏓 Ping", value: `${ping}ms ${packetLoss !== undefined ? `| ${packetLoss}% Packet Loss` : ""}` },
-        { label: "🌍 Server", value: `${result.server?.location || 'N/A'} (${result.server?.country || 'N/A'})` },
-        { label: "🖥️ Kết nối", value: `${result.interface?.isVpn ? "VPN/VPS" : "Thông thường"}` },
-        { label: "🕰️ Thời gian", value: `${formatDate(new Date(result.timestamp || Date.now()))}` },
+        { label: "📥 Download", value: `${downloadSpeedMbps} MB/s (${evaluateSpeed(parseFloat(downloadSpeedMBps))} 🚀)` },
+        { label: "📤 Upload", value: `${uploadSpeedMbps} MB/s (${evaluateSpeed(parseFloat(uploadSpeedMBps))} 🚀)` },
+        { label: "💬 Ping", value: `${ping}ms` },
+        { label: "🌐 Server", value: `${result.server?.name || 'N/A'}` },
+        { label: "🌍 Location", value: `${result.server?.location || 'N/A'} (${result.server?.country || 'N/A'})` },
+        { label: "💻 VPN", value: `${result.interface?.isVpn ? "Có VPN" : "Không VPN"}` },
+        { label: "🕐 Time", value: `${formatDate(new Date(result.timestamp || Date.now()))}` },
     ];
 
     ctx.textAlign = "left";
@@ -204,15 +185,10 @@ export async function createSpeedTestImage(result) {
 
     for (const field of fields) {
         ctx.fillStyle = cv.getRandomGradient(ctx, width);
-        const labelText = field.label + ":";
-        const labelWidth = ctx.measureText(labelText).width;
-        ctx.fillText(labelText, infoStartX, y);
-        ctx.fillStyle = "#FFFFFF";
-        ctx.fillText(" " + field.value, infoStartX + labelWidth, y);
+        ctx.fillText(field.label + ": " + field.value, infoStartX, y);
         y += lineHeight;
     }
 
-    // --- Lưu file ---
     const filePath = path.resolve(`./assets/temp/speedtest_${Date.now()}.png`);
     const out = fs.createWriteStream(filePath);
     const stream = canvas.createPNGStream();
@@ -222,7 +198,6 @@ export async function createSpeedTestImage(result) {
         out.on("error", reject);
     });
 }
-
 
 export async function handleSpeedTestCommand(api, message) {
     const senderId = message.data.uidFrom;
