@@ -2246,6 +2246,17 @@
       ]
     },
     {
+      "name": "meme",
+      "description": "Tìm meme ở nền tảng Pinterest",
+      "syntax": "{p}meme <keyword>",
+      "permission": "all",
+      "countdown": 30,
+      "icon": "💽",
+      "type": 5,
+      "author": "Vũ Xuân Kiên",
+      "active": true
+    },
+    {
       "name": "subnhanhchill",
       "description": "Xem phim tại nền tảng https://subnhanhchill.net",
       "syntax": "{p}subnhanhchill",
