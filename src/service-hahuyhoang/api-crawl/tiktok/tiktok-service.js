@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import { promisify } from 'util';
 import { exec } from 'child_process';
+import cheerio from 'cheerio';
 
 import { getGlobalPrefix } from "../../service.js";
 import { MessageMention } from "../../../api-zalo/index.js";
@@ -31,7 +32,6 @@ const HISTORY_EXPIRE_TIME = 3600000;
 
 const tiktokSelectionsMap = new Map();
 const relatedVideosMap = new Map();
-const userVideoHistoryMap = new Map();
 
 const headers = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
@@ -51,11 +51,6 @@ schedule.scheduleJob("*/5 * * * * *", () => {
   for (const [msgId, data] of relatedVideosMap.entries()) {
     if (currentTime - data.timestamp > RELATED_EXPIRE_TIME) {
       relatedVideosMap.delete(msgId);
-    }
-  }
-  for (const [userId, data] of userVideoHistoryMap.entries()) {
-    if (currentTime - data.timestamp > HISTORY_EXPIRE_TIME) {
-      userVideoHistoryMap.delete(userId);
     }
   }
 });
@@ -154,23 +149,20 @@ export async function sendTikTokVideo(api, message, videoData, isRandom = false,
             `Author: [${videoData.author.uniqueId || videoData.author.unique_id}] ${videoData.author.nickname}\n` +
             `Description: ${description}\n` +
             `📊 Chất lượng: ${typeVideo}\n` +
-            `💗 Thả tim để nhận video ngẫu nhiên khác`,
+            `💗 Thả tim để xem thông tin author`,
           mentions: [MessageMention(senderId, senderName.length, 2, false)],
         },
         ttl: 3600000,
       });
 
-      const relatedVideos = await getTiktokRelated(videoData.id);
-      if (relatedVideos && relatedVideos.length > 0) {
-        relatedVideosMap.set(sentMessage.msgId.toString(), {
-          videos: relatedVideos,
-          timestamp: Date.now(),
-          threadId: message.threadId,
-          type: message.type,
-          senderId,
-          senderName
-        });
-      }
+      relatedVideosMap.set(sentMessage.msgId.toString(), {
+        username: videoData.author.uniqueId || videoData.author.unique_id,
+        timestamp: Date.now(),
+        threadId: message.threadId,
+        type: message.type,
+        senderId,
+        senderName
+      });
     }
     return true;
   } catch (error) {
@@ -233,8 +225,8 @@ export async function handleTikTokCommand(api, message, command) {
     const [query, typeVideo = "normal"] = keyword.split(" ");
 
     const tiktokUrl = extractTikTokUrl(query);
-    if (tiktokUrl) {
-      const videoData = await getDataDownloadVideo(tiktokUrl);
+    if (tiktokUrl || query.startsWith("https://vt.tiktok.com") || query.startsWith("https://tiktok.com")) {
+      const videoData = await getDataDownloadVideo(tiktokUrl || query);
       if (videoData) {
         if (typeVideo === "audio") {
           await sendTikTokVideo(api, message, videoData, false, "audio");
@@ -337,7 +329,6 @@ export async function handleTikTokReply(api, message) {
       },
     };
     await api.deleteMessage(msgDel, false);
-    // await api.undoMessage(message);
     tiktokSelectionsMap.delete(quotedMsgId);
 
     const selectedVideo = videoData.collection[selectedIndex];
@@ -380,31 +371,8 @@ export async function downloadVideoTiktok(videoUrl) {
   return tempFilePath;
 }
 
-function getUnseenVideo(videos, userId) {
-  if (!userVideoHistoryMap.has(userId)) {
-    userVideoHistoryMap.set(userId, {
-      videoIds: new Set(),
-      timestamp: Date.now()
-    });
-  }
-
-  const userHistory = userVideoHistoryMap.get(userId);
-  const unseenVideos = videos.filter(video => !userHistory.videoIds.has(video.id));
-
-  if (unseenVideos.length === 0) {
-    userHistory.videoIds.clear();
-    return videos[Math.floor(Math.random() * videos.length)];
-  }
-
-  const randomVideo = unseenVideos[Math.floor(Math.random() * unseenVideos.length)];
-  userHistory.videoIds.add(randomVideo.id);
-  userHistory.timestamp = Date.now();
-
-  return randomVideo;
-}
-
 export async function handleTikTokReaction(api, reaction) {
-  let tempFilePath = null;
+  let tempImagePath = null;
   try {
     const msgId = reaction.data.content.rMsg[0].gMsgID.toString();
     if (!relatedVideosMap.has(msgId)) return false;
@@ -416,70 +384,90 @@ export async function handleTikTokReaction(api, reaction) {
     const rType = reaction.data.content.rType;
     if (rType !== 5) return false;
     relatedVideosMap.delete(msgId);
-    const { videos, threadId, type, senderId: senderIdOriginal, senderName: senderNameOriginal } = relatedData;
+    const { username, threadId, type, senderId: senderIdOriginal, senderName: senderNameOriginal } = relatedData;
 
-    const randomVideo = getUnseenVideo(videos, senderIdOriginal);
-
-    const uniqueId = randomVideo.id;
-    const description = randomVideo.desc;
-    const typeVideo = randomVideo.video.quality;
-    const cachedVideo = await getCachedMedia(PLATFORM, uniqueId, typeVideo, description);
-    let videoUrl;
-
-    if (cachedVideo) {
-      videoUrl = cachedVideo.fileUrl;
-    } else {
-      try {
-        tempFilePath = await downloadVideoTiktok(randomVideo.video.url);
-      } catch (error) {
-        const data = await getDataDownloadOriginal(null, uniqueId);
-        if (data) {
-          tempFilePath = await downloadVideoTiktok(data.video.url);
-        }
-      }
-      const uploadResult = await api.uploadAttachment([tempFilePath], threadId, type);
-      videoUrl = uploadResult[0].fileUrl;
-
-      setCacheData(PLATFORM, uniqueId, { fileUrl: videoUrl, title: description }, typeVideo);
+    const url = `https://www.tiktok.com/@${username}`;
+    const response = await axios.get(url, { headers });
+    if (response.status !== 200) {
+      await api.sendMessage({
+        body: "Không thể lấy thông tin từ username được cung cấp.",
+        threadId,
+        threadType: type
+      });
+      return true;
     }
 
-    const sentMessage = await api.sendVideo({
-      videoUrl,
-      threadId: threadId,
-      threadType: type,
-      thumbnail: randomVideo.video.cover,
-      message: {
-        text:
-          `[ ${senderNameOriginal} ]\n` +
-          `Author: [${randomVideo.author.uniqueId || randomVideo.author.unique_id}] ${randomVideo.author.nickname}\n` +
-          `Description: ${description}\n` +
-          `📊 Chất lượng: ${typeVideo}\n` +
-          `💗 Thả tim để nhận video ngẫu nhiên khác từ author này`,
-        mentions: [MessageMention(senderId, senderNameOriginal.length, 2, false)],
-      },
-      ttl: 3600000,
+    const $ = cheerio.load(response.data);
+    let userData = null;
+    $('script').each((i, elem) => {
+      const content = $(elem).html();
+      if (content && content.includes('webapp.user-detail')) {
+        try {
+          const match = content.match(/"webapp.user-detail":(\{.*?\}),/);
+          if (match) {
+            const jsonStr = match[1];
+            const parsed = JSON.parse(jsonStr);
+            userData = parsed.userInfo?.user;
+          }
+        } catch (e) {}
+      }
     });
 
-    const relatedVideos = await getTiktokRelated(randomVideo.id);
-    if (relatedVideos && relatedVideos.length > 0) {
-      const mergeRelatedVideos = Array.from(
-        new Map([...videos, ...relatedVideos].map((video) => [video.id, video])).values()
-      );
-      relatedVideosMap.set(sentMessage.msgId.toString(), {
-        videos: mergeRelatedVideos,
-        timestamp: Date.now(),
-        threadId: threadId,
-        type: type,
-        senderId: senderIdOriginal,
-        senderName: senderNameOriginal
+    if (!userData) {
+      await api.sendMessage({
+        body: "Không thể lấy thông tin người dùng.",
+        threadId,
+        threadType: type
       });
+      return true;
     }
+
+    const settings = {
+      commentSetting: ['Everyone', 'Friends', 'No one'][userData.commentSetting || 0],
+      duetSetting: ['Everyone', 'Friends', 'No one'][userData.duetSetting || 0],
+      stitchSetting: ['Everyone', 'Friends', 'No one'][userData.stitchSetting || 0],
+    };
+
+    let caption = `[ ${senderNameOriginal} ]\n\n`;
+    caption += `Nickname: ${userData.nickname || 'N/A'}\n`;
+    caption += `Unique ID: ${userData.uniqueId || username}\n`;
+    caption += `User ID: ${userData.id || 'N/A'}\n`;
+    caption += `Followers: ${userData.followerCount || 0}\n`;
+    caption += `Following: ${userData.followingCount || 0}\n`;
+    caption += `Likes: ${userData.heartCount || 0}\n`;
+    caption += `Videos: ${userData.videoCount || 0}\n`;
+    caption += `Digg Count: ${userData.diggCount || 0}\n`;
+    caption += `Signature: ${userData.signature ? userData.signature.replace(/\\n/g, '\n').replace(/\\\\/g, '\\').replace(/\\"/g, '"') : 'N/A'}\n`;
+    caption += `Verified: ${userData.verified ? 'Yes' : 'No'}\n`;
+    caption += `Comment Setting: ${settings.commentSetting}\n`;
+    caption += `Duet Setting: ${settings.duetSetting}\n`;
+    caption += `Stitch Setting: ${settings.stitchSetting}\n`;
+    if (userData.privateAccount) caption += `Private Account: Yes\n`;
+    caption += `Under 18: ${userData.isUnderAge18 ? 'Yes' : 'No'}\n`;
+    caption += `Open Favorite: ${userData.openFavorite ? 'Yes' : 'No'}\n`;
+    if (userData.isADVirtual) caption += `AD Virtual: Yes\n`;
+
+    let uploadResult = undefined;
+    const profilePicUrl = userData.avatarLarger;
+    if (profilePicUrl) {
+      tempImagePath = path.join(tempDir, `profile_${Date.now()}.jpg`);
+      tempImagePath = await downloadFile(profilePicUrl, tempImagePath);
+      uploadResult = await api.uploadAttachment([tempImagePath], threadId, type);
+    }
+
+    await api.sendMessage({
+      body: caption,
+      mentions: [MessageMention(senderIdOriginal, senderNameOriginal.length, 2, false)],
+      threadId,
+      threadType: type,
+      attachment: uploadResult,
+    });
 
     return true;
   } catch (error) {
     console.error("Lỗi khi xử lý reaction TikTok:", error);
     return false;
   } finally {
-    if (tempFilePath) deleteFile(tempFilePath);
+    if (tempImagePath) deleteFile(tempImagePath);
   }
 }
