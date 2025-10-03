@@ -66,12 +66,14 @@ export async function createCPUBenchmarkImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
-    const backgroundUrl = "https://i.postimg.cc/C5d0CWYy/taoanhdep-thu-phap-91339.jpg";
     try {
-        const bgBuffer = await loadImageBuffer(backgroundUrl);
-        const bgImage = await loadImage(bgBuffer);
-        ctx.drawImage(bgImage, 0, 0, width, height);
+        const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
+        backgroundGradient.addColorStop(0, "#3B82F6");
+        backgroundGradient.addColorStop(1, "#111827");
+        ctx.fillStyle = backgroundGradient;
+        ctx.fillRect(0, 0, width, height);
     } catch (error) {
+        console.error("Lỗi khi vẽ background gradient:", error);
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
     }
@@ -166,6 +168,7 @@ export async function createCPUBenchmarkImage(result) {
         );
         ctx.restore();
     } catch (error) {
+        console.error("Lỗi khi vẽ logo CPU:", error);
         ctx.fillStyle = "#CCCCCC";
         ctx.font = "bold 20px Arial";
         ctx.textAlign = "center";
@@ -254,10 +257,7 @@ export async function handleCPUBenchmarkCommand(api, message) {
         }, CPU_TEST_DURATION + 5000);
 
         const cpuInfo = await si.cpu();
-        
         const cpuSpeed = await si.cpuCurrentSpeed();
-        
-        await si.currentLoad();
         const cpuLoad = await si.currentLoad();
         
         const benchmarkResult = await performCPUBenchmark();
@@ -267,7 +267,7 @@ export async function handleCPUBenchmarkCommand(api, message) {
             cpuBrand: cpuInfo.manufacturer,
             cpuLogo: getCPULogo(cpuInfo.manufacturer),
             cores: cpuInfo.cores,
-            speed: Math.round(cpuSpeed.avg * 1000),
+            speed: Math.round(cpuSpeed.avg),
             usage: cpuLoad.currentLoad.toFixed(2),
             singleThread: Math.round(benchmarkResult.singleThread),
             multiThread: Math.round(benchmarkResult.multiThread),
@@ -300,6 +300,8 @@ export async function handleCPUBenchmarkCommand(api, message) {
         }
 
     } catch (error) {
+        console.error('Lỗi khi benchmark CPU:', error);
+
         await sendMessageCompleteRequest(api, message, {
             caption: `Đã xảy ra lỗi khi benchmark CPU. Vui lòng thử lại sau.`
         }, 30000);
