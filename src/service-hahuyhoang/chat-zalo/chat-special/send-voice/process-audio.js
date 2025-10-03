@@ -92,7 +92,7 @@ export async function uploadAudioFile(mp3Path, api, message) {
     console.log("Upload result:", uploadResult);
 
     const rawUrl = uploadResult[0].fileUrl;
-    const voiceFinalUrl = `${rawUrl}/nguyenphihoang.aac`;
+    const voiceFinalUrl = `${rawUrl}/Vu-Xuan-Kien-Serivce.aac`;
 
     return voiceFinalUrl;
   } catch (error) {
