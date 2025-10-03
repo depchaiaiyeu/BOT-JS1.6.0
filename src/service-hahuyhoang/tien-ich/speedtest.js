@@ -36,15 +36,11 @@ export async function createSpeedTestImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
-    const backgroundUrl = "https://i.postimg.cc/wBM628Fn/generated-image.jpg";
+    const backgroundUrl = "https://i.postimg.cc/C5d0CWYy/taoanhdep-thu-phap-91339.jpg";
     try {
         const bgBuffer = await loadImageBuffer(backgroundUrl);
         const bgImage = await loadImage(bgBuffer);
-        const drawWidth = 980;
-        const drawHeight = 410;
-        const offsetX = (width - drawWidth) / 2;
-        const offsetY = (height - drawHeight) / 2;
-        ctx.drawImage(bgImage, offsetX, offsetY, drawWidth, drawHeight);
+        ctx.drawImage(bgImage, 0, 0, width, height);
     } catch (error) {
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
@@ -262,7 +258,6 @@ export async function handleSpeedTestCommand(api, message) {
         }
 
     } catch (error) {
-
         await sendMessageCompleteRequest(api, message, {
             caption: `Đã xảy ra lỗi khi kiểm tra tốc độ mạng. Vui lòng thử lại sau.`
         }, 30000);
