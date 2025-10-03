@@ -40,10 +40,12 @@ jobs:
 
       - name: Commit and push changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        uses: stefanzweifel/git-auto-commit-action@v6
-        with:
-          commit_message: "Auto commit changes from workflow"
-          branch: ${{ github.ref_name }}
-          file_pattern: BOT-JS1.6.0/**
-        env:
-          GITHUB_TOKEN: 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
+        run: |
+          cd BOT-JS1.6.0
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto commit changes from workflow"
+            git push https://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@github.com/depchaiaiyeu/BOT-JS1.6.0.git
+          fi
