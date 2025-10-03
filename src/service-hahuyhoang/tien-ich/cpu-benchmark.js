@@ -66,15 +66,11 @@ export async function createCPUBenchmarkImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
-    const backgroundUrl = "https://i.postimg.cc/wBM628Fn/generated-image.jpg";
+    const backgroundUrl = "https://i.postimg.cc/C5d0CWYy/taoanhdep-thu-phap-91339.jpg";
     try {
         const bgBuffer = await loadImageBuffer(backgroundUrl);
         const bgImage = await loadImage(bgBuffer);
-        const drawWidth = 980;
-        const drawHeight = 410;
-        const offsetX = (width - drawWidth) / 2;
-        const offsetY = (height - drawHeight) / 2;
-        ctx.drawImage(bgImage, offsetX, offsetY, drawWidth, drawHeight);
+        ctx.drawImage(bgImage, 0, 0, width, height);
     } catch (error) {
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
@@ -258,7 +254,10 @@ export async function handleCPUBenchmarkCommand(api, message) {
         }, CPU_TEST_DURATION + 5000);
 
         const cpuInfo = await si.cpu();
+        
         const cpuSpeed = await si.cpuCurrentSpeed();
+        
+        await si.currentLoad();
         const cpuLoad = await si.currentLoad();
         
         const benchmarkResult = await performCPUBenchmark();
@@ -268,7 +267,7 @@ export async function handleCPUBenchmarkCommand(api, message) {
             cpuBrand: cpuInfo.manufacturer,
             cpuLogo: getCPULogo(cpuInfo.manufacturer),
             cores: cpuInfo.cores,
-            speed: Math.round(cpuSpeed.avg),
+            speed: Math.round(cpuSpeed.avg * 1000),
             usage: cpuLoad.currentLoad.toFixed(2),
             singleThread: Math.round(benchmarkResult.singleThread),
             multiThread: Math.round(benchmarkResult.multiThread),
@@ -301,7 +300,6 @@ export async function handleCPUBenchmarkCommand(api, message) {
         }
 
     } catch (error) {
-
         await sendMessageCompleteRequest(api, message, {
             caption: `Đã xảy ra lỗi khi benchmark CPU. Vui lòng thử lại sau.`
         }, 30000);
