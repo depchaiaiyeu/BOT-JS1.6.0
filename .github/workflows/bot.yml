@@ -26,9 +26,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install FFmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
-
       - name: Install dependencies & replace nsfwjs
         run: |
           cd BOT-JS1.6.0
@@ -39,7 +36,7 @@ jobs:
       - name: Run bot
         run: |
           cd BOT-JS1.6.0
-          node bot.js
+          node src/index.js
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v6
