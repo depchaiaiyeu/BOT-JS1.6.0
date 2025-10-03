@@ -17,8 +17,9 @@ import { handleSendTemplateCapcut } from "./capcut/capcut-service.js";
 import { processAndSendMedia } from "./api-hahuyhoangbot/aio-downlink.js";
 import { handleSendHeroSkinDetail } from "../servises/LQM-General.js";
 import { handleSendLOLChampionDetail } from "../servises/LOL.General.js";
-import { handleSendHH3DEpisode } from "./video/yanhh3d-phim3d.js"
+import { handleSendHH3DEpisode } from "./video/yanhh3d-phim3d.js";
 import { handleSendSubNhanhChillEpisode } from "./video/subnhanhchill.net.js";
+import { handleSendMemeSticker } from "./meme/sticker.js";
 
 const TIME_TO_SELECT = 60000;
 export const selectionsMapData = new LRUCache({
@@ -87,7 +88,7 @@ export async function checkReplySelectionsMapData(api, message) {
 
     switch (data.platform) {
       case "subnhanhchill": 
-      return await handleSendSubNhanhChillEpisode(api, message, media);
+        return await handleSendSubNhanhChillEpisode(api, message, media);
       case "hh3d":
         return await handleSendHH3DEpisode(api, message, media);
       case "lol":
@@ -100,6 +101,8 @@ export async function checkReplySelectionsMapData(api, message) {
         return await handleSendTrackSoundCloud(api, message, media);
       case "nhaccuatui":
         return await handleSendTrackNhacCuaTui(api, message, media);
+      case "meme":
+        return await handleSendMemeSticker(api, message, media);
       case "youtube":
         const videoPath = null;
         try {
