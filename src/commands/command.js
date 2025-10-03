@@ -25,6 +25,7 @@ import { handleAttackboxCommand } from "../service-hahuyhoang/tien-ich/attackbox
 import { handleSendMessageGroupNotJoin } from "../service-hahuyhoang/tien-ich/attack.js";
 import { sendMessageToMentioned } from "../service-hahuyhoang/tien-ich/sendmsg-user.js"
 import { handleSpeedTestCommand } from "../service-hahuyhoang/tien-ich/speedtest.js";
+import { handleCPUBenchmarkCommand } from "../service-hahuyhoang/tien-ich/cpu-benchmark.js";
 import { handleCustomCanvasCommand } from "../service-hahuyhoang/tien-ich/status.js";
 
 import { searchImagePinterest } from "../service-hahuyhoang/api-crawl/image/pinterest-service.js";
@@ -604,6 +605,9 @@ export async function handleCommandPrivate(api, message) {
             return 0;
           case "speedtest":
             await handleSpeedTestCommand (api, message);
+            return 0;
+          case "cpubenchmark":
+            await handleCPUBenchmarkCommand (api, message);
             return 0;
           case "phatnguoi":
             await handleCheckPhatNguoiCommand (api, message);
@@ -1225,6 +1229,9 @@ export async function handleCommand(
                 break;
               case "speedtest":
                 await handleSpeedTestCommand (api, message);
+                break;
+              case "cpubenchmark":
+                await handleCPUBenchmarkCommand (api, message);
                 break;
               case "phatnguoi":
                 await handleCheckPhatNguoiCommand (api, message);
