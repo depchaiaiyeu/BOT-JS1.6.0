@@ -10,7 +10,7 @@ import { formatDate } from '../../utils/format-util.js';
 const TIME_TO_LIVE_MESSAGE = 600000;
 const TEST_DURATION = 20000;
 
-const FIXED_LOGO_URL = "https://i.pinimg.com/474x/d6/df/ed/d6dfedf59e840c71eab20e5f3e594450.jpg";
+const FIXED_LOGO_URL = " https://i.postimg.cc/wBM628Fn/generated-image.jpg";
 
 let isTestingSpeed = false;
 let currentTester = {
@@ -37,19 +37,18 @@ export async function createSpeedTestImage(result) {
     const ctx = canvas.getContext("2d");
 
     try {
-        const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
-        backgroundGradient.addColorStop(0, "#3B82F6");
-        backgroundGradient.addColorStop(1, "#111827");
-        ctx.fillStyle = backgroundGradient;
+        const imageBuffer = await loadImageBuffer(FIXED_LOGO_URL);
+        const backgroundImage = await loadImage(imageBuffer);
+        
+        ctx.drawImage(backgroundImage, 0, 0, width, height);
+        
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
         ctx.fillRect(0, 0, width, height);
     } catch (error) {
-        console.error("Lỗi khi vẽ background gradient:", error);
+        console.error("Lỗi khi vẽ background:", error);
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
     }
-
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
-    ctx.fillRect(0, 0, width, height);
 
     let yTitleTop = 60;
     ctx.textAlign = "center";
@@ -146,14 +145,14 @@ export async function createSpeedTestImage(result) {
     const ispName = result.isp || "Unknown ISP";
     const [nameLine1, nameLine2] = cv.hanldeNameUser(ispName);
     const nameY = yLogo + heightLogo + 54;
-    ctx.font = "bold 32px Tahoma";
+    ctx.font = "bold 36px Tahoma";
     ctx.fillStyle = "#FFFFFF";
     ctx.textAlign = "center";
     if (nameLine2) {
-        ctx.font = "bold 24px Tahoma";
+        ctx.font = "bold 28px Tahoma";
         ctx.fillText(nameLine1, xLogo, nameY);
-        ctx.font = "bold 24px Tahoma";
-        ctx.fillText(nameLine2, xLogo, nameY + 28);
+        ctx.font = "bold 28px Tahoma";
+        ctx.fillText(nameLine2, xLogo, nameY + 32);
     } else {
         ctx.fillText(nameLine1, xLogo, nameY);
     }
@@ -180,7 +179,7 @@ export async function createSpeedTestImage(result) {
     ];
 
     ctx.textAlign = "left";
-    ctx.font = "bold 26px BeVietnamPro";
+    ctx.font = "bold 28px BeVietnamPro";
     const lineHeight = 42;
 
     for (const field of fields) {
