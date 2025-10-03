@@ -199,6 +199,65 @@ export async function handleMemeCommand(api, message, aliasCommand) {
   }
 }
 
+export async function handleMemeReply(api, message) {
+  const senderId = message.data.uidFrom;
+  const idBot = getBotId();
+  let downloadedPath = null;
+
+  try {
+    if (!message.data.quote || !message.data.quote.globalMsgId) return false;
+
+    const quotedMsgId = message.data.quote.globalMsgId.toString();
+    if (!memeSelectionsMap.has(quotedMsgId)) return false;
+
+    const memeData = memeSelectionsMap.get(quotedMsgId);
+    if (memeData.userRequest !== senderId) return false;
+
+    let selection = removeMention(message);
+    const selectedIndex = parseInt(selection) - 1;
+    
+    if (isNaN(selectedIndex)) {
+      const object = {
+        caption: `Lựa chọn không hợp lệ. Vui lòng chọn một số từ danh sách.`,
+      };
+      await sendMessageWarningRequest(api, message, object, 30000);
+      return true;
+    }
+
+    const { collection } = memeSelectionsMap.get(quotedMsgId);
+    if (selectedIndex < 0 || selectedIndex >= collection.length) {
+      const object = {
+        caption: `Số bạn chọn không nằm trong danh sách. Vui lòng chọn lại.`,
+      };
+      await sendMessageWarningRequest(api, message, object, 30000);
+      return true;
+    }
+
+    const selectedMeme = collection[selectedIndex];
+
+    const msgDel = {
+      type: message.type,
+      threadId: message.threadId,
+      data: {
+        cliMsgId: message.data.quote.cliMsgId,
+        msgId: message.data.quote.globalMsgId,
+        uidFrom: idBot,
+      },
+    };
+    await api.deleteMessage(msgDel, false);
+    memeSelectionsMap.delete(quotedMsgId);
+
+    return await handleSendMemeSticker(api, message, selectedMeme);
+  } catch (error) {
+    console.error("Error handling meme reply:", error);
+    const object = {
+      caption: `Đã xảy ra lỗi khi xử lý meme cho bạn, vui lòng thử lại sau.`,
+    };
+    await sendMessageWarningRequest(api, message, object, 30000);
+    return true;
+  }
+}
+
 export async function handleSendMemeSticker(api, message, meme) {
   let downloadedPath = null;
   try {
