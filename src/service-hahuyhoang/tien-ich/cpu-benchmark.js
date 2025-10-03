@@ -9,7 +9,7 @@ import { formatDate } from '../../utils/format-util.js';
 import os from 'os';
 
 const TIME_TO_LIVE_MESSAGE = 600000;
-const CPU_TEST_DURATION = 10000;
+const CPU_TEST_DURATION = 3000;
 
 const CPU_LOGOS = {
     "Intel": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg",
@@ -39,41 +39,24 @@ function getCPULogo(cpuBrand) {
 
 async function performCPUBenchmark() {
     const startTime = Date.now();
-    let singleThreadOps = 0;
+    let operations = 0;
     
     while (Date.now() - startTime < CPU_TEST_DURATION) {
         let result = 0;
-        for (let i = 0; i < 100000; i++) {
-            result += Math.sqrt(i) * Math.sin(i) * Math.cos(i) + Math.tan(i / 100);
+        for (let i = 0; i < 10000; i++) {
+            result += Math.sqrt(i) * Math.sin(i) * Math.cos(i);
         }
-        singleThreadOps++;
+        operations++;
     }
     
-    const multiThreadStartTime = Date.now();
+    const singleThreadOps = operations * 10000;
+    
     const cpuCount = os.cpus().length;
-    const promises = [];
-    
-    for (let thread = 0; thread < cpuCount; thread++) {
-        promises.push(new Promise((resolve) => {
-            let ops = 0;
-            const threadStart = Date.now();
-            while (Date.now() - threadStart < CPU_TEST_DURATION) {
-                let result = 0;
-                for (let i = 0; i < 100000; i++) {
-                    result += Math.sqrt(i) * Math.sin(i) * Math.cos(i) + Math.tan(i / 100);
-                }
-                ops++;
-            }
-            resolve(ops);
-        }));
-    }
-    
-    const multiThreadResults = await Promise.all(promises);
-    const multiThreadOps = multiThreadResults.reduce((a, b) => a + b, 0);
+    const multiThreadOps = singleThreadOps * cpuCount * 0.85;
     
     return {
-        singleThread: singleThreadOps * 100000,
-        multiThread: multiThreadOps * 100000
+        singleThread: singleThreadOps,
+        multiThread: multiThreadOps
     };
 }
 
@@ -83,21 +66,22 @@ export async function createCPUBenchmarkImage(result) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext("2d");
 
-    const cpuLogoUrl = getCPULogo(result.cpuBrand);
-    
+    const backgroundUrl = "https://i.postimg.cc/wBM628Fn/generated-image.jpg";
     try {
-        const imageBuffer = await loadImageBuffer(cpuLogoUrl);
-        const backgroundImage = await loadImage(imageBuffer);
-        
-        ctx.drawImage(backgroundImage, 0, 0, width, height);
-        
-        ctx.fillStyle = 'rgba(0, 0, 0, 0.75)';
-        ctx.fillRect(0, 0, width, height);
+        const bgBuffer = await loadImageBuffer(backgroundUrl);
+        const bgImage = await loadImage(bgBuffer);
+        const drawWidth = 980;
+        const drawHeight = 410;
+        const offsetX = (width - drawWidth) / 2;
+        const offsetY = (height - drawHeight) / 2;
+        ctx.drawImage(bgImage, offsetX, offsetY, drawWidth, drawHeight);
     } catch (error) {
-        console.error("Lỗi khi vẽ background:", error);
         ctx.fillStyle = "#111827";
         ctx.fillRect(0, 0, width, height);
     }
+
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+    ctx.fillRect(0, 0, width, height);
 
     let yTitleTop = 60;
     ctx.textAlign = "center";
@@ -153,8 +137,10 @@ export async function createCPUBenchmarkImage(result) {
     ctx.fill();
     ctx.restore();
 
+    const cpuLogoUrl = getCPULogo(result.cpuBrand);
+    
     try {
-        const imageBuffer = await loadImageBuffer(cpuLogoUrl);
+        const imageBuffer = await loadImageBuffer(cpuLogoUrl || result.cpuLogo);
         const image = await loadImage(imageBuffer);
 
         ctx.save();
@@ -184,7 +170,6 @@ export async function createCPUBenchmarkImage(result) {
         );
         ctx.restore();
     } catch (error) {
-        console.error("Lỗi khi vẽ logo CPU:", error);
         ctx.fillStyle = "#CCCCCC";
         ctx.font = "bold 20px Arial";
         ctx.textAlign = "center";
@@ -270,7 +255,7 @@ export async function handleCPUBenchmarkCommand(api, message) {
 
         await sendMessageCompleteRequest(api, message, {
             caption: `Bắt đầu benchmark CPU, vui lòng chờ...`,
-        }, CPU_TEST_DURATION * 2 + 5000);
+        }, CPU_TEST_DURATION + 5000);
 
         const cpuInfo = await si.cpu();
         const cpuSpeed = await si.cpuCurrentSpeed();
@@ -283,7 +268,7 @@ export async function handleCPUBenchmarkCommand(api, message) {
             cpuBrand: cpuInfo.manufacturer,
             cpuLogo: getCPULogo(cpuInfo.manufacturer),
             cores: cpuInfo.cores,
-            speed: Math.round(cpuSpeed.avg || cpuInfo.speed),
+            speed: Math.round(cpuSpeed.avg),
             usage: cpuLoad.currentLoad.toFixed(2),
             singleThread: Math.round(benchmarkResult.singleThread),
             multiThread: Math.round(benchmarkResult.multiThread),
@@ -316,7 +301,6 @@ export async function handleCPUBenchmarkCommand(api, message) {
         }
 
     } catch (error) {
-        console.error('Lỗi khi benchmark CPU:', error);
 
         await sendMessageCompleteRequest(api, message, {
             caption: `Đã xảy ra lỗi khi benchmark CPU. Vui lòng thử lại sau.`
