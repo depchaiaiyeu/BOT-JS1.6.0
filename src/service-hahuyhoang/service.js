@@ -97,6 +97,7 @@ export async function handleOnReplyFromUser(
   if (await handleLOLReply (api, message)) return true;
   if (await handleHH3DReply (api, message)) return true;
   if (await handleSubNhanhChillReply(api, message)) return true;
+  if (await handleMemeReply(api, message)) return true;
   if (
     await handleActionGroupReply(
       api,
@@ -112,4 +113,5 @@ export async function handleOnReplyFromUser(
   )
     return true;
   return false;
+}n false;
 }
