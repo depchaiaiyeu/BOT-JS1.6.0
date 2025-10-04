@@ -63,5 +63,5 @@ jobs:
           git reset node_modules 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "Auto commit changes from workflow"
-            git push https://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@github.com/depchaiaiyeu/BOT-JS1.6.0.git
+            git push https://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@github.com/depchaiaiyeu/BOT-JS1.6.0.git
           fi
