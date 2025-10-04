@@ -2,7 +2,7 @@ import { createCanvas, loadImage } from "canvas";
 import path from "path";
 import fs from "fs/promises";
 import { formatBigNumber } from "../format-util.js";
-import "./registerFonts.js";
+import "./register-fonts.js";
 
 const WIDTH = 1000;
 const HEIGHT = 520;
