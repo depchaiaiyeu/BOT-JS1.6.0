@@ -232,8 +232,8 @@ export async function checkCommandCountdown(api, message, userId, commandName, c
 }
 
 export async function sendReactionConfirmReceive(api, message, numHandleCommand) {
-  if (numHandleCommand === 1 || numHandleCommand === 5) {
-    await api.addReaction(":;", message);
+  if (numHandleCommand === 1 || numHandleCommand === 5 || numHandleCommand === 99 ) {
+    await api.addReaction("OK", message);
   }
 }
 
