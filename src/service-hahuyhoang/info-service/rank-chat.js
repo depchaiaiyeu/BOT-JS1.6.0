@@ -4,7 +4,7 @@ import { MessageType } from "zlbotdqt";
 import { getGlobalPrefix } from '../service.js';
 import { removeMention } from "../../utils/format-util.js";
 import { readGroupSettings } from "../../utils/io-json.js";
-import { createRankImage } from './canvas/rank-canvas.js';
+import { createTopChatImage } from '../../utils/canvas/info.js';
 
 const rankInfoPath = path.join(process.cwd(), "assets", "json-data", "rank-info.json");
 
@@ -115,11 +115,10 @@ export async function handleRankCommand(api, message, aliasCommand) {
   }
 
   try {
-    const imagePath = await createRankImage(rankData, title, api);
+    const imagePath = await createTopChatImage(rankData, title, api, threadId);
     await api.sendMessage(
       { 
         msg: title,
-        quote: message,
         attachment: [imagePath],
         ttl: 600000
       },
