@@ -43,20 +43,39 @@ async function performCPUBenchmark() {
     
     while (Date.now() - startTime < CPU_TEST_DURATION) {
         let result = 0;
-        for (let i = 0; i < 10000; i++) {
+        for (let i = 0; i < 1000; i++) {
             result += Math.sqrt(i) * Math.sin(i) * Math.cos(i);
         }
         operations++;
     }
     
-    const singleThreadOps = operations * 10000;
+    const singleThreadScore = operations;
     
     const cpuCount = os.cpus().length;
-    const multiThreadOps = singleThreadOps * cpuCount * 0.85;
+    const promises = [];
+    
+    for (let i = 0; i < cpuCount; i++) {
+        promises.push(new Promise((resolve) => {
+            const startTime = Date.now();
+            let ops = 0;
+            
+            while (Date.now() - startTime < CPU_TEST_DURATION) {
+                let result = 0;
+                for (let j = 0; j < 1000; j++) {
+                    result += Math.sqrt(j) * Math.sin(j) * Math.cos(j);
+                }
+                ops++;
+            }
+            resolve(ops);
+        }));
+    }
+    
+    const results = await Promise.all(promises);
+    const multiThreadScore = results.reduce((a, b) => a + b, 0);
     
     return {
-        singleThread: singleThreadOps,
-        multiThread: multiThreadOps
+        singleThread: singleThreadScore,
+        multiThread: multiThreadScore
     };
 }
 
@@ -191,11 +210,11 @@ export async function createCPUBenchmarkImage(result) {
     }
 
     const infoStartX = xLogo + widthLogo / 2 + 86;
-    let y = 110;
+    let y = 130;
 
     const fields = [
         { label: "⚙️ Số Lõi CPU Hiện Có", value: `${result.cores}` },
-        { label: "💡 Tốc Độ CPU", value: `${result.speed}MHz` },
+        { label: "💡 Tốc Độ CPU", value: `${result.speed} GHz` },
         { label: "💡 CPU Công Suất Test", value: `${result.usage}%` },
         { label: "🎮💻 Đơn luồng", value: `${result.singleThread.toLocaleString()} ops` },
         { label: "🎮💻 Đa luồng", value: `${result.multiThread.toLocaleString()} ops` },
@@ -267,7 +286,7 @@ export async function handleCPUBenchmarkCommand(api, message) {
             cpuBrand: cpuInfo.manufacturer,
             cpuLogo: getCPULogo(cpuInfo.manufacturer),
             cores: cpuInfo.cores,
-            speed: Math.round(cpuSpeed.avg),
+            speed: cpuSpeed.max ? (cpuSpeed.max / 1000).toFixed(2) : (cpuSpeed.avg / 1000).toFixed(2),
             usage: cpuLoad.currentLoad.toFixed(2),
             singleThread: Math.round(benchmarkResult.singleThread),
             multiThread: Math.round(benchmarkResult.multiThread),
