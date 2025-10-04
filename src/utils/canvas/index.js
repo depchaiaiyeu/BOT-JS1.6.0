@@ -4,6 +4,7 @@ export * from "./color.js";
 export * from "./shape.js";
 export * from "./event-image.js";
 export * from "./game.js";
+export * from "./register-fonts.js";
 
 import fs from "fs";
 import { deleteFile } from "../util.js";
