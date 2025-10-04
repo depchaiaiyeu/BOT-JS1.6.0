@@ -1,11 +1,8 @@
-import { createCanvas, loadImage, registerFont } from "canvas";
+import { createCanvas, loadImage } from "canvas";
 import path from "path";
 import fs from "fs/promises";
 import { formatBigNumber } from "../format-util.js";
-
-// Đăng ký font chữ
-registerFont("./assets/fonts/SVN-Transformer.ttf", { family: "Transformer" });
-registerFont("./assets/fonts/BeVietnamPro-Bold.ttf", { family: "BeVietnamPro" });
+import "./registerFonts.js";
 
 const WIDTH = 1000;
 const HEIGHT = 520;
@@ -17,14 +14,12 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
   const canvas = createCanvas(WIDTH, HEIGHT);
   const ctx = canvas.getContext("2d");
 
-  // Vẽ background với gradient đẹp hơn
   const gradient = ctx.createLinearGradient(0, 0, WIDTH, HEIGHT);
   gradient.addColorStop(0, "#000428");
   gradient.addColorStop(1, "#004e92");
   ctx.fillStyle = gradient;
   ctx.fillRect(0, 0, WIDTH, HEIGHT);
 
-  // Thêm hiệu ứng ánh sáng
   const glowGradient = ctx.createRadialGradient(
     WIDTH/2, HEIGHT/2, 0,
     WIDTH/2, HEIGHT/2, WIDTH/2
@@ -37,7 +32,6 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
   try {
 
     const y = HEIGHT / 2 - IMAGE_SIZE / 2 - 30;
-    // Load và vẽ hình ảnh lựa chọn của người chơi với shadow
     const playerImg = await loadImage(
       path.resolve(`${IMAGE_PATH}/${playerChoice.key}-left.png`)
     );
@@ -55,7 +49,6 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
     );
     ctx.restore();
 
-    // Load và vẽ hình ảnh lựa chọn của bot với shadow
     const botImg = await loadImage(
       path.resolve(`${IMAGE_PATH}/${botChoice.key}-right.png`) 
     );
@@ -73,12 +66,10 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
     );
     ctx.restore();
 
-    // Vẽ chữ VS với font Transformer
     ctx.font = "bold 150px Transformer";
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
 
-    // Tạo nhiều lớp outline cho hiệu ứng 3D
     const outlineColors = ["#ff0000", "#cc0000", "#990000"];
     outlineColors.forEach((color, index) => {
       ctx.strokeStyle = color;
@@ -86,7 +77,6 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
       ctx.strokeText("VS", WIDTH / 2, HEIGHT / 2);
     });
 
-    // Tạo gradient màu cho chữ VS
     const vsGradient = ctx.createLinearGradient(
       WIDTH / 2 - 50,
       HEIGHT / 2 - 50,
@@ -99,14 +89,12 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
     ctx.fillStyle = vsGradient;
     ctx.fillText("VS", WIDTH / 2, HEIGHT / 2);
 
-    // Thêm hiệu ứng glow cho chữ VS
     ctx.shadowColor = "#ff4500";
     ctx.shadowBlur = 30;
     ctx.shadowOffsetX = 0;
     ctx.shadowOffsetY = 0;
     ctx.fillText("VS", WIDTH / 2, HEIGHT / 2);
 
-    // Thêm tên người chơi và bot với font BeVietnamPro
     ctx.shadowColor = "rgba(0, 0, 0, 0.5)";
     ctx.shadowBlur = 10;
     ctx.font = "bold 48px BeVietnamPro";
@@ -114,17 +102,15 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
     ctx.fillText("Player", WIDTH / 4, HEIGHT - 100);
     ctx.fillText("Bot", (WIDTH * 3) / 4, HEIGHT - 100);
 
-    // Thêm hiển thị tiền cược
     ctx.font = "bold 36px BeVietnamPro";
     if (isWin === "win") {
-      ctx.fillStyle = "#00ff00"; // Màu xanh lá cho thắng
+      ctx.fillStyle = "#00ff00";
       ctx.fillText(`+${formatBigNumber(betAmount)} VND`, WIDTH / 2, HEIGHT - 30);
     } else if (isWin === "lose") {
-      ctx.fillStyle = "#ff0000"; // Màu đỏ cho thua
+      ctx.fillStyle = "#ff0000";
       ctx.fillText(`-${formatBigNumber(betAmount)} VND`, WIDTH / 2, HEIGHT - 30);
     }
 
-    // Lưu canvas thành file ảnh
     const fileName = `kbb_result_${Date.now()}.png`;
     const filePath = path.resolve(`./assets/temp/${fileName}`);
     await fs.writeFile(filePath, canvas.toBuffer());
@@ -134,4 +120,4 @@ export async function createKBBResultImage(playerChoice, botChoice, betAmount, i
     console.error("Lỗi khi tạo ảnh kết quả KBB:", error);
     return null;
   }
-} 
+}
