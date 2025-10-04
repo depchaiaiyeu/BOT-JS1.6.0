@@ -3,7 +3,6 @@ import fs from "fs";
 import path from "path";
 import * as cv from "./index.js";
 import { formatCurrency } from "../format-util.js";
-import { loadImageBuffer } from "../util.js";
 
 export function hanldeNameUser(name) {
   const words = name.split(" ");
@@ -1310,8 +1309,7 @@ export async function createTopChatImage(rankData, title, api, threadId) {
 
       if (avatarUrl && cv.isValidUrl(avatarUrl)) {
         try {
-          const buffer = await loadImageBuffer(avatarUrl);
-          const avatar = await loadImage(buffer);
+          const avatar = await loadImage(avatarUrl);
           
           const borderWidth = 3;
           const gradient = ctx.createLinearGradient(
