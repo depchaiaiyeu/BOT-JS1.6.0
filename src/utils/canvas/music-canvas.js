@@ -1,376 +1,394 @@
-import axios from "axios";
-import fs from "fs";
+import { createCanvas, loadImage } from "canvas";
+import * as cv from "./index.js";
 import path from "path";
-import { JSDOM } from "jsdom";
-import { LRUCache } from 'lru-cache';
-import { fileURLToPath } from "url";
-import { getGlobalPrefix } from "../../service.js";
-import {
-  sendMessageCompleteRequest,
-  sendMessageFromSQL,
-  sendMessageWarningRequest,
-} from "../../chat-zalo/chat-style/chat-style.js";
-import { downloadAndConvertAudio } from "../../chat-zalo/chat-special/send-voice/process-audio.js";
-import { removeMention } from "../../../utils/format-util.js";
-import { sendVoiceMusic } from "../../chat-zalo/chat-special/send-voice/send-voice.js";
-import { setSelectionsMapData } from "../index.js";
-import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache.js";
-import { deleteFile } from "../../../utils/util.js";
-import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js";
-import { getBotId, isAdmin } from "../../../index.js";
+import fsPromises from "fs/promises";
+import { loadImageBuffer } from "../util.js";
+import { formatStatistic } from "../format-util.js";
 
-let clientId;
+const CARD_WIDTH = 700;
+const PADDING = 25;
 
-const PLATFORM = "soundcloud";
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const CONFIG_PATH = path.join(__dirname, "../config.json");
-const userAgents = [
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
-  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
-];
-const TIME_TO_SELECT = 60000;
+const THUMB_SIZE = 160;
+const THUMB_BORDER_WIDTH = 4;
+const THUMB_SHADOW_BLUR = 10;
+const THUMB_SHADOW_OFFSET = 4;
 
-const acceptLanguages = ["en-US,en;q=0.9", "fr-FR,fr;q=0.9", "es-ES,es;q=0.9", "de-DE,de;q=0.9", "zh-CN,zh;q=0.9"];
+const ICON_SIZE = 45;
+const ICON_BORDER_WIDTH = 2;
+const ICON_BORDER_COLOR = 'rgba(255, 255, 255, 0.8)';
 
-const getRandomElement = (array) => {
-  return array[Math.floor(Math.random() * array.length)];
+const MUSIC_AVATAR_SIZE = 60;
+const MUSIC_AVATAR_BORDER_WIDTH = 3;
+const MUSIC_AVATAR_SHADOW_BLUR = 8;
+const MUSIC_AVATAR_SHADOW_OFFSET = 3;
+
+const FONT_FAMILY = "BeVietnamPro";
+const TITLE_FONT_SIZE = 21;
+const TITLE_LINE_SPACING = 8;
+const ARTIST_FONT_SIZE = 19;
+const SOURCE_FONT_SIZE = 19;
+const STATS_FONT_SIZE = 19;
+
+const TEXT_SHADOW_COLOR = 'rgba(0, 0, 0, 0.6)';
+const TEXT_SHADOW_BLUR = 4;
+const TEXT_SHADOW_OFFSET = 1;
+
+const TITLE_SPACING_FACTOR = 0.5;
+const ARTIST_SPACING_FACTOR = 0.7;
+const SOURCE_SPACING_FACTOR = 0.8;
+const STATS_SPACING_FACTOR = 0;
+
+const dataIconPlatform = {
+    "zingmp3": {
+        "linkIcon": "https://static-zmp3.zmdcdn.me/skins/zmp3-mobile-v5.2/images/favicon192.png",
+        "shape": "circle"
+    },
+    "youtube": {
+        "linkIcon": "https://www.youtube.com/s/desktop/c01ea7e3/img/logos/favicon_144x144.png",
+        "shape": "rectangle"
+    },
+    "soundcloud": {
+        "linkIcon": "https://a-v2.sndcdn.com/assets/images/sc-icons/ios-a62dfc8fe7.png",
+        "shape": "circle"
+    },
+    "nhaccuatui": {
+        "linkIcon": "https://stc-id.nixcdn.com/v11/images/logo_600x600.png",
+        "shape": "circle"
+    },
+    "tiktok": {
+        "linkIcon": "https://sf-static.tiktokcdn.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png",
+        "shape": "circle"
+    }
 };
 
-const getHeaders = () => {
-  return {
-    "User-Agent": getRandomElement(userAgents),
-    "Accept-Language": getRandomElement(acceptLanguages),
-    Referer: "https://soundcloud.com/",
-    "Upgrade-Insecure-Requests": "1",
-    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-  };
+function drawDefaultBackground(ctx, width, height) {
+    const gradient = ctx.createLinearGradient(0, 0, 0, height);
+    gradient.addColorStop(0, "#3a4a5a");
+    gradient.addColorStop(1, "#2c3e50");
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, width, height);
+}
+
+function truncateText(ctx, text, font, maxWidth) {
+    ctx.font = font;
+    let width = ctx.measureText(text).width;
+    const ellipsis = "...";
+    const ellipsisWidth = ctx.measureText(ellipsis).width;
+
+    if (width <= maxWidth) {
+        return text;
+    }
+
+    let truncated = text;
+    while (width + ellipsisWidth > maxWidth && truncated.length > 0) {
+        truncated = truncated.slice(0, -1);
+        width = ctx.measureText(truncated).width;
+    }
+    return truncated + ellipsis;
+}
+
+function wrapTextToTwoLines(ctx, text, font, maxWidth) {
+    ctx.font = font;
+    const words = text.split(' ');
+    let line1 = '';
+    let line2 = '';
+    
+    for (let i = 0; i < words.length; i++) {
+        const word = words[i];
+        const testLine1 = line1 + (line1 ? ' ' : '') + word;
+        
+        if (ctx.measureText(testLine1).width <= maxWidth) {
+            line1 = testLine1;
+        } else {
+            const remainingWords = words.slice(i).join(' ');
+            line2 = truncateText(ctx, remainingWords, font, maxWidth);
+            break;
+        }
+    }
+    
+    return line2 ? [line1, line2] : [line1];
+}
+
+const drawTextWithShadow = (ctx, text, x, y, font, maxWidth = null) => {
+    ctx.save();
+    ctx.font = font;
+    ctx.shadowColor = TEXT_SHADOW_COLOR;
+    ctx.shadowBlur = TEXT_SHADOW_BLUR;
+    ctx.shadowOffsetX = TEXT_SHADOW_OFFSET;
+    ctx.shadowOffsetY = TEXT_SHADOW_OFFSET;
+    if (maxWidth) {
+        ctx.fillText(text, x, y, maxWidth);
+    } else {
+        ctx.fillText(text, x, y);
+    }
+    ctx.restore();
 };
 
-const getClientId = async () => {
-  try {
-    let config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
-    const lastUpdate = new Date(config.soundcloud.lastUpdate);
-    const now = new Date();
+export async function createMusicCard(musicInfo) {
 
-    const daysDiff = (now - lastUpdate) / (1000 * 60 * 60 * 24);
+    let estimatedHeight = PADDING;
+    estimatedHeight += TITLE_FONT_SIZE * 2;
+    estimatedHeight += TITLE_LINE_SPACING;
+    estimatedHeight += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
+    estimatedHeight += ARTIST_FONT_SIZE;
+    estimatedHeight += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
+    estimatedHeight += SOURCE_FONT_SIZE * 2;
+    estimatedHeight += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
 
-    if (daysDiff < 3 && config.soundcloud.clientId) {
-      return config.soundcloud.clientId;
+    const stats = [
+        { icon: "🎧", value: formatStatistic(musicInfo.listen) },
+        { icon: "👀", value: formatStatistic(musicInfo.viewCount) },
+        { icon: "💜", value: formatStatistic(musicInfo.like) },
+        { icon: "💬", value: formatStatistic(musicInfo.comment) },
+        { icon: "🔗", value: formatStatistic(musicInfo.share) },
+        { icon: "📅", value: musicInfo.publishedTime ? formatStatistic(musicInfo.publishedTime) : null }
+    ].filter(stat => stat.value !== null && stat.value !== undefined && String(stat.value).trim() !== '');
+
+    if (stats.length > 0) {
+        estimatedHeight += STATS_FONT_SIZE;
+        estimatedHeight += STATS_FONT_SIZE * STATS_SPACING_FACTOR;
     }
 
-    const response = await axios.get("https://soundcloud.com/", {
-      headers: getHeaders(),
-    });
+    estimatedHeight += PADDING;
 
-    const dom = new JSDOM(response.data);
-    const scriptTags = Array.from(dom.window.document.querySelectorAll("script[crossorigin]"));
+    const minHeightForElements = Math.max(
+        THUMB_SIZE + PADDING * 2,
+        MUSIC_AVATAR_SIZE + PADDING * 2
+    );
 
-    const urls = scriptTags.map((tag) => tag.src).filter((src) => src && src.startsWith("https"));
+    const finalHeight = Math.ceil(Math.max(minHeightForElements, estimatedHeight));
 
-    if (!urls.length) {
-      throw new Error("Không tìm thấy URL script");
-    }
+    const canvas = createCanvas(CARD_WIDTH, finalHeight);
+    const ctx = canvas.getContext("2d");
 
-    const scriptResponse = await axios.get(urls[urls.length - 1], {
-      headers: getHeaders(),
-    });
-
-    const clientId = scriptResponse.data.split(',client_id:"')[1].split('"')[0];
-
-    config.soundcloud = {
-      clientId: clientId,
-      lastUpdate: now.toISOString(),
-    };
-
-    fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
-    return clientId;
-  } catch (error) {
-    console.error(`Không thể lấy client ID: ${error}`);
     try {
-      const config = JSON.parse(fs.readFileSync(CONFIG_PATH, "utf8"));
-      return config.soundcloud.clientId;
-    } catch {
-      return "W00nmY7TLer3uyoEo1sWK3Hhke5Ahdl9";
-    }
-  }
-};
+        let thumbnailImage = null;
+        if (musicInfo.thumbnailPath) {
+            try {
+                const processedThumbnail = await loadImageBuffer(musicInfo.thumbnailPath);
+                if (processedThumbnail) {
+                    thumbnailImage = await loadImage(processedThumbnail);
 
-async function getMusicInfo(question, limit) {
-  limit = limit || 10;
-  try {
-    const response = await axios.get("https://api-v2.soundcloud.com/search/tracks", {
-      params: {
-        q: question,
-        variant_ids: "",
-        facet: "genre",
-        client_id: clientId,
-        limit: limit,
-        offset: 0,
-        linked_partitioning: 1,
-        app_locale: "en",
-      },
-    });
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching music info:", error);
-    return null;
-  }
-}
+                    ctx.save();
+                    ctx.filter = 'blur(18px)';
+                    const bgScale = 1.15;
+                    const bgWidth = CARD_WIDTH * bgScale;
+                    const bgHeight = finalHeight * bgScale;
+                    ctx.drawImage(thumbnailImage, -(bgWidth - CARD_WIDTH) / 2, -(bgHeight - finalHeight) / 2, bgWidth, bgHeight);
+                    ctx.restore();
 
-async function getMusicStreamUrl(link) {
-  try {
-    const headers = getHeaders();
-    const apiUrl = `https://api-v2.soundcloud.com/resolve?url=${link}&client_id=${clientId}`;
+                    const overlay = ctx.createLinearGradient(0, 0, 0, finalHeight);
+                    overlay.addColorStop(0, 'rgba(0, 0, 0, 0.45)');
+                    overlay.addColorStop(0.6, 'rgba(0, 0, 0, 0.65)');
+                    overlay.addColorStop(1, 'rgba(0, 0, 0, 0.85)');
+                    ctx.fillStyle = overlay;
+                    ctx.fillRect(0, 0, CARD_WIDTH, finalHeight);
 
-    const response = await axios.get(apiUrl, { headers });
-    const data = response.data;
+                } else {
+                    drawDefaultBackground(ctx, CARD_WIDTH, finalHeight);
+                }
+            } catch (thumbError) {
+                drawDefaultBackground(ctx, CARD_WIDTH, finalHeight);
+            }
+        } else {
+            drawDefaultBackground(ctx, CARD_WIDTH, finalHeight);
+        }
 
-    const progressiveUrl = data?.media?.transcodings?.find((t) => t.format.protocol === "progressive")?.url;
+        if (thumbnailImage) {
+            const thumbX = PADDING;
+            const thumbY = (finalHeight - THUMB_SIZE) / 2;
+            const thumbCenterX = thumbX + THUMB_SIZE / 2;
+            const thumbCenterY = thumbY + THUMB_SIZE / 2;
 
-    if (!progressiveUrl) {
-      throw new Error("Không tìm thấy URL âm thanh");
-    }
+            ctx.save();
+            ctx.shadowColor = 'rgba(0, 0, 0, 0.6)';
+            ctx.shadowBlur = THUMB_SHADOW_BLUR + 2;
+            ctx.shadowOffsetX = THUMB_SHADOW_OFFSET;
+            ctx.shadowOffsetY = THUMB_SHADOW_OFFSET + 1;
 
-    const streamResponse = await axios.get(
-      `${progressiveUrl}?client_id=${clientId}&track_authorization=${data.track_authorization}`,
-      {
-        headers,
-      }
-    );
+            ctx.beginPath();
+            ctx.arc(thumbCenterX, thumbCenterY, THUMB_SIZE / 2, 0, Math.PI * 2);
+            ctx.closePath();
+            ctx.clip();
+            ctx.drawImage(thumbnailImage, thumbX, thumbY, THUMB_SIZE, THUMB_SIZE);
+            ctx.restore();
 
-    return streamResponse.data.url;
-  } catch (error) {
-    console.error("Error getting music stream URL:", error);
-    return null;
-  }
-}
+            ctx.save();
+            ctx.strokeStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+            ctx.lineWidth = THUMB_BORDER_WIDTH;
+            ctx.beginPath();
+            ctx.arc(thumbCenterX, thumbCenterY, THUMB_SIZE / 2, 0, Math.PI * 2);
+            ctx.stroke();
+            ctx.restore();
 
-const musicSelectionsMap = new LRUCache({
-  max: 500,
-  ttl: TIME_TO_SELECT
-});
+            const source = musicInfo.source?.toLowerCase() || "zingmp3";
+            const dataIcon = dataIconPlatform[source];
 
-export async function handleMusicCommand(api, message, aliasCommand) {
-  let imagePath = null;
-  try {
-    if (!clientId) clientId = await getClientId();
-    const content = removeMention(message);
-    const senderId = message.data.uidFrom;
-    const prefix = getGlobalPrefix();
-    const commandContent = content.replace(`${prefix}${aliasCommand}`, "").trim();
-    const [question, numberMusic] = commandContent.split("&&");
+            if (dataIcon) {
+                try {
+                    const iconX = thumbX + THUMB_SIZE - ICON_SIZE * 1.1;
+                    const iconY = thumbY + THUMB_SIZE - ICON_SIZE * 1.1;
+                    const iconCenterX = iconX + ICON_SIZE / 2;
+                    const iconCenterY = iconY + ICON_SIZE / 2;
 
-    if (!question) {
-      const object = {
-        caption: `Vui lòng nhập từ khóa tìm kiếm\nVí dụ:\n${prefix}${aliasCommand} Bài Hát Cần Tìm`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return;
-    }
+                    ctx.save();
+                    ctx.fillStyle = ICON_BORDER_COLOR;
+                    ctx.beginPath();
+                    if (dataIcon.shape === 'rectangle') {
+                        const borderRadius = 8;
+                        ctx.roundRect(iconX - ICON_BORDER_WIDTH, iconY - ICON_BORDER_WIDTH, ICON_SIZE + 2 * ICON_BORDER_WIDTH, ICON_SIZE + 2 * ICON_BORDER_WIDTH, borderRadius + ICON_BORDER_WIDTH);
+                    } else {
+                        ctx.arc(iconCenterX, iconCenterY, ICON_SIZE / 2 + ICON_BORDER_WIDTH, 0, Math.PI * 2);
+                    }
+                    ctx.fill();
+                    ctx.restore();
 
-    const musicInfo = await getMusicInfo(question, parseInt(numberMusic));
-    if (!musicInfo || !musicInfo.collection || musicInfo.collection.length === 0) {
-      const object = {
-        caption: `Không tìm thấy bài hát nào với từ khóa: ${question}`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return;
-    }
+                    ctx.save();
+                    ctx.beginPath();
+                    if (dataIcon.shape === 'rectangle') {
+                        const borderRadius = 8;
+                        ctx.roundRect(iconX, iconY, ICON_SIZE, ICON_SIZE, borderRadius);
+                    } else {
+                        ctx.arc(iconCenterX, iconCenterY, ICON_SIZE / 2, 0, Math.PI * 2);
+                    }
+                    ctx.clip();
+                    const icon = await loadImage(dataIcon.linkIcon);
+                    ctx.drawImage(icon, iconX, iconY, ICON_SIZE, ICON_SIZE);
+                    ctx.restore();
 
-    let musicListTxt = "Đây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\n";
-    musicListTxt += "Hãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!";
-    musicInfo.collection = musicInfo.collection.filter((track) => track.artwork_url);
+                } catch (iconError) {
+                }
+            }
+        }
 
-    if (musicInfo.collection.length === 0) {
-      const object = {
-        caption: `Không tìm thấy bài hát nào với từ khóa: ${question}`,
-      };
-      await sendMessageWarningRequest(api, message, object, TIME_TO_SELECT);
-      return;
-    }
+        const textX = PADDING + (thumbnailImage ? THUMB_SIZE : 0) + PADDING;
+        const maxTextWidth = CARD_WIDTH - textX - PADDING;
+        let currentY = PADDING + 5;
 
-    // musicListTxt += musicInfo.collection
-    //   .map((music, index) => {
-    //     const stats = [
-    //       music.playback_count && `${music.playback_count.toLocaleString()} 👂`,
-    //       music.likes_count && `${music.likes_count.toLocaleString()} ❤️`,
-    //       music.comment_count && `${music.comment_count.toLocaleString()} 💬`
-    //     ].filter(Boolean);
+        const title = musicInfo.title || "Unknown Title";
+        const titleFont = `bold ${TITLE_FONT_SIZE}px ${FONT_FAMILY}`;
+        const titleLines = wrapTextToTwoLines(ctx, title, titleFont, maxTextWidth);
+        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+        titleLines.forEach((line, index) => {
+            currentY += TITLE_FONT_SIZE;
+            drawTextWithShadow(ctx, line, textX, currentY, titleFont, maxTextWidth);
+            if (index < titleLines.length - 1) {
+                currentY += TITLE_LINE_SPACING;
+            }
+        });
+        currentY += TITLE_FONT_SIZE * TITLE_SPACING_FACTOR;
 
-    //     return `${index + 1}. ${music.title}${music.user?.username ? ` _ ${music.user.username}` : ""}` +
-    //       `${stats.length ? `\n(${stats.join(" | ")})` : ""}`
-    //   })
-    //   .join("\n\n");
+        const artistText = musicInfo.artists || "Unknown Artist";
+        const artistFont = `${ARTIST_FONT_SIZE}px ${FONT_FAMILY}`;
+        const truncatedArtist = truncateText(ctx, artistText, artistFont, maxTextWidth);
+        currentY += ARTIST_FONT_SIZE;
+        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+        drawTextWithShadow(ctx, truncatedArtist, textX, currentY, artistFont, maxTextWidth);
+        currentY += ARTIST_FONT_SIZE * ARTIST_SPACING_FACTOR;
 
-    const songs = musicInfo.collection.map(track => ({
-      title: track.title,
-      artistsNames: track.user?.username || "Unknown Artist",
-      thumbnailM: track.artwork_url?.replace("-large", "-t500x500") || null,
-      listen: track.playback_count,
-      like: track.likes_count,
-      comment: track.comment_count
-    }));
+        const sourceText = `From ${musicInfo.source || "ZingMp3"}${musicInfo.rank ? ` - 🏆 Top ${musicInfo.rank}` : ""}`;
+        const sourceFont = `${SOURCE_FONT_SIZE}px ${FONT_FAMILY}`;
+        const truncatedSource = truncateText(ctx, sourceText, sourceFont, maxTextWidth);
+        currentY += SOURCE_FONT_SIZE;
+        ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+        drawTextWithShadow(ctx, truncatedSource, textX, currentY, sourceFont, maxTextWidth);
 
-    imagePath = await createSearchResultImage(songs);
+        let sourceSecondLine = null;
+        if (ctx.measureText(sourceText).width > maxTextWidth) {
+            const words = sourceText.split(' ');
+            let line1 = '';
+            let line2 = '';
+            for (let word of words) {
+                if (ctx.measureText(line1 + word).width <= maxTextWidth) {
+                    line1 += (line1 ? ' ' : '') + word;
+                } else {
+                    line2 += (line2 ? ' ' : '') + word;
+                }
+            }
+            if (line2) {
+                sourceSecondLine = line2;
+                currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+                drawTextWithShadow(ctx, sourceSecondLine, textX, currentY, sourceFont, maxTextWidth);
+                currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+            }
+        } else {
+            currentY += SOURCE_FONT_SIZE * SOURCE_SPACING_FACTOR;
+        }
 
-    const object = {
-      caption: musicListTxt,
-      imagePath: imagePath,
-    };
-    const musicListMessage = await sendMessageCompleteRequest(api, message, object, 30000);
+        if (stats.length > 0) {
+            currentY += STATS_FONT_SIZE;
+            const statsFont = `${STATS_FONT_SIZE}px ${FONT_FAMILY}`;
+            ctx.font = statsFont;
+            const statSpacing = 15;
+            let currentX = textX;
 
-    const quotedMsgId = musicListMessage?.message?.msgId || musicListMessage?.attachment[0]?.msgId;
-    musicSelectionsMap.set(quotedMsgId.toString(), {
-      userRequest: senderId,
-      collection: musicInfo.collection,
-      timestamp: Date.now(),
-    });
-    setSelectionsMapData(senderId, {
-      quotedMsgId: quotedMsgId.toString(),
-      collection: musicInfo.collection,
-      timestamp: Date.now(),
-      platform: PLATFORM,
-    });
+            ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+            stats.forEach((stat) => {
+                const statText = `${stat.icon} ${stat.value}`;
+                const statWidth = ctx.measureText(statText).width;
+                if (currentX + statWidth <= CARD_WIDTH - PADDING) {
+                    drawTextWithShadow(ctx, statText, currentX, currentY, statsFont);
+                    currentX += statWidth + statSpacing;
+                } else {
+                    return;
+                }
+            });
+        }
 
-  } catch (error) {
-    console.error("Error handling music command:", error);
-    await sendMessageFromSQL(
-      api,
-      message,
-      {
-        success: false,
-        message: "Đã xảy ra lỗi khi xử lý lệnh của bạn. Vui lòng thử lại sau.",
-      },
-      true,
-      30000
-    );
-  } finally {
-    if (imagePath) deleteFile(imagePath);
-  }
-}
+        if (musicInfo.musicAvatar) {
+            try {
+                const musicAvatar = await loadImage(musicInfo.musicAvatar);
+                const musicAvatarX = CARD_WIDTH - PADDING - MUSIC_AVATAR_SIZE;
+                const musicAvatarY = finalHeight - PADDING - MUSIC_AVATAR_SIZE;
+                const musicAvatarCenterX = musicAvatarX + MUSIC_AVATAR_SIZE / 2;
+                const musicAvatarCenterY = musicAvatarY + MUSIC_AVATAR_SIZE / 2;
 
-export async function handleMusicReply(api, message) {
-  const senderId = message.data.uidFrom;
-  const idBot = getBotId();
-  const isAdminLevelHighest = isAdmin(senderId);
-  let track;
+                ctx.save();
+                ctx.shadowColor = 'rgba(0, 0, 0, 0.4)';
+                ctx.shadowBlur = MUSIC_AVATAR_SHADOW_BLUR;
+                ctx.shadowOffsetX = MUSIC_AVATAR_SHADOW_OFFSET;
+                ctx.shadowOffsetY = MUSIC_AVATAR_SHADOW_OFFSET;
 
-  try {
-    if (!message.data.quote || !message.data.quote.globalMsgId) return false;
+                ctx.fillStyle = cv.getRandomGradient(ctx, CARD_WIDTH);
+                ctx.beginPath();
+                ctx.arc(musicAvatarCenterX, musicAvatarCenterY, MUSIC_AVATAR_SIZE / 2 + MUSIC_AVATAR_BORDER_WIDTH, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.restore();
 
-    const quotedMsgId = message.data.quote.globalMsgId.toString();
-    if (!musicSelectionsMap.has(quotedMsgId)) return false;
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(musicAvatarCenterX, musicAvatarCenterY, MUSIC_AVATAR_SIZE / 2, 0, Math.PI * 2);
+                ctx.clip();
+                ctx.drawImage(musicAvatar, musicAvatarX, musicAvatarY, MUSIC_AVATAR_SIZE, MUSIC_AVATAR_SIZE);
+                ctx.restore();
 
-    const musicData = musicSelectionsMap.get(quotedMsgId);
-    if (musicData.userRequest !== senderId) return false;
+            } catch (avatarError) {
+            }
+        }
 
-    let selection = removeMention(message);
-    const selectedIndex = parseInt(selection) - 1;
-    if (isNaN(selectedIndex)) {
-      const object = {
-        caption: `Lựa chọn Không hợp lệ. Vui lòng chọn một số từ danh sách.`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return true;
-    }
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(0.5, 0.5, CARD_WIDTH - 1, finalHeight - 1);
 
-    const { collection } = musicSelectionsMap.get(quotedMsgId);
-    if (selectedIndex < 0 || selectedIndex >= collection.length) {
-      const object = {
-        caption: `Số bạn chọn Không nằm trong danh sách. Vui lòng chọn lại.`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return true;
-    }
-
-    track = collection[selectedIndex];
-    if (!isAdminLevelHighest && track.duration > 1800000) {
-      const object = {
-        caption: `Thời lượng nhạc vượt quá thời gian tin nhắn tồn tại, vui lòng chọn bài khác.`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return true;
-    }
-
-    const msgDel = {
-      type: message.type,
-      threadId: message.threadId,
-      data: {
-        cliMsgId: message.data.quote.cliMsgId,
-        msgId: message.data.quote.globalMsgId,
-        uidFrom: idBot,
-      },
-    };
-    await api.deleteMessage(msgDel, false);
-    // await api.undoMessage(message);
-    musicSelectionsMap.delete(quotedMsgId);
-
-    return await handleSendTrackSoundCloud(api, message, track);
-  } catch (error) {
-    console.error("Error handling music reply:", error);
-    const object = {
-      caption: `Đã xảy ra lỗi khi xử lý lấy nhạc từ SoundCloud cho bạn, vui lòng thử lại sau.`,
-    };
-    await sendMessageWarningRequest(api, message, object, 30000);
-    return true;
-  }
-}
-
-export async function handleSendTrackSoundCloud(api, message, track) {
-  const cachedMusic = await getCachedMedia(PLATFORM, track.id, null, track.title);
-  let voiceUrl;
-
-  const object = {
-    caption: `Chờ bé lấy nhạc một chút, xong bé gọi cho hay.` + `\n\n⏳ ${track.title}`,
-  };
-
-  if (cachedMusic) {
-    voiceUrl = cachedMusic.fileUrl;
-  } else {
-    await sendMessageCompleteRequest(api, message, object, 10000);
-    const url = await getMusicStreamUrl(track.permalink_url);
-
-    if (!url) {
-      const object = {
-        caption: `Xin lỗi, bé Không thể lấy được bài hát này về. Vui lòng thử lại bài khác.`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return true;
+    } catch (error) {
+        ctx.fillStyle = 'red';
+        ctx.fillRect(0, 0, CARD_WIDTH, finalHeight);
+        ctx.font = '20px Arial';
+        ctx.fillStyle = 'white';
+        ctx.textAlign = 'center';
+        ctx.fillText('Error generating card', CARD_WIDTH / 2, finalHeight / 2);
     }
 
-    voiceUrl = await downloadAndConvertAudio(url, api, message);
-    setCacheData(PLATFORM, track.id, {
-      title: track.title,
-      artist: track.user?.username || "Unknown Artist",
-      fileUrl: voiceUrl,
-    }, null);
-  }
+    const tempDir = path.resolve('./assets/temp');
+    try {
+        await fsPromises.mkdir(tempDir, { recursive: true });
+    } catch (dirError) {
+        if (dirError.code !== 'EEXIST') {
+            throw dirError;
+        }
+    }
 
-  const thumbnailUrl = track.artwork_url?.replace("-large", "-t500x500");
-
-  const stats = [
-    track.playback_count && `${track.playback_count.toLocaleString()} 👂`,
-    track.likes_count && `${track.likes_count.toLocaleString()} ❤️`,
-    track.comment_count && `${track.comment_count.toLocaleString()} 💬`
-  ].filter(Boolean);
-
-  const caption = `> From SoundCloud <\nNhạc Bạn Chọn Đây!!!`;
-
-  const objectMusic = {
-    trackId: track.id,
-    title: track.title,
-    artists: track.user?.username || "Unknown Artist",
-    like: track.likes_count,
-    listen: track.playback_count,
-    comment: track.comment_count,
-    source: "SoundCloud",
-    caption: caption,
-    imageUrl: thumbnailUrl,
-    voiceUrl: voiceUrl,
-    stats: stats,
-  };
-  await sendVoiceMusic(api, message, objectMusic, 1800000);
-  return true;
+    const filePath = path.join(tempDir, `music_${Date.now()}.png`);
+    await fsPromises.writeFile(filePath, canvas.toBuffer("image/png"));
+    return filePath;
 }
