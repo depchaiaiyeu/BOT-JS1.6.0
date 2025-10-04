@@ -223,7 +223,7 @@ export async function createUserInfoImage(userInfo) {
         icons.length * iconSize + (icons.length - 1) * iconSpacing;
       const iconsY = nameY + (nameLine2 ? 68 : 40); // Đặt biểu tượng cách tên 40px
 
-      ctx.font = `${iconSize}px Arial`;
+      ctx.font = `${iconSize}px NotoEmojiBold`;
       icons.forEach((icon, index) => {
         const x =
           xAvatar + (index - (icons.length - 1) / 2) * (iconSize + iconSpacing);
@@ -414,14 +414,14 @@ export async function createUserCardGame(playerInfo) {
       ctx.stroke();
 
       // Vẽ tên người dùng dưới avatar
-      ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+      ctx.font = "bold 32px BeVietnamPro";
       ctx.fillStyle = "#FFFFFF";
       ctx.textAlign = "center";
       const nameY = yAvatar + heightAvatar + 54;
       if (nameLine2) {
-        ctx.font = "bold 24px BeVietnamPro, NotoEmojiBold";
+        ctx.font = "bold 24px BeVietnamPro";
         ctx.fillText(nameLine1, xAvatar, nameY);
-        ctx.font = "bold 24px BeVietnamPro, NotoEmojiBold";
+        ctx.font = "bold 24px BeVietnamPro";
         ctx.fillText(nameLine2, xAvatar, nameY + 28);
       } else {
         ctx.fillText(nameLine1, xAvatar, nameY);
@@ -454,7 +454,7 @@ export async function createUserCardGame(playerInfo) {
       if (playerInfo.isActiveWeb) icons.push("🌐");
       const iconsY = nameY + (nameLine2 ? 68 : 40); // Đặt biểu tượng cách tên 40px
 
-      ctx.font = `${iconSize}px Arial`;
+      ctx.font = `${iconSize}px NotoEmojiBold`;
       icons.forEach((icon, index) => {
         const x =
           xAvatar + (index - (icons.length - 1) / 2) * (iconSize + iconSpacing);
@@ -468,7 +468,7 @@ export async function createUserCardGame(playerInfo) {
   let y1 = 60;
 
   ctx.textAlign = "center";
-  ctx.font = "bold 48px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 48px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText(playerInfo.title, width / 2, y1);
 
@@ -518,7 +518,7 @@ export async function createUserCardGame(playerInfo) {
     { label: "🎁 Nhận Quà Daily", value: playerInfo.lastDailyReward },
   ];
 
-  ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 28px BeVietnamPro";
   for (const field of fields) {
     ctx.fillStyle = cv.getRandomGradient(ctx, width);
     const labelText = field.label + ":";
@@ -588,7 +588,7 @@ export async function createUserCardGame(playerInfo) {
   ctx.stroke();
   y += 20; // Tăng y cho trường tiếp theo
 
-  ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 28px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.textAlign = "center";
   ctx.fillText("Chúc Bạn 8386 | Mãi Đỉnh Mãi Đỉnh", width / 2, y);
@@ -690,12 +690,12 @@ export async function createBotInfoImage(
   let y1 = 60;
 
   ctx.textAlign = "center";
-  ctx.font = "bold 48px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 48px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText(botInfo.name, width / 2, y1);
 
   let y = y1 + 60;
-  ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 28px BeVietnamPro";
 
   let xCenter = width / 2;
 
@@ -753,7 +753,7 @@ y += 42;
     endY1 += 50;
 
     ctx.textAlign = "center";
-    ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "bold 32px BeVietnamPro";
     ctx.fillStyle = cv.getRandomGradient(ctx, width);
     ctx.fillText("📊 Cấu hình hiện tại trong nhóm:", xCenter, endY1);
     endY1 += 70;
@@ -763,7 +763,7 @@ y += 42;
     let leftY = endY1;
     let rightY = endY1;
 
-    ctx.font = "bold 24px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "bold 24px BeVietnamPro";
 
     if (onConfigs.length === 0 && offConfigs.length > 0) {
       // Nếu tất cả đều tắt, vẽ ở giữa
@@ -938,7 +938,7 @@ export async function createGroupInfoImage(groupInfo, owner) {
       ctx.restore();
 
       // Vẽ tên group dưới avatar
-      ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+      ctx.font = "bold 32px BeVietnamPro";
       ctx.fillStyle = "#FFFFFF";
       ctx.textAlign = "center";
       const nameY = yAvatar + heightAvatar + 48;
@@ -946,7 +946,7 @@ export async function createGroupInfoImage(groupInfo, owner) {
 
       const lineHeight = 28;
       nameLines.forEach((line, index) => {
-        ctx.font = "bold 24px BeVietnamPro, NotoEmojiBold";
+        ctx.font = "bold 24px BeVietnamPro";
         ctx.fillText(line, xAvatar, nameY + index * lineHeight);
         yBottom = nameY + index * lineHeight;
       });
@@ -965,7 +965,7 @@ export async function createGroupInfoImage(groupInfo, owner) {
       : "Nhóm"
     : "Nhóm";
   ctx.textAlign = "center";
-  ctx.font = "bold 48px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 48px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText(`Card Group`, width / 2, y1);
 
@@ -988,7 +988,7 @@ export async function createGroupInfoImage(groupInfo, owner) {
     { label: "🏷️ Phân Loại", value: groupType },
   ];
 
-  ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 28px BeVietnamPro";
   for (const field of fields) {
     ctx.fillStyle = cv.getRandomGradient(ctx, width);
     const labelText = field.label + ":";
@@ -1001,7 +1001,7 @@ export async function createGroupInfoImage(groupInfo, owner) {
 
   if (groupInfo.desc !== "") {
     ctx.textAlign = "center";
-    ctx.font = "bold 24px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "bold 24px BeVietnamPro";
 
     // Vẽ đường thẳng màu trắng
     ctx.beginPath();
@@ -1053,11 +1053,11 @@ export async function createAdminListImage(highLevelAdmins, groupAdmins, outputP
   ctx.fillRect(0, 0, width, height);
 
   ctx.textAlign = "center";
-  ctx.font = "bold 48px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 48px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText("DANH SÁCH QUẢN TRỊ BOT", width / 2, 70);
 
-  ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 32px BeVietnamPro";
   ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
   ctx.fillText("Quản Trị Viên Bot", width / 2, 130);
 
@@ -1119,12 +1119,12 @@ export async function createAdminListImage(highLevelAdmins, groupAdmins, outputP
     const nameX = avatarX + avatarSize + 20;
     
     ctx.textAlign = "left";
-    ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "bold 28px BeVietnamPro";
     ctx.fillStyle = "#FFFFFF";
     const numberText = `${itemNumber}. ${admin.name}`;
     ctx.fillText(numberText, nameX, itemY + itemHeight / 2 - 5);
 
-    ctx.font = "20px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "20px BeVietnamPro";
     ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
     const roleText = admin.type === 'high' ? "Quản Trị Viên Cấp Cao" : "Quản Trị Bot Nhóm";
     ctx.fillText(roleText, nameX, itemY + itemHeight / 2 + 25);
@@ -1149,7 +1149,7 @@ function drawDefaultAvatar(ctx, x, y, size) {
   ctx.fill();
   
   ctx.fillStyle = "#FFFFFF";
-  ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 32px BeVietnamPro";
   ctx.textAlign = "center";
   ctx.fillText("?", x + size / 2, y + size / 2 + 12);
 }
@@ -1174,11 +1174,11 @@ export async function createWhiteListImage(whiteListUsers, outputPath) {
   ctx.fillRect(0, 0, width, height);
 
   ctx.textAlign = "center";
-  ctx.font = "bold 48px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 48px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText("DANH SÁCH WHITE-LIST", width / 2, 70);
 
-  ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 32px BeVietnamPro";
   ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
   ctx.fillText("Người Dùng Được Phép", width / 2, 130);
 
@@ -1235,12 +1235,12 @@ export async function createWhiteListImage(whiteListUsers, outputPath) {
     const nameX = avatarX + avatarSize + 20;
     
     ctx.textAlign = "left";
-    ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "bold 28px BeVietnamPro";
     ctx.fillStyle = "#FFFFFF";
     const numberText = `${itemNumber}. ${user.name}`;
     ctx.fillText(numberText, nameX, itemY + itemHeight / 2 - 5);
 
-    ctx.font = "20px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "20px BeVietnamPro";
     ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
     ctx.fillText("Người Dùng White-List", nameX, itemY + itemHeight / 2 + 25);
 
@@ -1277,11 +1277,11 @@ export async function createTopChatImage(rankData, title, api, threadId) {
   ctx.fillRect(0, 0, width, height);
 
   ctx.textAlign = "center";
-  ctx.font = "bold 48px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 48px BeVietnamPro";
   ctx.fillStyle = cv.getRandomGradient(ctx, width);
   ctx.fillText(title, width / 2, 70);
 
-  ctx.font = "bold 32px BeVietnamPro, NotoEmojiBold";
+  ctx.font = "bold 32px BeVietnamPro";
   ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
   const subtitle = title.includes("hôm nay") ? "Top Chat Hôm Nay" : "Top Chat Tổng";
   ctx.fillText(subtitle, width / 2, 130);
@@ -1352,12 +1352,12 @@ export async function createTopChatImage(rankData, title, api, threadId) {
     const nameX = avatarX + avatarSize + 20;
     
     ctx.textAlign = "left";
-    ctx.font = "bold 28px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "bold 28px BeVietnamPro";
     ctx.fillStyle = "#FFFFFF";
     const numberText = `${itemNumber}. ${user.UserName}`;
     ctx.fillText(numberText, nameX, itemY + itemHeight / 2 - 5);
 
-    ctx.font = "20px BeVietnamPro, NotoEmojiBold";
+    ctx.font = "20px BeVietnamPro";
     ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
     const messageCount = title.includes("hôm nay") ? user.messageCountToday : user.Rank;
     const messageText = `${messageCount} tin nhắn`;
