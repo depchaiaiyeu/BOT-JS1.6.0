@@ -361,7 +361,7 @@ export async function handleSendTrackSoundCloud(api, message, track) {
   const objectMusic = {
     trackId: track.id,
     title: track.title,
-    artists: `Artists: ${track.user?.username}` || "Thằng Chó Nào Tao Đéo Biết",
+    artists: track.user?.username || "Unknown Artist",
     like: track.likes_count,
     listen: track.playback_count,
     comment: track.comment_count,
@@ -374,4 +374,3 @@ export async function handleSendTrackSoundCloud(api, message, track) {
   await sendVoiceMusic(api, message, objectMusic, 180000000);
   return true;
 }
-
