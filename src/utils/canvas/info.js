@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import * as cv from "./index.js";
 import { formatCurrency } from "../format-util.js";
+import { loadImageBuffer } from "../util.js";
 
 export function hanldeNameUser(name) {
   const words = name.split(" ");
