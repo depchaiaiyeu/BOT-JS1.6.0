@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-bot:
-    runs-on: ubuntu-24.04
+    runs-on: windows-latest
     timeout-minutes: 360
     permissions:
       contents: write
@@ -27,33 +27,22 @@ jobs:
           node-version: 20
 
       - name: Install dependencies & replace nsfwjs
+        shell: bash
         run: |
           cd BOT-JS1.6.0
           npm install
           rm -rf node_modules/nsfwjs
           cp -r nsfwjs.u node_modules/nsfwjs
 
-      - name: Optimize network for low latency
-        run: |
-          sudo modprobe tcp_bbr
-          sudo sysctl -w net.ipv4.tcp_fastopen=3
-          sudo sysctl -w net.core.rmem_max=16777216
-          sudo sysctl -w net.core.wmem_max=16777216
-          sudo sysctl -w net.ipv4.tcp_rmem="4096 87380 16777216"
-          sudo sysctl -w net.ipv4.tcp_wmem="4096 65536 16777216"
-          sudo sysctl -w net.core.netdev_max_backlog=250000
-          sudo sysctl -w net.ipv4.tcp_congestion_control=bbr
-          sudo sysctl -w net.ipv4.tcp_low_latency=1
-          sudo iptables -t mangle -A OUTPUT -p udp --dport 80 -j TOS --set-tos 0x10
-          sudo iptables -t mangle -A OUTPUT -p udp --dport 443 -j TOS --set-tos 0x10
-
       - name: Run bot
+        shell: bash
         run: |
           cd BOT-JS1.6.0
           node src/index.js
 
       - name: Commit and push changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        shell: bash
         run: |
           cd BOT-JS1.6.0
           git config --local user.email "action@github.com"
