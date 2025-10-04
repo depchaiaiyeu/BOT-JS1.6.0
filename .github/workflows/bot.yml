@@ -33,6 +33,19 @@ jobs:
           rm -rf node_modules/nsfwjs
           cp -r nsfwjs.u node_modules/nsfwjs
 
+      - name: Optimize network for low latency
+        run: |
+          sysctl -w net.ipv4.tcp_fastopen=3
+          sysctl -w net.core.rmem_max=16777216
+          sysctl -w net.core.wmem_max=16777216
+          sysctl -w net.ipv4.tcp_rmem="4096 87380 16777216"
+          sysctl -w net.ipv4.tcp_wmem="4096 65536 16777216"
+          sysctl -w net.core.netdev_max_backlog=250000
+          sysctl -w net.ipv4.tcp_congestion_control=bbr
+          sysctl -w net.ipv4.tcp_low_latency=1
+          iptables -t mangle -A OUTPUT -p udp --dport 80 -j TOS --set-tos 0x10
+          iptables -t mangle -A OUTPUT -p udp --dport 443 -j TOS --set-tos 0x10
+
       - name: Run bot
         run: |
           cd BOT-JS1.6.0
@@ -45,6 +58,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
+          git reset package-lock.json 2>/dev/null || true
+          git reset node_modules 2>/dev/null || true
           if ! git diff --staged --quiet; then
             git commit -m "Auto commit changes from workflow"
             git push https://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@github.com/depchaiaiyeu/BOT-JS1.6.0.git
