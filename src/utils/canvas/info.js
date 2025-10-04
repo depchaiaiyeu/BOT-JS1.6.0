@@ -1256,3 +1256,124 @@ export async function createWhiteListImage(whiteListUsers, outputPath) {
     out.on("error", reject);
   });
 }
+
+export async function createTopChatImage(rankData, title, api, threadId) {
+  const width = 800;
+  const headerHeight = 180;
+  const itemHeight = 120;
+  const padding = 30;
+  
+  const totalItems = rankData.length;
+  const contentHeight = totalItems * itemHeight + padding * 2;
+  const height = headerHeight + contentHeight + 50;
+  
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext("2d");
+
+  const backgroundGradient = ctx.createLinearGradient(0, 0, 0, height);
+  backgroundGradient.addColorStop(0, "#0A0A0A");
+  backgroundGradient.addColorStop(1, "#121212");
+  ctx.fillStyle = backgroundGradient;
+  ctx.fillRect(0, 0, width, height);
+
+  ctx.textAlign = "center";
+  ctx.font = "bold 48px Tahoma";
+  ctx.fillStyle = cv.getRandomGradient(ctx, width);
+  ctx.fillText(title, width / 2, 70);
+
+  ctx.font = "bold 32px Tahoma";
+  ctx.fillStyle = "rgba(255, 255, 255, 0.9)";
+  const subtitle = title.includes("hôm nay") ? "Top Chat Hôm Nay" : "Top Chat Tổng";
+  ctx.fillText(subtitle, width / 2, 130);
+
+  let currentY = headerHeight + padding;
+  let itemNumber = 1;
+
+  for (const user of rankData) {
+    const itemY = currentY;
+    
+    ctx.fillStyle = "rgba(255, 255, 255, 0.05)";
+    ctx.fillRect(padding, itemY, width - padding * 2, itemHeight);
+
+    const avatarSize = 80;
+    const avatarX = padding + 20;
+    const avatarY = itemY + (itemHeight - avatarSize) / 2;
+
+    try {
+      const userInfo = await api.getUserInfo(user.UID);
+      let avatarUrl = null;
+      
+      if (userInfo && userInfo.changed_profiles && userInfo.changed_profiles[user.UID]) {
+        avatarUrl = userInfo.changed_profiles[user.UID].avatar;
+      }
+
+      if (avatarUrl && cv.isValidUrl(avatarUrl)) {
+        try {
+          const buffer = await loadImageBuffer(avatarUrl);
+          const avatar = await loadImage(buffer);
+          
+          const borderWidth = 3;
+          const gradient = ctx.createLinearGradient(
+            avatarX - borderWidth,
+            avatarY - borderWidth,
+            avatarX + avatarSize + borderWidth,
+            avatarY + avatarSize + borderWidth
+          );
+
+          const rainbowColors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3"];
+          const shuffledColors = [...rainbowColors].sort(() => Math.random() - 0.5);
+          
+          shuffledColors.forEach((color, index) => {
+            gradient.addColorStop(index / (shuffledColors.length - 1), color);
+          });
+
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2 + borderWidth, 0, Math.PI * 2);
+          ctx.fillStyle = gradient;
+          ctx.fill();
+
+          ctx.beginPath();
+          ctx.arc(avatarX + avatarSize / 2, avatarY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
+          ctx.clip();
+          ctx.drawImage(avatar, avatarX, avatarY, avatarSize, avatarSize);
+          ctx.restore();
+        } catch (error) {
+          console.error(`Lỗi load avatar cho ${user.UserName}:`, error);
+          drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
+        }
+      } else {
+        drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
+      }
+    } catch (error) {
+      console.error(`Lỗi getUserInfo cho ${user.UID}:`, error);
+      drawDefaultAvatar(ctx, avatarX, avatarY, avatarSize);
+    }
+
+    const nameX = avatarX + avatarSize + 20;
+    
+    ctx.textAlign = "left";
+    ctx.font = "bold 28px Tahoma";
+    ctx.fillStyle = "#FFFFFF";
+    const numberText = `${itemNumber}. ${user.UserName}`;
+    ctx.fillText(numberText, nameX, itemY + itemHeight / 2 - 5);
+
+    ctx.font = "20px Tahoma";
+    ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+    const messageCount = title.includes("hôm nay") ? user.messageCountToday : user.Rank;
+    const messageText = `${messageCount} tin nhắn`;
+    ctx.fillText(messageText, nameX, itemY + itemHeight / 2 + 25);
+
+    currentY += itemHeight + 10;
+    itemNumber++;
+  }
+
+  const outputPath = path.resolve(`./assets/temp/rank_${threadId}_${Date.now()}.png`);
+  const out = fs.createWriteStream(outputPath);
+  const stream = canvas.createPNGStream();
+  stream.pipe(out);
+  return new Promise((resolve, reject) => {
+    out.on("finish", () => resolve(outputPath));
+    out.on("error", reject);
+  });
+}
