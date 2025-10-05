@@ -2269,6 +2269,17 @@
       "alias": [
         "phim"
       ]
+    },
+    {
+      "name": "autoreply",
+      "description": "Bật/tắt tự động trả lời tin nhắn với Simsimi",
+      "syntax": "{p}autoreply",
+      "permission": "adminLevelHigh",
+      "countdown": 1,
+      "icon": "👨‍💻",
+      "type": 5,
+      "author": "Vũ Xuân Kiên",
+      "active": true
     }
   ]
 }
