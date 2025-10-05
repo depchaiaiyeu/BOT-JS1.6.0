@@ -4,7 +4,6 @@ import { MessageType } from "zlbotdqt";
 import { getGlobalPrefix } from '../service.js';
 import { removeMention } from "../../utils/format-util.js";
 import { readGroupSettings } from "../../utils/io-json.js";
-import { createTopChatImage } from '../../utils/canvas/info.js';
 
 const rankInfoPath = path.join(process.cwd(), "assets", "json-data", "rank-info.json");
 
@@ -40,6 +39,7 @@ export function updateUserRank(groupId, userId, userName, nameGroup) {
   const currentDate = new Date().toISOString().split('T')[0];
   const userIndex = rankInfo.groups[groupId].users.findIndex((user) => user.UID === userId);
 
+
   rankInfo.groups[groupId].users.forEach((user) => {
     if (user.lastMessageDate !== currentDate) {
       user.messageCountToday = 0; 
@@ -70,6 +70,14 @@ export async function handleRankCommand(api, message, aliasCommand) {
   const content = removeMention(message);
   const args = content.replace(`${prefix}${aliasCommand}`, "").trim().split("|");
 
+  if (args.length < 1) {
+    const object = {
+      caption: `Vui lòng nhập đúng cú pháp: ${prefix}${aliasCommand} [today] hoặc ${prefix}${aliasCommand}`,
+    };
+    await sendMessageWarningRequest(api, message, object, 30000);
+    return;
+  }
+
   const command = args[0].trim().toLowerCase(); 
   const rankInfo = readRankInfo();
   const threadId = message.threadId;
@@ -83,12 +91,9 @@ export async function handleRankCommand(api, message, aliasCommand) {
     );
     return;
   }
-
-  let title = "";
-  let rankData = [];
-
+  let rankMessage = "";
   if (command === "today") {
-    const currentDate = new Date().toISOString().split("T")[0];
+    const currentDate = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
     const todayUsers = groupUsers.filter((user) => user.lastMessageDate === currentDate);
     if (todayUsers.length === 0) {
       await api.sendMessage(
@@ -99,41 +104,30 @@ export async function handleRankCommand(api, message, aliasCommand) {
       return;
     }
     const sortedUsers = todayUsers.sort((a, b) => b.messageCountToday - a.messageCountToday);
-    rankData = sortedUsers.slice(0, 10);
-    title = "🏆 Bảng xếp hạng tin nhắn hôm nay:";
+    const top10Users = sortedUsers.slice(0, 10);
+
+    rankMessage = "🏆 Bảng xếp hạng tin nhắn hôm nay:\n\n";
+    top10Users.forEach((user, index) => {
+      rankMessage += `${index + 1}. ${user.UserName}: ${user.messageCountToday} tin nhắn\n`;
+    });
   } else if (command === "") {
     const sortedUsers = groupUsers.sort((a, b) => b.Rank - a.Rank); 
-    rankData = sortedUsers.slice(0, 10);
-    title = "🏆 Bảng xếp hạng tin nhắn:";
+    const top10Users = sortedUsers.slice(0, 10);
+    rankMessage = "🏆 Bảng xếp hạng tin nhắn:\n\n";
+    top10Users.forEach((user, index) => {
+      rankMessage += `${index + 1}. ${user.UserName}: ${user.Rank} tin nhắn\n`;
+    });
+    rankMessage += `\nDùng ${prefix}${aliasCommand} today để xem top nhắn tin hàng ngày.`;
   } else {
     await api.sendMessage(
-      { msg: `Bạn có thể dùng:\n- ${prefix}${aliasCommand} today để kiểm tra top nhắn tin hôm nay\n- ${prefix}${aliasCommand} để kiểm tra top nhắn tin`, quote: message, ttl: 60000 },
+      { msg: `Bạn có thể dùng:\n- ${prefix}${aliasCommand} today để kiểm tra top nhắn tin hôm nay\n- ${prefix}${aliasCommand} để kiểm tra top nhắn tin `, quote: message, ttl: 60000 },
       threadId,
       MessageType.GroupMessage
     );
     return;
   }
 
-  try {
-    const imagePath = await createTopChatImage(rankData, title, api, threadId);
-    await api.sendMessage(
-      { 
-        msg: title,
-        attachment: [imagePath],
-        ttl: 600000
-      },
-      threadId,
-      MessageType.GroupMessage
-    );
-    fs.unlinkSync(imagePath);
-  } catch (error) {
-    console.error("Lỗi khi tạo ảnh xếp hạng:", error);
-    await api.sendMessage(
-      { msg: "Đã xảy ra lỗi khi tạo bảng xếp hạng.", quote: message },
-      threadId,
-      MessageType.GroupMessage
-    );
-  }
+  await api.sendMessage({ msg: rankMessage, quote: message, ttl: 600000 }, threadId, MessageType.GroupMessage);
 }
 
 export async function initRankSystem() {
