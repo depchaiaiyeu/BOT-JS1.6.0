@@ -60,8 +60,7 @@
     "ws": "^8.18.0",
     "youtube-dl-exec": "^3.0.12",
     "yt-dlp-exec": "^1.0.2",
-    "zlbotdqt": "file:",
-    "adm-zip": "^0.5.16"
+    "zlbotdqt": "file:"
   },
   "exports": {
     ".": "./src/api-zalo/index.js"
