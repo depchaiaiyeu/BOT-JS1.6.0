@@ -1,11 +1,16 @@
 import { getSimsimiReply } from "../service-hahuyhoang/chat-bot/simsimi/simsimi-api.js";
 import { getBotId } from "../index.js";
 
+const lastAutoReplyTime = new Map();
+const AUTO_REPLY_COOLDOWN = 5 * 60 * 1000;
+const MESSAGE_TTL = AUTO_REPLY_COOLDOWN;
+
 export async function superCheckBox(api, message, isSelf, botIsAdminBox, isAdminBox) {
   if (isSelf || !message.data?.mentions?.length) return false;
 
   const threadId = message.threadId;
   const mentions = message.data.mentions;
+  const senderId = message.data.uidFrom;
   const botUid = getBotId();
 
   const botMentioned = mentions.some(m => m.uid === botUid);
@@ -14,25 +19,36 @@ export async function superCheckBox(api, message, isSelf, botIsAdminBox, isAdmin
   const mention = mentions.find(m => m.uid === botUid);
   const userMessage = mention ? message.data.content.slice(mention.len).trim() : "";
 
+  const now = Date.now();
+  const lastSent = lastAutoReplyTime.get(senderId) || 0;
+
   if (!userMessage) {
-    await api.sendMessage(
-      { msg: "Hót đi chim..?", quote: message },
-      threadId,
-      message.type
-    );
+    if (now - lastSent >= AUTO_REPLY_COOLDOWN) {
+      lastAutoReplyTime.set(senderId, now);
+      await api.sendMessage(
+        {
+          msg:
+            "Chào bạn, mình là bot của anh Kiên.\n" +
+            "Hiện tại anh Kiên đang offline, nếu bạn cần giúp đỡ có thể để lại tin nhắn, anh ấy sẽ đọc sau!",
+          ttl: MESSAGE_TTL
+        },
+        threadId,
+        message.type
+      );
+    }
     return true;
   }
 
   try {
     const simsimiReply = await getSimsimiReply(userMessage, 0.9);
     await api.sendMessage(
-      { msg: simsimiReply, quote: message },
+      { msg: simsimiReply, quote: message, ttl: MESSAGE_TTL },
       threadId,
       message.type
     );
   } catch {
     await api.sendMessage(
-      { msg: "Lỗi mọe rồi...", quote: message },
+      { msg: "Xin lỗi, tôi chưa hiểu bạn nói gì, bạn có thể nói rõ hơn được không ạ?", quote: message, ttl: MESSAGE_TTL },
       threadId,
       message.type
     );
