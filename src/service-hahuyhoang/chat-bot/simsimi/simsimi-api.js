@@ -29,7 +29,7 @@ export async function chatWithSimsimi(api, message) {
   }
 }
 
-async function getSimsimiReply(chatMessage) {
+export async function getSimsimiReply(chatMessage) {
   const response = await axios.post(
     SIMSIMI_API_URL,
     {
