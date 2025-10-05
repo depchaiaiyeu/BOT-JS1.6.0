@@ -10,7 +10,7 @@ import { createBotInfoImage, clearImagePath } from "../../utils/canvas/index.js"
 export async function getBotDetails(api, message, groupSettings = {}) {
   const threadId = message.threadId;
   const uptime = getUptime();
-  const activeSince = getStartTime("2025-01-05");
+  const activeSince = getStartTime("2025-9-26");
   const memoryUsage = getMemoryUsage();
   const { onConfigs, offConfigs } = getConfigStatus(threadId, groupSettings);
   const botVersion = getBotVersion();
