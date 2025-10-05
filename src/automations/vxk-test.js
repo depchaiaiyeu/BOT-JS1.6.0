@@ -46,6 +46,7 @@ export async function superCheckBox(api, message, isSelf, botIsAdminBox, isAdmin
 
   try {
     const simsimiReply = await getSimsimiReply(userMessage, 0.9);
+    await api.addReaction("LIKE", messages);
     await api.sendMessage(
       { msg: simsimiReply, quote: message, ttl: MESSAGE_TTL },
       threadId,
