@@ -24,91 +24,16 @@ async function loadConfig() {
   const configFile = await fs.readFile(configPath, "utf8");
   return JSON.parse(configFile);
 }
-
 export async function getNameServer() {
   const config = await loadConfig(); 
   return config.nameServer;
 }
-
 export function updateNameServer(newName) {
   nameServer = newName;
 }
 
-async function ensureMySQLRunning() {
-  try {
-    const testConnection = await mysql.createConnection({
-      host: 'localhost',
-      user: 'root',
-      password: '',
-      connectTimeout: 5000
-    });
-    await testConnection.end();
-    return true;
-  } catch (error) {
-    return false;
-  }
-}
-
-async function installAndStartMySQL() {
-  const { exec } = await import('child_process');
-  const { promisify } = await import('util');
-  const execPromise = promisify(exec);
-
-  try {
-    console.log(chalk.yellow("Đang kiểm tra MySQL..."));
-    
-    const isRunning = await ensureMySQLRunning();
-    if (isRunning) {
-      console.log(chalk.green("✓ MySQL đã chạy"));
-      return true;
-    }
-
-    console.log(chalk.yellow("Đang khởi động MySQL service..."));
-    
-    try {
-      await execPromise('net start MySQL', { shell: 'cmd.exe' });
-      console.log(chalk.green("✓ Đã khởi động MySQL service"));
-      
-      await new Promise(resolve => setTimeout(resolve, 3000));
-      
-      const isNowRunning = await ensureMySQLRunning();
-      if (isNowRunning) {
-        return true;
-      }
-    } catch (startError) {
-      console.log(chalk.yellow("Không thể khởi động MySQL service tự động"));
-    }
-
-    try {
-      await execPromise('net start MySQL80', { shell: 'cmd.exe' });
-      console.log(chalk.green("✓ Đã khởi động MySQL80 service"));
-      
-      await new Promise(resolve => setTimeout(resolve, 3000));
-      
-      const isNowRunning = await ensureMySQLRunning();
-      if (isNowRunning) {
-        return true;
-      }
-    } catch (startError) {
-      console.log(chalk.yellow("Không thể khởi động MySQL80 service"));
-    }
-
-    console.log(chalk.red("⚠ Vui lòng cài đặt và khởi động MySQL thủ công"));
-    console.log(chalk.yellow("Tải MySQL tại: https://dev.mysql.com/downloads/installer/"));
-    return false;
-  } catch (error) {
-    console.error(chalk.red("Lỗi khi kiểm tra MySQL:"), error.message);
-    return false;
-  }
-}
-
 export async function initializeDatabase() {
   try {
-    const mysqlReady = await installAndStartMySQL();
-    if (!mysqlReady) {
-      throw new Error("MySQL chưa sẵn sàng. Vui lòng cài đặt và khởi động MySQL");
-    }
-
     const config = await loadConfig();
 
     nameServer = config.nameServer;
@@ -116,18 +41,22 @@ export async function initializeDatabase() {
     NAME_TABLE_ACCOUNT = config.tableAccount;
     DAILY_REWARD = config.dailyReward;
 
+    // Tạo kết nối tạm thời không cần chọn database
     const tempConnection = await mysql.createConnection({
       host: config.host,
       user: config.user,
       password: config.password,
     });
 
+    // Tạo database nếu chưa tồn tại
     await tempConnection.execute(
       `CREATE DATABASE IF NOT EXISTS \`${config.database}\``
     );
 
+    // Đóng kết nối tạm thời
     await tempConnection.end();
 
+    // Tạo pool connection với database đã chọn
     connection = mysql.createPool({
       host: config.host,
       user: config.user,
@@ -140,6 +69,7 @@ export async function initializeDatabase() {
       `SHOW TABLES LIKE '${NAME_TABLE_ACCOUNT}'`
     );
     if (tablesAccount.length === 0) {
+      // Tạo bảng account nếu chưa tồn tại
       await connection.execute(`
             CREATE TABLE IF NOT EXISTS ${NAME_TABLE_ACCOUNT} (
                 id INT PRIMARY KEY AUTO_INCREMENT,
@@ -152,11 +82,13 @@ export async function initializeDatabase() {
       console.log(`✓ Đã kiểm tra/tạo bảng ${NAME_TABLE_ACCOUNT}`);
     }
 
+    // Kiểm tra và tạo bảng players
     const [tables] = await connection.execute(
       `SHOW TABLES LIKE '${NAME_TABLE_PLAYERS}'`
     );
 
     if (tables.length === 0) {
+      // Nếu bảng chưa tồn tại, tạo bảng mới
       await connection.execute(`
                 CREATE TABLE ${NAME_TABLE_PLAYERS} (
                     id INT AUTO_INCREMENT,
@@ -179,6 +111,7 @@ export async function initializeDatabase() {
             `);
       console.log(`✓ Đã tạo bảng ${NAME_TABLE_PLAYERS}`);
     } else {
+      // Kiểm tra và thêm các cột còn thiếu
       const [columns] = await connection.execute(
         `SHOW COLUMNS FROM ${NAME_TABLE_PLAYERS}`
       );
@@ -254,7 +187,7 @@ export async function initializeDatabase() {
     console.log(chalk.green("✓ Khởi tạo database thành công"));
   } catch (error) {
     console.error(chalk.red("Lỗi khi khởi tạo cơ sở dữ liệu: "), error);
-    console.error(chalk.red("Vui lòng cài đặt MySQL và khởi động lại!"));
+    console.error(chalk.red("Vui lòng mở XAMPP MySQL và khởi động lại!"));
   }
 }
 
