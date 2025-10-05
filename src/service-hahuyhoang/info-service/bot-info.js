@@ -183,7 +183,7 @@ export function getSettingName(settingKey) {
     antiMedia: "Xóa media gửi vào nhóm",
     antiSticker: "Xoá tất cả Sticker",
     removeLinkKeywords: "Chặn link được chỉ định",
-    autoReply: "Xử lý động trả lời tin nhắn",
+    autoReply: "Xử lý tự động trả lời tin nhắn",
   };
   return nameMap[settingKey] || settingKey;
 }
