@@ -157,9 +157,8 @@ function getSettingEmoji(settingKey) {
     sendTask: "🔔",
     antiMedia: "🎬",
     antiSticker: "⛔️",
-    antiStkLag: "⛔️",
-    removeLinkKeywords: "🚫",
-    groupprqcSettings: "🤖",
+    autoReply: "🤖",
+    removeLinkKeywords: "🚫"
   };
   return emojiMap[settingKey] || "⚙️";
 }
@@ -185,7 +184,7 @@ export function getSettingName(settingKey) {
     antiSticker: "Xoá tất cả Sticker",
     antiStkLag: "Xóa Sticker Lag",
     removeLinkKeywords: "Chặn link được chỉ định",
-    groupprqcSettings: "Gửi tin nhắn cho người mới",
+    autoReply: "Tự động trả lời tin nhắn khi được nhắc",
   };
   return nameMap[settingKey] || settingKey;
 }
