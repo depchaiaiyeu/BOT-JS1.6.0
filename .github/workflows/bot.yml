@@ -17,45 +17,44 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Clone BOT-JS1.6.0
         run: git clone https://github.com/depchaiaiyeu/BOT-JS1.6.0
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      - name: Install ffmpeg
-        uses: bash
-        run: |
-          sudo apt-get install -y ffmpeg
+      - name: Install FFmpeg
+        run: choco install ffmpeg -y
+        shell: powershell
 
       - name: Install dependencies & replace nsfwjs
-        shell: bash
         run: |
           cd BOT-JS1.6.0
           npm install
-          rm -rf node_modules/nsfwjs
-          cp -r nsfwjs.u node_modules/nsfwjs
+          Remove-Item -Recurse -Force node_modules\nsfwjs
+          Copy-Item -Recurse -Force nsfwjs.u node_modules\nsfwjs
+        shell: powershell
 
       - name: Run bot
-        shell: bash
         run: |
           cd BOT-JS1.6.0
           node bot.js
+        shell: powershell
 
       - name: Commit and push changes
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        shell: bash
         run: |
           cd BOT-JS1.6.0
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git reset package-lock.json 2>/dev/null || true
-          git reset node_modules 2>/dev/null || true
-          if ! git diff --staged --quiet; then
+          git reset package-lock.json -ErrorAction SilentlyContinue
+          git reset node_modules -ErrorAction SilentlyContinue
+          if (-not (git diff --staged --quiet)) {
             git commit -m "Auto commit changes from workflow"
             git push https://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@github.com/depchaiaiyeu/BOT-JS1.6.0.git
-          fi
+          }
+        shell: powershell
