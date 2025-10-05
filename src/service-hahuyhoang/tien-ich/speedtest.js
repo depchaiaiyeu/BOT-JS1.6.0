@@ -10,7 +10,7 @@ import { formatDate } from '../../utils/format-util.js';
 const TIME_TO_LIVE_MESSAGE = 600000;
 const TEST_DURATION = 20000;
 
-const FIXED_LOGO_URL = "https://i.pinimg.com/474x/d6/df/ed/d6dfedf59e840c71eab20e5f3e594450.jpg";
+const FIXED_LOGO_URL = "https://i.postimg.cc/Qt4WjJBp/taoanhdep-thu-phap-91339.jpg";
 
 let isTestingSpeed = false;
 let currentTester = {
@@ -159,29 +159,27 @@ export async function createSpeedTestImage(result) {
     }
 
     const infoStartX = xLogo + widthLogo / 2 + 86;
-    let y = 110;
+    let y = 130;
 
     const downloadBandwidthBytes = result.download.bandwidth || 0;
     const uploadBandwidthBytes = result.upload.bandwidth || 0;
-    const downloadSpeedMbps = (downloadBandwidthBytes / 125000).toFixed(2);
-    const uploadSpeedMbps = (uploadBandwidthBytes / 125000).toFixed(2);
     const downloadSpeedMBps = (downloadBandwidthBytes / 1000000).toFixed(2);
     const uploadSpeedMBps = (uploadBandwidthBytes / 1000000).toFixed(2);
+    const downloadSpeedMbps = (downloadBandwidthBytes * 8 / 1000000).toFixed(2);
+    const uploadSpeedMbps = (uploadBandwidthBytes * 8 / 1000000).toFixed(2);
     const ping = Math.round(result.ping?.latency || 0);
 
     const fields = [
-        { label: "📥 Download", value: `${downloadSpeedMbps} MB/s (${evaluateSpeed(parseFloat(downloadSpeedMBps))} 🚀)` },
-        { label: "📤 Upload", value: `${uploadSpeedMbps} MB/s (${evaluateSpeed(parseFloat(uploadSpeedMBps))} 🚀)` },
+        { label: "📥 Download", value: `${downloadSpeedMBps} MB/s (${downloadSpeedMbps} Mbps) (${evaluateSpeed(parseFloat(downloadSpeedMBps))} 🌀)` },
+        { label: "📤 Upload", value: `${uploadSpeedMBps} MB/s (${uploadSpeedMbps} Mbps) (${evaluateSpeed(parseFloat(uploadSpeedMBps))} 🌀)` },
         { label: "💬 Ping", value: `${ping}ms` },
         { label: "🌐 Server", value: `${result.server?.name || 'N/A'}` },
-        { label: "🌍 Location", value: `${result.server?.location || 'N/A'} (${result.server?.country || 'N/A'})` },
-        { label: "💻 VPN", value: `${result.interface?.isVpn ? "Có VPN" : "Không VPN"}` },
-        { label: "🕐 Time", value: `${formatDate(new Date(result.timestamp || Date.now()))}` },
+        { label: "🌍 Location", value: `${result.server?.location || 'N/A'}, ${result.server?.country || 'N/A'}` },
     ];
 
     ctx.textAlign = "left";
-    ctx.font = "bold 26px BeVietnamPro";
-    const lineHeight = 42;
+    ctx.font = "bold 24px BeVietnamPro";
+    const lineHeight = 40;
 
     for (const field of fields) {
         ctx.fillStyle = cv.getRandomGradient(ctx, width);
