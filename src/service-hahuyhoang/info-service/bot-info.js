@@ -182,9 +182,8 @@ export function getSettingName(settingKey) {
     sendTask: "Gửi nội dung tự động",
     antiMedia: "Xóa media gửi vào nhóm",
     antiSticker: "Xoá tất cả Sticker",
-    antiStkLag: "Xóa Sticker Lag",
     removeLinkKeywords: "Chặn link được chỉ định",
-    autoReply: "Tự động trả lời tin nhắn khi được nhắc",
+    autoReply: "Xử lý động trả lời tin nhắn",
   };
   return nameMap[settingKey] || settingKey;
 }
