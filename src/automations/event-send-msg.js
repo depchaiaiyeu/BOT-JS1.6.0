@@ -32,7 +32,7 @@ import { pushMessageToWebLog } from "../utils/io-json.js";
 import { handleCommand, initGroupSettings, handleCommandPrivate } from "../commands/command.js";
 import { logMessageToFile, readGroupSettings } from "../utils/io-json.js";
 
-import { canvasTest, superCheckBox, testFutureGroup, testFutureUser } from "./ndq-test.js";
+import { superCheckBox } from "./vxk-test.js";
 import { antiNude } from "../service-hahuyhoang/anti-service/anti-nude/anti-nude.js";
 import { isUserBlocked } from "../commands/bot-manager/group-manage.js";
 
