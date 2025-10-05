@@ -40,6 +40,7 @@ import { sendVideoDownload } from "../service-hahuyhoang/chat-zalo/chat-special/
 import { chatWithSimsimi } from "../service-hahuyhoang/chat-bot/simsimi/simsimi-api.js";
 import { translateCommand } from "../service-hahuyhoang/api-crawl/content/translate.js";
 import { handleLearnCommand, handleReplyCommand } from "../service-hahuyhoang/chat-bot/bot-learning/dqt-bot.js";
+import { handleAutoReplyCommand } from "../automations/vxk-test.js";
 import { handleOnlyText } from "../service-hahuyhoang/anti-service/anti-not-text.js";
 import { scoldUser } from "../service-hahuyhoang/chat-bot/scold-user/scold-user.js";
 import { getBotDetails } from "../service-hahuyhoang/info-service/bot-info.js";
@@ -259,9 +260,8 @@ export function initGroupSettings(groupSettings, threadId, nameGroup) {
     autoLockChat: {},
     antiMedia: false,
     antiSticker: false,
-    antiStkLag: false,
-    removeLinkKeywords: false,
-    groupprqcSettings: false
+    autoReply: false,
+    removeLinkKeywords: false
   };
 
   if (!groupSettings[threadId]) {
@@ -284,7 +284,7 @@ export async function checkAdminLevelHighest(api, message, isAdminLevelHighest) 
     await sendMessageInsufficientAuthority(
       api,
       message,
-      "Chỉ có Đấng tối cao mới được sử dụng lệnh này!"
+      "Chỉ có quản trị viên bot mới được sử dụng lệnh này!"
     );
     return false;
   }
@@ -909,6 +909,10 @@ export async function handleCommand(
 
       case "antilink":
         isChangeSetting = await handleAntiLinkCommand(api, message, groupSettings, isAdminBox, isAdminLevelHighest);
+        break;
+
+      case "autoreply":
+        isChangeSetting = await handleAutoReplyCommand(api, message, groupSettings);
         break;
 
       case "antispam":
