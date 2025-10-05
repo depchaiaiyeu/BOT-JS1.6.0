@@ -6,17 +6,25 @@ export async function superCheckBox(api, message, isSelf, botIsAdminBox, isAdmin
 
   const threadId = message.threadId;
   const mentions = message.data.mentions;
-  if (mentions.length !== 1) return false;
-
   const botUid = getBotId();
-  const mention = mentions[0];
-  if (mention.uid !== botUid || mention.pos !== 0) return false;
 
-  const userMessage = message.data.content.slice(mention.len).trim();
-  if (!userMessage) return false;
+  const botMentioned = mentions.some(m => m.uid === botUid);
+  if (!botMentioned) return false;
+
+  const mention = mentions.find(m => m.uid === botUid);
+  const userMessage = mention ? message.data.content.slice(mention.len).trim() : "";
+
+  if (!userMessage) {
+    await api.sendMessage(
+      { msg: "Hót đi chim..?", quote: message },
+      threadId,
+      message.type
+    );
+    return true;
+  }
 
   try {
-    const simsimiReply = await getSimsimiReply(userMessage);
+    const simsimiReply = await getSimsimiReply(userMessage, 0.9);
     await api.sendMessage(
       { msg: simsimiReply, quote: message },
       threadId,
@@ -24,7 +32,7 @@ export async function superCheckBox(api, message, isSelf, botIsAdminBox, isAdmin
     );
   } catch {
     await api.sendMessage(
-      { msg: "Xin lỗi, tôi chưa hiểu bạn nói gì.", quote: message },
+      { msg: "Lỗi mọe rồi...", quote: message },
       threadId,
       message.type
     );
