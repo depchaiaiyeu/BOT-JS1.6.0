@@ -1,10 +1,7 @@
 import schedule from "node-schedule";
 import { MessageMention, MessageType } from "zlbotdqt";
-
-import { getIO } from "../web-service/web-server.js";
-
+import { getIO, getConnectedClientsCount } from "../web-service/web-server.js";
 import { getBotId, isAdmin, admins, checkDisableProphylacticConfig } from "../index.js";
-
 import { antiLink } from "../service-hahuyhoang/anti-service/anti-link.js";
 import { antiSpam } from "../service-hahuyhoang/anti-service/anti-spam.js";
 import { antiBadWord } from "../service-hahuyhoang/anti-service/anti-badword.js";
@@ -13,39 +10,30 @@ import { antiNotText } from "../service-hahuyhoang/anti-service/anti-not-text.js
 import { handleMute } from "../service-hahuyhoang/anti-service/mute-user.js";
 import { antiMedia } from "../service-hahuyhoang/anti-service/anti-media.js";
 import { antiSticker } from "../service-hahuyhoang/anti-service/anti-sticker.js";
-import { antiLinkKeyword } from "../service-hahuyhoang/anti-service/anti-keyword-link.js"
-
+import { antiLinkKeyword } from "../service-hahuyhoang/anti-service/anti-keyword-link.js";
 import { Reactions } from "../api-zalo/index.js";
 import { handleOnChatUser, handleOnReplyFromUser } from "../service-hahuyhoang/service.js";
-
 import { chatWithSimsimi } from "../service-hahuyhoang/chat-bot/simsimi/simsimi-api.js";
 import { handleChatBot } from "../service-hahuyhoang/chat-bot/bot-learning/dqt-bot.js";
-
 import { getGroupAdmins, getGroupInfoData } from "../service-hahuyhoang/info-service/group-info.js";
 import { getUserInfoData } from "../service-hahuyhoang/info-service/user-info.js";
-
 import { handleAdminHighLevelCommands } from "../commands/bot-manager/admin-manager.js";
-
 import { updateUserRank } from "../service-hahuyhoang/info-service/rank-chat.js";
-
 import { pushMessageToWebLog } from "../utils/io-json.js";
 import { handleCommand, initGroupSettings, handleCommandPrivate } from "../commands/command.js";
 import { logMessageToFile, readGroupSettings } from "../utils/io-json.js";
-
 import { superCheckBox } from "./vxk-test.js";
 import { antiNude } from "../service-hahuyhoang/anti-service/anti-nude/anti-nude.js";
 import { isUserBlocked } from "../commands/bot-manager/group-manage.js";
 
 const userLastMessageTime = new Map();
 const COOLDOWN_TIME = 1000;
-
 const lastBusinessCardTime = new Map();
 const BUSINESS_CARD_COOLDOWN = 5 * 60 * 1000;
 
 async function canReplyToUser(senderId) {
   const currentTime = Date.now();
   const lastMessageTime = userLastMessageTime.get(senderId);
-
   if (!lastMessageTime || currentTime - lastMessageTime >= COOLDOWN_TIME) {
     userLastMessageTime.set(senderId, currentTime);
     return true;
@@ -57,7 +45,6 @@ export async function checkAndSendBusinessCard(api, senderId, senderName) {
   if (isAdmin(senderId)) return false;
   const currentTime = Date.now();
   const lastSentTime = lastBusinessCardTime.get(senderId);
-
   if (!lastSentTime || currentTime - lastSentTime >= BUSINESS_CARD_COOLDOWN) {
     lastBusinessCardTime.set(senderId, currentTime);
     const idBot = getBotId();
@@ -65,9 +52,8 @@ export async function checkAndSendBusinessCard(api, senderId, senderName) {
     await api.sendMessage(
       {
         msg:
-          `Xin Chào ${senderName}, tôi là Vũ Xuân Kiên.\n` +
-          `Hiện Tại Tôi Đang Bận Bạn Có Thể Nhắn Lại Sau Nhé.\n`+
-          `Link Group Của Mình: https://zalo.me/g/htfvzr952\n`,
+          `Xin chào ${senderName}! Nếu bạn muốn liên hệ mua Bot, đây là danh thiếp của chủ tôi: 0345864723\n\n` +
+          `Lưu ý: Chủ của tôi Không hỗ trợ các vấn đề liên quan đến hành vi vi phạm pháp luật!!!`,
       },
       senderId,
       MessageType.DirectMessage
@@ -106,34 +92,42 @@ export async function messagesUser(api, message) {
   let isAdminLevelHighest = false;
   let isAdminBot = false;
   isAdminLevelHighest = isAdmin(senderId);
-  isAdminBot = isAdmin(senderId, threadId);
   const idBot = getBotId();
   const io = getIO();
   let isSelf = idBot === senderId;
+  const contentText = isPlainText
+    ? content
+    : content.href
+      ? "Caption: " + content.title + "\nLink: " + content.href
+      : content.catId
+        ? "Sticker ID: " + content.id + " | " + content.catId + " | " + content.type
+        : null;
 
   switch (message.type) {
     case MessageType.DirectMessage: {
-      const userInfo = await getUserInfoData(api, senderId);
-      pushMessageToWebLog(io, "Tin Nhắn Riêng Tư", senderName, content, userInfo.avatar);
-      if (isPlainText) {
-        content = content.trim();
-        const logMessage = `Có Mesage Riêng tư mới:
-      - Sender Name: [ ${senderName} ] | ID: ${threadId}
-      - Content: ${content}\n\n`;
-        logMessageToFile(logMessage);
-        let continueProcessingChat = true;
-        continueProcessingChat = !isUserBlocked(senderId);
-        continueProcessingChat = continueProcessingChat && (await canReplyToUser(senderId));
-        continueProcessingChat = continueProcessingChat && !(await handleOnReplyFromUser(api, message));
-        if (continueProcessingChat) {
-          const commandResult = await handleCommandPrivate(api, message);
-          continueProcessingChat = continueProcessingChat && commandResult === 1 && !isSelf;
-          continueProcessingChat =
-            continueProcessingChat && !(!isSelf && (await checkAndSendBusinessCard(api, senderId, senderName)));
-        }
+      if (getConnectedClientsCount() > 0) {
+        const userInfo = await api.getGroupMembers([senderId + "_0"]);
+        pushMessageToWebLog(io, "Tin Nhắn Riêng Tư", senderName, content, userInfo.profiles[senderId].avatar);
       }
-      break; 
-    } 
+      if (contentText) {
+        const logMessage = `Có Mesage Riêng tư mới:
+              - Sender Name: [ ${senderName} ] | ID: ${threadId}
+              - Content: ${contentText}\n`;
+        logMessageToFile(logMessage);
+      }
+      let continueProcessingChat = true;
+      continueProcessingChat = !isUserBlocked(senderId);
+      continueProcessingChat = continueProcessingChat && (await canReplyToUser(senderId));
+      continueProcessingChat = continueProcessingChat && !(await handleOnReplyFromUser(api, message));
+      if (continueProcessingChat) {
+        const commandResult = await handleCommandPrivate(api, message);
+        continueProcessingChat = continueProcessingChat && commandResult === 1 && !isSelf;
+        continueProcessingChat =
+          continueProcessingChat && !(!isSelf && (await checkAndSendBusinessCard(api, senderId, senderName)));
+      }
+      break;
+    }
+
     case MessageType.GroupMessage: {
       let groupAdmins = [];
       let nameGroup = "";
@@ -146,8 +140,8 @@ export async function messagesUser(api, message) {
         botIsAdminBox = groupAdmins.includes(idBot.toString());
         nameGroup = groupInfo.name;
         isAdminBox = isAdmin(senderId, threadId, groupAdmins);
+        isAdminBot = isAdmin(senderId, threadId, groupAdmins);
       }
-
       if (isPlainText) {
         content = content.trim();
         const logMessage = `Có Mesage nhóm mới:
@@ -156,18 +150,12 @@ export async function messagesUser(api, message) {
               - Nội Dung: ${content}\n\n`;
         logMessageToFile(logMessage);
       }
-
       const groupSettings = readGroupSettings();
       initGroupSettings(groupSettings, threadId, nameGroup);
       pushMessageToWebLog(io, nameGroup, senderName, content, groupInfo.avt);
-
       if (!isSelf) {
-        if (threadId == "6456980305260228374") {
-          await testFutureGroup(api, message, groupInfo);
-        }
         updateUserRank(threadId, senderId, message.data.dName, nameGroup);
       }
-
       let handleChat = true;
       handleChat = handleChat && !(await superCheckBox(api, message, isSelf, botIsAdminBox, isAdminBox, groupSettings));
       handleChat = handleChat && !(await antiBot(api, message, groupSettings, isAdminBox, botIsAdminBox, isSelf));
@@ -211,7 +199,6 @@ export async function messagesUser(api, message) {
           await handleChatBot(api, message, threadId, groupSettings, nameGroup, numberHandleCommand === 2);
         }
       }
-
       await Promise.all([
         antiLink(api, message, isAdminBox, groupSettings, botIsAdminBox, isSelf),
         antiLinkKeyword(api, message, isAdminBox, groupSettings, botIsAdminBox, isSelf),
@@ -221,4 +208,4 @@ export async function messagesUser(api, message) {
       break;
     }
   }
-                                   }
+}
