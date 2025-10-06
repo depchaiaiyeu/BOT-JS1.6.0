@@ -18,13 +18,13 @@ import { setSelectionsMapData } from "../index.js";
 import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache.js";
 import { deleteFile, downloadAndSaveVideo, downloadFile } from "../../../utils/util.js";
 import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js";
-import { API_KEY_HUNGDEV } from "../api-hahuyhoangbot/aio-downlink.js";
 import { getDataDownloadOriginal, getDataDownloadVideo, getTiktokRelated, searchTiktok } from "./tiktok-api.js";
 import { tempDir } from "../../../utils/io-json.js";
 import { sendVoiceMusic } from "../../chat-zalo/chat-special/send-voice/send-voice.js";
 import { getBotId } from "../../../index.js";
 
 const PLATFORM = "tiktok";
+const API_KEY_HUNGDEV = "apirac";
 const URL_TIKTOK_SEARCH_HUNGDEV = "https://api.hungdev.id.vn/tiktok/search";
 const TIME_WAIT_SELECTION = 60000;
 const RELATED_EXPIRE_TIME = 180000;
