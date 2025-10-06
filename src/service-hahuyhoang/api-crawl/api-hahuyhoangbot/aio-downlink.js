@@ -11,13 +11,13 @@ import { sendVoiceMusic } from "../../chat-zalo/chat-special/send-voice/send-voi
 import { capitalizeEachWord, removeMention } from "../../../utils/format-util.js";
 import { setSelectionsMapData } from "../index.js";
 import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache.js";
-import { downloadYoutubeVideo, extractYoutubeId, getVideoFormatByQuality } from "../youtube/youtube-service.js";
 import { clearImagePath } from "../../../utils/canvas/index.js";
 import { tempDir } from "../../../utils/io-json.js";
 import { getBotId } from "../../../index.js";
 
 const { execSync, exec } = await import("child_process");
 import { MultiMsgStyle, MessageStyle, MessageMention } from "../../../api-zalo/index.js";
+
 export const COLOR_RED = "db342e";
 export const COLOR_YELLOW = "f7b503";
 export const COLOR_PINK = "FF1493";
@@ -25,76 +25,11 @@ export const COLOR_GREEN = "15a85f";
 export const SIZE_16 = "14";
 export const IS_BOLD = true;
 
-export const API_KEY_HUNGDEV = "Kien@123itvn";
-export const API_URL_DOWNAIO_HUNGDEV = "https://hoangdev.io.vn/aio/aio-download";
-
-const MEDIA_TYPES = {
-  "tiktok.com": "tiktok",
-  "douyin.com": "douyin",
-  "capcut.com": "capcut",
-  "threads.net": "threads",
-  "instagram.com": "instagram",
-  "facebook.com": "facebook",
-  "fb.com": "facebook",
-  "espn.com": "espn",
-  "kuaishou.com": "kuaishou",
-  "pinterest.com": "pinterest",
-  "imdb.com": "imdb",
-  "imgur.com": "imgur",
-  "ifunny.co": "ifunny",
-  "izlesene.com": "izlesene",
-  "reddit.com": "reddit",
-  "youtube.com": "youtube",
-  "youtu.be": "youtube",
-  "twitter.com": "X",
-  "x.com": "X",
-  "vimeo.com": "vimeo",
-  "snapchat.com": "snapchat",
-  "bilibili.com": "bilibili",
-  "dailymotion.com": "dailymotion",
-  "sharechat.com": "sharechat",
-  "linkedin.com": "linkedin",
-  "tumblr.com": "tumblr",
-  "hipi.co.in": "hipi",
-  "t.me": "telegram",
-  "getstickerpack.com": "getstickerpack",
-  "bitchute.com": "bitchute",
-  "febspot.com": "febspot",
-  "9gag.com": "9gag",
-  "ok.ru": "ok",
-  "rumble.com": "rumble",
-  "streamable.com": "streamable",
-  "ted.com": "ted",
-  "tv.sohu.com": "sohutv",
-  "xvideos.com": "xvideos",
-  "xnxx.com": "xnxx",
-  "xiaohongshu.com": "xiaohongshu",
-  "weibo.com": "weibo",
-  "miaopai.com": "miaopai",
-  "meipai.com": "meipai",
-  "xiaoying.tv": "xiaoying",
-  "national.video": "national",
-  "yingke.com": "yingke",
-  "soundcloud.com": "soundcloud",
-  "mixcloud.com": "mixcloud",
-  "spotify.com": "spotify",
-  "zingmp3.vn": "zingmp3",
-  "bandcamp.com": "bandcamp",
-};
-
-const getMediaType = (url) => {
-  const urlLower = url.toLowerCase();
-  return Object.entries(MEDIA_TYPES).find(([domain]) => urlLower.includes(domain))?.[1] || "Unknown";
-};
-
-const extractFacebookId = (url) => {
-  let uniqueId;
-  if (url.includes("/v/")) uniqueId = url.split("/v/")[1];
-  if (url.includes("/r/")) uniqueId = url.split("/r/")[1];
-  if (uniqueId) uniqueId = uniqueId.replace("/", '');
-  if (!uniqueId) uniqueId = url;
-  return uniqueId;
-};
+const API_URL = "https://api.zeidteam.xyz/media-downloader/atd2";
+const MAX_RETRIES = 3;
+const downloadSelectionsMap = new Map();
+const TIME_WAIT_SELECTION = 30000;
+let hasImageBefore = false;
 
 export const getDurationVideo = async (path) => {
   const durationCmd = `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${path}"`;
@@ -102,23 +37,21 @@ export const getDurationVideo = async (path) => {
   return duration;
 };
 
-export const getDataDownloadVideo = async (url) => {
+const getDataDownloadVideo = async (url, retries = 0) => {
   try {
-    const response = await axios.get(API_URL_DOWNAIO_HUNGDEV, {
-      params: {
-        apikey: API_KEY_HUNGDEV,
-        input_url: url
-      },
-      headers: {
-        "Content-Type": "application/json",
-      },
+    const response = await axios.get(API_URL, {
+      params: { url },
+      headers: { "Content-Type": "application/json" },
     });
 
-    if (response.data && response.data.success && response.data.data) {
-      return response.data.data;
+    if (response.data && !response.data.error && response.data.medias) {
+      return response.data;
     }
     return null;
   } catch (error) {
+    if (retries < MAX_RETRIES) {
+      return getDataDownloadVideo(url, retries + 1);
+    }
     console.error("Lỗi khi tải video:", error);
     return null;
   }
@@ -135,10 +68,22 @@ const typeText = (type) => {
     default:
       return "tập tin";
   }
-}
+};
 
-const downloadSelectionsMap = new Map();
-const TIME_WAIT_SELECTION = 30000;
+const getBestQualityMedia = (medias, type) => {
+  const filtered = medias.filter(m => m.type.toLowerCase() === type.toLowerCase());
+  if (filtered.length === 0) return null;
+  
+  if (type.toLowerCase() === "video") {
+    const priority = ["HD", "SD"];
+    for (const q of priority) {
+      const found = filtered.find(m => m.quality === q);
+      if (found) return found;
+    }
+  }
+  
+  return filtered[0];
+};
 
 export async function processAndSendMedia(api, message, mediaData) {
   const {
@@ -149,14 +94,14 @@ export async function processAndSendMedia(api, message, mediaData) {
     title,
     author,
     senderId,
-    senderName
+    senderName,
   } = mediaData;
 
   const quality = selectedMedia.quality || "default";
   const typeFile = selectedMedia.type.toLowerCase();
 
   if (typeFile === "image") {
-    const thumbnailPath = path.resolve(tempDir, `${uniqueId}.${selectedMedia.extension}`);
+    const thumbnailPath = path.resolve(tempDir, `${uniqueId}_${Date.now()}.${selectedMedia.extension}`);
     const thumbnailUrl = selectedMedia.url;
 
     if (thumbnailUrl) {
@@ -175,13 +120,11 @@ export async function processAndSendMedia(api, message, mediaData) {
     return;
   }
 
-  if ((mediaType === "youtube" || mediaType === "instagram") && duration) {
-    if (duration * 1000 > 60 * 60 * 1000) {
-      const object = {
-        caption: "Vì tài nguyên có hạn, Không thể lấy video có độ dài hơn 60 phút!\nVui lòng chọn video khác.",
-      };
-      return await sendMessageWarningRequest(api, message, object, 30000);
-    }
+  if (duration && duration > 60 * 60 * 1000) {
+    const object = {
+      caption: "Vì tài nguyên có hạn, Không thể lấy video có độ dài hơn 60 phút!\nVui lòng chọn video khác.",
+    };
+    return await sendMessageWarningRequest(api, message, object, 30000);
   }
 
   const cachedMedia = await getCachedMedia(mediaType, uniqueId, quality, title);
@@ -195,7 +138,7 @@ export async function processAndSendMedia(api, message, mediaData) {
     };
     await sendMessageProcessingRequest(api, message, object, 8000);
 
-    videoUrl = await categoryDownload(api, message, mediaType, uniqueId, selectedMedia, quality);
+    videoUrl = await categoryDownload(api, message, mediaType, uniqueId, selectedMedia, quality, duration);
     if (!videoUrl) {
       const object = {
         caption: `Không tải được dữ liệu...`,
@@ -204,14 +147,15 @@ export async function processAndSendMedia(api, message, mediaData) {
       return;
     }
   }
+
   if (typeFile === "audio") {
     const mediaTypeString = capitalizeEachWord(mediaType);
-  
+
     if (!videoUrl) {
       console.error("Lỗi: voiceUrl bị undefined hoặc null.");
       return;
     }
-  
+
     const object = {
       trackId: uniqueId || "unknown",
       title: title || "Không rõ",
@@ -221,9 +165,9 @@ export async function processAndSendMedia(api, message, mediaData) {
       imageUrl: hasImageBefore ? "" : selectedMedia.thumbnail,
       voiceUrl: videoUrl,
     };
-  
-    await sendVoiceMusic(api, message, object, 180000000);  
-  
+
+    await sendVoiceMusic(api, message, object, 180000000);
+
   } else if (typeFile === "video") {
     await api.sendVideo({
       videoUrl: videoUrl,
@@ -261,7 +205,6 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       return;
     }
 
-    const mediaType = getMediaType(query);
     let dataDownload = await getDataDownloadVideo(query);
     if (!dataDownload || dataDownload.error) {
       const object = {
@@ -270,148 +213,21 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       await sendMessageWarningRequest(api, message, object, 30000);
       return;
     }
-    const dataLink = [];
-    let uniqueId;
 
-    switch (mediaType) {
-      case "tiktok":
-        uniqueId = dataDownload.extraInfo?.id || dataDownload.title;
-      
-        dataDownload.medias.slice().reverse().forEach((item) => {
-          dataLink.push({
-            url: item.url,
-            quality: item.quality || item.label || "unknown",
-            type: item.type,
-            title: dataDownload.title,
-            thumbnail: dataDownload.thumbnail,
-            extension: item.ext || item.extension,
-          });
-        });
-        break;
-      case "douyin":
-        uniqueId = dataDownload.title.replace(/#\w+/g, (match) => match.toLowerCase());
-        dataDownload.medias.forEach((item) => {
-          if (item.quality.toLowerCase() === "no watermark") {
-            dataLink.push({
-              url: item.url,
-              quality: item.quality,
-              type: item.type,
-              title: dataDownload.title,
-              thumbnail: item.thumbnail || dataDownload.thumbnail,
-              extension: item.extension,
-            });
-          }
-        });
-        break;
-      case "youtube":
-        uniqueId = extractYoutubeId(dataDownload.url);
-        const dataYoutube = [
-          {
-            url: dataDownload.url,
-            quality: "360p",
-            type: "video",
-            extension: "mp4",
-          },
-          {
-            url: dataDownload.url,
-            quality: "720p",
-            type: "video",
-            extension: "mp4",
-          },
-          {
-            url: dataDownload.url,
-            quality: "1080p",
-            type: "video",
-            extension: "mp4",
-          },
-          {
-            url: dataDownload.url,
-            quality: "max",
-            type: "video",
-            extension: "mp4",
-          },
-          {
-            url: dataDownload.url,
-            quality: "audio",
-            type: "audio",
-            extension: "mp3",
-          },
-        ];
-        dataYoutube.forEach((item) => {
-          dataLink.push({
-            url: item.url,
-            quality: item.quality,
-            type: item.type,
-            title: dataDownload.title,
-            thumbnail: item.thumbnail || dataDownload.thumbnail,
-            extension: item.extension,
-          });
-        });
-        break;
-      case "facebook":
-        uniqueId = extractFacebookId(dataDownload.url);
-        dataDownload.medias.forEach((item) => {
-          dataLink.push({
-            url: item.url,
-            quality: item.quality,
-            type: item.type,
-            title: dataDownload.title,
-            thumbnail: item.thumbnail || dataDownload.thumbnail,
-            extension: item.extension,
-          });
-        });
-        break;
-      case "threads":
-        uniqueId = dataDownload.author + dataDownload.title;
-        dataDownload.medias.forEach((item) => {
-          if (item.type.toLowerCase() !== "image") {
-            dataLink.push({
-              url: item.url,
-              quality: item.quality,
-              type: item.type,
-              title: dataDownload.title,
-              thumbnail: item.thumbnail || item.url,
-              extension: item.extension,
-            });
-          }
-        });
-        break;
-      case "instagram":
-        uniqueId = dataDownload.url;
-        dataDownload.medias.forEach((item) => {
-          dataLink.push({
-            url: item.url,
-            quality: item.quality,
-            type: item.type,
-            title: dataDownload.title,
-            thumbnail: item.thumbnail || dataDownload.thumbnail,
-            extension: item.extension,
-          });
-        });
-        break;
-      case "spotify":
-      case "telegram":
-      case "X":
-      case "dailymotion":
-        uniqueId = dataDownload.url.split("/").pop();
-        dataDownload.medias.forEach((item) => {
-          dataLink.push({
-            url: item.url,
-            quality: item.quality,
-            type: item.type,
-            title: dataDownload.title,
-            thumbnail: item.thumbnail || dataDownload.thumbnail,
-            extension: item.extension,
-          });
-        });
-        break;
-      default:
-        const object = {
-          caption: `Link này em chưa hỗ trợ tải dữ liệu.`,
-        };
-        await sendMessageWarningRequest(api, message, object, 30000);
-        return;
-    }
+    const mediaType = dataDownload.source;
+    const uniqueId = dataDownload.id || dataDownload.url || Date.now().toString();
+    const dataLink = [];
+
+    dataDownload.medias.forEach((item) => {
+      dataLink.push({
+        url: item.url,
+        quality: item.quality || "unknown",
+        type: item.type,
+        title: dataDownload.title,
+        thumbnail: item.thumbnail || dataDownload.thumbnail,
+        extension: item.extension,
+      });
+    });
 
     if (dataLink.length === 0) {
       const object = {
@@ -425,11 +241,11 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       const type = item.type.toLowerCase();
       return type === "image" || type === "audio";
     });
-    
+
     if (onlyImagesAndAudios) {
       const attachmentPaths = [];
       const nonImageMedia = [];
-    
+
       for (const media of dataLink) {
         if (media.type.toLowerCase() === "image") {
           const uniqueFileName = `${uniqueId}_${Date.now()}_${Math.random().toString(36).substring(7)}.${media.extension}`;
@@ -440,16 +256,16 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
           nonImageMedia.push(media);
         }
       }
-    
+
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
         hasImageBefore = true;
-    
+
         const replyText = "Dưới đây là nội dung từ link của Bạn !";
         const fullMessage = `${replyText}`;
         const style = MultiMsgStyle([
           MessageStyle(0, replyText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
         ]);
-    
+
         await api.sendMessage(
           {
             msg: fullMessage,
@@ -460,28 +276,28 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
           message.threadId,
           message.type
         );
-    
+
         for (const filePath of attachmentPaths) {
           await clearImagePath(filePath);
         }
       }
-    
+
       for (const media of nonImageMedia) {
         await processAndSendMedia(api, message, {
           selectedMedia: media,
           mediaType,
           uniqueId,
-          duration: dataDownload.duration,
+          duration: dataDownload.duration || 0,
           title: dataDownload.title,
           author: dataDownload.author,
           senderId,
           senderName,
         });
       }
-    
+
       return;
     }
-    
+
     let listText = `Đây là danh sách các phiên bản có sẵn:\n`;
     listText += `Hãy trả lời tin nhắn này với số thứ tự phiên bản bạn muốn tải!\n\n`;
     listText += dataLink
@@ -524,42 +340,32 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
   }
 }
 
-export async function categoryDownload(api, message, platform, uniqueId, selectedMedia, quality) {
-  let qualityVideo;
+export async function categoryDownload(api, message, platform, uniqueId, selectedMedia, quality, apiDuration) {
   let tempFilePath;
   try {
-    switch (platform) {
-      case "youtube":
-        const { format, qualityText } = getVideoFormatByQuality(quality);
-        qualityVideo = qualityText;
-        tempFilePath = await downloadYoutubeVideo(selectedMedia.url, uniqueId, format);
-        break;
-      default:
-        qualityVideo = quality;
-        tempFilePath = path.join(tempDir, `${platform}_${Date.now()}.${selectedMedia.extension}`);
-        if (selectedMedia.extension === 'm3u8') {
-          tempFilePath = path.join(tempDir, `${platform}_${Date.now()}.mp4`);
-          const ffmpegCmd = `ffmpeg -i "${selectedMedia.url}" -c copy -bsf:a aac_adtstoasc "${tempFilePath}"`;
-          await new Promise((resolve, reject) => {
-            exec(ffmpegCmd, (error) => {
-              if (error) reject(error);
-              resolve();
-            });
-          });
-        } else {
-          await downloadFile(selectedMedia.url, tempFilePath);
-        }
-        break;
+    tempFilePath = path.join(tempDir, `${platform}_${Date.now()}.${selectedMedia.extension}`);
+    
+    if (selectedMedia.extension === 'm3u8') {
+      tempFilePath = path.join(tempDir, `${platform}_${Date.now()}.mp4`);
+      const ffmpegCmd = `ffmpeg -i "${selectedMedia.url}" -c copy -bsf:a aac_adtstoasc "${tempFilePath}"`;
+      await new Promise((resolve, reject) => {
+        exec(ffmpegCmd, (error) => {
+          if (error) reject(error);
+          resolve();
+        });
+      });
+    } else {
+      await downloadFile(selectedMedia.url, tempFilePath);
     }
 
     const uploadResult = await api.uploadAttachment([tempFilePath], message.threadId, message.type);
     const videoUrl = uploadResult[0].fileUrl;
 
-    const duration = await getDurationVideo(tempFilePath);
+    const duration = apiDuration || await getDurationVideo(tempFilePath);
 
     await deleteFile(tempFilePath);
 
-    setCacheData(platform, uniqueId, { fileUrl: videoUrl, title: selectedMedia.title, duration }, qualityVideo);
+    setCacheData(platform, uniqueId, { fileUrl: videoUrl, title: selectedMedia.title, duration }, quality);
     return videoUrl;
   } catch (error) {
     await deleteFile(tempFilePath);
@@ -567,8 +373,6 @@ export async function categoryDownload(api, message, platform, uniqueId, selecte
     return null;
   }
 }
-
-let hasImageBefore = false;
 
 export async function handleDownloadReply(api, message) {
   const senderId = message.data.uidFrom;
@@ -611,33 +415,28 @@ export async function handleDownloadReply(api, message) {
 
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
         hasImageBefore = true;
-        if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
-          const replyText = "Dưới đây là nội dung từ link của Bạn !";
-          const fullMessage = `${replyText}`;
-          const style = MultiMsgStyle([
-            MessageStyle(0, replyText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
-          ]);
-        
-          await api.sendMessage(
-            {
-              msg: fullMessage,
-              attachments: attachmentPaths,
-              style: style,
-              ttl: 6000000
-            },
-            message.threadId,
-            message.type
-          );
-        
-          for (const filePath of attachmentPaths) {
-            await clearImagePath(filePath);
-          }
-        }
+        const replyText = "Dưới đây là nội dung từ link của Bạn !";
+        const fullMessage = `${replyText}`;
+        const style = MultiMsgStyle([
+          MessageStyle(0, replyText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+        ]);
+
+        await api.sendMessage(
+          {
+            msg: fullMessage,
+            attachments: attachmentPaths,
+            style: style,
+            ttl: 6000000,
+          },
+          message.threadId,
+          message.type
+        );
 
         for (const filePath of attachmentPaths) {
           await clearImagePath(filePath);
         }
       }
+
       for (const media of nonImageMedia) {
         await processAndSendMedia(api, message, {
           selectedMedia: media,
