@@ -2280,6 +2280,17 @@
       "type": 5,
       "author": "Vũ Xuân Kiên",
       "active": true
+    },
+    {
+      "name": "eval",
+      "description": "Chạy lệnh từ API Zalo...",
+      "syntax": "{p}eval [code]",
+      "permission": "adminLevelHigh",
+      "countdown": 1,
+      "icon": "▶️",
+      "type": 5,
+      "author": "Vũ Xuân Kiên",
+      "active": true
     }
   ]
 }
