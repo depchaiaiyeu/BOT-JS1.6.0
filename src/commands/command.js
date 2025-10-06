@@ -433,9 +433,6 @@ export async function handleCommandPrivate(api, message) {
         case "join":
           await handleJoinGroup(api, message);
           return 0;
-        case "eval":
-          await handleEval(api, message);
-          return 0;
         case "listgroups":
           await handleShowGroupsList(api, message, aliasCommand);
           return 0;
@@ -617,6 +614,9 @@ export async function handleCommandPrivate(api, message) {
             return 0;
           case "cpubenchmark":
             await handleCPUBenchmarkCommand (api, message);
+            return 0;
+          case "eval":
+            await handleEval (api, message);
             return 0;
           case "phatnguoi":
             await handleCheckPhatNguoiCommand (api, message);
