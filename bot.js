@@ -1,10 +1,8 @@
 import { spawn, exec } from "child_process"
 import path from "path"
 import { ensureLogFiles, logManagerBot } from "./src/utils/io-json.js"
-
 const cmdPath = path.join("C:", "Windows", "System32", "cmd.exe")
 let botProcess
-
 function runCommand(command, cwd = process.cwd()) {
   return new Promise((resolve, reject) => {
     exec(command, { cwd, shell: "cmd.exe", maxBuffer: 1024 * 1024 * 50 }, (error, stdout, stderr) => {
@@ -13,13 +11,11 @@ function runCommand(command, cwd = process.cwd()) {
     })
   })
 }
-
 async function autoCommit() {
   try {
     const repoPath = path.resolve(process.cwd())
     await runCommand('git config --global user.email "action@github.com"', repoPath)
     await runCommand('git config --global user.name "GitHub Action"', repoPath)
-
     const excludeList = [
       "node_modules",
       "package-lock.json",
@@ -30,14 +26,13 @@ async function autoCommit() {
       "*.rar",
       ".gitignore"
     ]
-
     const excludeArgs = excludeList.map(x => `:(exclude)${x}`).join(" ")
     await runCommand(`git add :/ ${excludeArgs}`, repoPath)
-
     const diff = await runCommand("git diff --staged --quiet || echo changed", repoPath)
     if (diff.includes("changed")) {
       await runCommand('git commit -m "Auto commit changes"', repoPath)
-      await runCommand("git push", repoPath)
+      await runCommand('git pull --rebase origin main', repoPath)
+      await runCommand('git push origin main', repoPath)
       console.log("Auto commit & push done")
     } else {
       console.log("No changes to commit")
@@ -46,7 +41,6 @@ async function autoCommit() {
     console.error("Auto commit failed:", e.message)
   }
 }
-
 function startBot() {
   botProcess = spawn(cmdPath, ["/c", "npm start"], { detached: true, stdio: "ignore" })
   attachBotEvents(botProcess)
@@ -54,7 +48,6 @@ function startBot() {
   logManagerBot("Bot started")
   console.log("Bot started")
 }
-
 function stopBot() {
   if (botProcess && botProcess.pid) {
     try {
@@ -70,7 +63,6 @@ function stopBot() {
     console.log("Failed to stop bot: invalid PID")
   }
 }
-
 function restartBot() {
   stopBot()
   setTimeout(() => {
@@ -79,7 +71,6 @@ function restartBot() {
     console.log("Bot restarted")
   }, 1000)
 }
-
 function attachBotEvents(botProcess) {
   botProcess.on("error", (err) => {
     logManagerBot(`Bot error: ${err.message}`)
@@ -90,11 +81,9 @@ function attachBotEvents(botProcess) {
     restartBot()
   })
 }
-
 ensureLogFiles()
 startBot()
 setInterval(autoCommit, 5 * 60 * 1000)
-
 process.on("SIGINT", () => restartBot())
 process.on("SIGTERM", () => restartBot())
 process.on("exit", () => setTimeout(startBot, 1000))
