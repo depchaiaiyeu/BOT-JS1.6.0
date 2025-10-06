@@ -17,7 +17,6 @@ import { handleTikTokReply } from "./api-crawl/tiktok/tiktok-service.js";
 import { initPRService } from "./scheduler/pr-zalo.js";
 import { handleNhacCuaTuiReply } from "./api-crawl/music/nhaccuatui.js";
 import { handleActionGroupReply } from "../commands/bot-manager/remote-action-group.js";
-import { handleDownloadReply } from "./api-crawl/api-hahuyhoangbot/aio-downlink.js";
 import { checkReplySelectionsMapData } from "./api-crawl/index.js";
 import { handleCapcutReply } from "./api-crawl/capcut/capcut-service.js";
 import { notifyResetGroup } from "../commands/bot-manager/active-bot.js";
@@ -91,7 +90,6 @@ export async function handleOnReplyFromUser(
   if (await handleYoutubeReply(api, message)) return true;
   if (await handleTikTokReply(api, message)) return true;
   if (await handleNhacCuaTuiReply(api, message)) return true;
-  if (await handleDownloadReply(api, message)) return true;
   if (await handleCapcutReply(api, message)) return true;
   if (await handleLienQuanReply(api, message)) return true;
   if (await handleLOLReply (api, message)) return true;
