@@ -196,5 +196,30 @@
     "antiStkLag": false,
     "removeLinkKeywords": false,
     "groupprqcSettings": false
+  },
+  "4699745045071009795": {
+    "nameGroup": "Zubu👽",
+    "adminList": {},
+    "muteList": {},
+    "whileList": {},
+    "activeBot": false,
+    "activeGame": false,
+    "welcomeGroup": false,
+    "byeGroup": false,
+    "antiSpam": true,
+    "filterBadWords": false,
+    "filterBot": false,
+    "removeLinks": false,
+    "learnEnabled": false,
+    "replyEnabled": false,
+    "onlyText": false,
+    "memberApprove": true,
+    "antiNude": false,
+    "whiteList": {},
+    "autoLockChat": {},
+    "antiMedia": false,
+    "antiSticker": false,
+    "autoReply": false,
+    "removeLinkKeywords": false
   }
 }
