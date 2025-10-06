@@ -951,15 +951,15 @@
         {
           "UserName": "N H L",
           "UID": "8347261672526530028",
-          "Rank": 169,
-          "messageCountToday": 169,
+          "Rank": 178,
+          "messageCountToday": 178,
           "lastMessageDate": "2025-10-06"
         },
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 425,
-          "messageCountToday": 425,
+          "Rank": 489,
+          "messageCountToday": 489,
           "lastMessageDate": "2025-10-06"
         },
         {
@@ -979,8 +979,8 @@
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 189,
-          "messageCountToday": 189,
+          "Rank": 209,
+          "messageCountToday": 209,
           "lastMessageDate": "2025-10-06"
         },
         {
@@ -1035,8 +1035,8 @@
         {
           "UserName": "Tâm Hoàng 卍卐",
           "UID": "4240055368385694956",
-          "Rank": 7,
-          "messageCountToday": 7,
+          "Rank": 8,
+          "messageCountToday": 8,
           "lastMessageDate": "2025-10-06"
         },
         {
@@ -1063,8 +1063,8 @@
         {
           "UserName": "Bùi Hiếu",
           "UID": "2623964646848540497",
-          "Rank": 18,
-          "messageCountToday": 18,
+          "Rank": 37,
+          "messageCountToday": 37,
           "lastMessageDate": "2025-10-06"
         },
         {
@@ -1072,6 +1072,13 @@
           "UID": "7991913632226961363",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-06"
+        },
+        {
+          "UserName": "Phạm Hồng Nhật",
+          "UID": "5726988841569768513",
+          "Rank": 6,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-06"
         }
       ],
@@ -1082,22 +1089,22 @@
         {
           "UserName": "Khánh Sang",
           "UID": "724518155284931893",
-          "Rank": 2,
-          "messageCountToday": 2,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-06"
         },
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 12,
-          "messageCountToday": 12,
+          "Rank": 20,
+          "messageCountToday": 20,
           "lastMessageDate": "2025-10-06"
         },
         {
           "UserName": "Văn Nguyễn",
           "UID": "5498985111158029675",
-          "Rank": 2,
-          "messageCountToday": 2,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-06"
         },
         {
@@ -1110,6 +1117,13 @@
         {
           "UserName": "Bear",
           "UID": "1277772631698656128",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-06"
+        },
+        {
+          "UserName": "Nminh",
+          "UID": "8606917999821023050",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-06"
@@ -1211,8 +1225,8 @@
         {
           "UserName": "Hiếu",
           "UID": "5665338112475148452",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 3,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-06"
         },
         {
@@ -1429,6 +1443,18 @@
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
+    },
+    "2990969618896538297": {
+      "users": [
+        {
+          "UserName": "Huyền Anh",
+          "UID": "594078151055988485",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-06"
+        }
+      ],
+      "nameGroup": "Cộng đồng vietsub ♤♡◇♧¤"
     }
   }
 }
