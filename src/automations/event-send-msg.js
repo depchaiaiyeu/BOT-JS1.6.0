@@ -119,7 +119,7 @@ export async function messagesUser(api, message) {
         content = content.trim();
         const logMessage = `Có Mesage Riêng tư mới:
       - Sender Name: [ ${senderName} ] | ID: ${threadId}
-      - Content: ${content}\n${message.data.ttl}\n\n`;
+      - Content: ${content}\n\n`;
         logMessageToFile(logMessage);
         let continueProcessingChat = true;
         continueProcessingChat = !isUserBlocked(senderId);
@@ -153,7 +153,7 @@ export async function messagesUser(api, message) {
         const logMessage = `Có Mesage nhóm mới:
               - Tên Nhóm: ${nameGroup} | Group ID: ${threadId}
               - Người Gửi: ${senderName} | Sender ID: ${senderId}
-              - Nội Dung: ${content}\n${message.data.ttl}\n\n`;
+              - Nội Dung: ${content}\n\n`;
         logMessageToFile(logMessage);
       }
 
