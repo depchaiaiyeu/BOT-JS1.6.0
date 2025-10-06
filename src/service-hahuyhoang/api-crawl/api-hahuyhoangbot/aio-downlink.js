@@ -82,6 +82,8 @@ export async function processAndSendMedia(api, message, mediaData) {
   const quality = selectedMedia.quality || "default";
   const typeFile = selectedMedia.type.toLowerCase();
 
+  const introText = `Dưới đây là nội dung từ link của Bạn !\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
+
   if (typeFile === "image") {
     const thumbnailPath = path.resolve(tempDir, `${uniqueId}.${selectedMedia.extension}`);
     const thumbnailUrl = selectedMedia.url;
@@ -90,10 +92,16 @@ export async function processAndSendMedia(api, message, mediaData) {
       await downloadFile(thumbnailUrl, thumbnailPath);
     }
 
+    const fullMessage = `${introText}\n\n👤 Author: ${author}\n🖼️ Caption: ${title}`;
+    const style = MultiMsgStyle([
+      MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+    ]);
+
     await api.sendMessage({
-      msg: `[ ${senderName} ]\n> From ${capitalizeEachWord(mediaType)} <\n\n👤 Author: ${author}\n🖼️ Caption: ${title}`,
+      msg: fullMessage,
       attachments: [thumbnailPath],
       mentions: [MessageMention(senderId, senderName.length, 2, false)],
+      style: style,
     }, message.threadId, message.type);
 
     if (thumbnailUrl) {
@@ -137,14 +145,23 @@ export async function processAndSendMedia(api, message, mediaData) {
       console.error("Lỗi: voiceUrl bị undefined hoặc null.");
       return;
     }
+
+    const style = MultiMsgStyle([
+      MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+    ]);
+
+    await api.sendMessage({
+      msg: introText,
+      style: style,
+    }, message.threadId, message.type);
   
     const object = {
       trackId: uniqueId || "unknown",
       title: title || "Không rõ",
       artists: author || "Unknown Artist",
       source: mediaTypeString || "Unknown Source",
-      caption: hasImageBefore ? "" : `> From ${mediaTypeString} <\nNhạc đây người đẹp ơi !!!\n\n🎵 Music: ${title}`,
-      imageUrl: hasImageBefore ? "" : selectedMedia.thumbnail,
+      caption: `> From ${mediaTypeString} <\nNhạc đây người đẹp ơi !!!\n\n🎵 Music: ${title}`,
+      imageUrl: selectedMedia.thumbnail,
       voiceUrl: videoUrl,
     };
   
@@ -240,10 +257,10 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
         hasImageBefore = true;
     
-        const replyText = "Dưới đây là nội dung từ link của Bạn !";
+        const replyText = `Dưới đây là nội dung từ link của Bạn !\nTitle: ${dataDownload.title}\nAuthor: ${dataDownload.author || 'Unknown'}\nPlatform: ${capitalizeEachWord(dataDownload.source)}`;
         const fullMessage = `${replyText}`;
         const style = MultiMsgStyle([
-          MessageStyle(0, replyText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+          MessageStyle(0, fullMessage.length, COLOR_GREEN, SIZE_16, IS_BOLD),
         ]);
     
         await api.sendMessage(
@@ -378,10 +395,10 @@ export async function handleDownloadReply(api, message) {
 
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
         hasImageBefore = true;
-        const replyText = "Dưới đây là nội dung từ link của Bạn !";
+        const replyText = `Dưới đây là nội dung từ link của Bạn !\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
         const fullMessage = `${replyText}`;
         const style = MultiMsgStyle([
-          MessageStyle(0, replyText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+          MessageStyle(0, fullMessage.length, COLOR_GREEN, SIZE_16, IS_BOLD),
         ]);
       
         await api.sendMessage(
