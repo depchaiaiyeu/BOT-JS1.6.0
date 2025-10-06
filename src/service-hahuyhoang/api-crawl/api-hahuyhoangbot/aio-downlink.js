@@ -7,7 +7,7 @@ import {
   sendMessageWarningRequest,
 } from "../../chat-zalo/chat-style/chat-style.js";
 import { downloadFile, deleteFile } from "../../../utils/util.js";
-import { sendVoiceMusic } from "../../chat-zalo/chat-special/send-voice/send-voice.js";
+import { sendVoiceMusic, sendVoiceMusicNotQuote } from "../../chat-zalo/chat-special/send-voice/send-voice.js";
 import { capitalizeEachWord, removeMention } from "../../../utils/format-util.js";
 import { setSelectionsMapData } from "../index.js";
 import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache.js";
@@ -67,7 +67,7 @@ export const getDataDownloadVideo = async (url) => {
 
 let hasImageBefore = false;
 
-export async function processAndSendMedia(api, message, mediaData) {
+export async function processAndSendMedia(api, message, mediaData, isReply = false) {
   const {
     selectedMedia,
     mediaType,
@@ -82,7 +82,15 @@ export async function processAndSendMedia(api, message, mediaData) {
   const quality = selectedMedia.quality || "default";
   const typeFile = selectedMedia.type.toLowerCase();
 
-  const introText = `Dưới đây là nội dung từ link của Bạn !\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
+  const introText = `Đây là nội dung từ link bạn gửi!\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
+  const style = MultiMsgStyle([
+    MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+  ]);
+
+  await api.sendMessage({
+    msg: introText,
+    style: style,
+  }, message.threadId, message.type);
 
   if (typeFile === "image") {
     const thumbnailPath = path.resolve(tempDir, `${uniqueId}.${selectedMedia.extension}`);
@@ -92,21 +100,28 @@ export async function processAndSendMedia(api, message, mediaData) {
       await downloadFile(thumbnailUrl, thumbnailPath);
     }
 
-    const fullMessage = `${introText}\n\n👤 Author: ${author}\n🖼️ Caption: ${title}`;
-    const style = MultiMsgStyle([
-      MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
-    ]);
-
     await api.sendMessage({
-      msg: fullMessage,
+      msg: "",
       attachments: [thumbnailPath],
-      mentions: [MessageMention(senderId, senderName.length, 2, false)],
-      style: style,
+      ttl: 6000000,
     }, message.threadId, message.type);
 
     if (thumbnailUrl) {
       await clearImagePath(thumbnailPath);
     }
+
+    const mediaTypeString = capitalizeEachWord(mediaType);
+    const audioObject = {
+      trackId: uniqueId || "unknown",
+      title: title || "Không rõ",
+      artists: author || "Unknown Artist",
+      source: mediaTypeString || "Unknown Source",
+      caption: `> From ${mediaTypeString} <\nNhạc đây người đẹp ơi !!!\n\n🎵 Music: ${title}`,
+      imageUrl: selectedMedia.thumbnail,
+      voiceUrl: selectedMedia.url,
+    };
+
+    await sendVoiceMusicNotQuote(api, message, audioObject, 180000000);
     return;
   }
 
@@ -138,24 +153,16 @@ export async function processAndSendMedia(api, message, mediaData) {
     }
     setCacheData(mediaType, uniqueId, { fileUrl: videoUrl, title: title, duration }, quality);
   }
+
   if (typeFile === "audio") {
     const mediaTypeString = capitalizeEachWord(mediaType);
-  
+
     if (!videoUrl) {
       console.error("Lỗi: voiceUrl bị undefined hoặc null.");
       return;
     }
 
-    const style = MultiMsgStyle([
-      MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
-    ]);
-
-    await api.sendMessage({
-      msg: introText,
-      style: style,
-    }, message.threadId, message.type);
-  
-    const object = {
+    const audioObject = {
       trackId: uniqueId || "unknown",
       title: title || "Không rõ",
       artists: author || "Unknown Artist",
@@ -164,9 +171,13 @@ export async function processAndSendMedia(api, message, mediaData) {
       imageUrl: selectedMedia.thumbnail,
       voiceUrl: videoUrl,
     };
-  
-    await sendVoiceMusic(api, message, object, 180000000);  
-  
+
+    if (isReply) {
+      await sendVoiceMusic(api, message, audioObject, 180000000);
+    } else {
+      await sendVoiceMusicNotQuote(api, message, audioObject, 180000000);
+    }
+
   } else if (typeFile === "video") {
     await api.sendVideo({
       videoUrl: videoUrl,
@@ -174,13 +185,7 @@ export async function processAndSendMedia(api, message, mediaData) {
       threadType: message.type,
       thumbnail: selectedMedia.thumbnail,
       message: {
-        text:
-          `[ ${senderName} ]\n` +
-          `🎥 Nền Tảng: ${capitalizeEachWord(mediaType)}\n` +
-          `🎬 Tiêu Đề: ${title}\n` +
-          `${author && author !== "Unknown Author" ? `👤 Người Đăng: ${author}\n` : ""}` +
-          `📊 Chất lượng: ${quality}`,
-        mentions: [MessageMention(senderId, senderName.length, 2, false)],
+        text: "",
       },
       ttl: 3600000,
     });
@@ -238,11 +243,11 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       const type = item.type.toLowerCase();
       return type === "image" || type === "audio";
     });
-    
+
     if (onlyImagesAndAudios) {
       const attachmentPaths = [];
       const nonImageMedia = [];
-    
+
       for (const media of dataLink) {
         if (media.type === "image") {
           const uniqueFileName = `${uniqueId}_${Date.now()}_${Math.random().toString(36).substring(7)}.${media.extension}`;
@@ -253,32 +258,35 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
           nonImageMedia.push(media);
         }
       }
-    
+
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
         hasImageBefore = true;
-    
-        const replyText = `Dưới đây là nội dung từ link của Bạn !\nTitle: ${dataDownload.title}\nAuthor: ${dataDownload.author || 'Unknown'}\nPlatform: ${capitalizeEachWord(dataDownload.source)}`;
-        const fullMessage = `${replyText}`;
+
+        const introText = `Đây là nội dung từ link bạn gửi!\nTitle: ${dataDownload.title}\nAuthor: ${dataDownload.author || 'Unknown'}\nPlatform: ${capitalizeEachWord(dataDownload.source)}`;
         const style = MultiMsgStyle([
-          MessageStyle(0, fullMessage.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+          MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
         ]);
-    
+
+        await api.sendMessage({
+          msg: introText,
+          style: style,
+        }, message.threadId, message.type);
+
         await api.sendMessage(
           {
-            msg: fullMessage,
+            msg: "",
             attachments: attachmentPaths,
-            style: style,
             ttl: 6000000,
           },
           message.threadId,
           message.type
         );
-    
+
         for (const filePath of attachmentPaths) {
           await clearImagePath(filePath);
         }
       }
-    
+
       for (const media of nonImageMedia) {
         await processAndSendMedia(api, message, {
           selectedMedia: media,
@@ -289,12 +297,12 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
           author: dataDownload.author,
           senderId,
           senderName,
-        });
+        }, false);
       }
-    
+
       return;
     }
-    
+
     let listText = `Đây là danh sách các phiên bản có sẵn:\n`;
     listText += `Hãy trả lời tin nhắn này với số thứ tự phiên bản bạn muốn tải!\n\n`;
     listText += dataLink
@@ -395,23 +403,27 @@ export async function handleDownloadReply(api, message) {
 
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
         hasImageBefore = true;
-        const replyText = `Dưới đây là nội dung từ link của Bạn !\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
-        const fullMessage = `${replyText}`;
+
+        const introText = `Đây là nội dung từ link bạn gửi!\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
         const style = MultiMsgStyle([
-          MessageStyle(0, fullMessage.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+          MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
         ]);
-      
+
+        await api.sendMessage({
+          msg: introText,
+          style: style,
+        }, message.threadId, message.type);
+
         await api.sendMessage(
           {
-            msg: fullMessage,
+            msg: "",
             attachments: attachmentPaths,
-            style: style,
             ttl: 6000000
           },
           message.threadId,
           message.type
         );
-      
+
         for (const filePath of attachmentPaths) {
           await clearImagePath(filePath);
         }
@@ -427,7 +439,7 @@ export async function handleDownloadReply(api, message) {
           author,
           senderId,
           senderName,
-        });
+        }, true);
       }
 
       const msgDel = {
@@ -478,7 +490,7 @@ export async function handleDownloadReply(api, message) {
       author,
       senderId,
       senderName,
-    });
+    }, true);
 
     return true;
   } catch (error) {
