@@ -167,6 +167,14 @@ export async function handleReactionConfirmJoinGroup(api, reaction) {
 
 export async function handleLeaveGroup(api, message) {
   const threadId = message.threadId;
+  await sendMessageComplete(
+    api,
+    message,
+    {
+      caption: `Bai Mấy Em, Ta Đi Đây.`,
+    },
+    5000
+  );
   await api.leaveGroup(threadId);
 }
 
