@@ -167,7 +167,7 @@ export async function processAndSendMedia(api, message, mediaData, isReply = fal
       title: title || "Không rõ",
       artists: author || "Unknown Artist",
       source: mediaTypeString || "Unknown Source",
-      caption: `> From ${mediaTypeString} <\nNhạc đây người đẹp ơi !!!\n\n🎵 Music: ${title}`,
+      caption: `> From ${mediaTypeString} <\nNhạc Của Bạn Đây!!!\n\n🎵 Music: ${title}`,
       imageUrl: selectedMedia.thumbnail,
       voiceUrl: videoUrl,
     };
