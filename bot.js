@@ -29,14 +29,19 @@ async function autoCommit() {
     const excludeArgs = excludeList.map(x => `:(exclude)${x}`).join(" ")
     await runCommand(`git add :/ ${excludeArgs}`, repoPath)
     const diff = await runCommand("git diff --staged --quiet || echo changed", repoPath)
+    let committed = false
     if (diff.includes("changed")) {
       await runCommand('git commit -m "Auto commit changes"', repoPath)
-      await runCommand('git pull --rebase origin main', repoPath)
-      await runCommand('git push origin main', repoPath)
-      console.log("Auto commit & push done")
-    } else {
-      console.log("No changes to commit")
+      committed = true
     }
+    for (let ex of excludeList) {
+      await runCommand(`git checkout -- ${ex}`, repoPath)
+    }
+    await runCommand('git pull --rebase origin main', repoPath)
+    if (committed) {
+      await runCommand('git push origin main', repoPath)
+    }
+    console.log("Auto commit & sync done")
   } catch (e) {
     console.error("Auto commit failed:", e.message)
   }
