@@ -1,6 +1,5 @@
 import { spawn, exec } from "child_process"
 import path from "path"
-import fs from "fs"
 import { ensureLogFiles, logManagerBot } from "./src/utils/io-json.js"
 
 const cmdPath = path.join("C:", "Windows", "System32", "cmd.exe")
@@ -20,10 +19,21 @@ async function autoCommit() {
     const repoPath = path.resolve(process.cwd())
     await runCommand('git config --global user.email "action@github.com"', repoPath)
     await runCommand('git config --global user.name "GitHub Action"', repoPath)
-    await runCommand("git add .", repoPath)
-    await runCommand("git reset package-lock.json || echo ok", repoPath)
-    await runCommand("git reset node_modules || echo ok", repoPath)
-    await runCommand("git reset *.txt || echo ok", repoPath)
+
+    const excludeList = [
+      "node_modules",
+      "package-lock.json",
+      "*.txt",
+      "*.log",
+      "*.cache",
+      "*.zip",
+      "*.rar",
+      ".gitignore"
+    ]
+
+    const excludeArgs = excludeList.map(x => `:(exclude)${x}`).join(" ")
+    await runCommand(`git add :/ ${excludeArgs}`, repoPath)
+
     const diff = await runCommand("git diff --staged --quiet || echo changed", repoPath)
     if (diff.includes("changed")) {
       await runCommand('git commit -m "Auto commit changes"', repoPath)
