@@ -20,15 +20,10 @@ import {
 import { sendVoiceMusic } from "../../chat-zalo/chat-special/send-voice/send-voice.js";
 import { setSelectionsMapData } from "../index.js"; 
 import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache.js";
-import { getDurationVideo } from "../api-hahuyhoangbot/aio-downlink.js";
 import { tempDir } from "../../../utils/io-json.js";
 import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js";
 import { getBotId, isAdmin } from "../../../index.js";
 import { uploadAudioFile } from "../../chat-zalo/chat-special/send-voice/process-audio.js";
-
-// Author: ndqitvn
-// Description: Code get data youtube by N D Q (ndqitvn)
-// Develop: Hà Huy Hoàng
 
 const CONFIG = {
   baseUrl: "https://www.youtube.com",
@@ -48,6 +43,12 @@ const videoFormat360 = "bestvideo[height<=360][vcodec^=avc1]+bestaudio/best[heig
 const videoFormat720 = "bestvideo[height<=720][fps<=60][vcodec^=avc1]+bestaudio/best[height<=720][fps<=60][vcodec^=avc1]";
 const videoFormat1080 = "bestvideo[height<=1080][fps<=60][vcodec^=avc1]+bestaudio/best[height<=1080][fps<=60][vcodec^=avc1]";
 const videoFormatMax = "bestvideo[vcodec^=avc1]+bestaudio/best[vcodec^=avc1]";
+
+export const getDurationVideo = async (path) => {
+  const durationCmd = `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "${path}"`;
+  const duration = parseFloat(execSync(durationCmd).toString()) * 1000;
+  return duration;
+};
 
 const extractInitialData = (html) => {
   try {
