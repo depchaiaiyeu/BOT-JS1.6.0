@@ -14,7 +14,7 @@ export const gameState = {
   data: {
     taixiu: {
       players: {},
-      activeThreads: [],
+      activeGame: [],
       history: [],
       jackpot: "1000000"
     },
@@ -28,7 +28,7 @@ export const gameState = {
     },
     vietlott655: {
       players: {},
-      activeThreads: [],
+      activeGame: [],
       jackpot: "1000000",
       history: []
     }
