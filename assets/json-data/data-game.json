@@ -1,1 +1,46 @@
-{}
+{
+  "baucua": {
+    "jackpot": "1000000",
+    "history": []
+  },
+  "chanle": {
+    "jackpot": "1000000",
+    "history": []
+  },
+  "taixiu": {
+    "activeThreads": [],
+    "history": [
+      {
+        "dice": [
+          3,
+          6,
+          3
+        ],
+        "total": 12,
+        "result": "tai",
+        "timestamp": 1759766006836
+      }
+    ],
+    "jackpot": "1000000",
+    "players": {}
+  },
+  "vietlott655": {
+    "activeThreads": [],
+    "jackpot": "1000000",
+    "history": [
+      {
+        "mainNumbers": [
+          3,
+          4,
+          7,
+          16,
+          37,
+          54
+        ],
+        "extraNumber": 35,
+        "timestamp": 1759766004007
+      }
+    ],
+    "players": {}
+  }
+}
