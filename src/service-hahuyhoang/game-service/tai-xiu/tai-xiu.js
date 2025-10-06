@@ -359,7 +359,7 @@ async function sendGameUpdate(api, remainingSeconds) {
 }
 
 async function placeBet(api, message, threadId, senderId, betType, amount) {
-  if (!activeThreads.has(threadId)) {
+  if (!activeGame.has(threadId)) {
     await sendMessageFromSQL(
       api,
       message,
