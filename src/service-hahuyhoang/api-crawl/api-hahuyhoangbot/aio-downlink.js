@@ -2,7 +2,6 @@ import axios from "axios";
 import path from "path";
 import { getGlobalPrefix } from "../../service.js";
 import {
-  sendMessageProcessingRequest,
   sendMessageWarningRequest,
 } from "../../chat-zalo/chat-style/chat-style.js";
 import { downloadFile, deleteFile } from "../../../utils/util.js";
@@ -11,7 +10,10 @@ import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache
 import { clearImagePath } from "../../../utils/canvas/index.js";
 import { tempDir } from "../../../utils/io-json.js";
 
-import { MessageMention } from "../../../api-zalo/index.js";
+import { MultiMsgStyle, MessageStyle, MessageMention } from "../../../api-zalo/index.js";
+export const COLOR_GREEN = "15a85f";
+export const SIZE_16 = "14";
+export const IS_BOLD = true;
 
 export const getDataDownloadVideo = async (url) => {
   let attempts = 0;
@@ -174,15 +176,14 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
 
         await clearImagePath(filePath);
       } else {
-        const specialCaption = `Đây là nội dung từ link bạn gửi!\n` +
-          `🎬 Tiêu Đề: ${title}\n` +
-          `${author !== "Unknown Author" ? `👤 Người Đăng: ${author}\n` : ""}` +
-          `📽️ Nền Tảng: ${capitalizeEachWord(mediaType)}\n` +
-          `📊 Chất Lượng: Ảnh`;
+        const introText = `Đây là nội dung từ link bạn gửi!\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
+        const style = MultiMsgStyle([
+          MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
+        ]);
 
         await api.sendMessage({
-          msg: specialCaption,
-          ttl: 6000000,
+          msg: introText,
+          style: style,
         }, message.threadId, message.type);
 
         const attachmentPaths = [];
@@ -195,6 +196,7 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
         }
     
         await api.sendMessage({
+          msg: "",
           attachments: attachmentPaths,
           ttl: 6000000,
         }, message.threadId, message.type);
