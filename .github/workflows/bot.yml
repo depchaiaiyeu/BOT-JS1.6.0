@@ -26,10 +26,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install FFmpeg
-        run: choco install ffmpeg -y
-        shell: powershell
-
       - name: Install dependencies & replace nsfwjs
         run: |
           cd BOT-JS1.6.0
