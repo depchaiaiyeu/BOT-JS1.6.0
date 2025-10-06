@@ -7,13 +7,10 @@ import {
   sendMessageWarningRequest,
 } from "../../chat-zalo/chat-style/chat-style.js";
 import { downloadFile, deleteFile } from "../../../utils/util.js";
-import { sendVoiceMusic, sendVoiceMusicNotQuote } from "../../chat-zalo/chat-special/send-voice/send-voice.js";
 import { capitalizeEachWord, removeMention } from "../../../utils/format-util.js";
-import { setSelectionsMapData } from "../index.js";
 import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache.js";
 import { clearImagePath } from "../../../utils/canvas/index.js";
 import { tempDir } from "../../../utils/io-json.js";
-import { getBotId } from "../../../index.js";
 
 import { MultiMsgStyle, MessageStyle, MessageMention } from "../../../api-zalo/index.js";
 export const COLOR_RED = "db342e";
@@ -27,17 +24,12 @@ const typeText = (type) => {
   switch (type) {
     case "video":
       return "video";
-    case "audio":
-      return "nhạc";
     case "image":
       return "ảnh";
     default:
       return "tập tin";
   }
 }
-
-const downloadSelectionsMap = new Map();
-const TIME_WAIT_SELECTION = 30000;
 
 export const getDataDownloadVideo = async (url) => {
   let attempts = 0;
@@ -65,9 +57,7 @@ export const getDataDownloadVideo = async (url) => {
   return null;
 };
 
-let hasImageBefore = false;
-
-export async function processAndSendMedia(api, message, mediaData, isReply = false) {
+export async function processAndSendMedia(api, message, mediaData) {
   const {
     selectedMedia,
     mediaType,
@@ -109,19 +99,6 @@ export async function processAndSendMedia(api, message, mediaData, isReply = fal
     if (thumbnailUrl) {
       await clearImagePath(thumbnailPath);
     }
-
-    const mediaTypeString = capitalizeEachWord(mediaType);
-    const audioObject = {
-      trackId: uniqueId || "unknown",
-      title: title || "Không rõ",
-      artists: author || "Unknown Artist",
-      source: mediaTypeString || "Unknown Source",
-      caption: `> From ${mediaTypeString} <\nNhạc đây người đẹp ơi !!!\n\n🎵 Music: ${title}`,
-      imageUrl: selectedMedia.thumbnail,
-      voiceUrl: selectedMedia.url,
-    };
-
-    await sendVoiceMusicNotQuote(api, message, audioObject, 180000000);
     return;
   }
 
@@ -154,31 +131,7 @@ export async function processAndSendMedia(api, message, mediaData, isReply = fal
     setCacheData(mediaType, uniqueId, { fileUrl: videoUrl, title: title, duration }, quality);
   }
 
-  if (typeFile === "audio") {
-    const mediaTypeString = capitalizeEachWord(mediaType);
-
-    if (!videoUrl) {
-      console.error("Lỗi: voiceUrl bị undefined hoặc null.");
-      return;
-    }
-
-    const audioObject = {
-      trackId: uniqueId || "unknown",
-      title: title || "Không rõ",
-      artists: author || "Unknown Artist",
-      source: mediaTypeString || "Unknown Source",
-      caption: `> From ${mediaTypeString} <\nNhạc Của Bạn Đây!!!\n\n🎵 Music: ${title}`,
-      imageUrl: selectedMedia.thumbnail,
-      voiceUrl: videoUrl,
-    };
-
-    if (isReply) {
-      await sendVoiceMusic(api, message, audioObject, 180000000);
-    } else {
-      await sendVoiceMusicNotQuote(api, message, audioObject, 180000000);
-    }
-
-  } else if (typeFile === "video") {
+  if (typeFile === "video") {
     await api.sendVideo({
       videoUrl: videoUrl,
       threadId: message.threadId,
@@ -221,14 +174,17 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
     let uniqueId = dataDownload.id || query.split("/").pop() || dataDownload.title.replace(/[^a-zA-Z0-9]/g, "_");
 
     dataDownload.medias.forEach((item) => {
-      dataLink.push({
-        url: item.url,
-        quality: item.quality || "unknown",
-        type: item.type.toLowerCase(),
-        title: dataDownload.title,
-        thumbnail: dataDownload.thumbnail,
-        extension: item.extension,
-      });
+      const itemType = item.type.toLowerCase();
+      if (itemType !== "audio") {
+        dataLink.push({
+          url: item.url,
+          quality: item.quality || "unknown",
+          type: itemType,
+          title: dataDownload.title,
+          thumbnail: dataDownload.thumbnail,
+          extension: item.extension,
+        });
+      }
     });
 
     if (dataLink.length === 0) {
@@ -239,29 +195,19 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
       return;
     }
 
-    const onlyImagesAndAudios = dataLink.every(item => {
-      const type = item.type.toLowerCase();
-      return type === "image" || type === "audio";
-    });
+    const onlyImages = dataLink.every(item => item.type === "image");
 
-    if (onlyImagesAndAudios) {
+    if (onlyImages) {
       const attachmentPaths = [];
-      const nonImageMedia = [];
 
       for (const media of dataLink) {
-        if (media.type === "image") {
-          const uniqueFileName = `${uniqueId}_${Date.now()}_${Math.random().toString(36).substring(7)}.${media.extension}`;
-          const filePath = path.resolve(tempDir, uniqueFileName);
-          await downloadFile(media.url, filePath);
-          attachmentPaths.push(filePath);
-        } else {
-          nonImageMedia.push(media);
-        }
+        const uniqueFileName = `${uniqueId}_${Date.now()}_${Math.random().toString(36).substring(7)}.${media.extension}`;
+        const filePath = path.resolve(tempDir, uniqueFileName);
+        await downloadFile(media.url, filePath);
+        attachmentPaths.push(filePath);
       }
 
       if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
-        hasImageBefore = true;
-
         const introText = `Đây là nội dung từ link bạn gửi!\nTitle: ${dataDownload.title}\nAuthor: ${dataDownload.author || 'Unknown'}\nPlatform: ${capitalizeEachWord(dataDownload.source)}`;
         const style = MultiMsgStyle([
           MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
@@ -287,55 +233,20 @@ export async function handleDownloadCommand(api, message, aliasCommand) {
         }
       }
 
-      for (const media of nonImageMedia) {
-        await processAndSendMedia(api, message, {
-          selectedMedia: media,
-          mediaType: dataDownload.source,
-          uniqueId,
-          duration: dataDownload.duration,
-          title: dataDownload.title,
-          author: dataDownload.author,
-          senderId,
-          senderName,
-        }, false);
-      }
-
       return;
     }
 
-    let listText = `Đây là danh sách các phiên bản có sẵn:\n`;
-    listText += `Hãy trả lời tin nhắn này với số thứ tự phiên bản bạn muốn tải!\n\n`;
-    listText += dataLink
-      .map((item, index) => `${index + 1}. ${capitalizeEachWord(item.type)} - ${item.quality || "Unknown"} (${item.extension})`)
-      .join("\n");
-
-    const object = {
-      caption: listText,
-    };
-
-    const listMessage = await sendMessageCompleteRequest(api, message, object, TIME_WAIT_SELECTION);
-    const quotedMsgId = listMessage?.message?.msgId || listMessage?.attachment[0]?.msgId;
-    downloadSelectionsMap.set(quotedMsgId.toString(), {
-      userRequest: senderId,
-      collection: dataLink,
-      uniqueId: uniqueId,
+    await processAndSendMedia(api, message, {
+      selectedMedia: dataLink[0],
       mediaType: dataDownload.source,
+      uniqueId,
+      duration: dataDownload.duration,
       title: dataDownload.title,
-      duration: dataDownload.duration || 0,
-      author: dataDownload.author || "Unknown Author",
-      timestamp: Date.now(),
+      author: dataDownload.author,
+      senderId,
+      senderName,
     });
-    setSelectionsMapData(senderId, {
-      quotedMsgId: quotedMsgId.toString(),
-      collection: dataLink,
-      uniqueId: uniqueId,
-      mediaType: dataDownload.source,
-      title: dataDownload.title,
-      duration: dataDownload.duration || 0,
-      author: dataDownload.author || "Unknown Author",
-      timestamp: Date.now(),
-      platform: "downlink",
-    });
+
   } catch (error) {
     console.error("Lỗi khi xử lý lệnh download:", error);
     const object = {
@@ -359,148 +270,5 @@ export async function categoryDownload(api, message, platform, uniqueId, selecte
     await deleteFile(tempFilePath);
     console.error("Lỗi khi tải video:", error);
     return null;
-  }
-}
-
-export async function handleDownloadReply(api, message) {
-  const senderId = message.data.uidFrom;
-  const senderName = message.data.dName;
-  const idBot = getBotId();
-
-  try {
-    if (!message.data.quote || !message.data.quote.globalMsgId) return false;
-
-    const quotedMsgId = message.data.quote.globalMsgId.toString();
-    if (!downloadSelectionsMap.has(quotedMsgId)) return false;
-
-    const downloadData = downloadSelectionsMap.get(quotedMsgId);
-    if (downloadData.userRequest !== senderId) return false;
-
-    const content = removeMention(message).trim().toLowerCase();
-    let { collection, uniqueId, mediaType, title, duration = 0, author } =
-      downloadSelectionsMap.get(quotedMsgId);
-
-    if (content === "all") {
-      const attachmentPaths = [];
-      const nonImageMedia = [];
-
-      for (const media of collection) {
-        if (media.type === "image") {
-          const uniqueFileName = `${uniqueId}_${Date.now()}_${Math.random()
-            .toString(36)
-            .substring(7)}.${media.extension}`;
-
-          const thumbnailPath = path.resolve(tempDir, uniqueFileName);
-          const thumbnailUrl = media.url;
-          if (thumbnailUrl) {
-            await downloadFile(thumbnailUrl, thumbnailPath);
-            attachmentPaths.push(thumbnailPath);
-          }
-        } else {
-          nonImageMedia.push(media);
-        }
-      }
-
-      if (Array.isArray(attachmentPaths) && attachmentPaths.length > 0) {
-        hasImageBefore = true;
-
-        const introText = `Đây là nội dung từ link bạn gửi!\nTitle: ${title}\nAuthor: ${author || 'Unknown'}\nPlatform: ${capitalizeEachWord(mediaType)}`;
-        const style = MultiMsgStyle([
-          MessageStyle(0, introText.length, COLOR_GREEN, SIZE_16, IS_BOLD),
-        ]);
-
-        await api.sendMessage({
-          msg: introText,
-          style: style,
-        }, message.threadId, message.type);
-
-        await api.sendMessage(
-          {
-            msg: "",
-            attachments: attachmentPaths,
-            ttl: 6000000
-          },
-          message.threadId,
-          message.type
-        );
-
-        for (const filePath of attachmentPaths) {
-          await clearImagePath(filePath);
-        }
-      }
-
-      for (const media of nonImageMedia) {
-        await processAndSendMedia(api, message, {
-          selectedMedia: media,
-          mediaType,
-          uniqueId,
-          duration,
-          title,
-          author,
-          senderId,
-          senderName,
-        }, true);
-      }
-
-      const msgDel = {
-        type: message.type,
-        threadId: message.threadId,
-        data: {
-          cliMsgId: message.data.quote.cliMsgId,
-          msgId: message.data.quote.globalMsgId,
-          uidFrom: idBot,
-        },
-      };
-      await api.deleteMessage(msgDel, false);
-      downloadSelectionsMap.delete(quotedMsgId);
-      return true;
-    }
-
-    const selectedIndex = parseInt(content) - 1;
-    if (
-      isNaN(selectedIndex) ||
-      selectedIndex < 0 ||
-      selectedIndex >= collection.length
-    ) {
-      const object = {
-        caption: `Lựa chọn Không hợp lệ. Vui lòng chọn một số từ danh sách hoặc nhập "all" để tải tất cả.`,
-      };
-      await sendMessageWarningRequest(api, message, object, 30000);
-      return true;
-    }
-
-    const msgDel = {
-      type: message.type,
-      threadId: message.threadId,
-      data: {
-        cliMsgId: message.data.quote.cliMsgId,
-        msgId: message.data.quote.globalMsgId,
-        uidFrom: idBot,
-      },
-    };
-    await api.deleteMessage(msgDel, false);
-    downloadSelectionsMap.delete(quotedMsgId);
-
-    await processAndSendMedia(api, message, {
-      selectedMedia: collection[selectedIndex],
-      mediaType,
-      uniqueId,
-      duration,
-      title,
-      author,
-      senderId,
-      senderName,
-    }, true);
-
-    return true;
-  } catch (error) {
-    console.error("Lỗi xử lý reply download:", error);
-
-    const object = {
-      caption: `Đã xảy ra lỗi khi xử lý tin nhắn của bạn. Vui lòng thử lại sau.`,
-    };
-    await sendMessageWarningRequest(api, message, object, 30000);
-
-    return true;
   }
 }
