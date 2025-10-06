@@ -1,4 +1,4 @@
-import { handleEvaluate } from "./bot-manager/remote-action-api.js";
+import { handleEval } from "./bot-manager/remote-action-api.js";
 
 import { writeGroupSettings } from "../utils/io-json.js";
 import { handleMuteList, handleMuteUser, handleUnmuteUser } from "../service-hahuyhoang/anti-service/mute-user.js";
@@ -434,7 +434,7 @@ export async function handleCommandPrivate(api, message) {
           await handleJoinGroup(api, message);
           return 0;
         case "eval":
-          await handleEvaluate(api, message);
+          await handleEval(api, message);
           return 0;
         case "listgroups":
           await handleShowGroupsList(api, message, aliasCommand);
