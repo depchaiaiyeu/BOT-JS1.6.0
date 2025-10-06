@@ -37,7 +37,7 @@ jobs:
       - name: Run bot
         run: |
           cd BOT-JS1.6.0
-          node bot.js
+          node src/index.js
         shell: powershell
 
       - name: Commit and push changes
