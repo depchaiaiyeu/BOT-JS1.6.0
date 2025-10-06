@@ -8,8 +8,8 @@ let botProcess
 
 function runCommand(command, cwd = process.cwd()) {
   return new Promise((resolve, reject) => {
-    exec(command, { cwd, shell: "cmd.exe" }, (error, stdout, stderr) => {
-      if (error) return reject(error)
+    exec(command, { cwd, shell: "cmd.exe", maxBuffer: 1024 * 1024 * 50 }, (error, stdout, stderr) => {
+      if (error) return reject(new Error(stderr || error.message))
       resolve(stdout || stderr)
     })
   })
@@ -21,13 +21,16 @@ async function autoCommit() {
     await runCommand('git config --global user.email "action@github.com"', repoPath)
     await runCommand('git config --global user.name "GitHub Action"', repoPath)
     await runCommand("git add .", repoPath)
-    const excluded = ["package-lock.json", "node_modules", "*.txt"]
-    for (const ex of excluded) await runCommand(`git reset ${ex}`, repoPath)
+    await runCommand("git reset package-lock.json || echo ok", repoPath)
+    await runCommand("git reset node_modules || echo ok", repoPath)
+    await runCommand("git reset *.txt || echo ok", repoPath)
     const diff = await runCommand("git diff --staged --quiet || echo changed", repoPath)
     if (diff.includes("changed")) {
       await runCommand('git commit -m "Auto commit changes"', repoPath)
       await runCommand("git push", repoPath)
       console.log("Auto commit & push done")
+    } else {
+      console.log("No changes to commit")
     }
   } catch (e) {
     console.error("Auto commit failed:", e.message)
