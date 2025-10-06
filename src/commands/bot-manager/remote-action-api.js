@@ -5,49 +5,31 @@ import {
 import { getGlobalPrefix } from "../../service-hahuyhoang/service.js";
 import { removeMention } from "../../utils/format-util.js";
 
-export async function handleEvaluate(api, message) {
+export async function handleEval(api, message) {
   const prefix = getGlobalPrefix();
   const content = removeMention(message);
-  
-  const code = content.replace(`${prefix}eval`, "").trim();
-
+  if (!content.startsWith(`${prefix}eval `)) return;
+  const code = content.slice(prefix.length + 5).trim();
   if (!code) {
     await sendMessageFromSQL(
       api,
       message,
       {
         success: false,
-        message: `Thiếu tham số!\nVí dụ: ${prefix}eval [code]\nEg: ${prefix}eval api.sendMessage("Hello")`,
+        message: `Vui lòng sử dụng:\n${prefix}eval [code]\nEg: ${prefix}eval api.sendMessage("Your MSG")`,
       },
       false,
       30000
     );
     return;
   }
-
   try {
-    const result = await eval(`(async () => { return ${code}; })()`);
-    
-    const output = typeof result === 'object' 
-      ? JSON.stringify(result, null, 2) 
-      : String(result);
-
-    await sendMessageComplete(
-      api,
-      message,
-      {
-        caption: output,
-      },
-      60000
-    );
+    const result = eval(code);
+    const output = result ? result.toString() : "";
+    if (output) {
+      await sendMessageComplete(api, message, { caption: output }, 30000);
+    }
   } catch (error) {
-    await sendMessageComplete(
-      api,
-      message,
-      {
-        caption: `${error.message}\n\n${error.stack}`,
-      },
-      60000
-    );
+    await sendMessageComplete(api, message, { caption: error.message }, 30000);
   }
 }
