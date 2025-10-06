@@ -439,7 +439,7 @@ export async function sendVoiceMusic(api, message, object, ttl) {
     // Thêm hậu tố /nguyenphihoang.aac nếu voiceUrl chưa có đuôi .aac
     let finalVoiceUrl = voiceUrl;
     if (!voiceUrl.endsWith(".aac")) {
-      finalVoiceUrl = voiceUrl.replace(/\/?$/, "/nguyenphihoang.aac");
+      finalVoiceUrl = voiceUrl.replace(/\/?$/, "/Vu-Xuan-Kien-Service-Bot.aac");
     }
 
     await api.sendVoice(message, finalVoiceUrl, ttl);
