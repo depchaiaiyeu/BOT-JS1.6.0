@@ -210,7 +210,7 @@
     "activeBot": false,
     "activeGame": true,
     "welcomeGroup": false,
-    "byeGroup": true,
+    "byeGroup": false,
     "antiSpam": true,
     "filterBadWords": true,
     "filterBot": true,
