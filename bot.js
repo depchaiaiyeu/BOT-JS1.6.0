@@ -30,17 +30,30 @@ async function autoCommit() {
       "*.rar",
       ".gitignore"
     ]
-
     const excludeArgs = excludeList.map(x => `:(exclude)${x}`).join(" ")
     await runCommand(`git add :/ ${excludeArgs}`, repoPath)
 
     const diff = await runCommand("git diff --staged --quiet || echo changed", repoPath)
-    if (diff.includes("changed")) {
-      await runCommand('git commit -m "Auto commit changes"', repoPath)
+    if (!diff.includes("changed")) {
+      console.log("No changes to commit")
+      return
+    }
+
+    await runCommand('git commit -m "Auto commit changes"', repoPath)
+
+    try {
       await runCommand("git push", repoPath)
       console.log("Auto commit & push done")
-    } else {
-      console.log("No changes to commit")
+    } catch (err) {
+      if (err.message.includes("fetch first") || err.message.includes("rejected")) {
+        console.log("Push rejected, pulling latest changes...")
+        await runCommand("git fetch origin main", repoPath)
+        await runCommand("git rebase origin/main", repoPath)
+        await runCommand("git push", repoPath)
+        console.log("Auto commit after rebase done")
+      } else {
+        throw err
+      }
     }
   } catch (e) {
     console.error("Auto commit failed:", e.message)
