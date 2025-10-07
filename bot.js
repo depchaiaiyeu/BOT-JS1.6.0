@@ -106,7 +106,7 @@ function attachBotEvents(botProcess) {
 
 ensureLogFiles()
 startBot()
-setInterval(autoCommit, 60 * 10 * 1000)
+setInterval(autoCommit, 5 * 6 * 1000)
 
 process.on("SIGINT", () => restartBot())
 process.on("SIGTERM", () => restartBot())
