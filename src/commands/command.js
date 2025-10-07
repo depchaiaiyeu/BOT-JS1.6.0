@@ -108,6 +108,7 @@ import {
   handleSendFriendRequest,
   handleUpdateProfileName,
   spamCallInGroup,
+  handleCallGroupCommand,
 } from "./bot-manager/utilities.js";
 import { handleBauCua } from "../service-hahuyhoang/game-service/bau-cua/bau-cua.js";
 import { handleKBBCommand } from "../service-hahuyhoang/game-service/keobuabao/keobuabao.js";
@@ -838,6 +839,9 @@ export async function handleCommand(
         break;
       case "test":
         await testMediaCommand(api, message);
+        break;
+      case "callgroup":
+        await handleCallGroupCommand(api, message);
         break;
       case "go":
           await spamMessagesInGroup(api, message, aliasCommand);
