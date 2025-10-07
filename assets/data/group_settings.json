@@ -217,7 +217,7 @@
     "removeLinks": false,
     "learnEnabled": false,
     "replyEnabled": false,
-    "onlyText": false,
+    "onlyText": true,
     "memberApprove": true,
     "antiNude": false,
     "whiteList": {},
