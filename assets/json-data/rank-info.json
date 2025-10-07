@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 4158,
-          "messageCountToday": 642,
+          "Rank": 4169,
+          "messageCountToday": 653,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -979,8 +979,8 @@
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 1412,
-          "messageCountToday": 291,
+          "Rank": 1417,
+          "messageCountToday": 296,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1000,8 +1000,8 @@
         {
           "UserName": "Lê Quốc Đạt",
           "UID": "2784271520159982744",
-          "Rank": 91,
-          "messageCountToday": 40,
+          "Rank": 94,
+          "messageCountToday": 43,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1119,8 +1119,8 @@
         {
           "UserName": "Lê Tuấn Khang",
           "UID": "7836374865116483067",
-          "Rank": 143,
-          "messageCountToday": 116,
+          "Rank": 146,
+          "messageCountToday": 119,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1180,8 +1180,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 170,
-          "messageCountToday": 66,
+          "Rank": 171,
+          "messageCountToday": 67,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1201,8 +1201,8 @@
         {
           "UserName": "Bear",
           "UID": "1277772631698656128",
-          "Rank": 32,
-          "messageCountToday": 12,
+          "Rank": 33,
+          "messageCountToday": 13,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2068,22 +2068,29 @@
           "UserName": "Dũng",
           "UID": "4842727919488931343",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-06"
         },
         {
           "UserName": "Phạm Bá Phúc",
           "UID": "6076560750836343151",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-06"
         },
         {
           "UserName": "Nguyễn Thành Nhân",
           "UID": "2478307701883348831",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-06"
+        },
+        {
+          "UserName": "Lê Công",
+          "UID": "4687223337366334519",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
