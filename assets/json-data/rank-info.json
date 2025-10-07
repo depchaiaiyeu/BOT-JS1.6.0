@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 5197,
-          "messageCountToday": 1681,
+          "Rank": 5207,
+          "messageCountToday": 1691,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -979,8 +979,8 @@
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 1606,
-          "messageCountToday": 485,
+          "Rank": 1608,
+          "messageCountToday": 487,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1000,8 +1000,8 @@
         {
           "UserName": "Lê Quốc Đạt",
           "UID": "2784271520159982744",
-          "Rank": 258,
-          "messageCountToday": 207,
+          "Rank": 262,
+          "messageCountToday": 211,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1119,8 +1119,8 @@
         {
           "UserName": "Lê Tuấn Khang",
           "UID": "7836374865116483067",
-          "Rank": 372,
-          "messageCountToday": 345,
+          "Rank": 377,
+          "messageCountToday": 350,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2725,6 +2725,18 @@
         }
       ],
       "nameGroup": "Multi AI Coder [ Chat ]"
+    },
+    "5101276688001232112": {
+      "users": [
+        {
+          "UserName": "Nguyen Anh",
+          "UID": "8433519804894354738",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        }
+      ],
+      "nameGroup": "Thuê tick xanh FANPAGE 24/7"
     }
   }
 }
