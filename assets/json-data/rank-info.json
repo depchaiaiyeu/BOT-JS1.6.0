@@ -986,15 +986,15 @@
         {
           "UserName": "Gwen",
           "UID": "3069685413937500834",
-          "Rank": 14,
-          "messageCountToday": 11,
+          "Rank": 15,
+          "messageCountToday": 12,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "N D Q",
           "UID": "5440985416542136505",
-          "Rank": 140,
-          "messageCountToday": 54,
+          "Rank": 142,
+          "messageCountToday": 56,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1021,8 +1021,8 @@
         {
           "UserName": "Văn Tám",
           "UID": "5739927769350407827",
-          "Rank": 24,
-          "messageCountToday": 16,
+          "Rank": 25,
+          "messageCountToday": 17,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1767,8 +1767,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 230,
-          "messageCountToday": 142,
+          "Rank": 234,
+          "messageCountToday": 146,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1816,8 +1816,8 @@
         {
           "UserName": "Hoang Cuong",
           "UID": "1602588859449494022",
-          "Rank": 50,
-          "messageCountToday": 5,
+          "Rank": 51,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2052,6 +2052,13 @@
         {
           "UserName": "Đỗ Hoàng Anh",
           "UID": "8537950840142261063",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Văn Lên",
+          "UID": "2454797634856112682",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
