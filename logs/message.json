@@ -24419,5 +24419,51 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1759847990906": {
+    "timestamp": "1759847991849",
+    "timestampString": "21:39:52",
+    "msgId": "7092330807279",
+    "cliMsgId": "1759847990906",
+    "msgType": "chat.photo",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/879921184877926078/ec73d58113c49e9ac7d5.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/879921184877926078/ec73d58113c49e9ac7d5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/879921184877926078\\/ec73d58113c49e9ac7d5.jpg\",\"hdSize\":63398,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847995715": {
+    "timestamp": "1759847994359",
+    "timestampString": "21:39:54",
+    "msgId": "7092330965028",
+    "cliMsgId": "1759847995715",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://b-f58-zpg-r.zdn.vn/1304753901557891814/5679a78661c3ec9db5d2.jpg",
+      "thumb": "https://b-f58-zpg-r.zdn.vn/1304753901557891814/5679a78661c3ec9db5d2.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/1304753901557891814\\/5679a78661c3ec9db5d2.jpg\",\"height\":460}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
