@@ -24904,5 +24904,70 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759848214469": {
+    "timestamp": "1759848214521",
+    "timestampString": "21:43:35",
+    "msgId": "7092343213349",
+    "cliMsgId": "1759848214469",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "@N H L hiểu đc câu nói của anh Hoàng em chưa\nAnh Quý k làm thì thôi, làm là idea vô tận =)))",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848217475": {
+    "timestamp": "1759848219504",
+    "timestampString": "21:43:39",
+    "msgId": "7092343491039",
+    "cliMsgId": "1759848217475",
+    "msgType": "chat.photo",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848224282": {
+    "timestamp": "1759848226362",
+    "timestampString": "21:43:47",
+    "msgId": "7092343871063",
+    "cliMsgId": "1759848224282",
+    "msgType": "webchat",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": "@Lê Quốc Việt nhìn ảnh còn trẻ",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848230027": {
+    "timestamp": "1759848230052",
+    "timestampString": "21:43:50",
+    "msgId": "7092344071956",
+    "cliMsgId": "1759848230027",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "Bỏ qua phần còn lại =)))",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
