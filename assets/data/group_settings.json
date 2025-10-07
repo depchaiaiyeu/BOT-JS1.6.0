@@ -213,7 +213,7 @@
     "byeGroup": false,
     "antiSpam": true,
     "filterBadWords": true,
-    "filterBot": true,
+    "filterBot": false,
     "removeLinks": false,
     "learnEnabled": false,
     "replyEnabled": false,
