@@ -24881,5 +24881,28 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1055908875328800": {
+    "timestamp": "1759848126858",
+    "timestampString": "21:42:07",
+    "msgId": "7092338323868",
+    "cliMsgId": "1055908875328800",
+    "msgType": "webchat",
+    "uidFrom": "1277772631698656128",
+    "idTo": "5601607522756268167",
+    "dName": "Bear",
+    "content": {
+      "title": "group này có biến căng ae ơi          :((((((((((\nhttps://zalo.me/g/xkjxwk345",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [\"{\\\"styles\\\": [{\\\"start\\\": 0, \\\"len\\\": 49, \\\"st\\\": \\\"c_FF5733\\\"}], \\\"ver\\\": 0}\", {\"start\": 0, \"len\": 49, \"st\": \"b\"}, \"{\\\"styles\\\": [{\\\"start\\\": 50, \\\"len\\\": 27, \\\"st\\\": \\\"c_33FF57\\\"}], \\\"ver\\\": 0}\", {\"start\": 50, \"len\": 27, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
