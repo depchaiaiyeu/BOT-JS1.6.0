@@ -1182,10 +1182,6 @@ export async function handleCommand(
                 await handleMusicCommand(api, message, aliasCommand);
                 break;
 
-              case "meme":
-                await handleMemeCommand(api, message, aliasCommand);
-                break;
-
               case "zingmp3":
                 await handleZingMp3Command(api, message, aliasCommand);
                 break;
