@@ -28564,5 +28564,79 @@
     "threadId": "4582721331431294882",
     "type": 1,
     "isUndo": false
+  },
+  "1759851205458": {
+    "timestamp": "1759851205513",
+    "timestampString": "22:33:26",
+    "msgId": "7092491213775",
+    "cliMsgId": "1759851205458",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".sendauto add text | Chào Em",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851206319": {
+    "timestamp": "1759851206457",
+    "timestampString": "22:33:26",
+    "msgId": "7092491249676",
+    "cliMsgId": "1759851206319",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nĐã thêm 1 mục vào text:\n• Chào Em\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851214002": {
+    "timestamp": "1759851214051",
+    "timestampString": "22:33:41",
+    "msgId": "7092491574779",
+    "cliMsgId": "1759851214002",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".kick @Bảo Yên",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851220976": {
+    "timestamp": "1759851221120",
+    "timestampString": "22:33:41",
+    "msgId": "7092491858587",
+    "cliMsgId": "1759851220976",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/4890402691524296889/8dea06005444d91a8055.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/4890402691524296889/8dea06005444d91a8055.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/4890402691524296889\\/8dea06005444d91a8055.jpg\",\"hdSize\":302306,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
   }
 }
