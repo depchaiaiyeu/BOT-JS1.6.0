@@ -225,7 +225,8 @@
     "antiMedia": false,
     "antiSticker": false,
     "autoReply": true,
-    "removeLinkKeywords": false
+    "removeLinkKeywords": false,
+    "antiUndo": true
   },
   "1747464985521437051": {
     "nameGroup": "ZCA | CHATBOT　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　gwengay",
