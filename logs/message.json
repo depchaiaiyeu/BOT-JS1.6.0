@@ -12027,5 +12027,131 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759840083651": {
+    "timestamp": "1759840083755",
+    "timestampString": "19:28:04",
+    "msgId": "7091843372518",
+    "cliMsgId": "1759840083651",
+    "msgType": "webchat",
+    "uidFrom": "7836374865116483067",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Tuấn Khang",
+    "content": "Mỗi tội hơi xui",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840090733": {
+    "timestamp": "1759840090813",
+    "timestampString": "19:28:11",
+    "msgId": "7091843795972",
+    "cliMsgId": "1759840090733",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",alias add speedtest spt",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840091699": {
+    "timestamp": "1759840091834",
+    "timestampString": "19:28:12",
+    "msgId": "7091843855242",
+    "cliMsgId": "1759840091699",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nAlias \"spt\" đã tồn tại cho lệnh \"speedtest\"",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840097914": {
+    "timestamp": "1759840098049",
+    "timestampString": "19:28:18",
+    "msgId": "7091844191753",
+    "cliMsgId": "1759840097914",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nBắt đầu kiểm tra tốc độ mạng, vui lòng chờ...",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":45,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840099450": {
+    "timestamp": "1759840099675",
+    "timestampString": "19:28:20",
+    "msgId": "7091844333396",
+    "cliMsgId": "1759840099450",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "@Lê Tuấn Khang dính phốt hơi nhiều thôi",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840100669": {
+    "timestamp": "1759840101608",
+    "timestampString": "19:28:22",
+    "msgId": "7091844419730",
+    "cliMsgId": "1759840100669",
+    "msgType": "chat.delete",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7191683722244018000,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1759840053601,
+        "globalDelMsgId": 7091841658519,
+        "destId": 7897564732983285000
+      }
+    ],
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840104411": {
+    "timestamp": "1759840104485",
+    "timestampString": "19:28:24",
+    "msgId": "7091844624620",
+    "cliMsgId": "1759840104411",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "@Nguyễn Hoàng Bảo Hưng Dev có kinh, nghiệm",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
