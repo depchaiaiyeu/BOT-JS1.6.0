@@ -2290,6 +2290,17 @@
       "type": 5,
       "author": "Vũ Xuân Kiên",
       "active": true
-    }
+    },
+    {
+      "name": "callgroup",
+      "description": "Gọi đến người dùng trong group",
+      "syntax": "{p}callgroup <@mention> <count>",
+      "permission": "adminLevelHigh",
+      "countdown": 30,
+      "icon": "☎",
+      "type": 5,
+      "author": "Vũ Xuân Kiên",
+      "active": true
+    },
   ]
 }
