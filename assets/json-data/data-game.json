@@ -24,6 +24,16 @@
       {
         "dice": [
           2,
+          2,
+          3
+        ],
+        "total": 7,
+        "result": "xiu",
+        "timestamp": 1759820671029
+      },
+      {
+        "dice": [
+          2,
           4,
           6
         ],
@@ -129,6 +139,18 @@
     "activeThreads": [],
     "jackpot": "1000000",
     "history": [
+      {
+        "mainNumbers": [
+          6,
+          11,
+          23,
+          42,
+          46,
+          48
+        ],
+        "extraNumber": 39,
+        "timestamp": 1759820671014
+      },
       {
         "mainNumbers": [
           18,
