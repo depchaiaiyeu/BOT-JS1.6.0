@@ -1159,5 +1159,42 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759838254215": {
+    "timestamp": "1759838254596",
+    "timestampString": "18:57:35",
+    "msgId": "7091735371054",
+    "cliMsgId": "1759838254215",
+    "msgType": "share.file",
+    "uidFrom": "6418130782612367658",
+    "idTo": "5975420422762749911",
+    "dName": "Lý Bảo",
+    "content": {
+      "title": "pro_gemini_1.py",
+      "description": "",
+      "href": "https://file-stal-1.dlfl.vn/gr/838676837a458e1bd754/2379811644167521527",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":\"11017\",\"checksum\":\"b882d0fa31248a7984e55c843f2cf0e6\",\"fileExt\":\"py\",\"tWidth\":0,\"tHeight\":0,\"duration\":0,\"fType\":1,\"fdata\":\"\"}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759838260386": {
+    "timestamp": "1759838260431",
+    "timestampString": "18:57:40",
+    "msgId": "7091735709408",
+    "cliMsgId": "1759838260386",
+    "msgType": "webchat",
+    "uidFrom": "6418130782612367658",
+    "idTo": "5975420422762749911",
+    "dName": "Lý Bảo",
+    "content": "@Vũ Xuân Kiên đây",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
