@@ -200,11 +200,16 @@
   "4699745045071009795": {
     "nameGroup": "Zubu👽",
     "adminList": {},
-    "muteList": {},
+    "muteList": {
+      "6691725235504439526": {
+        "name": "Tổng",
+        "timeMute": -1
+      }
+    },
     "whileList": {},
     "activeBot": false,
     "activeGame": true,
-    "welcomeGroup": true,
+    "welcomeGroup": false,
     "byeGroup": true,
     "antiSpam": true,
     "filterBadWords": true,
