@@ -24,49 +24,74 @@ async function cancelPreviousWorkflows() {
 
     console.log(`Checking for previous workflows in ${owner}/${repo}`)
 
-    const listCmd = `curl -s -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs?status=in_progress&per_page=100"`
-    
-    const result = await runCommand(listCmd, repoPath)
-    const data = JSON.parse(result)
+    const statuses = ["in_progress", "queued", "waiting"]
+    const allRuns = []
 
-    if (!data.workflow_runs || data.workflow_runs.length === 0) {
-      console.log("No in-progress workflows found")
+    for (const status of statuses) {
+      const listCmd = `curl -s -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs?status=${status}&per_page=100"`
+      const result = await runCommand(listCmd, repoPath)
+      const data = JSON.parse(result)
+      if (data.workflow_runs && data.workflow_runs.length > 0) {
+        allRuns.push(...data.workflow_runs)
+      }
+    }
+
+    const completedCmd = `curl -s -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs?status=completed&per_page=100"`
+    const completedResult = await runCommand(completedCmd, repoPath)
+    const completedData = JSON.parse(completedResult)
+    
+    if (completedData.workflow_runs && completedData.workflow_runs.length > 0) {
+      const failedRuns = completedData.workflow_runs.filter(run => 
+        run.conclusion === "failure" || 
+        run.conclusion === "cancelled" || 
+        run.conclusion === "timed_out" ||
+        run.conclusion === "action_required"
+      )
+      allRuns.push(...failedRuns)
+    }
+
+    if (allRuns.length === 0) {
+      console.log("No workflows found to cancel or delete")
       return
     }
 
-    for (const run of data.workflow_runs) {
+    for (const run of allRuns) {
       if (currentRunId && run.id.toString() === currentRunId) {
         console.log(`Skipping current workflow run #${run.id}`)
         continue
       }
 
-      console.log(`Canceling workflow run #${run.id} (${run.name})`)
+      console.log(`Processing workflow run #${run.id} (${run.name}) - Status: ${run.status}, Conclusion: ${run.conclusion || 'N/A'}`)
       
-      const cancelCmd = `curl -s -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs/${run.id}/cancel"`
-      await runCommand(cancelCmd, repoPath)
-      
-      await new Promise(resolve => setTimeout(resolve, 3000))
-      
-      let attempts = 0
-      while (attempts < 10) {
-        const statusCmd = `curl -s -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs/${run.id}"`
-        const statusResult = await runCommand(statusCmd, repoPath)
-        const runStatus = JSON.parse(statusResult)
+      if (run.status !== "completed") {
+        console.log(`Canceling workflow run #${run.id}`)
+        const cancelCmd = `curl -s -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs/${run.id}/cancel"`
+        await runCommand(cancelCmd, repoPath)
         
-        if (runStatus.status === "completed" || runStatus.status === "cancelled") {
-          console.log(`Workflow run #${run.id} is now ${runStatus.status}`)
-          break
+        await new Promise(resolve => setTimeout(resolve, 3000))
+        
+        let attempts = 0
+        while (attempts < 10) {
+          const statusCmd = `curl -s -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs/${run.id}"`
+          const statusResult = await runCommand(statusCmd, repoPath)
+          const runStatus = JSON.parse(statusResult)
+          
+          if (runStatus.status === "completed") {
+            console.log(`Workflow run #${run.id} is now completed`)
+            break
+          }
+          
+          attempts++
+          await new Promise(resolve => setTimeout(resolve, 2000))
         }
-        
-        attempts++
-        await new Promise(resolve => setTimeout(resolve, 2000))
       }
       
       console.log(`Deleting workflow run #${run.id}`)
       const deleteCmd = `curl -s -X DELETE -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/repos/${owner}/${repo}/actions/runs/${run.id}"`
       await runCommand(deleteCmd, repoPath)
       
-      console.log(`Successfully cancelled and deleted workflow run #${run.id}`)
+      console.log(`Successfully processed workflow run #${run.id}`)
+      await new Promise(resolve => setTimeout(resolve, 1000))
     }
   } catch (e) {
     console.error("Cancel previous workflows failed:", e.message)
