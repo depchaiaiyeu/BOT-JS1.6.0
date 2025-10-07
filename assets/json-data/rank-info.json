@@ -1725,8 +1725,8 @@
         {
           "UserName": "Lý Bảo",
           "UID": "6418130782612367658",
-          "Rank": 75,
-          "messageCountToday": 27,
+          "Rank": 100,
+          "messageCountToday": 52,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1753,8 +1753,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 183,
-          "messageCountToday": 95,
+          "Rank": 214,
+          "messageCountToday": 126,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1809,8 +1809,8 @@
         {
           "UserName": "Thiên Phúc",
           "UID": "6078954320375605607",
-          "Rank": 50,
-          "messageCountToday": 12,
+          "Rank": 52,
+          "messageCountToday": 14,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2416,6 +2416,13 @@
           "UID": "6372955719969556554",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Trưởng Tộc Chó",
+          "UID": "2577252855236527871",
+          "Rank": 3,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-07"
         }
       ],
