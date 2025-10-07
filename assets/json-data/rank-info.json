@@ -1021,8 +1021,8 @@
         {
           "UserName": "Văn Tám",
           "UID": "5739927769350407827",
-          "Rank": 11,
-          "messageCountToday": 3,
+          "Rank": 12,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1154,8 +1154,8 @@
         {
           "UserName": "Mai Quoc Trieu",
           "UID": "7251491771286693785",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1526,8 +1526,8 @@
         {
           "UserName": "Hiếu",
           "UID": "5665338112475148452",
-          "Rank": 9,
-          "messageCountToday": 6,
+          "Rank": 10,
+          "messageCountToday": 7,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1760,8 +1760,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 221,
-          "messageCountToday": 133,
+          "Rank": 222,
+          "messageCountToday": 134,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2020,6 +2020,13 @@
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Trương Trung Hiếu",
+          "UID": "6732399446854160981",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
         }
       ],
       "nameGroup": "Việt Nam"
@@ -2246,8 +2253,8 @@
         {
           "UserName": "Trung Trí",
           "UID": "450249133712562180",
-          "Rank": 3,
-          "messageCountToday": 3,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2670,6 +2677,13 @@
           "UID": "6351844561347288861",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Ngọc Sang",
+          "UID": "6657517763634682207",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
         }
       ],
