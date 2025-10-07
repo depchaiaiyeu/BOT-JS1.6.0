@@ -27898,5 +27898,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759850927584": {
+    "timestamp": "1759850927613",
+    "timestampString": "22:28:48",
+    "msgId": "7092479411008",
+    "cliMsgId": "1759850927584",
+    "msgType": "webchat",
+    "uidFrom": "5797048306653413960",
+    "idTo": "5975420422762749911",
+    "dName": "Huy",
+    "content": {
+      "title": "Huy\n/-li H w H /-li\nĐã tiếp nhận lệnh spam sms!\nTiến hành phát động spam sms đến số điện thoại 0988467271!\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":4,\"len\":15,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
