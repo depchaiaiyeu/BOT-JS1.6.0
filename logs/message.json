@@ -25029,5 +25029,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "105590898944100": {
+    "timestamp": "1759848315765",
+    "timestampString": "21:45:16",
+    "msgId": "7092348748254",
+    "cliMsgId": "105590898944100",
+    "msgType": "webchat",
+    "uidFrom": "5498985111158029675",
+    "idTo": "5601607522756268167",
+    "dName": "Văn Nguyễn",
+    "content": "https://zalo.me/g/czozqm337",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
