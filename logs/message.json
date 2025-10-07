@@ -28638,5 +28638,42 @@
     "threadId": "4582721331431294882",
     "type": 1,
     "isUndo": false
+  },
+  "1759851246531": {
+    "timestamp": "1759851246622",
+    "timestampString": "22:34:07",
+    "msgId": "7092492925528",
+    "cliMsgId": "1759851246531",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": ">unmute @Võ Thanh Vinh",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "105591074818800": {
+    "timestamp": "1759851247158",
+    "timestampString": "22:34:08",
+    "msgId": "7092492944167",
+    "cliMsgId": "105591074818800",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/3067153622195284932/ae494e6e1c2a9174c83b.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/3067153622195284932/ae494e6e1c2a9174c83b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":630,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/3067153622195284932\\/ae494e6e1c2a9174c83b.jpg\",\"hdSize\":344622,\"height\":220}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
