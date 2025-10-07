@@ -19,8 +19,6 @@ import { handleSendHeroSkinDetail } from "../servises/LQM-General.js";
 import { handleSendLOLChampionDetail } from "../servises/LOL.General.js";
 import { handleSendHH3DEpisode } from "./video/yanhh3d-phim3d.js";
 import { handleSendSubNhanhChillEpisode } from "./video/subnhanhchill.net.js";
-import { handleSendMemeSticker } from "./meme/sticker.js";
-
 const TIME_TO_SELECT = 60000;
 export const selectionsMapData = new LRUCache({
   max: 500,
@@ -101,8 +99,6 @@ export async function checkReplySelectionsMapData(api, message) {
         return await handleSendTrackSoundCloud(api, message, media);
       case "nhaccuatui":
         return await handleSendTrackNhacCuaTui(api, message, media);
-      case "meme":
-        return await handleSendMemeSticker(api, message, media);
       case "youtube":
         const videoPath = null;
         try {
