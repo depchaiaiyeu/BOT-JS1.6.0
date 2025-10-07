@@ -12349,5 +12349,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759840294793": {
+    "timestamp": "1759840294898",
+    "timestampString": "19:31:36",
+    "msgId": "7091856162770",
+    "cliMsgId": "1759840294793",
+    "msgType": "webchat",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": "@Tạ Khôi Nguyên ai đoy",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
