@@ -29387,5 +29387,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759851494669": {
+    "timestamp": "1759851494831",
+    "timestampString": "22:38:15",
+    "msgId": "7092502905722",
+    "cliMsgId": "1759851494669",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "@Văn Tám sao",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851496271": {
+    "timestamp": "1759851496402",
+    "timestampString": "22:38:16",
+    "msgId": "7092502967176",
+    "cliMsgId": "1759851496271",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "Gay",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
