@@ -1908,7 +1908,8 @@
       "active": true,
       "alias": [
         "svc",
-        "sendvoice"
+        "sendvoice",
+        "svdl"
       ]
     },
     {

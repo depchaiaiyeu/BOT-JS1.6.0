@@ -29262,5 +29262,102 @@
     "threadId": "4582721331431294882",
     "type": 1,
     "isUndo": false
+  },
+  "1759851412362": {
+    "timestamp": "1759851412461",
+    "timestampString": "22:36:54",
+    "msgId": "7092499646851",
+    "cliMsgId": "1759851412362",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".sendvoicedownload",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851413938": {
+    "timestamp": "1759851414081",
+    "timestampString": "22:36:54",
+    "msgId": "7092499706860",
+    "cliMsgId": "1759851413938",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n📢 Danh sách voice có sẵn:\n1. phải chịu\n\n📌 Dùng lệnh: `.sendvoicedownload <số hoặc tên>` để phát.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":98,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851422728": {
+    "timestamp": "1759851422779",
+    "timestampString": "22:37:03",
+    "msgId": "7092500055583",
+    "cliMsgId": "1759851422728",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".alias add sendvoicedownload svdl",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851423613": {
+    "timestamp": "1759851423752",
+    "timestampString": "22:37:04",
+    "msgId": "7092500088578",
+    "cliMsgId": "1759851423613",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nĐã thêm alias \"svdl\" cho lệnh \"sendvoicedownload\"",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851428472": {
+    "timestamp": "1759851428943",
+    "timestampString": "22:37:09",
+    "msgId": "7092500300097",
+    "cliMsgId": "1759851428472",
+    "msgType": "chat.photo",
+    "uidFrom": "835161430457810348",
+    "idTo": "4825567233436439756",
+    "dName": "Trung",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/b9c49f2d5cbdfde3a4ac/3116065202297471677?createby=NDQ_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/b9c49f2d5cbdfde3a4ac/3116065202297471677?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":760,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759851274989\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/b9c49f2d5cbdfde3a4ac\\/3116065202297471677?createby=NDQ_Bot.webp\",\"width\":512,\"height\":760,\"thumb\":\"\"},\"contentId\":\"1759851274989\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
