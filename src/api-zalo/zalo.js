@@ -18,9 +18,7 @@ import { undoMessageFactory } from "./apis/undoMessage.js";
 import { uploadAttachmentFactory } from "./apis/uploadAttachment.js";
 import { checkUpdate } from "./update.js";
 import { sendMessageFactory } from "./apis/sendMessage.js";
-
 import { sendMessageFactoryv1 } from "./apis/sendMessagebug.js";
-
 import { getCookieFactory } from "./apis/getCookie.js";
 import { removeMessageFactory } from "./apis/deleteMessage.js";
 import { getUserInfoFactory } from "./apis/getUserInfo.js";
@@ -57,14 +55,14 @@ import { sendImageFactory } from "./apis/sendImage.js";
 import { sendFileFactory } from "./apis/sendFile.js";
 import { uploadThumbnailFactory } from "./apis/uploadThumbnail.js";
 import { addFriendFactory } from "./apis/addFriend.js";
-import { sendVideov2Factory} from "./apis/sendVideov2.js";
+import { sendVideov2Factory } from "./apis/sendVideov2.js";
 import { updateProfileAvatarFactory } from "./apis/updateProfileAvatarFactory.js";
-import { getBlockedGroupMembersFactory } from "./apis/getBlockMemberList.js"
+import { getBlockedGroupMembersFactory } from "./apis/getBlockMemberList.js";
 import { sendMessageForwardFactory } from "./apis/sendMessageForward.js";
-import { updateZaloNameFactory } from "./apis/changProfileName.js"
-import { sendCallVoiceFactory } from "./apis/SendCallVoice.js"
-
+import { updateZaloNameFactory } from "./apis/changProfileName.js";
+import { sendCallVoiceFactory } from "./apis/SendCallVoice.js";
 import { uploadToZCloudFactory } from "./apis/zcloudUploadFactory.js";
+import { callGroupFactory } from "./apis/callGroup.js"; // ✅ thêm dòng này
 
 class Zalo {
   constructor(credentials, options) {
@@ -179,6 +177,7 @@ class API {
     this.updateZaloName = updateZaloNameFactory(this);
     this.sendCallVoice = sendCallVoiceFactory(this);
     this.uploadToZCloud = uploadToZCloudFactory(this);
+    this.callGroup = callGroupFactory(this); // ✅ thêm dòng này
   }
 }
 
