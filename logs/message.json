@@ -12247,5 +12247,70 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759840139577": {
+    "timestamp": "1759840139612",
+    "timestampString": "19:29:00",
+    "msgId": "7091846735465",
+    "cliMsgId": "1759840139577",
+    "msgType": "webchat",
+    "uidFrom": "8646465673655380165",
+    "idTo": "8281509084603580118",
+    "dName": "Tạ Khôi Nguyên",
+    "content": "@Nhon T chào m mà",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840142099": {
+    "timestamp": "1759840142160",
+    "timestampString": "19:29:02",
+    "msgId": "7091846888520",
+    "cliMsgId": "1759840142099",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "@N D Q ít mà",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840145326": {
+    "timestamp": "1759840145506",
+    "timestampString": "19:29:06",
+    "msgId": "7091847081611",
+    "cliMsgId": "1759840145326",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2275317996891696552",
+    "dName": "Vũ Xuân Kiên",
+    "content": "vc jv",
+    "threadId": "2275317996891696552",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759840147556": {
+    "timestamp": "1759840147621",
+    "timestampString": "19:29:08",
+    "msgId": "7091847217982",
+    "cliMsgId": "1759840147556",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "2275317996891696552",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f21-zpc.zdn.vn/7272876007445374585/c337e009f6027c5c2513.png",
+      "thumb": "https://f21-zpc.zdn.vn/7272876007445374585/c337e009f6027c5c2513.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758552106371\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f19-zpc.zdn.vn\\/8361776375339299181\\/baeb28d53edeb480edcf.webp\",\"width\":256,\"height\":256,\"thumb\":\"\"},\"contentId\":\"1758552106371\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2275317996891696552",
+    "type": 0,
+    "isUndo": false
   }
 }
