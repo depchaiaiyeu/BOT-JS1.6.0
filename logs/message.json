@@ -20555,5 +20555,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759846309945": {
+    "timestamp": "1759846309988",
+    "timestampString": "21:11:50",
+    "msgId": "7092232534842",
+    "cliMsgId": "1759846309945",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "7897564732983285154",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/810773d65555f40bad44/4757255648235607578?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/810773d65555f40bad44/4757255648235607578?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1758372133590\",\"height\":528,\"thumb_height\":528,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/810773d65555f40bad44\\/4757255648235607578?creator=Tahn_bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
