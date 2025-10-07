@@ -918,5 +918,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759838138564": {
+    "timestamp": "1759838138642",
+    "timestampString": "18:55:39",
+    "msgId": "7091728701100",
+    "cliMsgId": "1759838138564",
+    "msgType": "webchat",
+    "uidFrom": "5454656480437737609",
+    "idTo": "5975420422762749911",
+    "dName": "Offbotzl",
+    "content": "@Vũ Xuân Kiên pro code",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
