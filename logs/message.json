@@ -10946,5 +10946,101 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759839872605": {
+    "timestamp": "1759839872635",
+    "timestampString": "19:24:34",
+    "msgId": "7091830707332",
+    "cliMsgId": "1759839872605",
+    "msgType": "webchat",
+    "uidFrom": "3508206770665062036",
+    "idTo": "5975420422762749911",
+    "dName": "Ngọc Hảo",
+    "content": "Vcl",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839873256": {
+    "timestamp": "1759839873295",
+    "timestampString": "19:24:34",
+    "msgId": "7091830746749",
+    "cliMsgId": "1759839873256",
+    "msgType": "chat.sticker",
+    "uidFrom": "3508206770665062036",
+    "idTo": "5975420422762749911",
+    "dName": "Ngọc Hảo",
+    "content": {
+      "id": 46960,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839891054": {
+    "timestamp": "1759839891095",
+    "timestampString": "19:24:51",
+    "msgId": "7091831812556",
+    "cliMsgId": "1759839891054",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "kệ mọe đi",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839892780": {
+    "timestamp": "1759839892852",
+    "timestampString": "19:24:53",
+    "msgId": "7091831918300",
+    "cliMsgId": "1759839892780",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "Đức mà run nro t vô chơi đầu tiên :)))",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839895187": {
+    "timestamp": "1759839895250",
+    "timestampString": "19:24:55",
+    "msgId": "7091832060770",
+    "cliMsgId": "1759839895187",
+    "msgType": "chat.sticker",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": {
+      "id": 46953,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839898472": {
+    "timestamp": "1759839898688",
+    "timestampString": "19:24:59",
+    "msgId": "7091832265361",
+    "cliMsgId": "1759839898472",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 19826,
+      "catId": 10235,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
