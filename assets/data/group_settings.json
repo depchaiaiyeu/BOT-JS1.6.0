@@ -246,5 +246,35 @@
     "antiSticker": false,
     "autoReply": true,
     "removeLinkKeywords": false
+  },
+  "5464956150740844012": {
+    "nameGroup": "Multi AI Coder [ Chat ]",
+    "adminList": {},
+    "muteList": {
+      "-1": {
+        "name": "All Users",
+        "timeMute": -1
+      }
+    },
+    "whileList": {},
+    "activeBot": false,
+    "activeGame": false,
+    "welcomeGroup": false,
+    "byeGroup": false,
+    "antiSpam": false,
+    "filterBadWords": false,
+    "filterBot": false,
+    "removeLinks": false,
+    "learnEnabled": false,
+    "replyEnabled": false,
+    "onlyText": false,
+    "memberApprove": false,
+    "antiNude": false,
+    "whiteList": {},
+    "autoLockChat": {},
+    "antiMedia": false,
+    "antiSticker": false,
+    "autoReply": false,
+    "removeLinkKeywords": false
   }
 }
