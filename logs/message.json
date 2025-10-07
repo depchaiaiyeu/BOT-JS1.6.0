@@ -26880,5 +26880,88 @@
     "threadId": "4582721331431294882",
     "type": 1,
     "isUndo": false
+  },
+  "1759850599741": {
+    "timestamp": "1759850599883",
+    "timestampString": "22:23:20",
+    "msgId": "7092464914641",
+    "cliMsgId": "1759850599741",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "[ @Vũ Xuân Kiên ] ( Anime )\nEm có thể đưa anh đến tiệm bánh được không? Vì anh cũng muốn có một chiếc bánh Cutie giống như em vậy",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/3993264517904556577/095ef29953dcde8287cd.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/3993264517904556577/095ef29953dcde8287cd.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":739,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/3993264517904556577\\/095ef29953dcde8287cd.jpg\",\"hdSize\":85944,\"height\":800}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850604785": {
+    "timestamp": "1759850604826",
+    "timestampString": "22:23:29",
+    "msgId": "7092465138328",
+    "cliMsgId": "1759850604785",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".girl wibu",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850609399": {
+    "timestamp": "1759850609543",
+    "timestampString": "22:23:29",
+    "msgId": "7092465350181",
+    "cliMsgId": "1759850609399",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "[ @Vũ Xuân Kiên ] ( Anime )\nCho anh hỏi em một chút được không?… Anh trông em rất là quen…Anh nghĩ là? Mình có biết nhau không?(Chém với gái lạ thì chắc chắn sẽ bảo không rồi)…Thế à Trông em rất giống người yêu tương lai của anh ?",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/8060990514599466186/f8b24783e7c66a9833d7.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/8060990514599466186/f8b24783e7c66a9833d7.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":640,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/8060990514599466186\\/f8b24783e7c66a9833d7.jpg\",\"hdSize\":103668,\"height\":800}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850627749": {
+    "timestamp": "1759850629149",
+    "timestampString": "22:23:49",
+    "msgId": "7092466231440",
+    "cliMsgId": "1759850627749",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "1367422010794969537",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/kvizdf335 kêh trả tag đợi xíu lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/kvizdf335",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2d614f9d4391759850532aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMGM4ZmYwMGVmNzY4MWQzNjQ0Nzk=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"nhóm gái xinh👯\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/kvizdf335\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/7\\/3\\/d\\/d\\/22\\/120\\/b3c31f7909d98313de22b0f6e3e51810.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
