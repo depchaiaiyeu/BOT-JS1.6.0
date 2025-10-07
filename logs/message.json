@@ -27880,5 +27880,23 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759850849567": {
+    "timestamp": "1759850849597",
+    "timestampString": "22:27:30",
+    "msgId": "7092476018902",
+    "cliMsgId": "1759850849567",
+    "msgType": "chat.sticker",
+    "uidFrom": "9140305803916167139",
+    "idTo": "4825567233436439756",
+    "dName": "Công Tước Rau Má",
+    "content": {
+      "id": 42830,
+      "catId": 11752,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
