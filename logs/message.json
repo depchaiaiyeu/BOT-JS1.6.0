@@ -932,5 +932,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "105590289408300": {
+    "timestamp": "1759838157072",
+    "timestampString": "18:55:57",
+    "msgId": "7091729740561",
+    "cliMsgId": "105590289408300",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Nguyễn Đức Quốc Vương",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/2221966721466264885/edcbbf3c098783d9da96.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/2221966721466264885/edcbbf3c098783d9da96.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/2221966721466264885\\/edcbbf3c098783d9da96.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759838163066": {
+    "timestamp": "1759838163136",
+    "timestampString": "18:56:04",
+    "msgId": "7091730107946",
+    "cliMsgId": "1759838163066",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Vũ Xuân Kiên nó thêm ttl xong ẩn mẹ tn=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
