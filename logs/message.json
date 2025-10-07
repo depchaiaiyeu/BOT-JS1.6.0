@@ -28823,5 +28823,79 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759851304439": {
+    "timestamp": "1759851304488",
+    "timestampString": "22:35:05",
+    "msgId": "7092495317593",
+    "cliMsgId": "1759851304439",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "!svc",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851303890": {
+    "timestamp": "1759851304715",
+    "timestampString": "22:35:05",
+    "msgId": "7092495320120",
+    "cliMsgId": "1759851303890",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Vũ Xuân Kiên\nVui lòng reply vào voice hoặc nhập link,\nHoặc dùng lệnh: \"!svc list\" để xem danh sách voice đã lưu trữ trong thư mục voice!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":123,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851309193": {
+    "timestamp": "1759851309222",
+    "timestampString": "22:35:09",
+    "msgId": "7092495509349",
+    "cliMsgId": "1759851309193",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "!svc list",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851315743": {
+    "timestamp": "1759851316568",
+    "timestampString": "22:35:17",
+    "msgId": "7092495807334",
+    "cliMsgId": "1759851315743",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Vũ Xuân Kiên\nĐây là những voice đã lưu trữ:\n1. anh Quý siu cấp đẹp troai.aac\n2. Bình Yên & An Nhiên.mp3\n3. Flop thì tag tên anh vào.mp3\n4. Giao Hưởng - Mưa Đỏ - Cut 2.aac\n5. giận.aac\n6. Hoàng gống voice 1.aac\n7. Hôm qua Hoàng gay vãi.aac\n8. kuuuu.aac\n9. Kìn chá nà nin nín nin nìn nin =)).aac\n10. nín.aac\n11. OST Phàm Nhân Tu Tiên Begin - Bất Phàm.aac\n12. OST Phàm Nhân Tu Tiên Ending.aac\n13. phải chịu.aac\n14. thap drill tu do.aac\n15. trap girl tu do.aac\n16. Trần Ân Ân gâu gâu gâu.aac\n17. Tự Hào Màu Áo Lính.aac\n18. Đoá Phù Dung Cuối Cùng.aac\n19. Định Gay.aac\n\nDùng lệnh: !svc <số thứ tự voice> để gửi voice",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":596,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
