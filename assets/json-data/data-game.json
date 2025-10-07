@@ -4,8 +4,19 @@
     "history": []
   },
   "chanle": {
-    "jackpot": "1000000",
-    "history": []
+    "jackpot": "4700000001000470",
+    "history": [
+      {
+        "dice": [
+          6,
+          2,
+          3
+        ],
+        "total": 11,
+        "result": "le",
+        "timestamp": 1759816101976
+      }
+    ]
   },
   "taixiu": {
     "activeThreads": [],
