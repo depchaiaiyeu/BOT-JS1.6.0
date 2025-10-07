@@ -24317,5 +24317,70 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759847856322": {
+    "timestamp": "1759847856383",
+    "timestampString": "21:37:37",
+    "msgId": "7092323230415",
+    "cliMsgId": "1759847856322",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Ảnh như mấy thằng 2021",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847858560": {
+    "timestamp": "1759847858652",
+    "timestampString": "21:37:38",
+    "msgId": "7092323359650",
+    "cliMsgId": "1759847858560",
+    "msgType": "chat.photo",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/8182753676865133113/dcc9d5527ee8f4b6adf9.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/8182753676865133113/dcc9d5527ee8f4b6adf9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":320,\"contentId\":\"788D4456-7FBD-4035-8948-6B31D0ECCF271\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":320,\"height\":320,\"thumb_width\":320}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847873891": {
+    "timestamp": "1759847873923",
+    "timestampString": "21:37:54",
+    "msgId": "7092324215086",
+    "cliMsgId": "1759847873891",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...chat chửi paimon",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847879225": {
+    "timestamp": "1759847879102",
+    "timestampString": "21:37:59",
+    "msgId": "7092324490782",
+    "cliMsgId": "1759847879225",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "🚦@̀nguyễn Duy Khang\nPaimon hả? Con bé lùn tịt, lúc nào cx \"Paimon là bạn đồng hành tốt nhất của bạn!\", mà toàn ăn hại, suốt ngày đòi ăn thôi. Khó ưa vãi! 🤪",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
