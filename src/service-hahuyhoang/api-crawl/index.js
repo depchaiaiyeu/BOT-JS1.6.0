@@ -19,6 +19,7 @@ import { handleSendHeroSkinDetail } from "../servises/LQM-General.js";
 import { handleSendLOLChampionDetail } from "../servises/LOL.General.js";
 import { handleSendHH3DEpisode } from "./video/yanhh3d-phim3d.js";
 import { handleSendSubNhanhChillEpisode } from "./video/subnhanhchill.net.js";
+import { handleSendMeme } from "./image/meme.js";
 const TIME_TO_SELECT = 60000;
 export const selectionsMapData = new LRUCache({
   max: 500,
@@ -124,6 +125,8 @@ export async function checkReplySelectionsMapData(api, message) {
           senderName
         });
         return true;
+      case "tenor":
+        return await handleSendMeme(api, message, media);
     }
   }
   return false;
