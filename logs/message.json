@@ -462,5 +462,56 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759837799518": {
+    "timestamp": "1759837799512",
+    "timestampString": "18:50:00",
+    "msgId": "7091709357638",
+    "cliMsgId": "1759837799518",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Offbotzl tự làm đi này gpt làm cho t đó=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759837802371": {
+    "timestamp": "1759837802420",
+    "timestampString": "18:50:02",
+    "msgId": "7091709522476",
+    "cliMsgId": "1759837802371",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "_ms3 chong đèn canh thâu",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759837802525": {
+    "timestamp": "1759837803403",
+    "timestampString": "18:50:03",
+    "msgId": "7091709574528",
+    "cliMsgId": "1759837802525",
+    "msgType": "chat.photo",
+    "uidFrom": "7301593777778741359",
+    "idTo": "4825567233436439756",
+    "dName": "Mighty",
+    "content": {
+      "title": "@N D Q\nĐây là danh sách bài hát trên ZingMP3 mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn nghe!\nVD: 1 hoặc 1 lyric|lossless|timelyric...",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/2494826572758632068/2530dafb5f40d51e8c51.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/2494826572758632068/2530dafb5f40d51e8c51.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":547,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/2494826572758632068\\/2530dafb5f40d51e8c51.jpg\",\"hdSize\":43212,\"height\":180}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
