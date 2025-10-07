@@ -13579,5 +13579,4042 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759840503397": {
+    "timestamp": "1759840503436",
+    "timestampString": "19:35:04",
+    "msgId": "7091868778502",
+    "cliMsgId": "1759840503397",
+    "msgType": "webchat",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": "@Ngo Binh An ngu lồn câm em",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840504298": {
+    "timestamp": "1759840504425",
+    "timestampString": "19:35:04",
+    "msgId": "7091868819897",
+    "cliMsgId": "1759840504298",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840503397,
+        "globalDelMsgId": 7091868778502,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840506642": {
+    "timestamp": "1759840506715",
+    "timestampString": "19:35:07",
+    "msgId": "7091868976820",
+    "cliMsgId": "1759840506642",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Trung Trí ,",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840507363": {
+    "timestamp": "1759840507489",
+    "timestampString": "19:35:07",
+    "msgId": "7091869010378",
+    "cliMsgId": "1759840507363",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nNếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n,help - Xem các lệnh cơ bản\n,game - Xem các lệnh game\n,command - Xem toàn bộ danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840506814": {
+    "timestamp": "1759840506854",
+    "timestampString": "19:35:08",
+    "msgId": "7091868984379",
+    "cliMsgId": "1759840506814",
+    "msgType": "webchat",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": "cc",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840507741": {
+    "timestamp": "1759840507874",
+    "timestampString": "19:35:08",
+    "msgId": "7091869033860",
+    "cliMsgId": "1759840507741",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840506814,
+        "globalDelMsgId": 7091868984379,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840509580": {
+    "timestamp": "1759840509615",
+    "timestampString": "19:35:10",
+    "msgId": "7091869153138",
+    "cliMsgId": "1759840509580",
+    "msgType": "webchat",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": "c",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840509986": {
+    "timestamp": "1759840510118",
+    "timestampString": "19:35:10",
+    "msgId": "7091869142133",
+    "cliMsgId": "1759840509986",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840509580,
+        "globalDelMsgId": 7091869153138,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840515500": {
+    "timestamp": "1759840515574",
+    "timestampString": "19:35:16",
+    "msgId": "7091869513132",
+    "cliMsgId": "1759840515500",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840515675": {
+    "timestamp": "1759840515718",
+    "timestampString": "19:35:16",
+    "msgId": "7091869522612",
+    "cliMsgId": "1759840515675",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516460": {
+    "timestamp": "1759840516591",
+    "timestampString": "19:35:16",
+    "msgId": "7091869557940",
+    "cliMsgId": "1759840516460",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840515500,
+        "globalDelMsgId": 7091869513132,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840515822": {
+    "timestamp": "1759840515865",
+    "timestampString": "19:35:16",
+    "msgId": "7091869531846",
+    "cliMsgId": "1759840515822",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840515992": {
+    "timestamp": "1759840516035",
+    "timestampString": "19:35:17",
+    "msgId": "7091869541984",
+    "cliMsgId": "1759840515992",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516627": {
+    "timestamp": "1759840516759",
+    "timestampString": "19:35:17",
+    "msgId": "7091869557960",
+    "cliMsgId": "1759840516627",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840515675,
+        "globalDelMsgId": 7091869522612,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516068": {
+    "timestamp": "1759840516121",
+    "timestampString": "19:35:17",
+    "msgId": "7091869546388",
+    "cliMsgId": "1759840516068",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516727": {
+    "timestamp": "1759840516855",
+    "timestampString": "19:35:17",
+    "msgId": "7091869557971",
+    "cliMsgId": "1759840516727",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840515822,
+        "globalDelMsgId": 7091869531846,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516187": {
+    "timestamp": "1759840516241",
+    "timestampString": "19:35:17",
+    "msgId": "7091869552735",
+    "cliMsgId": "1759840516187",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516883": {
+    "timestamp": "1759840517009",
+    "timestampString": "19:35:17",
+    "msgId": "7091869602774",
+    "cliMsgId": "1759840516883",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840515992,
+        "globalDelMsgId": 7091869541984,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516973": {
+    "timestamp": "1759840517101",
+    "timestampString": "19:35:17",
+    "msgId": "7091869602795",
+    "cliMsgId": "1759840516973",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516068,
+        "globalDelMsgId": 7091869546388,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516345": {
+    "timestamp": "1759840516375",
+    "timestampString": "19:35:17",
+    "msgId": "7091869564231",
+    "cliMsgId": "1759840516345",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516896": {
+    "timestamp": "1759840516925",
+    "timestampString": "19:35:17",
+    "msgId": "7091869596427",
+    "cliMsgId": "1759840516896",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517102": {
+    "timestamp": "1759840517230",
+    "timestampString": "19:35:17",
+    "msgId": "7091869602809",
+    "cliMsgId": "1759840517102",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516187,
+        "globalDelMsgId": 7091869552735,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516498": {
+    "timestamp": "1759840516550",
+    "timestampString": "19:35:17",
+    "msgId": "7091869573599",
+    "cliMsgId": "1759840516498",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517235": {
+    "timestamp": "1759840517362",
+    "timestampString": "19:35:17",
+    "msgId": "7091869602829",
+    "cliMsgId": "1759840517235",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516345,
+        "globalDelMsgId": 7091869564231,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516606": {
+    "timestamp": "1759840516664",
+    "timestampString": "19:35:17",
+    "msgId": "7091869580392",
+    "cliMsgId": "1759840516606",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517327": {
+    "timestamp": "1759840517458",
+    "timestampString": "19:35:17",
+    "msgId": "7091869602837",
+    "cliMsgId": "1759840517327",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516896,
+        "globalDelMsgId": 7091869596427,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517415": {
+    "timestamp": "1759840517543",
+    "timestampString": "19:35:17",
+    "msgId": "7091869602854",
+    "cliMsgId": "1759840517415",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516498,
+        "globalDelMsgId": 7091869573599,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840516759": {
+    "timestamp": "1759840516803",
+    "timestampString": "19:35:17",
+    "msgId": "7091869589995",
+    "cliMsgId": "1759840516759",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517315": {
+    "timestamp": "1759840517356",
+    "timestampString": "19:35:17",
+    "msgId": "7091869622550",
+    "cliMsgId": "1759840517315",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517554": {
+    "timestamp": "1759840517693",
+    "timestampString": "19:35:18",
+    "msgId": "7091869644053",
+    "cliMsgId": "1759840517554",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516606,
+        "globalDelMsgId": 7091869580392,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517465": {
+    "timestamp": "1759840517509",
+    "timestampString": "19:35:18",
+    "msgId": "7091869631030",
+    "cliMsgId": "1759840517465",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517684": {
+    "timestamp": "1759840517811",
+    "timestampString": "19:35:18",
+    "msgId": "7091869644090",
+    "cliMsgId": "1759840517684",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840516759,
+        "globalDelMsgId": 7091869589995,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517735": {
+    "timestamp": "1759840517862",
+    "timestampString": "19:35:18",
+    "msgId": "7091869644097",
+    "cliMsgId": "1759840517735",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840517315,
+        "globalDelMsgId": 7091869622550,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517596": {
+    "timestamp": "1759840517625",
+    "timestampString": "19:35:18",
+    "msgId": "7091869639246",
+    "cliMsgId": "1759840517596",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517699": {
+    "timestamp": "1759840517729",
+    "timestampString": "19:35:18",
+    "msgId": "7091869645604",
+    "cliMsgId": "1759840517699",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517905": {
+    "timestamp": "1759840518033",
+    "timestampString": "19:35:18",
+    "msgId": "7091869644119",
+    "cliMsgId": "1759840517905",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840517465,
+        "globalDelMsgId": 7091869631030,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518005": {
+    "timestamp": "1759840518131",
+    "timestampString": "19:35:18",
+    "msgId": "7091869644135",
+    "cliMsgId": "1759840518005",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840517596,
+        "globalDelMsgId": 7091869639246,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840517872": {
+    "timestamp": "1759840517913",
+    "timestampString": "19:35:18",
+    "msgId": "7091869657867",
+    "cliMsgId": "1759840517872",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518118": {
+    "timestamp": "1759840518250",
+    "timestampString": "19:35:18",
+    "msgId": "7091869677000",
+    "cliMsgId": "1759840518118",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840517699,
+        "globalDelMsgId": 7091869645604,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518008": {
+    "timestamp": "1759840518032",
+    "timestampString": "19:35:18",
+    "msgId": "7091869662623",
+    "cliMsgId": "1759840518008",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518295": {
+    "timestamp": "1759840518423",
+    "timestampString": "19:35:18",
+    "msgId": "7091869677023",
+    "cliMsgId": "1759840518295",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840517872,
+        "globalDelMsgId": 7091869657867,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518139": {
+    "timestamp": "1759840518170",
+    "timestampString": "19:35:18",
+    "msgId": "7091869671791",
+    "cliMsgId": "1759840518139",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518421": {
+    "timestamp": "1759840518557",
+    "timestampString": "19:35:18",
+    "msgId": "7091869677045",
+    "cliMsgId": "1759840518421",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518008,
+        "globalDelMsgId": 7091869662623,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518275": {
+    "timestamp": "1759840518328",
+    "timestampString": "19:35:18",
+    "msgId": "7091869680154",
+    "cliMsgId": "1759840518275",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518558": {
+    "timestamp": "1759840518685",
+    "timestampString": "19:35:19",
+    "msgId": "7091869677065",
+    "cliMsgId": "1759840518558",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518139,
+        "globalDelMsgId": 7091869671791,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518433": {
+    "timestamp": "1759840518495",
+    "timestampString": "19:35:19",
+    "msgId": "7091869690278",
+    "cliMsgId": "1759840518433",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518711": {
+    "timestamp": "1759840518839",
+    "timestampString": "19:35:19",
+    "msgId": "7091869712787",
+    "cliMsgId": "1759840518711",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518275,
+        "globalDelMsgId": 7091869680154,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518538": {
+    "timestamp": "1759840518595",
+    "timestampString": "19:35:19",
+    "msgId": "7091869697415",
+    "cliMsgId": "1759840518538",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518863": {
+    "timestamp": "1759840518990",
+    "timestampString": "19:35:19",
+    "msgId": "7091869712812",
+    "cliMsgId": "1759840518863",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518433,
+        "globalDelMsgId": 7091869690278,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518699": {
+    "timestamp": "1759840518734",
+    "timestampString": "19:35:19",
+    "msgId": "7091869706421",
+    "cliMsgId": "1759840518699",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518975": {
+    "timestamp": "1759840519106",
+    "timestampString": "19:35:19",
+    "msgId": "7091869712827",
+    "cliMsgId": "1759840518975",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518538,
+        "globalDelMsgId": 7091869697415,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518842": {
+    "timestamp": "1759840518894",
+    "timestampString": "19:35:19",
+    "msgId": "7091869715499",
+    "cliMsgId": "1759840518842",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519153": {
+    "timestamp": "1759840519281",
+    "timestampString": "19:35:19",
+    "msgId": "7091869712846",
+    "cliMsgId": "1759840519153",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518699,
+        "globalDelMsgId": 7091869706421,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840518992": {
+    "timestamp": "1759840519029",
+    "timestampString": "19:35:19",
+    "msgId": "7091869724338",
+    "cliMsgId": "1759840518992",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519264": {
+    "timestamp": "1759840519400",
+    "timestampString": "19:35:19",
+    "msgId": "7091869712859",
+    "cliMsgId": "1759840519264",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518842,
+        "globalDelMsgId": 7091869715499,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519145": {
+    "timestamp": "1759840519183",
+    "timestampString": "19:35:19",
+    "msgId": "7091869732541",
+    "cliMsgId": "1759840519145",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519407": {
+    "timestamp": "1759840519534",
+    "timestampString": "19:35:19",
+    "msgId": "7091869712876",
+    "cliMsgId": "1759840519407",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840518992,
+        "globalDelMsgId": 7091869724338,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519287": {
+    "timestamp": "1759840519323",
+    "timestampString": "19:35:19",
+    "msgId": "7091869741437",
+    "cliMsgId": "1759840519287",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519553": {
+    "timestamp": "1759840519681",
+    "timestampString": "19:35:20",
+    "msgId": "7091869761746",
+    "cliMsgId": "1759840519553",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840519145,
+        "globalDelMsgId": 7091869732541,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519445": {
+    "timestamp": "1759840519484",
+    "timestampString": "19:35:20",
+    "msgId": "7091869750699",
+    "cliMsgId": "1759840519445",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519702": {
+    "timestamp": "1759840519829",
+    "timestampString": "19:35:20",
+    "msgId": "7091869761770",
+    "cliMsgId": "1759840519702",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840519287,
+        "globalDelMsgId": 7091869741437,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519579": {
+    "timestamp": "1759840519617",
+    "timestampString": "19:35:20",
+    "msgId": "7091869758454",
+    "cliMsgId": "1759840519579",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519891": {
+    "timestamp": "1759840520022",
+    "timestampString": "19:35:20",
+    "msgId": "7091869761805",
+    "cliMsgId": "1759840519891",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840519445,
+        "globalDelMsgId": 7091869750699,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519757": {
+    "timestamp": "1759840519792",
+    "timestampString": "19:35:20",
+    "msgId": "7091869769139",
+    "cliMsgId": "1759840519757",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519992": {
+    "timestamp": "1759840520019",
+    "timestampString": "19:35:20",
+    "msgId": "7091869784553",
+    "cliMsgId": "1759840519992",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840519847": {
+    "timestamp": "1759840519909",
+    "timestampString": "19:35:20",
+    "msgId": "7091869776018",
+    "cliMsgId": "1759840519847",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520196": {
+    "timestamp": "1759840520323",
+    "timestampString": "19:35:20",
+    "msgId": "7091869796166",
+    "cliMsgId": "1759840520196",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840519757,
+        "globalDelMsgId": 7091869769139,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520272": {
+    "timestamp": "1759840520408",
+    "timestampString": "19:35:20",
+    "msgId": "7091869796181",
+    "cliMsgId": "1759840520272",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840519847,
+        "globalDelMsgId": 7091869776018,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520134": {
+    "timestamp": "1759840520177",
+    "timestampString": "19:35:20",
+    "msgId": "7091869792768",
+    "cliMsgId": "1759840520134",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520405": {
+    "timestamp": "1759840520536",
+    "timestampString": "19:35:20",
+    "msgId": "7091869796203",
+    "cliMsgId": "1759840520405",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840519992,
+        "globalDelMsgId": 7091869784553,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520280": {
+    "timestamp": "1759840520308",
+    "timestampString": "19:35:21",
+    "msgId": "7091869802496",
+    "cliMsgId": "1759840520280",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520619": {
+    "timestamp": "1759840520745",
+    "timestampString": "19:35:21",
+    "msgId": "7091869796230",
+    "cliMsgId": "1759840520619",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840520134,
+        "globalDelMsgId": 7091869792768,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520422": {
+    "timestamp": "1759840520469",
+    "timestampString": "19:35:21",
+    "msgId": "7091869811807",
+    "cliMsgId": "1759840520422",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520737": {
+    "timestamp": "1759840520865",
+    "timestampString": "19:35:21",
+    "msgId": "7091869796242",
+    "cliMsgId": "1759840520737",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840520280,
+        "globalDelMsgId": 7091869802496,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520583": {
+    "timestamp": "1759840520625",
+    "timestampString": "19:35:21",
+    "msgId": "7091869819475",
+    "cliMsgId": "1759840520583",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520720": {
+    "timestamp": "1759840520747",
+    "timestampString": "19:35:21",
+    "msgId": "7091869827732",
+    "cliMsgId": "1759840520720",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520886": {
+    "timestamp": "1759840521014",
+    "timestampString": "19:35:21",
+    "msgId": "7091869841393",
+    "cliMsgId": "1759840520886",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840520422,
+        "globalDelMsgId": 7091869811807,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520999": {
+    "timestamp": "1759840521126",
+    "timestampString": "19:35:21",
+    "msgId": "7091869841407",
+    "cliMsgId": "1759840520999",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840520583,
+        "globalDelMsgId": 7091869819475,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840520877": {
+    "timestamp": "1759840520917",
+    "timestampString": "19:35:21",
+    "msgId": "7091869837764",
+    "cliMsgId": "1759840520877",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521121": {
+    "timestamp": "1759840521248",
+    "timestampString": "19:35:21",
+    "msgId": "7091869841422",
+    "cliMsgId": "1759840521121",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840520720,
+        "globalDelMsgId": 7091869827732,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521016": {
+    "timestamp": "1759840521052",
+    "timestampString": "19:35:21",
+    "msgId": "7091869845549",
+    "cliMsgId": "1759840521016",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521349": {
+    "timestamp": "1759840521481",
+    "timestampString": "19:35:21",
+    "msgId": "7091869841455",
+    "cliMsgId": "1759840521349",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840520877,
+        "globalDelMsgId": 7091869837764,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521167": {
+    "timestamp": "1759840521220",
+    "timestampString": "19:35:21",
+    "msgId": "7091869857657",
+    "cliMsgId": "1759840521167",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521443": {
+    "timestamp": "1759840521579",
+    "timestampString": "19:35:21",
+    "msgId": "7091869841461",
+    "cliMsgId": "1759840521443",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521016,
+        "globalDelMsgId": 7091869845549,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521342": {
+    "timestamp": "1759840521371",
+    "timestampString": "19:35:22",
+    "msgId": "7091869866088",
+    "cliMsgId": "1759840521342",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521433": {
+    "timestamp": "1759840521487",
+    "timestampString": "19:35:22",
+    "msgId": "7091869873415",
+    "cliMsgId": "1759840521433",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521640": {
+    "timestamp": "1759840521768",
+    "timestampString": "19:35:22",
+    "msgId": "7091869841483",
+    "cliMsgId": "1759840521640",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521167,
+        "globalDelMsgId": 7091869857657,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521581": {
+    "timestamp": "1759840521609",
+    "timestampString": "19:35:22",
+    "msgId": "7091869880989",
+    "cliMsgId": "1759840521581",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521749": {
+    "timestamp": "1759840521877",
+    "timestampString": "19:35:22",
+    "msgId": "7091869892878",
+    "cliMsgId": "1759840521749",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521342,
+        "globalDelMsgId": 7091869866088,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521871": {
+    "timestamp": "1759840522003",
+    "timestampString": "19:35:22",
+    "msgId": "7091869892898",
+    "cliMsgId": "1759840521871",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521433,
+        "globalDelMsgId": 7091869873415,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521734": {
+    "timestamp": "1759840521780",
+    "timestampString": "19:35:22",
+    "msgId": "7091869890197",
+    "cliMsgId": "1759840521734",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522009": {
+    "timestamp": "1759840522136",
+    "timestampString": "19:35:22",
+    "msgId": "7091869892918",
+    "cliMsgId": "1759840522009",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521581,
+        "globalDelMsgId": 7091869880989,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840521867": {
+    "timestamp": "1759840521912",
+    "timestampString": "19:35:22",
+    "msgId": "7091869898833",
+    "cliMsgId": "1759840521867",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522156": {
+    "timestamp": "1759840522283",
+    "timestampString": "19:35:22",
+    "msgId": "7091869892964",
+    "cliMsgId": "1759840522156",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521734,
+        "globalDelMsgId": 7091869890197,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522004": {
+    "timestamp": "1759840522036",
+    "timestampString": "19:35:22",
+    "msgId": "7091869905374",
+    "cliMsgId": "1759840522004",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522303": {
+    "timestamp": "1759840522439",
+    "timestampString": "19:35:22",
+    "msgId": "7091869928322",
+    "cliMsgId": "1759840522303",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840521867,
+        "globalDelMsgId": 7091869898833,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522211": {
+    "timestamp": "1759840522249",
+    "timestampString": "19:35:22",
+    "msgId": "7091869918491",
+    "cliMsgId": "1759840522211",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522414": {
+    "timestamp": "1759840522541",
+    "timestampString": "19:35:22",
+    "msgId": "7091869928335",
+    "cliMsgId": "1759840522414",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522004,
+        "globalDelMsgId": 7091869905374,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522319": {
+    "timestamp": "1759840522354",
+    "timestampString": "19:35:22",
+    "msgId": "7091869924614",
+    "cliMsgId": "1759840522319",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522617": {
+    "timestamp": "1759840522744",
+    "timestampString": "19:35:23",
+    "msgId": "7091869928359",
+    "cliMsgId": "1759840522617",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522211,
+        "globalDelMsgId": 7091869918491,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522483": {
+    "timestamp": "1759840522528",
+    "timestampString": "19:35:23",
+    "msgId": "7091869934751",
+    "cliMsgId": "1759840522483",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522728": {
+    "timestamp": "1759840522861",
+    "timestampString": "19:35:23",
+    "msgId": "7091869928381",
+    "cliMsgId": "1759840522728",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522319,
+        "globalDelMsgId": 7091869924614,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522641": {
+    "timestamp": "1759840522671",
+    "timestampString": "19:35:23",
+    "msgId": "7091869944178",
+    "cliMsgId": "1759840522641",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522890": {
+    "timestamp": "1759840523019",
+    "timestampString": "19:35:23",
+    "msgId": "7091869928400",
+    "cliMsgId": "1759840522890",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522483,
+        "globalDelMsgId": 7091869934751,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522733": {
+    "timestamp": "1759840522769",
+    "timestampString": "19:35:23",
+    "msgId": "7091869950690",
+    "cliMsgId": "1759840522733",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840522908": {
+    "timestamp": "1759840522944",
+    "timestampString": "19:35:23",
+    "msgId": "7091869960041",
+    "cliMsgId": "1759840522908",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523085": {
+    "timestamp": "1759840523221",
+    "timestampString": "19:35:23",
+    "msgId": "7091869973160",
+    "cliMsgId": "1759840523085",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522641,
+        "globalDelMsgId": 7091869944178,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523050": {
+    "timestamp": "1759840523094",
+    "timestampString": "19:35:23",
+    "msgId": "7091869970413",
+    "cliMsgId": "1759840523050",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523230": {
+    "timestamp": "1759840523358",
+    "timestampString": "19:35:23",
+    "msgId": "7091869973184",
+    "cliMsgId": "1759840523230",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522733,
+        "globalDelMsgId": 7091869950690,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523346": {
+    "timestamp": "1759840523472",
+    "timestampString": "19:35:23",
+    "msgId": "7091869973201",
+    "cliMsgId": "1759840523346",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840522908,
+        "globalDelMsgId": 7091869960041,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523199": {
+    "timestamp": "1759840523243",
+    "timestampString": "19:35:23",
+    "msgId": "7091869979112",
+    "cliMsgId": "1759840523199",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523456": {
+    "timestamp": "1759840523583",
+    "timestampString": "19:35:23",
+    "msgId": "7091869973215",
+    "cliMsgId": "1759840523456",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523050,
+        "globalDelMsgId": 7091869970413,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523301": {
+    "timestamp": "1759840523341",
+    "timestampString": "19:35:23",
+    "msgId": "7091869983828",
+    "cliMsgId": "1759840523301",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523616": {
+    "timestamp": "1759840523747",
+    "timestampString": "19:35:24",
+    "msgId": "7091869973235",
+    "cliMsgId": "1759840523616",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523199,
+        "globalDelMsgId": 7091869979112,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523475": {
+    "timestamp": "1759840523521",
+    "timestampString": "19:35:24",
+    "msgId": "7091869996267",
+    "cliMsgId": "1759840523475",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523737": {
+    "timestamp": "1759840523865",
+    "timestampString": "19:35:24",
+    "msgId": "7091870016910",
+    "cliMsgId": "1759840523737",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523301,
+        "globalDelMsgId": 7091869983828,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523635": {
+    "timestamp": "1759840523665",
+    "timestampString": "19:35:24",
+    "msgId": "7091870002909",
+    "cliMsgId": "1759840523635",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523931": {
+    "timestamp": "1759840524058",
+    "timestampString": "19:35:24",
+    "msgId": "7091870016929",
+    "cliMsgId": "1759840523931",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523475,
+        "globalDelMsgId": 7091869996267,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523773": {
+    "timestamp": "1759840523813",
+    "timestampString": "19:35:24",
+    "msgId": "7091870011994",
+    "cliMsgId": "1759840523773",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524059": {
+    "timestamp": "1759840524187",
+    "timestampString": "19:35:24",
+    "msgId": "7091870016943",
+    "cliMsgId": "1759840524059",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523635,
+        "globalDelMsgId": 7091870002909,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840523930": {
+    "timestamp": "1759840523962",
+    "timestampString": "19:35:24",
+    "msgId": "7091870022850",
+    "cliMsgId": "1759840523930",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524030": {
+    "timestamp": "1759840524052",
+    "timestampString": "19:35:24",
+    "msgId": "7091870028178",
+    "cliMsgId": "1759840524030",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524189": {
+    "timestamp": "1759840524326",
+    "timestampString": "19:35:24",
+    "msgId": "7091870016957",
+    "cliMsgId": "1759840524189",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523773,
+        "globalDelMsgId": 7091870011994,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524340": {
+    "timestamp": "1759840524467",
+    "timestampString": "19:35:24",
+    "msgId": "7091870016977",
+    "cliMsgId": "1759840524340",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840523930,
+        "globalDelMsgId": 7091870022850,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524181": {
+    "timestamp": "1759840524223",
+    "timestampString": "19:35:24",
+    "msgId": "7091870039227",
+    "cliMsgId": "1759840524181",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524534": {
+    "timestamp": "1759840524571",
+    "timestampString": "19:35:24",
+    "msgId": "7091870058099",
+    "cliMsgId": "1759840524534",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "Kể mà biết đc ku Đức tới giờ cũng hay",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524334": {
+    "timestamp": "1759840524370",
+    "timestampString": "19:35:25",
+    "msgId": "7091870045525",
+    "cliMsgId": "1759840524334",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524614": {
+    "timestamp": "1759840524742",
+    "timestampString": "19:35:25",
+    "msgId": "7091870070470",
+    "cliMsgId": "1759840524614",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524181,
+        "globalDelMsgId": 7091870039227,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524485": {
+    "timestamp": "1759840524533",
+    "timestampString": "19:35:25",
+    "msgId": "7091870056887",
+    "cliMsgId": "1759840524485",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524765": {
+    "timestamp": "1759840524896",
+    "timestampString": "19:35:25",
+    "msgId": "7091870070487",
+    "cliMsgId": "1759840524765",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524334,
+        "globalDelMsgId": 7091870045525,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524664": {
+    "timestamp": "1759840524700",
+    "timestampString": "19:35:25",
+    "msgId": "7091870067079",
+    "cliMsgId": "1759840524664",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524439": {
+    "timestamp": "1759840524566",
+    "timestampString": "19:35:25",
+    "msgId": "7091870016987",
+    "cliMsgId": "1759840524439",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524030,
+        "globalDelMsgId": 7091870028178,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524900": {
+    "timestamp": "1759840525035",
+    "timestampString": "19:35:25",
+    "msgId": "7091870070509",
+    "cliMsgId": "1759840524900",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524485,
+        "globalDelMsgId": 7091870056887,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524809": {
+    "timestamp": "1759840524858",
+    "timestampString": "19:35:25",
+    "msgId": "7091870075934",
+    "cliMsgId": "1759840524809",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525076": {
+    "timestamp": "1759840525212",
+    "timestampString": "19:35:25",
+    "msgId": "7091870070532",
+    "cliMsgId": "1759840525076",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524664,
+        "globalDelMsgId": 7091870067079,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840524943": {
+    "timestamp": "1759840524982",
+    "timestampString": "19:35:25",
+    "msgId": "7091870085001",
+    "cliMsgId": "1759840524943",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525221": {
+    "timestamp": "1759840525348",
+    "timestampString": "19:35:25",
+    "msgId": "7091870070553",
+    "cliMsgId": "1759840525221",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524809,
+        "globalDelMsgId": 7091870075934,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525086": {
+    "timestamp": "1759840525117",
+    "timestampString": "19:35:25",
+    "msgId": "7091870092462",
+    "cliMsgId": "1759840525086",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525199": {
+    "timestamp": "1759840525244",
+    "timestampString": "19:35:25",
+    "msgId": "7091870099026",
+    "cliMsgId": "1759840525199",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525366": {
+    "timestamp": "1759840525494",
+    "timestampString": "19:35:25",
+    "msgId": "7091870070563",
+    "cliMsgId": "1759840525366",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840524943,
+        "globalDelMsgId": 7091870085001,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525541": {
+    "timestamp": "1759840525673",
+    "timestampString": "19:35:26",
+    "msgId": "7091870118792",
+    "cliMsgId": "1759840525541",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840525086,
+        "globalDelMsgId": 7091870092462,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525615": {
+    "timestamp": "1759840525742",
+    "timestampString": "19:35:26",
+    "msgId": "7091870118804",
+    "cliMsgId": "1759840525615",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840525199,
+        "globalDelMsgId": 7091870099026,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525480": {
+    "timestamp": "1759840525511",
+    "timestampString": "19:35:26",
+    "msgId": "7091870117379",
+    "cliMsgId": "1759840525480",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525634": {
+    "timestamp": "1759840525662",
+    "timestampString": "19:35:26",
+    "msgId": "7091870126912",
+    "cliMsgId": "1759840525634",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525899": {
+    "timestamp": "1759840526035",
+    "timestampString": "19:35:26",
+    "msgId": "7091870118845",
+    "cliMsgId": "1759840525899",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840525480,
+        "globalDelMsgId": 7091870117379,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525796": {
+    "timestamp": "1759840525821",
+    "timestampString": "19:35:26",
+    "msgId": "7091870135661",
+    "cliMsgId": "1759840525796",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526046": {
+    "timestamp": "1759840526173",
+    "timestampString": "19:35:26",
+    "msgId": "7091870118866",
+    "cliMsgId": "1759840526046",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840525634,
+        "globalDelMsgId": 7091870126912,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840525946": {
+    "timestamp": "1759840526000",
+    "timestampString": "19:35:26",
+    "msgId": "7091870145942",
+    "cliMsgId": "1759840525946",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526196": {
+    "timestamp": "1759840526323",
+    "timestampString": "19:35:26",
+    "msgId": "7091870161462",
+    "cliMsgId": "1759840526196",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840525796,
+        "globalDelMsgId": 7091870135661,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526100": {
+    "timestamp": "1759840526131",
+    "timestampString": "19:35:26",
+    "msgId": "7091870154571",
+    "cliMsgId": "1759840526100",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526364": {
+    "timestamp": "1759840526495",
+    "timestampString": "19:35:26",
+    "msgId": "7091870161481",
+    "cliMsgId": "1759840526364",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840525946,
+        "globalDelMsgId": 7091870145942,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526234": {
+    "timestamp": "1759840526266",
+    "timestampString": "19:35:26",
+    "msgId": "7091870163169",
+    "cliMsgId": "1759840526234",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526521": {
+    "timestamp": "1759840526649",
+    "timestampString": "19:35:27",
+    "msgId": "7091870161504",
+    "cliMsgId": "1759840526521",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526100,
+        "globalDelMsgId": 7091870154571,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526384": {
+    "timestamp": "1759840526414",
+    "timestampString": "19:35:27",
+    "msgId": "7091870169991",
+    "cliMsgId": "1759840526384",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526673": {
+    "timestamp": "1759840526809",
+    "timestampString": "19:35:27",
+    "msgId": "7091870161519",
+    "cliMsgId": "1759840526673",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526234,
+        "globalDelMsgId": 7091870163169,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526535": {
+    "timestamp": "1759840526582",
+    "timestampString": "19:35:27",
+    "msgId": "7091870182212",
+    "cliMsgId": "1759840526535",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526783": {
+    "timestamp": "1759840526911",
+    "timestampString": "19:35:27",
+    "msgId": "7091870161532",
+    "cliMsgId": "1759840526783",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526384,
+        "globalDelMsgId": 7091870169991,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526674": {
+    "timestamp": "1759840526715",
+    "timestampString": "19:35:27",
+    "msgId": "7091870189150",
+    "cliMsgId": "1759840526674",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526950": {
+    "timestamp": "1759840527077",
+    "timestampString": "19:35:27",
+    "msgId": "7091870207406",
+    "cliMsgId": "1759840526950",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526535,
+        "globalDelMsgId": 7091870182212,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526815": {
+    "timestamp": "1759840526846",
+    "timestampString": "19:35:27",
+    "msgId": "7091870197473",
+    "cliMsgId": "1759840526815",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527116": {
+    "timestamp": "1759840527243",
+    "timestampString": "19:35:27",
+    "msgId": "7091870207423",
+    "cliMsgId": "1759840527116",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526674,
+        "globalDelMsgId": 7091870189150,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840526973": {
+    "timestamp": "1759840527016",
+    "timestampString": "19:35:27",
+    "msgId": "7091870207032",
+    "cliMsgId": "1759840526973",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527243": {
+    "timestamp": "1759840527374",
+    "timestampString": "19:35:27",
+    "msgId": "7091870207439",
+    "cliMsgId": "1759840527243",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526815,
+        "globalDelMsgId": 7091870197473,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527136": {
+    "timestamp": "1759840527160",
+    "timestampString": "19:35:27",
+    "msgId": "7091870215956",
+    "cliMsgId": "1759840527136",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527396": {
+    "timestamp": "1759840527524",
+    "timestampString": "19:35:27",
+    "msgId": "7091870207455",
+    "cliMsgId": "1759840527396",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840526973,
+        "globalDelMsgId": 7091870207032,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527275": {
+    "timestamp": "1759840527314",
+    "timestampString": "19:35:27",
+    "msgId": "7091870223699",
+    "cliMsgId": "1759840527275",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527247": {
+    "timestamp": "1759840527320",
+    "timestampString": "19:35:27",
+    "msgId": "7091870226782",
+    "cliMsgId": "1759840527247",
+    "msgType": "webchat",
+    "uidFrom": "6483014581534343363",
+    "idTo": "5464956150740844012",
+    "dName": "Ngo Binh An",
+    "content": "Ai hỏi thg óc c v🗿",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527541": {
+    "timestamp": "1759840527676",
+    "timestampString": "19:35:28",
+    "msgId": "7091870207473",
+    "cliMsgId": "1759840527541",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527136,
+        "globalDelMsgId": 7091870215956,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527447": {
+    "timestamp": "1759840527493",
+    "timestampString": "19:35:28",
+    "msgId": "7091870234839",
+    "cliMsgId": "1759840527447",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527721": {
+    "timestamp": "1759840527848",
+    "timestampString": "19:35:28",
+    "msgId": "7091870207491",
+    "cliMsgId": "1759840527721",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527275,
+        "globalDelMsgId": 7091870223699,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527572": {
+    "timestamp": "1759840527602",
+    "timestampString": "19:35:28",
+    "msgId": "7091870244547",
+    "cliMsgId": "1759840527572",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527733": {
+    "timestamp": "1759840527861",
+    "timestampString": "19:35:28",
+    "msgId": "7091870261023",
+    "cliMsgId": "1759840527733",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6483014581534343000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527247,
+        "globalDelMsgId": 7091870226782,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527859": {
+    "timestamp": "1759840527985",
+    "timestampString": "19:35:28",
+    "msgId": "7091870261032",
+    "cliMsgId": "1759840527859",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527447,
+        "globalDelMsgId": 7091870234839,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527732": {
+    "timestamp": "1759840527777",
+    "timestampString": "19:35:28",
+    "msgId": "7091870252845",
+    "cliMsgId": "1759840527732",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527984": {
+    "timestamp": "1759840528111",
+    "timestampString": "19:35:28",
+    "msgId": "7091870261053",
+    "cliMsgId": "1759840527984",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527572,
+        "globalDelMsgId": 7091870244547,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840527925": {
+    "timestamp": "1759840527953",
+    "timestampString": "19:35:28",
+    "msgId": "7091870263637",
+    "cliMsgId": "1759840527925",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528143": {
+    "timestamp": "1759840528275",
+    "timestampString": "19:35:28",
+    "msgId": "7091870261071",
+    "cliMsgId": "1759840528143",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527732,
+        "globalDelMsgId": 7091870252845,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528030": {
+    "timestamp": "1759840528061",
+    "timestampString": "19:35:28",
+    "msgId": "7091870272037",
+    "cliMsgId": "1759840528030",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528160": {
+    "timestamp": "1759840528206",
+    "timestampString": "19:35:28",
+    "msgId": "7091870279036",
+    "cliMsgId": "1759840528160",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528344": {
+    "timestamp": "1759840528480",
+    "timestampString": "19:35:28",
+    "msgId": "7091870261100",
+    "cliMsgId": "1759840528344",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840527925,
+        "globalDelMsgId": 7091870263637,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528439": {
+    "timestamp": "1759840528566",
+    "timestampString": "19:35:28",
+    "msgId": "7091870261114",
+    "cliMsgId": "1759840528439",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840528030,
+        "globalDelMsgId": 7091870272037,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528317": {
+    "timestamp": "1759840528359",
+    "timestampString": "19:35:28",
+    "msgId": "7091870288970",
+    "cliMsgId": "1759840528317",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528415": {
+    "timestamp": "1759840528449",
+    "timestampString": "19:35:29",
+    "msgId": "7091870293381",
+    "cliMsgId": "1759840528415",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528592": {
+    "timestamp": "1759840528720",
+    "timestampString": "19:35:29",
+    "msgId": "7091870306746",
+    "cliMsgId": "1759840528592",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840528160,
+        "globalDelMsgId": 7091870279036,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528731": {
+    "timestamp": "1759840528856",
+    "timestampString": "19:35:29",
+    "msgId": "7091870306760",
+    "cliMsgId": "1759840528731",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840528317,
+        "globalDelMsgId": 7091870288970,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528836": {
+    "timestamp": "1759840528963",
+    "timestampString": "19:35:29",
+    "msgId": "7091870306774",
+    "cliMsgId": "1759840528836",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840528415,
+        "globalDelMsgId": 7091870293381,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528715": {
+    "timestamp": "1759840528743",
+    "timestampString": "19:35:29",
+    "msgId": "7091870311588",
+    "cliMsgId": "1759840528715",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840528858": {
+    "timestamp": "1759840528899",
+    "timestampString": "19:35:29",
+    "msgId": "7091870321776",
+    "cliMsgId": "1759840528858",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840529129": {
+    "timestamp": "1759840529265",
+    "timestampString": "19:35:29",
+    "msgId": "7091870306814",
+    "cliMsgId": "1759840529129",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840528715,
+        "globalDelMsgId": 7091870311588,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840529015": {
+    "timestamp": "1759840529043",
+    "timestampString": "19:35:29",
+    "msgId": "7091870330896",
+    "cliMsgId": "1759840529015",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840529267": {
+    "timestamp": "1759840529394",
+    "timestampString": "19:35:29",
+    "msgId": "7091870306825",
+    "cliMsgId": "1759840529267",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840528858,
+        "globalDelMsgId": 7091870321776,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840529159": {
+    "timestamp": "1759840529196",
+    "timestampString": "19:35:29",
+    "msgId": "7091870340115",
+    "cliMsgId": "1759840529159",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840529462": {
+    "timestamp": "1759840529590",
+    "timestampString": "19:35:29",
+    "msgId": "7091870355516",
+    "cliMsgId": "1759840529462",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5035125342608508000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759840529015,
+        "globalDelMsgId": 7091870330896,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840529334": {
+    "timestamp": "1759840529373",
+    "timestampString": "19:35:29",
+    "msgId": "7091870350720",
+    "cliMsgId": "1759840529334",
+    "msgType": "chat.sticker",
+    "uidFrom": "5035125342608508123",
+    "idTo": "5464956150740844012",
+    "dName": "Q R G",
+    "content": {
+      "id": 46952,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
