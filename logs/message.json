@@ -12153,5 +12153,99 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759840117432": {
+    "timestamp": "1759840118004",
+    "timestampString": "19:28:38",
+    "msgId": "7091845393981",
+    "cliMsgId": "1759840117432",
+    "msgType": "chat.delete",
+    "uidFrom": "6657517763634682207",
+    "idTo": "5062010022207232004",
+    "dName": "Ngọc Sang",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6424181692237029000,
+        "uidTo": 5062010022207232000,
+        "clientDelMsgId": 1759815319579,
+        "globalDelMsgId": 7090397613621,
+        "destId": 5062010022207232000
+      }
+    ],
+    "threadId": "5062010022207232004",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840121266": {
+    "timestamp": "1759840121449",
+    "timestampString": "19:28:41",
+    "msgId": "7091845644022",
+    "cliMsgId": "1759840121266",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "@N D Q suỵt",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840122556": {
+    "timestamp": "1759840122610",
+    "timestampString": "19:28:42",
+    "msgId": "7091845714092",
+    "cliMsgId": "1759840122556",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "Drama thèn ku Đức thua mỗi Jack 97",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840096229": {
+    "timestamp": "1759840096286",
+    "timestampString": "19:28:43",
+    "msgId": "7091844128093",
+    "cliMsgId": "1759840096229",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",spt",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840128243": {
+    "timestamp": "1759840128280",
+    "timestampString": "19:28:48",
+    "msgId": "7091846054794",
+    "cliMsgId": "1759840128243",
+    "msgType": "webchat",
+    "uidFrom": "8646465673655380165",
+    "idTo": "8281509084603580118",
+    "dName": "Tạ Khôi Nguyên",
+    "content": "@Nhon Loo",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840132510": {
+    "timestamp": "1759840132625",
+    "timestampString": "19:28:53",
+    "msgId": "7091846316060",
+    "cliMsgId": "1759840132510",
+    "msgType": "webchat",
+    "uidFrom": "7836374865116483067",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Tuấn Khang",
+    "content": "Nói bé thôi chứ",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
