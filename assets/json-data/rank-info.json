@@ -993,15 +993,15 @@
         {
           "UserName": "N D Q",
           "UID": "5440985416542136505",
-          "Rank": 150,
-          "messageCountToday": 64,
+          "Rank": 152,
+          "messageCountToday": 66,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Lê Quốc Đạt",
           "UID": "2784271520159982744",
-          "Rank": 321,
-          "messageCountToday": 270,
+          "Rank": 324,
+          "messageCountToday": 273,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1021,8 +1021,8 @@
         {
           "UserName": "Văn Tám",
           "UID": "5739927769350407827",
-          "Rank": 27,
-          "messageCountToday": 19,
+          "Rank": 28,
+          "messageCountToday": 20,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1147,8 +1147,8 @@
         {
           "UserName": "Nguyễn Hoàng Bảo Hưng",
           "UID": "1847479899180587928",
-          "Rank": 18,
-          "messageCountToday": 18,
+          "Rank": 19,
+          "messageCountToday": 19,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1210,6 +1210,13 @@
         {
           "UserName": "Briar",
           "UID": "341021680301465216",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Bich Ngoc",
+          "UID": "1238363753987858196",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
