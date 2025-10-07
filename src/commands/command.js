@@ -126,7 +126,7 @@ import { handleMusicCommand } from "../service-hahuyhoang/api-crawl/music/soundc
 import { handleAntiNudeCommand } from "../service-hahuyhoang/anti-service/anti-nude/anti-nude.js";
 import { handleSettingGroupCommand } from "./bot-manager/group-manage.js";
 import { handleTopChartZingMp3, handleZingMp3Command } from "../service-hahuyhoang/api-crawl/music/zingmp3.js";
-import { handleMemeCommand } from "../service-hahuyhoang/api-crawl/meme/sticker.js";
+import { handleMemeCommand } from "../service-hahuyhoang/api-crawl/image/meme.js";
 import { handleVietlott655Command } from "../service-hahuyhoang/game-service/vietlott/vietlott655.js";
 import { startGame } from "../service-hahuyhoang/game-service/mini-game/index.js";
 import { handleYoutubeCommand } from "../service-hahuyhoang/api-crawl/youtube/youtube-service.js";
