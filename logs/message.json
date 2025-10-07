@@ -24867,5 +24867,19 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759848098479": {
+    "timestamp": "1759848098896",
+    "timestampString": "21:41:39",
+    "msgId": "7092336804817",
+    "cliMsgId": "1759848098479",
+    "msgType": "webchat",
+    "uidFrom": "5302662367475744429",
+    "idTo": "6512342651301747547",
+    "dName": "Nhut Hao",
+    "content": "sub fb rate 3.2 cần lh e",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
