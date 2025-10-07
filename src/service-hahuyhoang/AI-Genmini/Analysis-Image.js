@@ -1,4 +1,6 @@
 import axios from "axios";
+import fs from "fs";
+import path from "path";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import {
   sendMessageFailed,
@@ -11,7 +13,7 @@ import { checkExstentionFileRemote } from "../../utils/util.js";
 
 const genAI = new GoogleGenerativeAI("AIzaSyBKNInWVa8kKm9G0e9Kz7_VxQkgpFY6gDs");
 
-const SUPPORTED_IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp"];
+const SUPPORTED_IMAGE_EXTENSIONS = gDsgDs["jpg", "jpeg", "png", "webp"];
 const SUPPORTED_VIDEO_EXTENSIONS = [
   "mp4", "mpeg", "mov", "avi", "x-flv", "mpg", "webm", "wmv", "3gpp"
 ];
@@ -36,6 +38,17 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
   try {
     const parts = [];
     const userInput = content || quoteText;
+    if (userInput) {
+      if (userInput.length > 10000) {
+        return sendMessageWarningRequest(api, message, {
+          caption: "Nội dung quá dài, vui lòng rút gọn lại!",
+        }, 30000);
+      }
+      parts.push({ text: `${userInput}\n\n(Trả lời bằng tiếng Việt)` });
+    }
+
+    let modelName = "gemini-2.0-flash";
+    let mimeType = "image/png";
 
     if (quote?.attach) {
       const attachData = JSON.parse(quote.attach);
@@ -58,27 +71,12 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
           }, 30000);
         }
 
-        let mimeType;
-        if (isImage) {
-          if (['jpg', 'jpeg'].includes(extension)) mimeType = 'image/jpeg';
-          else if (extension === 'png') mimeType = 'image/png';
-          else if (extension === 'webp') mimeType = 'image/webp';
-        } else if (isVideo) {
-          if (['mp4', 'mpeg', 'mpg'].includes(extension)) mimeType = 'video/mp4';
-          else if (extension === 'mov') mimeType = 'video/quicktime';
-          else if (extension === 'avi') mimeType = 'video/x-msvideo';
-          else if (extension === 'webm') mimeType = 'video/webm';
-          else if (extension === 'wmv') mimeType = 'video/x-ms-wmv';
-          else if (extension === '3gpp') mimeType = 'video/3gpp';
-          else if (extension === 'x-flv') mimeType = 'video/x-flv';
-        } else if (isAudio) {
-          if (extension === 'mp3') mimeType = 'audio/mpeg';
-          else if (extension === 'wav') mimeType = 'audio/wav';
-          else if (extension === 'aiff') mimeType = 'audio/aiff';
-          else if (extension === 'aac') mimeType = 'audio/aac';
-          else if (extension === 'ogg') mimeType = 'audio/ogg';
-          else if (extension === 'flac') mimeType = 'audio/flac';
-        }
+        if (isVideo || isAudio) modelName = "gemini-2.0-flash";
+        mimeType = isImage
+          ? "image/png"
+          : isVideo
+            ? "video/mp4"
+            : "audio/" + extension;
 
         const response = await axios.get(fileUrl, { responseType: "arraybuffer" });
         const fileSizeMB = response.data.byteLength / (1024 * 1024);
@@ -88,7 +86,15 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
           }, 30000);
         }
 
-        const base64 = Buffer.from(response.data).toString('base64');
+        const tempDir = path.resolve("assets/temp");
+        if (!fs.existsSync(tempDir)) {
+          fs.mkdirSync(tempDir, { recursive: true });
+        }
+
+        const tempPath = path.join(tempDir, `tempfile.${extension}`);
+        fs.writeFileSync(tempPath, response.data);
+
+        const base64 = fs.readFileSync(tempPath, { encoding: "base64" });
 
         parts.push({
           inlineData: {
@@ -96,19 +102,11 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
             data: base64,
           },
         });
+
+        fs.unlinkSync(tempPath);
       }
     }
 
-    if (userInput) {
-      if (userInput.length > 10000) {
-        return sendMessageWarningRequest(api, message, {
-          caption: "Nội dung quá dài, vui lòng rút gọn lại!",
-        }, 30000);
-      }
-      parts.push({ text: `${userInput}\n\n(Trả lời bằng tiếng Việt)` });
-    }
-
-    const modelName = "gemini-2.0-flash-lite";
     const model = genAI.getGenerativeModel({ model: modelName });
 
     let replyText = null;
@@ -116,11 +114,15 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
 
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        const result = await model.generateContent({ contents: parts });
+        console.log(`🌀 Gọi Gemini attempt ${attempt}...`);
+        const result = await model.generateContent({
+          contents: [{ role: "user", parts }],
+        });
 
         replyText = result.response.text();
         break;
       } catch (err) {
+        console.warn(`⚠️ Thử lần ${attempt} thất bại:`, err.message);
         if (attempt === maxRetries) {
           throw err; 
         }
@@ -130,6 +132,7 @@ export async function handleImageAnalysis(api, message, aliasCommand) {
 
     return await sendMessageCompleteRequest(api, message, { caption: replyText }, 3000000);
   } catch (err) {
+    console.error("❌ Lỗi xử lý Gemini:", err.message);
     return sendMessageFailed(api, message, "API Quá tải vui lòng thử lại sau...");
   }
 }
