@@ -28,7 +28,6 @@ import { handleLOLReply } from "./servises/LOL.General.js";
 import { startAutoLockChatScheduler } from "../commands/bot-manager/group-autolock.js";
 import { handleHH3DReply } from "./api-crawl/video/yanhh3d-phim3d.js";
 import { handleSubNhanhChillReply } from "./api-crawl/video/subnhanhchill.net.js";
-import { handleMemeReply } from "./api-crawl/meme/sticker.js";
 
 let globalPrefix = ".";
 
@@ -95,7 +94,6 @@ export async function handleOnReplyFromUser(
   if (await handleLOLReply (api, message)) return true;
   if (await handleHH3DReply (api, message)) return true;
   if (await handleSubNhanhChillReply(api, message)) return true;
-  if (await handleMemeReply(api, message)) return true;
   if (
     await handleActionGroupReply(
       api,
