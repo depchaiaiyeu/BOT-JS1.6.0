@@ -28467,5 +28467,102 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759851171874": {
+    "timestamp": "1759851171907",
+    "timestampString": "22:32:54",
+    "msgId": "7092489812964",
+    "cliMsgId": "1759851171874",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".sendprivate_hello_1 @-httung",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851174328": {
+    "timestamp": "1759851174464",
+    "timestampString": "22:32:54",
+    "msgId": "7092489916621",
+    "cliMsgId": "1759851174328",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nĐã hoàn thành gửi tin nhắn riêng cho người dùng -httung",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851174097": {
+    "timestamp": "1759851174233",
+    "timestampString": "22:32:55",
+    "msgId": "7092489908718",
+    "cliMsgId": "1759851174097",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nĐã bắt đầu send tin nhắn riêng \"hello\" 1 lần cho người dùng -httung",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851185063": {
+    "timestamp": "1759851185091",
+    "timestampString": "22:33:05",
+    "msgId": "7092490367536",
+    "cliMsgId": "1759851185063",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".sendauto",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851185875": {
+    "timestamp": "1759851186013",
+    "timestampString": "22:33:06",
+    "msgId": "7092490395437",
+    "cliMsgId": "1759851185875",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n❌ Sai cú pháp.\n- .sendauto on/off\n- .sendauto add text|file|card nội_dung1 | nội_dung2\n- .sendauto list text|file|card\n- .sendauto del text|file|card <số>\n🚨🚨🚨",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
   }
 }

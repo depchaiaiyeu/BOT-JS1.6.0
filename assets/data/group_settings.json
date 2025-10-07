@@ -290,5 +290,30 @@
     "antiSticker": false,
     "autoReply": false,
     "removeLinkKeywords": false
+  },
+  "4582721331431294882": {
+    "nameGroup": "w",
+    "adminList": {},
+    "muteList": {},
+    "whileList": {},
+    "activeBot": false,
+    "activeGame": false,
+    "welcomeGroup": false,
+    "byeGroup": false,
+    "antiSpam": false,
+    "filterBadWords": false,
+    "filterBot": false,
+    "removeLinks": false,
+    "learnEnabled": false,
+    "replyEnabled": false,
+    "onlyText": false,
+    "memberApprove": false,
+    "antiNude": false,
+    "whiteList": {},
+    "autoLockChat": {},
+    "antiMedia": false,
+    "antiSticker": false,
+    "autoReply": false,
+    "removeLinkKeywords": false
   }
 }
