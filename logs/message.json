@@ -28125,5 +28125,65 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759851102419": {
+    "timestamp": "1759851102371",
+    "timestampString": "22:31:43",
+    "msgId": "7092486882342",
+    "cliMsgId": "1759851102419",
+    "msgType": "chat.delete",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 349058473716629000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759850750445,
+        "globalDelMsgId": 7092471657167,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6782773072614203000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759850629103,
+        "globalDelMsgId": 7092466409931,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6782773072614203000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759850627900,
+        "globalDelMsgId": 7092466249596,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6708899122630765000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759850559323,
+        "globalDelMsgId": 7092463087519,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 9174094872528572000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759847510434,
+        "globalDelMsgId": 7092303496234,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
