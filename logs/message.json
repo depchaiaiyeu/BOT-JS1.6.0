@@ -28056,5 +28056,56 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759851022629": {
+    "timestamp": "1759851022807",
+    "timestampString": "22:30:23",
+    "msgId": "7092483507125",
+    "cliMsgId": "1759851022629",
+    "msgType": "webchat",
+    "uidFrom": "4692712418377940772",
+    "idTo": "5166581134204343688",
+    "dName": "Thiệu Hoàng",
+    "content": "@Pham Van Loi trùm mạnh thí",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851032221": {
+    "timestamp": "1759851032440",
+    "timestampString": "22:30:33",
+    "msgId": "7092483916833",
+    "cliMsgId": "1759851032221",
+    "msgType": "webchat",
+    "uidFrom": "7654139448969933571",
+    "idTo": "8281509084603580118",
+    "dName": "Triều Đông",
+    "content": "Mik xp cs vc",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055910620997600": {
+    "timestamp": "1759851036310",
+    "timestampString": "22:30:36",
+    "msgId": "7092484074787",
+    "cliMsgId": "1055910620997600",
+    "msgType": "webchat",
+    "uidFrom": "1277772631698656128",
+    "idTo": "5601607522756268167",
+    "dName": "Bear",
+    "content": {
+      "title": "group này có biến căng ae ơi          :((((((((((\nhttps://zalo.me/g/xkjxwk345",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [\"{\\\"styles\\\": [{\\\"start\\\": 0, \\\"len\\\": 49, \\\"st\\\": \\\"c_FF5733\\\"}], \\\"ver\\\": 0}\", {\"start\": 0, \"len\": 49, \"st\": \"b\"}, \"{\\\"styles\\\": [{\\\"start\\\": 50, \\\"len\\\": 27, \\\"st\\\": \\\"c_33FF57\\\"}], \\\"ver\\\": 0}\", {\"start\": 50, \"len\": 27, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
