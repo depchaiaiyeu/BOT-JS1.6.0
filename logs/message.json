@@ -21377,5 +21377,70 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759847297241": {
+    "timestamp": "1759847297281",
+    "timestampString": "21:28:18",
+    "msgId": "7092291141174",
+    "cliMsgId": "1759847297241",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Ngủ",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847302842": {
+    "timestamp": "1759847303187",
+    "timestampString": "21:28:23",
+    "msgId": "7092291483226",
+    "cliMsgId": "1759847302842",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/233b947810bee4e0bdaf/4029115838516904326.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/233b947810bee4e0bdaf/4029115838516904326.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1014,\"is_group_layout\":0,\"contentId\":\"1000027211\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847306700": {
+    "timestamp": "1759847306746",
+    "timestampString": "21:28:27",
+    "msgId": "7092291688852",
+    "cliMsgId": "1759847306700",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Đi",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847307140": {
+    "timestamp": "1759847307492",
+    "timestampString": "21:28:27",
+    "msgId": "7092291711443",
+    "cliMsgId": "1759847307140",
+    "msgType": "webchat",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": "k có thg tahn gr déo xôm nổi",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
