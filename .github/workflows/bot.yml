@@ -1,48 +1,45 @@
 name: Run BOT-JS1.6.0
-
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 */6 * * *"
-
 jobs:
   run-bot:
     runs-on: windows-latest
     timeout-minutes: 360
     permissions:
       contents: write
-      actions: write
     env:
       TZ: Asia/Ho_Chi_Minh
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
-
       - name: Install dependencies & replace nsfwjs
         run: |
           npm install
           Remove-Item -Recurse -Force node_modules\nsfwjs
           Copy-Item -Recurse -Force nsfwjs.u node_modules\nsfwjs
         shell: powershell
-
-      - name: Delete previous workflow runs
+      - name: Cancel previous workflows
         run: |
-          $headers = @{ Authorization = "Bearer $env:GITHUB_TOKEN"; "Accept" = "application/vnd.github+json" }
-          $repo = "${{ github.repository }}"
-          $runs = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/actions/runs" -Headers $headers
+          $token = "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"
+          $repo = "depchaiaiyeu/BOT-JS1.6.0"
+          $headers = @{
+            Authorization = "Bearer $token"
+            Accept = "application/vnd.github+json"
+          }
+          $runs = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/actions/runs?status=in_progress" -Headers $headers
           foreach ($run in $runs.workflow_runs) {
-            if ($run.status -ne "completed") {
-              Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/actions/runs/$($run.id)" -Headers $headers -Method Delete
+            if ($run.id -ne $env:GITHUB_RUN_ID) {
+              Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/actions/runs/$($run.id)/cancel" -Method Post -Headers $headers
+              Write-Host "Cancelled workflow run: $($run.id)"
             }
           }
         shell: powershell
-
       - name: Run bot
         run: node bot.js
         shell: powershell
