@@ -23699,5 +23699,93 @@
     "threadId": "7734313716342939502",
     "type": 1,
     "isUndo": false
+  },
+  "1759847715634": {
+    "timestamp": "1759847715751",
+    "timestampString": "21:35:16",
+    "msgId": "7092315250392",
+    "cliMsgId": "1759847715634",
+    "msgType": "webchat",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": "@Nguyễn Tuấn Khang trả",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847717886": {
+    "timestamp": "1759847718552",
+    "timestampString": "21:35:19",
+    "msgId": "7092315408522",
+    "cliMsgId": "1759847717886",
+    "msgType": "webchat",
+    "uidFrom": "8581162754795175981",
+    "idTo": "4699745045071009795",
+    "dName": "Nezha",
+    "content": "hết ỉa tranh đc r💔",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847717868": {
+    "timestamp": "1759847726898",
+    "timestampString": "21:35:27",
+    "msgId": "7092315883870",
+    "cliMsgId": "1759847717868",
+    "msgType": "chat.voice",
+    "uidFrom": "8581162754795175981",
+    "idTo": "4699745045071009795",
+    "dName": "Nezha",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/3343327182589536094/0bef8d33ddb433ea6aa5.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/3343327182589536094\\/0bef8d33ddb433ea6aa5.aac\",\"duration\":31104,\"fileSize\":252234,\"waveformSamples\":[501,8881,18000,23296,23591,23041,22371,22799,22754,22793,23892,22916,21697,23303,22886,21759,17159,21937,22641,23520,23113,24327,23424]}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847728816": {
+    "timestamp": "1759847728904",
+    "timestampString": "21:35:29",
+    "msgId": "7092315998582",
+    "cliMsgId": "1759847728816",
+    "msgType": "webchat",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": "Hình như con này hc đc tính cách của t",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847730000": {
+    "timestamp": "1759847730038",
+    "timestampString": "21:35:30",
+    "msgId": "7092316062774",
+    "cliMsgId": "1759847730000",
+    "msgType": "chat.photo",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/583838ba4675e72bbe64/5784587553580371647/514e4b3d-6ac5-4209-839d-3aa11b1e92a7_a_sin.webp",
+      "thumb": "https://fg43.dlfl.vn/583838ba4675e72bbe64/5784587553580371647/514e4b3d-6ac5-4209-839d-3aa11b1e92a7_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":360,\"height\":360,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1752324636294\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/583838ba4675e72bbe64\\/5784587553580371647\\/514e4b3d-6ac5-4209-839d-3aa11b1e92a7_a_sin.webp\",\"width\":360,\"height\":360,\"thumb\":\"\"},\"contentId\":\"1752324636294\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
