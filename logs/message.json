@@ -28107,5 +28107,23 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759851050590": {
+    "timestamp": "1759851051090",
+    "timestampString": "22:30:51",
+    "msgId": "7092484711462",
+    "cliMsgId": "1759851050590",
+    "msgType": "chat.sticker",
+    "uidFrom": "8659697562202878998",
+    "idTo": "2990969618896538297",
+    "dName": "Mai Lê",
+    "content": {
+      "id": 46958,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
