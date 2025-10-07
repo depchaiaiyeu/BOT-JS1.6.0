@@ -1257,8 +1257,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 241,
-          "messageCountToday": 137,
+          "Rank": 243,
+          "messageCountToday": 139,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1378,6 +1378,13 @@
           "UID": "8602274286000699226",
           "Rank": 12,
           "messageCountToday": 12,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Thanh Tuyền",
+          "UID": "349058473716628963",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
         }
       ],
@@ -1790,6 +1797,13 @@
         {
           "UserName": "Nguyễn Tuấn Khang",
           "UID": "9174094872528572011",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Thanh Tuyền",
+          "UID": "349058473716628963",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
@@ -2218,9 +2232,9 @@
         {
           "UserName": "Thanh Tuyền",
           "UID": "349058473716628963",
-          "Rank": 1,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-06"
+          "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Lê Gia Bảo",
@@ -2845,6 +2859,13 @@
         {
           "UserName": "Nguyễn Tuấn Khang",
           "UID": "9174094872528572011",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Thanh Tuyền",
+          "UID": "349058473716628963",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
