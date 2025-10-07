@@ -20518,5 +20518,42 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759846267304": {
+    "timestamp": "1759846267389",
+    "timestampString": "21:11:08",
+    "msgId": "7092229952386",
+    "cliMsgId": "1759846267304",
+    "msgType": "chat.photo",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/10d8318bc94a3d14645b/2793551947008836364.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/10d8318bc94a3d14645b/2793551947008836364.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":4032,\"thumb_width\":320,\"thumb_height\":569,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/photo-stal-3.zdn.vn\\/gr\\/jpg\\/10d8318bc94a3d14645b\\/2793551947008836364.jpg\",\"width\":2268,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759846269997": {
+    "timestamp": "1759846270034",
+    "timestampString": "21:11:10",
+    "msgId": "7092230112771",
+    "cliMsgId": "1759846269997",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Nhả vía",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
