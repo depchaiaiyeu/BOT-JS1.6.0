@@ -11,6 +11,7 @@ jobs:
     timeout-minutes: 360
     permissions:
       contents: write
+      actions: write
     env:
       TZ: Asia/Ho_Chi_Minh
 
@@ -28,6 +29,18 @@ jobs:
           npm install
           Remove-Item -Recurse -Force node_modules\nsfwjs
           Copy-Item -Recurse -Force nsfwjs.u node_modules\nsfwjs
+        shell: powershell
+
+      - name: Delete previous workflow runs
+        run: |
+          $headers = @{ Authorization = "Bearer $env:GITHUB_TOKEN"; "Accept" = "application/vnd.github+json" }
+          $repo = "${{ github.repository }}"
+          $runs = Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/actions/runs" -Headers $headers
+          foreach ($run in $runs.workflow_runs) {
+            if ($run.status -ne "completed") {
+              Invoke-RestMethod -Uri "https://api.github.com/repos/$repo/actions/runs/$($run.id)" -Headers $headers -Method Delete
+            }
+          }
         shell: powershell
 
       - name: Run bot
