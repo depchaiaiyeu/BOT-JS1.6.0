@@ -38,103 +38,77 @@ export async function handleCallGroupCommand(api, message) {
     const senderName = message.data?.dName || "Người dùng";
     const senderId = message.data?.uidFrom;
     let mentions = message.data?.mentions || [];
-
+    let times = 1;
+    if (message.data?.body) {
+      const match = message.data.body.match(/callgroup\s+(?:<@mention>)?\s*(\d+)/i);
+      if (match && match[1]) {
+        times = Math.max(1, parseInt(match[1]));
+      }
+    }
     if (mentions.length === 0 && message.data?.reply) {
       mentions.push({
         uid: message.data.reply.uid,
         dName: message.data.reply.dName || "Người dùng"
       });
     }
-
     if (mentions.length === 0) {
       await api.sendMessage(
         {
-          msg: `(@${senderName}) Dùng \`callgroup @mention số lần\` để gọi group!`,
+          msg: `(@${senderName}) Dùng \`callgroup @mention <số lần>\` hoặc trả lời tin nhắn để gọi nhóm!`,
           mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
-          ttl:360000,
+          ttl: 360000,
         },
         message.threadId,
         message.type
       );
       return;
     }
-
-    if (mentions.length !== 1) {
+    const successfulMentions = [];
+    await Promise.all(
+      mentions.map(async mention => {
+        try {
+          for (let i = 0; i < times; i++) {
+            await api.callGroup(message.threadId, mention.uid);
+          }
+          successfulMentions.push({
+            uid: mention.uid,
+            dName: mention.dName || "Người dùng"
+          });
+        } catch {}
+      })
+    );
+    if (successfulMentions.length === 0) {
       await api.sendMessage(
         {
-          msg: `(@${senderName}) ❌ Chỉ hỗ trợ gọi cho một người!`,
+          msg: `(@${senderName}) ❌ Không thể gọi nhóm với bất kỳ ai.`,
           mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
-          ttl:360000,
+          ttl: 360000,
         },
         message.threadId,
         message.type
       );
       return;
     }
-
-    const body = (message.body || '').trim();
-    const timesMatch = body.match(/\d+$/);
-    if (!timesMatch) {
-      await api.sendMessage(
-        {
-          msg: `(@${senderName}) ❌ Vui lòng cung cấp số lần gọi (số nguyên dương)!`,
-          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
-          ttl:360000,
-        },
-        message.threadId,
-        message.type
-      );
-      return;
-    }
-
-    const times = parseInt(timesMatch[0]);
-    if (isNaN(times) || times <= 0) {
-      await api.sendMessage(
-        {
-          msg: `(@${senderName}) ❌ Số lần phải là số nguyên dương!`,
-          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
-          ttl:360000,
-        },
-        message.threadId,
-        message.type
-      );
-      return;
-    }
-
-    const mention = mentions[0];
-    let successfulCalls = 0;
-    for (let i = 0; i < times; i++) {
-      try {
-        await api.callGroup(message.threadId, mention.uid);
-        successfulCalls++;
-      } catch {}
-    }
-
-    const failedCalls = times - successfulCalls;
-    let mentionText = `Thống Kê Call Group Cho (@${mention.dName || "Người dùng"})\nTổng: ${times}\nThất bại: ${failedCalls}\nThành công: ${successfulCalls}`;
-    let currentPos = 22;
-    const mentionData = [{ uid: mention.uid, pos: currentPos, len: (mention.dName || "Người dùng").length + 3 }];
-
+    let mentionText = `(@${senderName}), \n📞 Đã gọi nhóm ${times} lần đến: `;
+    let mentionPos = mentionText.length;
+    const mentionData = [{ uid: senderId, pos: 0, len: senderName.length + 3 }];
+    successfulMentions.forEach(mention => {
+      const displayName = mention.dName || "Người dùng";
+      mentionText += `(@${displayName}) (${times} lần)\n✅✅`;
+      mentionData.push({ uid: mention.uid, pos: mentionPos, len: displayName.length + 3 });
+      mentionPos += displayName.length + 4 + (` (${times} lần)`).length;
+    });
     await api.sendMessage(
       {
         msg: mentionText.trim(),
         mentions: mentionData,
-        ttl:360000,
+        ttl: 360000,
       },
       message.threadId,
       message.type
     );
   } catch (error) {
-    console.error("❌ Lỗi khi gọi group:", error);
-    await api.sendMessage(
-      {
-        msg: `(@${message.data?.dName || "Người dùng"}) ❌ Có lỗi xảy ra khi thực hiện lệnh.`,
-        mentions: [{ uid: message.data?.uidFrom, pos: 0, len: (message.data?.dName || "Người dùng").length + 3 }],
-        ttl:360000,
-      },
-      message.threadId,
-      message.type
-    );
+    console.error("❌ Lỗi khi gọi nhóm:", error);
     throw error;
   }
 }
