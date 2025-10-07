@@ -24969,5 +24969,65 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759848277740": {
+    "timestamp": "1759848278093",
+    "timestampString": "21:44:39",
+    "msgId": "7092346707919",
+    "cliMsgId": "1759848277740",
+    "msgType": "chat.sticker",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": {
+      "id": 49777,
+      "catId": 12334,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848289020": {
+    "timestamp": "1759848289462",
+    "timestampString": "21:44:50",
+    "msgId": "7092347330641",
+    "cliMsgId": "1759848289020",
+    "msgType": "webchat",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": "trước giờ z mà",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848296604": {
+    "timestamp": "1759848297055",
+    "timestampString": "21:44:57",
+    "msgId": "7092347743351",
+    "cliMsgId": "1759848296604",
+    "msgType": "webchat",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": "có cái a có làm hay k th",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848304018": {
+    "timestamp": "1759848304051",
+    "timestampString": "21:45:04",
+    "msgId": "7092348125563",
+    "cliMsgId": "1759848304018",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "*stk",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
