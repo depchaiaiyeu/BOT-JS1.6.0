@@ -1510,6 +1510,13 @@
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Trần Đình Đạt",
+          "UID": "7431213830601319963",
+          "Rank": 3,
+          "messageCountToday": 3,
+          "lastMessageDate": "2025-10-07"
         }
       ],
       "nameGroup": "Sweet Tool MMO"
@@ -3185,6 +3192,18 @@
         }
       ],
       "nameGroup": "Thuê tick xanh FANPAGE 24/7"
+    },
+    "284751796693635528": {
+      "users": [
+        {
+          "UserName": "Xuan Bach",
+          "UID": "5251718859305208026",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-07"
+        }
+      ],
+      "nameGroup": "👑 Share Bot ∞ Tool 👑"
     }
   }
 }

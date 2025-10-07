@@ -24465,5 +24465,102 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759848029375": {
+    "timestamp": "1759848029571",
+    "timestampString": "21:40:30",
+    "msgId": "7092332945718",
+    "cliMsgId": "1759848029375",
+    "msgType": "webchat",
+    "uidFrom": "5251718859305208026",
+    "idTo": "284751796693635528",
+    "dName": "Xuan Bach",
+    "content": "ủa",
+    "threadId": "284751796693635528",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848028393": {
+    "timestamp": "1759848030570",
+    "timestampString": "21:40:30",
+    "msgId": "7092333001174",
+    "cliMsgId": "1759848028393",
+    "msgType": "chat.photo",
+    "uidFrom": "7431213830601319963",
+    "idTo": "6512342651301747547",
+    "dName": "Trần Đình Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/6636956781485124224/9cf025d5e2906fce3681.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/6636956781485124224/9cf025d5e2906fce3681.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":736,\"height\":736,\"hd\":\"https:\\/\\/f56-zpg-r.zdn.vn\\/jpg\\/6636956781485124224\\/9cf025d5e2906fce3681.jpg\",\"is_group_layout\":1,\"group_layout_id\":1759848030773,\"id_in_group\":0,\"total_item_in_group\":3,\"contentId\":\"1000044015\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848028593": {
+    "timestamp": "1759848031032",
+    "timestampString": "21:40:31",
+    "msgId": "7092333028242",
+    "cliMsgId": "1759848028593",
+    "msgType": "chat.photo",
+    "uidFrom": "7431213830601319963",
+    "idTo": "6512342651301747547",
+    "dName": "Trần Đình Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/3794787166904657116/03b88b884ccdc19398dc.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/3794787166904657116/03b88b884ccdc19398dc.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":640,\"height\":640,\"hd\":\"https:\\/\\/f63-zpg-r.zdn.vn\\/jpg\\/3794787166904657116\\/03b88b884ccdc19398dc.jpg\",\"is_group_layout\":1,\"group_layout_id\":1759848030773,\"id_in_group\":1,\"total_item_in_group\":3,\"contentId\":\"1000044014\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848028822": {
+    "timestamp": "1759848031299",
+    "timestampString": "21:40:31",
+    "msgId": "7092333043277",
+    "cliMsgId": "1759848028822",
+    "msgType": "chat.photo",
+    "uidFrom": "7431213830601319963",
+    "idTo": "6512342651301747547",
+    "dName": "Trần Đình Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/jpg/559880242515172606/fbe698e95facd2f28bbd.jpg",
+      "thumb": "https://f64-zpg-r.zdn.vn/jpg/559880242515172606/fbe698e95facd2f28bbd.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":736,\"height\":736,\"hd\":\"https:\\/\\/f64-zpg-r.zdn.vn\\/jpg\\/559880242515172606\\/fbe698e95facd2f28bbd.jpg\",\"is_group_layout\":1,\"group_layout_id\":1759848030773,\"id_in_group\":2,\"total_item_in_group\":3,\"contentId\":\"1000044013\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848032216": {
+    "timestamp": "1759848032380",
+    "timestampString": "21:40:32",
+    "msgId": "7092333102955",
+    "cliMsgId": "1759848032216",
+    "msgType": "webchat",
+    "uidFrom": "5251718859305208026",
+    "idTo": "284751796693635528",
+    "dName": "Xuan Bach",
+    "content": "tắt chat r à",
+    "threadId": "284751796693635528",
+    "type": 1,
+    "isUndo": false
   }
 }
