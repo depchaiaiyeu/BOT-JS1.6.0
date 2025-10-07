@@ -1,5 +1,5 @@
 {
-  "prefix": ",",
+  "prefix": "!",
   "commands": [
     {
       "name": "help",
@@ -2301,6 +2301,6 @@
       "type": 5,
       "author": "Vũ Xuân Kiên",
       "active": true
-    },
+    }
   ]
 }
