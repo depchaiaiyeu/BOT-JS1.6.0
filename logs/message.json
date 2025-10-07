@@ -28185,5 +28185,185 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759851126138": {
+    "timestamp": "1759851126308",
+    "timestampString": "22:32:07",
+    "msgId": "7092487891786",
+    "cliMsgId": "1759851126138",
+    "msgType": "webchat",
+    "uidFrom": "1661551297733228852",
+    "idTo": "6512342651301747547",
+    "dName": "Võ Thanh Vinh",
+    "content": "Hở",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851126442": {
+    "timestamp": "1759851126483",
+    "timestampString": "22:32:07",
+    "msgId": "7092487896458",
+    "cliMsgId": "1759851126442",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1661551297733228800,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1759851126138,
+        "globalDelMsgId": 7092487891786,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851128103": {
+    "timestamp": "1759851128274",
+    "timestampString": "22:32:08",
+    "msgId": "7092487975291",
+    "cliMsgId": "1759851128103",
+    "msgType": "webchat",
+    "uidFrom": "1661551297733228852",
+    "idTo": "6512342651301747547",
+    "dName": "Võ Thanh Vinh",
+    "content": "Cc",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851128386": {
+    "timestamp": "1759851128415",
+    "timestampString": "22:32:08",
+    "msgId": "7092487979800",
+    "cliMsgId": "1759851128386",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1661551297733228800,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1759851128103,
+        "globalDelMsgId": 7092487975291,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851129686": {
+    "timestamp": "1759851129860",
+    "timestampString": "22:32:10",
+    "msgId": "7092488042174",
+    "cliMsgId": "1759851129686",
+    "msgType": "webchat",
+    "uidFrom": "1661551297733228852",
+    "idTo": "6512342651301747547",
+    "dName": "Võ Thanh Vinh",
+    "content": "Ccshsjsjs",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851130066": {
+    "timestamp": "1759851130194",
+    "timestampString": "22:32:10",
+    "msgId": "7092488056276",
+    "cliMsgId": "1759851130066",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "@All Toy chc phải off tháng á",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851130270": {
+    "timestamp": "1759851130314",
+    "timestampString": "22:32:10",
+    "msgId": "7092488057038",
+    "cliMsgId": "1759851130270",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1661551297733228800,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1759851129686,
+        "globalDelMsgId": 7092488042174,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851130686": {
+    "timestamp": "1759851130853",
+    "timestampString": "22:32:11",
+    "msgId": "7092488081446",
+    "cliMsgId": "1759851130686",
+    "msgType": "webchat",
+    "uidFrom": "1661551297733228852",
+    "idTo": "6512342651301747547",
+    "dName": "Võ Thanh Vinh",
+    "content": "Shsjbđbd",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851130986": {
+    "timestamp": "1759851131014",
+    "timestampString": "22:32:11",
+    "msgId": "7092488088384",
+    "cliMsgId": "1759851130986",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1661551297733228800,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1759851130686,
+        "globalDelMsgId": 7092488081446,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851138604": {
+    "timestamp": "1759851138755",
+    "timestampString": "22:32:19",
+    "msgId": "7092488416081",
+    "cliMsgId": "1759851138604",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "Khi nào toy quay lại ạ",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
