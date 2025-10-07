@@ -25043,5 +25043,70 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759848337665": {
+    "timestamp": "1759848337686",
+    "timestampString": "21:45:38",
+    "msgId": "7092349967122",
+    "cliMsgId": "1759848337665",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "@N H L anh có làm gì đâu =))\nHong có trình, đi thuê code kh hà",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848340189": {
+    "timestamp": "1759848340223",
+    "timestampString": "21:45:40",
+    "msgId": "7092350106147",
+    "cliMsgId": "1759848340189",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": ":>",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848365467": {
+    "timestamp": "1759848363102",
+    "timestampString": "21:46:03",
+    "msgId": "7092351346207",
+    "cliMsgId": "1759848365467",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://ot47.dlfl.vn/1464328df71d56430f0c/7207068746738048655",
+      "thumb": "https://ot47.dlfl.vn/1464328df71d56430f0c/7207068746738048655",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":768,\"thumb_height\":480,\"width\":480,\"contentId\":\"1759848365467\",\"webp\":{\"width\":480,\"url\":\"https:\\/\\/ot47.dlfl.vn\\/1464328df71d56430f0c\\/7207068746738048655\",\"height\":768},\"hd\":\"https:\\/\\/ot47.dlfl.vn\\/1464328df71d56430f0c\\/7207068746738048655\",\"height\":768}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848366188": {
+    "timestamp": "1759848363817",
+    "timestampString": "21:46:04",
+    "msgId": "7092351381931",
+    "cliMsgId": "1759848366188",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "🚦 @Dell Yêu Ai sticker của bạn đây 🪡",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
