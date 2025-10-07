@@ -29359,5 +29359,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759851440164": {
+    "timestamp": "1759851440343",
+    "timestampString": "22:37:21",
+    "msgId": "7092500753625",
+    "cliMsgId": "1759851440164",
+    "msgType": "webchat",
+    "uidFrom": "835161430457810348",
+    "idTo": "4825567233436439756",
+    "dName": "Trung",
+    "content": "Sao nó bị coi là nude vậy",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759851462951": {
+    "timestamp": "1759851463022",
+    "timestampString": "22:37:44",
+    "msgId": "7092501648297",
+    "cliMsgId": "1759851462951",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@Vũ Xuân Kiên ê gay",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
