@@ -27104,9 +27104,9 @@
     "isUndo": false
   },
   "1759850628955": {
-    "timestamp": "1759850632643",
-    "timestampString": "22:23:52",
-    "msgId": "7092466391192",
+    "timestamp": "1759850683684",
+    "timestampString": "22:24:44",
+    "msgId": "7092468679711",
     "cliMsgId": "1759850628955",
     "msgType": "chat.recommended",
     "uidFrom": "6782773072614202906",
@@ -27127,9 +27127,9 @@
     "isUndo": false
   },
   "1759850629103": {
-    "timestamp": "1759850633102",
-    "timestampString": "22:23:53",
-    "msgId": "7092466409931",
+    "timestamp": "1759850684331",
+    "timestampString": "22:24:45",
+    "msgId": "7092468709935",
     "cliMsgId": "1759850629103",
     "msgType": "chat.recommended",
     "uidFrom": "6782773072614202906",
@@ -27564,6 +27564,113 @@
       "childnumber": 0,
       "action": "recommened.user",
       "params": "6593064319472911684",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850668262": {
+    "timestamp": "1759850668628",
+    "timestampString": "22:24:29",
+    "msgId": "7092468002880",
+    "cliMsgId": "1759850668262",
+    "msgType": "webchat",
+    "uidFrom": "6729153798219325017",
+    "idTo": "1367422010794969537",
+    "dName": "Dkhanh",
+    "content": "Cần mua 12c khủng long cổ dài giá tính theo Kích thước",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850629402": {
+    "timestamp": "1759850685067",
+    "timestampString": "22:24:45",
+    "msgId": "7092468741599",
+    "cliMsgId": "1759850629402",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/kvizdf335 kêh trả tag đợi xíu lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/kvizdf335",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2d614f9d4391759850532aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMGM4ZmYwMGVmNzY4MWQzNjQ0Nzk=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"nhóm gái xinh👯\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/kvizdf335\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/7\\/3\\/d\\/d\\/22\\/120\\/b3c31f7909d98313de22b0f6e3e51810.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850685210": {
+    "timestamp": "1759850685242",
+    "timestampString": "22:24:45",
+    "msgId": "7092468747356",
+    "cliMsgId": "1759850685210",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6782773072614203000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1759850629402,
+        "globalDelMsgId": 7092468741599,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759850685292": {
+    "timestamp": "1759850685330",
+    "timestampString": "22:24:45",
+    "msgId": "7092468747361",
+    "cliMsgId": "1759850685292",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nNguyễn Minh Khôi\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 2/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055910410776200": {
+    "timestamp": "1759850685122",
+    "timestampString": "22:24:45",
+    "msgId": "7092468740116",
+    "cliMsgId": "1055910410776200",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Nguyễn Minh Khôi\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":17,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
       "type": ""
     },
     "threadId": "5601607522756268167",
