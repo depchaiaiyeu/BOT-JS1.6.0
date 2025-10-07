@@ -23440,5 +23440,121 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1758279053410": {
+    "timestamp": "1759847646408",
+    "timestampString": "21:34:06",
+    "msgId": "7092311269307",
+    "cliMsgId": "1758279053410",
+    "msgType": "chat.photo",
+    "uidFrom": "5498985111158029675",
+    "idTo": "5601607522756268167",
+    "dName": "Văn Nguyễn",
+    "content": {
+      "title": "👉👉👉Website : shopaccmmo.vn\n✅ Clone Facebook, Clone 902, Clone XMDT tích xanh\n✅ Có clone NEW, clone lâu năm, clone spam, clone re-up\n✅ CapCut Pro, ChatGPT, Canva, YouTube Premium, Spotify Pro\n✅ Tăng like, tăng follow,tăng tương tác Facebook,Instagram,Tiktok,Shopee,Lazada,Youtube,...\n✅ Giao clone TỰ ĐỘNG – Nhận clone NGAY – Giá siêu rẻ \nGroup giao lưu: https://zalo.me/g/kkomqq202",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/107472964148034098/53dcada191cf1b9142de.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/107472964148034098/53dcada191cf1b9142de.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":43411,\"width\":1017,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/107472964148034098\\/53dcada191cf1b9142de.jpg\",\"height\":215}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847646681": {
+    "timestamp": "1759847646719",
+    "timestampString": "21:34:07",
+    "msgId": "7092311269351",
+    "cliMsgId": "1759847646681",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nVăn Nguyễn\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055908586326200": {
+    "timestamp": "1759847646446",
+    "timestampString": "21:34:07",
+    "msgId": "7092311269314",
+    "cliMsgId": "1055908586326200",
+    "msgType": "webchat",
+    "uidFrom": "1277772631698656128",
+    "idTo": "5601607522756268167",
+    "dName": "Bear",
+    "content": {
+      "title": "group này có biến căng ae ơi          :((((((((((\nhttps://zalo.me/g/xkjxwk345",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [\"{\\\"styles\\\": [{\\\"start\\\": 0, \\\"len\\\": 49, \\\"st\\\": \\\"c_FF5733\\\"}], \\\"ver\\\": 0}\", {\"start\": 0, \"len\": 49, \"st\": \"b\"}, \"{\\\"styles\\\": [{\\\"start\\\": 50, \\\"len\\\": 27, \\\"st\\\": \\\"c_33FF57\\\"}], \\\"ver\\\": 0}\", {\"start\": 50, \"len\": 27, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847646523": {
+    "timestamp": "1759847646561",
+    "timestampString": "21:34:07",
+    "msgId": "7092311269330",
+    "cliMsgId": "1759847646523",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5498985111158029000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1758279053410,
+        "globalDelMsgId": 7092311269307,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759847664783": {
+    "timestamp": "1759847666101",
+    "timestampString": "21:34:26",
+    "msgId": "7092312403775",
+    "cliMsgId": "1759847664783",
+    "msgType": "chat.video.msg",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "http://ichinomakatsu.serveo.net/video/nho-lam-doi-vai-em-gay-yeutudaumara.mp4",
+      "thumb": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oQFegh4Yog8EN6GieezYt99f7KqAfgUluDOHgA~tplv-tiktokx-origin.image?dr=14575&x-expires=1760018400&x-signature=CSLpucUo8dqxiz0KBhqCw9m99yE%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=my",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":27,\"video_height\":1920,\"fileSize\":1559852,\"video_width\":1080}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
