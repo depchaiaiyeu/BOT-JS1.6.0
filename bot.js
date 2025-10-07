@@ -28,7 +28,8 @@ async function autoCommit() {
       "*.cache",
       "*.zip",
       "*.rar",
-      ".gitignore"
+      ".gitignore",
+      "message.json"
     ]
     const excludeArgs = excludeList.map(x => `:(exclude)${x}`).join(" ")
     await runCommand(`git add :/ ${excludeArgs}`, repoPath)
