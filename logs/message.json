@@ -12884,5 +12884,343 @@
     "threadId": "2275317996891696552",
     "type": 0,
     "isUndo": false
+  },
+  "1759840411654": {
+    "timestamp": "1759840411769",
+    "timestampString": "19:33:32",
+    "msgId": "7091863242476",
+    "cliMsgId": "1759840411654",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "an j",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840414643": {
+    "timestamp": "1759840414687",
+    "timestampString": "19:33:35",
+    "msgId": "7091863420282",
+    "cliMsgId": "1759840414643",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "Nghe nói bot bán dữ lắm",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840415641": {
+    "timestamp": "1759840415778",
+    "timestampString": "19:33:36",
+    "msgId": "7091863443099",
+    "cliMsgId": "1759840415641",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Trung Trí > Tin nhắn bị xóa vì chứa từ ngữ bị cấm: \"bán\"\nCảnh cáo lần 3/3\n⚠️ Vi phạm 3 lần, bạn bị cấm chat trong 15 phút!",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840415348": {
+    "timestamp": "1759840415488",
+    "timestampString": "19:33:36",
+    "msgId": "7091863443069",
+    "cliMsgId": "1759840415348",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 450249133712562200,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759840414643,
+        "globalDelMsgId": 7091863420282,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840416252": {
+    "timestamp": "1759840416334",
+    "timestampString": "19:33:38",
+    "msgId": "7091863520163",
+    "cliMsgId": "1759840416252",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",hh3d tu tiên",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840417779": {
+    "timestamp": "1759840417916",
+    "timestampString": "19:33:38",
+    "msgId": "7091863577239",
+    "cliMsgId": "1759840417779",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n🎬 Tìm thấy 3 phim với từ khóa \"tu tiên\":\n\n1. Phàm Nhân Tu Tiên Full\n🔗 https://yanhh3d.vip/pham-nhan-tu-tien\n2. Phàm Nhân Tu Tiên Truyện [Live Action]\n🔗 https://yanhh3d.vip/pham-nhan-tu-tien-truyen\n3. Ta, Kẻ Thù Của Cả Tu Tiên Giới\n🔗 https://yanhh3d.vip/ta-ke-thu-cua-ca-tu-tien-gioi\n\n➡️ Trả lời số phim để chọn (VD: 1)",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":322,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840420667": {
+    "timestamp": "1759840420758",
+    "timestampString": "19:33:41",
+    "msgId": "7091863784665",
+    "cliMsgId": "1759840420667",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "2",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840420615": {
+    "timestamp": "1759840420694",
+    "timestampString": "19:33:41",
+    "msgId": "7091863781595",
+    "cliMsgId": "1759840420615",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "Vc",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840421349": {
+    "timestamp": "1759840421491",
+    "timestampString": "19:33:41",
+    "msgId": "7091863818733",
+    "cliMsgId": "1759840421349",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 450249133712562200,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759840420615,
+        "globalDelMsgId": 7091863781595,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840424625": {
+    "timestamp": "1759840424695",
+    "timestampString": "19:33:45",
+    "msgId": "7091864022779",
+    "cliMsgId": "1759840424625",
+    "msgType": "webchat",
+    "uidFrom": "8207225501382768094",
+    "idTo": "5062010022207232004",
+    "dName": "Bò Bel",
+    "content": "Hiii",
+    "threadId": "5062010022207232004",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840426776": {
+    "timestamp": "1759840426863",
+    "timestampString": "19:33:47",
+    "msgId": "7091864154721",
+    "cliMsgId": "1759840426776",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Trung Trí ,unmute",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840427506": {
+    "timestamp": "1759840427643",
+    "timestampString": "19:33:48",
+    "msgId": "7091864164812",
+    "cliMsgId": "1759840427506",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nĐã mở chat người dùng Trung Trí.\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840430547": {
+    "timestamp": "1759840430686",
+    "timestampString": "19:33:51",
+    "msgId": "7091864358028",
+    "cliMsgId": "1759840430547",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759840429553,
+        "globalDelMsgId": 7091864321450,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840430267": {
+    "timestamp": "1759840430407",
+    "timestampString": "19:33:52",
+    "msgId": "7091864358002",
+    "cliMsgId": "1759840430267",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759840417779,
+        "globalDelMsgId": 7091863577239,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840429553": {
+    "timestamp": "1759840429634",
+    "timestampString": "19:33:52",
+    "msgId": "7091864321450",
+    "cliMsgId": "1759840429553",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "2",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840431898": {
+    "timestamp": "1759840432035",
+    "timestampString": "19:33:52",
+    "msgId": "7091864465076",
+    "cliMsgId": "1759840431898",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n🎬 Phàm Nhân Tu Tiên Truyện [Live Action]\nCác tập có sẵn: 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1\n\n➡️ Trả lời đúng tên tập để xem (VD: 50 hoặc 1-5)",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":217,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840438178": {
+    "timestamp": "1759840438314",
+    "timestampString": "19:33:58",
+    "msgId": "7091864826692",
+    "cliMsgId": "1759840438178",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n⏳ Đang xử lý phim Phàm Nhân Tu Tiên Truyện [Live Action], tập 27...",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":67,\"st\":\"b,c_f7b503,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840437900": {
+    "timestamp": "1759840438039",
+    "timestampString": "19:33:59",
+    "msgId": "7091864826665",
+    "cliMsgId": "1759840437900",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759840431898,
+        "globalDelMsgId": 7091864465076,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }

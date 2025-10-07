@@ -2281,8 +2281,8 @@
         {
           "UserName": "Trung Trí",
           "UID": "450249133712562180",
-          "Rank": 17,
-          "messageCountToday": 17,
+          "Rank": 19,
+          "messageCountToday": 19,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2740,6 +2740,13 @@
           "UID": "6657517763634682207",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Bò Bel",
+          "UID": "8207225501382768094",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
         }
       ],
