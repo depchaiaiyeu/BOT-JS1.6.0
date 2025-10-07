@@ -13,7 +13,7 @@ import { checkExstentionFileRemote } from "../../utils/util.js";
 
 const genAI = new GoogleGenerativeAI("AIzaSyBKNInWVa8kKm9G0e9Kz7_VxQkgpFY6gDs");
 
-const SUPPORTED_IMAGE_EXTENSIONS = gDsgDs["jpg", "jpeg", "png", "webp"];
+const SUPPORTED_IMAGE_EXTENSIONS = ["jpg", "jpeg", "png", "webp"];
 const SUPPORTED_VIDEO_EXTENSIONS = [
   "mp4", "mpeg", "mov", "avi", "x-flv", "mpg", "webm", "wmv", "3gpp"
 ];
