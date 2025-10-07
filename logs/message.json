@@ -24779,5 +24779,93 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759848068244": {
+    "timestamp": "1759848068379",
+    "timestampString": "21:41:09",
+    "msgId": "7092335108981",
+    "cliMsgId": "1759848068244",
+    "msgType": "webchat",
+    "uidFrom": "7431213830601319963",
+    "idTo": "6512342651301747547",
+    "dName": "Trần Đình Đạt",
+    "content": "Thk e a h ăn phốt liên tọi:)",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848068395": {
+    "timestamp": "1759848068405",
+    "timestampString": "21:41:09",
+    "msgId": "7092335108404",
+    "cliMsgId": "1759848068395",
+    "msgType": "webchat",
+    "uidFrom": "5302662367475744429",
+    "idTo": "6512342651301747547",
+    "dName": "Nhut Hao",
+    "content": "sub fb rate 3.2 cần lh e",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848077633": {
+    "timestamp": "1759848077685",
+    "timestampString": "21:41:18",
+    "msgId": "7092335626973",
+    "cliMsgId": "1759848077633",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": "@Trần Đình Đạt (=",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848079433": {
+    "timestamp": "1759848079466",
+    "timestampString": "21:41:19",
+    "msgId": "7092335724089",
+    "cliMsgId": "1759848079433",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://h.uguu.se/CQDpooQk.webp",
+      "thumb": "https://h.uguu.se/CQDpooQk.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1759844785603\",\"height\":512,\"thumb_height\":512,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/h.uguu.se\\/CQDpooQk.webp\"}}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848089971": {
+    "timestamp": "1759848090180",
+    "timestampString": "21:41:30",
+    "msgId": "7092336322753",
+    "cliMsgId": "1759848089971",
+    "msgType": "chat.photo",
+    "uidFrom": "7431213830601319963",
+    "idTo": "6512342651301747547",
+    "dName": "Trần Đình Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://n.uguu.se/CsOuHQmH.webp",
+      "thumb": "https://n.uguu.se/CsOuHQmH.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759843045234\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/n.uguu.se\\/CsOuHQmH.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1759843045234\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }

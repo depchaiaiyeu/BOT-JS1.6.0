@@ -1416,8 +1416,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 40,
-          "messageCountToday": 17,
+          "Rank": 42,
+          "messageCountToday": 19,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1514,8 +1514,15 @@
         {
           "UserName": "Trần Đình Đạt",
           "UID": "7431213830601319963",
-          "Rank": 7,
-          "messageCountToday": 7,
+          "Rank": 9,
+          "messageCountToday": 9,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Nhut Hao",
+          "UID": "5302662367475744429",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
         }
       ],
