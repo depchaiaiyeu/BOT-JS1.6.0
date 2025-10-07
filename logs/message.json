@@ -890,5 +890,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759838117289": {
+    "timestamp": "1759838117375",
+    "timestampString": "18:55:19",
+    "msgId": "7091727487118",
+    "cliMsgId": "1759838117289",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Lý Bảo dc",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759838120427": {
+    "timestamp": "1759838120498",
+    "timestampString": "18:55:20",
+    "msgId": "7091727665404",
+    "cliMsgId": "1759838120427",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "gửi code đáy",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
