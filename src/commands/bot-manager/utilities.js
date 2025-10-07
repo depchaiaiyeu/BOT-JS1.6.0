@@ -33,6 +33,112 @@ export function stopTodo() {
   activeTodo = false;
 }
 
+export async function handleCallGroupCommand(api, message) {
+  try {
+    const senderName = message.data?.dName || "Người dùng";
+    const senderId = message.data?.uidFrom;
+    let mentions = message.data?.mentions || [];
+
+    if (mentions.length === 0 && message.data?.reply) {
+      mentions.push({
+        uid: message.data.reply.uid,
+        dName: message.data.reply.dName || "Người dùng"
+      });
+    }
+
+    if (mentions.length === 0) {
+      await api.sendMessage(
+        {
+          msg: `(@${senderName}) Dùng \`callgroup @mention số lần\` để gọi group!`,
+          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
+          ttl:360000,
+        },
+        message.threadId,
+        message.type
+      );
+      return;
+    }
+
+    if (mentions.length !== 1) {
+      await api.sendMessage(
+        {
+          msg: `(@${senderName}) ❌ Chỉ hỗ trợ gọi cho một người!`,
+          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
+          ttl:360000,
+        },
+        message.threadId,
+        message.type
+      );
+      return;
+    }
+
+    const body = (message.body || '').trim();
+    const timesMatch = body.match(/\d+$/);
+    if (!timesMatch) {
+      await api.sendMessage(
+        {
+          msg: `(@${senderName}) ❌ Vui lòng cung cấp số lần gọi (số nguyên dương)!`,
+          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
+          ttl:360000,
+        },
+        message.threadId,
+        message.type
+      );
+      return;
+    }
+
+    const times = parseInt(timesMatch[0]);
+    if (isNaN(times) || times <= 0) {
+      await api.sendMessage(
+        {
+          msg: `(@${senderName}) ❌ Số lần phải là số nguyên dương!`,
+          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
+          ttl:360000,
+        },
+        message.threadId,
+        message.type
+      );
+      return;
+    }
+
+    const mention = mentions[0];
+    let successfulCalls = 0;
+    for (let i = 0; i < times; i++) {
+      try {
+        await api.callGroup(message.threadId, mention.uid);
+        successfulCalls++;
+      } catch {}
+    }
+
+    const failedCalls = times - successfulCalls;
+    let mentionText = `Thống Kê Call Group Cho (@${mention.dName || "Người dùng"})\nTổng: ${times}\nThất bại: ${failedCalls}\nThành công: ${successfulCalls}`;
+    let currentPos = 22;
+    const mentionData = [{ uid: mention.uid, pos: currentPos, len: (mention.dName || "Người dùng").length + 3 }];
+
+    await api.sendMessage(
+      {
+        msg: mentionText.trim(),
+        mentions: mentionData,
+        ttl:360000,
+      },
+      message.threadId,
+      message.type
+    );
+  } catch (error) {
+    console.error("❌ Lỗi khi gọi group:", error);
+    await api.sendMessage(
+      {
+        msg: `(@${message.data?.dName || "Người dùng"}) ❌ Có lỗi xảy ra khi thực hiện lệnh.`,
+        mentions: [{ uid: message.data?.uidFrom, pos: 0, len: (message.data?.dName || "Người dùng").length + 3 }],
+        ttl:360000,
+      },
+      message.threadId,
+      message.type
+    );
+    throw error;
+  }
+}
+
 export async function handleChangeGroupLink(api, message) {
   try {
     const threadId = message.threadId;
