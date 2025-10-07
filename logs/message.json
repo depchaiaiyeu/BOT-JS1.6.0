@@ -25666,5 +25666,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759848541672": {
+    "timestamp": "1759848541778",
+    "timestampString": "21:49:02",
+    "msgId": "7092361031989",
+    "cliMsgId": "1759848541672",
+    "msgType": "webchat",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": "@Vu Huynh Nhi m nói như t og dà 9x k bằng ấy",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759848541559": {
+    "timestamp": "1759848541643",
+    "timestampString": "21:49:02",
+    "msgId": "7092361023310",
+    "cliMsgId": "1759848541559",
+    "msgType": "webchat",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": "Hửm?..",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
