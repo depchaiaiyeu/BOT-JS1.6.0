@@ -10202,5 +10202,93 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759839732776": {
+    "timestamp": "1759839732853",
+    "timestampString": "19:22:13",
+    "msgId": "7091822388957",
+    "cliMsgId": "1759839732776",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Văn Tám rồi con pokemon đâu",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839740607": {
+    "timestamp": "1759839740684",
+    "timestampString": "19:22:21",
+    "msgId": "7091822853965",
+    "cliMsgId": "1759839740607",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "nên anime là nó mà k có nó",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839743200": {
+    "timestamp": "1759839743276",
+    "timestampString": "19:22:23",
+    "msgId": "7091823005540",
+    "cliMsgId": "1759839743200",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/299632e15a6efb30a27f/6369645281810494206?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/299632e15a6efb30a27f/6369645281810494206?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":282,\"height\":282,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758734105898\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/299632e15a6efb30a27f\\/6369645281810494206?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758734105898\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839744527": {
+    "timestamp": "1759839744598",
+    "timestampString": "19:22:24",
+    "msgId": "7091823086007",
+    "cliMsgId": "1759839744527",
+    "msgType": "webchat",
+    "uidFrom": "7836374865116483067",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Tuấn Khang",
+    "content": "@Văn Tám thiếu 3 con nx",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839746423": {
+    "timestamp": "1759839747907",
+    "timestampString": "19:22:28",
+    "msgId": "7091823257235",
+    "cliMsgId": "1759839746423",
+    "msgType": "chat.photo",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/8589943988282820717/cab27d7e0fc4859adcd5.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/8589943988282820717/cab27d7e0fc4859adcd5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":3,\"width\":940,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f67-zpg-r.zdn.vn\\/jpg\\/8589943988282820717\\/cab27d7e0fc4859adcd5.jpg\",\"hdSize\":23186,\"height\":299}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
