@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 3635,
-          "messageCountToday": 119,
+          "Rank": 3661,
+          "messageCountToday": 145,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1000,9 +1000,9 @@
         {
           "UserName": "Lê Quốc Đạt",
           "UID": "2784271520159982744",
-          "Rank": 51,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-06"
+          "Rank": 56,
+          "messageCountToday": 5,
+          "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Hà Huy Hoàng",
@@ -1077,8 +1077,8 @@
         {
           "UserName": "Phạm Hồng Nhật",
           "UID": "5726988841569768513",
-          "Rank": 268,
-          "messageCountToday": 14,
+          "Rank": 277,
+          "messageCountToday": 23,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1136,6 +1136,13 @@
           "Rank": 8,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-06"
+        },
+        {
+          "UserName": "P W ツ",
+          "UID": "4539111004093292997",
+          "Rank": 4,
+          "messageCountToday": 4,
+          "lastMessageDate": "2025-10-07"
         }
       ],
       "nameGroup": "⚜️ Infinite Coder ⚜️"
@@ -2025,6 +2032,13 @@
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Zalo",
+          "UID": "2730348679286956255",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
         }
       ],
       "nameGroup": "Nhóm 6 - Phạm Trường Quần Áo { Hàng Sẵn }"
@@ -2052,6 +2066,18 @@
         }
       ],
       "nameGroup": "Box chat trò chuyện buôn bán game steal a brainrot"
+    },
+    "2169672120762131239": {
+      "users": [
+        {
+          "UserName": "Zalo",
+          "UID": "2730348679286956255",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        }
+      ],
+      "nameGroup": "Nhóm 9 - Phạm Trường Quần Áo { Hàng Sẵn }"
     }
   }
 }
