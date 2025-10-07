@@ -20047,5 +20047,61 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759840836164": {
+    "timestamp": "1759840836279",
+    "timestampString": "19:40:37",
+    "msgId": "7091889004379",
+    "cliMsgId": "1759840836164",
+    "msgType": "webchat",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": "tren con đường thanh cong k co dau chan cua ke lười",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840836794": {
+    "timestamp": "1759840837163",
+    "timestampString": "19:40:37",
+    "msgId": "7091889057681",
+    "cliMsgId": "1759840836794",
+    "msgType": "webchat",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": "Toàn làm bot cho ng quen",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840849226": {
+    "timestamp": "1759840849346",
+    "timestampString": "19:40:50",
+    "msgId": "7091889798491",
+    "cliMsgId": "1759840849226",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "@Lê Quốc Đạt free",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840852774": {
+    "timestamp": "1759840852853",
+    "timestampString": "19:40:53",
+    "msgId": "7091890013466",
+    "cliMsgId": "1759840852774",
+    "msgType": "webchat",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": "tui cào data chứ khong rảnh đi viết từng dòng",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
