@@ -10290,5 +10290,117 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759839765370": {
+    "timestamp": "1759839765449",
+    "timestampString": "19:22:46",
+    "msgId": "7091824320110",
+    "cliMsgId": "1759839765370",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "Làm nhiều game thế",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839768156": {
+    "timestamp": "1759839768227",
+    "timestampString": "19:22:48",
+    "msgId": "7091824483764",
+    "cliMsgId": "1759839768156",
+    "msgType": "webchat",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": "@Vũ Xuân Kiên lỗi handle thô8",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839769981": {
+    "timestamp": "1759839770050",
+    "timestampString": "19:22:50",
+    "msgId": "7091824591677",
+    "cliMsgId": "1759839769981",
+    "msgType": "webchat",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": "fix roi",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839772075": {
+    "timestamp": "1759839772187",
+    "timestampString": "19:22:52",
+    "msgId": "7091824717439",
+    "cliMsgId": "1759839772075",
+    "msgType": "chat.sticker",
+    "uidFrom": "2163698486420338748",
+    "idTo": "4699745045071009795",
+    "dName": "Hải Anh",
+    "content": {
+      "id": 27718,
+      "catId": 10752,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839776723": {
+    "timestamp": "1759839776760",
+    "timestampString": "19:22:57",
+    "msgId": "7091824990945",
+    "cliMsgId": "1759839776723",
+    "msgType": "webchat",
+    "uidFrom": "2163698486420338748",
+    "idTo": "4699745045071009795",
+    "dName": "Hải Anh",
+    "content": "thôi m mua mà",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839777656": {
+    "timestamp": "1759839777787",
+    "timestampString": "19:22:58",
+    "msgId": "7091825029549",
+    "cliMsgId": "1759839777656",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Hải Anh > Tin nhắn bị xóa vì chứa từ ngữ bị cấm: \"mua\"\nCảnh cáo lần 2/3",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839777380": {
+    "timestamp": "1759839777515",
+    "timestampString": "19:22:58",
+    "msgId": "7091825029512",
+    "cliMsgId": "1759839777380",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2163698486420338700,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759839776723,
+        "globalDelMsgId": 7091824990945,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
