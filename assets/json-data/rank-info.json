@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 3708,
-          "messageCountToday": 192,
+          "Rank": 3713,
+          "messageCountToday": 197,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -979,8 +979,8 @@
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 1145,
-          "messageCountToday": 24,
+          "Rank": 1148,
+          "messageCountToday": 27,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1585,8 +1585,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 90,
-          "messageCountToday": 2,
+          "Rank": 91,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1669,8 +1669,8 @@
         {
           "UserName": "A Sìn",
           "UID": "1070876624639243239",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-07"
         }
       ],
@@ -2113,6 +2113,18 @@
         }
       ],
       "nameGroup": "Nhóm 9 - Phạm Trường Quần Áo { Hàng Sẵn }"
+    },
+    "1747464985521437051": {
+      "users": [
+        {
+          "UserName": "Trần Trọng Luân",
+          "UID": "5172052908452176125",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        }
+      ],
+      "nameGroup": "ZCA | CHATBOT　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　gwengay"
     }
   }
 }
