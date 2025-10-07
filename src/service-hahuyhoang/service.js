@@ -28,6 +28,7 @@ import { handleLOLReply } from "./servises/LOL.General.js";
 import { startAutoLockChatScheduler } from "../commands/bot-manager/group-autolock.js";
 import { handleHH3DReply } from "./api-crawl/video/yanhh3d-phim3d.js";
 import { handleSubNhanhChillReply } from "./api-crawl/video/subnhanhchill.net.js";
+import { handleMemeReply } from "./api-crawl/image/meme.js";
 
 let globalPrefix = ".";
 
