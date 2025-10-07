@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 3764,
-          "messageCountToday": 248,
+          "Rank": 3769,
+          "messageCountToday": 253,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -972,15 +972,15 @@
         {
           "UserName": "Tài Tấn",
           "UID": "9186197335392085312",
-          "Rank": 56,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-06"
+          "Rank": 58,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 1164,
-          "messageCountToday": 43,
+          "Rank": 1169,
+          "messageCountToday": 48,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1166,15 +1166,15 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 151,
-          "messageCountToday": 47,
+          "Rank": 153,
+          "messageCountToday": 49,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Văn Nguyễn",
           "UID": "5498985111158029675",
-          "Rank": 19,
-          "messageCountToday": 5,
+          "Rank": 20,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1592,8 +1592,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 108,
-          "messageCountToday": 20,
+          "Rank": 111,
+          "messageCountToday": 23,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2153,6 +2153,18 @@
         }
       ],
       "nameGroup": "ZCA | CHATBOT　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　gwengay"
+    },
+    "5464956150740844012": {
+      "users": [
+        {
+          "UserName": "Hphucc",
+          "UID": "9030808754540072808",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        }
+      ],
+      "nameGroup": "Multi AI Coder [ Chat ]"
     }
   }
 }
