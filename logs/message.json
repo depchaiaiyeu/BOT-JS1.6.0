@@ -10147,5 +10147,60 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759839702022": {
+    "timestamp": "1759839702105",
+    "timestampString": "19:21:43",
+    "msgId": "7091820571875",
+    "cliMsgId": "1759839702022",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Gwen nhược điểm k chọn thì bot tự chọn",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839708110": {
+    "timestamp": "1759839708226",
+    "timestampString": "19:21:49",
+    "msgId": "7091820931716",
+    "cliMsgId": "1759839708110",
+    "msgType": "chat.sticker",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": {
+      "id": 46953,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759839711000": {
+    "timestamp": "1759839712794",
+    "timestampString": "19:21:53",
+    "msgId": "7091821176310",
+    "cliMsgId": "1759839711000",
+    "msgType": "chat.photo",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": {
+      "title": "cv hế ddi",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/jpg/1611771988204516787/6f35bc7dcfc745991cd6.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/jpg/1611771988204516787/6f35bc7dcfc745991cd6.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":3,\"width\":472,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f60-zpg-r.zdn.vn\\/jpg\\/1611771988204516787\\/6f35bc7dcfc745991cd6.jpg\",\"hdSize\":27288,\"height\":744}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
