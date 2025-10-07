@@ -19871,5 +19871,56 @@
     "threadId": "1284711774600897775",
     "type": 1,
     "isUndo": false
+  },
+  "1759840775273": {
+    "timestamp": "1759840775423",
+    "timestampString": "19:39:36",
+    "msgId": "7091885292962",
+    "cliMsgId": "1759840775273",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/jpg/9088093109659290418/faaa0787033d8963d02c.jpg",
+      "thumb": "https://f59-zpg-r.zdn.vn/jpg/9088093109659290418/faaa0787033d8963d02c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1125,\"height\":986,\"is_group_layout\":0,\"contentId\":\"1000027239\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840788746": {
+    "timestamp": "1759840788828",
+    "timestampString": "19:39:49",
+    "msgId": "7091886109025",
+    "cliMsgId": "1759840788746",
+    "msgType": "webchat",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": "Loz Duẩn rác scam 70k",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759840797927": {
+    "timestamp": "1759840798265",
+    "timestampString": "19:39:59",
+    "msgId": "7091886681871",
+    "cliMsgId": "1759840797927",
+    "msgType": "webchat",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": "nói nó fake bill cứ cãi",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
