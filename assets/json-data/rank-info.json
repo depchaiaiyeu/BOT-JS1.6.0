@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 3629,
-          "messageCountToday": 113,
+          "Rank": 3635,
+          "messageCountToday": 119,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1063,8 +1063,8 @@
         {
           "UserName": "Bùi Hiếu",
           "UID": "2623964646848540497",
-          "Rank": 143,
-          "messageCountToday": 62,
+          "Rank": 144,
+          "messageCountToday": 63,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1077,8 +1077,8 @@
         {
           "UserName": "Phạm Hồng Nhật",
           "UID": "5726988841569768513",
-          "Rank": 266,
-          "messageCountToday": 12,
+          "Rank": 268,
+          "messageCountToday": 14,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1145,22 +1145,22 @@
         {
           "UserName": "Khánh Sang",
           "UID": "724518155284931893",
-          "Rank": 14,
-          "messageCountToday": 2,
+          "Rank": 16,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 138,
-          "messageCountToday": 34,
+          "Rank": 144,
+          "messageCountToday": 40,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Văn Nguyễn",
           "UID": "5498985111158029675",
-          "Rank": 17,
-          "messageCountToday": 3,
+          "Rank": 18,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1173,8 +1173,8 @@
         {
           "UserName": "Bear",
           "UID": "1277772631698656128",
-          "Rank": 28,
-          "messageCountToday": 8,
+          "Rank": 29,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1728,8 +1728,8 @@
         {
           "UserName": "Bắc",
           "UID": "7159173789925726305",
-          "Rank": 3,
-          "messageCountToday": 2,
+          "Rank": 5,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1882,8 +1882,8 @@
         {
           "UserName": "Nguyễn Minh Khôi",
           "UID": "6782773072614202906",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -1891,6 +1891,13 @@
           "UID": "6215469809471157882",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Hoàng Tt Huyền",
+          "UID": "7336355608886049",
+          "Rank": 6,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-07"
         }
       ],
@@ -2033,6 +2040,18 @@
         }
       ],
       "nameGroup": "Động Cappo"
+    },
+    "7734313716342939502": {
+      "users": [
+        {
+          "UserName": "Mink Khiêm",
+          "UID": "556077260507140492",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
+        }
+      ],
+      "nameGroup": "Box chat trò chuyện buôn bán game steal a brainrot"
     }
   }
 }
