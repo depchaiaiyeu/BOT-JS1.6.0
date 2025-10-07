@@ -979,8 +979,8 @@
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 1666,
-          "messageCountToday": 545,
+          "Rank": 1668,
+          "messageCountToday": 547,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2351,8 +2351,8 @@
         {
           "UserName": "Việt",
           "UID": "6698910511481637580",
-          "Rank": 12,
-          "messageCountToday": 12,
+          "Rank": 13,
+          "messageCountToday": 13,
           "lastMessageDate": "2025-10-07"
         },
         {
@@ -2532,8 +2532,15 @@
           "UserName": "Muun Cuti",
           "UID": "342716954561553658",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-06"
+        },
+        {
+          "UserName": "Thiên Bách",
+          "UID": "4403431173397495847",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-07"
         }
       ],
       "nameGroup": "Tiện Ích 🛡 🪲"
