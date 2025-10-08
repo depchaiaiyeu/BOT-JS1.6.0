@@ -30047,5 +30047,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759902438981": {
+    "timestamp": "1759902435769",
+    "timestampString": "12:47:16",
+    "msgId": "7094046592964",
+    "cliMsgId": "1759902438981",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "🚦@Dell Yêu Ai\n 🔊 Voice của bạn đây",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902439118": {
+    "timestamp": "1759902435960",
+    "timestampString": "12:47:16",
+    "msgId": "7094046592976",
+    "cliMsgId": "1759902439118",
+    "msgType": "chat.voice",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/7466418790460487746/a9726b7014f6faa8a3e7?Kewm.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":40132,\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/7466418790460487746\\/a9726b7014f6faa8a3e7?Kewm.aac\"}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
