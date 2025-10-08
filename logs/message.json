@@ -68224,5 +68224,89 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759924387339": {
+    "timestamp": "1759924384340",
+    "timestampString": "18:53:05",
+    "msgId": "7095368161026",
+    "cliMsgId": "1759924387339",
+    "msgType": "chat.gif",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/23331fb8da2b7b75223a/7223267320657488823",
+      "thumb": "https://f63-zpg-r.zdn.vn/810938743176997410/e78557d0d49f59c1008e.jpg",
+      "childnumber": 0,
+      "action": "recommend.gif",
+      "params": "{\"width\":600,\"height\":200}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924389204": {
+    "timestamp": "1759924389248",
+    "timestampString": "18:53:09",
+    "msgId": "7095368453487",
+    "cliMsgId": "1759924389204",
+    "msgType": "chat.delete",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1800321399331161600,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1759921711698,
+        "globalDelMsgId": 7095215848352,
+        "destId": 7897564732983285000
+      }
+    ],
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924397470": {
+    "timestamp": "1759924397338",
+    "timestampString": "18:53:18",
+    "msgId": "7095368921962",
+    "cliMsgId": "1759924397470",
+    "msgType": "chat.photo",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/40053f2b19a8b8f6e1b9/3738189757002887848?createby=NDQ_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/40053f2b19a8b8f6e1b9/3738189757002887848?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":516,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758371365301\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/40053f2b19a8b8f6e1b9\\/3738189757002887848?createby=NDQ_Bot.webp\",\"width\":512,\"height\":516,\"thumb\":\"\"},\"contentId\":\"1758371365301\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595464240960": {
+    "timestamp": "1759924404178",
+    "timestampString": "18:53:24",
+    "msgId": "7095369310516",
+    "cliMsgId": "105595464240960",
+    "msgType": "webchat",
+    "uidFrom": "2396688189362799225",
+    "idTo": "5975420422762749911",
+    "dName": "Minhh",
+    "content": "🚦 Đã gửi lời mời kết bạn đến 148/148 thành viên trong nhóm.\n🚀 Nội dung tin nhắn: mấy con gà sẽ bị thiến",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
