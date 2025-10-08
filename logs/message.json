@@ -124515,5 +124515,102 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759934189198": {
+    "timestamp": "1759934189399",
+    "timestampString": "21:36:30",
+    "msgId": "7095967355728",
+    "cliMsgId": "1759934189198",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "@Mai Lê Uk",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934192334": {
+    "timestamp": "1759934192441",
+    "timestampString": "21:36:32",
+    "msgId": "7095967528996",
+    "cliMsgId": "1759934192334",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "Mất cl",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934203570": {
+    "timestamp": "1759934203570",
+    "timestampString": "21:36:44",
+    "msgId": "7095968155497",
+    "cliMsgId": "1759934203570",
+    "msgType": "chat.recommended",
+    "uidFrom": "523291538404353400",
+    "idTo": "5464956150740844012",
+    "dName": "Quyhoang Bá Mà",
+    "content": {
+      "title": "/-li  LINK SHARE MK FILE TIỀN 🐠  /-li \n/-li  VÔ BÚ CÒN KỊP NHÉ CÁC BRO /-li \n•LINK BOX SHARE 500FILE + MẬT KHẨU FILE AIMLOCK TIỀN CẢ VÔ IK ĐỪNG HỎI MẬT KHẨU FILE VÔ LÀ CÓ FILE TIỀN FILE MÀ BÁ NHOÁ ⚙️\n•https://zalo.me/g/fvlevi750",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/fvlevi750",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2ee37d37f2b1759934203aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvODY5M2MwYWJjM2NmMjk5MTcwZGU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"streamUrl\":\"\",\"stream_icon\":\"\",\"mediaTitle\":\"𝑨𝑰𝑴𝑳𝑶𝑪𝑲 𝑿 𝑸𝑼𝒀𝑯𝑶𝑨𝑵𝑮 🖥\",\"artist\":\"\",\"src\":\"zalo.me\",\"count\":\"\",\"type\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934203977": {
+    "timestamp": "1759934204038",
+    "timestampString": "21:36:44",
+    "msgId": "7095968187478",
+    "cliMsgId": "1759934203977",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "Bay 2 acc bố còn chưa nản",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934206224": {
+    "timestamp": "1759934206263",
+    "timestampString": "21:36:46",
+    "msgId": "7095968313767",
+    "cliMsgId": "1759934206224",
+    "msgType": "chat.sticker",
+    "uidFrom": "8659697562202878998",
+    "idTo": "2990969618896538297",
+    "dName": "Mai Lê",
+    "content": {
+      "id": 35380,
+      "catId": 11221,
+      "type": 3
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934209267": {
+    "timestamp": "1759934209318",
+    "timestampString": "21:36:49",
+    "msgId": "7095968486313",
+    "cliMsgId": "1759934209267",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "Ny là chó gì",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
