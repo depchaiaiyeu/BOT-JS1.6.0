@@ -117504,5 +117504,88 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759930321679": {
+    "timestamp": "1759930321727",
+    "timestampString": "20:32:02",
+    "msgId": "7095732237664",
+    "cliMsgId": "1759930321679",
+    "msgType": "chat.sticker",
+    "uidFrom": "2873500016463783643",
+    "idTo": "7897564732983285154",
+    "dName": "Ha Trung Son",
+    "content": {
+      "id": 43550,
+      "catId": 11788,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930325354": {
+    "timestamp": "1759930325393",
+    "timestampString": "20:32:05",
+    "msgId": "7095732468823",
+    "cliMsgId": "1759930325354",
+    "msgType": "webchat",
+    "uidFrom": "7144802708633232668",
+    "idTo": "4825567233436439756",
+    "dName": "Thanh Hue",
+    "content": "Xin all lệnh vs",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930329001": {
+    "timestamp": "1759930329471",
+    "timestampString": "20:32:09",
+    "msgId": "7095732697482",
+    "cliMsgId": "1759930329001",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ",i4gr",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930330628": {
+    "timestamp": "1759930330719",
+    "timestampString": "20:32:14",
+    "msgId": "7095732805033",
+    "cliMsgId": "1759930330628",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": ".girl",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930333891": {
+    "timestamp": "1759930334021",
+    "timestampString": "20:32:14",
+    "msgId": "7095732990741",
+    "cliMsgId": "1759930333891",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "[ @Kien ] \nCây đa giếng nước sân đình, bao giờ em mới hết một mình đây anhh",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/5333561683869124338/5aa076c4df8a52d40b9b.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/5333561683869124338/5aa076c4df8a52d40b9b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/5333561683869124338\\/5aa076c4df8a52d40b9b.jpg\",\"hdSize\":78348,\"height\":600}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
