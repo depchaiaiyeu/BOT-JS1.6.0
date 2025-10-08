@@ -34514,5 +34514,111 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759921714778": {
+    "timestamp": "1759921714828",
+    "timestampString": "18:08:35",
+    "msgId": "7095215820371",
+    "cliMsgId": "1759921714778",
+    "msgType": "webchat",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": "@Vu Huynh Nhi t tin cái m chọc ngta",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921711698": {
+    "timestamp": "1759921715292",
+    "timestampString": "18:08:36",
+    "msgId": "7095215848352",
+    "cliMsgId": "1759921711698",
+    "msgType": "chat.recommended",
+    "uidFrom": "1800321399331161543",
+    "idTo": "7897564732983285154",
+    "dName": "The Gor In My Heart",
+    "content": {
+      "title": "https://zalo.me/g/poelmp304",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/poelmp304",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2d48e55a9161759921648aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZmUxZjkxMGY1MTU3YmIwOWUyNDY=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":2,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"[ 𖢘 THIÊN LONG QUÁI 𖢘 ]\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/3\\/a\\/1\\/1\\/6\\/120\\/4919b0d1572109a418b3d0d4781a30b3.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921721397": {
+    "timestamp": "1759921721477",
+    "timestampString": "18:08:42",
+    "msgId": "7095216203231",
+    "cliMsgId": "1759921721397",
+    "msgType": "chat.sticker",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "id": 28402,
+      "catId": 10788,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921730220": {
+    "timestamp": "1759921730275",
+    "timestampString": "18:08:51",
+    "msgId": "7095216709319",
+    "cliMsgId": "1759921730220",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.sendMessage(\"hello baby\", \"2275317996891696552\")",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921730957": {
+    "timestamp": "1759921731056",
+    "timestampString": "18:08:51",
+    "msgId": "7095216708761",
+    "cliMsgId": "1759921730957",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921730955": {
+    "timestamp": "1759921731820",
+    "timestampString": "18:08:52",
+    "msgId": "7095216791303",
+    "cliMsgId": "1759921730955",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2275317996891696552",
+    "dName": "Vũ Xuân Kiên",
+    "content": "hello baby",
+    "threadId": "2275317996891696552",
+    "type": 0,
+    "isUndo": false
   }
 }
