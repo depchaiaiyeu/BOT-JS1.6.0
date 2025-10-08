@@ -124314,5 +124314,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935105259": {
+    "timestamp": "1759935105389",
+    "timestampString": "21:51:46",
+    "msgId": "7096018262086",
+    "cliMsgId": "1759935105259",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Ko đc nhắn dấu \"",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
