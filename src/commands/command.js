@@ -615,9 +615,6 @@ export async function handleCommandPrivate(api, message) {
           case "cpubenchmark":
             await handleCPUBenchmarkCommand (api, message);
             return 0;
-          case "eval":
-            await handleEval (api, message);
-            return 0;
           case "phatnguoi":
             await handleCheckPhatNguoiCommand (api, message);
             return 0;
@@ -841,6 +838,9 @@ export async function handleCommand(
         break;
       case "callgroup":
         await handleCallGroupCommand(api, message);
+        break;
+      case "eval":
+        await handleEval(api, message);
         break;
       case "go":
           await spamMessagesInGroup(api, message, aliasCommand);
