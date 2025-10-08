@@ -114687,5 +114687,42 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759929851016": {
+    "timestamp": "1759929851102",
+    "timestampString": "20:24:13",
+    "msgId": "7095702418738",
+    "cliMsgId": "1759929851016",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": ".menu",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929853327": {
+    "timestamp": "1759929853452",
+    "timestampString": "20:24:14",
+    "msgId": "7095702564473",
+    "cliMsgId": "1759929853327",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "📜 Danh sách lệnh:\n\n1. ⭐ Lệnh: help\n   📝 Mô Tả: Hiển thị danh sách và hướng dẫn sử dụng các lệnh cơ bản\n   ⏱️ Countdown: 5 Giây\n\n2. ⭐ Lệnh: game\n   📝 Mô Tả: Hiển thị danh sách và hướng dẫn các trò chơi có sẵn\n   ⏱️ Countdown: 5 Giây\n\n3. ⭐ Lệnh: command\n   📝 Mô Tả: Hiển thị toàn bộ danh sách lệnh bot và chi tiết các lệnh cụ thể\n   ⏱️ Countdown: 5 Giây\n\n4. ⭐ Lệnh: chat\n   📝 Mô Tả: Trò chuyện với Bot AI (Simsimi)\n   ⏱️ Countdown: 1 Giây\n\n5. ⭐ Lệnh: gpt\n   📝 Mô Tả: Đặt câu hỏi cho ChatGPT Trợ lý AI thông minh\n   ⏱️ Countdown: 1 Giây\n\n6. ⭐ Lệnh: gemini\n   📝 Mô Tả: Đặt câu hỏi cho Gemini - Trợ lý AI thông minh\n   ⏱️ Countdown: 1 Giây\n\n7. ⭐ Lệnh: image\n   📝 Mô Tả: Tìm kiếm và gửi ảnh ngẫu nhiên từ kho ảnh lớn nhất thế giới\n   ⏱️ Countdown: 5 Giây\n\n8. ⭐ Lệnh: pinterest\n   📝 Mô Tả: Tìm kiếm và gửi ảnh ngẫu nhiên theo từ khóa từ Pinterest\n   ⏱️ Countdown: 240 Giây\n\n9. ⭐ Lệnh: girl\n   📝 Mô Tả: Gửi ảnh gái xinh ngẫu nhiên từ bộ sưu tập\n   ⏱️ Countdown: 3 Giây\n\n10. ⭐ Lệnh: boy\n   📝 Mô Tả: Gửi ảnh trai đẹp ngẫu nhiên từ bộ sưu tập\n   ⏱️ Countdown: 3 Giây\n\n📄 Trang 1/10\n💡 Dùng .cmd [số trang] để xem các trang khác.\nℹ️ Dùng .cmd map để xem toàn bộ lệnh dành cho thành viên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":31,\"len\":5,\"st\":\"b,c_15a85f,f_18\"},{\"start\":141,\"len\":5,\"st\":\"b,c_15a85f,f_18\"},{\"start\":247,\"len\":8,\"st\":\"b,c_15a85f,f_18\"},{\"start\":368,\"len\":5,\"st\":\"b,c_15a85f,f_18\"},{\"start\":454,\"len\":4,\"st\":\"b,c_15a85f,f_18\"},{\"start\":552,\"len\":7,\"st\":\"b,c_15a85f,f_18\"},{\"start\":654,\"len\":6,\"st\":\"b,c_15a85f,f_18\"},{\"start\":769,\"len\":10,\"st\":\"b,c_15a85f,f_18\"},{\"start\":887,\"len\":5,\"st\":\"b,c_15a85f,f_18\"},{\"start\":983,\"len\":4,\"st\":\"b,c_15a85f,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
