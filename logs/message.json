@@ -124960,5 +124960,135 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931975346": {
+    "timestamp": "1759931975476",
+    "timestampString": "20:59:35",
+    "msgId": "7095835180725",
+    "cliMsgId": "1759931975346",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Kien\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ China edit TikTok Song +999999 Social Credit",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":5,\"len\":94,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931975083": {
+    "timestamp": "1759931975217",
+    "timestampString": "20:59:36",
+    "msgId": "7095835180695",
+    "cliMsgId": "1759931975083",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759931959763,
+        "globalDelMsgId": 7095834241455,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931980476": {
+    "timestamp": "1759931980606",
+    "timestampString": "20:59:41",
+    "msgId": "7095835498204",
+    "cliMsgId": "1759931980476",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Kien\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":5,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931980956": {
+    "timestamp": "1759931981089",
+    "timestampString": "20:59:41",
+    "msgId": "7095835535653",
+    "cliMsgId": "1759931980956",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/3158267807491633299/90940c956adce782becd.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/3158267807491633299/90940c956adce782becd.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/3158267807491633299\\/90940c956adce782becd.jpg\",\"hdSize\":114144,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931973519": {
+    "timestamp": "1759931973562",
+    "timestampString": "20:59:42",
+    "msgId": "7095835085095",
+    "cliMsgId": "1759931973519",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": "3",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931982349": {
+    "timestamp": "1759931982483",
+    "timestampString": "20:59:43",
+    "msgId": "7095835614926",
+    "cliMsgId": "1759931982349",
+    "msgType": "chat.voice",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/5c2bbec00b53aa0df342/783170828219177386/Vu-Xuan-Kien-Service-Bot.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":4709563,\"m4a\":\"https:\\/\\/fg41.dlfl.vn\\/5c2bbec00b53aa0df342\\/783170828219177386\\/Vu-Xuan-Kien-Service-Bot.aac\"}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
