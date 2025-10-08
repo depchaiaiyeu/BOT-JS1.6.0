@@ -1659,8 +1659,8 @@
         {
           "UserName": "Vu Huynh Nhi",
           "UID": "994613064562975222",
-          "Rank": 52,
-          "messageCountToday": 25,
+          "Rank": 53,
+          "messageCountToday": 26,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2127,6 +2127,13 @@
           "Rank": 2,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Văn Chiến",
+          "UID": "1113816537494657870",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "Bot Zép Lào🩴"

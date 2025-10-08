@@ -41216,5 +41216,65 @@
     "threadId": "5975420422762749911",
     "type": 0,
     "isUndo": false
+  },
+  "1759923675085": {
+    "timestamp": "1759923675204",
+    "timestampString": "18:41:16",
+    "msgId": "7095326923563",
+    "cliMsgId": "1759923675085",
+    "msgType": "chat.sticker",
+    "uidFrom": "1113816537494657870",
+    "idTo": "5975420422762749911",
+    "dName": "Văn Chiến",
+    "content": {
+      "id": 46967,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923674860": {
+    "timestamp": "1759923674914",
+    "timestampString": "18:41:16",
+    "msgId": "7095326909127",
+    "cliMsgId": "1759923674860",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",getuid",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923676214": {
+    "timestamp": "1759923676342",
+    "timestampString": "18:41:16",
+    "msgId": "7095326986276",
+    "cliMsgId": "1759923676214",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Vũ Xuân Kiên\nUID của bạn là: 690483581226941870\nUID của Group hiện tại là: 5975420422762749911",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923678382": {
+    "timestamp": "1759923679330",
+    "timestampString": "18:41:19",
+    "msgId": "7095327166270",
+    "cliMsgId": "1759923678382",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Màu trắng",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
