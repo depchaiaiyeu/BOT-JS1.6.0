@@ -33859,5 +33859,23 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759904990081": {
+    "timestamp": "1759904990120",
+    "timestampString": "13:29:51",
+    "msgId": "7094158253949",
+    "cliMsgId": "1759904990081",
+    "msgType": "chat.sticker",
+    "uidFrom": "1497331904978825980",
+    "idTo": "2990969618896538297",
+    "dName": "Hoài Ân",
+    "content": {
+      "id": 40826,
+      "catId": 11636,
+      "type": 3
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
