@@ -34077,5 +34077,70 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759921557080": {
+    "timestamp": "1759921557518",
+    "timestampString": "18:05:58",
+    "msgId": "7095206773271",
+    "cliMsgId": "1759921557080",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Em nói gì anh phải nghe",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921565368": {
+    "timestamp": "1759921565472",
+    "timestampString": "18:06:06",
+    "msgId": "7095207231549",
+    "cliMsgId": "1759921565368",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Sao anh lại không nghe lời??",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921572660": {
+    "timestamp": "1759921572751",
+    "timestampString": "18:06:13",
+    "msgId": "7095207649966",
+    "cliMsgId": "1759921572660",
+    "msgType": "chat.photo",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921575564": {
+    "timestamp": "1759921575649",
+    "timestampString": "18:06:16",
+    "msgId": "7095207817304",
+    "cliMsgId": "1759921575564",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Tại vì..",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
