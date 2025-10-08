@@ -127517,5 +127517,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759936851808": {
+    "timestamp": "1759936852099",
+    "timestampString": "22:20:52",
+    "msgId": "7096109043193",
+    "cliMsgId": "1759936851808",
+    "msgType": "webchat",
+    "uidFrom": "8659697562202878998",
+    "idTo": "2990969618896538297",
+    "dName": "Mai Lê",
+    "content": "@Vũ Xuân Kiên bro mua bot à ?",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
