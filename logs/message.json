@@ -33293,5 +33293,93 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904180473": {
+    "timestamp": "1759904180531",
+    "timestampString": "13:16:21",
+    "msgId": "7094121192535",
+    "cliMsgId": "1759904180473",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "kph lỗi mà response json nó nhiều quá",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904182637": {
+    "timestamp": "1759904182697",
+    "timestampString": "13:16:23",
+    "msgId": "7094121288133",
+    "cliMsgId": "1759904182637",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "k gửi hết dc",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904191927": {
+    "timestamp": "1759904191945",
+    "timestampString": "13:16:32",
+    "msgId": "7094121703575",
+    "cliMsgId": "1759904191927",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...eval self.fetchGroupInfo(thread_id",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904192689": {
+    "timestamp": "1759904192544",
+    "timestampString": "13:16:33",
+    "msgId": "7094121728199",
+    "cliMsgId": "1759904192689",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "🚦@̀nguyễn Duy Khang\n1. Lỗi: SyntaxError: '(' was never closed",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904196137": {
+    "timestamp": "1759904196155",
+    "timestampString": "13:16:36",
+    "msgId": "7094121889514",
+    "cliMsgId": "1759904196137",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...eval self.fetchGroupInfo(thread_id)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904201477": {
+    "timestamp": "1759904201499",
+    "timestampString": "13:16:42",
+    "msgId": "7094122128223",
+    "cliMsgId": "1759904201477",
+    "msgType": "chat.sticker",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "id": 46971,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
