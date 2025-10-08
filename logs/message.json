@@ -31420,5 +31420,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903463638": {
+    "timestamp": "1759903463707",
+    "timestampString": "13:04:25",
+    "msgId": "7094089837004",
+    "cliMsgId": "1759903463638",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Dell Yêu Ai .eval message.data",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903464829": {
+    "timestamp": "1759903464946",
+    "timestampString": "13:04:25",
+    "msgId": "7094089864066",
+    "cliMsgId": "1759903464829",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"actionId\": \"11407327574384\",\n  \"msgId\": \"7094089837004\",\n  \"cliMsgId\": \"1759903463638\",\n  \"msgType\": \"webchat\",\n  \"uidFrom\": \"690483581226941870\",\n  \"idTo\": \"5975420422762749911\",\n  \"dName\": \"Vũ Xuân Kiên\",\n  \"ts\": \"1759903463707\",\n  \"status\": 1,\n  \"content\": \"@Dell Yêu Ai .eval message.data\",\n  \"notify\": \"1\",\n  \"ttl\": 0,\n  \"userId\": \"0\",\n  \"uin\": \"0\",\n  \"topOut\": \"0\",\n  \"topOutTimeOut\": \"0\",\n  \"topOutImprTimeOut\": \"0\",\n  \"mentions\": [\n    {\n      \"uid\": \"2275317996891696552\",\n      \"pos\": 0,\n      \"len\": 12,\n      \"type\": 0\n    }\n  ],\n  \"quote\": {\n    \"ownerId\": 2275317996891696600,\n    \"cliMsgId\": 1759903230356,\n    \"globalMsgId\": 7094079769636,\n    \"cliMsgType\": 44,\n    \"ts\": 1759903227152,\n    \"msg\": \"\",\n    \"attach\": \"{\\\"title\\\":\\\"🕒 13:00 - Bot Dell Yêu Ai Autosend 🚀\\\\n🚦Chúc bạn buổi chiều làm việc hiệu quả.\\\",\\\"description\\\":\\\"\\\",\\\"href\\\":\\\"https:\\\\/\\\\/i.imgur.com\\\\/RV515ko.mp4\\\",\\\"thumb\\\":\\\"https:\\\\/\\\\/files.catbox.moe\\\\/3vy7ga.jpg\\\",\\\"childnumber\\\":\\\"0\\\",\\\"action\\\":\\\"\\\",\\\"params\\\":\\\"{\\\\\\\"duration\\\\\\\":20,\\\\\\\"is_group_layout\\\\\\\":0,\\\\\\\"video_original_width\\\\\\\":0,\\\\\\\"video_original_height\\\\\\\":0,\\\\\\\"video_width\\\\\\\":1080,\\\\\\\"video_height\\\\\\\":1920,\\\\\\\"video_rotation\\\\\\\":0,\\\\\\\"fileSize\\\\\\\":0,\\\\\\\"isHD\\\\\\\":0}\\\"}\",\n    \"fromD\": \"Dell Yêu Ai\",\n    \"ttl\": 0\n  },\n  \"propertyExt\": {\n    \"color\": -1,\n    \"size\": -1,\n    \"type\": -1,\n    \"subType\": 0,\n    \"ext\": \"{\\\"sSrcType\\\":-1,\\\"sSrcStr\\\":\\\"\\\",\\\"msg_warning_type\\\":0,\\\"emoji\\\":{\\\"content\\\":0,\\\"num\\\":0,\\\"uniq\\\":0,\\\"first\\\":\\\"\\\",\\\"last\\\":\\\"\\\",\\\"most\\\":\\\"\\\",\\\"text\\\":1}}\"\n  },\n  \"paramsExt\": {\n    \"countUnread\": 1,\n    \"containType\": 0,\n    \"platformType\": 0\n  },\n  \"cmd\": 521,\n  \"st\": 3,\n  \"at\": 0,\n  \"realMsgId\": \"0\"\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
