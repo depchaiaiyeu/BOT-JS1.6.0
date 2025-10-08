@@ -34620,5 +34620,93 @@
     "threadId": "2275317996891696552",
     "type": 0,
     "isUndo": false
+  },
+  "1759921737765": {
+    "timestamp": "1759921737823",
+    "timestampString": "18:08:58",
+    "msgId": "7095217140482",
+    "cliMsgId": "1759921737765",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "ngon r",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921746654": {
+    "timestamp": "1759921750721",
+    "timestampString": "18:09:11",
+    "msgId": "7095217880319",
+    "cliMsgId": "1759921746654",
+    "msgType": "chat.video.msg",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f110-zvc.dlmd.me/gr/3aacd662cef823a67ae9/878696030012306926",
+      "thumb": "https://f63-zpg-r.zdn.vn/2385553582578017538/9a9c038b3dc4b09ae9d5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":2639813,\"video_height\":1024,\"video_width\":576,\"video_rotation\":0,\"duration\":28000}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921761036": {
+    "timestamp": "1759921761175",
+    "timestampString": "18:09:21",
+    "msgId": "7095218478613",
+    "cliMsgId": "1759921761036",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@宝英 Bao Anh chọc cgi",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921761473": {
+    "timestamp": "1759921761530",
+    "timestampString": "18:09:22",
+    "msgId": "7095218500222",
+    "cliMsgId": "1759921761473",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 100; i++) {\n  api.addReaction(\"LIKE\", message);\n}",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921762310": {
+    "timestamp": "1759921762418",
+    "timestampString": "18:09:22",
+    "msgId": "7095218540686",
+    "cliMsgId": "1759921762310",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
