@@ -127735,5 +127735,19 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759938539441": {
+    "timestamp": "1759938566869",
+    "timestampString": "22:49:27",
+    "msgId": "7096181464421",
+    "cliMsgId": "1759938539441",
+    "msgType": "webchat",
+    "uidFrom": "717224590695865551",
+    "idTo": "8281509084603580118",
+    "dName": "Trần Tổng",
+    "content": "@Nguyễn Thu Thuỷ tr",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
