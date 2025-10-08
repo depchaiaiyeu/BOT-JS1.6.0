@@ -39340,5 +39340,172 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759923190530": {
+    "timestamp": "1759923190895",
+    "timestampString": "18:33:11",
+    "msgId": "7095298418418",
+    "cliMsgId": "1759923190530",
+    "msgType": "chat.recommended",
+    "uidFrom": "3763785301649747456",
+    "idTo": "6512342651301747547",
+    "dName": "Phước",
+    "content": {
+      "title": "https://youtu.be/kRY94IqoFS4 ae nghe và nhận xét",
+      "description": "Video Music By Phuoc An DO NOT REUP",
+      "href": "https://youtu.be/kRY94IqoFS4",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/ba18a52fd3e527bb7ef4/1918937204791328372.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"youtu.be\",\"mediaTitle\":\"Nhàn Nhã - Phước\",\"streamUrl\":\"\",\"type\":0,\"linkType\":2,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/youtu.be\\/kRY94IqoFS4\",\"tType\":1,\"tWidth\":1280,\"tHeight\":720,\"icon\":\"https:\\/\\/www.youtube.com\\/s\\/desktop\\/9de7c95d\\/img\\/favicon.ico\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/semicache\\/thumb_link\\/bbc0f25582bf9a8c5a17881993a99edd.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923191085": {
+    "timestamp": "1759923191106",
+    "timestampString": "18:33:11",
+    "msgId": "7095298430443",
+    "cliMsgId": "1759923191085",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3763785301649747500,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1759923190530,
+        "globalDelMsgId": 7095298418418,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923191156": {
+    "timestamp": "1759923191178",
+    "timestampString": "18:33:12",
+    "msgId": "7095298430451",
+    "cliMsgId": "1759923191156",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "➜ [ANTI-LINK]\nPhước\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi link vào nhóm. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923192548": {
+    "timestamp": "1759923192559",
+    "timestampString": "18:33:12",
+    "msgId": "7095298517757",
+    "cliMsgId": "1759923192548",
+    "msgType": "webchat",
+    "uidFrom": "9124822914203860634",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Trung Hiếu",
+    "content": "Omg",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923193024": {
+    "timestamp": "1759923193139",
+    "timestampString": "18:33:13",
+    "msgId": "7095298547987",
+    "cliMsgId": "1759923193024",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "6512342651301747547",
+    "dName": "Văn Chiến",
+    "content": "Hayyy",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923193667": {
+    "timestamp": "1759923193761",
+    "timestampString": "18:33:14",
+    "msgId": "7095298586396",
+    "cliMsgId": "1759923193667",
+    "msgType": "chat.sticker",
+    "uidFrom": "3763785301649747456",
+    "idTo": "6512342651301747547",
+    "dName": "Phước",
+    "content": {
+      "id": 42829,
+      "catId": 11752,
+      "type": 3
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923196726": {
+    "timestamp": "1759923196844",
+    "timestampString": "18:33:17",
+    "msgId": "7095298757689",
+    "cliMsgId": "1759923196726",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2138929821000487828",
+    "dName": "Vũ Xuân Kiên",
+    "content": "!bot",
+    "threadId": "2138929821000487828",
+    "type": 0,
+    "isUndo": false
+  },
+  "105595391868900": {
+    "timestamp": "1759923197912",
+    "timestampString": "18:33:18",
+    "msgId": "7095298805297",
+    "cliMsgId": "105595391868900",
+    "msgType": "chat.photo",
+    "uidFrom": "2138929821000487828",
+    "idTo": "690483581226941870",
+    "dName": "Ng Huy Học",
+    "content": {
+      "title": "Vũ Xuân Kiên\n➜ !bot info/policy: ♨️ Thông tin/Tác giả/Thời gian/Chính sách BOT\n➜ !bot setup on/off: ⚙️ Bật/Tắt Nội quy BOT (OA)\n➜ !bot anti on/off/setup: 🚦Bật/Tắt Anti (OA)\n➜ !bot newlink/dislink: 🔗 Tạo/hủy link nhóm (OA)\n➜ !bot fix: 🔧 Sữa lỗi treo lệnh(OA)➜ !bot safemode on/off: 🩹 Chế độ an toàn text (OA)\n➜ !bot on/off: ⚙️ Bật/Tắt BOT (OA)\n➜ !bot admin add/remove/list: 👑 Thêm/xóa Admin 🤖BOT\n➜ !bot skip add/remove/list: 👑 Thêm/xóa ưu tiên 🤖BOT (OA)\n➜ !bot leader add/remove/list: 👑 Thêm/xóa Trưởng/Phó (OA)\n➜ !bot autosend on/off: ✉️ Gửi tin nhắn(OA)\n➜ !bot noiquy: 💢 Nội quy box\n➜ !bot ban/vv/unban list: 😷 Khóa user\n➜ !bot kick: 💪 Kick user (OA)\n➜ !bot sos: 🆘 Khóa box (OA)\n➜ !bot block/unblock/list: 💪 Chặn người dùng (OA)\n➜ !bot link on/off: 🔗 Cấm link (OA)\n➜ !bot file on/off: 🗂️ Cấm file (OA)\n➜ !bot video on/off: ▶️ Cấm video (OA)\n➜ !bot sticker on/off: 😊 Cấm sticker (OA)\n➜ !bot gif on/off: 🖼️ Cấm Gif (OA)\n➜ !bot voice on/off: 🔊 Cấm voice (OA)\n➜ !bot photo on/off: 🏖 Cấm ảnh (OA)\n➜ !bot draw on/off: ✏️ Cấm vẽ hình (OA)\n➜ !bot anti poll on/off: 👍 Cấm bình chọn (OA)\n➜ !bot rule word [n] [m]: 📖 Cấm n lần vi phạm, phạt m phút (OA)\n➜ !bot word add/remove/list [từ cấm]: ✍️ Thêm/xóa từ cấm (OA)\n ➜ !bot welcome on/off: 🎊 Welcome (OA)\n➜ !bot card on/off: 🛡️ Cấm Card (OA)\n🤖 BOT Unknown User luôn sẵn sàng phục vụ bạn! 🌸",
+      "description": "",
+      "href": "https://f20-zpc.zdn.vn/5647461834418128869/57713d25c36a4e34177b.jpg",
+      "thumb": "https://t-f20-zpc.zdn.vn/5647461834418128869/57713d25c36a4e34177b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"rawUrl\":\"https:\\/\\/f20-zpc.zdn.vn\\/5647461834418128869\\/57713d25c36a4e34177b.jpg\",\"fileSize\":247671,\"thumbSize\":53932,\"width\":1920,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f11-zpc.zdn.vn\\/5647461834418128869\\/57713d25c36a4e34177b.jpg\",\"hdSize\":344622,\"height\":600}",
+      "type": ""
+    },
+    "threadId": "2138929821000487828",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759923198692": {
+    "timestamp": "1759923198724",
+    "timestampString": "18:33:19",
+    "msgId": "7095298873649",
+    "cliMsgId": "1759923198692",
+    "msgType": "webchat",
+    "uidFrom": "9124822914203860634",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Trung Hiếu",
+    "content": "T bị 2 lần r🗿",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
