@@ -116769,5 +116769,102 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759930211112": {
+    "timestamp": "1759930211275",
+    "timestampString": "20:30:12",
+    "msgId": "7095725226324",
+    "cliMsgId": "1759930211112",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "@Triều Đông =))",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930213620": {
+    "timestamp": "1759930213722",
+    "timestampString": "20:30:14",
+    "msgId": "7095725384760",
+    "cliMsgId": "1759930213620",
+    "msgType": "chat.sticker",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": {
+      "id": 46954,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930222238": {
+    "timestamp": "1759930222302",
+    "timestampString": "20:30:23",
+    "msgId": "7095725935826",
+    "cliMsgId": "1759930222238",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Hot Nhây Zép Lào ttt thì lấu",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930224830": {
+    "timestamp": "1759930224895",
+    "timestampString": "20:30:25",
+    "msgId": "7095726099758",
+    "cliMsgId": "1759930224830",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "@Hot Nhây Zép Lào chắc chưa",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930227190": {
+    "timestamp": "1759930228501",
+    "timestampString": "20:30:28",
+    "msgId": "7095726327705",
+    "cliMsgId": "1759930227190",
+    "msgType": "chat.photo",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/8928416679757690419/2bb17ff9cbb746e91fa6.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/8928416679757690419/2bb17ff9cbb746e91fa6.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":340,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":720,\"height\":1280,\"thumb_width\":190}",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930228750": {
+    "timestamp": "1759930228826",
+    "timestampString": "20:30:29",
+    "msgId": "7095726349305",
+    "cliMsgId": "1759930228750",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Hot Nhây Zép Lào ttt thì lấy",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
