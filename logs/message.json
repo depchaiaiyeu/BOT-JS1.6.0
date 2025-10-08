@@ -126961,5 +126961,93 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759936591556": {
+    "timestamp": "1759936591646",
+    "timestampString": "22:16:32",
+    "msgId": "7096096394219",
+    "cliMsgId": "1759936591556",
+    "msgType": "chat.photo",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/eee4a21adf8c7ed2279d/570205798077400107?createby=JS-PVT_Projects.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/eee4a21adf8c7ed2279d/570205798077400107?createby=JS-PVT_Projects.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759569920254\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/eee4a21adf8c7ed2279d\\/570205798077400107?createby=JS-PVT_Projects.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1759569920254\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936596575": {
+    "timestamp": "1759936597283",
+    "timestampString": "22:16:38",
+    "msgId": "7096096677561",
+    "cliMsgId": "1759936596575",
+    "msgType": "chat.photo",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/2937552189406948962/6c624b36cc7f4121186e.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/2937552189406948962/6c624b36cc7f4121186e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":800,\"height\":1280,\"hd\":\"https:\\/\\/f57-zpg-r.zdn.vn\\/jpg\\/2937552189406948962\\/6c624b36cc7f4121186e.jpg\",\"is_group_layout\":0,\"contentId\":\"1000023254\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936599098": {
+    "timestamp": "1759936599195",
+    "timestampString": "22:16:39",
+    "msgId": "7096096770608",
+    "cliMsgId": "1759936599098",
+    "msgType": "webchat",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": "alo 123",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936604596": {
+    "timestamp": "1759936604856",
+    "timestampString": "22:16:45",
+    "msgId": "7096097047430",
+    "cliMsgId": "1759936604596",
+    "msgType": "webchat",
+    "uidFrom": "7654139448969933571",
+    "idTo": "2990969618896538297",
+    "dName": "Triều Đông",
+    "content": "Đcm nhóm loll ko cho chuyển",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936618457": {
+    "timestamp": "1759936618679",
+    "timestampString": "22:16:59",
+    "msgId": "7096097721267",
+    "cliMsgId": "1759936618457",
+    "msgType": "webchat",
+    "uidFrom": "8659697562202878998",
+    "idTo": "2990969618896538297",
+    "dName": "Mai Lê",
+    "content": "S lại xoá acc v ?",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
