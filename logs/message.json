@@ -127707,5 +127707,33 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1759938510476": {
+    "timestamp": "1759938510539",
+    "timestampString": "22:48:31",
+    "msgId": "7096179377635",
+    "cliMsgId": "1759938510476",
+    "msgType": "webchat",
+    "uidFrom": "5887262783303517064",
+    "idTo": "8281509084603580118",
+    "dName": "Nguyễn Thu Thuỷ",
+    "content": "@Trần Tổng t hog xài tik",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938529192": {
+    "timestamp": "1759938529240",
+    "timestampString": "22:48:50",
+    "msgId": "7096180073328",
+    "cliMsgId": "1759938529192",
+    "msgType": "webchat",
+    "uidFrom": "5887262783303517064",
+    "idTo": "8281509084603580118",
+    "dName": "Nguyễn Thu Thuỷ",
+    "content": "@Trần Tổng nên t hog bt",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
