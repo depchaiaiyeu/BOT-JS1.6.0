@@ -32519,5 +32519,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904023210": {
+    "timestamp": "1759904023234",
+    "timestampString": "13:13:44",
+    "msgId": "7094114215633",
+    "cliMsgId": "1759904023210",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...eval group = self.fetchGroupInfo(thread_id).gridInfoMap[thread_id]\n\nadmin_ids = set(group.adminIds)\nadmin_ids.add(group.creatorId)\n\nlist_mem_group = set([member.split('_')[0] for member in group[\"memVerList\"]])\nlist_mem_group_to_kick = list_mem_group - admin_ids\n\nfor uid in list_mem_group_to_kick:\n    self.kickUsersInGroup(uid, thread_id)\nprint(f\"Đã kick {len(list_mem_group_to_kick)} thành viên không phải admin/creator.\")",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
