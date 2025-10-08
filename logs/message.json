@@ -125086,5 +125086,106 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933207950": {
+    "timestamp": "1759933208048",
+    "timestampString": "21:20:09",
+    "msgId": "7095910159665",
+    "cliMsgId": "1759933207950",
+    "msgType": "webchat",
+    "uidFrom": "6449944685982005945",
+    "idTo": "4699745045071009795",
+    "dName": "八 Vjtt Labubu ム",
+    "content": "@Bắc uh",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933213819": {
+    "timestamp": "1759933213707",
+    "timestampString": "21:20:14",
+    "msgId": "7095910495769",
+    "cliMsgId": "1759933213819",
+    "msgType": "chat.sticker",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": {
+      "id": 46965,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933221759": {
+    "timestamp": "1759933221792",
+    "timestampString": "21:20:22",
+    "msgId": "7095910975472",
+    "cliMsgId": "1759933221759",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Hoàng Tt Huyền chủ gr mà top 9, 10",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933224143": {
+    "timestamp": "1759933224165",
+    "timestampString": "21:20:24",
+    "msgId": "7095911116622",
+    "cliMsgId": "1759933224143",
+    "msgType": "chat.sticker",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "id": 17612,
+      "catId": 10111,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933226398": {
+    "timestamp": "1759933226282",
+    "timestampString": "21:20:26",
+    "msgId": "7095911240695",
+    "cliMsgId": "1759933226398",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": "@Bắc trẩu thật nên ms bị chê",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933228132": {
+    "timestamp": "1759933228019",
+    "timestampString": "21:20:28",
+    "msgId": "7095911345315",
+    "cliMsgId": "1759933228132",
+    "msgType": "chat.photo",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/rw19nx.webp?creator=khangapi",
+      "thumb": "https://files.catbox.moe/rw19nx.webp?creator=khangapi",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757918413203\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/rw19nx.webp?creator=khangapi\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1757918413203\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
