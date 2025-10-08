@@ -126831,5 +126831,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759937637476": {
+    "timestamp": "1759937637530",
+    "timestampString": "22:33:58",
+    "msgId": "7096144566681",
+    "cliMsgId": "1759937637476",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "@Trọng Nghĩaᅐᅡ còn bú sì nét k",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
