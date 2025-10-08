@@ -1147,9 +1147,9 @@
         {
           "UserName": "Nguyễn Hoàng Bảo Hưng",
           "UID": "1847479899180587928",
-          "Rank": 20,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 21,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Mai Quoc Trieu",
@@ -2833,6 +2833,13 @@
           "Rank": 2,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Phú Hào",
+          "UID": "5331511301118645702",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
