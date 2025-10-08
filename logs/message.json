@@ -32037,5 +32037,42 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759903837161": {
+    "timestamp": "1759903837250",
+    "timestampString": "13:10:43",
+    "msgId": "7094106029623",
+    "cliMsgId": "1759903837161",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".gemini tôi sử dụng: message.data.quote để lấy được:\n@Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 1759903782800,\n  \"globalMsgId\": 0,\n  \"cliMsgType\": 1,\n  \"ts\": 1759903782801,\n  \"msg\": \"@Dell Yêu Ai\",\n  \"attach\": \"{\\\"thumb\\\":\\\"\\\",\\\"mentions\\\":[{\\\"uid\\\":2275317996891696552,\\\"ignoreNickname\\\":0,\\\"len\\\":12,\\\"pos\\\":0,\\\"type\\\":0}],\\\"description\\\":\\\"\\\",\\\"action\\\":\\\"\\\",\\\"childnumber\\\":\\\"0\\\",\\\"href\\\":\\\"\\\",\\\"title\\\":\\\"\\\",\\\"params\\\":\\\"\\\"}\",\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}\n\n\ngiờ muốn lấy uid trong mentions thì thay ntn",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903843011": {
+    "timestamp": "1759903843130",
+    "timestampString": "13:10:43",
+    "msgId": "7094106268139",
+    "cliMsgId": "1759903843011",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nChào bạn! 🥰 Để lấy `uid` trong `mentions`, bạn có thể làm như sau nè:\n\n```python\nimport json\n\ndata = {\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 1759903782800,\n  \"globalMsgId\": 0,\n  \"cliMsgType\": 1,\n  \"ts\": 1759903782801,\n  \"msg\": \"@Dell Yêu Ai\",\n  \"attach\": \"{\\\"thumb\\\":\\\"\\\",\\\"mentions\\\":[{\\\"uid\\\":2275317996891696552,\\\"ignoreNickname\\\":0,\\\"len\\\":12,\\\"pos\\\":0,\\\"type\\\":0}],\\\"description\\\":\\\"\\\",\\\"action\\\":\\\"\\\",\\\"childnumber\\\":\\\"0\\\",\\\"href\\\":\\\"\\\",\\\"title\\\":\\\"\\\",\\\"params\\\":\\\"\\\"}\",\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}\n\n# Chuyển chuỗi JSON trong 'attach' thành đối tượng Python\nattach_data = json.loads(data['attach'])\n\n# Lấy danh sách mentions\nmentions = attach_data['mentions']\n\n# Lấy uid từ phần tử đầu tiên trong danh sách mentions\nif mentions:\n    uid = mentions[0]['uid']\n    print(uid)  # Kết quả: 2275317996891696552\nelse:\n    print(\"Không có mentions nào.\")\n```\n\n**Giải thích:**\n\n1.  **`json.loads(data['attach'])`**: Chuyển chuỗi JSON trong trường `attach` thành một đối tượng Python (dictionary).\n2.  **`attach_data['mentions']`**: Truy cập vào danh sách `mentions` trong đối tượng `attach_data`.\n3.  **`mentions[0]['uid']`**: Lấy `uid` từ phần tử đầu tiên của danh sách `mentions`. Mình kiểm tra `if mentions:` để đảm bảo danh sách không rỗng trước khi truy cập phần tử đầu tiên nha! 😉\n\nHy vọng nó giúp ích cho bạn! Nếu bạn có bất kỳ câu hỏi nào khác, đừng ngần ngại hỏi nha! 🤗",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
