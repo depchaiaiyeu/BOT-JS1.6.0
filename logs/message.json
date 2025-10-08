@@ -125336,5 +125336,47 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933307964": {
+    "timestamp": "1759933308149",
+    "timestampString": "21:21:50",
+    "msgId": "7095916106616",
+    "cliMsgId": "1759933307964",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": ".topchat",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933310123": {
+    "timestamp": "1759933310252",
+    "timestampString": "21:21:50",
+    "msgId": "7095916229745",
+    "cliMsgId": "1759933310123",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "🏆 Bảng xếp hạng tin nhắn:\n\n1. Trann Nhien: 234 tin nhắn\n2. Hot Nhây Zép Lào: 226 tin nhắn\n3. Trung Trí: 125 tin nhắn\n4. Hoàng Phát: 98 tin nhắn\n5. Việt: 57 tin nhắn\n6. Kien: 56 tin nhắn\n7. Bo: 43 tin nhắn\n8. Hoàng Tt Huyền: 33 tin nhắn\n9. Doris: 32 tin nhắn\n10. Htth: 31 tin nhắn\n\nDùng .topchat today để xem top nhắn tin hàng ngày.",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933310957": {
+    "timestamp": "1759933311039",
+    "timestampString": "21:21:51",
+    "msgId": "7095916278693",
+    "cliMsgId": "1759933310957",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Trann Nhien 😔",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
