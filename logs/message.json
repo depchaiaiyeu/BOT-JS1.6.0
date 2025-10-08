@@ -33557,5 +33557,19 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1759904679646": {
+    "timestamp": "1759904679723",
+    "timestampString": "13:24:41",
+    "msgId": "7094143768070",
+    "cliMsgId": "1759904679646",
+    "msgType": "webchat",
+    "uidFrom": "651216097038065970",
+    "idTo": "4825567233436439756",
+    "dName": "L A T",
+    "content": "@Nhân Trương thuê bot giá 2 chục",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
