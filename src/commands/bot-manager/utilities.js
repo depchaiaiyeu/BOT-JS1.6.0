@@ -33,6 +33,43 @@ export function stopTodo() {
   activeTodo = false;
 }
 
+export async function handleGetUID(api, message) {
+  try {
+    const senderName = message.data?.dName || "Người dùng";
+    const senderId = message.data?.uidFrom;
+    let mentions = message.data?.mentions || [];
+
+    if (mentions.length === 0) {
+      await api.sendMessage(
+        {
+          msg: `(@${senderName})\nUID của bạn là: ${senderId}`,
+          mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
+          ttl: 360000,
+        },
+        message.threadId,
+        message.type
+      );
+      return;
+    }
+
+    const targetUid = mentions[0].uid;
+
+    await api.sendMessage(
+      {
+        msg: `(@${senderName})\nUID của người được bạn mentions là: ${targetUid}`,
+        mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
+        ttl: 360000,
+      },
+      message.threadId,
+      message.type
+    );
+
+  } catch (error) {
+    console.error("❌ Lỗi khi lấy UID:", error);
+    await sendMessageFailed(api, message, `Lỗi khi lấy UID: ${error.message}`);
+  }
+}
+
 export async function handleEval(api, message) {
   try {
     const content = removeMention(message);
@@ -40,9 +77,7 @@ export async function handleEval(api, message) {
     const senderName = message.data?.dName || "Người dùng";
     const senderId = message.data?.uidFrom;
     const threadId = message.threadId;
-
     const codeToEval = content.replace(new RegExp(`^${prefix}eval\\s*`, 'i'), '').trim();
-
     if (!codeToEval) {
       await sendMessageFromSQL(
         api,
@@ -56,7 +91,6 @@ export async function handleEval(api, message) {
       );
       return;
     }
-
     const evalContext = {
       api,
       message,
@@ -64,15 +98,13 @@ export async function handleEval(api, message) {
       senderId,
       threadId
     };
-
     const result = await (async function() {
       const contextKeys = Object.keys(evalContext);
       const contextValues = Object.values(evalContext);
       const AsyncFunction = async function(){}.constructor;
-      const fn = new AsyncFunction(...contextKeys, `return (${codeToEval})`);
+      const fn = new AsyncFunction(...contextKeys, codeToEval);
       return await fn(...contextValues);
     })();
-
     await sendMessageFromSQL(
       api,
       message,
@@ -83,7 +115,6 @@ export async function handleEval(api, message) {
       false,
       60000
     );
-
   } catch (error) {
     await sendMessageFromSQL(
       api,
@@ -1016,7 +1047,7 @@ export async function handleGetLinkInQuote(api, message) {
     );
   }
 }
-// Bản Quyền Thuộc Hà Huy Hoàng ⬇️
+
 export async function handleSetAvatarFromReply(api, message, groupInfo) {
   const groupId = groupInfo.groupId;
   if (!groupId) {
@@ -1596,7 +1627,7 @@ export async function handleBlockedMembers(api, message) {
   }
 }
 
-export async function handleSendFriendRequest(api, message, customMessage = "Chào Bạn, Tớ Là Bot của Hà Huy Hoàng ạ...") {
+export async function handleSendFriendRequest(api, message, customMessage = "Chào Bạn, Tớ Là Bot của Vũ Xuân Kiên ạ...") {
   try {
     const senderName = message.data?.dName || "Người dùng";
     const senderId = message.data?.uidFrom;
