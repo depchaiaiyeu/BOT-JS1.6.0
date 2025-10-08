@@ -73982,5 +73982,141 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759925017346": {
+    "timestamp": "1759925017398",
+    "timestampString": "19:03:38",
+    "msgId": "7095405267646",
+    "cliMsgId": "1759925017346",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "hình như tắt r",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925019267": {
+    "timestamp": "1759925019317",
+    "timestampString": "19:03:39",
+    "msgId": "7095405380259",
+    "cliMsgId": "1759925019267",
+    "msgType": "chat.sticker",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "id": 25581,
+      "catId": 10601,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925021368": {
+    "timestamp": "1759925021421",
+    "timestampString": "19:03:44",
+    "msgId": "7095405504314",
+    "cliMsgId": "1759925021368",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "@Vũ Xuân Kiên trí có bị gay k",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925023960": {
+    "timestamp": "1759925024098",
+    "timestampString": "19:03:44",
+    "msgId": "7095405641979",
+    "cliMsgId": "1759925023960",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759925021368,
+        "globalDelMsgId": 7095405504314,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925023710": {
+    "timestamp": "1759925023846",
+    "timestampString": "19:03:44",
+    "msgId": "7095405641952",
+    "cliMsgId": "1759925023710",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Có chứ! Toàn đi 69 với mấy thằng khác",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925028602": {
+    "timestamp": "1759925028667",
+    "timestampString": "19:03:49",
+    "msgId": "7095405932471",
+    "cliMsgId": "1759925028602",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "((:",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925029246": {
+    "timestamp": "1759925029383",
+    "timestampString": "19:03:49",
+    "msgId": "7095405917974",
+    "cliMsgId": "1759925029246",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759925028602,
+        "globalDelMsgId": 7095405932471,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925038121": {
+    "timestamp": "1759925038173",
+    "timestampString": "19:03:58",
+    "msgId": "7095406492333",
+    "cliMsgId": "1759925038121",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "!bot on",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
