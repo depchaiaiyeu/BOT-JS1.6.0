@@ -121410,5 +121410,70 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759930985705": {
+    "timestamp": "1759930985765",
+    "timestampString": "20:43:10",
+    "msgId": "7095773861270",
+    "cliMsgId": "1759930985705",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": ".scl cannon",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930990616": {
+    "timestamp": "1759930990746",
+    "timestampString": "20:43:11",
+    "msgId": "7095774136425",
+    "cliMsgId": "1759930990616",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Kien\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/1244220736965562743/633de579ad30206e7921.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/1244220736965562743/633de579ad30206e7921.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1514,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/1244220736965562743\\/633de579ad30206e7921.jpg\",\"hdSize\":355846,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931004581": {
+    "timestamp": "1759931004662",
+    "timestampString": "20:43:25",
+    "msgId": "7095775037319",
+    "cliMsgId": "1759931004581",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": ".scl 10",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931008140": {
+    "timestamp": "1759931008221",
+    "timestampString": "20:43:28",
+    "msgId": "7095775259470",
+    "cliMsgId": "1759931008140",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "Hot nhây zép lào",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }

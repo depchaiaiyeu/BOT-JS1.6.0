@@ -2757,15 +2757,15 @@
         {
           "UserName": "Trung Trí",
           "UID": "450249133712562180",
-          "Rank": 99,
-          "messageCountToday": 72,
+          "Rank": 100,
+          "messageCountToday": 73,
           "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Kien",
           "UID": "8590310847834562573",
-          "Rank": 39,
-          "messageCountToday": 38,
+          "Rank": 41,
+          "messageCountToday": 40,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3093,6 +3093,13 @@
         {
           "UserName": "玉米",
           "UID": "1804122200160629042",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Pi",
+          "UID": "8831247307057862069",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
