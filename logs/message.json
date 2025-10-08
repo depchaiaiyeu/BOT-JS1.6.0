@@ -128045,5 +128045,19 @@
     "threadId": "7734313716342939502",
     "type": 1,
     "isUndo": false
+  },
+  "1759938799234": {
+    "timestamp": "1759938799425",
+    "timestampString": "22:53:20",
+    "msgId": "7096189934011",
+    "cliMsgId": "1759938799234",
+    "msgType": "webchat",
+    "uidFrom": "1528842272074711820",
+    "idTo": "5601607522756268167",
+    "dName": "Lucia",
+    "content": "Tôi đã có một quãng tuổi thơ dài đầy những tổn thương và mất mát, ngay từ khi còn nhỏ tôi đã phải đi làm rất nhiều việc để kiếm chút tiền mưu sinh và để trang trải tiền học phí và cũng ngay từ khi còn nhỏ tôi đã nhận rất nhiều những lời nói không hay từ những người xung quanh và người thân mình dành cho mình, nhưng sau tất cả những năm tháng qua tôi đã không ngừng nổ lực để vươn lên để khiến bản thân mình trở nên tốt đẹp hơn mỗi ngày và để có được ngày hôm nay , chúng ta dù sinh ra không được ở vạch đích hay phải chạy thục mạng để đến được vạch xuất phát, chỉ cần có ước mơ và có khát vọng nổ lực hết mình để làm việc để đạt được mọi điều mà mình mong muốn , dù bạn không phải là người giỏi nhất nhưng hãy là phiên bản hoàn hảo nhất của cuộc đời mình.",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
