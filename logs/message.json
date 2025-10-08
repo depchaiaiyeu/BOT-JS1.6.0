@@ -98004,5 +98004,79 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759926812930": {
+    "timestamp": "1759926812977",
+    "timestampString": "19:33:35",
+    "msgId": "7095512202597",
+    "cliMsgId": "1759926812930",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".gpt hé lu",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926815494": {
+    "timestamp": "1759926815626",
+    "timestampString": "19:33:35",
+    "msgId": "7095512324743",
+    "cliMsgId": "1759926815494",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nXin lỗi, hiện tại tôi không thể trả lời câu hỏi này. 🙏",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926821986": {
+    "timestamp": "1759926822039",
+    "timestampString": "19:33:44",
+    "msgId": "7095512751528",
+    "cliMsgId": "1759926821986",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".gemini ê kuu",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926824510": {
+    "timestamp": "1759926824648",
+    "timestampString": "19:33:44",
+    "msgId": "7095512886280",
+    "cliMsgId": "1759926824510",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nÊ kiu kiu 😆 Có gì vui không nè? Kể Gem nghe với! 👂",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
