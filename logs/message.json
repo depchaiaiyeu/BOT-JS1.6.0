@@ -31879,5 +31879,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903782800": {
+    "timestamp": "1759903782812",
+    "timestampString": "13:09:44",
+    "msgId": "7094103631411",
+    "cliMsgId": "1759903782800",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Dell Yêu Ai",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
