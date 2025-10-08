@@ -74304,5 +74304,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759926404004": {
+    "timestamp": "1759926404092",
+    "timestampString": "19:26:44",
+    "msgId": "7095487488945",
+    "cliMsgId": "1759926404004",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Dell Yêu Ai sắp die là zalo nó bắt xác thực lại",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926410162": {
+    "timestamp": "1759926410229",
+    "timestampString": "19:26:51",
+    "msgId": "7095487858650",
+    "cliMsgId": "1759926410162",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "tầm 1-2 lần là die luôn",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
