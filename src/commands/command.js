@@ -108,6 +108,7 @@ import {
   spamCallInGroup,
   handleCallGroupCommand,
   handleEval,
+  handleGetUID,
 } from "./bot-manager/utilities.js";
 import { handleBauCua } from "../service-hahuyhoang/game-service/bau-cua/bau-cua.js";
 import { handleKBBCommand } from "../service-hahuyhoang/game-service/keobuabao/keobuabao.js";
@@ -841,6 +842,9 @@ export async function handleCommand(
         break;
       case "eval":
         await handleEval(api, message);
+        break;
+      case "getuid":
+        await handleGetUID(api, message);
         break;
       case "go":
           await spamMessagesInGroup(api, message, aliasCommand);
