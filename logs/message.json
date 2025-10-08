@@ -92710,5 +92710,954 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759927380376": {
+    "timestamp": "1759927380393",
+    "timestampString": "19:43:01",
+    "msgId": "7095546673049",
+    "cliMsgId": "1759927380376",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Ma",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927391501": {
+    "timestamp": "1759927391538",
+    "timestampString": "19:43:12",
+    "msgId": "7095547357282",
+    "cliMsgId": "1759927391501",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "#menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927392934": {
+    "timestamp": "1759927393312",
+    "timestampString": "19:43:13",
+    "msgId": "7095547452843",
+    "cliMsgId": "1759927392934",
+    "msgType": "chat.photo",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": {
+      "title": "@Duck\n➜ ♨️ Bot (#bot)\n➜ 📢 Translate (#dich)\n➜ ⛅ Thời tiết (#weather)\n➜ 🤭 Thả thính (#love)\n➜ 🎨 Pixiv tìm Anime (#pix)\n➜ 🎃 Tìm Ảnh Pin (#pin)\n➜ 👻 Ảnh Meme (#meme)\n➜ 🗯 Chat AI (#chat)\n➜ 🧐 Xem Tiểu Sử FreeFire (#ff)\n➜ 👕 Xem Trang Phục FreeFire (#doff)\n➜ 🍼 Tính năng khác (#or)\n➜ 💌 Share code (#share)\n➜ 👩‍💼 ảnh gái (#girl)\n➜ 🤖 Quản lý Bot (#mybot)\n➜ 🗞️ Tin tức (#news)\n➜ 🧨 Spam (#war)\n➜ 📀 Video gái (#vdgirl)\n➜ 👣 TikTok Download (#dl)\n➜ 👣 Tìm Video TikTok (#tt)\n➜ ☁️ Soundcloud (#scl)\n➜ 🖼️ Tạo Ảnh (#make)\n➜ 🐳 Tính năng ẩn (#hiden)",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/1982163231104836969/314e83f0bfbe32e06baf.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/1982163231104836969/314e83f0bfbe32e06baf.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1920,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/1982163231104836969\\/314e83f0bfbe32e06baf.jpg\",\"hdSize\":344622,\"height\":600}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": true
+  },
+  "1759927396349": {
+    "timestamp": "1759927396436",
+    "timestampString": "19:43:16",
+    "msgId": "7095547657920",
+    "cliMsgId": "1759927396349",
+    "msgType": "webchat",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": "@Tằm ok",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927400511": {
+    "timestamp": "1759927400534",
+    "timestampString": "19:43:20",
+    "msgId": "7095547908185",
+    "cliMsgId": "1759927400511",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "#sprm 1",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927400925": {
+    "timestamp": "1759927401139",
+    "timestampString": "19:43:21",
+    "msgId": "7095547915747",
+    "cliMsgId": "1759927400925",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927400599": {
+    "timestamp": "1759927400788",
+    "timestampString": "19:43:21",
+    "msgId": "7095547915714",
+    "cliMsgId": "1759927400599",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927401174": {
+    "timestamp": "1759927402223",
+    "timestampString": "19:43:22",
+    "msgId": "7095547992411",
+    "cliMsgId": "1759927401174",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "👤 Vịt Con đã thu hồi tin nhắn sau...\n⏰ Thời gian gửi: 19:43:13\n🔔 Thời gian thu hồi: 19:43:21\n📝 Nội Dung: Ảnh...",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927400735": {
+    "timestamp": "1759927400969",
+    "timestampString": "19:43:21",
+    "msgId": "7095547915732",
+    "cliMsgId": "1759927400735",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927401544": {
+    "timestamp": "1759927401767",
+    "timestampString": "19:43:22",
+    "msgId": "7095547970568",
+    "cliMsgId": "1759927401544",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927401763": {
+    "timestamp": "1759927401982",
+    "timestampString": "19:43:22",
+    "msgId": "7095547970589",
+    "cliMsgId": "1759927401763",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927401383": {
+    "timestamp": "1759927401598",
+    "timestampString": "19:43:22",
+    "msgId": "7095547970549",
+    "cliMsgId": "1759927401383",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927401917": {
+    "timestamp": "1759927402136",
+    "timestampString": "19:43:22",
+    "msgId": "7095547970601",
+    "cliMsgId": "1759927401917",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927402212": {
+    "timestamp": "1759927402451",
+    "timestampString": "19:43:22",
+    "msgId": "7095547970637",
+    "cliMsgId": "1759927402212",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927402556": {
+    "timestamp": "1759927402788",
+    "timestampString": "19:43:23",
+    "msgId": "7095548027777",
+    "cliMsgId": "1759927402556",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927402983": {
+    "timestamp": "1759927403195",
+    "timestampString": "19:43:23",
+    "msgId": "7095548027831",
+    "cliMsgId": "1759927402983",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927403268": {
+    "timestamp": "1759927403504",
+    "timestampString": "19:43:23",
+    "msgId": "7095548085219",
+    "cliMsgId": "1759927403268",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927404076": {
+    "timestamp": "1759927404315",
+    "timestampString": "19:43:24",
+    "msgId": "7095548141111",
+    "cliMsgId": "1759927404076",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927403960": {
+    "timestamp": "1759927404326",
+    "timestampString": "19:43:24",
+    "msgId": "7095548139781",
+    "cliMsgId": "1759927403960",
+    "msgType": "webchat",
+    "uidFrom": "4685678346867844669",
+    "idTo": "1367422010794969537",
+    "dName": "Quỳnh Chi",
+    "content": "/-heart /-heart",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927404228": {
+    "timestamp": "1759927404372",
+    "timestampString": "19:43:24",
+    "msgId": "7095548141117",
+    "cliMsgId": "1759927404228",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "📝 Nội Dung: @Duck\n➜ ♨️ Bot (#bot)\n➜ 📢 Translate (#dich)\n➜ ⛅ Thời tiết (#weather)\n➜ 🤭 Thả thính (#love)\n➜ 🎨 Pixiv tìm Anime (#pix)\n➜ 🎃 Tìm Ảnh Pin (#pin)\n➜ 👻 Ảnh Meme (#meme)\n➜ 🗯 Chat AI (#chat)\n➜ 🧐 Xem Tiểu Sử FreeFire (#ff)\n➜ 👕 Xem Trang Phục FreeFire (#doff)\n➜ 🍼 Tính năng khác (#or)\n➜ 💌 Share code (#share)\n➜ 👩‍💼 ảnh gái (#girl)\n➜ 🤖 Quản lý Bot (#mybot)\n➜ 🗞️ Tin tức (#news)\n➜ 🧨 Spam (#war)\n➜ 📀 Video gái (#vdgirl)\n➜ 👣 TikTok Download (#dl)\n➜ 👣 Tìm Video TikTok (#tt)\n➜ ☁️ Soundcloud (#scl)\n➜ 🖼️ Tạo Ảnh (#make)\n➜ 🐳 Tính năng ẩn (#hiden)",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/1982163231104836969/314e83f0bfbe32e06baf.jpg",
+      "thumb": "https://f59-zpg-r.zdn.vn/1982163231104836969/314e83f0bfbe32e06baf.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f59-zpg-r.zdn.vn\\/1982163231104836969\\/314e83f0bfbe32e06baf.jpg\",\"hdSize\":127342,\"height\":380}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927404865": {
+    "timestamp": "1759927405099",
+    "timestampString": "19:43:25",
+    "msgId": "7095548141196",
+    "cliMsgId": "1759927404865",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927405063": {
+    "timestamp": "1759927405262",
+    "timestampString": "19:43:25",
+    "msgId": "7095548141209",
+    "cliMsgId": "1759927405063",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927405210": {
+    "timestamp": "1759927405417",
+    "timestampString": "19:43:25",
+    "msgId": "7095548199417",
+    "cliMsgId": "1759927405210",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927405363": {
+    "timestamp": "1759927405572",
+    "timestampString": "19:43:25",
+    "msgId": "7095548199431",
+    "cliMsgId": "1759927405363",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927405520": {
+    "timestamp": "1759927405757",
+    "timestampString": "19:43:26",
+    "msgId": "7095548199452",
+    "cliMsgId": "1759927405520",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927405758": {
+    "timestamp": "1759927405979",
+    "timestampString": "19:43:26",
+    "msgId": "7095548199472",
+    "cliMsgId": "1759927405758",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927405901": {
+    "timestamp": "1759927406101",
+    "timestampString": "19:43:26",
+    "msgId": "7095548199483",
+    "cliMsgId": "1759927405901",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927406018": {
+    "timestamp": "1759927406264",
+    "timestampString": "19:43:26",
+    "msgId": "7095548256435",
+    "cliMsgId": "1759927406018",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927406195": {
+    "timestamp": "1759927406408",
+    "timestampString": "19:43:26",
+    "msgId": "7095548256454",
+    "cliMsgId": "1759927406195",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927406425": {
+    "timestamp": "1759927406644",
+    "timestampString": "19:43:26",
+    "msgId": "7095548256482",
+    "cliMsgId": "1759927406425",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927406636": {
+    "timestamp": "1759927406825",
+    "timestampString": "19:43:27",
+    "msgId": "7095548256514",
+    "cliMsgId": "1759927406636",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927406975": {
+    "timestamp": "1759927407009",
+    "timestampString": "19:43:27",
+    "msgId": "7095548306813",
+    "cliMsgId": "1759927406975",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Đù",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927406805": {
+    "timestamp": "1759927407058",
+    "timestampString": "19:43:27",
+    "msgId": "7095548298750",
+    "cliMsgId": "1759927406805",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927407164": {
+    "timestamp": "1759927407352",
+    "timestampString": "19:43:27",
+    "msgId": "7095548298782",
+    "cliMsgId": "1759927407164",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927407337": {
+    "timestamp": "1759927407551",
+    "timestampString": "19:43:27",
+    "msgId": "7095548298806",
+    "cliMsgId": "1759927407337",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927407630": {
+    "timestamp": "1759927407855",
+    "timestampString": "19:43:28",
+    "msgId": "7095548346469",
+    "cliMsgId": "1759927407630",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927408021": {
+    "timestamp": "1759927408239",
+    "timestampString": "19:43:28",
+    "msgId": "7095548346508",
+    "cliMsgId": "1759927408021",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927408232": {
+    "timestamp": "1759927408453",
+    "timestampString": "19:43:28",
+    "msgId": "7095548346525",
+    "cliMsgId": "1759927408232",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927408448": {
+    "timestamp": "1759927408700",
+    "timestampString": "19:43:29",
+    "msgId": "7095548399209",
+    "cliMsgId": "1759927408448",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927408737": {
+    "timestamp": "1759927408994",
+    "timestampString": "19:43:29",
+    "msgId": "7095548399237",
+    "cliMsgId": "1759927408737",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927409049": {
+    "timestamp": "1759927409078",
+    "timestampString": "19:43:29",
+    "msgId": "7095548432246",
+    "cliMsgId": "1759927409049",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Xịn đấy",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927409236": {
+    "timestamp": "1759927409426",
+    "timestampString": "19:43:29",
+    "msgId": "7095548399289",
+    "cliMsgId": "1759927409236",
+    "msgType": "chat.delete",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3655986617792360400,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759927392934,
+        "globalDelMsgId": 7095547452843,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927407370": {
+    "timestamp": "1759927409529",
+    "timestampString": "19:43:29",
+    "msgId": "7095548405418",
+    "cliMsgId": "1759927407370",
+    "msgType": "chat.photo",
+    "uidFrom": "7084721832415548010",
+    "idTo": "7585160044864555896",
+    "dName": "Tiện Ích",
+    "content": {
+      "title": "╭─────────────⭓\n│ ‎𝗡𝗮𝗺𝗲: 𝙃𝙖𝙧𝙤𝙪\n│ 𝗜𝗗: 7446423728429712389\n│ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: harou.official\n│ 𝗟𝗶𝗻𝗸: https://www.tiktok.com/@harou.official\n│ 𝗩𝗲𝗿𝗶𝗳𝗶𝗲𝗱: Chưa xác minh ❌\n│ 𝗦𝘁𝗮𝘁𝘂𝘀: \n│ | -> Người dùng Cá Nhân 👤\n│ | -> Tài khoản Công Khai ✅\n│ | -> Người dùng thương mại 🛒 (Media & Entertainment)\n│ | -> Tài khoản thật\n│ | -> Không livestream ❌\n│ | -> Cho phép tải video ✅\n│ | -> Bình luận: Mọi người\n│ | -> Duet: Mọi người\n│ | -> Stitch: Mọi người\n│ 𝗕𝗶𝗼: 🥹Harou-Capcut-Doraemon🥹\n🤭OTP:Dekisugi x Nobita😝\n📸Capcut📸\n🗿No Toxic Pls⚠️\n│ 𝗕𝗶𝗼 𝗟𝗶𝗻𝗸: \n│ 𝗕𝗶𝗼 𝗘𝗺𝗮𝗶𝗹: \n│ 𝗙𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀: 4,328 Người\n│ 𝗙𝗼𝗹𝗹𝗼𝘄𝗶𝗻𝗴: 11 Người\n│ 𝗙𝗿𝗶𝗲𝗻𝗱𝘀: 0 Bạn Bè\n│ 𝗟𝗶𝗸𝗲𝘀: 448 Lượt\n│ 𝗩𝗶𝗱𝗲𝗼𝘀: 6 Video\n│ 𝗠𝘂𝘀𝗶𝗰: 0 bài\n│ 𝗢𝗽𝗲𝗻𝗙𝗮𝘃𝗼𝗿𝗶𝘁𝗲: Ẩn\n│ 𝗣𝗹𝗮𝘆𝗟𝗶𝘀𝘁: Không có danh sách phát ❌\n│ 𝗦𝗵𝗼𝘄𝗥𝗲𝗽𝗼𝘀𝘁𝗧𝗮𝗯: Không cho phép xem bài đăng lại ❌\n├─────────────⭔\n│ 𝗡𝗶𝗰𝗸𝗡𝗮𝗺𝗲 𝗨𝗽𝗱𝗮𝘁𝗲: 11:41:03 || 03/09/2025\n│ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 𝗨𝗽𝗱𝗮𝘁𝗲: 11:25:29 || 11/12/2024\n│ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: vi\n│ 𝗥𝗲𝗴𝗶𝗼𝗻: Không xác định\n╰─────────────⭓",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/7248050708153487800/9c548125bd6b3035697a.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/7248050708153487800/9c548125bd6b3035697a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":400,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/7248050708153487800\\/9c548125bd6b3035697a.jpg\",\"hdSize\":344622,\"height\":400}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
