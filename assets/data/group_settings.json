@@ -215,7 +215,7 @@
       }
     },
     "whileList": {},
-    "activeBot": false,
+    "activeBot": true,
     "activeGame": true,
     "welcomeGroup": false,
     "byeGroup": false,
