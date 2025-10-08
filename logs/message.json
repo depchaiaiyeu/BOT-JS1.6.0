@@ -76641,5 +76641,233 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759925490013": {
+    "timestamp": "1759925490837",
+    "timestampString": "19:11:31",
+    "msgId": "7095433148081",
+    "cliMsgId": "1759925490013",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Tài Tấn\nChờ lấy video một chút, xong sẽ gọi cho hay!\n📊 Chất lượng: 540p",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":8,\"len\":64,\"st\":\"b,c_f7b503,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925492323": {
+    "timestamp": "1759925493149",
+    "timestampString": "19:11:33",
+    "msgId": "7095433267894",
+    "cliMsgId": "1759925492323",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "[ Tài Tấn ]\nAuthor: [peak.agency68] Vũ Trụ Peak\nDescription: Lên cho anh con beat với Thuỷ Tinh #peakagency #genz #baomatmo #bao #vietnam\n📊 Chất lượng: 540p\n💗 Thả tim để nhận nội dung ngẫu nhiên khác từ author này",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/29055fe9987a3924606b/7174952376659381021",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/ocAIgEfAVTuEoAFflAF5DRNUu0DDCCFWUyaBMH~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=17fdc0ba&x-expires=1760011200&x-signature=BoORe1f73pdIU7pvBu9UJcIl6Fc%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&s=AWEME_DETAIL&sc=cover&biz_tag=tt_video",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":18566,\"video_height\":866,\"fileSize\":5526669,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925496344": {
+    "timestamp": "1759925496373",
+    "timestampString": "19:11:36",
+    "msgId": "7095433502446",
+    "cliMsgId": "1759925496344",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45591,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925501377": {
+    "timestamp": "1759925502244",
+    "timestampString": "19:11:43",
+    "msgId": "7095433810378",
+    "cliMsgId": "1759925501377",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": "👤 Nhật Tân đã thu hồi tin nhắn sau...\n⏰ Thời gian gửi: 19:11:20\n🔔 Thời gian thu hồi: 19:11:41\n📝 Nội Dung: ⏳ Đợi tí...",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925506127": {
+    "timestamp": "1759925506162",
+    "timestampString": "19:11:46",
+    "msgId": "7095434075562",
+    "cliMsgId": "1759925506127",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Của t nó k nhận",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925508320": {
+    "timestamp": "1759925508349",
+    "timestampString": "19:11:48",
+    "msgId": "7095434206168",
+    "cliMsgId": "1759925508320",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 30809,
+      "catId": 10961,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925512467": {
+    "timestamp": "1759925512551",
+    "timestampString": "19:11:52",
+    "msgId": "7095434451972",
+    "cliMsgId": "1759925512467",
+    "msgType": "webchat",
+    "uidFrom": "8278861428525791199",
+    "idTo": "4825567233436439756",
+    "dName": "Đăng",
+    "content": "🤓",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925512653": {
+    "timestamp": "1759925512988",
+    "timestampString": "19:11:53",
+    "msgId": "7095434429975",
+    "cliMsgId": "1759925512653",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3157504084480695300,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1759925512653,
+        "globalDelMsgId": 7095434429971,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925513083": {
+    "timestamp": "1759925513702",
+    "timestampString": "19:11:54",
+    "msgId": "7095434489930",
+    "cliMsgId": "1759925513083",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3157504084480695300,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1759925513083,
+        "globalDelMsgId": 7095434489915,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925514953": {
+    "timestamp": "1759925515007",
+    "timestampString": "19:11:55",
+    "msgId": "7095434596775",
+    "cliMsgId": "1759925514953",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@ヅtrần Ân Ânヅ cái đó đó",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925517749": {
+    "timestamp": "1759925517795",
+    "timestampString": "19:11:58",
+    "msgId": "7095434761920",
+    "cliMsgId": "1759925517749",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "đó đó đó",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925518624": {
+    "timestamp": "1759925518728",
+    "timestampString": "19:11:59",
+    "msgId": "7095434815223",
+    "cliMsgId": "1759925518624",
+    "msgType": "webchat",
+    "uidFrom": "3157504084480695274",
+    "idTo": "4825567233436439756",
+    "dName": "Nhật Tân",
+    "content": "!editvideo 0:03 0:12",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759925518097": {
+    "timestamp": "1759925518921",
+    "timestampString": "19:11:59",
+    "msgId": "7095434818656",
+    "cliMsgId": "1759925518097",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": "⏳ Đang xử lý video... Vui lòng đợi trong giây lát.",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
