@@ -34277,5 +34277,19 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759921647941": {
+    "timestamp": "1759921648041",
+    "timestampString": "18:07:28",
+    "msgId": "7095211983514",
+    "cliMsgId": "1759921647941",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Đăng Khôi * sợ ngày mai em đi mấtttttt *",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
