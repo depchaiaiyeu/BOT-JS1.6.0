@@ -228,7 +228,11 @@
     "onlyText": false,
     "memberApprove": true,
     "antiNude": false,
-    "whiteList": {},
+    "whiteList": {
+      "450249133712562180": {
+        "name": "Trung Trí"
+      }
+    },
     "autoLockChat": {},
     "antiMedia": false,
     "antiSticker": false,
