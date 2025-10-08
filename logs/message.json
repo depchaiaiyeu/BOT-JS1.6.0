@@ -124930,5 +124930,120 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935783397": {
+    "timestamp": "1759935783484",
+    "timestampString": "22:03:04",
+    "msgId": "7096054555022",
+    "cliMsgId": "1759935783397",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "-menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935783654": {
+    "timestamp": "1759935784424",
+    "timestampString": "22:03:05",
+    "msgId": "7096054605200",
+    "cliMsgId": "1759935783654",
+    "msgType": "chat.photo",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": {
+      "title": "🚦@Dell Yêu Ai\n• MENU BOT •\n\n... (Phần nội dung menu của bạn giữ nguyên) ...\n\n👑 Admin: Ichino Makatsu",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/6277634917219495010/36cf303a8973042d5d62.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/6277634917219495010/36cf303a8973042d5d62.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1124,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/6277634917219495010\\/36cf303a8973042d5d62.jpg\",\"hdSize\":344622,\"height\":402}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935791853": {
+    "timestamp": "1759935791972",
+    "timestampString": "22:03:12",
+    "msgId": "7096055012236",
+    "cliMsgId": "1759935791853",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 43520,
+      "catId": 11786,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596147665920": {
+    "timestamp": "1759935794698",
+    "timestampString": "22:03:15",
+    "msgId": "7096055158190",
+    "cliMsgId": "105596147665920",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/2621615640765568183/471e98b421fdaca3f5ec.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/2621615640765568183/471e98b421fdaca3f5ec.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/2621615640765568183\\/471e98b421fdaca3f5ec.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935801778": {
+    "timestamp": "1759935801872",
+    "timestampString": "22:03:22",
+    "msgId": "7096055551592",
+    "cliMsgId": "1759935801778",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "-menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935802243": {
+    "timestamp": "1759935803092",
+    "timestampString": "22:03:23",
+    "msgId": "7096055613009",
+    "cliMsgId": "1759935802243",
+    "msgType": "chat.photo",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": {
+      "title": "🚦@Dell Yêu Ai\n• MENU BOT •\n\n... (Phần nội dung menu của bạn giữ nguyên) ...\n\n👑 Admin: Ichino Makatsu",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/3122447249895206303/6838ad9f14d69988c0c7.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/3122447249895206303/6838ad9f14d69988c0c7.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1124,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/3122447249895206303\\/6838ad9f14d69988c0c7.jpg\",\"hdSize\":344622,\"height\":402}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
