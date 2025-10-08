@@ -124072,5 +124072,190 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931580368": {
+    "timestamp": "1759931580467",
+    "timestampString": "20:53:06",
+    "msgId": "7095810678112",
+    "cliMsgId": "1759931580368",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": ".scl ghé qua",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931585740": {
+    "timestamp": "1759931585885",
+    "timestampString": "20:53:06",
+    "msgId": "7095810985755",
+    "cliMsgId": "1759931585740",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Trung Trí\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/8869458971902141250/3f50219955d0d88e81c1.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/8869458971902141250/3f50219955d0d88e81c1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1490,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/8869458971902141250\\/3f50219955d0d88e81c1.jpg\",\"hdSize\":327843,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931588480": {
+    "timestamp": "1759931588609",
+    "timestampString": "20:53:08",
+    "msgId": "7095811151846",
+    "cliMsgId": "1759931588480",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Trung Trí\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ Ghé Qua - Dick & Tofu & PC",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":76,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931588222": {
+    "timestamp": "1759931588353",
+    "timestampString": "20:53:09",
+    "msgId": "7095811151812",
+    "cliMsgId": "1759931588222",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759931585740,
+        "globalDelMsgId": 7095810985755,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931592663": {
+    "timestamp": "1759931592792",
+    "timestampString": "20:53:13",
+    "msgId": "7095811412204",
+    "cliMsgId": "1759931592663",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Trung Trí\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931593149": {
+    "timestamp": "1759931593284",
+    "timestampString": "20:53:13",
+    "msgId": "7095811454417",
+    "cliMsgId": "1759931593149",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/7955691705799638209/081d822bf6627b3c2273.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/7955691705799638209/081d822bf6627b3c2273.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/7955691705799638209\\/081d822bf6627b3c2273.jpg\",\"hdSize\":165668,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931587561": {
+    "timestamp": "1759931587618",
+    "timestampString": "20:53:14",
+    "msgId": "7095811121875",
+    "cliMsgId": "1759931587561",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "1",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931594565": {
+    "timestamp": "1759931594702",
+    "timestampString": "20:53:15",
+    "msgId": "7095811534035",
+    "cliMsgId": "1759931594565",
+    "msgType": "chat.voice",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/9757868e321d9343ca0c/7450680789424242248/Vu-Xuan-Kien-Service-Bot.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":3785455,\"m4a\":\"https:\\/\\/fg41.dlfl.vn\\/9757868e321d9343ca0c\\/7450680789424242248\\/Vu-Xuan-Kien-Service-Bot.aac\"}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931601103": {
+    "timestamp": "1759931601147",
+    "timestampString": "20:53:21",
+    "msgId": "7095811961477",
+    "cliMsgId": "1759931601103",
+    "msgType": "chat.sticker",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": {
+      "id": 25717,
+      "catId": 10610,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
