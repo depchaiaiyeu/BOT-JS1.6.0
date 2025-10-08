@@ -125127,5 +125127,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759932035846": {
+    "timestamp": "1759932033320",
+    "timestampString": "21:00:34",
+    "msgId": "7095838801388",
+    "cliMsgId": "1759932035846",
+    "msgType": "chat.video.msg",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "🕒 21:00 - Bot Dell Yêu Ai Autosend 🌞\n🚦Một buổi tối tuyệt vời! Hãy tận hưởng thời gian bên gia đình.",
+      "description": "",
+      "href": "https://i.imgur.com/zb8AmwW.mp4",
+      "thumb": "https://files.catbox.moe/3vy7ga.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":20,\"video_height\":1920,\"fileSize\":0,\"video_width\":1080}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
