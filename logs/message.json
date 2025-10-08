@@ -126903,5 +126903,19 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1759937198838": {
+    "timestamp": "1759937198905",
+    "timestampString": "22:26:39",
+    "msgId": "7096125186862",
+    "cliMsgId": "1759937198838",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Thái Nguyên ngập nhìn khổ ghê",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
