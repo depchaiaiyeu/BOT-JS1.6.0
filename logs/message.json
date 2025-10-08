@@ -127971,5 +127971,79 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "105596325681960": {
+    "timestamp": "1759938761385",
+    "timestampString": "22:52:42",
+    "msgId": "7096188563222",
+    "cliMsgId": "105596325681960",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "/-li Cho Thuê Bot Zalo - Quản Lý Nhóm\n/-li Bảo Vệ Nhóm, Chống Spm\n/-li Bán Bot Zalo \n/-li Anti Kick Chống Bọn Lồn Kickall\n/-li Bot War / Spam / Lag\n/-li Bot Auto Reply \n/-li Nhiều Lệnh Vui - Mở Rộng Tính Năng Theo Yc\n/-li Cài Đặt Dễ - Uy Tín - Bảo Mật - Nhanh Gọn ‼️\n\n📱 Cho Thuê Sim Ảo Tạo Tài Khoản Zalo.\n➜  Mã Ảo Tạo Tài Khoản Zô La 🤪\n\n                    FACEBOOK 📌\n🔹Nhận Dame Acc Face Theo Uid / Link ⚡\n▫️Mở Khoá Tài Khoản - UnLock✅\n▪️Up Nhạc Lên Trang Cá Nhân ✅\n🔸Up Tick Xanh Chính Chủ ✅\n🔹Seding Page 📉\n\nBuff Like FF \nLưu Ý : Mỗi Một Ngày 100like ( 100like /1day )\n\nNhóm Clip Sex Có Video Mỗi Ngày \n➜https://zalo.me/g/seqvsw398\n➜https://zalo.me/g/ivkkhs431\n\nVào Nghịch Nhóm Nè\n➜ https://zalo.me/g/rqgxjk534\n\n  📞    Chi Tiết Xin Vui Lòng Liên Hệ \n  Những Vấn Đề Khác Xin Đừng Kp Làm Phiền",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938761429": {
+    "timestamp": "1759938761448",
+    "timestampString": "22:52:42",
+    "msgId": "7096188563229",
+    "cliMsgId": "1759938761429",
+    "msgType": "chat.recommended",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "Kim Thanhh",
+      "description": "{\"phone\":\"thuê bot ib\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/e\\/7\\/c\\/1\\/44\\/120\\/2a92f7d4be271a50b3cce7b231776fd9.jpg\",\"gUid\":\"IJPEM65K5C6OTDM5T4735SJ54KKT3L80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/e/7/c/1/44/120/2a92f7d4be271a50b3cce7b231776fd9.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "6593064319472911684",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938776229": {
+    "timestamp": "1759938776259",
+    "timestampString": "22:52:57",
+    "msgId": "7096189096642",
+    "cliMsgId": "1759938776229",
+    "msgType": "chat.recommended",
+    "uidFrom": "2873500016463783643",
+    "idTo": "7734313716342939502",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "Ha Trung Son",
+      "description": "{\"phone\":\"Thuê Bot Liên Hệ 👇\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/0\\/2\\/5\\/d\\/52\\/120\\/2d1ce49e88da289c0628bacca0ff4dde.jpg\",\"gUid\":\"JKO0JAUNMJLERLCSHBPA0RNC181QAD80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/0/2/5/d/52/120/2d1ce49e88da289c0628bacca0ff4dde.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "2873500016463783643",
+      "type": ""
+    },
+    "threadId": "7734313716342939502",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596326570560": {
+    "timestamp": "1759938776198",
+    "timestampString": "22:52:57",
+    "msgId": "7096189096636",
+    "cliMsgId": "105596326570560",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "7734313716342939502",
+    "dName": "Ha Trung Son",
+    "content": "Box Giao Lưu Tool\nTool Buff View TikTok \nhttps://zalo.me/g/uxapkc369",
+    "threadId": "7734313716342939502",
+    "type": 1,
+    "isUndo": false
   }
 }
