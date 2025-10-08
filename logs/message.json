@@ -127957,5 +127957,19 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759938716945": {
+    "timestamp": "1759938720950",
+    "timestampString": "22:52:01",
+    "msgId": "7096187104520",
+    "cliMsgId": "1759938716945",
+    "msgType": "webchat",
+    "uidFrom": "717224590695865551",
+    "idTo": "8281509084603580118",
+    "dName": "Trần Tổng",
+    "content": "https://zalo.me/g/ewxcrc909",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
