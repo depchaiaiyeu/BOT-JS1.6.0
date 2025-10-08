@@ -1154,8 +1154,8 @@
         {
           "UserName": "Mai Quoc Trieu",
           "UID": "7251491771286693785",
-          "Rank": 14,
-          "messageCountToday": 2,
+          "Rank": 17,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2665,22 +2665,29 @@
           "UserName": "Thiên Bách",
           "UID": "4403431173397495847",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Hoàng Vĩnh Phúc",
           "UID": "604359531516660312",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "黃維自",
           "UID": "7273011347216100309",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Phi",
+          "UID": "7738724062799097694",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "Tiện Ích 🛡 🪲"
@@ -3083,29 +3090,36 @@
           "UserName": "Mink Khiêm",
           "UID": "556077260507140492",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Nhất Bạch Ka Tttl",
           "UID": "923538240312196330",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Nhữ Lại",
           "UID": "7690449044082471554",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Thuan",
           "UID": "6599963277496561068",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Nhi Nhí Nhảnh",
+          "UID": "7341143702257034459",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "Box chat trò chuyện buôn bán game steal a brainrot"
