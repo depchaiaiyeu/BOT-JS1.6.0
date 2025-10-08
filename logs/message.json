@@ -22,43 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1759850927584": {
-    "timestamp": "1759850927613",
-    "timestampString": "22:28:48",
-    "msgId": "7092479411008",
-    "cliMsgId": "1759850927584",
-    "msgType": "webchat",
-    "uidFrom": "5797048306653413960",
-    "idTo": "5975420422762749911",
-    "dName": "Huy",
-    "content": {
-      "title": "Huy\n/-li H w H /-li\nĐã tiếp nhận lệnh spam sms!\nTiến hành phát động spam sms đến số điện thoại 0988467271!\n✅✅✅",
-      "description": "",
-      "href": "",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "rtf",
-      "params": "{\"styles\":[{\"start\":4,\"len\":15,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
-      "type": ""
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759850933443": {
-    "timestamp": "1759850933490",
-    "timestampString": "22:28:53",
-    "msgId": "7092479669752",
-    "cliMsgId": "1759850933443",
-    "msgType": "webchat",
-    "uidFrom": "4738736706541347832",
-    "idTo": "6512342651301747547",
-    "dName": "Thw Em",
-    "content": "@Ha Trung Son nhiu",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1759850944268": {
     "timestamp": "1759850944536",
     "timestampString": "22:29:05",
@@ -126995,6 +126958,57 @@
     "dName": "L A T",
     "content": "tuyệt",
     "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937354480": {
+    "timestamp": "1759937354499",
+    "timestampString": "22:29:15",
+    "msgId": "7096132176801",
+    "cliMsgId": "1759937354480",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "@Nguyễn Hồng Anh Đức đúng tht",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937364526": {
+    "timestamp": "1759937364548",
+    "timestampString": "22:29:25",
+    "msgId": "7096132623161",
+    "cliMsgId": "1759937364526",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Toàn thấy nhà vs đồi còn nhiu biển nước",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937366271": {
+    "timestamp": "1759937366287",
+    "timestampString": "22:29:26",
+    "msgId": "7096132703859",
+    "cliMsgId": "1759937366271",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/f943abeea77806265f69/2317117074920184405?creator=Tahn_bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/f943abeea77806265f69/2317117074920184405?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":540,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759667543702\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/f943abeea77806265f69\\/2317117074920184405?creator=Tahn_bot.webp\",\"width\":720,\"height\":540,\"thumb\":\"\"},\"contentId\":\"1759667543702\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
   }
