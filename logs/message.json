@@ -31628,5 +31628,219 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903666095": {
+    "timestamp": "1759903666099",
+    "timestampString": "13:07:47",
+    "msgId": "7094098556974",
+    "cliMsgId": "1759903666095",
+    "msgType": "chat.video.msg",
+    "uidFrom": "3808543700523159521",
+    "idTo": "5601607522756268167",
+    "dName": "卍 Đệ Tử Bé Bii 卍",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f109-zvc.dlmd.me/gr/dcbb8e9fdd04305a6915/2699659986654814434",
+      "thumb": "https://f109-zvc.dlmd.me/gr/dcbb8e9fdd04305a6915/2699659986654814434",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":10000,\"video_height\":720,\"fileSize\":0,\"video_width\":720}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903666236": {
+    "timestamp": "1759903666319",
+    "timestampString": "13:07:47",
+    "msgId": "7094098557007",
+    "cliMsgId": "1759903666236",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3808543700523159600,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1759903666095,
+        "globalDelMsgId": 7094098556974,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903666409": {
+    "timestamp": "1759903666411",
+    "timestampString": "13:07:47",
+    "msgId": "7094098557023",
+    "cliMsgId": "1759903666409",
+    "msgType": "webchat",
+    "uidFrom": "3808543700523159521",
+    "idTo": "5601607522756268167",
+    "dName": "卍 Đệ Tử Bé Bii 卍",
+    "content": "🐧 box ae chúng tôi: https://zalo.me/g/dmwnef302  🐧 💼 EM XIN PHÉP CÁC AD CHO EM ĐƯỢC RẢI NHẸ Ạ 🙏\n✨ Uy tín – Giá rẻ – Làm việc nhanh – Hỗ trợ 24/7 💬\n\n🚀 1️⃣ NHẬN RẢI THUÊ – HIỆU QUẢ, GIÁ SIÊU HỜI\n💸 7k / 1 ngày\n📆 Combo: 1 tuần 36k – 1 tháng 75k\n🎯 Rải đúng tệp, đúng giờ, đúng mục tiêu\n💡 Phù hợp cho ai cần quảng bá nhóm, shop, dịch vụ",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903666396": {
+    "timestamp": "1759903666407",
+    "timestampString": "13:07:47",
+    "msgId": "7094098557022",
+    "cliMsgId": "1759903666396",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "[ANTI-VIDEO]\n卍 Đệ Tử Bé Bii 卍\n🚦 Nhóm chúng tôi có quy định không được gửi video vào nhóm, vui lòng không gửi video vào nhóm. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 0, \"len\": 12, \"st\": \"b\"}, {\"start\": 13, \"len\": 16, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903666890": {
+    "timestamp": "1759903666905",
+    "timestampString": "13:07:47",
+    "msgId": "7094098584075",
+    "cliMsgId": "1759903666890",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3808543700523159600,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1759903666752,
+        "globalDelMsgId": 7094098584047,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903666752": {
+    "timestamp": "1759903666760",
+    "timestampString": "13:07:47",
+    "msgId": "7094098584047",
+    "cliMsgId": "1759903666752",
+    "msgType": "chat.recommended",
+    "uidFrom": "3808543700523159521",
+    "idTo": "5601607522756268167",
+    "dName": "卍 Đệ Tử Bé Bii 卍",
+    "content": {
+      "title": "卍ᅠᅠᅠᅠ ムbiii Tập Buôn ムᅠᅠᅠᅠᅠᅠᅠ卍",
+      "description": "{\"phone\":\"Cần gì ib e nhoa\",\"gUid\":\"P07E7MH1SKLHM8VGFHAG0724HRPMN280\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/f/e/d/d/16/120/fe598e6582d6118afe21d935b4be57ed.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "13967011642167306",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055942200114200": {
+    "timestamp": "1759903667373",
+    "timestampString": "13:07:47",
+    "msgId": "7094098607393",
+    "cliMsgId": "1055942200114200",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "卍 Đệ Tử Bé Bii 卍\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":17,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903666980": {
+    "timestamp": "1759903666992",
+    "timestampString": "13:07:47",
+    "msgId": "7094098584094",
+    "cliMsgId": "1759903666980",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\n卍 Đệ Tử Bé Bii 卍\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903684326": {
+    "timestamp": "1759903684340",
+    "timestampString": "13:08:05",
+    "msgId": "7094099350671",
+    "cliMsgId": "1759903684326",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Dell Yêu Ai .eval message.data.quote",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903685690": {
+    "timestamp": "1759903685805",
+    "timestampString": "13:08:06",
+    "msgId": "7094099408333",
+    "cliMsgId": "1759903685690",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"ownerId\": 2275317996891696600,\n  \"cliMsgId\": 1759903230356,\n  \"globalMsgId\": 7094079769636,\n  \"cliMsgType\": 44,\n  \"ts\": 1759903227152,\n  \"msg\": \"\",\n  \"attach\": \"{\\\"title\\\":\\\"🕒 13:00 - Bot Dell Yêu Ai Autosend 🚀\\\\n🚦Chúc bạn buổi chiều làm việc hiệu quả.\\\",\\\"description\\\":\\\"\\\",\\\"href\\\":\\\"https:\\\\/\\\\/i.imgur.com\\\\/RV515ko.mp4\\\",\\\"thumb\\\":\\\"https:\\\\/\\\\/files.catbox.moe\\\\/3vy7ga.jpg\\\",\\\"childnumber\\\":\\\"0\\\",\\\"action\\\":\\\"\\\",\\\"params\\\":\\\"{\\\\\\\"duration\\\\\\\":20,\\\\\\\"is_group_layout\\\\\\\":0,\\\\\\\"video_original_width\\\\\\\":0,\\\\\\\"video_original_height\\\\\\\":0,\\\\\\\"video_width\\\\\\\":1080,\\\\\\\"video_height\\\\\\\":1920,\\\\\\\"video_rotation\\\\\\\":0,\\\\\\\"fileSize\\\\\\\":0,\\\\\\\"isHD\\\\\\\":0}\\\"}\",\n  \"fromD\": \"Dell Yêu Ai\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
