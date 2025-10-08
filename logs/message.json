@@ -30499,5 +30499,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759902696091": {
+    "timestamp": "1759902696218",
+    "timestampString": "12:51:38",
+    "msgId": "7094057631237",
+    "cliMsgId": "1759902696091",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.sendVoice(\"con cặc\", \"https://voice-aac-dl.zdn.vn/7466418790460487746/a9726b7014f6faa8a3e7?Kewm.aac\", 100000)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902698410": {
+    "timestamp": "1759902698522",
+    "timestampString": "12:51:38",
+    "msgId": "7094057721598",
+    "cliMsgId": "1759902698410",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n❌ Lỗi:\nThread type is invalid",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
