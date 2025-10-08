@@ -125030,5 +125030,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933111049": {
+    "timestamp": "1759933111160",
+    "timestampString": "21:18:32",
+    "msgId": "7095904388832",
+    "cliMsgId": "1759933111049",
+    "msgType": "webchat",
+    "uidFrom": "4923932449158492270",
+    "idTo": "4699745045071009795",
+    "dName": "ほたる",
+    "content": "chịu",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933128296": {
+    "timestamp": "1759933131122",
+    "timestampString": "21:18:52",
+    "msgId": "7095905577979",
+    "cliMsgId": "1759933128296",
+    "msgType": "webchat",
+    "uidFrom": "7336355608886049",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Tt Huyền",
+    "content": "@Bắc kid",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
