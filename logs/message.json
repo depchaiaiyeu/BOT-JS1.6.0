@@ -23442,9 +23442,9 @@
     "isUndo": false
   },
   "1758279053410": {
-    "timestamp": "1759847646408",
-    "timestampString": "21:34:06",
-    "msgId": "7092311269307",
+    "timestamp": "1759902767406",
+    "timestampString": "12:52:48",
+    "msgId": "7094060582031",
     "cliMsgId": "1758279053410",
     "msgType": "chat.photo",
     "uidFrom": "5498985111158029675",
@@ -30570,6 +30570,104 @@
       "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
       "type": ""
     },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902767539": {
+    "timestamp": "1759902767627",
+    "timestampString": "12:52:48",
+    "msgId": "7094060622927",
+    "cliMsgId": "1759902767539",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5498985111158029000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1758279053410,
+        "globalDelMsgId": 7094060582031,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902767681": {
+    "timestamp": "1759902767695",
+    "timestampString": "12:52:48",
+    "msgId": "7094060622933",
+    "cliMsgId": "1759902767681",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nVăn Nguyễn\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902775950": {
+    "timestamp": "1759902775954",
+    "timestampString": "12:52:57",
+    "msgId": "7094060976349",
+    "cliMsgId": "1759902775950",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.getBlockedGroupMembers(threadId)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902777066": {
+    "timestamp": "1759902777185",
+    "timestampString": "12:52:57",
+    "msgId": "7094061028873",
+    "cliMsgId": "1759902777066",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n❌ Lỗi:\nTham số không hợp lệ",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902782920": {
+    "timestamp": "1759902782947",
+    "timestampString": "12:53:03",
+    "msgId": "7094061269376",
+    "cliMsgId": "1759902782920",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Lam xai jg",
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
