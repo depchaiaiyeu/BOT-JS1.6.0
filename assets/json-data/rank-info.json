@@ -1785,8 +1785,8 @@
         {
           "UserName": "Hiếu",
           "UID": "5665338112475148452",
-          "Rank": 54,
-          "messageCountToday": 42,
+          "Rank": 55,
+          "messageCountToday": 43,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -1990,6 +1990,13 @@
           "UID": "1315478595488264826",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Xuan Bach",
+          "UID": "5251718859305208026",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
         }
       ],
@@ -3542,8 +3549,8 @@
         {
           "UserName": "Mai Lê",
           "UID": "8659697562202878998",
-          "Rank": 12,
-          "messageCountToday": 11,
+          "Rank": 14,
+          "messageCountToday": 13,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3629,8 +3636,8 @@
         {
           "UserName": "Nhon",
           "UID": "7865523427196480284",
-          "Rank": 12,
-          "messageCountToday": 8,
+          "Rank": 13,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-08"
         },
         {
