@@ -30084,5 +30084,60 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759902484803": {
+    "timestamp": "1759902484872",
+    "timestampString": "12:48:05",
+    "msgId": "7094048689364",
+    "cliMsgId": "1759902484803",
+    "msgType": "chat.sticker",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "id": 17612,
+      "catId": 10111,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902487189": {
+    "timestamp": "1759902487280",
+    "timestampString": "12:48:09",
+    "msgId": "7094048789793",
+    "cliMsgId": "1759902487189",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".object",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902488866": {
+    "timestamp": "1759902488981",
+    "timestampString": "12:48:09",
+    "msgId": "7094048857529",
+    "cliMsgId": "1759902488866",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n📡 Dữ liệu tin nhắn được reply:\n\n{\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 1759902484803,\n  \"globalMsgId\": 0,\n  \"cliMsgType\": 36,\n  \"ts\": 1759902484804,\n  \"msg\": \"\",\n  \"attach\": {\n    \"type\": 7,\n    \"id\": 17612,\n    \"catId\": 10111\n  },\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":282,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
