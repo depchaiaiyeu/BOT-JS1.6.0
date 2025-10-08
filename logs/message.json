@@ -125512,5 +125512,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759932397411": {
+    "timestamp": "1759932397474",
+    "timestampString": "21:06:38",
+    "msgId": "7095861243683",
+    "cliMsgId": "1759932397411",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "*scl tình yêu chấp vá",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
