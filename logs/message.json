@@ -123373,5 +123373,79 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931350513": {
+    "timestamp": "1759931350716",
+    "timestampString": "20:49:11",
+    "msgId": "7095796434020",
+    "cliMsgId": "1759931350513",
+    "msgType": "chat.photo",
+    "uidFrom": "6698910511481637580",
+    "idTo": "4699745045071009795",
+    "dName": "Việt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/b8b336887803d95d8012/3463116009043772116?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/b8b336887803d95d8012/3463116009043772116?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759149417938\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/b8b336887803d95d8012\\/3463116009043772116?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":512,\"height\":512,\"thumb\":\"\"},\"contentId\":\"1759149417938\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931352692": {
+    "timestamp": "1759931352692",
+    "timestampString": "20:49:13",
+    "msgId": "7095796551968",
+    "cliMsgId": "1759931352692",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": {
+      "title": "Trann Nhien cho phép tất cả thành viên được gửi tin nhắn vào cộng đồng.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "msginfo.actionlist",
+      "params": "{\"msg\":{\"vi\":\"%1$s cho phép tất cả thành viên được gửi tin nhắn vào cộng đồng.\",\"en\":\"%1$s allowed everyone to send messages in this community.\",\"my\":\"%1$s allowed everyone to send messages in this community.\"},\"avatarUrl\":[\"https://s160-ava-talk.zadn.vn/a/9/5/4/121/160/2a1d3934f957189a51b57efd447fa411.jpg\"],\"simpleInfos\":[{\"uid\":8038361009454121910,\"dpn\":\"Trann Nhien\",\"avt\":\"https://s160-ava-talk.zadn.vn/a/9/5/4/121/160/2a1d3934f957189a51b57efd447fa411.jpg\"}],\"highLightsV2\":[{\"uid\":8038361009454121910,\"dpn\":\"Trann Nhien\",\"ignoreNickname\":0,\"type\":0,\"ts\":0}],\"iconUrl\":\"\",\"actions\":[{\"actionType\":\"\",\"actionColor\":-16538118,\"actionData\":\"\",\"actionLabel\":\"\"}],\"totalUpdateMem\":1,\"highLights\":[{\"uid\":8038361009454121910,\"len\":11,\"pos\":0}]}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931357086": {
+    "timestamp": "1759931357188",
+    "timestampString": "20:49:17",
+    "msgId": "7095796833488",
+    "cliMsgId": "1759931357086",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@Dũng Anh à bỏ được rồi",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931363771": {
+    "timestamp": "1759931363841",
+    "timestampString": "20:49:24",
+    "msgId": "7095797246162",
+    "cliMsgId": "1759931363771",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": "🤡🤲",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
