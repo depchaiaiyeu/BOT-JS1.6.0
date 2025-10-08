@@ -92680,5 +92680,93 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759927111283": {
+    "timestamp": "1759927111377",
+    "timestampString": "19:38:31",
+    "msgId": "7095530262781",
+    "cliMsgId": "1759927111283",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45591,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927117902": {
+    "timestamp": "1759927117957",
+    "timestampString": "19:38:38",
+    "msgId": "7095530665414",
+    "cliMsgId": "1759927117902",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Ủa t lấy đúng font mà:)))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927126805": {
+    "timestamp": "1759927126908",
+    "timestampString": "19:38:47",
+    "msgId": "7095531212756",
+    "cliMsgId": "1759927126805",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Chiêm Thị Cúc m có thấy lag k @ヅtrần Ân Ânヅ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927129975": {
+    "timestamp": "1759927129841",
+    "timestampString": "19:38:50",
+    "msgId": "7095531388529",
+    "cliMsgId": "1759927129975",
+    "msgType": "webchat",
+    "uidFrom": "7273011347216100309",
+    "idTo": "7585160044864555896",
+    "dName": "黃維自",
+    "content": "/tiktok https://vt.tiktok.com/ZNdnyLeo1/",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927130913": {
+    "timestamp": "1759927131092",
+    "timestampString": "19:38:51",
+    "msgId": "7095531421110",
+    "cliMsgId": "1759927130913",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "7585160044864555896",
+    "dName": "Danny",
+    "content": "/",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927134287": {
+    "timestamp": "1759927134439",
+    "timestampString": "19:38:54",
+    "msgId": "7095531627888",
+    "cliMsgId": "1759927134287",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "7585160044864555896",
+    "dName": "Danny",
+    "content": "/menu",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
