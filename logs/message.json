@@ -22,62 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1759848304018": {
-    "timestamp": "1759848304051",
-    "timestampString": "21:45:04",
-    "msgId": "7092348125563",
-    "cliMsgId": "1759848304018",
-    "msgType": "webchat",
-    "uidFrom": "2275317996891696552",
-    "idTo": "5975420422762749911",
-    "dName": "Dell Yêu Ai",
-    "content": "*stk",
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
-  "105590898944100": {
-    "timestamp": "1759848315765",
-    "timestampString": "21:45:16",
-    "msgId": "7092348748254",
-    "cliMsgId": "105590898944100",
-    "msgType": "webchat",
-    "uidFrom": "5498985111158029675",
-    "idTo": "5601607522756268167",
-    "dName": "Văn Nguyễn",
-    "content": "https://zalo.me/g/czozqm337",
-    "threadId": "5601607522756268167",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759848337665": {
-    "timestamp": "1759848337686",
-    "timestampString": "21:45:38",
-    "msgId": "7092349967122",
-    "cliMsgId": "1759848337665",
-    "msgType": "webchat",
-    "uidFrom": "5440985416542136505",
-    "idTo": "4825567233436439756",
-    "dName": "N D Q",
-    "content": "@N H L anh có làm gì đâu =))\nHong có trình, đi thuê code kh hà",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759848340189": {
-    "timestamp": "1759848340223",
-    "timestampString": "21:45:40",
-    "msgId": "7092350106147",
-    "cliMsgId": "1759848340189",
-    "msgType": "webchat",
-    "uidFrom": "5440985416542136505",
-    "idTo": "4825567233436439756",
-    "dName": "N D Q",
-    "content": ":>",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1759848365467": {
     "timestamp": "1759848363102",
     "timestampString": "21:46:03",
@@ -124824,6 +124768,20 @@
       "type": ""
     },
     "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934788403": {
+    "timestamp": "1759934788485",
+    "timestampString": "21:46:29",
+    "msgId": "7096000987678",
+    "cliMsgId": "1759934788403",
+    "msgType": "webchat",
+    "uidFrom": "7903661198985601940",
+    "idTo": "5975420422762749911",
+    "dName": "N G H",
+    "content": ":)))",
+    "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
   }
