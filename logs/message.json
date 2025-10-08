@@ -124870,5 +124870,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759935449629": {
+    "timestamp": "1759935450450",
+    "timestampString": "21:57:30",
+    "msgId": "7096036730943",
+    "cliMsgId": "1759935449629",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "[ ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ ]\nAuthor: [pkhanhnam] ミ★ᴛᴀʀᴏ★彡\nDescription: tạm biệt vice nhé tôi sẽ ko quên ông đâu😭😭😭😭#CapCut#viralvideo#xuhuong#tokusatsu#kamenriderrevice\n📊 Chất lượng: 540p\n💗 Thả tim để nhận nội dung ngẫu nhiên khác từ author này",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/d007933f2dac8cf2d5bd/8953656989913480160",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oop3kXGHQLA9gsCnoCIglrIBDS6iejGfRFfcAN~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=1089f767&x-expires=1760018400&x-signature=Tzpe%2B0psYWHNaObFM%2F%2F569y2k3A%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":29666,\"video_height\":1024,\"fileSize\":2385287,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
