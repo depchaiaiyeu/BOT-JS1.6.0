@@ -1617,8 +1617,8 @@
         {
           "UserName": "Hiếu",
           "UID": "5665338112475148452",
-          "Rank": 18,
-          "messageCountToday": 6,
+          "Rank": 23,
+          "messageCountToday": 11,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -1680,8 +1680,8 @@
         {
           "UserName": "Văn Định",
           "UID": "9019710325137354775",
-          "Rank": 14,
-          "messageCountToday": 1,
+          "Rank": 16,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -1773,6 +1773,13 @@
           "UID": "4955887132850349053",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Xre",
+          "UID": "9090621766324729619",
+          "Rank": 5,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-08"
         }
       ],
