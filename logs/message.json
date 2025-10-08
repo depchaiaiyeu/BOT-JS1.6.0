@@ -121396,5 +121396,19 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1759930974760": {
+    "timestamp": "1759930974876",
+    "timestampString": "20:42:56",
+    "msgId": "7095773185225",
+    "cliMsgId": "1759930974760",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "ê kuu @Hot Nhây Zép Lào",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
