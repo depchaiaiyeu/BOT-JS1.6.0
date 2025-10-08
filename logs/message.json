@@ -1,55 +1,4 @@
 {
-  "1759838230293": {
-    "timestamp": "1759838230345",
-    "timestampString": "18:57:11",
-    "msgId": "7091733973173",
-    "cliMsgId": "1759838230293",
-    "msgType": "webchat",
-    "uidFrom": "6593064319472911684",
-    "idTo": "5601607522756268167",
-    "dName": "Kim Thanhh",
-    "content": "sợ bno gửi sex nên thanh anti photto ma..",
-    "threadId": "5601607522756268167",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759838254215": {
-    "timestamp": "1759838254596",
-    "timestampString": "18:57:35",
-    "msgId": "7091735371054",
-    "cliMsgId": "1759838254215",
-    "msgType": "share.file",
-    "uidFrom": "6418130782612367658",
-    "idTo": "5975420422762749911",
-    "dName": "Lý Bảo",
-    "content": {
-      "title": "pro_gemini_1.py",
-      "description": "",
-      "href": "https://file-stal-1.dlfl.vn/gr/838676837a458e1bd754/2379811644167521527",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"fileSize\":\"11017\",\"checksum\":\"b882d0fa31248a7984e55c843f2cf0e6\",\"fileExt\":\"py\",\"tWidth\":0,\"tHeight\":0,\"duration\":0,\"fType\":1,\"fdata\":\"\"}",
-      "type": ""
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759838260386": {
-    "timestamp": "1759838260431",
-    "timestampString": "18:57:40",
-    "msgId": "7091735709408",
-    "cliMsgId": "1759838260386",
-    "msgType": "webchat",
-    "uidFrom": "6418130782612367658",
-    "idTo": "5975420422762749911",
-    "dName": "Lý Bảo",
-    "content": "@Vũ Xuân Kiên đây",
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1759838834026": {
     "timestamp": "1759838834055",
     "timestampString": "19:07:15",
@@ -69914,6 +69863,260 @@
       }
     ],
     "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924679363": {
+    "timestamp": "1759924679644",
+    "timestampString": "18:58:00",
+    "msgId": "7095385366052",
+    "cliMsgId": "1759924679363",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "tao lmj",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924680232": {
+    "timestamp": "1759924680367",
+    "timestampString": "18:58:00",
+    "msgId": "7095385398611",
+    "cliMsgId": "1759924680232",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924679363,
+        "globalDelMsgId": 7095385366052,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924681144": {
+    "timestamp": "1759924681274",
+    "timestampString": "18:58:01",
+    "msgId": "7095385460184",
+    "cliMsgId": "1759924681144",
+    "msgType": "webchat",
+    "uidFrom": "6635294825956452398",
+    "idTo": "4699745045071009795",
+    "dName": "Bong Bong",
+    "content": "Ê chx kịp coi luon má",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924689364": {
+    "timestamp": "1759924689660",
+    "timestampString": "18:58:10",
+    "msgId": "7095385952635",
+    "cliMsgId": "1759924689364",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "chó kiên",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924690688": {
+    "timestamp": "1759924690823",
+    "timestampString": "18:58:11",
+    "msgId": "7095385975149",
+    "cliMsgId": "1759924690688",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924689364,
+        "globalDelMsgId": 7095385952635,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924691894": {
+    "timestamp": "1759924691953",
+    "timestampString": "18:58:12",
+    "msgId": "7095386086551",
+    "cliMsgId": "1759924691894",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Thăng Nguyễn ,getuid",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924692303": {
+    "timestamp": "1759924692432",
+    "timestampString": "18:58:12",
+    "msgId": "7095386084310",
+    "cliMsgId": "1759924692303",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Vũ Xuân Kiên\nUID của người được bạn mentions là: 8318817178975887433\nUID của Group hiện tại là: 5975420422762749911",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924692816": {
+    "timestamp": "1759924693141",
+    "timestampString": "18:58:13",
+    "msgId": "7095386155932",
+    "cliMsgId": "1759924692816",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "địt con mẹ m",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924693728": {
+    "timestamp": "1759924693861",
+    "timestampString": "18:58:14",
+    "msgId": "7095386187905",
+    "cliMsgId": "1759924693728",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924692816,
+        "globalDelMsgId": 7095386155932,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924694691": {
+    "timestamp": "1759924694746",
+    "timestampString": "18:58:15",
+    "msgId": "7095386246788",
+    "cliMsgId": "1759924694691",
+    "msgType": "webchat",
+    "uidFrom": "8318817178975887433",
+    "idTo": "5975420422762749911",
+    "dName": "Thăng Nguyễn",
+    "content": "Ko call đc mình",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924698665": {
+    "timestamp": "1759924698746",
+    "timestampString": "18:58:19",
+    "msgId": "7095386479131",
+    "cliMsgId": "1759924698665",
+    "msgType": "chat.photo",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f31-zfcloud.zdn.vn/2f4f9a9a3d8e9cd0c59f/2038537323504573357",
+      "thumb": "https://f31-zfcloud.zdn.vn/2f4f9a9a3d8e9cd0c59f/2038537323504573357",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1747065312778\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f31-zfcloud.zdn.vn\\/2f4f9a9a3d8e9cd0c59f\\/2038537323504573357\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1747065312778\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924698337": {
+    "timestamp": "1759924698743",
+    "timestampString": "18:58:20",
+    "msgId": "7095386480699",
+    "cliMsgId": "1759924698337",
+    "msgType": "chat.photo",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/jpg/7810236318347543332/7da85954351bb845e10a.jpg",
+      "thumb": "https://f59-zpg-r.zdn.vn/jpg/7810236318347543332/7da85954351bb845e10a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":948,\"is_group_layout\":0,\"contentId\":\"108091\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924699801": {
+    "timestamp": "1759924699934",
+    "timestampString": "18:58:20",
+    "msgId": "7095386522033",
+    "cliMsgId": "1759924699801",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924698337,
+        "globalDelMsgId": 7095386480699,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924703181": {
+    "timestamp": "1759924703304",
+    "timestampString": "18:58:23",
+    "msgId": "7095386745060",
+    "cliMsgId": "1759924703181",
+    "msgType": "webchat",
+    "uidFrom": "8318817178975887433",
+    "idTo": "5975420422762749911",
+    "dName": "Thăng Nguyễn",
+    "content": "Mình có tự tin chọc bot",
+    "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
   }
