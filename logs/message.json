@@ -33409,5 +33409,74 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904280187": {
+    "timestamp": "1759904281284",
+    "timestampString": "13:18:02",
+    "msgId": "7094125706124",
+    "cliMsgId": "1759904280187",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/d4fb840117c8e396bad9/2334087769351143029.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/d4fb840117c8e396bad9/2334087769351143029.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":930,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"1000700783\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904282829": {
+    "timestamp": "1759904282860",
+    "timestampString": "13:18:03",
+    "msgId": "7094125774144",
+    "cliMsgId": "1759904282829",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/a93a69ab837a22247b6b/6183341524689765781?createby=PVT_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/a93a69ab837a22247b6b/6183341524689765781?createby=PVT_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":96,\"height\":96,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754726169028\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/a93a69ab837a22247b6b\\/6183341524689765781?createby=PVT_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1754726169028\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055942574130800": {
+    "timestamp": "1759904291503",
+    "timestampString": "13:18:12",
+    "msgId": "7094126149277",
+    "cliMsgId": "1055942574130800",
+    "msgType": "webchat",
+    "uidFrom": "1277772631698656128",
+    "idTo": "5601607522756268167",
+    "dName": "Bear",
+    "content": {
+      "title": "group này có biến căng ae ơi          :((((((((((\nhttps://zalo.me/g/xkjxwk345",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [\"{\\\"styles\\\": [{\\\"start\\\": 0, \\\"len\\\": 49, \\\"st\\\": \\\"c_FF5733\\\"}], \\\"ver\\\": 0}\", {\"start\": 0, \"len\": 49, \"st\": \"b\"}, \"{\\\"styles\\\": [{\\\"start\\\": 50, \\\"len\\\": 27, \\\"st\\\": \\\"c_33FF57\\\"}], \\\"ver\\\": 0}\", {\"start\": 50, \"len\": 27, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
