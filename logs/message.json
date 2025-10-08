@@ -69030,5 +69030,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759924511016": {
+    "timestamp": "1759924511099",
+    "timestampString": "18:55:12",
+    "msgId": "7095375551258",
+    "cliMsgId": "1759924511016",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "M bị nó mute thì khỏi mở",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924512491": {
+    "timestamp": "1759924512559",
+    "timestampString": "18:55:12",
+    "msgId": "7095375636803",
+    "cliMsgId": "1759924512491",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Thiếu khoản xuống dòng",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924525248": {
+    "timestamp": "1759924525306",
+    "timestampString": "18:55:26",
+    "msgId": "7095376342840",
+    "cliMsgId": "1759924525248",
+    "msgType": "webchat",
+    "uidFrom": "8562724088712020975",
+    "idTo": "5975420422762749911",
+    "dName": "Minh",
+    "content": "?text gay....",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
