@@ -124815,5 +124815,37 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759934432238": {
+    "timestamp": "1759934432232",
+    "timestampString": "21:40:33",
+    "msgId": "7095981122667",
+    "cliMsgId": "1759934432238",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 25420,
+      "catId": 10592,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934450845": {
+    "timestamp": "1759934450980",
+    "timestampString": "21:40:52",
+    "msgId": "7095982178653",
+    "cliMsgId": "1759934450845",
+    "msgType": "webchat",
+    "uidFrom": "4469858572949083955",
+    "idTo": "4825567233436439756",
+    "dName": "Minh Vũツ",
+    "content": "Ai xem ảnh mei bel tý t gửi cho nì",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
