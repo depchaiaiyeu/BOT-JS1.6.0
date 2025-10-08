@@ -37505,5 +37505,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759922759889": {
+    "timestamp": "1759922759946",
+    "timestampString": "18:26:00",
+    "msgId": "7095274184129",
+    "cliMsgId": "1759922759889",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/e182ed58ab650a3b5374/2990395453257325147",
+      "thumb": "https://fg43.dlfl.vn/e182ed58ab650a3b5374/2990395453257325147",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1750596494195\",\"height\":214,\"thumb_height\":214,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":218,\"width\":218,\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/e182ed58ab650a3b5374\\/2990395453257325147\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
