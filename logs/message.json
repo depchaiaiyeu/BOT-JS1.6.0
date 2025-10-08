@@ -126440,5 +126440,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759936352991": {
+    "timestamp": "1759936353445",
+    "timestampString": "22:12:34",
+    "msgId": "7096084478762",
+    "cliMsgId": "1759936352991",
+    "msgType": "webchat",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": "@Hoàng Nam ????? LGBT à",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596181286620": {
+    "timestamp": "1759936354800",
+    "timestampString": "22:12:35",
+    "msgId": "7096084545238",
+    "cliMsgId": "105596181286620",
+    "msgType": "webchat",
+    "uidFrom": "5888121377686226573",
+    "idTo": "6512342651301747547",
+    "dName": "Botz",
+    "content": "🚀🤖 DỊCH VỤ THUÊ – MUA BOT ZALO TOÀN NĂNG 🤖🚀\n\n✨ Thương hiệu 【🔥 𝑺𝒂𝒏𝒈 🔥】 – Uy tín số 1 ✨\n\n🔥 TÍNH NĂNG NỔI BẬT\n✅ Auto chat – Phản hồi siêu tốc ⚡\n✅ Quản lý nhóm – Chống spam, auto lọc rác 🛡️\n✅ BOT WAR – Spam cực mạnh 💣\n✅ Auto reply – Seeding – Broadcast tin nhắn 📩\n✅ Giá rẻ – Cài đặt nhanh – Bảo hành trọn gói 💯\n\n👉 Muốn có BOT ZALO TOÀN NĂNG?\n⚡ Chỉ cần chọn 【🔥 𝑺𝒂𝒏𝒈 🔥】 – Chất lượng đã được khẳng định!\n\n📩 Liên hệ ngay – Nhận BOT trong ngày! ⚡🔥",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936360961": {
+    "timestamp": "1759936360995",
+    "timestampString": "22:12:41",
+    "msgId": "7096084861890",
+    "cliMsgId": "1759936360961",
+    "msgType": "webchat",
+    "uidFrom": "7147491400582574603",
+    "idTo": "8281509084603580118",
+    "dName": "Hoàng Nam",
+    "content": "@Nhon ko",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
