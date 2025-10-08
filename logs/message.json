@@ -122277,5 +122277,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931159762": {
+    "timestamp": "1759931161028",
+    "timestampString": "20:46:01",
+    "msgId": "7095784714771",
+    "cliMsgId": "1759931159762",
+    "msgType": "webchat",
+    "uidFrom": "8912041616899258262",
+    "idTo": "4699745045071009795",
+    "dName": "Thái Vũ",
+    "content": "CapCut Pro 1 Tháng 15k/1 - 100K/10",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931169735": {
+    "timestamp": "1759931169793",
+    "timestampString": "20:46:10",
+    "msgId": "7095785260867",
+    "cliMsgId": "1759931169735",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "@Nguyen chưa hay lắm",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
