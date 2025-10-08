@@ -125916,5 +125916,79 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759936054101": {
+    "timestamp": "1759936054421",
+    "timestampString": "22:07:35",
+    "msgId": "7096069019394",
+    "cliMsgId": "1759936054101",
+    "msgType": "chat.recommended",
+    "uidFrom": "7197159612635374554",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Sơn",
+    "content": {
+      "title": "https://zalo.me/g/wylcke984",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/wylcke984",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv29243e9450d1759931918aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMzJmN2NjNTY5ZTMwNzQ2ZTJkMjE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"BOX ACC TT ĐỔI\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/wylcke984\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/recommend_link\\/1b4032b075c224d40090472122df49e4.jpg\",\"thumb_src_type\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936063369": {
+    "timestamp": "1759936063465",
+    "timestampString": "22:07:44",
+    "msgId": "7096069496266",
+    "cliMsgId": "1759936063369",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "@Nhật Tân ngon",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936064144": {
+    "timestamp": "1759936064171",
+    "timestampString": "22:07:44",
+    "msgId": "7096069529206",
+    "cliMsgId": "1759936064144",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "R",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936065622": {
+    "timestamp": "1759936065656",
+    "timestampString": "22:07:46",
+    "msgId": "7096069607222",
+    "cliMsgId": "1759936065622",
+    "msgType": "chat.photo",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/46232c84c413654d3c02/3396542947457580468?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/46232c84c413654d3c02/3396542947457580468?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1759511058847\",\"height\":48,\"thumb_height\":48,\"thumb_width\":48,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":48,\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/46232c84c413654d3c02\\/3396542947457580468?createby=NDQ_Bot.webp\"},\"pStickerType\":1}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
