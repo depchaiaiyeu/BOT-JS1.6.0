@@ -126819,5 +126819,70 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759937795866": {
+    "timestamp": "1759937795909",
+    "timestampString": "22:36:36",
+    "msgId": "7096151207100",
+    "cliMsgId": "1759937795866",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/82b70185cf0c6e52371d/549359185738081577/5302815e-06fb-4e06-8406-79fd54214f79_a_sin.webp",
+      "thumb": "https://fg41.dlfl.vn/82b70185cf0c6e52371d/549359185738081577/5302815e-06fb-4e06-8406-79fd54214f79_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":164,\"height\":128,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758975854250\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg41.dlfl.vn\\/82b70185cf0c6e52371d\\/549359185738081577\\/5302815e-06fb-4e06-8406-79fd54214f79_a_sin.webp\",\"width\":164,\"height\":128,\"thumb\":\"\"},\"contentId\":\"1758975854250\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937802252": {
+    "timestamp": "1759937802299",
+    "timestampString": "22:36:42",
+    "msgId": "7096151469134",
+    "cliMsgId": "1759937802252",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "@Xre thua",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937813308": {
+    "timestamp": "1759937813336",
+    "timestampString": "22:36:54",
+    "msgId": "7096151925531",
+    "cliMsgId": "1759937813308",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "Sim về lâu quá",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937814612": {
+    "timestamp": "1759937814683",
+    "timestampString": "22:36:55",
+    "msgId": "7096151980398",
+    "cliMsgId": "1759937814612",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "dcm",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
