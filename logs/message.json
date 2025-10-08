@@ -126013,5 +126013,33 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759936175677": {
+    "timestamp": "1759936175757",
+    "timestampString": "22:09:36",
+    "msgId": "7096075359466",
+    "cliMsgId": "1759936175677",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "@Quang Phuc có spamsms",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936178974": {
+    "timestamp": "1759936179050",
+    "timestampString": "22:09:39",
+    "msgId": "7096075528685",
+    "cliMsgId": "1759936178974",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "nma k có gọi",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
