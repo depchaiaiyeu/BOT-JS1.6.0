@@ -22,61 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1759850823604": {
-    "timestamp": "1759850824424",
-    "timestampString": "22:27:05",
-    "msgId": "7092474914475",
-    "cliMsgId": "1759850823604",
-    "msgType": "webchat",
-    "uidFrom": "6449944685982005945",
-    "idTo": "4699745045071009795",
-    "dName": "八 Vjtt Labubu ム",
-    "content": "Méo cs ki nx chứ🤦🏻‍♀️",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759850826270": {
-    "timestamp": "1759850827086",
-    "timestampString": "22:27:07",
-    "msgId": "7092475031045",
-    "cliMsgId": "1759850826270",
-    "msgType": "chat.photo",
-    "uidFrom": "6449944685982005945",
-    "idTo": "4699745045071009795",
-    "dName": "八 Vjtt Labubu ム",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
-      "thumb": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758551749029\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f18-zpc.zdn.vn\\/2419567078040627963\\/16e6d4bdb1b63be862a7.webp\",\"width\":256,\"height\":256,\"thumb\":\"\"},\"contentId\":\"1758551749029\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759850849567": {
-    "timestamp": "1759850849597",
-    "timestampString": "22:27:30",
-    "msgId": "7092476018902",
-    "cliMsgId": "1759850849567",
-    "msgType": "chat.sticker",
-    "uidFrom": "9140305803916167139",
-    "idTo": "4825567233436439756",
-    "dName": "Công Tước Rau Má",
-    "content": {
-      "id": 42830,
-      "catId": 11752,
-      "type": 3
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1759850927584": {
     "timestamp": "1759850927613",
     "timestampString": "22:28:48",
@@ -126900,6 +126845,34 @@
     "idTo": "7897564732983285154",
     "dName": "Nguyễn Hồng Anh Đức",
     "content": "Thái Nguyên ngập nhìn khổ ghê",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937283346": {
+    "timestamp": "1759937283404",
+    "timestampString": "22:28:04",
+    "msgId": "7096128998764",
+    "cliMsgId": "1759937283346",
+    "msgType": "webchat",
+    "uidFrom": "5887262783303517064",
+    "idTo": "8281509084603580118",
+    "dName": "Nguyễn Thu Thuỷ",
+    "content": "@Trung Đoàn s véo nó v",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937298058": {
+    "timestamp": "1759937298108",
+    "timestampString": "22:28:18",
+    "msgId": "7096129663233",
+    "cliMsgId": "1759937298058",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "@Bich Ngoc chủ bốc",
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
