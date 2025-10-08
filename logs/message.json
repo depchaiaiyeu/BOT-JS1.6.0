@@ -114286,5 +114286,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759929702963": {
+    "timestamp": "1759929703050",
+    "timestampString": "20:21:43",
+    "msgId": "7095693053234",
+    "cliMsgId": "1759929702963",
+    "msgType": "webchat",
+    "uidFrom": "5278874538044713593",
+    "idTo": "8281509084603580118",
+    "dName": "H -juu",
+    "content": "@Cu Anh cu anh to khong💔",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929703577": {
+    "timestamp": "1759929703615",
+    "timestampString": "20:21:44",
+    "msgId": "7095693088831",
+    "cliMsgId": "1759929703577",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "Nx nha",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929706439": {
+    "timestamp": "1759929706503",
+    "timestampString": "20:21:46",
+    "msgId": "7095693270106",
+    "cliMsgId": "1759929706439",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "bà cj",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
