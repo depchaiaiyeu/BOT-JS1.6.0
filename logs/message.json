@@ -33677,5 +33677,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759904721231": {
+    "timestamp": "1759904721250",
+    "timestampString": "13:25:22",
+    "msgId": "7094145682468",
+    "cliMsgId": "1759904721231",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...eval len(self.fetchGroupInfo(thread_id).gridInfoMap[thread_id].get(\"adminIds\", []))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904721679": {
+    "timestamp": "1759904721536",
+    "timestampString": "13:25:22",
+    "msgId": "7094145689350",
+    "cliMsgId": "1759904721679",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "🚦@̀nguyễn Duy Khang\n6",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
