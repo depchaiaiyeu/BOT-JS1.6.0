@@ -126319,5 +126319,19 @@
     "threadId": "8220006906780909608",
     "type": 1,
     "isUndo": false
+  },
+  "1759936306174": {
+    "timestamp": "1759936306222",
+    "timestampString": "22:11:47",
+    "msgId": "7096082066014",
+    "cliMsgId": "1759936306174",
+    "msgType": "webchat",
+    "uidFrom": "1903342543859028305",
+    "idTo": "8220006906780909608",
+    "dName": "Hanh",
+    "content": "@Bánh Bông Lan nhớ~",
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
   }
 }
