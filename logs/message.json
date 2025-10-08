@@ -125250,5 +125250,61 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935874577": {
+    "timestamp": "1759935874652",
+    "timestampString": "22:04:35",
+    "msgId": "7096059480329",
+    "cliMsgId": "1759935874577",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "-menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935878322": {
+    "timestamp": "1759935878359",
+    "timestampString": "22:04:38",
+    "msgId": "7096059681291",
+    "cliMsgId": "1759935878322",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Gpt nó hay đói ăn xén code",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935879048": {
+    "timestamp": "1759935879117",
+    "timestampString": "22:04:39",
+    "msgId": "7096059719681",
+    "cliMsgId": "1759935879048",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Ủa",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935894207": {
+    "timestamp": "1759935894311",
+    "timestampString": "22:04:55",
+    "msgId": "7096060538804",
+    "cliMsgId": "1759935894207",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Duck đr=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
