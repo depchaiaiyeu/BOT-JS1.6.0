@@ -2285,8 +2285,8 @@
         {
           "UserName": "Chiêm Thị Cúc",
           "UID": "2330822676623202659",
-          "Rank": 31,
-          "messageCountToday": 24,
+          "Rank": 32,
+          "messageCountToday": 25,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2427,6 +2427,13 @@
           "UID": "6537049848240014211",
           "Rank": 23,
           "messageCountToday": 23,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Quang",
+          "UID": "7770369223022239726",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
         }
       ],
@@ -3748,8 +3755,8 @@
         {
           "UserName": "Cu Anh",
           "UID": "6908614344605195995",
-          "Rank": 3,
-          "messageCountToday": 3,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-08"
         },
         {

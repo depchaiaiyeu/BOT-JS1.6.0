@@ -128254,5 +128254,65 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759939124917": {
+    "timestamp": "1759939125395",
+    "timestampString": "22:58:46",
+    "msgId": "7096201348112",
+    "cliMsgId": "1759939124917",
+    "msgType": "chat.photo",
+    "uidFrom": "6908614344605195995",
+    "idTo": "8281509084603580118",
+    "dName": "Cu Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/jpg/6805484468219316203/9b33bbf1a1b92ce775a8.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/jpg/6805484468219316203/9b33bbf1a1b92ce775a8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":464,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":3021,\"height\":3890,\"thumb_width\":360}",
+      "type": ""
+    },
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759939133173": {
+    "timestamp": "1759939133457",
+    "timestampString": "22:58:54",
+    "msgId": "7096201614096",
+    "cliMsgId": "1759939133173",
+    "msgType": "webchat",
+    "uidFrom": "7770369223022239726",
+    "idTo": "5975420422762749911",
+    "dName": "Quang",
+    "content": "-menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759939134071": {
+    "timestamp": "1759939135362",
+    "timestampString": "22:58:55",
+    "msgId": "7096201683077",
+    "cliMsgId": "1759939134071",
+    "msgType": "chat.photo",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": {
+      "title": "?@Quangr\n• MENU BOT •\n\n🌌 autosend ➜ Tự động gửi video\n👾 auto_on ➜ Auto thính\n🖼️ Bantho ➜ Bàn thờ @user\n🍷 boibai ➜ Xem bói\n🃏 boibaiv2 ➜ Bói nâng cao\n👻 bot ➜ Gọi bot\n🏘 cap ➜ Chụp website\n💋 card ➜ Card cá nhân\n🌊 chill ➜ Video chill\n🍼 chucngungon ➜ Chúc ngủ ngon\n🍾 chuctet ➜ Chúc Tết\n💑 chucvuive ➜ Chúc vui vẻ\n🚨 chui1-52 ➜ Spam chửi\n📝 delall ➜ Xóa tin nhắn\n📱 detail ➜ Xem thông tin máy chủ\n⬇️ dl ➜ Tải video\n🔞 dodam ➜ Kiểm tra độ dâm\n👩‍ duyetmen ➜ Duyệt thành viên\n📱 fullcmd ➜ Toàn bộ lệnh bot\n🌈 gay ➜ Kiểm tra độ gay\n📺 gem ➜ Gemini 2.0\n🎁 gif ➜ Tạo GIF 7 màu\n👩‍ girl ➜ Ảnh gái\n📷 google ➜ Ảnh Google\n🚫 group ➜ Lệnh quản nhóm\n😅 icon ➜ Spam icon\n📖 info ➜ Thông tin thành viên\n💌 join ➜ Vào nhóm qua link\n💀 kill ➜ Giết bot hoàn toàn\n🌼 ktra ➜ Kiểm tra ping / độ trễ\n👋 leave ➜ Rời nhóm\n🍀 luck ➜ Kiểm tra may mắn\n☀ media ➜ Gửi ảnh từ link\n🎭 meid ➜ Lấy ID người dùng\n🌅 meme ➜ Ảnh meme\n💥 menuwar ➜ War group\n🔊 mute ➜ Khóa mõm thần chưởng\n🚫 offbot ➜ Tắt bot\n✅ onbot ➜ Mở bot\n📺 pin ➜ Ảnh Pinterest\n🤖 qrcode ➜ Tạo mã QR\n💵 Reo ➜ War Tag\n🖥 rs ➜ Reset bot\n🔎 searchcmd ➜ Tìm lệnh\n📼 sendvideo ➜ Video có sẵn trong server\n🌊 Sim ➜ Gọi Bot\n👋 slap ➜ Tán ai đó\n✉ spamsms ➜ Spam tin nhắn\n💨 Stk ➜ Tạo Sticker\n👊 Stkdam ➜ Gửi sticker đấm\n😀 stkxn ➜ Tạo Sticker xóa nền\n🤭 tangai ➜ Thả thính\n🧠 thongminh ➜ Kiểm tra độ thông minh\n💖 tinhduyen ➜ Bói duyên 2 người\n💔 truyencuoi ➜ Kể truyện cười\n⬇ tt ➜ Tìm 10 video TikTok\n💻 Uptime ➜ Thời gian chạy bot\n📀 vdgirl ➜ Video gái\n🌐 Voice ➜ Tạo Voice\n💌 warpoll ➜ Tạo bình chọn\n🎬 xnanh ➜ Xóa nền ảnh\n👀 yts ➜ Tìm video YouTube\n\n👑 Admin: Ichino Makatsu",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/7935999715997949023/8a0722cf3887b5d9ec96.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/7935999715997949023/8a0722cf3887b5d9ec96.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1124,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/7935999715997949023\\/8a0722cf3887b5d9ec96.jpg\",\"hdSize\":344622,\"height\":402}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
