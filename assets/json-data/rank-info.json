@@ -1516,8 +1516,8 @@
         {
           "UserName": "Lucia",
           "UID": "1528842272074711820",
-          "Rank": 3,
-          "messageCountToday": 3,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -1799,8 +1799,8 @@
         {
           "UserName": "Hiếu",
           "UID": "5665338112475148452",
-          "Rank": 64,
-          "messageCountToday": 52,
+          "Rank": 66,
+          "messageCountToday": 54,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3219,6 +3219,13 @@
         {
           "UserName": "Ltp",
           "UID": "7127649009441466833",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Lê Công",
+          "UID": "4687223337366334519",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"

@@ -127305,5 +127305,79 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759938187798": {
+    "timestamp": "1759938188098",
+    "timestampString": "22:43:08",
+    "msgId": "7096167057631",
+    "cliMsgId": "1759938187798",
+    "msgType": "webchat",
+    "uidFrom": "1528842272074711820",
+    "idTo": "5601607522756268167",
+    "dName": "Lucia",
+    "content": "Tôi từng bị kì thị giới tính , tôi đã phải lựa chọn giữa việc sống cuộc đời mà mình mong muốn hay sống cuộc đời mà gia đình xã hội mong muốn , nếu các bạn biết điều mình muốn liệu các bạn có phấn đấu hết sức mình để đạt điều mình muốn , các bạn nên hỏi bạn thân câu hỏi đó, thay vì hỏi bạn muốn gì , chúng ta có rất nhiều những nỗi sợ , sợ gia đình phản đối sợ xã hội không chấp nhận, những nỗi sợ về thất bại và hơn cả chúng ta sợ không thể chiến thắng bản thân để đạt được điều mình muốn , đừng để những nỗi sợ đó làm cản trở các bạn chạm đến giấc mơ, và chúng ta chỉ sống một lần trong đời hãy để hãy biến nó trở thành một cuộc đời đáng sống.",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938195046": {
+    "timestamp": "1759938195102",
+    "timestampString": "22:43:15",
+    "msgId": "7096167329398",
+    "cliMsgId": "1759938195046",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "Này nick t mà",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938197563": {
+    "timestamp": "1759938197595",
+    "timestampString": "22:43:17",
+    "msgId": "7096167429685",
+    "cliMsgId": "1759938197563",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/646ecd95f97858260169/7858284938067978260?createby=NDQ_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/646ecd95f97858260169/7858284938067978260?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1755334929033\",\"height\":498,\"thumb_height\":498,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":498,\"width\":498,\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/646ecd95f97858260169\\/7858284938067978260?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938207115": {
+    "timestamp": "1759938207306",
+    "timestampString": "22:43:28",
+    "msgId": "7096167810262",
+    "cliMsgId": "1759938207115",
+    "msgType": "chat.recommended",
+    "uidFrom": "4687223337366334519",
+    "idTo": "4699745045071009795",
+    "dName": "Lê Công",
+    "content": {
+      "title": "https://zalo.me/g/brmpss668",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/brmpss668",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2748bac162a1759938162aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZWM4MGNhZTIzYzg2ZDZkODhmOTc=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"LTC TOOL❕\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/brmpss668\",\"owner\":{\"id\":434956998,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/a\\/c\\/8\\/d\\/10\\/120\\/2d5cf8028ee2c0fa18d078fee52f42bd.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
