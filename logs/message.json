@@ -124474,5 +124474,129 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759931676355": {
+    "timestamp": "1759931676436",
+    "timestampString": "20:54:37",
+    "msgId": "7095816635678",
+    "cliMsgId": "1759931676355",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "Ngồi quán cafe suối bên biển vũng tàu nghe nhạc khỏi về",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931677561": {
+    "timestamp": "1759931677707",
+    "timestampString": "20:54:38",
+    "msgId": "7095816714260",
+    "cliMsgId": "1759931677561",
+    "msgType": "chat.sticker",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": {
+      "id": 10,
+      "catId": 0,
+      "type": 2
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931680140": {
+    "timestamp": "1759931680217",
+    "timestampString": "20:54:40",
+    "msgId": "7095816867911",
+    "cliMsgId": "1759931680140",
+    "msgType": "chat.photo",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f31-zfcloud.zdn.vn/2f4f9a9a3d8e9cd0c59f/2038537323504573357",
+      "thumb": "https://f31-zfcloud.zdn.vn/2f4f9a9a3d8e9cd0c59f/2038537323504573357",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1747065312778\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f31-zfcloud.zdn.vn\\/2f4f9a9a3d8e9cd0c59f\\/2038537323504573357\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1747065312778\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931684590": {
+    "timestamp": "1759931684696",
+    "timestampString": "20:54:45",
+    "msgId": "7095817147605",
+    "cliMsgId": "1759931684590",
+    "msgType": "chat.photo",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/1733107975613442426/b10bd7a0bee933b76af8.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/1733107975613442426/b10bd7a0bee933b76af8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":540,\"height\":497,\"hd\":\"https:\\/\\/f67-zpg-r.zdn.vn\\/jpg\\/1733107975613442426\\/b10bd7a0bee933b76af8.jpg\",\"is_group_layout\":1,\"group_layout_id\":1759931684329,\"id_in_group\":0,\"total_item_in_group\":3,\"contentId\":\"1000368860\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931684824": {
+    "timestamp": "1759931685061",
+    "timestampString": "20:54:45",
+    "msgId": "7095817168156",
+    "cliMsgId": "1759931684824",
+    "msgType": "chat.photo",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/555929376585910070/ac4a16c97f80f2deab91.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/555929376585910070/ac4a16c97f80f2deab91.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":540,\"height\":497,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/555929376585910070\\/ac4a16c97f80f2deab91.jpg\",\"is_group_layout\":1,\"group_layout_id\":1759931684329,\"id_in_group\":2,\"total_item_in_group\":3,\"contentId\":\"1000368862\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931684700": {
+    "timestamp": "1759931684878",
+    "timestampString": "20:54:45",
+    "msgId": "7095817157086",
+    "cliMsgId": "1759931684700",
+    "msgType": "chat.photo",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/jpg/4450130638053148079/bf27f3959adc17824ecd.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/jpg/4450130638053148079/bf27f3959adc17824ecd.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":539,\"height\":496,\"hd\":\"https:\\/\\/f60-zpg-r.zdn.vn\\/jpg\\/4450130638053148079\\/bf27f3959adc17824ecd.jpg\",\"is_group_layout\":1,\"group_layout_id\":1759931684329,\"id_in_group\":1,\"total_item_in_group\":3,\"contentId\":\"1000368861\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
