@@ -32074,5 +32074,79 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903875158": {
+    "timestamp": "1759903875221",
+    "timestampString": "13:11:16",
+    "msgId": "7094107698384",
+    "cliMsgId": "1759903875158",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval message.quote.mentions.mentions[0]['uid']",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903876566": {
+    "timestamp": "1759903876682",
+    "timestampString": "13:11:17",
+    "msgId": "7094107754751",
+    "cliMsgId": "1759903876566",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n❌ Lỗi:\nCannot read properties of undefined (reading 'mentions')",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903898127": {
+    "timestamp": "1759903898162",
+    "timestampString": "13:11:39",
+    "msgId": "7094108706464",
+    "cliMsgId": "1759903898127",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Kiên êy",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903900641": {
+    "timestamp": "1759903900671",
+    "timestampString": "13:11:41",
+    "msgId": "7094108816471",
+    "cliMsgId": "1759903900641",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "thumb": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759485659742\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f28-zfcloud.zdn.vn\\/c487050b89bc27e27ead\\/7446728214724120585\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1759485659742\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
