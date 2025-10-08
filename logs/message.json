@@ -39507,5 +39507,93 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759923225234": {
+    "timestamp": "1759923225289",
+    "timestampString": "18:33:46",
+    "msgId": "7095300443781",
+    "cliMsgId": "1759923225234",
+    "msgType": "webchat",
+    "uidFrom": "3763785301649747456",
+    "idTo": "6512342651301747547",
+    "dName": "Phước",
+    "content": "@Ha Trung Son Ái chà",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923227784": {
+    "timestamp": "1759923227876",
+    "timestampString": "18:33:50",
+    "msgId": "7095300594124",
+    "cliMsgId": "1759923227784",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2138929821000487828",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"UNDO\", message);\n}",
+    "threadId": "2138929821000487828",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759923229899": {
+    "timestamp": "1759923230721",
+    "timestampString": "18:33:51",
+    "msgId": "7095300725662",
+    "cliMsgId": "1759923229899",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2138929821000487828",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": ":; Vũ Xuân Kiên :;\nLệnh chỉ áp dụng đối với nhóm hoặc cộng đồng!\n🚫🚫🚫",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":0,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "2138929821000487828",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759923230620": {
+    "timestamp": "1759923230734",
+    "timestampString": "18:33:52",
+    "msgId": "7095300757454",
+    "cliMsgId": "1759923230620",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2138929821000487828",
+    "dName": "Vũ Xuân Kiên",
+    "content": "!bot",
+    "threadId": "2138929821000487828",
+    "type": 0,
+    "isUndo": false
+  },
+  "105595393937820": {
+    "timestamp": "1759923232677",
+    "timestampString": "18:33:53",
+    "msgId": "7095300883171",
+    "cliMsgId": "105595393937820",
+    "msgType": "chat.photo",
+    "uidFrom": "2138929821000487828",
+    "idTo": "690483581226941870",
+    "dName": "Ng Huy Học",
+    "content": {
+      "title": "Vũ Xuân Kiên\n➜ !bot info/policy: ♨️ Thông tin/Tác giả/Thời gian/Chính sách BOT\n➜ !bot setup on/off: ⚙️ Bật/Tắt Nội quy BOT (OA)\n➜ !bot anti on/off/setup: 🚦Bật/Tắt Anti (OA)\n➜ !bot newlink/dislink: 🔗 Tạo/hủy link nhóm (OA)\n➜ !bot fix: 🔧 Sữa lỗi treo lệnh(OA)➜ !bot safemode on/off: 🩹 Chế độ an toàn text (OA)\n➜ !bot on/off: ⚙️ Bật/Tắt BOT (OA)\n➜ !bot admin add/remove/list: 👑 Thêm/xóa Admin 🤖BOT\n➜ !bot skip add/remove/list: 👑 Thêm/xóa ưu tiên 🤖BOT (OA)\n➜ !bot leader add/remove/list: 👑 Thêm/xóa Trưởng/Phó (OA)\n➜ !bot autosend on/off: ✉️ Gửi tin nhắn(OA)\n➜ !bot noiquy: 💢 Nội quy box\n➜ !bot ban/vv/unban list: 😷 Khóa user\n➜ !bot kick: 💪 Kick user (OA)\n➜ !bot sos: 🆘 Khóa box (OA)\n➜ !bot block/unblock/list: 💪 Chặn người dùng (OA)\n➜ !bot link on/off: 🔗 Cấm link (OA)\n➜ !bot file on/off: 🗂️ Cấm file (OA)\n➜ !bot video on/off: ▶️ Cấm video (OA)\n➜ !bot sticker on/off: 😊 Cấm sticker (OA)\n➜ !bot gif on/off: 🖼️ Cấm Gif (OA)\n➜ !bot voice on/off: 🔊 Cấm voice (OA)\n➜ !bot photo on/off: 🏖 Cấm ảnh (OA)\n➜ !bot draw on/off: ✏️ Cấm vẽ hình (OA)\n➜ !bot anti poll on/off: 👍 Cấm bình chọn (OA)\n➜ !bot rule word [n] [m]: 📖 Cấm n lần vi phạm, phạt m phút (OA)\n➜ !bot word add/remove/list [từ cấm]: ✍️ Thêm/xóa từ cấm (OA)\n ➜ !bot welcome on/off: 🎊 Welcome (OA)\n➜ !bot card on/off: 🛡️ Cấm Card (OA)\n🤖 BOT Unknown User luôn sẵn sàng phục vụ bạn! 🌸",
+      "description": "",
+      "href": "https://f28-zpc.zdn.vn/3318628490774762079/bd2763f993b61ee847a7.jpg",
+      "thumb": "https://t-f28-zpc.zdn.vn/3318628490774762079/bd2763f993b61ee847a7.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"rawUrl\":\"https:\\/\\/f28-zpc.zdn.vn\\/3318628490774762079\\/bd2763f993b61ee847a7.jpg\",\"fileSize\":247671,\"thumbSize\":53932,\"width\":1920,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f12-zpc.zdn.vn\\/3318628490774762079\\/bd2763f993b61ee847a7.jpg\",\"hdSize\":344622,\"height\":600}",
+      "type": ""
+    },
+    "threadId": "2138929821000487828",
+    "type": 0,
+    "isUndo": false
   }
 }
