@@ -40211,5 +40211,56 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759923359428": {
+    "timestamp": "1759923359490",
+    "timestampString": "18:36:00",
+    "msgId": "7095308393273",
+    "cliMsgId": "1759923359428",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",eval api.getGroupInfo(\"4582721331431294882\")",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923359870": {
+    "timestamp": "1759923360449",
+    "timestampString": "18:36:00",
+    "msgId": "7095308393948",
+    "cliMsgId": "1759923359870",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923383955": {
+    "timestamp": "1759923383983",
+    "timestampString": "18:36:24",
+    "msgId": "7095309839133",
+    "cliMsgId": "1759923383955",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "*scl bông hoa nở muộn remix",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
