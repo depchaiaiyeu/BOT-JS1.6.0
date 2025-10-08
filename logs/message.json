@@ -126152,5 +126152,79 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933679275": {
+    "timestamp": "1759933680686",
+    "timestampString": "21:28:01",
+    "msgId": "7095937994938",
+    "cliMsgId": "1759933679275",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "x² + 2024x - 2025 = 0",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933684556": {
+    "timestamp": "1759933684633",
+    "timestampString": "21:28:05",
+    "msgId": "7095938225208",
+    "cliMsgId": "1759933684556",
+    "msgType": "webchat",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": "Them gi bn",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933692955": {
+    "timestamp": "1759933693005",
+    "timestampString": "21:28:14",
+    "msgId": "7095938710978",
+    "cliMsgId": "1759933692955",
+    "msgType": "chat.photo",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/qya3jn.webp?creator=khangapi",
+      "thumb": "https://files.catbox.moe/qya3jn.webp?creator=khangapi",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757918421755\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/qya3jn.webp?creator=khangapi\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1757918421755\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596021948280": {
+    "timestamp": "1759933699408",
+    "timestampString": "21:28:20",
+    "msgId": "7095939054417",
+    "cliMsgId": "105596021948280",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Tuấn Kaijn",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/5266181553911705684/6dab8aa859e1d4bf8df0.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/5266181553911705684/6dab8aa859e1d4bf8df0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/5266181553911705684\\/6dab8aa859e1d4bf8df0.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
