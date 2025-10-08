@@ -127475,5 +127475,47 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759936799127": {
+    "timestamp": "1759936799195",
+    "timestampString": "22:20:00",
+    "msgId": "7096106496608",
+    "cliMsgId": "1759936799127",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "@Dũng wtf",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936806256": {
+    "timestamp": "1759936806291",
+    "timestampString": "22:20:07",
+    "msgId": "7096106840656",
+    "cliMsgId": "1759936806256",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "Game sex à",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936817238": {
+    "timestamp": "1759936817313",
+    "timestampString": "22:20:18",
+    "msgId": "7096107367226",
+    "cliMsgId": "1759936817238",
+    "msgType": "webchat",
+    "uidFrom": "8278861428525791199",
+    "idTo": "4825567233436439756",
+    "dName": "Đăng",
+    "content": "@Nhật Tân :)?",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
