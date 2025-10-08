@@ -74518,5 +74518,51 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759926089947": {
+    "timestamp": "1759926090018",
+    "timestampString": "19:21:35",
+    "msgId": "7095468727581",
+    "cliMsgId": "1759926089947",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"HAHA\", message);\n  api.addReaction(\"HEART\", message);\n  api.addReaction(\"NGU\", message);\n}",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926110776": {
+    "timestamp": "1759926110818",
+    "timestampString": "19:21:51",
+    "msgId": "7095469969347",
+    "cliMsgId": "1759926110776",
+    "msgType": "chat.sticker",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "id": 1492,
+      "catId": 65,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926117842": {
+    "timestamp": "1759926117884",
+    "timestampString": "19:21:58",
+    "msgId": "7095470388037",
+    "cliMsgId": "1759926117842",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Vũ Xuân Kiên nó cho acc m ra đảo ấy",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
