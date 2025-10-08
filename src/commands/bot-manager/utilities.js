@@ -37,12 +37,13 @@ export async function handleGetUID(api, message) {
   try {
     const senderName = message.data?.dName || "Người dùng";
     const senderId = message.data?.uidFrom;
+    const threadId = message.threadId;
     let mentions = message.data?.mentions || [];
 
     if (mentions.length === 0) {
       await api.sendMessage(
         {
-          msg: `(@${senderName})\nUID của bạn là: ${senderId}`,
+          msg: `(@${senderName})\nUID của bạn là: ${senderId}\nUID của Group hiện tại là: ${threadId}`,
           mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
           ttl: 360000,
         },
@@ -56,7 +57,7 @@ export async function handleGetUID(api, message) {
 
     await api.sendMessage(
       {
-        msg: `(@${senderName})\nUID của người được bạn mentions là: ${targetUid}`,
+        msg: `(@${senderName})\nUID của người được bạn mentions là: ${targetUid}\nUID của Group hiện tại là: ${threadId}`,
         mentions: [{ uid: senderId, pos: 0, len: senderName.length + 3 }],
         ttl: 360000,
       },
