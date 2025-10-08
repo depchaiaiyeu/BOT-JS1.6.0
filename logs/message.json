@@ -127749,5 +127749,93 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759938571996": {
+    "timestamp": "1759938572084",
+    "timestampString": "22:49:32",
+    "msgId": "7096181653259",
+    "cliMsgId": "1759938571996",
+    "msgType": "webchat",
+    "uidFrom": "3157504084480695274",
+    "idTo": "4825567233436439756",
+    "dName": "Nhật Tân",
+    "content": "!editvideo 00:00 01:45",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938571457": {
+    "timestamp": "1759938572294",
+    "timestampString": "22:49:32",
+    "msgId": "7096181660453",
+    "cliMsgId": "1759938571457",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": "⏳ Đang xử lý video... Vui lòng đợi trong giây lát.",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938581410": {
+    "timestamp": "1759938582254",
+    "timestampString": "22:49:43",
+    "msgId": "7096182024682",
+    "cliMsgId": "1759938581410",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Đã cắt video thành công!\nThời gian: 00:00 đến 01:45\nThời gian xử lý: 8.6s",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/24783e8b851824467d09/7038686174357109594",
+      "thumb": "https://f15-zpc.zdn.vn/8174116669183893580/47484dce2086add8f497.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":105000,\"video_height\":1024,\"fileSize\":9122082,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938586114": {
+    "timestamp": "1759938586198",
+    "timestampString": "22:49:46",
+    "msgId": "7096182181024",
+    "cliMsgId": "1759938586114",
+    "msgType": "webchat",
+    "uidFrom": "3157504084480695274",
+    "idTo": "4825567233436439756",
+    "dName": "Nhật Tân",
+    "content": "!gl",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938585488": {
+    "timestamp": "1759938586330",
+    "timestampString": "22:49:47",
+    "msgId": "7096182181034",
+    "cliMsgId": "1759938585488",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Nhật Tân\nDQT Bot Team\nLink: https://fg43.dlfl.vn/24783e8b851824467d09/7038686174357109594",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":9,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
