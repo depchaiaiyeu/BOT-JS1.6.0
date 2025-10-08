@@ -1,5 +1,3 @@
-import { handleEval } from "./bot-manager/remote-action-api.js";
-
 import { writeGroupSettings } from "../utils/io-json.js";
 import { handleMuteList, handleMuteUser, handleUnmuteUser } from "../service-hahuyhoang/anti-service/mute-user.js";
 import { handleWelcomeBye, handleApprove } from "./bot-manager/welcome-bye.js";
@@ -109,6 +107,7 @@ import {
   handleUpdateProfileName,
   spamCallInGroup,
   handleCallGroupCommand,
+  handleEval,
 } from "./bot-manager/utilities.js";
 import { handleBauCua } from "../service-hahuyhoang/game-service/bau-cua/bau-cua.js";
 import { handleKBBCommand } from "../service-hahuyhoang/game-service/keobuabao/keobuabao.js";
