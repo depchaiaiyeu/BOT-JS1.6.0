@@ -125058,5 +125058,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933181963": {
+    "timestamp": "1759933182253",
+    "timestampString": "21:19:43",
+    "msgId": "7095908624457",
+    "cliMsgId": "1759933181963",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": "@Hoàng Tt Huyền",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933188853": {
+    "timestamp": "1759933189031",
+    "timestampString": "21:19:50",
+    "msgId": "7095909029081",
+    "cliMsgId": "1759933188853",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": "lên key cho bé",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
