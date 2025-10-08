@@ -2236,8 +2236,8 @@
         {
           "UserName": "Thiên Phúc",
           "UID": "6078954320375605607",
-          "Rank": 85,
-          "messageCountToday": 28,
+          "Rank": 88,
+          "messageCountToday": 31,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3734,6 +3734,13 @@
         {
           "UserName": "Trung Đoàn",
           "UID": "7953749493600382554",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Trần Tổng",
+          "UID": "717224590695865551",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
