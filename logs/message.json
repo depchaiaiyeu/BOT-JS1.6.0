@@ -125856,5 +125856,65 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759936020509": {
+    "timestamp": "1759936021283",
+    "timestampString": "22:07:02",
+    "msgId": "7096067269449",
+    "cliMsgId": "1759936020509",
+    "msgType": "webchat",
+    "uidFrom": "3157504084480695274",
+    "idTo": "4825567233436439756",
+    "dName": "Nhật Tân",
+    "content": "!gl",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936020722": {
+    "timestamp": "1759936021552",
+    "timestampString": "22:07:02",
+    "msgId": "7096067277430",
+    "cliMsgId": "1759936020722",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Nhật Tân\nDQT Bot Team\nLink: https://fg43.dlfl.vn/59b1dabb6528c4769d39/3195050363958807716",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":9,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936033290": {
+    "timestamp": "1759936035868",
+    "timestampString": "22:07:16",
+    "msgId": "7096068040149",
+    "cliMsgId": "1759936033290",
+    "msgType": "chat.photo",
+    "uidFrom": "3157504084480695274",
+    "idTo": "4825567233436439756",
+    "dName": "Nhật Tân",
+    "content": {
+      "title": "ngon r",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/3534659138152732634/4176ca0e7847f519ac56.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/3534659138152732634/4176ca0e7847f519ac56.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":365,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f56-zpg-r.zdn.vn\\/jpg\\/3534659138152732634\\/4176ca0e7847f519ac56.jpg\",\"hdSize\":2626,\"height\":68}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
