@@ -33756,5 +33756,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759904948680": {
+    "timestamp": "1759904949326",
+    "timestampString": "13:29:10",
+    "msgId": "7094156318715",
+    "cliMsgId": "1759904948680",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "@L A T  biết j cả",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904953194": {
+    "timestamp": "1759904953871",
+    "timestampString": "13:29:14",
+    "msgId": "7094156541687",
+    "cliMsgId": "1759904953194",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "biết j cả",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
