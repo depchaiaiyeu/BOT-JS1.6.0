@@ -125187,5 +125187,47 @@
     "threadId": "8220006906780909608",
     "type": 1,
     "isUndo": false
+  },
+  "1759932096696": {
+    "timestamp": "1759932096766",
+    "timestampString": "21:01:37",
+    "msgId": "7095842777243",
+    "cliMsgId": "1759932096696",
+    "msgType": "webchat",
+    "uidFrom": "1903342543859028305",
+    "idTo": "8220006906780909608",
+    "dName": "Hanh",
+    "content": "_LUẬT_\n\nluật tvm: \n-show giọng+show occ+trình ( không bắt buộc phải show giọng\nluật tv:\n-ko gây đrama cho gr\n-thân thiện hoà đồng \n-đc tục \n- out nhóm phải có lý do 🗿\n- cấm rãi link, gửi link, chéo( rãi thêm lần 2 kick )\n-tt thường xuyên (ko bắt buộc)\n+nhắc lần 1: nhắc nhở \n+nhắc lần 2: nhắc nhở \n+nhắc lần 3: kick\nluật pboss:\n-quản gr",
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932099243": {
+    "timestamp": "1759932099364",
+    "timestampString": "21:01:39",
+    "msgId": "7095842938681",
+    "cliMsgId": "1759932099243",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "@Vtàiᅠᅠdv ở cái web remove.bg j ấy",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932099646": {
+    "timestamp": "1759932099666",
+    "timestampString": "21:01:40",
+    "msgId": "7095842956805",
+    "cliMsgId": "1759932099646",
+    "msgType": "webchat",
+    "uidFrom": "1903342543859028305",
+    "idTo": "8220006906780909608",
+    "dName": "Hanh",
+    "content": "Luật đây ạ",
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
   }
 }
