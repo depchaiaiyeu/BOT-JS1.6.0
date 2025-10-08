@@ -32643,5 +32643,553 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904092488": {
+    "timestamp": "1759904092509",
+    "timestampString": "13:14:54",
+    "msgId": "7094117268613",
+    "cliMsgId": "1759904092488",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval getGroupMembers",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904093835": {
+    "timestamp": "1759904093951",
+    "timestampString": "13:14:54",
+    "msgId": "7094117322783",
+    "cliMsgId": "1759904093835",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n❌ Lỗi:\ngetGroupMembers is not defined",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904094041": {
+    "timestamp": "1759904094064",
+    "timestampString": "13:14:54",
+    "msgId": "7094117335439",
+    "cliMsgId": "1759904094041",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "T dg mò xem nó lên key ẩn kiểu j",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092465": {
+    "timestamp": "1759904094121",
+    "timestampString": "13:14:55",
+    "msgId": "7094117340687",
+    "cliMsgId": "1759904092465",
+    "msgType": "webchat",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": "𝐀𝐢𝐦𝐥𝐨𝐜𝐤𝐇𝐞𝐚𝐝 • 𝐀𝐃𝐌𝐈𝐍 : 𝐃𝐮𝐜𝐓𝐫𝐢\n# 𝘽𝙚𝙨𝙩 𝙁𝙪𝙣𝙘𝙩𝙞𝙤𝙣𝙨 : BÁM CHẶT VÙNG ĐẦU 💀\n# CHỨC NĂNG ĐI KÈM TÙY Ý BẠN LỰA CHỌN 🔫\n[MỘT SỐ CHỨC NĂNG THƯỜNG ĐƯỢC LỰA CHỌN]\n- TĂNG NHẠY\n- GHÌM TÂM\n- NHẸ TÂM\n- TĂNG ĐỘ BÁM\n- GIẢM THIỂU DELAY\n- FIX RUNG\n$•$ CHỌN CHỨC NĂNG TÙY THEO TÀI CHÍNH AE 💵\n~50K : CHỌN 1 CHỨC NĂNG TÙY Ý\n~100K : CHỌN 2 CHỨC NĂNG TÙY Ý\n~150K : CHỌN 3 CHỨC NĂNG TÙY Ý\n~200K ( BEST OPTION ) : CHỌN 4 CHỨC NĂNG\n\\ AE MUA SẼ ĐƯỢC CHỈ TỪ A-Z /\n\\ FILE AN TOÀN KHÔNG BAN /\nMUA IB DucTri NHÓ ❤️",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904095028": {
+    "timestamp": "1759904095145",
+    "timestampString": "13:14:55",
+    "msgId": "7094117366037",
+    "cliMsgId": "1759904095028",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092465,
+        "globalDelMsgId": 7094117340687,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904098465": {
+    "timestamp": "1759904098487",
+    "timestampString": "13:14:58",
+    "msgId": "7094117533623",
+    "cliMsgId": "1759904098465",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "thumb": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759485659742\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f28-zfcloud.zdn.vn\\/c487050b89bc27e27ead\\/7446728214724120585\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1759485659742\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904102080": {
+    "timestamp": "1759904102096",
+    "timestampString": "13:15:02",
+    "msgId": "7094117693138",
+    "cliMsgId": "1759904102080",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.getGroupMembers",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904102506": {
+    "timestamp": "1759904102625",
+    "timestampString": "13:15:03",
+    "msgId": "7094117713912",
+    "cliMsgId": "1759904102506",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: undefined",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904111308": {
+    "timestamp": "1759904108234",
+    "timestampString": "13:15:09",
+    "msgId": "7094117955704",
+    "cliMsgId": "1759904111308",
+    "msgType": "chat.video.msg",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "🕒 13:15 - Bot Dell Yêu Ai Autosend 😊\n🚦Chúc bạn đi làm việc vui vẻ",
+      "description": "",
+      "href": "https://i.imgur.com/tsWOUFA.mp4",
+      "thumb": "https://files.catbox.moe/3vy7ga.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":20,\"video_height\":1920,\"fileSize\":0,\"video_width\":1080}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092491": {
+    "timestamp": "1759904108361",
+    "timestampString": "13:15:09",
+    "msgId": "7094117975107",
+    "cliMsgId": "1759904092491",
+    "msgType": "chat.video.msg",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f154-zvc.dlmd.me/gr/0b8be250d8ca35946cdb/4198489640217079033",
+      "thumb": "https://f63-zpg-r.zdn.vn/9056603529984319684/fa2eee75c43649681027.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":38000,\"is_group_layout\":0,\"video_original_width\":1556,\"video_original_height\":720,\"video_width\":1040,\"video_height\":480,\"video_rotation\":0,\"fileSize\":8035036,\"thumbSize\":18959,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092509": {
+    "timestamp": "1759904108392",
+    "timestampString": "13:15:09",
+    "msgId": "7094117975820",
+    "cliMsgId": "1759904092509",
+    "msgType": "chat.video.msg",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f151-zvc.dlmd.me/gr/a88300583ac2d79c8ed3/5813927846675007338",
+      "thumb": "https://f58-zpg-r.zdn.vn/4212005999416903440/d6d12faa05e988b7d1f8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":118000,\"is_group_layout\":0,\"video_original_width\":1600,\"video_original_height\":720,\"video_width\":1068,\"video_height\":480,\"video_rotation\":0,\"fileSize\":18022484,\"thumbSize\":16897,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092587": {
+    "timestamp": "1759904108451",
+    "timestampString": "13:15:09",
+    "msgId": "7094117977151",
+    "cliMsgId": "1759904092587",
+    "msgType": "chat.photo",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/6886505035220665568/72ffbdd8979b1ac5438a.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/6886505035220665568/72ffbdd8979b1ac5438a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":561,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1759904091874,\"id_in_group\":0,\"total_item_in_group\":6,\"contentId\":\"37129\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092615": {
+    "timestamp": "1759904108506",
+    "timestampString": "13:15:09",
+    "msgId": "7094117979503",
+    "cliMsgId": "1759904092615",
+    "msgType": "chat.photo",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/8618207813538051512/d2bcd49cfedf73812ace.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/8618207813538051512/d2bcd49cfedf73812ace.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":561,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1759904091874,\"id_in_group\":1,\"total_item_in_group\":6,\"contentId\":\"37117\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092642": {
+    "timestamp": "1759904108565",
+    "timestampString": "13:15:09",
+    "msgId": "7094117980594",
+    "cliMsgId": "1759904092642",
+    "msgType": "chat.photo",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/7195943588894909381/c6d509f723b4aeeaf7a5.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/7195943588894909381/c6d509f723b4aeeaf7a5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":561,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1759904091874,\"id_in_group\":2,\"total_item_in_group\":6,\"contentId\":\"37055\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092667": {
+    "timestamp": "1759904108615",
+    "timestampString": "13:15:09",
+    "msgId": "7094117986065",
+    "cliMsgId": "1759904092667",
+    "msgType": "chat.photo",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/jpg/1236530354035399009/4b493c6b16289b76c239.jpg",
+      "thumb": "https://f59-zpg-r.zdn.vn/jpg/1236530354035399009/4b493c6b16289b76c239.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":561,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1759904091874,\"id_in_group\":3,\"total_item_in_group\":6,\"contentId\":\"36541\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109244": {
+    "timestamp": "1759904109360",
+    "timestampString": "13:15:09",
+    "msgId": "7094118000927",
+    "cliMsgId": "1759904109244",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092491,
+        "globalDelMsgId": 7094117975107,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109270": {
+    "timestamp": "1759904109391",
+    "timestampString": "13:15:09",
+    "msgId": "7094118021707",
+    "cliMsgId": "1759904109270",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092509,
+        "globalDelMsgId": 7094117975820,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092699": {
+    "timestamp": "1759904108679",
+    "timestampString": "13:15:09",
+    "msgId": "7094117986880",
+    "cliMsgId": "1759904092699",
+    "msgType": "chat.photo",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/8840203806247976364/df4beb77c1344c6a1525.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/8840203806247976364/df4beb77c1344c6a1525.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":561,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1759904091874,\"id_in_group\":4,\"total_item_in_group\":6,\"contentId\":\"36256\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109314": {
+    "timestamp": "1759904109425",
+    "timestampString": "13:15:09",
+    "msgId": "7094118021715",
+    "cliMsgId": "1759904109314",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092587,
+        "globalDelMsgId": 7094117977151,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904092726": {
+    "timestamp": "1759904108730",
+    "timestampString": "13:15:09",
+    "msgId": "7094117990017",
+    "cliMsgId": "1759904092726",
+    "msgType": "chat.photo",
+    "uidFrom": "6663146583165257027",
+    "idTo": "5464956150740844012",
+    "dName": "Đức Trí",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/5290416806455055828/4fb8a98583c60e9857d7.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/5290416806455055828/4fb8a98583c60e9857d7.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":561,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1759904091874,\"id_in_group\":5,\"total_item_in_group\":6,\"contentId\":\"36255\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109404": {
+    "timestamp": "1759904109522",
+    "timestampString": "13:15:09",
+    "msgId": "7094118021739",
+    "cliMsgId": "1759904109404",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092615,
+        "globalDelMsgId": 7094117979503,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109442": {
+    "timestamp": "1759904109563",
+    "timestampString": "13:15:09",
+    "msgId": "7094118021751",
+    "cliMsgId": "1759904109442",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092642,
+        "globalDelMsgId": 7094117980594,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109475": {
+    "timestamp": "1759904109590",
+    "timestampString": "13:15:09",
+    "msgId": "7094118021754",
+    "cliMsgId": "1759904109475",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092667,
+        "globalDelMsgId": 7094117986065,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109556": {
+    "timestamp": "1759904109671",
+    "timestampString": "13:15:10",
+    "msgId": "7094118021771",
+    "cliMsgId": "1759904109556",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092699,
+        "globalDelMsgId": 7094117986880,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904109597": {
+    "timestamp": "1759904109711",
+    "timestampString": "13:15:10",
+    "msgId": "7094118021777",
+    "cliMsgId": "1759904109597",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6663146583165257000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904092726,
+        "globalDelMsgId": 7094117990017,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
