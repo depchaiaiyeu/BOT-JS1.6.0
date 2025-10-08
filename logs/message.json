@@ -127313,5 +127313,47 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759936686514": {
+    "timestamp": "1759936686558",
+    "timestampString": "22:18:07",
+    "msgId": "7096101047384",
+    "cliMsgId": "1759936686514",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2990969618896538297",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Triều Đông .inf9",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936691139": {
+    "timestamp": "1759936691197",
+    "timestampString": "22:18:11",
+    "msgId": "7096101272489",
+    "cliMsgId": "1759936691139",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2990969618896538297",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Triều Đông .info",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936702047": {
+    "timestamp": "1759936702719",
+    "timestampString": "22:18:23",
+    "msgId": "7096101832223",
+    "cliMsgId": "1759936702047",
+    "msgType": "webchat",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": "@Xuan Bach ok thg gay",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
