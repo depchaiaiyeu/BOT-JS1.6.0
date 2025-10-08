@@ -1208,11 +1208,11 @@
           "lastMessageDate": "2025-10-07"
         },
         {
-          "UserName": "Briar",
+          "UserName": "Briar Chan",
           "UID": "341021680301465216",
-          "Rank": 1,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Bich Ngoc",
@@ -1757,8 +1757,8 @@
         {
           "UserName": "Bich Ngoc",
           "UID": "1238363753987858196",
-          "Rank": 62,
-          "messageCountToday": 29,
+          "Rank": 63,
+          "messageCountToday": 30,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2035,9 +2035,9 @@
         {
           "UserName": "Dkhanh",
           "UID": "6729153798219325017",
-          "Rank": 3,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 4,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Ph Trong Hiếu",
@@ -3535,8 +3535,8 @@
         {
           "UserName": "Triều Đông",
           "UID": "7654139448969933571",
-          "Rank": 6,
-          "messageCountToday": 5,
+          "Rank": 7,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3576,15 +3576,22 @@
           "UserName": "卍ᅠᅠᅠᅠ ムbiii Tập Buôn ムᅠᅠᅠᅠᅠᅠᅠ卍",
           "UID": "13967011642167306",
           "Rank": 28,
-          "messageCountToday": 25,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Vũ Ngọc Linh Nhi",
           "UID": "5012745540986549419",
           "Rank": 4,
-          "messageCountToday": 4,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Nguyen Thuy An",
+          "UID": "4044003254599435812",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "《Trao Đổi•Học Tập☆》"
