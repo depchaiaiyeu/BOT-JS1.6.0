@@ -41076,5 +41076,94 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759923600777": {
+    "timestamp": "1759923600868",
+    "timestampString": "18:40:01",
+    "msgId": "7095322575479",
+    "cliMsgId": "1759923600777",
+    "msgType": "webchat",
+    "uidFrom": "6875956015145243223",
+    "idTo": "7897564732983285154",
+    "dName": "Bi Xd",
+    "content": "@Vu Huynh Nhi iu vk v",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923617100": {
+    "timestamp": "1759923617229",
+    "timestampString": "18:40:17",
+    "msgId": "7095323497919",
+    "cliMsgId": "1759923617100",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759923616198,
+        "globalDelMsgId": 7095323479972,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923616198": {
+    "timestamp": "1759923616253",
+    "timestampString": "18:40:17",
+    "msgId": "7095323479972",
+    "cliMsgId": "1759923616198",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",eval for (let i = 0; i < 1; i++) {\n  api.sendMessage(\"Bot By Vũ Xuân Kiên\", \"5975420422762749911\" );\n  api.deleteMessage(message);\n}",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923617103": {
+    "timestamp": "1759923617674",
+    "timestampString": "18:40:18",
+    "msgId": "7095323556937",
+    "cliMsgId": "1759923617103",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923617099": {
+    "timestamp": "1759923618141",
+    "timestampString": "18:40:19",
+    "msgId": "7095323543885",
+    "cliMsgId": "1759923617099",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Bot By Vũ Xuân Kiên",
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
   }
 }
