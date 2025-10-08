@@ -1362,8 +1362,8 @@
         {
           "UserName": "Văn Nguyễn",
           "UID": "5498985111158029675",
-          "Rank": 63,
-          "messageCountToday": 28,
+          "Rank": 64,
+          "messageCountToday": 29,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3100,6 +3100,13 @@
         {
           "UserName": "Pi",
           "UID": "8831247307057862069",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "-mhag",
+          "UID": "8641533517187152599",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
