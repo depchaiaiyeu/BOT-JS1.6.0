@@ -31517,5 +31517,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1055942120923800": {
+    "timestamp": "1759903535246",
+    "timestampString": "13:05:36",
+    "msgId": "7094092880796",
+    "cliMsgId": "1055942120923800",
+    "msgType": "chat.video.msg",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "> SendTask 13:05 <\nChào một buổi trưa đầy năng lượng!\n\nGiải trí cho bớt căng não anh em nhé!!!",
+      "description": "",
+      "href": "https://imgur.com/mcLXdA9.mp4",
+      "thumb": "https://b-f11-zpc.zdn.vn/6975119320788813620/e67d3e9e3dddb083e9cc.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":14716,\"video_height\":540,\"fileSize\":0,\"video_width\":960}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
