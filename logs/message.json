@@ -125652,5 +125652,61 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935961476": {
+    "timestamp": "1759935961541",
+    "timestampString": "22:06:01",
+    "msgId": "7096064117757",
+    "cliMsgId": "1759935961476",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Là bt",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935962724": {
+    "timestamp": "1759935962860",
+    "timestampString": "22:06:03",
+    "msgId": "7096064188062",
+    "cliMsgId": "1759935962724",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@Dell Yêu Ai se toi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935970877": {
+    "timestamp": "1759935970968",
+    "timestampString": "22:06:11",
+    "msgId": "7096064622153",
+    "cliMsgId": "1759935970877",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Vtàiᅠᅠdv 40k=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935988338": {
+    "timestamp": "1759935988369",
+    "timestampString": "22:06:29",
+    "msgId": "7096065541309",
+    "cliMsgId": "1759935988338",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Đù ghe ev",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
