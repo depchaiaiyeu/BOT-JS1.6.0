@@ -29537,5 +29537,43 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1759902229746": {
+    "timestamp": "1759902229767",
+    "timestampString": "12:43:51",
+    "msgId": "7094037624626",
+    "cliMsgId": "1759902229746",
+    "msgType": "webchat",
+    "uidFrom": "6597148300854572982",
+    "idTo": "5464956150740844012",
+    "dName": "Duc Thien",
+    "content": "Tìm việc làm ạ",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902230973": {
+    "timestamp": "1759902231083",
+    "timestampString": "12:43:51",
+    "msgId": "7094037679152",
+    "cliMsgId": "1759902230973",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6597148300854573000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759902229746,
+        "globalDelMsgId": 7094037624626,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
