@@ -1,4 +1,5 @@
 {
   "groupRequiredReset": "-1",
-  "onGamePrivate": true
+  "onGamePrivate": true,
+  "onBotPrivate": true
 }
