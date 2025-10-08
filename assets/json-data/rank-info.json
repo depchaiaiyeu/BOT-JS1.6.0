@@ -1701,8 +1701,8 @@
         {
           "UserName": "Vu Huynh Nhi",
           "UID": "994613064562975222",
-          "Rank": 99,
-          "messageCountToday": 72,
+          "Rank": 101,
+          "messageCountToday": 74,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2061,22 +2061,22 @@
         {
           "UserName": "Tuan",
           "UID": "5301958507346934959",
-          "Rank": 180,
-          "messageCountToday": 24,
+          "Rank": 181,
+          "messageCountToday": 25,
           "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Duck",
           "UID": "3791364168540047526",
-          "Rank": 116,
-          "messageCountToday": 33,
+          "Rank": 117,
+          "messageCountToday": 34,
           "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 513,
-          "messageCountToday": 274,
+          "Rank": 516,
+          "messageCountToday": 277,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2117,8 +2117,8 @@
         {
           "UserName": "Vịt Con",
           "UID": "3655986617792360327",
-          "Rank": 142,
-          "messageCountToday": 106,
+          "Rank": 143,
+          "messageCountToday": 107,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2131,8 +2131,8 @@
         {
           "UserName": "Thiên Phúc",
           "UID": "6078954320375605607",
-          "Rank": 59,
-          "messageCountToday": 2,
+          "Rank": 60,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2250,8 +2250,8 @@
         {
           "UserName": "Tuann",
           "UID": "4864131323998446267",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2271,8 +2271,8 @@
         {
           "UserName": "Manh Tuan",
           "UID": "4101694466267297239",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 3,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-08"
         }
       ],
@@ -3183,6 +3183,13 @@
           "Rank": 2,
           "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Quang Thanh",
+          "UID": "3020852789065032919",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
@@ -3934,6 +3941,20 @@
           "UID": "682176882664021836",
           "Rank": 4,
           "messageCountToday": 4,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Vịt Con",
+          "UID": "3655986617792360327",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Duck",
+          "UID": "3791364168540047526",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
         }
       ],
