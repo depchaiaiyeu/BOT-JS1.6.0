@@ -125378,5 +125378,99 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933357729": {
+    "timestamp": "1759933357760",
+    "timestampString": "21:22:39",
+    "msgId": "7095919048382",
+    "cliMsgId": "1759933357729",
+    "msgType": "webchat",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": "Co sech kh",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933359510": {
+    "timestamp": "1759933359633",
+    "timestampString": "21:22:39",
+    "msgId": "7095919157402",
+    "cliMsgId": "1759933359510",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Tuấn > Tin nhắn bị xóa vì chứa từ ngữ bị cấm: \"sech\"\nCảnh cáo lần 1/3",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933359533": {
+    "timestamp": "1759933359593",
+    "timestampString": "21:22:40",
+    "msgId": "7095919155359",
+    "cliMsgId": "1759933359533",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "@N H L cái gì flop",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933359249": {
+    "timestamp": "1759933359377",
+    "timestampString": "21:22:40",
+    "msgId": "7095919122262",
+    "cliMsgId": "1759933359249",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 9012951880461584000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759933357729,
+        "globalDelMsgId": 7095919048382,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933367776": {
+    "timestamp": "1759933367841",
+    "timestampString": "21:22:48",
+    "msgId": "7095919646389",
+    "cliMsgId": "1759933367776",
+    "msgType": "webchat",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": "What",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933371854": {
+    "timestamp": "1759933372268",
+    "timestampString": "21:22:52",
+    "msgId": "7095919909039",
+    "cliMsgId": "1759933371854",
+    "msgType": "webchat",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": "à nhầm",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
