@@ -69789,5 +69789,132 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759924664581": {
+    "timestamp": "1759924664651",
+    "timestampString": "18:57:45",
+    "msgId": "7095384492251",
+    "cliMsgId": "1759924664581",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Um",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924665022": {
+    "timestamp": "1759924665091",
+    "timestampString": "18:57:46",
+    "msgId": "7095384519250",
+    "cliMsgId": "1759924665022",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "Tại nó",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924670805": {
+    "timestamp": "1759924671122",
+    "timestampString": "18:57:52",
+    "msgId": "7095384869904",
+    "cliMsgId": "1759924670805",
+    "msgType": "chat.photo",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
+      "thumb": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758551749029\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f18-zpc.zdn.vn\\/2419567078040627963\\/16e6d4bdb1b63be862a7.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758551749029\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924672362": {
+    "timestamp": "1759924672498",
+    "timestampString": "18:57:52",
+    "msgId": "7095384921787",
+    "cliMsgId": "1759924672362",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924670805,
+        "globalDelMsgId": 7095384869904,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924670794": {
+    "timestamp": "1759924675028",
+    "timestampString": "18:57:55",
+    "msgId": "7095385096200",
+    "cliMsgId": "1759924670794",
+    "msgType": "webchat",
+    "uidFrom": "8318817178975887433",
+    "idTo": "5975420422762749911",
+    "dName": "Thăng Nguyễn",
+    "content": "Nào  ah a sìn onl kêu ảnh call thử",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924677151": {
+    "timestamp": "1759924677450",
+    "timestampString": "18:57:58",
+    "msgId": "7095385236547",
+    "cliMsgId": "1759924677151",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "cứt",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924678043": {
+    "timestamp": "1759924678176",
+    "timestampString": "18:57:58",
+    "msgId": "7095385282238",
+    "cliMsgId": "1759924678043",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924677151,
+        "globalDelMsgId": 7095385236547,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
