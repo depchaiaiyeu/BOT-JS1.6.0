@@ -126944,5 +126944,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759937137117": {
+    "timestamp": "1759937137229",
+    "timestampString": "22:25:38",
+    "msgId": "7096122380238",
+    "cliMsgId": "1759937137117",
+    "msgType": "webchat",
+    "uidFrom": "6434593751909430391",
+    "idTo": "5166581134204343688",
+    "dName": "Vilâm",
+    "content": "@Phạm Nhật ib ông",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937142857": {
+    "timestamp": "1759937143034",
+    "timestampString": "22:25:43",
+    "msgId": "7096122645690",
+    "cliMsgId": "1759937142857",
+    "msgType": "webchat",
+    "uidFrom": "841213903629797015",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Nhật",
+    "content": "@Vilâm giá sdi",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
