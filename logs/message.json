@@ -73979,5 +73979,93 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759926447745": {
+    "timestamp": "1759926447821",
+    "timestampString": "19:27:34",
+    "msgId": "7095490126607",
+    "cliMsgId": "1759926447745",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"HAHA\", message);\n  api.addReaction(\"HEART\", message);\n  api.addReaction(\"NGU\", message);\n}",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926452608": {
+    "timestamp": "1759926452931",
+    "timestampString": "19:27:35",
+    "msgId": "7095490404719",
+    "cliMsgId": "1759926452608",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926470409": {
+    "timestamp": "1759926470459",
+    "timestampString": "19:27:51",
+    "msgId": "7095491490568",
+    "cliMsgId": "1759926470409",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "lag qua moi ng oi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926472543": {
+    "timestamp": "1759926472603",
+    "timestampString": "19:27:53",
+    "msgId": "7095491619382",
+    "cliMsgId": "1759926472543",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926473005": {
+    "timestamp": "1759926473141",
+    "timestampString": "19:27:53",
+    "msgId": "7095491623698",
+    "cliMsgId": "1759926473005",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nNếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n.help - Xem các lệnh cơ bản\n.game - Xem các lệnh game\n.command - Xem toàn bộ danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
