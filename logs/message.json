@@ -112939,5 +112939,92 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759929399862": {
+    "timestamp": "1759929399976",
+    "timestampString": "20:16:41",
+    "msgId": "7095673837025",
+    "cliMsgId": "1759929399862",
+    "msgType": "chat.photo",
+    "uidFrom": "4685678346867844669",
+    "idTo": "4699745045071009795",
+    "dName": "Quỳnh Chi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f18-zpc.zdn.vn/6106830182133838871/c3231f2c6ebbe4e5bdaa.jpg",
+      "thumb": "https://f18-zpc.zdn.vn/6106830182133838871/c3231f2c6ebbe4e5bdaa.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"24B3F6AD-F234-4F86-A180-44EBAC7044161\\\",\\\"send_method\\\":0}\",\"contentId\":\"24B3F6AD-F234-4F86-A180-44EBAC7044161\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929412560": {
+    "timestamp": "1759929412618",
+    "timestampString": "20:16:53",
+    "msgId": "7095674639994",
+    "cliMsgId": "1759929412560",
+    "msgType": "webchat",
+    "uidFrom": "7509156789270166542",
+    "idTo": "1367422010794969537",
+    "dName": "Anh Tú",
+    "content": "gì toàn bot z💔",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929413988": {
+    "timestamp": "1759929414172",
+    "timestampString": "20:16:54",
+    "msgId": "7095674738139",
+    "cliMsgId": "1759929413988",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "Đói vazz",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929417405": {
+    "timestamp": "1759929417491",
+    "timestampString": "20:16:58",
+    "msgId": "7095674947958",
+    "cliMsgId": "1759929417405",
+    "msgType": "chat.sticker",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": {
+      "id": 18975,
+      "catId": 10186,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929417613": {
+    "timestamp": "1759929417659",
+    "timestampString": "20:16:58",
+    "msgId": "7095674957341",
+    "cliMsgId": "1759929417613",
+    "msgType": "chat.sticker",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": {
+      "id": 18975,
+      "catId": 10186,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
