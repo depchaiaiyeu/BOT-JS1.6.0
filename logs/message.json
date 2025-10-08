@@ -34142,5 +34142,61 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759921585354": {
+    "timestamp": "1759921585400",
+    "timestampString": "18:06:26",
+    "msgId": "7095208378081",
+    "cliMsgId": "1759921585354",
+    "msgType": "webchat",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": "🗣️là cái thá gì phải nghe🐧",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921585440": {
+    "timestamp": "1759921585550",
+    "timestampString": "18:06:26",
+    "msgId": "7095208384897",
+    "cliMsgId": "1759921585440",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Vtàiᅠᅠdv =))",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921602015": {
+    "timestamp": "1759921602104",
+    "timestampString": "18:06:43",
+    "msgId": "7095209341778",
+    "cliMsgId": "1759921602015",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Vtàiᅠᅠdv anh im đi",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921606895": {
+    "timestamp": "1759921606963",
+    "timestampString": "18:06:47",
+    "msgId": "7095209622059",
+    "cliMsgId": "1759921606895",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Chia tay",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
