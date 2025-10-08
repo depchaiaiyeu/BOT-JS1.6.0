@@ -124509,5 +124509,70 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759934974723": {
+    "timestamp": "1759934975473",
+    "timestampString": "21:49:36",
+    "msgId": "7096011211111",
+    "cliMsgId": "1759934974723",
+    "msgType": "webchat",
+    "uidFrom": "4469858572949083955",
+    "idTo": "4825567233436439756",
+    "dName": "Minh Vũツ",
+    "content": "Đây",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934979683": {
+    "timestamp": "1759934980142",
+    "timestampString": "21:49:40",
+    "msgId": "7096011431712",
+    "cliMsgId": "1759934979683",
+    "msgType": "webchat",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": "Gì dzậy Tài?? Dám nói",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934979769": {
+    "timestamp": "1759934980468",
+    "timestampString": "21:49:40",
+    "msgId": "7096011483149",
+    "cliMsgId": "1759934979769",
+    "msgType": "webchat",
+    "uidFrom": "4469858572949083955",
+    "idTo": "4825567233436439756",
+    "dName": "Minh Vũツ",
+    "content": "Mei béo đây",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596099489580": {
+    "timestamp": "1759934991829",
+    "timestampString": "21:49:52",
+    "msgId": "7096012058274",
+    "cliMsgId": "105596099489580",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/9192572658043439831/9587cdaa54e3d9bd80f2.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/9192572658043439831/9587cdaa54e3d9bd80f2.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/9192572658043439831\\/9587cdaa54e3d9bd80f2.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
