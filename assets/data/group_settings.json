@@ -342,8 +342,8 @@
     "autoLockChat": {},
     "antiMedia": false,
     "antiSticker": false,
-    "autoReply": false,
+    "autoReply": true,
     "removeLinkKeywords": false,
-    "antiUndo": true
+    "antiUndo": false
   }
 }
