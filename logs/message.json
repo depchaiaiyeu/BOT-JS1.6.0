@@ -95322,5 +95322,56 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759927606324": {
+    "timestamp": "1759927604668",
+    "timestampString": "19:46:45",
+    "msgId": "7095560474557",
+    "cliMsgId": "1759927606324",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://b-f57-zpg-r.zdn.vn/4732189576002065058/754efeb4c8fa45a41ceb.jpg",
+      "thumb": "https://b-f57-zpg-r.zdn.vn/4732189576002065058/754efeb4c8fa45a41ceb.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/4732189576002065058\\/754efeb4c8fa45a41ceb.jpg\",\"height\":460}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927604783": {
+    "timestamp": "1759927604840",
+    "timestampString": "19:46:45",
+    "msgId": "7095560530596",
+    "cliMsgId": "1759927604783",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "7897564732983285154",
+    "dName": "Vũ Xuân Kiên",
+    "content": "tạo tk đúng ngày quốc khánh",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927606153": {
+    "timestamp": "1759927607073",
+    "timestampString": "19:46:47",
+    "msgId": "7095560668471",
+    "cliMsgId": "1759927606153",
+    "msgType": "webchat",
+    "uidFrom": "2359098671970024582",
+    "idTo": "4825567233436439756",
+    "dName": "Tiến Dũng",
+    "content": "Ae có job gì làm k cho em làm với 😗",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
