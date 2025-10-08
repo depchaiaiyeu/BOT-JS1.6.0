@@ -124631,5 +124631,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759934618744": {
+    "timestamp": "1759934618874",
+    "timestampString": "21:43:40",
+    "msgId": "7095991584652",
+    "cliMsgId": "1759934618744",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Có gì",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934628357": {
+    "timestamp": "1759934628839",
+    "timestampString": "21:43:49",
+    "msgId": "7095992142243",
+    "cliMsgId": "1759934628357",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": "check",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934632428": {
+    "timestamp": "1759934633002",
+    "timestampString": "21:43:53",
+    "msgId": "7095992364882",
+    "cliMsgId": "1759934632428",
+    "msgType": "webchat",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": "Chả có gì hết trơn á =)) Tài hỏi gì kì zị? Mún iem làm gì thì cứ nói thẳng nha.",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
