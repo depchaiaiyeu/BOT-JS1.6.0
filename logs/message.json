@@ -124026,5 +124026,51 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931571562": {
+    "timestamp": "1759931571562",
+    "timestampString": "20:52:52",
+    "msgId": "7095810121902",
+    "cliMsgId": "1759931571562",
+    "msgType": "webchat",
+    "uidFrom": "6698910511481637580",
+    "idTo": "4699745045071009795",
+    "dName": "Việt",
+    "content": {
+      "title": "Việt chỉ cho phép trưởng/phó cộng đồng gửi tin nhắn vào cộng đồng.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "msginfo.actionlist",
+      "params": "{\"msg\":{\"vi\":\"%1$s chỉ cho phép trưởng/phó cộng đồng gửi tin nhắn vào cộng đồng.\",\"en\":\"%1$s only allowed community owner/admin to send messages in this community.\",\"my\":\"%1$s only allowed community owner/admin to send messages in this community.\"},\"avatarUrl\":[\"https://s160-ava-talk.zadn.vn/5/7/3/a/41/160/6d6482f5d208c29cc259c3f8bb616299.jpg\"],\"simpleInfos\":[{\"uid\":6698910511481637580,\"dpn\":\"Việt\",\"avt\":\"https://s160-ava-talk.zadn.vn/5/7/3/a/41/160/6d6482f5d208c29cc259c3f8bb616299.jpg\"}],\"highLightsV2\":[{\"uid\":6698910511481637580,\"dpn\":\"Việt\",\"ignoreNickname\":0,\"type\":0,\"ts\":0}],\"iconUrl\":\"\",\"actions\":[{\"actionType\":\"\",\"actionColor\":-16538118,\"actionData\":\"\",\"actionLabel\":\"\"}],\"totalUpdateMem\":1,\"highLights\":[{\"uid\":6698910511481637580,\"len\":4,\"pos\":0}]}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931573069": {
+    "timestamp": "1759931573069",
+    "timestampString": "20:52:53",
+    "msgId": "7095810215778",
+    "cliMsgId": "1759931573069",
+    "msgType": "webchat",
+    "uidFrom": "6698910511481637580",
+    "idTo": "4699745045071009795",
+    "dName": "Việt",
+    "content": {
+      "title": "Việt cho phép tất cả thành viên được gửi tin nhắn vào cộng đồng.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "msginfo.actionlist",
+      "params": "{\"msg\":{\"vi\":\"%1$s cho phép tất cả thành viên được gửi tin nhắn vào cộng đồng.\",\"en\":\"%1$s allowed everyone to send messages in this community.\",\"my\":\"%1$s allowed everyone to send messages in this community.\"},\"avatarUrl\":[\"https://s160-ava-talk.zadn.vn/5/7/3/a/41/160/6d6482f5d208c29cc259c3f8bb616299.jpg\"],\"simpleInfos\":[{\"uid\":6698910511481637580,\"dpn\":\"Việt\",\"avt\":\"https://s160-ava-talk.zadn.vn/5/7/3/a/41/160/6d6482f5d208c29cc259c3f8bb616299.jpg\"}],\"highLightsV2\":[{\"uid\":6698910511481637580,\"dpn\":\"Việt\",\"ignoreNickname\":0,\"type\":0,\"ts\":0}],\"iconUrl\":\"\",\"actions\":[{\"actionType\":\"\",\"actionColor\":-16538118,\"actionData\":\"\",\"actionLabel\":\"\"}],\"totalUpdateMem\":1,\"highLights\":[{\"uid\":6698910511481637580,\"len\":4,\"pos\":0}]}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
