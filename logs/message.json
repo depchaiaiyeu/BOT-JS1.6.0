@@ -34903,5 +34903,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759922243864": {
+    "timestamp": "1759922244026",
+    "timestampString": "18:17:26",
+    "msgId": "7095245692155",
+    "cliMsgId": "1759922243864",
+    "msgType": "chat.photo",
+    "uidFrom": "3412939609851564902",
+    "idTo": "1367422010794969537",
+    "dName": "Sancho",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/b3e5cee06235966bcf24/4251352872633249559.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/b3e5cee06235966bcf24/4251352872633249559.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":755,\"height\":752,\"is_group_layout\":0,\"contentId\":\"139858\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
