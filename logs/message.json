@@ -33510,5 +33510,52 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759904357294": {
+    "timestamp": "1759904366336",
+    "timestampString": "13:19:27",
+    "msgId": "7094129529129",
+    "cliMsgId": "1759904357294",
+    "msgType": "chat.photo",
+    "uidFrom": "9030808754540072808",
+    "idTo": "5464956150740844012",
+    "dName": "Hphucc",
+    "content": {
+      "title": "1 box 10k\n3 box 25k\n5 box 40k +1 box 2k mem\n10 box 70k + 2 box 2k mem",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/2949714918991399310/1901d0ca96891bd74298.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/2949714918991399310/1901d0ca96891bd74298.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1710,\"hd\":\"https:\\/\\/f62-zpg-r.zdn.vn\\/jpg\\/2949714918991399310\\/1901d0ca96891bd74298.jpg\",\"is_group_layout\":0,\"contentId\":\"1000029963\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904367216": {
+    "timestamp": "1759904367327",
+    "timestampString": "13:19:27",
+    "msgId": "7094129559864",
+    "cliMsgId": "1759904367216",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 9030808754540073000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759904357294,
+        "globalDelMsgId": 7094129529129,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
