@@ -23442,9 +23442,9 @@
     "isUndo": false
   },
   "1758279053410": {
-    "timestamp": "1759902767406",
-    "timestampString": "12:52:48",
-    "msgId": "7094060582031",
+    "timestamp": "1759904979582",
+    "timestampString": "13:29:40",
+    "msgId": "7094157755721",
     "cliMsgId": "1758279053410",
     "msgType": "chat.photo",
     "uidFrom": "5498985111158029675",
@@ -33782,6 +33782,81 @@
     "dName": "Nhân Trương",
     "content": "biết j cả",
     "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "105594297960960": {
+    "timestamp": "1759904966024",
+    "timestampString": "13:29:26",
+    "msgId": "7094157110455",
+    "cliMsgId": "105594297960960",
+    "msgType": "webchat",
+    "uidFrom": "5498985111158029675",
+    "idTo": "5601607522756268167",
+    "dName": "Văn Nguyễn",
+    "content": "Giao lưu kiến thức – Mua bán uy tín – Share tài liệu free tại 👉https://zalo.me/g/dphwjp799\nCộng đồng chia sẻ TUT, bí kíp kinh doanh và giao dịch an toàn tại 🔥https://zalo.me/g/bixxuy723\nNơi trao đổi tool, tut, kinh nghiệm – hoàn toàn miễn phí tại 💯https://zalo.me/g/dmnogu599\nHọc hỏi, giao lưu, giao dịch nhanh gọn – tham gia tại 🚀https://zalo.me/g/xxbunu032\nCộng đồng share tut free – nơi anh em cùng phát triển tại 📌https://zalo.me/g/zlheeb089\nGiao lưu bạn bè, trao đổi dịch vụ, chia sẻ tips hay ở 👉https://zalo.me/g/isdnhe664\nNơi chia sẻ kiến thức, tut chất lượng – kết nối cùng anh em tại ✨https://zalo.me/g/czozqm337\nMua bán an toàn, chia sẻ miễn phí, hỗ trợ tận tình tại 👥https://zalo.me/g/ixzfgn444",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904979859": {
+    "timestamp": "1759904979872",
+    "timestampString": "13:29:40",
+    "msgId": "7094157755787",
+    "cliMsgId": "1759904979859",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5498985111158029000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1758279053410,
+        "globalDelMsgId": 7094157755721,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904980144": {
+    "timestamp": "1759904980361",
+    "timestampString": "13:29:40",
+    "msgId": "7094157789367",
+    "cliMsgId": "1759904980144",
+    "msgType": "webchat",
+    "uidFrom": "651216097038065970",
+    "idTo": "4825567233436439756",
+    "dName": "L A T",
+    "content": "@Nhân Trương thuê bot giá 21k",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904979934": {
+    "timestamp": "1759904979940",
+    "timestampString": "13:29:40",
+    "msgId": "7094157755804",
+    "cliMsgId": "1759904979934",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nVăn Nguyễn\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
   }
