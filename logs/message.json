@@ -32533,5 +32533,69 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904026823": {
+    "timestamp": "1759904026671",
+    "timestampString": "13:13:47",
+    "msgId": "7094114366318",
+    "cliMsgId": "1759904026823",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "🚦@̀nguyễn Duy Khang\nĐã kick 140 thành viên không phải admin/creator.",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904030324": {
+    "timestamp": "1759904030346",
+    "timestampString": "13:13:50",
+    "msgId": "7094114529999",
+    "cliMsgId": "1759904030324",
+    "msgType": "chat.sticker",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "id": 46971,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904039080": {
+    "timestamp": "1759904039104",
+    "timestampString": "13:13:59",
+    "msgId": "7094114914592",
+    "cliMsgId": "1759904039080",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Bug à",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904048270": {
+    "timestamp": "1759904048280",
+    "timestampString": "13:14:09",
+    "msgId": "7094115317403",
+    "cliMsgId": "1759904048270",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 19826,
+      "catId": 10235,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
