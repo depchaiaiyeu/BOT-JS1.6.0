@@ -38549,5 +38549,65 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759923029594": {
+    "timestamp": "1759923029666",
+    "timestampString": "18:30:30",
+    "msgId": "7095289462697",
+    "cliMsgId": "1759923029594",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Văn Nguyễn ,getuid",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923030020": {
+    "timestamp": "1759923030147",
+    "timestampString": "18:30:30",
+    "msgId": "7095289463812",
+    "cliMsgId": "1759923030020",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Vũ Xuân Kiên\nUID của người được bạn mentions là: 5498985111158029675\nUID của Group hiện tại là: 5601607522756268167",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923037425": {
+    "timestamp": "1759923037433",
+    "timestampString": "18:30:38",
+    "msgId": "7095289889179",
+    "cliMsgId": "1759923037425",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "690483581226941870",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45591,
+      "catId": 11917,
+      "type": 7
+    },
+    "threadId": "2275317996891696552",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759923055481": {
+    "timestamp": "1759923055561",
+    "timestampString": "18:30:56",
+    "msgId": "7095290901243",
+    "cliMsgId": "1759923055481",
+    "msgType": "webchat",
+    "uidFrom": "8023006268821887340",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Quý Vương",
+    "content": "@Kim Thanhh ôi",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
