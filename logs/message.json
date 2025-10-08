@@ -31175,5 +31175,79 @@
     "threadId": "5975420422762749911",
     "type": 0,
     "isUndo": false
+  },
+  "1759903183973": {
+    "timestamp": "1759903184048",
+    "timestampString": "12:59:45",
+    "msgId": "7094077957728",
+    "cliMsgId": "1759903183973",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".object",
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759903185655": {
+    "timestamp": "1759903185774",
+    "timestampString": "12:59:46",
+    "msgId": "7094078012219",
+    "cliMsgId": "1759903185655",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "📡 Dữ liệu tin nhắn được reply:\n\n{\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 105594189996480,\n  \"globalMsgId\": 7094077260379,\n  \"cliMsgType\": 1,\n  \"ts\": 1759903167717,\n  \"msg\": \"ê kuu\",\n  \"attach\": \"\",\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":0,\"len\":246,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759903191517": {
+    "timestamp": "1759903191585",
+    "timestampString": "12:59:53",
+    "msgId": "7094078273093",
+    "cliMsgId": "1759903191517",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".object",
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759903193224": {
+    "timestamp": "1759903193817",
+    "timestampString": "12:59:54",
+    "msgId": "7094078343360",
+    "cliMsgId": "1759903193224",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "📡 Dữ liệu tin nhắn được reply:\n\n{\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 105594189996480,\n  \"globalMsgId\": 7094077260379,\n  \"cliMsgType\": 1,\n  \"ts\": 1759903167717,\n  \"msg\": \"ê kuu\",\n  \"attach\": \"\",\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":0,\"len\":246,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
   }
 }
