@@ -121595,5 +121595,42 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931040371": {
+    "timestamp": "1759931040481",
+    "timestampString": "20:44:01",
+    "msgId": "7095777255843",
+    "cliMsgId": "1759931040371",
+    "msgType": "chat.photo",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/rw19nx.webp?creator=khangapi",
+      "thumb": "https://files.catbox.moe/rw19nx.webp?creator=khangapi",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757918413203\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/rw19nx.webp?creator=khangapi\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1757918413203\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931058991": {
+    "timestamp": "1759931059069",
+    "timestampString": "20:44:20",
+    "msgId": "7095778406792",
+    "cliMsgId": "1759931058991",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "@Nguyen dạy bão nó đi",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
