@@ -127969,5 +127969,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759936955781": {
+    "timestamp": "1759936956268",
+    "timestampString": "22:22:37",
+    "msgId": "7096113990510",
+    "cliMsgId": "1759936955781",
+    "msgType": "webchat",
+    "uidFrom": "1528842272074711820",
+    "idTo": "5601607522756268167",
+    "dName": "Lucia",
+    "content": "Tôi nghĩ cuộc sống này sẽ là vô nghĩa nếu như chúng ta cứ ngồi đó và hỏi mình là ai, hãy đứng lên và tìm câu trả lời bằng hành động , hành động để biết bạn là ai và hành động để thế giới biết bạn là ai vì vũ trụ có bao la nhưng bạn là duy nhất .",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936975691": {
+    "timestamp": "1759936975828",
+    "timestampString": "22:22:56",
+    "msgId": "7096114907643",
+    "cliMsgId": "1759936975691",
+    "msgType": "webchat",
+    "uidFrom": "6434593751909430391",
+    "idTo": "5166581134204343688",
+    "dName": "Vilâm",
+    "content": "@All ai cần root máy  các kiểu hay fake infox phone thì ib nhé giá ưu đãi",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
