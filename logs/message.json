@@ -127073,5 +127073,93 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759938102796": {
+    "timestamp": "1759938102870",
+    "timestampString": "22:41:43",
+    "msgId": "7096163679436",
+    "cliMsgId": "1759938102796",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "101tn/h = yc xác thực",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938102872": {
+    "timestamp": "1759938103348",
+    "timestampString": "22:41:44",
+    "msgId": "7096163701108",
+    "cliMsgId": "1759938102872",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/648d86cb051ef140a80f/244642419689493989.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/648d86cb051ef140a80f/244642419689493989.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":416,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":828,\"height\":1792,\"thumb_width\":192}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938104777": {
+    "timestamp": "1759938104921",
+    "timestampString": "22:41:45",
+    "msgId": "7096163763295",
+    "cliMsgId": "1759938104777",
+    "msgType": "chat.photo",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":402,\"height\":220,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938114309": {
+    "timestamp": "1759938114721",
+    "timestampString": "22:41:55",
+    "msgId": "7096164153251",
+    "cliMsgId": "1759938114309",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "Dm sao nó liền kề hay v ta",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938117587": {
+    "timestamp": "1759938118007",
+    "timestampString": "22:41:58",
+    "msgId": "7096164285958",
+    "cliMsgId": "1759938117587",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "17/7",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
