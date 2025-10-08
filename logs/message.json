@@ -109782,5 +109782,47 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759928977488": {
+    "timestamp": "1759928977560",
+    "timestampString": "20:09:38",
+    "msgId": "7095647122647",
+    "cliMsgId": "1759928977488",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "*gl",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928980850": {
+    "timestamp": "1759928978197",
+    "timestampString": "20:09:38",
+    "msgId": "7095647128364",
+    "cliMsgId": "1759928980850",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "🚦@Dell Yêu Ai\n 🔗 Link của bạn đây: https://ot49.dlfl.vn/8bb244478ad42b8a72c5/7061338630888150939?Kewm.aac",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928997076": {
+    "timestamp": "1759928997118",
+    "timestampString": "20:09:57",
+    "msgId": "7095648355865",
+    "cliMsgId": "1759928997076",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Ai cấm",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
