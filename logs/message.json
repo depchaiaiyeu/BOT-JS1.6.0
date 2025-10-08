@@ -125150,5 +125150,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759932078126": {
+    "timestamp": "1759932078142",
+    "timestampString": "21:01:19",
+    "msgId": "7095841619128",
+    "cliMsgId": "1759932078126",
+    "msgType": "webchat",
+    "uidFrom": "1903342543859028305",
+    "idTo": "8220006906780909608",
+    "dName": "Hanh",
+    "content": "Hello tvm",
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932079896": {
+    "timestamp": "1759932079900",
+    "timestampString": "21:01:20",
+    "msgId": "7095841726177",
+    "cliMsgId": "1759932079896",
+    "msgType": "chat.photo",
+    "uidFrom": "1903342543859028305",
+    "idTo": "8220006906780909608",
+    "dName": "Hanh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/ab814373e4ae45f01cbf/8522134859706858001/86448a80-2741-4129-bbaa-619b9d14976a_a_sin.webp",
+      "thumb": "https://fg41.dlfl.vn/ab814373e4ae45f01cbf/8522134859706858001/86448a80-2741-4129-bbaa-619b9d14976a_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1753854821155\",\"height\":895,\"thumb_height\":895,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":834,\"width\":834,\"webp\":{\"url\":\"https:\\/\\/fg41.dlfl.vn\\/ab814373e4ae45f01cbf\\/8522134859706858001\\/86448a80-2741-4129-bbaa-619b9d14976a_a_sin.webp\"}}",
+      "type": ""
+    },
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
   }
 }
