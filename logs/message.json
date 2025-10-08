@@ -31540,5 +31540,56 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903549005": {
+    "timestamp": "1759903549219",
+    "timestampString": "13:05:50",
+    "msgId": "7094093512578",
+    "cliMsgId": "1759903549005",
+    "msgType": "chat.photo",
+    "uidFrom": "2354034571288144528",
+    "idTo": "7897564732983285154",
+    "dName": "Ng Thành",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/5fbb21f79d3969673028/4036672045830090130.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/5fbb21f79d3969673028/4036672045830090130.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1280,\"height\":966,\"is_group_layout\":0,\"contentId\":\"2484868\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903550878": {
+    "timestamp": "1759903550964",
+    "timestampString": "13:05:51",
+    "msgId": "7094093587139",
+    "cliMsgId": "1759903550878",
+    "msgType": "webchat",
+    "uidFrom": "2354034571288144528",
+    "idTo": "7897564732983285154",
+    "dName": "Ng Thành",
+    "content": "90k",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "105594213860280": {
+    "timestamp": "1759903564342",
+    "timestampString": "13:06:05",
+    "msgId": "7094094152595",
+    "cliMsgId": "105594213860280",
+    "msgType": "webchat",
+    "uidFrom": "5498985111158029675",
+    "idTo": "5601607522756268167",
+    "dName": "Văn Nguyễn",
+    "content": "Giao lưu kiến thức – Mua bán uy tín – Share tài liệu free tại 👉https://zalo.me/g/dphwjp799\nCộng đồng chia sẻ TUT, bí kíp kinh doanh và giao dịch an toàn tại 🔥https://zalo.me/g/bixxuy723\nNơi trao đổi tool, tut, kinh nghiệm – hoàn toàn miễn phí tại 💯https://zalo.me/g/dmnogu599\nHọc hỏi, giao lưu, giao dịch nhanh gọn – tham gia tại 🚀https://zalo.me/g/xxbunu032\nCộng đồng share tut free – nơi anh em cùng phát triển tại 📌https://zalo.me/g/zlheeb089\nGiao lưu bạn bè, trao đổi dịch vụ, chia sẻ tips hay ở 👉https://zalo.me/g/isdnhe664\nNơi chia sẻ kiến thức, tut chất lượng – kết nối cùng anh em tại ✨https://zalo.me/g/czozqm337\nMua bán an toàn, chia sẻ miễn phí, hỗ trợ tận tình tại 👥https://zalo.me/g/ixzfgn444",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
