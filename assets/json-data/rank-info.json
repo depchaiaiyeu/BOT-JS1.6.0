@@ -2035,8 +2035,8 @@
         {
           "UserName": "Bánh Bông Lan",
           "UID": "8602274286000699226",
-          "Rank": 2,
-          "messageCountToday": 2,
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2075,15 +2075,15 @@
         {
           "UserName": "Tuan",
           "UID": "5301958507346934959",
-          "Rank": 202,
-          "messageCountToday": 46,
+          "Rank": 206,
+          "messageCountToday": 50,
           "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Duck",
           "UID": "3791364168540047526",
-          "Rank": 140,
-          "messageCountToday": 57,
+          "Rank": 144,
+          "messageCountToday": 61,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2285,8 +2285,8 @@
         {
           "UserName": "Manh Tuan",
           "UID": "4101694466267297239",
-          "Rank": 25,
-          "messageCountToday": 25,
+          "Rank": 28,
+          "messageCountToday": 28,
           "lastMessageDate": "2025-10-08"
         }
       ],
@@ -2729,8 +2729,8 @@
         {
           "UserName": "Việt",
           "UID": "6698910511481637580",
-          "Rank": 26,
-          "messageCountToday": 12,
+          "Rank": 27,
+          "messageCountToday": 13,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2876,8 +2876,8 @@
         {
           "UserName": "Hot Nhây Zép Lào",
           "UID": "2577252855236527871",
-          "Rank": 136,
-          "messageCountToday": 131,
+          "Rank": 139,
+          "messageCountToday": 134,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2988,6 +2988,13 @@
         {
           "UserName": "Hoàng Sơn",
           "UID": "7197159612635374554",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Đào Văn Dũng",
+          "UID": "2154269202473753054",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
