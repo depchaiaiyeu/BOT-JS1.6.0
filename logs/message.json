@@ -127048,5 +127048,93 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759937562565": {
+    "timestamp": "1759937562606",
+    "timestampString": "22:32:43",
+    "msgId": "7096141339688",
+    "cliMsgId": "1759937562565",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "@Nguyễn Hồng Anh Đức nma t chx tạo bank",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937564462": {
+    "timestamp": "1759937564478",
+    "timestampString": "22:32:44",
+    "msgId": "7096141421122",
+    "cliMsgId": "1759937564462",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/f943abeea77806265f69/2317117074920184405?creator=Tahn_bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/f943abeea77806265f69/2317117074920184405?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":540,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759667543702\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/f943abeea77806265f69\\/2317117074920184405?creator=Tahn_bot.webp\",\"width\":720,\"height\":540,\"thumb\":\"\"},\"contentId\":\"1759667543702\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937570713": {
+    "timestamp": "1759937570730",
+    "timestampString": "22:32:51",
+    "msgId": "7096141691906",
+    "cliMsgId": "1759937570713",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Tạo cũng kco tiền",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937574334": {
+    "timestamp": "1759937576298",
+    "timestampString": "22:32:56",
+    "msgId": "7096141926250",
+    "cliMsgId": "1759937574334",
+    "msgType": "chat.photo",
+    "uidFrom": "8060317385247643104",
+    "idTo": "2760006576081013366",
+    "dName": "Sỹ Nguyên",
+    "content": {
+      "title": "thử chuyển sang màu đen nhìn thấy s?",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/8095888046910089672/b9f7ebeaa8a225fc7cb3.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/8095888046910089672/b9f7ebeaa8a225fc7cb3.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":515,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f56-zpg-r.zdn.vn\\/jpg\\/8095888046910089672\\/b9f7ebeaa8a225fc7cb3.jpg\",\"hdSize\":27854,\"height\":665}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937579058": {
+    "timestamp": "1759937579163",
+    "timestampString": "22:32:59",
+    "msgId": "7096142050679",
+    "cliMsgId": "1759937579058",
+    "msgType": "webchat",
+    "uidFrom": "7604318543647084476",
+    "idTo": "8281509084603580118",
+    "dName": "Mk",
+    "content": "\"Điện thoại, biển cả và tôi \"\nLà j vậy mọi người",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
