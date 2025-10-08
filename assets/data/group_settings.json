@@ -319,5 +319,31 @@
     "antiSticker": false,
     "autoReply": false,
     "removeLinkKeywords": false
+  },
+  "5975420422762749911": {
+    "nameGroup": "Bot Zép Lào🩴",
+    "adminList": {},
+    "muteList": {},
+    "whileList": {},
+    "activeBot": false,
+    "activeGame": false,
+    "welcomeGroup": false,
+    "byeGroup": false,
+    "antiSpam": false,
+    "filterBadWords": false,
+    "filterBot": false,
+    "removeLinks": false,
+    "learnEnabled": false,
+    "replyEnabled": false,
+    "onlyText": false,
+    "memberApprove": false,
+    "antiNude": false,
+    "whiteList": {},
+    "autoLockChat": {},
+    "antiMedia": false,
+    "antiSticker": false,
+    "autoReply": false,
+    "removeLinkKeywords": false,
+    "antiUndo": true
   }
 }

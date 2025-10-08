@@ -2047,15 +2047,15 @@
         {
           "UserName": "Duck",
           "UID": "3791364168540047526",
-          "Rank": 90,
-          "messageCountToday": 7,
+          "Rank": 92,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 454,
-          "messageCountToday": 215,
+          "Rank": 455,
+          "messageCountToday": 216,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3544,6 +3544,13 @@
         {
           "UserName": "Sunn",
           "UID": "8224114751356416538",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Mizuhana Hinarii",
+          "UID": "8213829377694920134",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
