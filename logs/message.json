@@ -29499,5 +29499,43 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759902140871": {
+    "timestamp": "1759902141193",
+    "timestampString": "12:42:22",
+    "msgId": "7094033715112",
+    "cliMsgId": "1759902140871",
+    "msgType": "webchat",
+    "uidFrom": "1232592388347751200",
+    "idTo": "5464956150740844012",
+    "dName": "Phi Hùng",
+    "content": "-150k vì con nhỏ 7 học rác xã hội  khuyên mẹ nó nên giết nó sớm khỏi tốn đất , scam hay gì nó đều muốn lao đầu não cứt vào bú cho thơm Nói chung chỉ 150k đã scam thì nhiều càng scam 0888642212",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902142443": {
+    "timestamp": "1759902142553",
+    "timestampString": "12:42:22",
+    "msgId": "7094033733602",
+    "cliMsgId": "1759902142443",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1232592388347751200,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759902140871,
+        "globalDelMsgId": 7094033715112,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
