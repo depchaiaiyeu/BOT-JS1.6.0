@@ -38660,5 +38660,88 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759923096582": {
+    "timestamp": "1759923096683",
+    "timestampString": "18:31:37",
+    "msgId": "7095293178472",
+    "cliMsgId": "1759923096582",
+    "msgType": "webchat",
+    "uidFrom": "3790104018775592098",
+    "idTo": "7897564732983285154",
+    "dName": "Đăng Khôi",
+    "content": "@Nguyễn Hồng Anh Đức chứ gì nx",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923097069": {
+    "timestamp": "1759923097111",
+    "timestampString": "18:31:37",
+    "msgId": "7095293199939",
+    "cliMsgId": "1759923097069",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Gửi cho em @Bich Ngoc",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923098405": {
+    "timestamp": "1759923098517",
+    "timestampString": "18:31:38",
+    "msgId": "7095293277357",
+    "cliMsgId": "1759923098405",
+    "msgType": "chat.sticker",
+    "uidFrom": "3790104018775592098",
+    "idTo": "7897564732983285154",
+    "dName": "Đăng Khôi",
+    "content": {
+      "id": 50622,
+      "catId": 12658,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923114897": {
+    "timestamp": "1759923114931",
+    "timestampString": "18:31:55",
+    "msgId": "7095294180224",
+    "cliMsgId": "1759923114897",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",eval api.findUser(\"0345864723\")",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923115738": {
+    "timestamp": "1759923115865",
+    "timestampString": "18:31:56",
+    "msgId": "7095294184245",
+    "cliMsgId": "1759923115738",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5601607522756268167",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
