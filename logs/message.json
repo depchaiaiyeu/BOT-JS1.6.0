@@ -124914,5 +124914,56 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759933023939": {
+    "timestamp": "1759933024286",
+    "timestampString": "21:17:05",
+    "msgId": "7095899202811",
+    "cliMsgId": "1759933023939",
+    "msgType": "share.file",
+    "uidFrom": "1439214511499512770",
+    "idTo": "5166581134204343688",
+    "dName": "ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ",
+    "content": {
+      "title": "obf-golike_ig_1.py",
+      "description": "",
+      "href": "https://file-stal-1.dlfl.vn/gr/604f46501a9aeec4b78b/2516315615133350128",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":\"1754626\",\"checksum\":\"3f1fe10eed7c8f0e63f2181680e1eefa\",\"fileExt\":\"py\",\"tWidth\":0,\"tHeight\":0,\"duration\":0,\"fType\":1,\"fdata\":\"\"}",
+      "type": ""
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933034212": {
+    "timestamp": "1759933034261",
+    "timestampString": "21:17:16",
+    "msgId": "7095899799917",
+    "cliMsgId": "1759933034212",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".topchat",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933035990": {
+    "timestamp": "1759933036112",
+    "timestampString": "21:17:16",
+    "msgId": "7095899903669",
+    "cliMsgId": "1759933035990",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "🏆 Bảng xếp hạng tin nhắn:\n\n1. Hot Nhây Zép Lào: 226 tin nhắn\n2. Trann Nhien: 225 tin nhắn\n3. Trung Trí: 125 tin nhắn\n4. Hoàng Phát: 98 tin nhắn\n5. Việt: 57 tin nhắn\n6. Kien: 56 tin nhắn\n7. Bo: 43 tin nhắn\n8. Doris: 32 tin nhắn\n9. Hoàng Tt Huyền: 31 tin nhắn\n10. Htth: 31 tin nhắn\n\nDùng .topchat today để xem top nhắn tin hàng ngày.",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
