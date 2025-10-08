@@ -125526,5 +125526,120 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759932420057": {
+    "timestamp": "1759932420206",
+    "timestampString": "21:07:01",
+    "msgId": "7095862632100",
+    "cliMsgId": "1759932420057",
+    "msgType": "webchat",
+    "uidFrom": "4692712418377940772",
+    "idTo": "5166581134204343688",
+    "dName": "Thiệu Hoàng",
+    "content": "@Vilâm trùm crack",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932423382": {
+    "timestamp": "1759932423447",
+    "timestampString": "21:07:04",
+    "msgId": "7095862828339",
+    "cliMsgId": "1759932423382",
+    "msgType": "chat.sticker",
+    "uidFrom": "4692712418377940772",
+    "idTo": "5166581134204343688",
+    "dName": "Thiệu Hoàng",
+    "content": {
+      "id": 43520,
+      "catId": 11786,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932435122": {
+    "timestamp": "1759932432824",
+    "timestampString": "21:07:13",
+    "msgId": "7095863383954",
+    "cliMsgId": "1759932435122",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "🚦@Dell Yêu Ai\n 🎯 Mời bạn nhập số tương ứng để chọn bài hát\n 🚦Ví Dụ: *scl 3 ✅",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/5027307841207900228/02e9a820a46929377078.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/5027307841207900228/02e9a820a46929377078.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":3678,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/5027307841207900228\\/02e9a820a46929377078.jpg\",\"hdSize\":344622,\"height\":3570}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932434817": {
+    "timestamp": "1759932434884",
+    "timestampString": "21:07:15",
+    "msgId": "7095863528507",
+    "cliMsgId": "1759932434817",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "*scl 2",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932442112": {
+    "timestamp": "1759932439585",
+    "timestampString": "21:07:19",
+    "msgId": "7095863806065",
+    "cliMsgId": "1759932442112",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "🚦@Dell Yêu Ai thả hồn theo điệu nhạc nhé 🎤",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/1077663096153605475/e9bd42f84eb1c3ef9aa0.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/1077663096153605475/e9bd42f84eb1c3ef9aa0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/1077663096153605475\\/e9bd42f84eb1c3ef9aa0.jpg\",\"hdSize\":344622,\"height\":400}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932444089": {
+    "timestamp": "1759932441443",
+    "timestampString": "21:07:21",
+    "msgId": "7095863920871",
+    "cliMsgId": "1759932444089",
+    "msgType": "chat.voice",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://ot50.dlfl.vn/3efa8d333ba09afec3b1/6290555487954343261?Kewm.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":4273631,\"m4a\":\"https:\\/\\/ot50.dlfl.vn\\/3efa8d333ba09afec3b1\\/6290555487954343261?Kewm.aac\"}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
