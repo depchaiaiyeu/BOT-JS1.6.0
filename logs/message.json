@@ -127254,5 +127254,56 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759938153932": {
+    "timestamp": "1759938154007",
+    "timestampString": "22:42:34",
+    "msgId": "7096165711742",
+    "cliMsgId": "1759938153932",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Đ hiểu kiểu j",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938155000": {
+    "timestamp": "1759938155026",
+    "timestampString": "22:42:35",
+    "msgId": "7096165754084",
+    "cliMsgId": "1759938155000",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f31-zfcloud.zdn.vn/2f4f9a9a3d8e9cd0c59f/2038537323504573357",
+      "thumb": "https://f31-zfcloud.zdn.vn/2f4f9a9a3d8e9cd0c59f/2038537323504573357",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1747065312778\",\"height\":480,\"thumb_height\":480,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":480,\"width\":480,\"webp\":{\"url\":\"https:\\/\\/f31-zfcloud.zdn.vn\\/2f4f9a9a3d8e9cd0c59f\\/2038537323504573357\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938161037": {
+    "timestamp": "1759938165877",
+    "timestampString": "22:42:46",
+    "msgId": "7096166182782",
+    "cliMsgId": "1759938161037",
+    "msgType": "webchat",
+    "uidFrom": "717224590695865551",
+    "idTo": "8281509084603580118",
+    "dName": "Trần Tổng",
+    "content": "@Mk lời tỏ tình đó",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
