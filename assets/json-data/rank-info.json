@@ -1390,8 +1390,8 @@
         {
           "UserName": "Nminh",
           "UID": "8606917999821023050",
-          "Rank": 11,
-          "messageCountToday": 4,
+          "Rank": 12,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2126,8 +2126,8 @@
         {
           "UserName": "Bánh Bông Lan",
           "UID": "8602274286000699226",
-          "Rank": 8,
-          "messageCountToday": 8,
+          "Rank": 10,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3554,6 +3554,13 @@
           "Rank": 2,
           "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Khánh",
+          "UID": "8155424944170614038",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
@@ -4064,6 +4071,13 @@
           "UID": "2320113969277989641",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Bánh Bông Lan",
+          "UID": "8602274286000699226",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
         }
       ],
