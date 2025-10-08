@@ -32468,5 +32468,56 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759903986568": {
+    "timestamp": "1759903986591",
+    "timestampString": "13:13:07",
+    "msgId": "7094112595257",
+    "cliMsgId": "1759903986568",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...eval message.data.quote.fromD",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903986933": {
+    "timestamp": "1759903986784",
+    "timestampString": "13:13:07",
+    "msgId": "7094112593518",
+    "cliMsgId": "1759903986933",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "🚦@̀nguyễn Duy Khang\n1. Lỗi: NameError: name 'message' is not defined",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903990563": {
+    "timestamp": "1759903990584",
+    "timestampString": "13:13:10",
+    "msgId": "7094112774904",
+    "cliMsgId": "1759903990563",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "thumb": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759485659742\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f28-zfcloud.zdn.vn\\/c487050b89bc27e27ead\\/7446728214724120585\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1759485659742\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
