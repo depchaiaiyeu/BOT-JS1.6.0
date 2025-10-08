@@ -124257,5 +124257,55 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759931611743": {
+    "timestamp": "1759931611801",
+    "timestampString": "20:53:32",
+    "msgId": "7095812624262",
+    "cliMsgId": "1759931611743",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 19827,
+      "catId": 10235,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931614243": {
+    "timestamp": "1759931614314",
+    "timestampString": "20:53:41",
+    "msgId": "7095812778386",
+    "cliMsgId": "1759931614243",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"HAHA\", message);\n  api.addReaction(\"HEART\", message);\n  api.addReaction(\"NGU\", message);\n}",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931638317": {
+    "timestamp": "1759931638357",
+    "timestampString": "20:53:59",
+    "msgId": "7095814273709",
+    "cliMsgId": "1759931638317",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 19899,
+      "catId": 10235,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
