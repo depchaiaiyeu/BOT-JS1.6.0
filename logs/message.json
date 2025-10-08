@@ -30800,5 +30800,28 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759902950975": {
+    "timestamp": "1759902951069",
+    "timestampString": "12:55:52",
+    "msgId": "7094068271598",
+    "cliMsgId": "1759902950975",
+    "msgType": "chat.photo",
+    "uidFrom": "8032716618991236930",
+    "idTo": "4825567233436439756",
+    "dName": "Nawari",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/eb96505147dbe685bfca/6393874301272931078?createby=HaHuyHoang_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/eb96505147dbe685bfca/6393874301272931078?createby=HaHuyHoang_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759421648074\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/eb96505147dbe685bfca\\/6393874301272931078?createby=HaHuyHoang_Bot.webp\",\"width\":512,\"height\":512,\"thumb\":\"\"},\"contentId\":\"1759421648074\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
