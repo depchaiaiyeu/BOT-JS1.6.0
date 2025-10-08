@@ -35158,5 +35158,88 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759922309950": {
+    "timestamp": "1759922310007",
+    "timestampString": "18:18:30",
+    "msgId": "7095249322786",
+    "cliMsgId": "1759922309950",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "Mõm à",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922319545": {
+    "timestamp": "1759922319622",
+    "timestampString": "18:18:40",
+    "msgId": "7095249851982",
+    "cliMsgId": "1759922319545",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "Biết đéo j mà phát ngôn",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922322614": {
+    "timestamp": "1759922322679",
+    "timestampString": "18:18:43",
+    "msgId": "7095250019712",
+    "cliMsgId": "1759922322614",
+    "msgType": "chat.sticker",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "id": 46957,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922329073": {
+    "timestamp": "1759922329142",
+    "timestampString": "18:18:49",
+    "msgId": "7095250376794",
+    "cliMsgId": "1759922329073",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "@Hiếu hơn m",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922332740": {
+    "timestamp": "1759922332780",
+    "timestampString": "18:18:53",
+    "msgId": "7095250575713",
+    "cliMsgId": "1759922332740",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/646ecd95f97858260169/7858284938067978260?createby=NDQ_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/646ecd95f97858260169/7858284938067978260?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1755334929033\",\"height\":498,\"thumb_height\":498,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":498,\"width\":498,\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/646ecd95f97858260169\\/7858284938067978260?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
