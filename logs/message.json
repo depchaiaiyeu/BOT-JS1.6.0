@@ -100362,5 +100362,902 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759928102419": {
+    "timestamp": "1759928099765",
+    "timestampString": "19:55:00",
+    "msgId": "7095591324677",
+    "cliMsgId": "1759928102419",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27794,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928102796": {
+    "timestamp": "1759928100141",
+    "timestampString": "19:55:00",
+    "msgId": "7095591381864",
+    "cliMsgId": "1759928102796",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27597,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928103163": {
+    "timestamp": "1759928100506",
+    "timestampString": "19:55:00",
+    "msgId": "7095591381910",
+    "cliMsgId": "1759928103163",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27620,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928103523": {
+    "timestamp": "1759928100867",
+    "timestampString": "19:55:01",
+    "msgId": "7095591436662",
+    "cliMsgId": "1759928103523",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27796,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928103905": {
+    "timestamp": "1759928101248",
+    "timestampString": "19:55:01",
+    "msgId": "7095591436712",
+    "cliMsgId": "1759928103905",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27594,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928104281": {
+    "timestamp": "1759928101624",
+    "timestampString": "19:55:01",
+    "msgId": "7095591490733",
+    "cliMsgId": "1759928104281",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27796,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928100910": {
+    "timestamp": "1759928101759",
+    "timestampString": "19:55:02",
+    "msgId": "7095591455108",
+    "cliMsgId": "1759928100910",
+    "msgType": "chat.sticker",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "id": 26734,
+      "catId": 10690,
+      "type": 7
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928104642": {
+    "timestamp": "1759928101986",
+    "timestampString": "19:55:02",
+    "msgId": "7095591490781",
+    "cliMsgId": "1759928104642",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27793,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928105005": {
+    "timestamp": "1759928102348",
+    "timestampString": "19:55:02",
+    "msgId": "7095591533102",
+    "cliMsgId": "1759928105005",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27606,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928101071": {
+    "timestamp": "1759928102623",
+    "timestampString": "19:55:02",
+    "msgId": "7095591559849",
+    "cliMsgId": "1759928101071",
+    "msgType": "chat.photo",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/3389475285291334479/197ae04ec500485e1111.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/3389475285291334479/197ae04ec500485e1111.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":2220,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/3389475285291334479\\/197ae04ec500485e1111.jpg\",\"is_group_layout\":0,\"contentId\":\"814469\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928105376": {
+    "timestamp": "1759928102722",
+    "timestampString": "19:55:03",
+    "msgId": "7095591533149",
+    "cliMsgId": "1759928105376",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27607,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928105752": {
+    "timestamp": "1759928103099",
+    "timestampString": "19:55:03",
+    "msgId": "7095591533183",
+    "cliMsgId": "1759928105752",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27606,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928106124": {
+    "timestamp": "1759928103469",
+    "timestampString": "19:55:03",
+    "msgId": "7095591589531",
+    "cliMsgId": "1759928106124",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27602,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928106490": {
+    "timestamp": "1759928103836",
+    "timestampString": "19:55:04",
+    "msgId": "7095591589584",
+    "cliMsgId": "1759928106490",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27792,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928102957": {
+    "timestamp": "1759928103852",
+    "timestampString": "19:55:04",
+    "msgId": "7095591635736",
+    "cliMsgId": "1759928102957",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Xik vxl",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928106859": {
+    "timestamp": "1759928104203",
+    "timestampString": "19:55:04",
+    "msgId": "7095591637219",
+    "cliMsgId": "1759928106859",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 28314,
+      "catId": 10780,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928104247": {
+    "timestamp": "1759928104307",
+    "timestampString": "19:55:04",
+    "msgId": "7095591664573",
+    "cliMsgId": "1759928104247",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "-gif xin chào m🐧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928107234": {
+    "timestamp": "1759928104636",
+    "timestampString": "19:55:04",
+    "msgId": "7095591637260",
+    "cliMsgId": "1759928107234",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27600,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928107666": {
+    "timestamp": "1759928105005",
+    "timestampString": "19:55:05",
+    "msgId": "7095591693512",
+    "cliMsgId": "1759928107666",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27611,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928108021": {
+    "timestamp": "1759928105361",
+    "timestampString": "19:55:05",
+    "msgId": "7095591693556",
+    "cliMsgId": "1759928108021",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27601,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928108373": {
+    "timestamp": "1759928105720",
+    "timestampString": "19:55:06",
+    "msgId": "7095591740138",
+    "cliMsgId": "1759928108373",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27620,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928108905": {
+    "timestamp": "1759928106266",
+    "timestampString": "19:55:06",
+    "msgId": "7095591786023",
+    "cliMsgId": "1759928108905",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27595,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928109301": {
+    "timestamp": "1759928106646",
+    "timestampString": "19:55:06",
+    "msgId": "7095591813096",
+    "cliMsgId": "1759928109301",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27794,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928109687": {
+    "timestamp": "1759928107028",
+    "timestampString": "19:55:07",
+    "msgId": "7095591813165",
+    "cliMsgId": "1759928109687",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27620,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928107223": {
+    "timestamp": "1759928107298",
+    "timestampString": "19:55:07",
+    "msgId": "7095591853971",
+    "cliMsgId": "1759928107223",
+    "msgType": "webchat",
+    "uidFrom": "4151380426396550311",
+    "idTo": "8220006906780909608",
+    "dName": "Tkh",
+    "content": "@Mizuhana Hinarii giải thik nó đi",
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928110057": {
+    "timestamp": "1759928107402",
+    "timestampString": "19:55:07",
+    "msgId": "7095591862403",
+    "cliMsgId": "1759928110057",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27607,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928110435": {
+    "timestamp": "1759928107781",
+    "timestampString": "19:55:08",
+    "msgId": "7095591862446",
+    "cliMsgId": "1759928110435",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27609,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928110825": {
+    "timestamp": "1759928108170",
+    "timestampString": "19:55:08",
+    "msgId": "7095591862483",
+    "cliMsgId": "1759928110825",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 28315,
+      "catId": 10780,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928111196": {
+    "timestamp": "1759928108542",
+    "timestampString": "19:55:08",
+    "msgId": "7095591921920",
+    "cliMsgId": "1759928111196",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27619,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928111561": {
+    "timestamp": "1759928108908",
+    "timestampString": "19:55:09",
+    "msgId": "7095591921996",
+    "cliMsgId": "1759928111561",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27607,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928111933": {
+    "timestamp": "1759928109279",
+    "timestampString": "19:55:09",
+    "msgId": "7095591958373",
+    "cliMsgId": "1759928111933",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27594,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928112291": {
+    "timestamp": "1759928109649",
+    "timestampString": "19:55:09",
+    "msgId": "7095591958427",
+    "cliMsgId": "1759928112291",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27793,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928112664": {
+    "timestamp": "1759928110008",
+    "timestampString": "19:55:10",
+    "msgId": "7095592007981",
+    "cliMsgId": "1759928112664",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27794,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928113035": {
+    "timestamp": "1759928110377",
+    "timestampString": "19:55:10",
+    "msgId": "7095592008021",
+    "cliMsgId": "1759928113035",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27600,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928113397": {
+    "timestamp": "1759928110741",
+    "timestampString": "19:55:11",
+    "msgId": "7095592063178",
+    "cliMsgId": "1759928113397",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 28343,
+      "catId": 10784,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928110730": {
+    "timestamp": "1759928110797",
+    "timestampString": "19:55:11",
+    "msgId": "7095592075949",
+    "cliMsgId": "1759928110730",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "@宝英 Bao Anh Tuỳ góc th",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928113777": {
+    "timestamp": "1759928111122",
+    "timestampString": "19:55:11",
+    "msgId": "7095592063233",
+    "cliMsgId": "1759928113777",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 28312,
+      "catId": 10780,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928114142": {
+    "timestamp": "1759928111487",
+    "timestampString": "19:55:11",
+    "msgId": "7095592104293",
+    "cliMsgId": "1759928114142",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27615,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928114508": {
+    "timestamp": "1759928111851",
+    "timestampString": "19:55:12",
+    "msgId": "7095592104346",
+    "cliMsgId": "1759928114508",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27603,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928114883": {
+    "timestamp": "1759928112228",
+    "timestampString": "19:55:12",
+    "msgId": "7095592153230",
+    "cliMsgId": "1759928114883",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27618,
+      "catId": 10746,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928115253": {
+    "timestamp": "1759928112600",
+    "timestampString": "19:55:12",
+    "msgId": "7095592153285",
+    "cliMsgId": "1759928115253",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27793,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928115617": {
+    "timestamp": "1759928112964",
+    "timestampString": "19:55:13",
+    "msgId": "7095592200716",
+    "cliMsgId": "1759928115617",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "856155989425195994",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 27792,
+      "catId": 10755,
+      "type": 7
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928113894": {
+    "timestamp": "1759928114006",
+    "timestampString": "19:55:14",
+    "msgId": "7095592280139",
+    "cliMsgId": "1759928113894",
+    "msgType": "chat.sticker",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": {
+      "id": 34843,
+      "catId": 11190,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928114809": {
+    "timestamp": "1759928114963",
+    "timestampString": "19:55:15",
+    "msgId": "7095592340503",
+    "cliMsgId": "1759928114809",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@Vu Huynh Nhi nào ko chêu đức",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928114151": {
+    "timestamp": "1759928116524",
+    "timestampString": "19:55:16",
+    "msgId": "7095592431495",
+    "cliMsgId": "1759928114151",
+    "msgType": "chat.gif",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/b711e5de294d8813d15c/3936601357967674230",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommend.gif",
+      "params": "{\"width\":500,\"height\":150}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928118492": {
+    "timestamp": "1759928118595",
+    "timestampString": "19:55:18",
+    "msgId": "7095592568661",
+    "cliMsgId": "1759928118492",
+    "msgType": "chat.photo",
+    "uidFrom": "682176882664021836",
+    "idTo": "856155989425195994",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/947aa204288289dcd093/7997944572544747115?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/947aa204288289dcd093/7997944572544747115?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":448,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758164254344\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/947aa204288289dcd093\\/7997944572544747115?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":512,\"height\":448,\"thumb\":\"\"},\"contentId\":\"1758164254344\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928119065": {
+    "timestamp": "1759928119077",
+    "timestampString": "19:55:19",
+    "msgId": "7095592598492",
+    "cliMsgId": "1759928119065",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "856155989425195994",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 38566,
+      "catId": 11482,
+      "type": 3
+    },
+    "threadId": "856155989425195994",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928121109": {
+    "timestamp": "1759928122038",
+    "timestampString": "19:55:22",
+    "msgId": "7095592782779",
+    "cliMsgId": "1759928121109",
+    "msgType": "webchat",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": "@Nguyễn Hồng Anh Đức góc lsao nx mô",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928121765": {
+    "timestamp": "1759928122293",
+    "timestampString": "19:55:22",
+    "msgId": "7095592799474",
+    "cliMsgId": "1759928121765",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Vtàiᅠᅠdv thật mà",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928125571": {
+    "timestamp": "1759928125644",
+    "timestampString": "19:55:25",
+    "msgId": "7095593010558",
+    "cliMsgId": "1759928125571",
+    "msgType": "webchat",
+    "uidFrom": "8213829377694920134",
+    "idTo": "8220006906780909608",
+    "dName": "Mizuhana Hinarii",
+    "content": "@Tkh t còn ko bt thì sao giải thích bây h?",
+    "threadId": "8220006906780909608",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928125939": {
+    "timestamp": "1759928126013",
+    "timestampString": "19:55:26",
+    "msgId": "7095593032931",
+    "cliMsgId": "1759928125939",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Mạnh",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
