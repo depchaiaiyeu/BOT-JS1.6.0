@@ -126977,25 +126977,100 @@
     "isUndo": false
   },
   "1759938058566": {
-    "timestamp": "1759938059425",
-    "timestampString": "22:40:59",
-    "msgId": "7096161941204",
+    "timestamp": "1759938063691",
+    "timestampString": "22:41:04",
+    "msgId": "7096162116692",
     "cliMsgId": "1759938058566",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 227886665729461020,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1759938058566,
+        "globalDelMsgId": 7096161941204,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938063562": {
+    "timestamp": "1759938063645",
+    "timestampString": "22:41:04",
+    "msgId": "7096162114525",
+    "cliMsgId": "1759938063562",
+    "msgType": "webchat",
+    "uidFrom": "3261504407687401336",
+    "idTo": "4825567233436439756",
+    "dName": "Hân Ỉ",
+    "content": "5",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938063207": {
+    "timestamp": "1759938064028",
+    "timestampString": "22:41:04",
+    "msgId": "7096162126170",
+    "cliMsgId": "1759938063207",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Hân Ỉ\nDQT Bot Team\nSticker của bạn đây!\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938063238": {
+    "timestamp": "1759938064102",
+    "timestampString": "22:41:05",
+    "msgId": "7096162126175",
+    "cliMsgId": "1759938063238",
     "msgType": "chat.photo",
     "uidFrom": "227886665729461010",
     "idTo": "4825567233436439756",
     "dName": "Take Care For Groups",
     "content": {
-      "title": "@Hân Ỉ\nĐây là danh sách kết quả mà tôi tìm được:\nHãy trả lời tin nhắn này với số index của kết quả mà bạn muốn tạo sticker!",
+      "title": "",
       "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/1578790271460384569/801e8e28fe60733e2a71.jpg",
-      "thumb": "https://t-f65-zpg-r.zdn.vn/480/1578790271460384569/801e8e28fe60733e2a71.jpg",
+      "href": "https://f33-zfcloud.zdn.vn/d58c47ad4a58eb06b249/8464287531016097402?createby=NDQ_Bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/d58c47ad4a58eb06b249/8464287531016097402?createby=NDQ_Bot.webp",
       "childnumber": 0,
       "action": "",
-      "params": "{\"width\":960,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/1578790271460384569\\/801e8e28fe60733e2a71.jpg\",\"hdSize\":201480,\"height\":430}",
+      "params": "{\"thumb_width\":300,\"thumb_height\":314,\"width\":314,\"contentId\":\"1759938063238\",\"pStickerType\":1,\"webp\":{\"width\":314,\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/d58c47ad4a58eb06b249\\/8464287531016097402?createby=NDQ_Bot.webp\",\"height\":300},\"hd\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/d58c47ad4a58eb06b249\\/8464287531016097402?createby=NDQ_Bot.webp\",\"height\":300}",
       "type": ""
     },
     "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938077213": {
+    "timestamp": "1759938077280",
+    "timestampString": "22:41:18",
+    "msgId": "7096162658567",
+    "cliMsgId": "1759938077213",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "k xác thực = 100tn/h",
+    "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
   }
