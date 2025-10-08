@@ -34926,5 +34926,33 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1759922251418": {
+    "timestamp": "1759922252238",
+    "timestampString": "18:17:33",
+    "msgId": "7095246099004",
+    "cliMsgId": "1759922251418",
+    "msgType": "webchat",
+    "uidFrom": "4955887132850349053",
+    "idTo": "7897564732983285154",
+    "dName": "Minh Quang",
+    "content": "@Vu Huynh Nhi huh =))",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922276186": {
+    "timestamp": "1759922276297",
+    "timestampString": "18:17:57",
+    "msgId": "7095247469355",
+    "cliMsgId": "1759922276186",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "@Xre wtf",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
