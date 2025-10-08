@@ -125990,5 +125990,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "105596169878580": {
+    "timestamp": "1759936164806",
+    "timestampString": "22:09:26",
+    "msgId": "7096074790808",
+    "cliMsgId": "105596169878580",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@Botz",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/813183046134274052/2b3e7243c40a4954101b.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/813183046134274052/2b3e7243c40a4954101b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/813183046134274052\\/2b3e7243c40a4954101b.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
