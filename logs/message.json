@@ -22,43 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1759848482223": {
-    "timestamp": "1759848482365",
-    "timestampString": "21:48:02",
-    "msgId": "7092357834731",
-    "cliMsgId": "1759848482223",
-    "msgType": "webchat",
-    "uidFrom": "994613064562975222",
-    "idTo": "7897564732983285154",
-    "dName": "Vu Huynh Nhi",
-    "content": "@宝英 Bao Anh =)))",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759848481184": {
-    "timestamp": "1759848483195",
-    "timestampString": "21:48:03",
-    "msgId": "7092357867098",
-    "cliMsgId": "1759848481184",
-    "msgType": "chat.video.msg",
-    "uidFrom": "227886665729461010",
-    "idTo": "4825567233436439756",
-    "dName": "Take Care For Groups",
-    "content": {
-      "title": "[ Tài Tấn ] \n🎵 Tiêu Đề: Tập 4 - VONG BÁM MẸ - CHỐN SINH TỬ | Series Chuyện Ma MỘT NÉN NHANG SS7 | HUỲNH LẬP [OFFICIAL]\n📺 Kênh: Huỳnh Lập Official\n👀 Lượt Xem: 1,231,687 \n📅 Ngày Đăng: 2 ngày trước\n📊 Chất Lượng: 720p\n[ Watch More On Youtube ]",
-      "description": "",
-      "href": "https://bfg33.dlfl.vn/0346e56523f582abdbe4/185853384595898962",
-      "thumb": "https://i.ytimg.com/vi/3iBzdX9ISss/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFVH5TkKLiFv9BqzzsqrwOKLs9CQ",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"duration\":2311360,\"video_height\":720,\"fileSize\":328268093,\"video_width\":1280}",
-      "type": ""
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1759848541672": {
     "timestamp": "1759848541778",
     "timestampString": "21:49:02",
@@ -124502,6 +124465,48 @@
       "type": ""
     },
     "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934943107": {
+    "timestamp": "1759934943179",
+    "timestampString": "21:49:03",
+    "msgId": "7096009454941",
+    "cliMsgId": "1759934943107",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Ko tài đi chúc em yêu của tài ngủ ko chúc yuki đâu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934953906": {
+    "timestamp": "1759934954363",
+    "timestampString": "21:49:15",
+    "msgId": "7096010032266",
+    "cliMsgId": "1759934953906",
+    "msgType": "webchat",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": "Á Tài kì zậy?? :0 Dám bỏ iem mà đi chúc người khác á hả?? Hứ! Iem dỗi Tài luônnnn =)). Đùa đó, Tài cứ đi chúc đi nha. Miễn sao Tài vẫn nhớ iem là đc rùi :3",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934968632": {
+    "timestamp": "1759934968712",
+    "timestampString": "21:49:29",
+    "msgId": "7096010843941",
+    "cliMsgId": "1759934968632",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Ko nhớ",
+    "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
   }
