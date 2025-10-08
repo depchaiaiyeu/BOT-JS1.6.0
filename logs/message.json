@@ -125322,5 +125322,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933262359": {
+    "timestamp": "1759933262259",
+    "timestampString": "21:21:02",
+    "msgId": "7095913380811",
+    "cliMsgId": "1759933262359",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": "huyền khổ",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
