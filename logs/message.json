@@ -31842,5 +31842,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903716252": {
+    "timestamp": "1759903716279",
+    "timestampString": "13:08:37",
+    "msgId": "7094100738868",
+    "cliMsgId": "1759903716252",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval message.data",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903717620": {
+    "timestamp": "1759903717736",
+    "timestampString": "13:08:38",
+    "msgId": "7094100786452",
+    "cliMsgId": "1759903717620",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"actionId\": \"11407354190745\",\n  \"msgId\": \"7094100738868\",\n  \"cliMsgId\": \"1759903716252\",\n  \"msgType\": \"webchat\",\n  \"uidFrom\": \"690483581226941870\",\n  \"idTo\": \"5975420422762749911\",\n  \"dName\": \"Vũ Xuân Kiên\",\n  \"ts\": \"1759903716279\",\n  \"status\": 1,\n  \"content\": \".eval message.data\",\n  \"notify\": \"1\",\n  \"ttl\": 0,\n  \"userId\": \"0\",\n  \"uin\": \"0\",\n  \"topOut\": \"0\",\n  \"topOutTimeOut\": \"0\",\n  \"topOutImprTimeOut\": \"0\",\n  \"propertyExt\": {\n    \"color\": -1,\n    \"size\": -1,\n    \"type\": -1,\n    \"subType\": 0,\n    \"ext\": \"{\\\"sSrcType\\\":-1,\\\"sSrcStr\\\":\\\"\\\",\\\"msg_warning_type\\\":0,\\\"emoji\\\":{\\\"content\\\":0,\\\"num\\\":0,\\\"uniq\\\":0,\\\"first\\\":\\\"\\\",\\\"last\\\":\\\"\\\",\\\"most\\\":\\\"\\\",\\\"text\\\":1}}\"\n  },\n  \"paramsExt\": {\n    \"countUnread\": 1,\n    \"containType\": 0,\n    \"platformType\": 0\n  },\n  \"cmd\": 521,\n  \"st\": 3,\n  \"at\": 0,\n  \"realMsgId\": \"0\"\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
