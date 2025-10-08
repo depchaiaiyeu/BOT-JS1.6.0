@@ -124653,5 +124653,60 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759935303460": {
+    "timestamp": "1759935303525",
+    "timestampString": "21:55:05",
+    "msgId": "7096028929665",
+    "cliMsgId": "1759935303460",
+    "msgType": "chat.sticker",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": {
+      "id": 27449,
+      "catId": 10739,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935307399": {
+    "timestamp": "1759935307470",
+    "timestampString": "21:55:08",
+    "msgId": "7096029142719",
+    "cliMsgId": "1759935307399",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "Này thì mõm",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935316016": {
+    "timestamp": "1759935316050",
+    "timestampString": "21:55:16",
+    "msgId": "7096029602397",
+    "cliMsgId": "1759935316016",
+    "msgType": "chat.photo",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/6eefd6e26671c72f9e60/3804514180958619501?createby=NDQ_Bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/6eefd6e26671c72f9e60/3804514180958619501?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1759932948020\",\"height\":910,\"thumb_height\":910,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/6eefd6e26671c72f9e60\\/3804514180958619501?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
