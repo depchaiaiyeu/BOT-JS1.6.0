@@ -2005,9 +2005,9 @@
         {
           "UserName": "Duck",
           "UID": "3791364168540047526",
-          "Rank": 83,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-06"
+          "Rank": 84,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Dell Yêu Ai",
@@ -2180,8 +2180,8 @@
         {
           "UserName": "Ng Huy Học",
           "UID": "2138929821000487828",
-          "Rank": 11,
-          "messageCountToday": 11,
+          "Rank": 13,
+          "messageCountToday": 13,
           "lastMessageDate": "2025-10-08"
         }
       ],
@@ -2771,8 +2771,8 @@
         {
           "UserName": "Anh Là Hải Anh Hot Nhây",
           "UID": "2577252855236527871",
-          "Rank": 56,
-          "messageCountToday": 51,
+          "Rank": 60,
+          "messageCountToday": 55,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2851,6 +2851,13 @@
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Con Ơi Dượng Đây",
+          "UID": "2644935896227082639",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "Zubu👽"
@@ -2902,6 +2909,13 @@
         {
           "UserName": "Trần Quốc Huy",
           "UID": "1536584735399159656",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Con Mèo",
+          "UID": "9210252485480501226",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
