@@ -1841,8 +1841,8 @@
         {
           "UserName": "Xre",
           "UID": "9090621766324729619",
-          "Rank": 20,
-          "messageCountToday": 20,
+          "Rank": 22,
+          "messageCountToday": 22,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3122,15 +3122,22 @@
           "UserName": "Ae Mmo Media",
           "UID": "8698534026596658828",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
         },
         {
           "UserName": "Zalo",
           "UID": "2730348679286956255",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-07"
+        },
+        {
+          "UserName": "Phạm Tuấn Trường",
+          "UID": "368601022011242790",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         }
       ],
       "nameGroup": "Nhóm 6 - Phạm Trường Quần Áo { Hàng Sẵn }"
