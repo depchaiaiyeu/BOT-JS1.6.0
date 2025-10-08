@@ -92552,5 +92552,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759927293956": {
+    "timestamp": "1759927294010",
+    "timestampString": "19:41:40",
+    "msgId": "7095541386744",
+    "cliMsgId": "1759927293956",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "7585160044864555896",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"HAHA\", message);\n  api.addReaction(\"HEART\", message);\n  api.addReaction(\"NGU\", message);\n}",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927313175": {
+    "timestamp": "1759927313162",
+    "timestampString": "19:41:54",
+    "msgId": "7095542534002",
+    "cliMsgId": "1759927313175",
+    "msgType": "webchat",
+    "uidFrom": "7084721832415548010",
+    "idTo": "7585160044864555896",
+    "dName": "Tiện Ích",
+    "content": "❌ Không tìm thấy tài khoản TikTok. Vui lòng kiểm tra lại.",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927314674": {
+    "timestamp": "1759927314768",
+    "timestampString": "19:42:00",
+    "msgId": "7095542661737",
+    "cliMsgId": "1759927314674",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"HAHA\", message);\n  api.addReaction(\"HEART\", message);\n  api.addReaction(\"NGU\", message);\n}",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
