@@ -125547,5 +125547,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933896798": {
+    "timestamp": "1759933896830",
+    "timestampString": "21:31:37",
+    "msgId": "7095950561437",
+    "cliMsgId": "1759933896798",
+    "msgType": "webchat",
+    "uidFrom": "8151065204008488485",
+    "idTo": "4699745045071009795",
+    "dName": "Trần Nguyễn Khánh Vy 张极",
+    "content": "là s",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
