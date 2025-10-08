@@ -94881,5 +94881,61 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759927505780": {
+    "timestamp": "1759927505884",
+    "timestampString": "19:45:06",
+    "msgId": "7095554393929",
+    "cliMsgId": "1759927505780",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Đá nhỉ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927506993": {
+    "timestamp": "1759927507063",
+    "timestampString": "19:45:07",
+    "msgId": "7095554469552",
+    "cliMsgId": "1759927506993",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Anh thấy...Em có 1 vết thương khá sâu",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927515516": {
+    "timestamp": "1759927515565",
+    "timestampString": "19:45:18",
+    "msgId": "7095554998860",
+    "cliMsgId": "1759927515516",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "@Vũ Xuân Kiên ỉa",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927518097": {
+    "timestamp": "1759927518230",
+    "timestampString": "19:45:18",
+    "msgId": "7095555152073",
+    "cliMsgId": "1759927518097",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "đưa họ ra nhà vệ sinh",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
