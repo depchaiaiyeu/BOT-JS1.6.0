@@ -1,41 +1,4 @@
 {
-  "1055904156308400": {
-    "timestamp": "1759840261857",
-    "timestampString": "19:31:02",
-    "msgId": "7091854138380",
-    "cliMsgId": "1055904156308400",
-    "msgType": "webchat",
-    "uidFrom": "1277772631698656128",
-    "idTo": "5601607522756268167",
-    "dName": "Bear",
-    "content": {
-      "title": "group này có biến căng ae ơi :(((\nhttps://zalo.me/g/xkjxwk345",
-      "description": "",
-      "href": "",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "rtf",
-      "params": "{\"styles\": [{\"start\": 0, \"len\": 33, \"st\": \"c_FF5733\"}, {\"start\": 0, \"len\": 33, \"st\": \"b\"}, {\"start\": 34, \"len\": 27, \"st\": \"c_33FF57\"}, {\"start\": 34, \"len\": 27, \"st\": \"b\"}], \"ver\": 0}",
-      "type": ""
-    },
-    "threadId": "5601607522756268167",
-    "type": 1,
-    "isUndo": false
-  },
-  "1759840294793": {
-    "timestamp": "1759840294898",
-    "timestampString": "19:31:36",
-    "msgId": "7091856162770",
-    "cliMsgId": "1759840294793",
-    "msgType": "webchat",
-    "uidFrom": "7865523427196480284",
-    "idTo": "8281509084603580118",
-    "dName": "Nhon",
-    "content": "@Tạ Khôi Nguyên ai đoy",
-    "threadId": "8281509084603580118",
-    "type": 1,
-    "isUndo": false
-  },
   "1759840323547": {
     "timestamp": "1759840323635",
     "timestampString": "19:32:04",
@@ -97976,6 +97939,43 @@
     "dName": "Khôi Nguyên Trần",
     "content": "Mày dừng",
     "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926741477": {
+    "timestamp": "1759926741658",
+    "timestampString": "19:32:22",
+    "msgId": "7095507896485",
+    "cliMsgId": "1759926741477",
+    "msgType": "chat.photo",
+    "uidFrom": "3412939609851564902",
+    "idTo": "1367422010794969537",
+    "dName": "Sancho",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/8997770583757137534/dfd65a618f2e02705b3f.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/8997770583757137534/dfd65a618f2e02705b3f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":325,\"height\":578,\"is_group_layout\":0,\"contentId\":\"139857\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926748295": {
+    "timestamp": "1759926748375",
+    "timestampString": "19:32:29",
+    "msgId": "7095508300945",
+    "cliMsgId": "1759926748295",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "bot",
+    "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
   }
