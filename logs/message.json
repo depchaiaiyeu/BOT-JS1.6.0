@@ -126078,5 +126078,79 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759933654791": {
+    "timestamp": "1759933654862",
+    "timestampString": "21:27:36",
+    "msgId": "7095936490288",
+    "cliMsgId": "1759933654791",
+    "msgType": "webchat",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": "Co ses kh",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596019688560": {
+    "timestamp": "1759933661742",
+    "timestampString": "21:27:42",
+    "msgId": "7095936883900",
+    "cliMsgId": "105596019688560",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Thanh Tùng",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/2114819157489706208/24937b11a95824067d49.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/2114819157489706208/24937b11a95824067d49.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/2114819157489706208\\/24937b11a95824067d49.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933663363": {
+    "timestamp": "1759933663411",
+    "timestampString": "21:27:43",
+    "msgId": "7095936990275",
+    "cliMsgId": "1759933663363",
+    "msgType": "chat.photo",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/4yhmwz.webp?creator=khangapi",
+      "thumb": "https://files.catbox.moe/4yhmwz.webp?creator=khangapi",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757918432688\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/4yhmwz.webp?creator=khangapi\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1757918432688\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933667434": {
+    "timestamp": "1759933667499",
+    "timestampString": "21:27:48",
+    "msgId": "7095937226665",
+    "cliMsgId": "1759933667434",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "Thèm à",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
