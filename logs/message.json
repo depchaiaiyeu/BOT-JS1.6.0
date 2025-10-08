@@ -31893,5 +31893,149 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903789347": {
+    "timestamp": "1759903789368",
+    "timestampString": "13:09:50",
+    "msgId": "7094103916513",
+    "cliMsgId": "1759903789347",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval message.data.quote",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903790242": {
+    "timestamp": "1759903790362",
+    "timestampString": "13:09:50",
+    "msgId": "7094103943262",
+    "cliMsgId": "1759903790242",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 1759903782800,\n  \"globalMsgId\": 0,\n  \"cliMsgType\": 1,\n  \"ts\": 1759903782801,\n  \"msg\": \"@Dell Yêu Ai\",\n  \"attach\": \"{\\\"thumb\\\":\\\"\\\",\\\"mentions\\\":[{\\\"uid\\\":2275317996891696552,\\\"ignoreNickname\\\":0,\\\"len\\\":12,\\\"pos\\\":0,\\\"type\\\":0}],\\\"description\\\":\\\"\\\",\\\"action\\\":\\\"\\\",\\\"childnumber\\\":\\\"0\\\",\\\"href\\\":\\\"\\\",\\\"title\\\":\\\"\\\",\\\"params\\\":\\\"\\\"}\",\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055942284039200": {
+    "timestamp": "1759903807981",
+    "timestampString": "13:10:08",
+    "msgId": "7094104730748",
+    "cliMsgId": "1055942284039200",
+    "msgType": "webchat",
+    "uidFrom": "1277772631698656128",
+    "idTo": "5601607522756268167",
+    "dName": "Bear",
+    "content": {
+      "title": "group này có biến căng ae ơi          :((((((((((\nhttps://zalo.me/g/xkjxwk345",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [\"{\\\"styles\\\": [{\\\"start\\\": 0, \\\"len\\\": 49, \\\"st\\\": \\\"c_FF5733\\\"}], \\\"ver\\\": 0}\", {\"start\": 0, \"len\": 49, \"st\": \"b\"}, \"{\\\"styles\\\": [{\\\"start\\\": 50, \\\"len\\\": 27, \\\"st\\\": \\\"c_33FF57\\\"}], \\\"ver\\\": 0}\", {\"start\": 50, \"len\": 27, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055942285251200": {
+    "timestamp": "1759903809269",
+    "timestampString": "13:10:09",
+    "msgId": "7094104793031",
+    "cliMsgId": "1055942285251200",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": "༺━Xin Phép Các Admin━༻\n       𝙉𝙝𝙖𝙣 𝙍𝙖𝙞 𝙇𝙞𝙣𝙠 𝙏𝙝𝙪𝙚 𝙄𝙗 𝙏𝙪𝙞\n༺━━Điểm mạnh━━༻\nHoạt động 24/7🦾\nỔn định💯\n༺━━Bảng giá━━━༻\n➣Ngày 5K\n➣Tuần 30K\n➣Tháng 60K\n༺━━Thuê Bot━━༻\n🚀🤖 DỊCH VỤ THUÊ – MUA BOT ZALO TOÀN NĂNG\n❥━━━━\n✨ ┏Hà Huy Hoàng┛  – Uy tín số 1 💫\n❥━━━━\n🔥 TÍNH NĂNG NỔI BẬT\n📩 Auto chat – Phản hồi siêu tốc ⚡\n🛡️ Quản lý nhóm – Chống spam, auto lọc rác \n🦾 BOT WAR – Spam cực mạnh 💣\n🚦Auto Rãi - Quảng Cáo 💰\n✅ Giá rẻ – Cài đặt nhanh – Bảo hành trọn gói 💯\n👉 Muốn có BOT ZALO TOÀN NĂNG? Không lo bị ATTACK?\n📩 Liên hệ ngay – Nhận BOT trong ngày! ⚡\n༺━━━Em Cảm Ơn━━━༻",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903809508": {
+    "timestamp": "1759903809516",
+    "timestampString": "13:10:09",
+    "msgId": "7094104793086",
+    "cliMsgId": "1759903809508",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nBánh Bông Lan\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055942285266200": {
+    "timestamp": "1759903809294",
+    "timestampString": "13:10:10",
+    "msgId": "7094104793038",
+    "cliMsgId": "1055942285266200",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bánh Bông Lan",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/669739264\\/a4a01cfce4a00dfe54b1.jpg\",\"gUid\":\"1K6AQHC56N8RV1OBR0HDQNDIT9JJ67O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/c/3/b/16/120/df6bc0e893d61d227cc2526fa56edc41.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8602274286000699226",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903809438": {
+    "timestamp": "1759903809445",
+    "timestampString": "13:10:10",
+    "msgId": "7094104793068",
+    "cliMsgId": "1759903809438",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8602274286000699000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1055942285266200,
+        "globalDelMsgId": 7094104793038,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
