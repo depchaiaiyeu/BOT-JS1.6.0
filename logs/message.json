@@ -124909,5 +124909,56 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759931947956": {
+    "timestamp": "1759931948028",
+    "timestampString": "20:59:08",
+    "msgId": "7095833504226",
+    "cliMsgId": "1759931947956",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "remove background",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931954170": {
+    "timestamp": "1759931954249",
+    "timestampString": "20:59:20",
+    "msgId": "7095833890522",
+    "cliMsgId": "1759931954170",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": ".scl china song",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931959763": {
+    "timestamp": "1759931959897",
+    "timestampString": "20:59:20",
+    "msgId": "7095834241455",
+    "cliMsgId": "1759931959763",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Kien\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/296282160382652293/d047f18197c81a9643d9.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/296282160382652293/d047f18197c81a9643d9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1654,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/296282160382652293\\/d047f18197c81a9643d9.jpg\",\"hdSize\":344700,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
