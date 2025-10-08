@@ -67797,5 +67797,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759924291902": {
+    "timestamp": "1759924291957",
+    "timestampString": "18:51:32",
+    "msgId": "7095362792849",
+    "cliMsgId": "1759924291902",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "*scl em của quá khứ remix",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924309090": {
+    "timestamp": "1759924309105",
+    "timestampString": "18:51:49",
+    "msgId": "7095363787970",
+    "cliMsgId": "1759924309090",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",bot é",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
