@@ -65709,5 +65709,79 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759923877918": {
+    "timestamp": "1759923877960",
+    "timestampString": "18:44:39",
+    "msgId": "7095338723613",
+    "cliMsgId": "1759923877918",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45589,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923880958": {
+    "timestamp": "1759923881047",
+    "timestampString": "18:44:41",
+    "msgId": "7095338896880",
+    "cliMsgId": "1759923880958",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Nguyễn Hồng Anh Đức hjhj=)))",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923882808": {
+    "timestamp": "1759923882872",
+    "timestampString": "18:44:43",
+    "msgId": "7095339003089",
+    "cliMsgId": "1759923882808",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Đr",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923890260": {
+    "timestamp": "1759923890374",
+    "timestampString": "18:44:51",
+    "msgId": "7095339433063",
+    "cliMsgId": "1759923890260",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Váy màu trắng đẹp vcl",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923892484": {
+    "timestamp": "1759923892766",
+    "timestampString": "18:44:53",
+    "msgId": "7095339571272",
+    "cliMsgId": "1759923892484",
+    "msgType": "webchat",
+    "uidFrom": "3029158015934153266",
+    "idTo": "4825567233436439756",
+    "dName": "Lee Hằngg",
+    "content": "@Văn Tám cc",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
