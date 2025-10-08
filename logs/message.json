@@ -127554,5 +127554,79 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759938329234": {
+    "timestamp": "1759938329442",
+    "timestampString": "22:45:30",
+    "msgId": "7096172537521",
+    "cliMsgId": "1759938329234",
+    "msgType": "webchat",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": "L",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938330993": {
+    "timestamp": "1759938331126",
+    "timestampString": "22:45:31",
+    "msgId": "7096172601631",
+    "cliMsgId": "1759938330993",
+    "msgType": "webchat",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": "Ồn",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938332566": {
+    "timestamp": "1759938332608",
+    "timestampString": "22:45:33",
+    "msgId": "7096172661580",
+    "cliMsgId": "1759938332566",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "H thêm bài mới cần mua vip",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938336165": {
+    "timestamp": "1759938336196",
+    "timestampString": "22:45:36",
+    "msgId": "7096172798742",
+    "cliMsgId": "1759938336165",
+    "msgType": "webchat",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": "Dcm zalo",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938338749": {
+    "timestamp": "1759938338780",
+    "timestampString": "22:45:39",
+    "msgId": "7096172898032",
+    "cliMsgId": "1759938338749",
+    "msgType": "chat.sticker",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "id": 47630,
+      "catId": 12045,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
