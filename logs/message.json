@@ -126654,5 +126654,52 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759936511670": {
+    "timestamp": "1759936511716",
+    "timestampString": "22:15:12",
+    "msgId": "7096092443124",
+    "cliMsgId": "1759936511670",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7197159612635375000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759936054101,
+        "globalDelMsgId": 7096069019394,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936520405": {
+    "timestamp": "1759936520405",
+    "timestampString": "22:15:21",
+    "msgId": "7096092873569",
+    "cliMsgId": "1759936520405",
+    "msgType": "chat.recommended",
+    "uidFrom": "523291538404353400",
+    "idTo": "5464956150740844012",
+    "dName": "Quyhoang Bá Mà",
+    "content": {
+      "title": "/-li  LINK SHARE MK FILE TIỀN 🐠  /-li \n/-li  VÔ BÚ CÒN KỊP NHÉ CÁC BRO /-li \n•LINK BOX SHARE 500FILE + MẬT KHẨU FILE AIMLOCK TIỀN CẢ VÔ IK ĐỪNG HỎI MẬT KHẨU FILE VÔ LÀ CÓ FILE TIỀN FILE MÀ BÁ NHOÁ ⚙️\n•https://zalo.me/g/fvlevi750",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/fvlevi750",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv20b4410e71e1759936520aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvODY5M2MwYWJjM2NmMjk5MTcwZGU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"streamUrl\":\"\",\"stream_icon\":\"\",\"mediaTitle\":\"𝑨𝑰𝑴𝑳𝑶𝑪𝑲 𝑿 𝑸𝑼𝒀𝑯𝑶𝑨𝑵𝑮 🖥\",\"artist\":\"\",\"src\":\"zalo.me\",\"count\":\"\",\"type\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
