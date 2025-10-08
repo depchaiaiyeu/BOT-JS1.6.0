@@ -3755,8 +3755,8 @@
         {
           "UserName": "Cu Anh",
           "UID": "6908614344605195995",
-          "Rank": 4,
-          "messageCountToday": 4,
+          "Rank": 5,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3790,8 +3790,8 @@
         {
           "UserName": "Trần Tổng",
           "UID": "717224590695865551",
-          "Rank": 9,
-          "messageCountToday": 9,
+          "Rank": 10,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -4412,6 +4412,13 @@
           "UID": "1903342543859028305",
           "Rank": 9,
           "messageCountToday": 9,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Ka",
+          "UID": "6230268389196972365",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
         }
       ],
