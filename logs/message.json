@@ -124635,5 +124635,163 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759931741315": {
+    "timestamp": "1759931741446",
+    "timestampString": "20:55:41",
+    "msgId": "7095820632542",
+    "cliMsgId": "1759931741315",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ Tình Ta Hai Ngã",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":67,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931741060": {
+    "timestamp": "1759931741194",
+    "timestampString": "20:55:42",
+    "msgId": "7095820632520",
+    "cliMsgId": "1759931741060",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759931709888,
+        "globalDelMsgId": 7095818687083,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931742950": {
+    "timestamp": "1759931742960",
+    "timestampString": "20:55:43",
+    "msgId": "7095820778911",
+    "cliMsgId": "1759931742950",
+    "msgType": "webchat",
+    "uidFrom": "8963550240679491935",
+    "idTo": "7897564732983285154",
+    "dName": "Dũng",
+    "content": "Lmao",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931746828": {
+    "timestamp": "1759931746958",
+    "timestampString": "20:55:47",
+    "msgId": "7095821024627",
+    "cliMsgId": "1759931746828",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931747320": {
+    "timestamp": "1759931747460",
+    "timestampString": "20:55:47",
+    "msgId": "7095821024692",
+    "cliMsgId": "1759931747320",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/6999436608177982405/97b4e9b982f00fae56e1.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/6999436608177982405/97b4e9b982f00fae56e1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/6999436608177982405\\/97b4e9b982f00fae56e1.jpg\",\"hdSize\":190850,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931739495": {
+    "timestamp": "1759931739553",
+    "timestampString": "20:55:48",
+    "msgId": "7095820564382",
+    "cliMsgId": "1759931739495",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "1",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931748736": {
+    "timestamp": "1759931748869",
+    "timestampString": "20:55:49",
+    "msgId": "7095821146986",
+    "cliMsgId": "1759931748736",
+    "msgType": "chat.voice",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/7e0b9a732fe08ebed7f1/1051742608603609133/Vu-Xuan-Kien-Service-Bot.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":5673377,\"m4a\":\"https:\\/\\/fg42.dlfl.vn\\/7e0b9a732fe08ebed7f1\\/1051742608603609133\\/Vu-Xuan-Kien-Service-Bot.aac\"}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931753106": {
+    "timestamp": "1759931753266",
+    "timestampString": "20:55:53",
+    "msgId": "7095821418160",
+    "cliMsgId": "1759931753106",
+    "msgType": "webchat",
+    "uidFrom": "8318817178975887433",
+    "idTo": "5975420422762749911",
+    "dName": "Thăng Nguyễn",
+    "content": "#skxp",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
