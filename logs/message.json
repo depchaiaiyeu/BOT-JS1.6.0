@@ -108543,5 +108543,292 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759928819724": {
+    "timestamp": "1759928819859",
+    "timestampString": "20:07:00",
+    "msgId": "7095637119307",
+    "cliMsgId": "1759928819724",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759928819323,
+        "globalDelMsgId": 7095637099786,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928820132": {
+    "timestamp": "1759928820193",
+    "timestampString": "20:07:00",
+    "msgId": "7095637151072",
+    "cliMsgId": "1759928820132",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": "key",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928820581": {
+    "timestamp": "1759928820715",
+    "timestampString": "20:07:01",
+    "msgId": "7095637168575",
+    "cliMsgId": "1759928820581",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759928820132,
+        "globalDelMsgId": 7095637151072,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928820882": {
+    "timestamp": "1759928821037",
+    "timestampString": "20:07:01",
+    "msgId": "7095637205178",
+    "cliMsgId": "1759928820882",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": "jey",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928821401": {
+    "timestamp": "1759928821533",
+    "timestampString": "20:07:02",
+    "msgId": "7095637220259",
+    "cliMsgId": "1759928821401",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "⚠️ Cảnh cáo @Hot Nhây Zép Lào!\nChậm cái tay lại bạn êy, tay hơi nhanh rồi đấy!",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928821645": {
+    "timestamp": "1759928821779",
+    "timestampString": "20:07:02",
+    "msgId": "7095637220277",
+    "cliMsgId": "1759928821645",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759928820882,
+        "globalDelMsgId": 7095637205178,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928823445": {
+    "timestamp": "1759928823770",
+    "timestampString": "20:07:04",
+    "msgId": "7095637377798",
+    "cliMsgId": "1759928823445",
+    "msgType": "webchat",
+    "uidFrom": "7336355608886049",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Tt Huyền",
+    "content": "((:",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928822868": {
+    "timestamp": "1759928824868",
+    "timestampString": "20:07:05",
+    "msgId": "7095637446461",
+    "cliMsgId": "1759928822868",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": "key",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928825475": {
+    "timestamp": "1759928825609",
+    "timestampString": "20:07:05",
+    "msgId": "7095637476515",
+    "cliMsgId": "1759928825475",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759928822868,
+        "globalDelMsgId": 7095637446461,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928825539": {
+    "timestamp": "1759928825658",
+    "timestampString": "20:07:06",
+    "msgId": "7095637495732",
+    "cliMsgId": "1759928825539",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Muốn ngủ ghê chơ8f",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928826030": {
+    "timestamp": "1759928826108",
+    "timestampString": "20:07:06",
+    "msgId": "7095637525657",
+    "cliMsgId": "1759928826030",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "R m có uphost r đó",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928827691": {
+    "timestamp": "1759928827731",
+    "timestampString": "20:07:08",
+    "msgId": "7095637628401",
+    "cliMsgId": "1759928827691",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45594,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928834160": {
+    "timestamp": "1759928834250",
+    "timestampString": "20:07:15",
+    "msgId": "7095638041524",
+    "cliMsgId": "1759928834160",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": "con đĩ mẹ m kiên=))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928835540": {
+    "timestamp": "1759928835673",
+    "timestampString": "20:07:16",
+    "msgId": "7095638089560",
+    "cliMsgId": "1759928835540",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759928834160,
+        "globalDelMsgId": 7095638041524,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928840911": {
+    "timestamp": "1759928841017",
+    "timestampString": "20:07:22",
+    "msgId": "7095638471852",
+    "cliMsgId": "1759928840911",
+    "msgType": "chat.photo",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Hot Nhây Zép Lào",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f26-zpc.zdn.vn/8519565585150675855/18c3369c2097aac9f386.png",
+      "thumb": "https://f26-zpc.zdn.vn/8519565585150675855/18c3369c2097aac9f386.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758552115990\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f19-zpc.zdn.vn\\/3814526485713609039\\/6517314e2745ad1bf454.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758552115990\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928843318": {
+    "timestamp": "1759928843657",
+    "timestampString": "20:07:24",
+    "msgId": "7095638639151",
+    "cliMsgId": "1759928843318",
+    "msgType": "webchat",
+    "uidFrom": "7336355608886049",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Tt Huyền",
+    "content": "Mo phạt",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
