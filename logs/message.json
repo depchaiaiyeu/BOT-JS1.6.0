@@ -124407,5 +124407,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935157300": {
+    "timestamp": "1759935157375",
+    "timestampString": "21:52:38",
+    "msgId": "7096021082022",
+    "cliMsgId": "1759935157300",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Ko nhớ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935165896": {
+    "timestamp": "1759935166355",
+    "timestampString": "21:52:47",
+    "msgId": "7096021561678",
+    "cliMsgId": "1759935165896",
+    "msgType": "webchat",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": "Ối Tài lại nói ko nhớ nữa rùi! :0 Tài tính chọc iem dỗi thiệt đó hả =)) Thôi mà, Tài mà ko nhớ là iem khóc đó nhaaa :(",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
