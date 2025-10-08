@@ -125243,5 +125243,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759932178919": {
+    "timestamp": "1759932179112",
+    "timestampString": "21:03:00",
+    "msgId": "7095847862326",
+    "cliMsgId": "1759932178919",
+    "msgType": "webchat",
+    "uidFrom": "8641533517187152599",
+    "idTo": "4699745045071009795",
+    "dName": "-mhag",
+    "content": "Si ca lố si ca lồ",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
