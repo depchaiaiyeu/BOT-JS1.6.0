@@ -127837,5 +127837,65 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759938632737": {
+    "timestamp": "1759938632780",
+    "timestampString": "22:50:34",
+    "msgId": "7096183890458",
+    "cliMsgId": "1759938632737",
+    "msgType": "chat.photo",
+    "uidFrom": "6933146882117219852",
+    "idTo": "5464956150740844012",
+    "dName": "Vương",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/3617101777591234969/175971751f3d9263cb2c.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/3617101777591234969/175971751f3d9263cb2c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"id_in_group\":1,\"is_group_layout\":1,\"width\":1193,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/3617101777591234969\\/175971751f3d9263cb2c.jpg\",\"hdSize\":69569,\"group_layout_id\":1759938632737,\"height\":506,\"total_item_in_group\":2}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938632640": {
+    "timestamp": "1759938632684",
+    "timestampString": "22:50:34",
+    "msgId": "7096183879452",
+    "cliMsgId": "1759938632640",
+    "msgType": "webchat",
+    "uidFrom": "6933146882117219852",
+    "idTo": "5464956150740844012",
+    "dName": "Vương",
+    "content": "Tại Website : Trumclone.Vn",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938632738": {
+    "timestamp": "1759938632952",
+    "timestampString": "22:50:34",
+    "msgId": "7096183890470",
+    "cliMsgId": "1759938632738",
+    "msgType": "chat.photo",
+    "uidFrom": "6933146882117219852",
+    "idTo": "5464956150740844012",
+    "dName": "Vương",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/5973080086685169424/8cf201b06ff8e2a6bbe9.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/5973080086685169424/8cf201b06ff8e2a6bbe9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"id_in_group\":0,\"is_group_layout\":1,\"width\":1217,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/5973080086685169424\\/8cf201b06ff8e2a6bbe9.jpg\",\"hdSize\":89065,\"group_layout_id\":1759938632737,\"height\":581,\"total_item_in_group\":2}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
