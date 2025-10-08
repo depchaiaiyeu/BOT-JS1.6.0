@@ -30745,5 +30745,60 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759902870844": {
+    "timestamp": "1759902870866",
+    "timestampString": "12:54:33",
+    "msgId": "7094064929618",
+    "cliMsgId": "1759902870844",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.getQRLink(senderId)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902872980": {
+    "timestamp": "1759902873094",
+    "timestampString": "12:54:33",
+    "msgId": "7094064994077",
+    "cliMsgId": "1759902872980",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"690483581226941870\": \"https://qr-talk.zdn.vn/1/134085230/ddb2d2d0638f8ad1d39e.jpg\"\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759902879766": {
+    "timestamp": "1759902879777",
+    "timestampString": "12:54:40",
+    "msgId": "7094065299399",
+    "cliMsgId": "1759902879766",
+    "msgType": "chat.sticker",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "id": 21237,
+      "catId": 10291,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
