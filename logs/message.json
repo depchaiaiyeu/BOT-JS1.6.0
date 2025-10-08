@@ -33956,5 +33956,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759921473412": {
+    "timestamp": "1759921473512",
+    "timestampString": "18:04:34",
+    "msgId": "7095201919430",
+    "cliMsgId": "1759921473412",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Đâu đâu",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921475666": {
+    "timestamp": "1759921475750",
+    "timestampString": "18:04:36",
+    "msgId": "7095202048893",
+    "cliMsgId": "1759921475666",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "ai gay",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
