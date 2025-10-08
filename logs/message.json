@@ -128059,5 +128059,56 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759938991123": {
+    "timestamp": "1759938991177",
+    "timestampString": "22:56:32",
+    "msgId": "7096196712313",
+    "cliMsgId": "1759938991123",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "@Hiếu tải bàn cũ",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938993554": {
+    "timestamp": "1759938993637",
+    "timestampString": "22:56:34",
+    "msgId": "7096196796030",
+    "cliMsgId": "1759938993554",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "@Hiếu ghê",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759939014808": {
+    "timestamp": "1759939015272",
+    "timestampString": "22:56:56",
+    "msgId": "7096197548067",
+    "cliMsgId": "1759939014808",
+    "msgType": "chat.photo",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/651433609500521596/6678485f2f17a249fb06.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/651433609500521596/6678485f2f17a249fb06.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":556,\"thumb_width\":285,\"thumb_height\":136,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/f57-zpg-r.zdn.vn\\/jpg\\/651433609500521596\\/6678485f2f17a249fb06.jpg\",\"width\":1170,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
