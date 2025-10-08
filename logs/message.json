@@ -127379,5 +127379,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759938233394": {
+    "timestamp": "1759938234084",
+    "timestampString": "22:43:54",
+    "msgId": "7096168855296",
+    "cliMsgId": "1759938233394",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/61f13d2382f576ab2fe4/3051223608049404856.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/61f13d2382f576ab2fe4/3051223608049404856.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":416,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":828,\"height\":1792,\"thumb_width\":192}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
