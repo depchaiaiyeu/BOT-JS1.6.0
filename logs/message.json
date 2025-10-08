@@ -124360,5 +124360,56 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759934258888": {
+    "timestamp": "1759934258967",
+    "timestampString": "21:37:39",
+    "msgId": "7095971297697",
+    "cliMsgId": "1759934258888",
+    "msgType": "webchat",
+    "uidFrom": "5887262783303517064",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Thu Thuỷ",
+    "content": "Lí do : lọc gr",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934261679": {
+    "timestamp": "1759934261775",
+    "timestampString": "21:37:42",
+    "msgId": "7095971457786",
+    "cliMsgId": "1759934261679",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Oắt đờ heo",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934262816": {
+    "timestamp": "1759934263678",
+    "timestampString": "21:37:44",
+    "msgId": "7095971565379",
+    "cliMsgId": "1759934262816",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/8279193096317774093/2b15e0b21cfb91a5c8ea.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/8279193096317774093/2b15e0b21cfb91a5c8ea.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/8279193096317774093\\/2b15e0b21cfb91a5c8ea.jpg\",\"hdSize\":428373,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
