@@ -34875,5 +34875,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759921795836": {
+    "timestamp": "1759921795977",
+    "timestampString": "18:09:56",
+    "msgId": "7095220468134",
+    "cliMsgId": "1759921795836",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Hiếu nó nghẻo r",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921799503": {
+    "timestamp": "1759921799646",
+    "timestampString": "18:09:59",
+    "msgId": "7095220676938",
+    "cliMsgId": "1759921799503",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Bỏ vợ đi chs r",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
