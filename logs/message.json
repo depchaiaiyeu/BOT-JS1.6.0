@@ -116866,5 +116866,147 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759930235569": {
+    "timestamp": "1759930235668",
+    "timestampString": "20:30:36",
+    "msgId": "7095726779303",
+    "cliMsgId": "1759930235569",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "@Bảo Ngọc Ck cj giận rồi kìa",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930234191": {
+    "timestamp": "1759930234238",
+    "timestampString": "20:30:37",
+    "msgId": "7095726689268",
+    "cliMsgId": "1759930234191",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": "nhạc em đâu @Vũ Xuân Kiên 😭",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930236789": {
+    "timestamp": "1759930236917",
+    "timestampString": "20:30:37",
+    "msgId": "7095726860308",
+    "cliMsgId": "1759930236789",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "tk gầy hâm hâm",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930240678": {
+    "timestamp": "1759930240860",
+    "timestampString": "20:30:41",
+    "msgId": "7095727110764",
+    "cliMsgId": "1759930240678",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "@Thành Nhân Hả",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930244582": {
+    "timestamp": "1759930245086",
+    "timestampString": "20:30:45",
+    "msgId": "7095727378665",
+    "cliMsgId": "1759930244582",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Kkk",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930245777": {
+    "timestamp": "1759930246084",
+    "timestampString": "20:30:46",
+    "msgId": "7095727441637",
+    "cliMsgId": "1759930245777",
+    "msgType": "chat.delete",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6771373202781455000,
+        "uidTo": 8281509084603580000,
+        "clientDelMsgId": 1759929665108,
+        "globalDelMsgId": 7095690702873,
+        "destId": 8281509084603580000
+      }
+    ],
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930253958": {
+    "timestamp": "1759930254248",
+    "timestampString": "20:30:55",
+    "msgId": "7095727959420",
+    "cliMsgId": "1759930253958",
+    "msgType": "chat.delete",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6771373202781455000,
+        "uidTo": 8281509084603580000,
+        "clientDelMsgId": 1759924364880,
+        "globalDelMsgId": 7095367093397,
+        "destId": 8281509084603580000
+      }
+    ],
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930258175": {
+    "timestamp": "1759930258469",
+    "timestampString": "20:30:58",
+    "msgId": "7095728230881",
+    "cliMsgId": "1759930258175",
+    "msgType": "chat.delete",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6771373202781455000,
+        "uidTo": 8281509084603580000,
+        "clientDelMsgId": 1759924364876,
+        "globalDelMsgId": 7095367296087,
+        "destId": 8281509084603580000
+      }
+    ],
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
