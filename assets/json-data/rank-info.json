@@ -1881,8 +1881,8 @@
         {
           "UserName": "Karic",
           "UID": "4405826118661077023",
-          "Rank": 4,
-          "messageCountToday": 1,
+          "Rank": 5,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2012,8 +2012,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 333,
-          "messageCountToday": 94,
+          "Rank": 334,
+          "messageCountToday": 95,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2568,8 +2568,8 @@
         {
           "UserName": "Trung Trí",
           "UID": "450249133712562180",
-          "Rank": 38,
-          "messageCountToday": 11,
+          "Rank": 41,
+          "messageCountToday": 14,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2827,6 +2827,13 @@
         {
           "UserName": "Thăng Nguyễn",
           "UID": "8318817178975887433",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Dell Yêu Ai",
+          "UID": "2275317996891696552",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
