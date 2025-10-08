@@ -127015,5 +127015,33 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759937446146": {
+    "timestamp": "1759937446203",
+    "timestampString": "22:30:47",
+    "msgId": "7096136253223",
+    "cliMsgId": "1759937446146",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "sleep(18600)",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937458643": {
+    "timestamp": "1759937458756",
+    "timestampString": "22:30:59",
+    "msgId": "7096136804882",
+    "cliMsgId": "1759937458643",
+    "msgType": "webchat",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": "@Xre ok bay acc tiep",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
