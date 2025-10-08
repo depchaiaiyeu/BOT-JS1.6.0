@@ -92594,5 +92594,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759927339896": {
+    "timestamp": "1759927339935",
+    "timestampString": "19:42:21",
+    "msgId": "7095544207788",
+    "cliMsgId": "1759927339896",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Ê",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759927340211": {
+    "timestamp": "1759927340352",
+    "timestampString": "19:42:21",
+    "msgId": "7095544231321",
+    "cliMsgId": "1759927340211",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "7585160044864555896",
+    "dName": "Danny",
+    "content": "/tt harou.official",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
