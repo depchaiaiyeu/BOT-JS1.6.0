@@ -37528,5 +37528,47 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759922791708": {
+    "timestamp": "1759922791769",
+    "timestampString": "18:26:33",
+    "msgId": "7095276009875",
+    "cliMsgId": "1759922791708",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4582721331431294882",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 100; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"UNDO\", message);\n}",
+    "threadId": "4582721331431294882",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922801240": {
+    "timestamp": "1759922801297",
+    "timestampString": "18:26:41",
+    "msgId": "7095276553684",
+    "cliMsgId": "1759922801240",
+    "msgType": "webchat",
+    "uidFrom": "6875956015145243223",
+    "idTo": "7897564732983285154",
+    "dName": "Bi Xd",
+    "content": "@Vu Huynh Nhi iu vk",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759922800857": {
+    "timestamp": "1759922801639",
+    "timestampString": "18:26:41",
+    "msgId": "7095276541234",
+    "cliMsgId": "1759922800857",
+    "msgType": "webchat",
+    "uidFrom": "4955887132850349053",
+    "idTo": "7897564732983285154",
+    "dName": "Minh Quang",
+    "content": "@Vu Huynh Nhi 🤓 🤓",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
