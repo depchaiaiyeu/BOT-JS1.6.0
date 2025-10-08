@@ -127642,5 +127642,47 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759938441177": {
+    "timestamp": "1759938441335",
+    "timestampString": "22:47:22",
+    "msgId": "7096176785387",
+    "cliMsgId": "1759938441177",
+    "msgType": "webchat",
+    "uidFrom": "2320113969277989641",
+    "idTo": "7734313716342939502",
+    "dName": "Nguyen Thinh",
+    "content": "Nhóm giao lưu buôn bán\nVui vẻ cho anh em nào cần,\nVào lâu lâu sẽ có event nhóm nho nhỏ của các game như : blox fruit, gag , steal , plant , và có thể là rubux hoặc vnđ...vv\nVào box tuyển tv có thể được key bạc😘 \n\nhttps://zalo.me/g/zdqerh321\n \nMình luôn chào đón các bạn!\nXin vui lòng trả lời câu trình duyệt khi vào\n\nChuẩn bị event key bạc",
+    "threadId": "7734313716342939502",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938443206": {
+    "timestamp": "1759938443277",
+    "timestampString": "22:47:23",
+    "msgId": "7096176859729",
+    "cliMsgId": "1759938443206",
+    "msgType": "webchat",
+    "uidFrom": "2614822277671357554",
+    "idTo": "7585160044864555896",
+    "dName": "Ngọc Hùng",
+    "content": "/like",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938443537": {
+    "timestamp": "1759938445777",
+    "timestampString": "22:47:26",
+    "msgId": "7096176949716",
+    "cliMsgId": "1759938443537",
+    "msgType": "webchat",
+    "uidFrom": "717224590695865551",
+    "idTo": "8281509084603580118",
+    "dName": "Trần Tổng",
+    "content": "Tik cs mà",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
