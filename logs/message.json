@@ -68536,5 +68536,271 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759924444303": {
+    "timestamp": "1759924444407",
+    "timestampString": "18:54:05",
+    "msgId": "7095371643361",
+    "cliMsgId": "1759924444303",
+    "msgType": "webchat",
+    "uidFrom": "8562724088712020975",
+    "idTo": "5975420422762749911",
+    "dName": "Minh",
+    "content": "?gif belll",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924447281": {
+    "timestamp": "1759924447334",
+    "timestampString": "18:54:07",
+    "msgId": "7095371833047",
+    "cliMsgId": "1759924447281",
+    "msgType": "webchat",
+    "uidFrom": "450249133712562180",
+    "idTo": "4699745045071009795",
+    "dName": "Trung Trí",
+    "content": "Tội nghiệp ghê",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595466867040": {
+    "timestamp": "1759924447922",
+    "timestampString": "18:54:08",
+    "msgId": "7095371818460",
+    "cliMsgId": "105595466867040",
+    "msgType": "webchat",
+    "uidFrom": "2396688189362799225",
+    "idTo": "5975420422762749911",
+    "dName": "Minhh",
+    "content": "⏳ Bot đang tạo GIF...",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924450888": {
+    "timestamp": "1759924453032",
+    "timestampString": "18:54:13",
+    "msgId": "7095372140254",
+    "cliMsgId": "1759924450888",
+    "msgType": "chat.gif",
+    "uidFrom": "2396688189362799225",
+    "idTo": "5975420422762749911",
+    "dName": "Minhh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/2a738d974804e95ab015/4787327863832638722",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommend.gif",
+      "params": "{\"width\":400,\"height\":120}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924453019": {
+    "timestamp": "1759924453079",
+    "timestampString": "18:54:13",
+    "msgId": "7095372168491",
+    "cliMsgId": "1759924453019",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45591,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924456983": {
+    "timestamp": "1759924457057",
+    "timestampString": "18:54:17",
+    "msgId": "7095372399489",
+    "cliMsgId": "1759924456983",
+    "msgType": "chat.photo",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f29-zfcloud.zdn.vn/84be942c536af234ab7b/3966425174168611835",
+      "thumb": "https://f29-zfcloud.zdn.vn/84be942c536af234ab7b/3966425174168611835",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":816,\"height\":960,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1739458004673\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f29-zfcloud.zdn.vn\\/84be942c536af234ab7b\\/3966425174168611835\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1739458004673\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924457625": {
+    "timestamp": "1759924457760",
+    "timestampString": "18:54:18",
+    "msgId": "7095372431855",
+    "cliMsgId": "1759924457625",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924456983,
+        "globalDelMsgId": 7095372399489,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924460612": {
+    "timestamp": "1759924460677",
+    "timestampString": "18:54:21",
+    "msgId": "7095372610732",
+    "cliMsgId": "1759924460612",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Mạnh thí",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924460446": {
+    "timestamp": "1759924460511",
+    "timestampString": "18:54:21",
+    "msgId": "7095372603608",
+    "cliMsgId": "1759924460446",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": "kaka",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924461106": {
+    "timestamp": "1759924461241",
+    "timestampString": "18:54:21",
+    "msgId": "7095372605031",
+    "cliMsgId": "1759924461106",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924460446,
+        "globalDelMsgId": 7095372603608,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924457460": {
+    "timestamp": "1759924457516",
+    "timestampString": "18:54:25",
+    "msgId": "7095372428454",
+    "cliMsgId": "1759924457460",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",stt Ngày hôm nay trời trong xanh đẹp như tranh mình cùng dạo quanh cả thế giới đừng vội nhanh một hành trình nhật ký yêu thương đời mình hát vu vơ về tình đầu em ơi ngày hôm ấy là cô bé tuổi đôi mươi vậy mà giờ đã lớn trưởng thành hơn mặc váy cưới chẳng điều gì dừng bước em tôi vì người mãi sa đẹp tuyệt vời anh ở vùng quê khu nghèo khó đó có trăm điều khó muốn nên thành phố nên phải cố sao cho bụng anh luôn no thế rồi gặp em những vụn vỡ đã lỡ đêm lại nhớ nằm mơ gọi tên em thiên lý ơi em có thể nào ở lại đây ko biết chăng ngoài trời mưa giông nhiều cô đơn lắm em ơi thiên lý ơi anh chỉ mong người bình yên thôi nắm tay ghì chặt đôi môi rồi ngồi giữa lưng đồi💔",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924465302": {
+    "timestamp": "1759924465434",
+    "timestampString": "18:54:25",
+    "msgId": "7095372836485",
+    "cliMsgId": "1759924465302",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Status của bạn đã được tạo!",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/8806745205327523872/bbf5a3572418a946f009.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/8806745205327523872/bbf5a3572418a946f009.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/8806745205327523872\\/bbf5a3572418a946f009.jpg\",\"hdSize\":712289,\"height\":1618}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924465591": {
+    "timestamp": "1759924465643",
+    "timestampString": "18:54:26",
+    "msgId": "7095372900712",
+    "cliMsgId": "1759924465591",
+    "msgType": "chat.photo",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Anh Là Hải Anh Hot Nhây",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
+      "thumb": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758551749029\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f18-zpc.zdn.vn\\/2419567078040627963\\/16e6d4bdb1b63be862a7.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758551749029\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924466219": {
+    "timestamp": "1759924466355",
+    "timestampString": "18:54:26",
+    "msgId": "7095372890706",
+    "cliMsgId": "1759924466219",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2577252855236527600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759924465591,
+        "globalDelMsgId": 7095372900712,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
