@@ -99,13 +99,24 @@ export async function handleEval(api, message) {
       senderId,
       threadId
     };
-    const result = await (async function() {
-      const contextKeys = Object.keys(evalContext);
-      const contextValues = Object.values(evalContext);
-      const AsyncFunction = async function(){}.constructor;
-      const fn = new AsyncFunction(...contextKeys, codeToEval);
-      return await fn(...contextValues);
-    })();
+    let result;
+    try {
+      result = await (async function() {
+        const contextKeys = Object.keys(evalContext);
+        const contextValues = Object.values(evalContext);
+        const AsyncFunction = async function(){}.constructor;
+        const fn = new AsyncFunction(...contextKeys, codeToEval);
+        return await fn(...contextValues);
+      })();
+    } catch (error) {
+      result = await (async function() {
+        const contextKeys = Object.keys(evalContext);
+        const contextValues = Object.values(evalContext);
+        const AsyncFunction = async function(){}.constructor;
+        const fn = new AsyncFunction(...contextKeys, `return (${codeToEval})`);
+        return await fn(...contextValues);
+      })();
+    }
     await sendMessageFromSQL(
       api,
       message,
