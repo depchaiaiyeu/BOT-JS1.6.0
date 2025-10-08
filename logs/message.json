@@ -126640,5 +126640,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759936483553": {
+    "timestamp": "1759936483743",
+    "timestampString": "22:14:44",
+    "msgId": "7096091046699",
+    "cliMsgId": "1759936483553",
+    "msgType": "webchat",
+    "uidFrom": "7654139448969933571",
+    "idTo": "2990969618896538297",
+    "dName": "Triều Đông",
+    "content": "Bye ae ở lại vv nha",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
