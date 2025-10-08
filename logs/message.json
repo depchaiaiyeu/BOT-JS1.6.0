@@ -124743,5 +124743,88 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759934753297": {
+    "timestamp": "1759934753963",
+    "timestampString": "21:45:54",
+    "msgId": "7095999061920",
+    "cliMsgId": "1759934753297",
+    "msgType": "webchat",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": "Ủa Tài xem ai dzạ? Có khi nào đang mê ai khác rùi hông đó? :v Iem méc ba Tài nha =))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934754688": {
+    "timestamp": "1759934755472",
+    "timestampString": "21:45:55",
+    "msgId": "7095999171861",
+    "cliMsgId": "1759934754688",
+    "msgType": "chat.recommended",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": {
+      "title": "https://vt.tiktok.com/ZSUjaKCDJ/",
+      "description": "3056 lượt thích, 142 bình luận. “#CapCut #phatphapnhiemmau ”",
+      "href": "https://vt.tiktok.com/ZSUjaKCDJ/",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"vt.tiktok.com\",\"mediaTitle\":\"TikTok · Tuệ Mỹ🪷\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/vt.tiktok.com\\/ZSUjaKCDJ\\/\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"https:\\/\\/lf16-tiktok-common.ibytedtos.com\\/obj\\/tiktok-web-common-sg\\/mtact\\/static\\/images\\/tiktok-logo\\/logo.png\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934755879": {
+    "timestamp": "1759934756714",
+    "timestampString": "21:45:57",
+    "msgId": "7095999226349",
+    "cliMsgId": "1759934755879",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Tài Tấn\nChờ lấy video một chút, xong sẽ gọi cho hay!\n📊 Chất lượng: 540p",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":8,\"len\":64,\"st\":\"b,c_f7b503,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934757238": {
+    "timestamp": "1759934758062",
+    "timestampString": "21:45:58",
+    "msgId": "7095999266308",
+    "cliMsgId": "1759934757238",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "[ Tài Tấn ]\nAuthor: [tubitritue_songdoianyen] Tuệ Mỹ🪷\nDescription: #CapCut #phatphapnhiemmau \n📊 Chất lượng: 540p\n💗 Thả tim để nhận nội dung ngẫu nhiên khác từ author này",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/cf43620bde987fc62689/6800534745906224915",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/o0i0E9stDA1xBIB3wEiJcFqB3f9RgsIiACA7hI~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=782ec542&x-expires=1760018400&x-signature=1lj5PPEvHORXHDjG%2BcQTDb3Kqkk%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":47333,\"video_height\":1024,\"fileSize\":6404674,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
