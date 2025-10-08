@@ -127628,5 +127628,19 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759938416255": {
+    "timestamp": "1759938416342",
+    "timestampString": "22:46:57",
+    "msgId": "7096175841101",
+    "cliMsgId": "1759938416255",
+    "msgType": "webchat",
+    "uidFrom": "5887262783303517064",
+    "idTo": "8281509084603580118",
+    "dName": "Nguyễn Thu Thuỷ",
+    "content": "@Mk hỏng có bt",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
