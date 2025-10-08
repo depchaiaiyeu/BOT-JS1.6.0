@@ -126876,5 +126876,126 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759937310588": {
+    "timestamp": "1759937310632",
+    "timestampString": "22:28:31",
+    "msgId": "7096130221482",
+    "cliMsgId": "1759937310588",
+    "msgType": "webchat",
+    "uidFrom": "5887262783303517064",
+    "idTo": "8281509084603580118",
+    "dName": "Nguyễn Thu Thuỷ",
+    "content": "@Hoàng Nam j v",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937312616": {
+    "timestamp": "1759937312833",
+    "timestampString": "22:28:33",
+    "msgId": "7096130320483",
+    "cliMsgId": "1759937312616",
+    "msgType": "chat.recommended",
+    "uidFrom": "3073766833158448019",
+    "idTo": "4699745045071009795",
+    "dName": "Trai Ngoan",
+    "content": {
+      "title": "https://zalo.me/g/prfdej743",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/prfdej743",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv24487e52a231759937254aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNDg2Y2M1NTA1MjM3Yjg2OWUxMjY=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Tự do đê\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/prfdej743\",\"owner\":{\"id\":402727725,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/d\\/a\\/1\\/7\\/6\\/120\\/84faa248832ef0ffe5bb6d612b6a13c0.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937313346": {
+    "timestamp": "1759937313679",
+    "timestampString": "22:28:34",
+    "msgId": "7096130356611",
+    "cliMsgId": "1759937313346",
+    "msgType": "chat.photo",
+    "uidFrom": "7953749493600382554",
+    "idTo": "8281509084603580118",
+    "dName": "Trung Đoàn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/124354419768436974/ec3065ff2eb7a3e9faa6.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/124354419768436974/ec3065ff2eb7a3e9faa6.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":500,\"height\":500,\"is_group_layout\":0,\"contentId\":\"1000015701\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937318808": {
+    "timestamp": "1759937318861",
+    "timestampString": "22:28:39",
+    "msgId": "7096130587949",
+    "cliMsgId": "1759937318808",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3073766833158448000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759937312616,
+        "globalDelMsgId": 7096130320483,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937334261": {
+    "timestamp": "1759937335788",
+    "timestampString": "22:28:56",
+    "msgId": "7096131348984",
+    "cliMsgId": "1759937334261",
+    "msgType": "chat.photo",
+    "uidFrom": "651216097038065970",
+    "idTo": "4825567233436439756",
+    "dName": "L A T",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/474914586595821264/07acbfb5f3fd7ea327ec.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/474914586595821264/07acbfb5f3fd7ea327ec.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":2400,\"height\":1080,\"hd\":\"https:\\/\\/f62-zpg-r.zdn.vn\\/jpg\\/474914586595821264\\/07acbfb5f3fd7ea327ec.jpg\",\"is_group_layout\":0,\"contentId\":\"1000001318\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937338208": {
+    "timestamp": "1759937338263",
+    "timestampString": "22:28:58",
+    "msgId": "7096131454068",
+    "cliMsgId": "1759937338208",
+    "msgType": "webchat",
+    "uidFrom": "651216097038065970",
+    "idTo": "4825567233436439756",
+    "dName": "L A T",
+    "content": "tuyệt",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
