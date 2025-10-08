@@ -33,6 +33,71 @@ export function stopTodo() {
   activeTodo = false;
 }
 
+export async function handleEval(api, message) {
+  try {
+    const content = removeMention(message);
+    const prefix = getGlobalPrefix();
+    const senderName = message.data?.dName || "Người dùng";
+    const senderId = message.data?.uidFrom;
+    const threadId = message.threadId;
+
+    const codeToEval = content.replace(new RegExp(`^${prefix}eval\\s*`, 'i'), '').trim();
+
+    if (!codeToEval) {
+      await sendMessageFromSQL(
+        api,
+        message,
+        {
+          success: false,
+          message: `Vui lòng nhập code cần thực thi!`
+        },
+        false,
+        30000
+      );
+      return;
+    }
+
+    const evalContext = {
+      api,
+      message,
+      senderName,
+      senderId,
+      threadId
+    };
+
+    const result = await (async function() {
+      const contextKeys = Object.keys(evalContext);
+      const contextValues = Object.values(evalContext);
+      const AsyncFunction = async function(){}.constructor;
+      const fn = new AsyncFunction(...contextKeys, `return (${codeToEval})`);
+      return await fn(...contextValues);
+    })();
+
+    await sendMessageFromSQL(
+      api,
+      message,
+      {
+        success: true,
+        message: `✅ Thực thi thành công!\n${result !== undefined ? `Kết quả: ${JSON.stringify(result, null, 2)}` : ''}`
+      },
+      false,
+      60000
+    );
+
+  } catch (error) {
+    await sendMessageFromSQL(
+      api,
+      message,
+      {
+        success: false,
+        message: `❌ Lỗi:\n${error.message}`
+      },
+      false,
+      60000
+    );
+  }
+}
+
 export async function handleCallGroupCommand(api, message) {
   try {
     const senderName = message.data?.dName || "Người dùng";
