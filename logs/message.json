@@ -126226,5 +126226,97 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759933709311": {
+    "timestamp": "1759933709358",
+    "timestampString": "21:28:30",
+    "msgId": "7095939666307",
+    "cliMsgId": "1759933709311",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "x(x + 2024) = 2025",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596022965460": {
+    "timestamp": "1759933716172",
+    "timestampString": "21:28:37",
+    "msgId": "7095940042941",
+    "cliMsgId": "105596022965460",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/9108010901495194634/7c10e5283161bc3fe570.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/9108010901495194634/7c10e5283161bc3fe570.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/9108010901495194634\\/7c10e5283161bc3fe570.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933719554": {
+    "timestamp": "1759933719666",
+    "timestampString": "21:28:40",
+    "msgId": "7095940267256",
+    "cliMsgId": "1759933719554",
+    "msgType": "webchat",
+    "uidFrom": "6023663299120474787",
+    "idTo": "5601607522756268167",
+    "dName": "Tuấn Kaijn",
+    "content": "Chào mọi người",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933720642": {
+    "timestamp": "1759933720714",
+    "timestampString": "21:28:41",
+    "msgId": "7095940328424",
+    "cliMsgId": "1759933720642",
+    "msgType": "chat.sticker",
+    "uidFrom": "6023663299120474787",
+    "idTo": "5601607522756268167",
+    "dName": "Tuấn Kaijn",
+    "content": {
+      "id": 394,
+      "catId": 14,
+      "type": 2
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933727624": {
+    "timestamp": "1759933727762",
+    "timestampString": "21:28:48",
+    "msgId": "7095940738993",
+    "cliMsgId": "1759933727624",
+    "msgType": "chat.photo",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/jpg/3416981132376948112/c3d8f98c2cc5a19bf8d4.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/jpg/3416981132376948112/c3d8f98c2cc5a19bf8d4.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":592,\"height\":828,\"hd\":\"https:\\/\\/f60-zpg-r.zdn.vn\\/jpg\\/3416981132376948112\\/c3d8f98c2cc5a19bf8d4.jpg\",\"is_group_layout\":0,\"contentId\":\"1000037581\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
