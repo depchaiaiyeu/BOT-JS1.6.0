@@ -31457,5 +31457,65 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903489210": {
+    "timestamp": "1759903489272",
+    "timestampString": "13:04:50",
+    "msgId": "7094090930192",
+    "cliMsgId": "1759903489210",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Dell Yêu Ai .eval message.data.quote",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903490201": {
+    "timestamp": "1759903490317",
+    "timestampString": "13:04:50",
+    "msgId": "7094090944342",
+    "cliMsgId": "1759903490201",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"ownerId\": 2275317996891696600,\n  \"cliMsgId\": 1759903230356,\n  \"globalMsgId\": 7094079769636,\n  \"cliMsgType\": 44,\n  \"ts\": 1759903227152,\n  \"msg\": \"\",\n  \"attach\": \"{\\\"title\\\":\\\"🕒 13:00 - Bot Dell Yêu Ai Autosend 🚀\\\\n🚦Chúc bạn buổi chiều làm việc hiệu quả.\\\",\\\"description\\\":\\\"\\\",\\\"href\\\":\\\"https:\\\\/\\\\/i.imgur.com\\\\/RV515ko.mp4\\\",\\\"thumb\\\":\\\"https:\\\\/\\\\/files.catbox.moe\\\\/3vy7ga.jpg\\\",\\\"childnumber\\\":\\\"0\\\",\\\"action\\\":\\\"\\\",\\\"params\\\":\\\"{\\\\\\\"duration\\\\\\\":20,\\\\\\\"is_group_layout\\\\\\\":0,\\\\\\\"video_original_width\\\\\\\":0,\\\\\\\"video_original_height\\\\\\\":0,\\\\\\\"video_width\\\\\\\":1080,\\\\\\\"video_height\\\\\\\":1920,\\\\\\\"video_rotation\\\\\\\":0,\\\\\\\"fileSize\\\\\\\":0,\\\\\\\"isHD\\\\\\\":0}\\\"}\",\n  \"fromD\": \"Dell Yêu Ai\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903508089": {
+    "timestamp": "1759903508918",
+    "timestampString": "13:05:09",
+    "msgId": "7094091752932",
+    "cliMsgId": "1759903508089",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "-> SendTask 13:05 <-\nChào một buổi trưa đầy năng lượng!\n\nGiải trí anime cho bớt căng não anh em nhé!!!",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/6f42f582b911184f4100/7699060925797714065?createby=NDQ_Bot",
+      "thumb": "https://f26-zpc.zdn.vn/4564604990708321325/719a59f65bb5d6eb8fa4.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":13633,\"video_height\":480,\"fileSize\":2326745,\"video_width\":852}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
