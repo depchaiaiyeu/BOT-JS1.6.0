@@ -113915,5 +113915,70 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759929605712": {
+    "timestamp": "1759929606965",
+    "timestampString": "20:20:08",
+    "msgId": "7095686965976",
+    "cliMsgId": "1759929605712",
+    "msgType": "chat.video.msg",
+    "uidFrom": "7084721832415548010",
+    "idTo": "7585160044864555896",
+    "dName": "Tiện Ích",
+    "content": {
+      "title": "🎥 T xã cho hết, rồi còn đăng clip đi chổ khác nữa 😂\n\n👤 Tác giả: 𝙴𝚖 𝚋𝚎́ ♡ (@thuyduong.476)\n🌍 Khu Vực: Việt Nam 🇻🇳\n🎮 Độ Dài Video: 15 giây\n🗂️ Dung Lượng: 3.42 MB\n🗓️ Ngày Đăng: 11:11:49 || 07/10/2025\n---------------------------------------\n▶️ Views: 490,191\n❤️ Likes: 62,744\n💬 Comments: 0\n🔄 Shares: 6,742\n⬇️ Downloads: 13\n📥 Favorites: 3,483",
+      "description": "",
+      "href": "https://v16-coin.tiktokcdn.com/1a682dbe4f7e7ccf9202ce077dcb97c8/68e6b973/video/tos/alisg/tos-alisg-pve-0037c001/ooejePGHRMGkWJHIZJLtfQ2hGuGWIAFfkQgwPA/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=3720&bt=1860&cs=0&ds=6&ft=KLEd.iq4fmo0PD~q-VzaQ9VRHu44JE.C~&mime_type=video_mp4&qs=0&rc=M2Q6NWQ6N2RmOWZmZzc4ZUBpajtmdHk5cnE8NjMzODczNEBeMDJgMzQ0NTIxYy5jYTQzYSNfY21nMmRzMmZhLS1kMWBzcw%3D%3D&vvpl=1&l=20251008212004C91F004587A78E291ACD&btag=e000b8000",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oQJufLFGwGjXkWRtJA3WAogPQeQfPfGIZ8QZkF~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=7a79aa17&x-expires=1760014800&x-signature=bJ0slfbT1UrThEh7mYBWmVI%2F6Xo%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":15,\"video_height\":480,\"fileSize\":3588494,\"video_width\":480}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929609890": {
+    "timestamp": "1759929610267",
+    "timestampString": "20:20:10",
+    "msgId": "7095687180476",
+    "cliMsgId": "1759929609890",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "@Thành Nhân Vaiz",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929614158": {
+    "timestamp": "1759929614516",
+    "timestampString": "20:20:14",
+    "msgId": "7095687448763",
+    "cliMsgId": "1759929614158",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "2990969618896538297",
+    "dName": "Bảo Ngọc",
+    "content": "Thoy",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759929614595": {
+    "timestamp": "1759929614662",
+    "timestampString": "20:20:15",
+    "msgId": "7095687459746",
+    "cliMsgId": "1759929614595",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "đc hơn 3 năm",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
