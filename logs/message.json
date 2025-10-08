@@ -41165,5 +41165,56 @@
     "threadId": "5975420422762749911",
     "type": 0,
     "isUndo": false
+  },
+  "1759923644824": {
+    "timestamp": "1759923644874",
+    "timestampString": "18:40:45",
+    "msgId": "7095325154357",
+    "cliMsgId": "1759923644824",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",eval api.sendMessage(\"boy by vu xuan kien\", \"5975420422762749911\")",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923645731": {
+    "timestamp": "1759923645858",
+    "timestampString": "18:40:46",
+    "msgId": "7095325198426",
+    "cliMsgId": "1759923645731",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923645729": {
+    "timestamp": "1759923646319",
+    "timestampString": "18:40:47",
+    "msgId": "7095325190126",
+    "cliMsgId": "1759923645729",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "boy by vu xuan kien",
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
   }
 }
