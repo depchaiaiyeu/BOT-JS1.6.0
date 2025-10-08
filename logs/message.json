@@ -127684,5 +127684,28 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759938495813": {
+    "timestamp": "1759938496104",
+    "timestampString": "22:48:17",
+    "msgId": "7096178839066",
+    "cliMsgId": "1759938495813",
+    "msgType": "chat.recommended",
+    "uidFrom": "2614822277671357554",
+    "idTo": "7585160044864555896",
+    "dName": "Ngọc Hùng",
+    "content": {
+      "title": "/likehttps://vt.tiktok.com/ZSUjQnup1/ 1000",
+      "description": "Hãy xem video của ʜᴜʏềɴᴛʜᴏạɪʟịᴄʜsử.",
+      "href": "https://vt.tiktok.com/ZSUjQnup1/",
+      "thumb": "https://f62-zpg-r.zdn.vn/6039539106668763904/98db2cef47a7caf993b6.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"vt.tiktok.com\",\"mediaTitle\":\"TikTok · ʜᴜʏềɴᴛʜᴏạɪʟịᴄʜsử\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/vt.tiktok.com\\/ZSUjQnup1\\/\",\"tType\":1,\"tWidth\":630,\"tHeight\":629,\"icon\":\"https:\\/\\/lf16-tiktok-common.ibytedtos.com\\/obj\\/tiktok-web-common-sg\\/mtact\\/static\\/images\\/tiktok-logo\\/logo.png\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/semicache\\/thumb_link\\/42103bc2156d6e55fe3fcf4e53fb468d.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
