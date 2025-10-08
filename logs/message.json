@@ -123192,5 +123192,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759931281304": {
+    "timestamp": "1759931284350",
+    "timestampString": "20:48:05",
+    "msgId": "7095792329252",
+    "cliMsgId": "1759931281304",
+    "msgType": "chat.photo",
+    "uidFrom": "8655748669320136228",
+    "idTo": "7585160044864555896",
+    "dName": "Minhh Tamm",
+    "content": {
+      "title": "Nhận vụt gậy Youtube tốc độ 24h đổ \nLiên hệ tele @thoc08\nCân gdtg bảo mật thông tin khách hàng \n( Không nhắn tin vào acc này! Liên hệ trực tiếp qua tele)",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/dd30cd90f74703195a56/649330874117093111.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/dd30cd90f74703195a56/649330874117093111.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1235,\"is_group_layout\":0,\"contentId\":\"1000012372\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
