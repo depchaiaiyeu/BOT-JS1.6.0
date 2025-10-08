@@ -124639,5 +124639,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935292725": {
+    "timestamp": "1759935292791",
+    "timestampString": "21:54:53",
+    "msgId": "7096028358259",
+    "cliMsgId": "1759935292725",
+    "msgType": "webchat",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": "@Bắc mõm vương",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
