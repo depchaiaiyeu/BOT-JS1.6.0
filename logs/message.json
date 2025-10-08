@@ -40961,5 +40961,120 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1759923549900": {
+    "timestamp": "1759923550171",
+    "timestampString": "18:39:10",
+    "msgId": "7095319577478",
+    "cliMsgId": "1759923549900",
+    "msgType": "chat.sticker",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "id": 50615,
+      "catId": 12658,
+      "type": 7
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923552014": {
+    "timestamp": "1759923552013",
+    "timestampString": "18:39:12",
+    "msgId": "7095319716085",
+    "cliMsgId": "1759923552014",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".getuid",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923553313": {
+    "timestamp": "1759923553309",
+    "timestampString": "18:39:13",
+    "msgId": "7095319789870",
+    "cliMsgId": "1759923553313",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": ">ban @Văn Chiến",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923557040": {
+    "timestamp": "1759923557074",
+    "timestampString": "18:39:17",
+    "msgId": "7095320011542",
+    "cliMsgId": "1759923557040",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ",getuid",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923557454": {
+    "timestamp": "1759923557581",
+    "timestampString": "18:39:17",
+    "msgId": "7095320023235",
+    "cliMsgId": "1759923557454",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Vũ Xuân Kiên\nUID của bạn là: 690483581226941870\nUID của Group hiện tại là: 5975420422762749911",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759923561384": {
+    "timestamp": "1759923561452",
+    "timestampString": "18:39:21",
+    "msgId": "7095320265287",
+    "cliMsgId": "1759923561384",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45592,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595413227880": {
+    "timestamp": "1759923566592",
+    "timestampString": "18:39:26",
+    "msgId": "7095320566697",
+    "cliMsgId": "105595413227880",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/2652422500640154385/a11182c86d87e0d9b996.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/2652422500640154385/a11182c86d87e0d9b996.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":630,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/2652422500640154385\\/a11182c86d87e0d9b996.jpg\",\"hdSize\":344622,\"height\":220}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
