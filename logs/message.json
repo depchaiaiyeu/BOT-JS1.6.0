@@ -74081,5 +74081,65 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759926547691": {
+    "timestamp": "1759926548691",
+    "timestampString": "19:29:09",
+    "msgId": "7095496195370",
+    "cliMsgId": "1759926547691",
+    "msgType": "chat.photo",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/c375b206fdd2098c50c3/3153976192934549516.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/c375b206fdd2098c50c3/3153976192934549516.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1640,\"is_group_layout\":0,\"contentId\":\"1000015010\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926551214": {
+    "timestamp": "1759926551255",
+    "timestampString": "19:29:11",
+    "msgId": "7095496351862",
+    "cliMsgId": "1759926551214",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Bỏ log icon thành công",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926552863": {
+    "timestamp": "1759926552932",
+    "timestampString": "19:29:13",
+    "msgId": "7095496452285",
+    "cliMsgId": "1759926552863",
+    "msgType": "chat.photo",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/38ca4ce8a82d0973503c/7548655063979849143?creator=Tahn_bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/38ca4ce8a82d0973503c/7548655063979849143?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":960,\"height\":960,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751372464694\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/38ca4ce8a82d0973503c\\/7548655063979849143?creator=Tahn_bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751372464694\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
