@@ -121326,5 +121326,61 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759930900345": {
+    "timestamp": "1759930900478",
+    "timestampString": "20:41:41",
+    "msgId": "7095768545902",
+    "cliMsgId": "1759930900345",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": "@Kien ê h m là kiên lét nha",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930903854": {
+    "timestamp": "1759930903919",
+    "timestampString": "20:41:44",
+    "msgId": "7095768763542",
+    "cliMsgId": "1759930903854",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": "thk kia kiên gay",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930906949": {
+    "timestamp": "1759930907295",
+    "timestampString": "20:41:47",
+    "msgId": "7095768971358",
+    "cliMsgId": "1759930906949",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": "đỡ ph nhâmg",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759930911572": {
+    "timestamp": "1759930911614",
+    "timestampString": "20:41:52",
+    "msgId": "7095769240085",
+    "cliMsgId": "1759930911572",
+    "msgType": "webchat",
+    "uidFrom": "8590310847834562573",
+    "idTo": "4699745045071009795",
+    "dName": "Kien",
+    "content": "=)))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
