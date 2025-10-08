@@ -33984,5 +33984,98 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759921530559": {
+    "timestamp": "1759921530529",
+    "timestampString": "18:05:31",
+    "msgId": "7095205216694",
+    "cliMsgId": "1759921530559",
+    "msgType": "chat.delete",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6771373202781455000,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1759920388523,
+        "globalDelMsgId": 7095139327920,
+        "destId": 7897564732983285000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6771373202781455000,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1759920388521,
+        "globalDelMsgId": 7095139552254,
+        "destId": 7897564732983285000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7951802719387670000,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1759920727502,
+        "globalDelMsgId": 7095158743683,
+        "destId": 7897564732983285000
+      }
+    ],
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921531975": {
+    "timestamp": "1759921532043",
+    "timestampString": "18:05:32",
+    "msgId": "7095205305164",
+    "cliMsgId": "1759921531975",
+    "msgType": "chat.photo",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/c2749c827947d8198156/1293220751261637781?creator=Tahn_bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/c2749c827947d8198156/1293220751261637781?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1080,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751373253049\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/c2749c827947d8198156\\/1293220751261637781?creator=Tahn_bot.webp\",\"width\":1080,\"height\":1080,\"thumb\":\"\"},\"contentId\":\"1751373253049\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921541340": {
+    "timestamp": "1759921541440",
+    "timestampString": "18:05:42",
+    "msgId": "7095205846998",
+    "cliMsgId": "1759921541340",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@Vtàiᅠᅠdv anh gay ak?",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759921547435": {
+    "timestamp": "1759921547523",
+    "timestampString": "18:05:48",
+    "msgId": "7095206197954",
+    "cliMsgId": "1759921547435",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Anh không",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
