@@ -126482,5 +126482,42 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759936402205": {
+    "timestamp": "1759936402270",
+    "timestampString": "22:13:23",
+    "msgId": "7096086956835",
+    "cliMsgId": "1759936402205",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": ">ban @Helo",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596184188340": {
+    "timestamp": "1759936403297",
+    "timestampString": "22:13:24",
+    "msgId": "7096087008209",
+    "cliMsgId": "105596184188340",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/6721906790466358218/f2569e46300fbd51e41e.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/6721906790466358218/f2569e46300fbd51e41e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":630,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/6721906790466358218\\/f2569e46300fbd51e41e.jpg\",\"hdSize\":344622,\"height\":220}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
