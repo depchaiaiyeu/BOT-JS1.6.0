@@ -66441,5 +66441,93 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759924021506": {
+    "timestamp": "1759924021570",
+    "timestampString": "18:47:01",
+    "msgId": "7095347116307",
+    "cliMsgId": "1759924021506",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Bán đầy lun",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924019502": {
+    "timestamp": "1759924022298",
+    "timestampString": "18:47:03",
+    "msgId": "7095347157754",
+    "cliMsgId": "1759924019502",
+    "msgType": "webchat",
+    "uidFrom": "5059187806609084942",
+    "idTo": "1367422010794969537",
+    "dName": "Ngyyenngocc Ahtw",
+    "content": "Kệ đe",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924023232": {
+    "timestamp": "1759924023293",
+    "timestampString": "18:47:03",
+    "msgId": "7095347218133",
+    "cliMsgId": "1759924023232",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 45591,
+      "catId": 11917,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924028667": {
+    "timestamp": "1759924028691",
+    "timestampString": "18:47:09",
+    "msgId": "7095347531378",
+    "cliMsgId": "1759924028667",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Mỗi tội nghèo hết tiền mua r",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924038315": {
+    "timestamp": "1759924038368",
+    "timestampString": "18:47:19",
+    "msgId": "7095348092116",
+    "cliMsgId": "1759924038315",
+    "msgType": "webchat",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": ":-<",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759924044658": {
+    "timestamp": "1759924044703",
+    "timestampString": "18:47:25",
+    "msgId": "7095348461258",
+    "cliMsgId": "1759924044658",
+    "msgType": "webchat",
+    "uidFrom": "9174094872528572011",
+    "idTo": "8281509084603580118",
+    "dName": "Nguyễn Tuấn Khang",
+    "content": "OMG",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
