@@ -121382,5 +121382,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759930920710": {
+    "timestamp": "1759930920756",
+    "timestampString": "20:42:01",
+    "msgId": "7095769807651",
+    "cliMsgId": "1759930920710",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5166581134204343688",
+    "dName": "Vũ Xuân Kiên",
+    "content": "toàn hacker",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
