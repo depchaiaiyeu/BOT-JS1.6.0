@@ -125826,5 +125826,65 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759933835063": {
+    "timestamp": "1759933835282",
+    "timestampString": "21:30:36",
+    "msgId": "7095947004462",
+    "cliMsgId": "1759933835063",
+    "msgType": "chat.photo",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/62df62919370322e6b61/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/62df62919370322e6b61/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":64,\"height\":64,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758444739614\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/62df62919370322e6b61\\/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":64,\"height\":64,\"thumb\":\"\"},\"contentId\":\"1758444739614\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933851189": {
+    "timestamp": "1759933851262",
+    "timestampString": "21:30:52",
+    "msgId": "7095947929427",
+    "cliMsgId": "1759933851189",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Từ ngày anh mất em mọi thứ đều tan biến",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "105596031402600": {
+    "timestamp": "1759933856976",
+    "timestampString": "21:30:57",
+    "msgId": "7095948237712",
+    "cliMsgId": "105596031402600",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Hữu Chương",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/5509730973397107712/76487ebfb5f638a861e7.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/5509730973397107712/76487ebfb5f638a861e7.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/5509730973397107712\\/76487ebfb5f638a861e7.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
