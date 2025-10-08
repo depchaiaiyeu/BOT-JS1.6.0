@@ -32148,5 +32148,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903911146": {
+    "timestamp": "1759903911211",
+    "timestampString": "13:11:52",
+    "msgId": "7094109277827",
+    "cliMsgId": "1759903911146",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval message.data.quote.attach.mentions[0]['uid']",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903912080": {
+    "timestamp": "1759903912199",
+    "timestampString": "13:11:52",
+    "msgId": "7094109296406",
+    "cliMsgId": "1759903912080",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n❌ Lỗi:\nCannot read properties of undefined (reading '0')",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
