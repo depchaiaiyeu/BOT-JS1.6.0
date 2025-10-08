@@ -127402,5 +127402,51 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759938241564": {
+    "timestamp": "1759938241770",
+    "timestampString": "22:44:02",
+    "msgId": "7096169154321",
+    "cliMsgId": "1759938241564",
+    "msgType": "chat.recommended",
+    "uidFrom": "4687223337366334519",
+    "idTo": "5166581134204343688",
+    "dName": "Lê Công",
+    "content": {
+      "title": "https://zalo.me/g/brmpss668",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/brmpss668",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2748bac162a1759938162aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZWM4MGNhZTIzYzg2ZDZkODhmOTc=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"LTC TOOL❕\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/brmpss668\",\"owner\":{\"id\":434956998,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/a\\/c\\/8\\/d\\/10\\/120\\/2d5cf8028ee2c0fa18d078fee52f42bd.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938243374": {
+    "timestamp": "1759938243410",
+    "timestampString": "22:44:03",
+    "msgId": "7096169218829",
+    "cliMsgId": "1759938243374",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/12212a9f0055a10bf844/6716233653075396461?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/12212a9f0055a10bf844/6716233653075396461?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1752837213142\",\"height\":280,\"thumb_height\":280,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":692,\"width\":692,\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/12212a9f0055a10bf844\\/6716233653075396461?sticker.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
