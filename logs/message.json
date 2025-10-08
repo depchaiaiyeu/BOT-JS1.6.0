@@ -32597,5 +32597,51 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904062429": {
+    "timestamp": "1759904062624",
+    "timestampString": "13:14:23",
+    "msgId": "7094115951177",
+    "cliMsgId": "1759904062429",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "Cái gì m đòi kick tv của t à=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904066127": {
+    "timestamp": "1759904066119",
+    "timestampString": "13:14:26",
+    "msgId": "7094116104748",
+    "cliMsgId": "1759904066127",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "May k có key",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904067706": {
+    "timestamp": "1759904067697",
+    "timestampString": "13:14:28",
+    "msgId": "7094116174840",
+    "cliMsgId": "1759904067706",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": {
+      "id": 19826,
+      "catId": 10235,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
