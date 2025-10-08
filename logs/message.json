@@ -125509,5 +125509,122 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1759933472900": {
+    "timestamp": "1759933499388",
+    "timestampString": "21:25:00",
+    "msgId": "7095927391871",
+    "cliMsgId": "1759933472900",
+    "msgType": "webchat",
+    "uidFrom": "5471124432359606230",
+    "idTo": "5166581134204343688",
+    "dName": "Tuấn Nguyễn",
+    "content": "Thằng ptk chết r à",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933505725": {
+    "timestamp": "1759933505781",
+    "timestampString": "21:25:06",
+    "msgId": "7095927767865",
+    "cliMsgId": "1759933505725",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4825567233436439756",
+    "dName": "Vũ Xuân Kiên",
+    "content": "ai có obf python k",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933506655": {
+    "timestamp": "1759933507869",
+    "timestampString": "21:25:08",
+    "msgId": "7095927890414",
+    "cliMsgId": "1759933506655",
+    "msgType": "webchat",
+    "uidFrom": "6771373202781455555",
+    "idTo": "8281509084603580118",
+    "dName": "T U A N A N H",
+    "content": "🔥EVENT HỐT FILES TẶNG ACC \nNHÉ\n-CHỈ TỪ 50K BẠN ĐÃ NHẬN ĐƯỢC FILES VIP VÀ ACC NGON\n-ĐỒ TẶNG KO BÁN NÓI K VỚI SCAM\n-BANK CARD ĐỀU OKE",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933506743": {
+    "timestamp": "1759933509438",
+    "timestampString": "21:25:09",
+    "msgId": "7095927982764",
+    "cliMsgId": "1759933506743",
+    "msgType": "webchat",
+    "uidFrom": "6771373202781455555",
+    "idTo": "7897564732983285154",
+    "dName": "T U A N A N H",
+    "content": "🔥EVENT HỐT FILES TẶNG ACC \nNHÉ\n-CHỈ TỪ 50K BẠN ĐÃ NHẬN ĐƯỢC FILES VIP VÀ ACC NGON\n-ĐỒ TẶNG KO BÁN NÓI K VỚI SCAM\n-BANK CARD ĐỀU OKE",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933483118": {
+    "timestamp": "1759933510977",
+    "timestampString": "21:25:11",
+    "msgId": "7095928073956",
+    "cliMsgId": "1759933483118",
+    "msgType": "chat.photo",
+    "uidFrom": "5471124432359606230",
+    "idTo": "5166581134204343688",
+    "dName": "Tuấn Nguyễn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/44677c99bd4e4910105f/3052357128437040767.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/44677c99bd4e4910105f/3052357128437040767.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":643,\"height\":477,\"hd\":\"https:\\/\\/photo-stal-3.zdn.vn\\/gr\\/jpg\\/44677c99bd4e4910105f\\/3052357128437040767.jpg\",\"is_group_layout\":0,\"contentId\":\"1143755\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933524389": {
+    "timestamp": "1759933524537",
+    "timestampString": "21:25:25",
+    "msgId": "7095928866403",
+    "cliMsgId": "1759933524389",
+    "msgType": "chat.delete",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6771373202781455000,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1759933506743,
+        "globalDelMsgId": 7095927982764,
+        "destId": 7897564732983285000
+      }
+    ],
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759933525691": {
+    "timestamp": "1759933525710",
+    "timestampString": "21:25:26",
+    "msgId": "7095928933655",
+    "cliMsgId": "1759933525691",
+    "msgType": "webchat",
+    "uidFrom": "8151065204008488485",
+    "idTo": "4699745045071009795",
+    "dName": "Trần Nguyễn Khánh Vy 张极",
+    "content": "What",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
