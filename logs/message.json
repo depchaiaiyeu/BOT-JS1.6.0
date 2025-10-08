@@ -125641,5 +125641,112 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759932479863": {
+    "timestamp": "1759932479879",
+    "timestampString": "21:08:00",
+    "msgId": "7095866274345",
+    "cliMsgId": "1759932479863",
+    "msgType": "webchat",
+    "uidFrom": "3808543700523159521",
+    "idTo": "5601607522756268167",
+    "dName": "卍 Đệ Tử Bé Bii 卍",
+    "content": "🐧 box ae chúng tôi: https://zalo.me/g/dmwnef302  🐧 💼 EM XIN PHÉP CÁC AD CHO EM ĐƯỢC RẢI NHẸ Ạ 🙏\n✨ Uy tín – Giá rẻ – Làm việc nhanh – Hỗ trợ 24/7 💬\n\n🚀 1️⃣ NHẬN RẢI THUÊ – HIỆU QUẢ, GIÁ SIÊU HỜI\n💸 7k / 1 ngày\n📆 Combo: 1 tuần 36k – 1 tháng 75k\n🎯 Rải đúng tệp, đúng giờ, đúng mục tiêu\n💡 Phù hợp cho ai cần quảng bá nhóm, shop, dịch vụ\n\n🎨 2️⃣ NHẬN LÀM BANNER – ĐẸP CHUẨN CHUYÊN NGHIỆP\n🖌 Thiết kế sáng tạo, sắc nét từng chi tiết\n⚡ Giao nhanh – chỉnh sửa thoải mái – ưng mới thôi\n🏆 Uy tín số 1 – bảo đảm chất lượng vượt tầm\n\n📈 3️⃣ NHẬN BUFF MXH – NGUỒN RẺ NHẤT THỊ TRƯỜNG 🐧\n🔥 5k = 1k follow Facebook thật\n🌍 Buff full nền tảng: FB, TikTok, Insta, YouTube,...\n💪 View – Like – Comment – Follow – Seeding đủ thể loại\n💬 Giá học sinh – hiệu quả doanh nghiệp\n\n🤖 4️⃣ CHO THUÊ BOT FULL CHỨC NĂNG VIP\n💰 40k / tháng\n⚙️ Tích hợp: Rải – Var – Quản lý box – Auto tiện lợi\n🚀 Bot ổn định, thông minh, chạy mượt – hỗ trợ liên tục\n💼 Phù hợp cho cá nhân & team lớn muốn tối ưu thời gian",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055959487620800": {
+    "timestamp": "1759932479930",
+    "timestampString": "21:08:00",
+    "msgId": "7095866274353",
+    "cliMsgId": "1055959487620800",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "卍 Đệ Tử Bé Bii 卍\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":17,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932480194": {
+    "timestamp": "1759932480215",
+    "timestampString": "21:08:00",
+    "msgId": "7095866274389",
+    "cliMsgId": "1759932480194",
+    "msgType": "chat.recommended",
+    "uidFrom": "3808543700523159521",
+    "idTo": "5601607522756268167",
+    "dName": "卍 Đệ Tử Bé Bii 卍",
+    "content": {
+      "title": "卍ᅠᅠᅠᅠ ムbiii Tập Buôn ムᅠᅠᅠᅠᅠᅠᅠ卍",
+      "description": "{\"phone\":\"ib\",\"gUid\":\"P07E7MH1SKLHM8VGFHAG0724HRPMN280\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/f/e/d/d/16/120/fe598e6582d6118afe21d935b4be57ed.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "13967011642167306",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932480392": {
+    "timestamp": "1759932480409",
+    "timestampString": "21:08:01",
+    "msgId": "7095866274421",
+    "cliMsgId": "1759932480392",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3808543700523159600,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1759932480194,
+        "globalDelMsgId": 7095866274389,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932480462": {
+    "timestamp": "1759932480484",
+    "timestampString": "21:08:01",
+    "msgId": "7095866274432",
+    "cliMsgId": "1759932480462",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\n卍 Đệ Tử Bé Bii 卍\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
