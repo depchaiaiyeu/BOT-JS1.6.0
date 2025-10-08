@@ -124607,5 +124607,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1759934095813": {
+    "timestamp": "1759934095907",
+    "timestampString": "21:34:56",
+    "msgId": "7095962014437",
+    "cliMsgId": "1759934095813",
+    "msgType": "webchat",
+    "uidFrom": "8038361009454121910",
+    "idTo": "4699745045071009795",
+    "dName": "Trann Nhien",
+    "content": "@Tran Luc Nhi bị pjad đs",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
