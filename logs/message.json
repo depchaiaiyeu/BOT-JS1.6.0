@@ -125748,5 +125748,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759932537509": {
+    "timestamp": "1759932537556",
+    "timestampString": "21:08:58",
+    "msgId": "7095869796302",
+    "cliMsgId": "1759932537509",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "7585160044864555896",
+    "dName": "Dương",
+    "content": "/tt",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
