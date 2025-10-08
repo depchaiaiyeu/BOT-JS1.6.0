@@ -33228,5 +33228,70 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759904146102": {
+    "timestamp": "1759904146117",
+    "timestampString": "13:15:47",
+    "msgId": "7094119657090",
+    "cliMsgId": "1759904146102",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.getGroupInfoByLink(\"https://zalo.me/g/xjhvni774\")",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904154232": {
+    "timestamp": "1759904154227",
+    "timestampString": "13:15:56",
+    "msgId": "7094120019794",
+    "cliMsgId": "1759904154232",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904155730": {
+    "timestamp": "1759904155871",
+    "timestampString": "13:15:56",
+    "msgId": "7094120086637",
+    "cliMsgId": "1759904155730",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\nNếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n.help - Xem các lệnh cơ bản\n.game - Xem các lệnh game\n.command - Xem toàn bộ danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904160825": {
+    "timestamp": "1759904160824",
+    "timestampString": "13:16:02",
+    "msgId": "7094120315304",
+    "cliMsgId": "1759904160825",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.getGroupInfoByLink(\"https://zalo.me/g/xjhvni774\")",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
