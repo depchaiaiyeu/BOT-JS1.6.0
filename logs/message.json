@@ -124598,5 +124598,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759931704993": {
+    "timestamp": "1759931705070",
+    "timestampString": "20:55:10",
+    "msgId": "7095818414513",
+    "cliMsgId": "1759931704993",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".scl tình ta hai ngã",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931709888": {
+    "timestamp": "1759931710023",
+    "timestampString": "20:55:10",
+    "msgId": "7095818687083",
+    "cliMsgId": "1759931709888",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/6820667775623924685/4de7b23dd874552a0c65.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/6820667775623924685/4de7b23dd874552a0c65.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1445,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/6820667775623924685\\/4de7b23dd874552a0c65.jpg\",\"hdSize\":317970,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
