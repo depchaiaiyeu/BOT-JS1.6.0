@@ -33571,5 +33571,111 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759904686256": {
+    "timestamp": "1759904686329",
+    "timestampString": "13:24:47",
+    "msgId": "7094144073392",
+    "cliMsgId": "1759904686256",
+    "msgType": "chat.photo",
+    "uidFrom": "651216097038065970",
+    "idTo": "4825567233436439756",
+    "dName": "L A T",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/a38de8c01e41bf1fe650/1031693248322623190?createby=JS-PVTProjects.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/a38de8c01e41bf1fe650/1031693248322623190?createby=JS-PVTProjects.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758186767861\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/a38de8c01e41bf1fe650\\/1031693248322623190?createby=JS-PVTProjects.webp\",\"width\":512,\"height\":512,\"thumb\":\"\"},\"contentId\":\"1758186767861\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904698521": {
+    "timestamp": "1759904698731",
+    "timestampString": "13:24:59",
+    "msgId": "7094144642093",
+    "cliMsgId": "1759904698521",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "@Lê Quốc Đạt dme box l gì đéo cho chat",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904701652": {
+    "timestamp": "1759904702271",
+    "timestampString": "13:25:02",
+    "msgId": "7094144792451",
+    "cliMsgId": "1759904701652",
+    "msgType": "chat.sticker",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": {
+      "id": 33785,
+      "catId": 11130,
+      "type": 7
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904706460": {
+    "timestamp": "1759904706482",
+    "timestampString": "13:25:06",
+    "msgId": "7094145000147",
+    "cliMsgId": "1759904706460",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "...eval self.addGroupAdmins(self.uid, thread_id)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904707006": {
+    "timestamp": "1759904706860",
+    "timestampString": "13:25:07",
+    "msgId": "7094145005398",
+    "cliMsgId": "1759904707006",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "🚦@̀nguyễn Duy Khang\nGroup(memberError=[])",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759904712376": {
+    "timestamp": "1759904712509",
+    "timestampString": "13:25:13",
+    "msgId": "7094145279366",
+    "cliMsgId": "1759904712376",
+    "msgType": "chat.photo",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/1baca52f39bf98e1c1ae/1293893418909930614?createby=NDQ_Bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/1baca52f39bf98e1c1ae/1293893418909930614?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1759889565896\",\"height\":512,\"thumb_height\":512,\"thumb_width\":512,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/1baca52f39bf98e1c1ae\\/1293893418909930614?createby=NDQ_Bot.webp\"},\"pStickerType\":1}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
