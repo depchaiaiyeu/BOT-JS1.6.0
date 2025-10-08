@@ -1521,8 +1521,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 70,
-          "messageCountToday": 19,
+          "Rank": 72,
+          "messageCountToday": 21,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -1654,6 +1654,13 @@
         {
           "UserName": "Tôi Yêu Việt Nam",
           "UID": "1863091547563172832",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Huy",
+          "UID": "2216478585867812345",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
@@ -2937,9 +2944,9 @@
         {
           "UserName": "黃維自",
           "UID": "7273011347216100309",
-          "Rank": 1,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
         },
         {
           "UserName": "Phi",
@@ -3734,6 +3741,13 @@
         {
           "UserName": "Trung",
           "UID": "7084584280284942954",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Huy",
+          "UID": "2216478585867812345",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
