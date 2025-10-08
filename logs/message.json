@@ -101907,5 +101907,424 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759928191679": {
+    "timestamp": "1759928191744",
+    "timestampString": "19:56:32",
+    "msgId": "7095597170011",
+    "cliMsgId": "1759928191679",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "@Vu Huynh Nhi sticker",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928194112": {
+    "timestamp": "1759928194165",
+    "timestampString": "19:56:34",
+    "msgId": "7095597323583",
+    "cliMsgId": "1759928194112",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "-.-",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928195167": {
+    "timestamp": "1759928195599",
+    "timestampString": "19:56:35",
+    "msgId": "7095597412321",
+    "cliMsgId": "1759928195167",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "Phiu tờ",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928200501": {
+    "timestamp": "1759928200555",
+    "timestampString": "19:56:40",
+    "msgId": "7095597725266",
+    "cliMsgId": "1759928200501",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Dell Yêu Ai",
+    "content": "@Lê Hữu Nghĩa 1 cái nữa thì cút",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928201691": {
+    "timestamp": "1759928201713",
+    "timestampString": "19:56:42",
+    "msgId": "7095597795994",
+    "cliMsgId": "1759928201691",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "ok",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928201785": {
+    "timestamp": "1759928201857",
+    "timestampString": "19:56:42",
+    "msgId": "7095597806176",
+    "cliMsgId": "1759928201785",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@ヅtrần Ân Ânヅ thì les",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928208829": {
+    "timestamp": "1759928208888",
+    "timestampString": "19:56:49",
+    "msgId": "7095598248355",
+    "cliMsgId": "1759928208829",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "7897564732983285154",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Vu Huynh Nhi xin giá xuất lên mặt",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928210711": {
+    "timestamp": "1759928210742",
+    "timestampString": "19:56:51",
+    "msgId": "7095598365986",
+    "cliMsgId": "1759928210711",
+    "msgType": "webchat",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": "@Cơn Mưa Mùa Thu cay",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928212200": {
+    "timestamp": "1759928212225",
+    "timestampString": "19:56:52",
+    "msgId": "7095598457822",
+    "cliMsgId": "1759928212200",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928212381": {
+    "timestamp": "1759928212457",
+    "timestampString": "19:56:52",
+    "msgId": "7095598472774",
+    "cliMsgId": "1759928212381",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928212656": {
+    "timestamp": "1759928212686",
+    "timestampString": "19:56:53",
+    "msgId": "7095598487452",
+    "cliMsgId": "1759928212656",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928212487": {
+    "timestamp": "1759928212503",
+    "timestampString": "19:56:53",
+    "msgId": "7095598475264",
+    "cliMsgId": "1759928212487",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928214611": {
+    "timestamp": "1759928214736",
+    "timestampString": "19:56:55",
+    "msgId": "7095598615605",
+    "cliMsgId": "1759928214611",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928214778": {
+    "timestamp": "1759928214800",
+    "timestampString": "19:56:55",
+    "msgId": "7095598619209",
+    "cliMsgId": "1759928214778",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928214941": {
+    "timestamp": "1759928214965",
+    "timestampString": "19:56:55",
+    "msgId": "7095598631255",
+    "cliMsgId": "1759928214941",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928215098": {
+    "timestamp": "1759928215121",
+    "timestampString": "19:56:55",
+    "msgId": "7095598641004",
+    "cliMsgId": "1759928215098",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 27795,
+      "catId": 10755,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928217860": {
+    "timestamp": "1759928217878",
+    "timestampString": "19:56:58",
+    "msgId": "7095598815119",
+    "cliMsgId": "1759928217860",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218043": {
+    "timestamp": "1759928218158",
+    "timestampString": "19:56:58",
+    "msgId": "7095598831027",
+    "cliMsgId": "1759928218043",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218151": {
+    "timestamp": "1759928218220",
+    "timestampString": "19:56:58",
+    "msgId": "7095598837768",
+    "cliMsgId": "1759928218151",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218450": {
+    "timestamp": "1759928218539",
+    "timestampString": "19:56:58",
+    "msgId": "7095598856729",
+    "cliMsgId": "1759928218450",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218527": {
+    "timestamp": "1759928218607",
+    "timestampString": "19:56:58",
+    "msgId": "7095598860932",
+    "cliMsgId": "1759928218527",
+    "msgType": "webchat",
+    "uidFrom": "7679898405913108399",
+    "idTo": "2760006576081013366",
+    "dName": "Thanh Hiền",
+    "content": "@Linh W Witt ùm",
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218765": {
+    "timestamp": "1759928218781",
+    "timestampString": "19:56:59",
+    "msgId": "7095598870828",
+    "cliMsgId": "1759928218765",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218338": {
+    "timestamp": "1759928218366",
+    "timestampString": "19:56:59",
+    "msgId": "7095598846304",
+    "cliMsgId": "1759928218338",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218738": {
+    "timestamp": "1759928218802",
+    "timestampString": "19:56:59",
+    "msgId": "7095598873425",
+    "cliMsgId": "1759928218738",
+    "msgType": "chat.photo",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/62df62919370322e6b61/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/62df62919370322e6b61/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":64,\"height\":64,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758444739614\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/62df62919370322e6b61\\/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":64,\"height\":64,\"thumb\":\"\"},\"contentId\":\"1758444739614\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759928218625": {
+    "timestamp": "1759928218646",
+    "timestampString": "19:56:59",
+    "msgId": "7095598862852",
+    "cliMsgId": "1759928218625",
+    "msgType": "chat.sticker",
+    "uidFrom": "682176882664021836",
+    "idTo": "5975420422762749911",
+    "dName": "Lê Hữu Nghĩa",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
