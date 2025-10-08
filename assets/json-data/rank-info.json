@@ -2547,8 +2547,8 @@
         {
           "UserName": "Bắc",
           "UID": "7159173789925726305",
-          "Rank": 19,
-          "messageCountToday": 11,
+          "Rank": 21,
+          "messageCountToday": 13,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -2792,8 +2792,8 @@
         {
           "UserName": "Duy Khang",
           "UID": "5719811533797477979",
-          "Rank": 4,
-          "messageCountToday": 1,
+          "Rank": 5,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-08"
         },
         {
@@ -3114,6 +3114,13 @@
         {
           "UserName": "-mhag",
           "UID": "8641533517187152599",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "ほたる",
+          "UID": "4923932449158492270",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-08"
