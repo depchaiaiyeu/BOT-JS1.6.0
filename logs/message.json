@@ -125447,5 +125447,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759932336035": {
+    "timestamp": "1759932336075",
+    "timestampString": "21:05:36",
+    "msgId": "7095857497303",
+    "cliMsgId": "1759932336035",
+    "msgType": "webchat",
+    "uidFrom": "8318817178975887433",
+    "idTo": "5975420422762749911",
+    "dName": "Thăng Nguyễn",
+    "content": "Thái bell đâu rồi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759932345884": {
+    "timestamp": "1759932345926",
+    "timestampString": "21:05:46",
+    "msgId": "7095858098945",
+    "cliMsgId": "1759932345884",
+    "msgType": "webchat",
+    "uidFrom": "8318817178975887433",
+    "idTo": "5975420422762749911",
+    "dName": "Thăng Nguyễn",
+    "content": "Tuấn bell ơi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
