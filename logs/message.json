@@ -97250,5 +97250,413 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759926622855": {
+    "timestamp": "1759926627420",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970813",
+    "cliMsgId": "1759926622855",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622824": {
+    "timestamp": "1759926627395",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970808",
+    "cliMsgId": "1759926622824",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622745": {
+    "timestamp": "1759926627385",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970802",
+    "cliMsgId": "1759926622745",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622876": {
+    "timestamp": "1759926627393",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970806",
+    "cliMsgId": "1759926622876",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622886": {
+    "timestamp": "1759926627404",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970809",
+    "cliMsgId": "1759926622886",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622890": {
+    "timestamp": "1759926627423",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970814",
+    "cliMsgId": "1759926622890",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622892": {
+    "timestamp": "1759926627393",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970807",
+    "cliMsgId": "1759926622892",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622888": {
+    "timestamp": "1759926627409",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970810",
+    "cliMsgId": "1759926622888",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622895": {
+    "timestamp": "1759926627412",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970811",
+    "cliMsgId": "1759926622895",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622869": {
+    "timestamp": "1759926627415",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970812",
+    "cliMsgId": "1759926622869",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926622856": {
+    "timestamp": "1759926627391",
+    "timestampString": "19:30:30",
+    "msgId": "7095500970805",
+    "cliMsgId": "1759926622856",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 0,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1759926620998,
+        "globalDelMsgId": 7095500584431,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926632197": {
+    "timestamp": "1759926632251",
+    "timestampString": "19:30:32",
+    "msgId": "7095501274097",
+    "cliMsgId": "1759926632197",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "t lại thích vậy cơ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926636551": {
+    "timestamp": "1759926636607",
+    "timestampString": "19:30:36",
+    "msgId": "7095501539566",
+    "cliMsgId": "1759926636551",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@ヅtrần Ân Ânヅ còn lên k",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926639319": {
+    "timestamp": "1759926639367",
+    "timestampString": "19:30:39",
+    "msgId": "7095501704942",
+    "cliMsgId": "1759926639319",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "😂",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595598630640": {
+    "timestamp": "1759926643867",
+    "timestampString": "19:30:44",
+    "msgId": "7095501966987",
+    "cliMsgId": "105595598630640",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "/-li Cho Thuê Bot Zalo - Quản Lý Nhóm\n/-li Bảo Vệ Nhóm, Chống Spm\n/-li Bán Bot Zalo \n/-li Anti Kick Chống Bọn Lồn Kickall\n/-li Bot War / Spam / Lag\n/-li Bot Auto Reply \n/-li Nhiều Lệnh Vui - Mở Rộng Tính Năng Theo Yc\n/-li Cài Đặt Dễ - Uy Tín - Bảo Mật - Nhanh Gọn ‼️\n\n📱 Cho Thuê Sim Ảo Tạo Tài Khoản Zalo.\n➜  Mã Ảo Tạo Tài Khoản Zô La 🤪\n\n                    FACEBOOK 📌\n🔹Nhận Dame Acc Face Theo Uid / Link ⚡\n▫️Mở Khoá Tài Khoản - UnLock✅\n▪️Up Nhạc Lên Trang Cá Nhân ✅\n🔸Up Tick Xanh Chính Chủ ✅\n🔹Seding Page 📉\n\nBuff Like FF \nLưu Ý : Mỗi Một Ngày 100like ( 100like /1day )\n\nNhóm Clip Sex Có Video Mỗi Ngày \n➜https://zalo.me/g/seqvsw398\n➜https://zalo.me/g/ivkkhs431\n\nVào Nghịch Nhóm Nè\n➜ https://zalo.me/g/rqgxjk534\n\n  📞    Chi Tiết Xin Vui Lòng Liên Hệ \n  Những Vấn Đề Khác Xin Đừng Kp Làm Phiền",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926643897": {
+    "timestamp": "1759926643938",
+    "timestampString": "19:30:44",
+    "msgId": "7095501966995",
+    "cliMsgId": "1759926643897",
+    "msgType": "chat.recommended",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "Kim Thanhh",
+      "description": "{\"phone\":\"thuê bot ib\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/e\\/7\\/c\\/1\\/44\\/120\\/2a92f7d4be271a50b3cce7b231776fd9.jpg\",\"gUid\":\"IJPEM65K5C6OTDM5T4735SJ54KKT3L80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/e/7/c/1/44/120/2a92f7d4be271a50b3cce7b231776fd9.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "6593064319472911684",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926645480": {
+    "timestamp": "1759926645564",
+    "timestampString": "19:30:45",
+    "msgId": "7095502081809",
+    "cliMsgId": "1759926645480",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "@Vũ Xuân Kiên còn",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926649537": {
+    "timestamp": "1759926649596",
+    "timestampString": "19:30:49",
+    "msgId": "7095502324207",
+    "cliMsgId": "1759926649537",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "-menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926650026": {
+    "timestamp": "1759926650824",
+    "timestampString": "19:30:51",
+    "msgId": "7095502395546",
+    "cliMsgId": "1759926650026",
+    "msgType": "chat.photo",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": {
+      "title": "🚦@ヅtrần Ân Ânヅ\n • Menu Bot •\n   ➜😀 [stkxn] Tạo Sticker xóa nền\n   ➜💨 [Stk] Tạo Sticker\n   ➜👊 [Stkdam] Gửi sticker đấm\n   ➜🎬 [xnanh] Xóa nền ảnh\n   ➜⬇️  [dl] tải video\n   ➜👀 [yts] Tìm video và tải trên youtube\n   ➜⬇  [tt] Tìm 10 video trên tóp tóp\n   ➜💋 [card] Card cá nhân\n   ➜🤭 [tangai] Thả thính\n   ➜🌊 [Sim] Gọi Bot\n   ➜💀 [kill] Giết bot hoàn toàn\n   ➜📱 [detail] Xem thông tin máy chủ\n   ➜💵 [Reo] War Tag\n   ➜💔 [truyencuoi] kể truyện cười\n   ➜👋 [slap] Tán một ai đó\n   ➜✉  [spamsms] Spam tin nhắn thường\n   ➜🤖 [qrcode] Tạo mã qc\n   ➜📝 [delall] Xoá tin nhắn\n   ➜🌐 [Voice] Tạo Voice\n   ➜🖼️  [Bantho] Bàn thờ @user\n   ➜💻 [Uptime] Thời Gian Chạy Bot\n   ➜🌼 [ktra] Pinging Check Độ trễ\n   ➜🌈 [gay] Kiểm tra độ gay\n   ➜🔞 [dodam] Kiểm tra độ dâm\n   ➜🧠 [thongminh] Kiểm tra độ thông minh\n   ➜🚫 [group] Những lệnh quản nhóm\n   ➜🍀 [luck] Kiểm tra may mắn\n   ➜🔊 [mute] Khóa mõm thần chưởng :))\n   ➜👩‍ [girl] Ảnh gái\n   ➜📖 [info] Lấy thông tin thành viên\n   ➜📼 [sendvideo] lấy video có sẵn trong server\n   ➜📱 [fullcmd] xem toàn bộ lệnh bot\n   ➜🔎 [searchcmd] tìm lệnh bot\n   ➜🌊 [chill] Gửi vd chill\n   ➜📷 [google] Lấy ảnh từ google\n   ➜📺 [pin] tìm ảnh trên pin\n   ➜👋 [leave] rời nhóm\n   ➜🌅 [meme] Ảnh meme\n   ➜📀 [vdgirl] Video gái\n   ➜📺 [gem] Gemini 2.0\n   ➜🖥  [rs] Reset bot\n   ➜😅 [icon] spam icon\n   ➜💌 [warpoll] spam tạo bình chọn\n   ➜🎭 [meid] Lấy id @user\n   ➜☀  [media] Gửi ảnh từ link\n   ➜🍾 [chuctet] Chúc tết\n   ➜🍼 [chucngungon] Chúc ngủ ngon\n   ➜💑 [chucvuive] Chúc vui vẻ\n   ➜🚫 [offbot] Tắt lệnh bot\n   ➜✅ [onbot] mở lại bot\n   ➜💥 [menuwar] War group\n   ➜👻 [bot] Gọi bot\n   ➜💖 [tinhduyen] Bói duyên của 2 người tag\n   ➜🃏 [boibaiv2] Xem bói nhưng thầy pro hơn:)\n   ➜🍷 [boibai] Xem bói\n   ➜🏘  [cap] Cap lại web\n   ➜👾 [auto_on] auto thính\n   ➜🚨 [chui1-52] spam chửi\n   ➜👩‍ [duyetmen] Duyệt thành viên\n   ➜💌 [join] Tự động vào nhóm zalo có link\n   ➜🌌 [autosend] Tự động gửi video\n    𝗔𝗗𝗠𝗜𝗡 : Ichino Makatsu",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/4898075719770162415/c09a6fa676e8fbb6a2f9.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/4898075719770162415/c09a6fa676e8fbb6a2f9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1124,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/4898075719770162415\\/c09a6fa676e8fbb6a2f9.jpg\",\"hdSize\":344622,\"height\":402}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759926652952": {
+    "timestamp": "1759926652999",
+    "timestampString": "19:30:53",
+    "msgId": "7095502530326",
+    "cliMsgId": "1759926652952",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Thấy gì đâu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
