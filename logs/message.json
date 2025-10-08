@@ -30860,5 +30860,70 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759903074035": {
+    "timestamp": "1759903074054",
+    "timestampString": "12:57:56",
+    "msgId": "7094073383614",
+    "cliMsgId": "1759903074035",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval api.sendMessage(\"ê kuu\", threadId)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903076159": {
+    "timestamp": "1759903076275",
+    "timestampString": "12:57:56",
+    "msgId": "7094073452611",
+    "cliMsgId": "1759903076159",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n:; Vũ Xuân Kiên :;\n✅ Thực thi thành công!\nKết quả: {\n  \"message\": {\n    \"msgId\": \"7094073468753\"\n  },\n  \"attachment\": [],\n  \"link\": null\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":18,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903074957": {
+    "timestamp": "1759903076031",
+    "timestampString": "12:57:57",
+    "msgId": "7094073468753",
+    "cliMsgId": "1759903074957",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "ê kuu",
+    "threadId": "5975420422762749911",
+    "type": 0,
+    "isUndo": false
+  },
+  "1759903093489": {
+    "timestamp": "1759903093542",
+    "timestampString": "12:58:14",
+    "msgId": "7094074201842",
+    "cliMsgId": "1759903093489",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "vãi c",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
