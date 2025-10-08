@@ -124658,5 +124658,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1759934493155": {
+    "timestamp": "1759934493241",
+    "timestampString": "21:41:34",
+    "msgId": "7095984560576",
+    "cliMsgId": "1759934493155",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "im mồm đi , con chó này.",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
