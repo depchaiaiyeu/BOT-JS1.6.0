@@ -124486,5 +124486,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759935211551": {
+    "timestamp": "1759935211802",
+    "timestampString": "21:53:32",
+    "msgId": "7096024016790",
+    "cliMsgId": "1759935211551",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Tuấn ai rảnh mà nhắn nhiều đâu",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935218983": {
+    "timestamp": "1759935219168",
+    "timestampString": "21:53:39",
+    "msgId": "7096024411000",
+    "cliMsgId": "1759935218983",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "Ko ở đc thì xéo :d",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759935224620": {
+    "timestamp": "1759935224688",
+    "timestampString": "21:53:45",
+    "msgId": "7096024708555",
+    "cliMsgId": "1759935224620",
+    "msgType": "webchat",
+    "uidFrom": "9012951880461584431",
+    "idTo": "4699745045071009795",
+    "dName": "Tuấn",
+    "content": "😏",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
