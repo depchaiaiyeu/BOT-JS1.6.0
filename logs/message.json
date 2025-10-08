@@ -126598,5 +126598,42 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1759937991070": {
+    "timestamp": "1759937991148",
+    "timestampString": "22:39:51",
+    "msgId": "7096159197165",
+    "cliMsgId": "1759937991070",
+    "msgType": "webchat",
+    "uidFrom": "3261504407687401336",
+    "idTo": "4825567233436439756",
+    "dName": "Hân Ỉ",
+    "content": "!meme đi ngủ",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937991347": {
+    "timestamp": "1759937992205",
+    "timestampString": "22:39:52",
+    "msgId": "7096159240242",
+    "cliMsgId": "1759937991347",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@Hân Ỉ\nĐây là danh sách kết quả mà tôi tìm được:\nHãy trả lời tin nhắn này với số index của kết quả mà bạn muốn tạo sticker!",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/7863374070068325271/b2c6afd6d19e5cc0058f.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/7863374070068325271/b2c6afd6d19e5cc0058f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":960,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/7863374070068325271\\/b2c6afd6d19e5cc0058f.jpg\",\"hdSize\":193324,\"height\":430}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
