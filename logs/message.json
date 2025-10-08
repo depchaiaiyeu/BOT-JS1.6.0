@@ -126041,5 +126041,149 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1055961724716600": {
+    "timestamp": "1759936208426",
+    "timestampString": "22:10:09",
+    "msgId": "7096077040694",
+    "cliMsgId": "1055961724716600",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": "༺━Xin Phép Các Admin━༻\n       𝙉𝙝𝙖𝙣 𝙍𝙖𝙞 𝙇𝙞𝙣𝙠 𝙏𝙝𝙪𝙚 𝙄𝙗 𝙏𝙪𝙞\n༺━━Điểm mạnh━━༻\nHoạt động 24/7🦾\nỔn định💯\n༺━━Bảng giá━━━༻\n➣Ngày 5K\n➣Tuần 30K\n➣Tháng 60K\n༺━━Thuê Bot━━༻\nThuê Bot Auto Rãi-Quản Lí Nhóm🚦\nBot War🔥\nNhiều Chức Năng Khác💯\nỔn Định⚡\nAn Toàn☄️\nGiá Cực Rẻ Chỉ Từ 70K??!!💥\nTư Vấn Từ A Tới Á\nIB Để Thuê Bot\n༺━━━Em Cảm Ơn━━━༻",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1055961724727400": {
+    "timestamp": "1759936208443",
+    "timestampString": "22:10:09",
+    "msgId": "7096077052601",
+    "cliMsgId": "1055961724727400",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bánh Bông Lan",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/669739264\\/a4a01cfce4a00dfe54b1.jpg\",\"gUid\":\"1K6AQHC56N8RV1OBR0HDQNDIT9JJ67O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/c/3/b/16/120/df6bc0e893d61d227cc2526fa56edc41.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8602274286000699226",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936208615": {
+    "timestamp": "1759936208699",
+    "timestampString": "22:10:09",
+    "msgId": "7096077060325",
+    "cliMsgId": "1759936208615",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8602274286000699000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1055961724727400,
+        "globalDelMsgId": 7096077052601,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936208747": {
+    "timestamp": "1759936208764",
+    "timestampString": "22:10:09",
+    "msgId": "7096077069115",
+    "cliMsgId": "1759936208747",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nBánh Bông Lan\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936208822": {
+    "timestamp": "1759936216597",
+    "timestampString": "22:10:17",
+    "msgId": "7096077466643",
+    "cliMsgId": "1759936208822",
+    "msgType": "share.file",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": {
+      "title": "spamsms.exe.zip",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/0cfeb0640ff7aea9f7e6/318804519589660755",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":\"32014930\", \"checksum\":\"418aba419a696441870e33b5507de892\", \"checksumSha\":\"null\", \"fileExt\":\"zip\", \"fdata\":\"{\\\"type\\\":2}\", \"fType\":1}",
+      "type": ""
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936219629": {
+    "timestamp": "1759936227131",
+    "timestampString": "22:10:28",
+    "msgId": "7096078015950",
+    "cliMsgId": "1759936219629",
+    "msgType": "share.file",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": {
+      "title": "tool pc spam sms.zip",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/3221bfb10022a17cf833/4954621421114767391",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":\"31684333\", \"checksum\":\"64c92ab506d95439e4c1e56576f18a90\", \"checksumSha\":\"null\", \"fileExt\":\"zip\", \"fdata\":\"{}\", \"fType\":1}",
+      "type": ""
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936229242": {
+    "timestamp": "1759936228357",
+    "timestampString": "22:10:29",
+    "msgId": "7096078074695",
+    "cliMsgId": "1759936229242",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "chan đi ae",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
