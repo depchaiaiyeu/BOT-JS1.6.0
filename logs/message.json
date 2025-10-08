@@ -126612,5 +126612,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759936439976": {
+    "timestamp": "1759936440095",
+    "timestampString": "22:14:00",
+    "msgId": "7096088859625",
+    "cliMsgId": "1759936439976",
+    "msgType": "webchat",
+    "uidFrom": "7117924099084666108",
+    "idTo": "5975420422762749911",
+    "dName": "Trần Văn Hoàng",
+    "content": "^exit",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936439466": {
+    "timestamp": "1759936440622",
+    "timestampString": "22:14:01",
+    "msgId": "7096088883889",
+    "cliMsgId": "1759936439466",
+    "msgType": "webchat",
+    "uidFrom": "7117924099084666108",
+    "idTo": "5975420422762749911",
+    "dName": "Trần Văn Hoàng",
+    "content": "➜ ✅ Đã ^C Thành Công, Bot Dừng Hoạt Động Hoàn Toàn !",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
