@@ -24,6 +24,16 @@
       {
         "dice": [
           5,
+          4,
+          4
+        ],
+        "total": 13,
+        "result": "tai",
+        "timestamp": 1759919848017
+      },
+      {
+        "dice": [
+          5,
           1,
           6
         ],
@@ -219,6 +229,18 @@
     "activeThreads": [],
     "jackpot": "1000000",
     "history": [
+      {
+        "mainNumbers": [
+          1,
+          16,
+          39,
+          45,
+          51,
+          55
+        ],
+        "extraNumber": 47,
+        "timestamp": 1759919848004
+      },
       {
         "mainNumbers": [
           2,
