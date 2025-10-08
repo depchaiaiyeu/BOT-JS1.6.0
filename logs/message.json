@@ -126905,5 +126905,61 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1759936561061": {
+    "timestamp": "1759936561296",
+    "timestampString": "22:16:01",
+    "msgId": "7096094899614",
+    "cliMsgId": "1759936561061",
+    "msgType": "webchat",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": "Chịu sv rác này vl",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936561828": {
+    "timestamp": "1759936561892",
+    "timestampString": "22:16:02",
+    "msgId": "7096094927924",
+    "cliMsgId": "1759936561828",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2990969618896538297",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Triều Đông quaiz",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936564588": {
+    "timestamp": "1759936564656",
+    "timestampString": "22:16:05",
+    "msgId": "7096095066708",
+    "cliMsgId": "1759936564588",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2990969618896538297",
+    "dName": "Vũ Xuân Kiên",
+    "content": "cho t đi",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759936588171": {
+    "timestamp": "1759936588369",
+    "timestampString": "22:16:29",
+    "msgId": "7096096234544",
+    "cliMsgId": "1759936588171",
+    "msgType": "webchat",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": "70k còn scam giả ngu nữa",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
