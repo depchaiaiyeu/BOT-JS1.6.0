@@ -31295,5 +31295,42 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759903390423": {
+    "timestamp": "1759903390543",
+    "timestampString": "13:03:11",
+    "msgId": "7094086708675",
+    "cliMsgId": "1759903390423",
+    "msgType": "webchat",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": "!thoitiet Vũng Tàu",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759903392964": {
+    "timestamp": "1759903393785",
+    "timestampString": "13:03:14",
+    "msgId": "7094086845536",
+    "cliMsgId": "1759903392964",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@Tài Tấn thông tin thời tiết Vũng Tàu",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/6145636253458444825/6f9db193bcd0318e68c1.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/6145636253458444825/6f9db193bcd0318e68c1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/6145636253458444825\\/6f9db193bcd0318e68c1.jpg\",\"hdSize\":3261165,\"height\":1920}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
