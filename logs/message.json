@@ -124821,5 +124821,93 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "105595914668340": {
+    "timestamp": "1759931911168",
+    "timestampString": "20:58:32",
+    "msgId": "7095831179567",
+    "cliMsgId": "105595914668340",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "✅ Đã tạo sticker xóa phông thành công!",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595914613320": {
+    "timestamp": "1759931911035",
+    "timestampString": "20:58:32",
+    "msgId": "7095831179549",
+    "cliMsgId": "105595914613320",
+    "msgType": "chat.photo",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/nx1zsn.webp",
+      "thumb": "https://files.catbox.moe/nx1zsn.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":512,\"thumb_height\":512,\"width\":512,\"contentId\":\"1759931910222\",\"webp\":{\"width\":512,\"url\":\"https:\\/\\/files.catbox.moe\\/nx1zsn.webp\",\"height\":512},\"hd\":\"https:\\/\\/files.catbox.moe\\/nx1zsn.webp\",\"height\":512}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595915248720": {
+    "timestamp": "1759931920829",
+    "timestampString": "20:58:41",
+    "msgId": "7095831812310",
+    "cliMsgId": "105595915248720",
+    "msgType": "chat.photo",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/tq2bnn.webp",
+      "thumb": "https://files.catbox.moe/tq2bnn.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":512,\"thumb_height\":512,\"width\":512,\"contentId\":\"1759931920812\",\"webp\":{\"width\":512,\"url\":\"https:\\/\\/files.catbox.moe\\/tq2bnn.webp\",\"height\":512},\"hd\":\"https:\\/\\/files.catbox.moe\\/tq2bnn.webp\",\"height\":512}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595915252440": {
+    "timestamp": "1759931920896",
+    "timestampString": "20:58:41",
+    "msgId": "7095831812326",
+    "cliMsgId": "105595915252440",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "✅ Đã tạo sticker xóa phông thành công!",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759931930838": {
+    "timestamp": "1759931930896",
+    "timestampString": "20:58:51",
+    "msgId": "7095832440579",
+    "cliMsgId": "1759931930838",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@Tuan xoá phông như nào v",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
