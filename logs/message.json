@@ -124793,5 +124793,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1759931797982": {
+    "timestamp": "1759931798106",
+    "timestampString": "20:56:39",
+    "msgId": "7095824200398",
+    "cliMsgId": "1759931797982",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "@skxp",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105595907919360": {
+    "timestamp": "1759931798674",
+    "timestampString": "20:56:39",
+    "msgId": "7095824198815",
+    "cliMsgId": "105595907919360",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "🔄 Đang xóa phông ảnh và tạo sticker...",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
