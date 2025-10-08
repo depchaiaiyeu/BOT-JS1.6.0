@@ -127006,5 +127006,79 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1759937498089": {
+    "timestamp": "1759937498129",
+    "timestampString": "22:31:38",
+    "msgId": "7096138531761",
+    "cliMsgId": "1759937498089",
+    "msgType": "webchat",
+    "uidFrom": "161601691291966725",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hoàng Văn Anh",
+    "content": "Nuwng qa",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937502094": {
+    "timestamp": "1759937502222",
+    "timestampString": "22:31:42",
+    "msgId": "7096138714149",
+    "cliMsgId": "1759937502094",
+    "msgType": "webchat",
+    "uidFrom": "6699329487316665795",
+    "idTo": "5464956150740844012",
+    "dName": "Tsm Team",
+    "content": "💢 x64 \nhttps://www.mediafire.com/file/2ctnoenx6u0g7l4/x64_TSM_TEAM_AOV_V2.apk/file\n\n💢 x32\nhttps://www.mediafire.com/file/7f18qh9ktp6t35r/X32_TSM_TEAM_V2_1.59.1.12.apk/file\n\n💢Key free\nlzWIfLKN5ts4VTCGvwJj\n\n⚠️ Tài khoản khách phải Lên Lv2 mới được bật menu\n\n💢 Nếu muốn đăng nhập Facebook thì phải xoá app Facebook rồi đăng nhập rồi tải lại Facebook",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937505485": {
+    "timestamp": "1759937505510",
+    "timestampString": "22:31:45",
+    "msgId": "7096138857055",
+    "cliMsgId": "1759937505485",
+    "msgType": "webchat",
+    "uidFrom": "8212011140514932429",
+    "idTo": "6512342651301747547",
+    "dName": "Tomy",
+    "content": "Chào mn",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937512151": {
+    "timestamp": "1759937512225",
+    "timestampString": "22:31:53",
+    "msgId": "7096139151918",
+    "cliMsgId": "1759937512151",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "@Bich Ngoc ok",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759937515484": {
+    "timestamp": "1759937515706",
+    "timestampString": "22:31:56",
+    "msgId": "7096139306073",
+    "cliMsgId": "1759937515484",
+    "msgType": "chat.sticker",
+    "uidFrom": "1649597156584133599",
+    "idTo": "6512342651301747547",
+    "dName": "Anh Thiện",
+    "content": {
+      "id": 46973,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
