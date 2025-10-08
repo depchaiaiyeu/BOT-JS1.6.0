@@ -124422,5 +124422,135 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1759934136024": {
+    "timestamp": "1759934136131",
+    "timestampString": "21:35:40",
+    "msgId": "7095964319605",
+    "cliMsgId": "1759934136024",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": ".scl khuôn mặt đáng thương remix",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934140211": {
+    "timestamp": "1759934140336",
+    "timestampString": "21:35:40",
+    "msgId": "7095964557773",
+    "cliMsgId": "1759934140211",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@种地\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/4777977805363222773/43b89ba45dedd0b389fc.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/4777977805363222773/43b89ba45dedd0b389fc.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1539,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/4777977805363222773\\/43b89ba45dedd0b389fc.jpg\",\"hdSize\":393831,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934152669": {
+    "timestamp": "1759934152794",
+    "timestampString": "21:35:53",
+    "msgId": "7095965241590",
+    "cliMsgId": "1759934152669",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "种地\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ Khuôn Mặt Đáng Thương - Sơn Tùng MTP ( 80s Remix ) || Nhạc Remix HOT TIKOK",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":3,\"len\":124,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934152409": {
+    "timestamp": "1759934152536",
+    "timestampString": "21:35:53",
+    "msgId": "7095965241552",
+    "cliMsgId": "1759934152409",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1759934140211,
+        "globalDelMsgId": 7095964557773,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934157947": {
+    "timestamp": "1759934158068",
+    "timestampString": "21:35:58",
+    "msgId": "7095965539271",
+    "cliMsgId": "1759934157947",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "种地\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":3,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759934158421": {
+    "timestamp": "1759934158548",
+    "timestampString": "21:35:58",
+    "msgId": "7095965580586",
+    "cliMsgId": "1759934158421",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/4165822314259019004/f9e965c3a28a2fd4769b.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/4165822314259019004/f9e965c3a28a2fd4769b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/4165822314259019004\\/f9e965c3a28a2fd4769b.jpg\",\"hdSize\":233754,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
