@@ -127897,5 +127897,65 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1759938713823": {
+    "timestamp": "1759938714181",
+    "timestampString": "22:51:55",
+    "msgId": "7096186858959",
+    "cliMsgId": "1759938713823",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/6210300337072482040/59a32ca94ce1c1bf98f0.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/6210300337072482040/59a32ca94ce1c1bf98f0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":416,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":828,\"height\":1792,\"thumb_width\":192}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938715327": {
+    "timestamp": "1759938715363",
+    "timestampString": "22:51:55",
+    "msgId": "7096186902970",
+    "cliMsgId": "1759938715327",
+    "msgType": "chat.photo",
+    "uidFrom": "5665338112475148452",
+    "idTo": "7897564732983285154",
+    "dName": "Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/646ecd95f97858260169/7858284938067978260?createby=NDQ_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/646ecd95f97858260169/7858284938067978260?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1755334929033\",\"height\":498,\"thumb_height\":498,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":498,\"width\":498,\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/646ecd95f97858260169\\/7858284938067978260?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1759938716968": {
+    "timestamp": "1759938718563",
+    "timestampString": "22:51:58",
+    "msgId": "7096187018470",
+    "cliMsgId": "1759938716968",
+    "msgType": "webchat",
+    "uidFrom": "717224590695865551",
+    "idTo": "8281509084603580118",
+    "dName": "Trần Tổng",
+    "content": "https://zalo.me/g/ewxcrc909 trả ạ",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
