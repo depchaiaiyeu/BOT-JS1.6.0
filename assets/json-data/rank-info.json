@@ -1647,8 +1647,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 200,
-          "messageCountToday": 66,
+          "Rank": 201,
+          "messageCountToday": 67,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1887,6 +1887,13 @@
           "UID": "8381167118249515636",
           "Rank": 5,
           "messageCountToday": 5,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Thieu Lam",
+          "UID": "7056576739333729750",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
@@ -4672,9 +4679,9 @@
         {
           "UserName": "Ngo Binh An",
           "UID": "6483014581534343363",
-          "Rank": 1,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Phi Hùng",
