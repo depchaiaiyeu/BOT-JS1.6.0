@@ -2432,8 +2432,8 @@
         {
           "UserName": "Tuan",
           "UID": "5301958507346934959",
-          "Rank": 250,
-          "messageCountToday": 7,
+          "Rank": 253,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -2740,8 +2740,8 @@
         {
           "UserName": "Tờ Quang广报",
           "UID": "7952370821979394919",
-          "Rank": 5,
-          "messageCountToday": 5,
+          "Rank": 7,
+          "messageCountToday": 7,
           "lastMessageDate": "2025-10-09"
         }
       ],
@@ -5494,8 +5494,8 @@
         {
           "UserName": "In X Kaka",
           "UID": "8198644531700062204",
-          "Rank": 1275,
-          "messageCountToday": 1275,
+          "Rank": 1359,
+          "messageCountToday": 1359,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5602,9 +5602,16 @@
           "Rank": 2,
           "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Dev Tezoss",
+          "UID": "2757672362236838526",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         }
       ],
-      "nameGroup": "Random2k.com"
+      "nameGroup": "Chủ box óc cacc"
     }
   }
 }
