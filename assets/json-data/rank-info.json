@@ -1397,8 +1397,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 554,
-          "messageCountToday": 143,
+          "Rank": 556,
+          "messageCountToday": 145,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1621,6 +1621,13 @@
         {
           "UserName": "Bumbi",
           "UID": "4094940405747355119",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Bún Đậu Mắm Tôm",
+          "UID": "763523377659540387",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
@@ -1939,8 +1946,8 @@
         {
           "UserName": "Bich Ngoc",
           "UID": "1238363753987858196",
-          "Rank": 81,
-          "messageCountToday": 13,
+          "Rank": 82,
+          "messageCountToday": 14,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1995,8 +2002,8 @@
         {
           "UserName": "Hoàng Khôi",
           "UID": "8975791456801459627",
-          "Rank": 14,
-          "messageCountToday": 3,
+          "Rank": 17,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -2128,8 +2135,8 @@
         {
           "UserName": "Xre",
           "UID": "9090621766324729619",
-          "Rank": 106,
-          "messageCountToday": 41,
+          "Rank": 108,
+          "messageCountToday": 43,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -2439,8 +2446,8 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 931,
-          "messageCountToday": 244,
+          "Rank": 932,
+          "messageCountToday": 245,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -2649,8 +2656,8 @@
         {
           "UserName": "Minh Tuan",
           "UID": "4001210754401849788",
-          "Rank": 32,
-          "messageCountToday": 13,
+          "Rank": 36,
+          "messageCountToday": 17,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -2728,6 +2735,13 @@
           "UID": "2836768016003635301",
           "Rank": 24,
           "messageCountToday": 24,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Tờ Quang广报",
+          "UID": "7952370821979394919",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
@@ -2904,8 +2918,8 @@
         {
           "UserName": "Bắc",
           "UID": "7159173789925726305",
-          "Rank": 63,
-          "messageCountToday": 21,
+          "Rank": 65,
+          "messageCountToday": 23,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5285,6 +5299,18 @@
         }
       ],
       "nameGroup": "QUẦN ÁO NAM CAO CẤP- 🥰 AN STORE🛍️"
+    },
+    "8311627129351719523": {
+      "users": [
+        {
+          "UserName": "Dthinh",
+          "UID": "5594840110292207775",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        }
+      ],
+      "nameGroup": "Crossfire Legend"
     }
   }
 }
