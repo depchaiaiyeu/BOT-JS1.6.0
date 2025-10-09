@@ -979,9 +979,9 @@
         {
           "UserName": "L A T",
           "UID": "651216097038065970",
-          "Rank": 1675,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 1676,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Gwen",
@@ -2156,8 +2156,8 @@
         {
           "UserName": "Xre",
           "UID": "9090621766324729619",
-          "Rank": 139,
-          "messageCountToday": 74,
+          "Rank": 140,
+          "messageCountToday": 75,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4309,6 +4309,13 @@
           "UID": "8556674929425918084",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Ndangkhoa",
+          "UID": "6667933205846439090",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
