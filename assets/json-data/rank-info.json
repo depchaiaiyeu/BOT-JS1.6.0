@@ -3212,8 +3212,8 @@
         {
           "UserName": "Việt",
           "UID": "6698910511481637580",
-          "Rank": 101,
-          "messageCountToday": 43,
+          "Rank": 104,
+          "messageCountToday": 46,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4202,6 +4202,13 @@
         {
           "UserName": "Nguyễn Duy Anh",
           "UID": "1905170892564597579",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Tự",
+          "UID": "8606778718000211786",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
