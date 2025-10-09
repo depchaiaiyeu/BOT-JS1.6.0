@@ -3058,8 +3058,8 @@
         {
           "UserName": "Tran Luc Nhi",
           "UID": "5047084489515674929",
-          "Rank": 79,
-          "messageCountToday": 51,
+          "Rank": 80,
+          "messageCountToday": 52,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3765,8 +3765,15 @@
         {
           "UserName": "Kim Ngân",
           "UID": "7610652301964809893",
-          "Rank": 3,
-          "messageCountToday": 3,
+          "Rank": 4,
+          "messageCountToday": 4,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Hoàng Dũng",
+          "UID": "1172497719438685310",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
