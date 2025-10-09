@@ -5361,8 +5361,8 @@
         {
           "UserName": "Xaabi",
           "UID": "1120572292036715446",
-          "Rank": 2,
-          "messageCountToday": 2,
+          "Rank": 12,
+          "messageCountToday": 12,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5431,8 +5431,22 @@
         {
           "UserName": "Tri Minh",
           "UID": "5623820954077635632",
-          "Rank": 8,
-          "messageCountToday": 8,
+          "Rank": 12,
+          "messageCountToday": 12,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Chí Cường",
+          "UID": "4470562121376945457",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Gia Huy",
+          "UID": "965900985597365084",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
