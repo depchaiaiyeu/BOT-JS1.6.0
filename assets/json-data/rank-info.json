@@ -972,8 +972,8 @@
         {
           "UserName": "Tài Tấn",
           "UID": "9186197335392085312",
-          "Rank": 177,
-          "messageCountToday": 14,
+          "Rank": 178,
+          "messageCountToday": 15,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4247,6 +4247,13 @@
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Trần Duy Trọng",
+          "UID": "3614609483692603922",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
@@ -5155,9 +5162,9 @@
         {
           "UserName": "Nguyễn Quang Huy",
           "UID": "8581465980330180908",
-          "Rank": 2,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 4,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Khánh Quốc",
@@ -5431,8 +5438,8 @@
         {
           "UserName": "Dthinh",
           "UID": "5594840110292207775",
-          "Rank": 9,
-          "messageCountToday": 9,
+          "Rank": 10,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-09"
         },
         {
