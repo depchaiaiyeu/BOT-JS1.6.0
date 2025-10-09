@@ -1605,8 +1605,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 137,
-          "messageCountToday": 3,
+          "Rank": 143,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1797,6 +1797,13 @@
           "Rank": 1,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Tâm",
+          "UID": "5391746303344474344",
+          "Rank": 14,
+          "messageCountToday": 14,
+          "lastMessageDate": "2025-10-09"
         }
       ],
       "nameGroup": "Sweet Tool MMO"
