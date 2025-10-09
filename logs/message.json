@@ -105515,5 +105515,79 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760013690105": {
+    "timestamp": "1760013690156",
+    "timestampString": "19:41:31",
+    "msgId": "7099165265480",
+    "cliMsgId": "1760013690105",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "Chịu",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760013704641": {
+    "timestamp": "1760013704657",
+    "timestampString": "19:41:45",
+    "msgId": "7099166138653",
+    "cliMsgId": "1760013704641",
+    "msgType": "webchat",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": "Hiểu lầm",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760013704806": {
+    "timestamp": "1760013705046",
+    "timestampString": "19:41:45",
+    "msgId": "7099166162723",
+    "cliMsgId": "1760013704806",
+    "msgType": "chat.recommended",
+    "uidFrom": "4405826118661077023",
+    "idTo": "4699745045071009795",
+    "dName": "Karic",
+    "content": {
+      "title": "https://zalo.me/g/aqnsnu019 cùng nắm tay nhau nói lại biển xa",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/aqnsnu019",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv24e35f3ed461760013704aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvYjlkYzhiMDJmMzY1MTkzYjQwNzQ=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"📢Plan Vs Brainrot 🇻🇳\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/aqnsnu019\",\"owner\":{\"id\":438732986,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/6\\/d\\/d\\/6\\/18\\/120\\/b52b63089fc1aef2339541d57dbd8736.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760013708514": {
+    "timestamp": "1760013708540",
+    "timestampString": "19:41:48",
+    "msgId": "7099166375092",
+    "cliMsgId": "1760013708514",
+    "msgType": "chat.photo",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/9113edf2577bf625af6a/7780486348379817525?createby=UltraGPT.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/9113edf2577bf625af6a/7780486348379817525?createby=UltraGPT.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":508,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758991700560\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/9113edf2577bf625af6a\\/7780486348379817525?createby=UltraGPT.webp\",\"width\":512,\"height\":508,\"thumb\":\"\"},\"contentId\":\"1758991700560\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
