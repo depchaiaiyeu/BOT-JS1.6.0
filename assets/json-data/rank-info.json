@@ -986,9 +986,9 @@
         {
           "UserName": "Gwen",
           "UID": "3069685413937500834",
-          "Rank": 28,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 29,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "N D Q",
@@ -1000,8 +1000,8 @@
         {
           "UserName": "Lê Quốc Đạt",
           "UID": "2784271520159982744",
-          "Rank": 338,
-          "messageCountToday": 4,
+          "Rank": 340,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1245,9 +1245,9 @@
         {
           "UserName": "Công Tước Rau Má",
           "UID": "9140305803916167139",
-          "Rank": 3,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 4,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Trung",
@@ -1383,8 +1383,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 491,
-          "messageCountToday": 80,
+          "Rank": 493,
+          "messageCountToday": 82,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1467,8 +1467,8 @@
         {
           "UserName": "Haruo",
           "UID": "5515030358762529970",
-          "Rank": 80,
-          "messageCountToday": 42,
+          "Rank": 82,
+          "messageCountToday": 44,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4869,6 +4869,25 @@
         }
       ],
       "nameGroup": "THÁNH TÔNG"
+    },
+    "5470867414150891223": {
+      "users": [
+        {
+          "UserName": "Triều Đông",
+          "UID": "7654139448969933571",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Bảo Ngọc",
+          "UID": "4645706868334156099",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        }
+      ],
+      "nameGroup": "Di Cư"
     }
   }
 }
