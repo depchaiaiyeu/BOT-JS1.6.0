@@ -1939,8 +1939,8 @@
         {
           "UserName": "Bich Ngoc",
           "UID": "1238363753987858196",
-          "Rank": 77,
-          "messageCountToday": 9,
+          "Rank": 78,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1967,8 +1967,8 @@
         {
           "UserName": "Hiếu",
           "UID": "5665338112475148452",
-          "Rank": 97,
-          "messageCountToday": 20,
+          "Rank": 99,
+          "messageCountToday": 22,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3667,15 +3667,22 @@
         {
           "UserName": "Nguyen Thuw",
           "UID": "3835985747695396871",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Karic",
           "UID": "4405826118661077023",
-          "Rank": 3,
-          "messageCountToday": 3,
+          "Rank": 9,
+          "messageCountToday": 9,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Tuan",
+          "UID": "5301958507346934959",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         }
       ],
