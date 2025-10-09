@@ -1397,8 +1397,8 @@
         {
           "UserName": "Nminh",
           "UID": "8606917999821023050",
-          "Rank": 19,
-          "messageCountToday": 3,
+          "Rank": 20,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3541,6 +3541,13 @@
           "UID": "1411189128537860014",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Hà Trọng Phát",
+          "UID": "2321664356334991619",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         }
       ],
