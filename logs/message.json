@@ -106935,5 +106935,421 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760014046299": {
+    "timestamp": "1760014046372",
+    "timestampString": "19:47:26",
+    "msgId": "7099186938067",
+    "cliMsgId": "1760014046299",
+    "msgType": "webchat",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": "@Bắc tr",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014051548": {
+    "timestamp": "1760014051637",
+    "timestampString": "19:47:32",
+    "msgId": "7099187259805",
+    "cliMsgId": "1760014051548",
+    "msgType": "webchat",
+    "uidFrom": "4718045139637983554",
+    "idTo": "8311627129351719523",
+    "dName": "Huỳnh Hiền",
+    "content": "con cặc lồn",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014051952": {
+    "timestamp": "1760014052025",
+    "timestampString": "19:47:33",
+    "msgId": "7099187283341",
+    "cliMsgId": "1760014051952",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "8311627129351719523",
+    "dName": "G I A T U Ấ N",
+    "content": "https://zalo.me/g/eiynxr938      https://zalo.me/g/rpoivt998",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014053789": {
+    "timestamp": "1760014053855",
+    "timestampString": "19:47:34",
+    "msgId": "7099187393020",
+    "cliMsgId": "1760014053789",
+    "msgType": "webchat",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": "Mới lập 45 r",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014055016": {
+    "timestamp": "1760014055101",
+    "timestampString": "19:47:35",
+    "msgId": "7099187472564",
+    "cliMsgId": "1760014055016",
+    "msgType": "chat.sticker",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "id": 47619,
+      "catId": 12045,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014066010": {
+    "timestamp": "1760014066094",
+    "timestampString": "19:47:47",
+    "msgId": "7099188140201",
+    "cliMsgId": "1760014066010",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014066213": {
+    "timestamp": "1760014066244",
+    "timestampString": "19:47:47",
+    "msgId": "7099188150902",
+    "cliMsgId": "1760014066213",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014066274": {
+    "timestamp": "1760014066354",
+    "timestampString": "19:47:47",
+    "msgId": "7099188157024",
+    "cliMsgId": "1760014066274",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014067094": {
+    "timestamp": "1760014067134",
+    "timestampString": "19:47:47",
+    "msgId": "7099188204140",
+    "cliMsgId": "1760014067094",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014066442": {
+    "timestamp": "1760014066518",
+    "timestampString": "19:47:47",
+    "msgId": "7099188168704",
+    "cliMsgId": "1760014066442",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014066389": {
+    "timestamp": "1760014066465",
+    "timestampString": "19:47:47",
+    "msgId": "7099188165577",
+    "cliMsgId": "1760014066389",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014067443": {
+    "timestamp": "1760014067490",
+    "timestampString": "19:47:47",
+    "msgId": "7099188225438",
+    "cliMsgId": "1760014067443",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014067348": {
+    "timestamp": "1760014067425",
+    "timestampString": "19:47:47",
+    "msgId": "7099188223364",
+    "cliMsgId": "1760014067348",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014067445": {
+    "timestamp": "1760014067544",
+    "timestampString": "19:47:47",
+    "msgId": "7099188230648",
+    "cliMsgId": "1760014067445",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014067629": {
+    "timestamp": "1760014067752",
+    "timestampString": "19:47:48",
+    "msgId": "7099188242355",
+    "cliMsgId": "1760014067629",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014068473": {
+    "timestamp": "1760014068524",
+    "timestampString": "19:47:48",
+    "msgId": "7099188289496",
+    "cliMsgId": "1760014068473",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014068891": {
+    "timestamp": "1760014068937",
+    "timestampString": "19:47:49",
+    "msgId": "7099188315696",
+    "cliMsgId": "1760014068891",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014069249": {
+    "timestamp": "1760014069329",
+    "timestampString": "19:47:49",
+    "msgId": "7099188336562",
+    "cliMsgId": "1760014069249",
+    "msgType": "chat.sticker",
+    "uidFrom": "7162410452624172894",
+    "idTo": "8311627129351719523",
+    "dName": "Lê Vũ Duy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014073239": {
+    "timestamp": "1760014073461",
+    "timestampString": "19:47:54",
+    "msgId": "7099188591306",
+    "cliMsgId": "1760014073239",
+    "msgType": "chat.sticker",
+    "uidFrom": "5623820954077635632",
+    "idTo": "8311627129351719523",
+    "dName": "Tri Minh",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014073872": {
+    "timestamp": "1760014074081",
+    "timestampString": "19:47:54",
+    "msgId": "7099188629214",
+    "cliMsgId": "1760014073872",
+    "msgType": "chat.sticker",
+    "uidFrom": "5623820954077635632",
+    "idTo": "8311627129351719523",
+    "dName": "Tri Minh",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014074191": {
+    "timestamp": "1760014074400",
+    "timestampString": "19:47:54",
+    "msgId": "7099188648736",
+    "cliMsgId": "1760014074191",
+    "msgType": "chat.sticker",
+    "uidFrom": "5623820954077635632",
+    "idTo": "8311627129351719523",
+    "dName": "Tri Minh",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014073541": {
+    "timestamp": "1760014073753",
+    "timestampString": "19:47:54",
+    "msgId": "7099188609700",
+    "cliMsgId": "1760014073541",
+    "msgType": "chat.sticker",
+    "uidFrom": "5623820954077635632",
+    "idTo": "8311627129351719523",
+    "dName": "Tri Minh",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014073391": {
+    "timestamp": "1760014073599",
+    "timestampString": "19:47:54",
+    "msgId": "7099188600180",
+    "cliMsgId": "1760014073391",
+    "msgType": "chat.sticker",
+    "uidFrom": "5623820954077635632",
+    "idTo": "8311627129351719523",
+    "dName": "Tri Minh",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014073706": {
+    "timestamp": "1760014073922",
+    "timestampString": "19:47:54",
+    "msgId": "7099188619221",
+    "cliMsgId": "1760014073706",
+    "msgType": "chat.sticker",
+    "uidFrom": "5623820954077635632",
+    "idTo": "8311627129351719523",
+    "dName": "Tri Minh",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
   }
 }
