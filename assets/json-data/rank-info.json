@@ -1946,8 +1946,8 @@
         {
           "UserName": "Bich Ngoc",
           "UID": "1238363753987858196",
-          "Rank": 87,
-          "messageCountToday": 19,
+          "Rank": 88,
+          "messageCountToday": 20,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5454,6 +5454,13 @@
           "UID": "5904025358606622676",
           "Rank": 3,
           "messageCountToday": 3,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Duy Minh",
+          "UID": "739598175596324984",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],

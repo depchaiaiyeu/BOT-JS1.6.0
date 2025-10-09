@@ -106952,5 +106952,46 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1760014188123": {
+    "timestamp": "1760014189156",
+    "timestampString": "19:49:49",
+    "msgId": "7099195614656",
+    "cliMsgId": "1760014188123",
+    "msgType": "chat.sticker",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": {
+      "id": 34843,
+      "catId": 11190,
+      "type": 7
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014189183": {
+    "timestamp": "1760014189274",
+    "timestampString": "19:49:50",
+    "msgId": "7099195665606",
+    "cliMsgId": "1760014189183",
+    "msgType": "chat.recommended",
+    "uidFrom": "739598175596324984",
+    "idTo": "8311627129351719523",
+    "dName": "Duy Minh",
+    "content": {
+      "title": "https://zalo.me/g/oshuuy925",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/oshuuy925",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2e342690dd41760014188aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDc4ZjI4ZGNmZGJiMTdlNTRlYWE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"D.MINH SHARE FILE🪄\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/oshuuy925\",\"owner\":{\"id\":440071053,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/d\\/9\\/a\\/d\\/4\\/120\\/2d201b3d6f32f5429574898d488beb16.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
   }
 }
