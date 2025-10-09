@@ -1028,9 +1028,9 @@
         {
           "UserName": "Hân Ỉ",
           "UID": "3261504407687401336",
-          "Rank": 23,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 24,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Tâm Hoàng 卍卐",
@@ -3044,8 +3044,8 @@
         {
           "UserName": "Tran Luc Nhi",
           "UID": "5047084489515674929",
-          "Rank": 44,
-          "messageCountToday": 16,
+          "Rank": 48,
+          "messageCountToday": 20,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3198,8 +3198,8 @@
         {
           "UserName": "Việt",
           "UID": "6698910511481637580",
-          "Rank": 66,
-          "messageCountToday": 8,
+          "Rank": 67,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3653,8 +3653,8 @@
         {
           "UserName": "Xuaan Mai",
           "UID": "8504879938679869500",
-          "Rank": 4,
-          "messageCountToday": 4,
+          "Rank": 6,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5522,8 +5522,8 @@
         {
           "UserName": "In X Kaka",
           "UID": "8198644531700062204",
-          "Rank": 3355,
-          "messageCountToday": 3355,
+          "Rank": 3441,
+          "messageCountToday": 3441,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5784,9 +5784,16 @@
           "Rank": 2,
           "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Văn Toàn",
+          "UID": "2620029490168928615",
+          "Rank": 13,
+          "messageCountToday": 13,
+          "lastMessageDate": "2025-10-09"
         }
       ],
-      "nameGroup": "Shop Random2k.com"
+      "nameGroup": "Hddt"
     }
   }
 }
