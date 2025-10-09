@@ -4756,8 +4756,8 @@
         {
           "UserName": "Đệ An Lov Quỳnh",
           "UID": "6902260644256511986",
-          "Rank": 8,
-          "messageCountToday": 8,
+          "Rank": 10,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4772,6 +4772,13 @@
           "UID": "4538257209717302464",
           "Rank": 6,
           "messageCountToday": 6,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Văn Chiến 亗",
+          "UID": "1113816537494657870",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
