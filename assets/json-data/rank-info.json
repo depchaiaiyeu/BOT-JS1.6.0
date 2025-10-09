@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 5832,
-          "messageCountToday": 153,
+          "Rank": 5833,
+          "messageCountToday": 154,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -993,8 +993,8 @@
         {
           "UserName": "N D Q",
           "UID": "5440985416542136505",
-          "Rank": 205,
-          "messageCountToday": 8,
+          "Rank": 206,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1682,8 +1682,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 309,
-          "messageCountToday": 175,
+          "Rank": 311,
+          "messageCountToday": 177,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1892,8 +1892,8 @@
         {
           "UserName": "Hoàng Văn Thụy",
           "UID": "460097460067239257",
-          "Rank": 44,
-          "messageCountToday": 44,
+          "Rank": 46,
+          "messageCountToday": 46,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5899,6 +5899,18 @@
         }
       ],
       "nameGroup": "Hddt"
+    },
+    "2923416478534884265": {
+      "users": [
+        {
+          "UserName": "Hồi Ức Ngọc Rồng",
+          "UID": "429979699228971980",
+          "Rank": 3,
+          "messageCountToday": 3,
+          "lastMessageDate": "2025-10-09"
+        }
+      ],
+      "nameGroup": "hoiucngocrong.com ra mắt sever 3,18h00 10/10"
     }
   }
 }
