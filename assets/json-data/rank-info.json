@@ -4883,8 +4883,15 @@
         {
           "UserName": "Thiên Ngọc",
           "UID": "9196605977515605659",
-          "Rank": 5,
-          "messageCountToday": 5,
+          "Rank": 6,
+          "messageCountToday": 6,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Lê Minh Tâm",
+          "UID": "8961012939333846624",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
         }
       ],
