@@ -108730,5 +108730,3925 @@
     "threadId": "8311627129351719523",
     "type": 1,
     "isUndo": false
+  },
+  "1760014344761": {
+    "timestamp": "1760014344857",
+    "timestampString": "19:52:25",
+    "msgId": "7099205193291",
+    "cliMsgId": "1760014344761",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014344974": {
+    "timestamp": "1760014345056",
+    "timestampString": "19:52:25",
+    "msgId": "7099205207133",
+    "cliMsgId": "1760014344974",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014345156": {
+    "timestamp": "1760014345239",
+    "timestampString": "19:52:25",
+    "msgId": "7099205218637",
+    "cliMsgId": "1760014345156",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014345389": {
+    "timestamp": "1760014345498",
+    "timestampString": "19:52:25",
+    "msgId": "7099205231752",
+    "cliMsgId": "1760014345389",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014345585": {
+    "timestamp": "1760014345682",
+    "timestampString": "19:52:26",
+    "msgId": "7099205241480",
+    "cliMsgId": "1760014345585",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014345765": {
+    "timestamp": "1760014345836",
+    "timestampString": "19:52:26",
+    "msgId": "7099205253604",
+    "cliMsgId": "1760014345765",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014345969": {
+    "timestamp": "1760014346100",
+    "timestampString": "19:52:26",
+    "msgId": "7099205267585",
+    "cliMsgId": "1760014345969",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014346163": {
+    "timestamp": "1760014346233",
+    "timestampString": "19:52:26",
+    "msgId": "7099205278095",
+    "cliMsgId": "1760014346163",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014346366": {
+    "timestamp": "1760014346450",
+    "timestampString": "19:52:26",
+    "msgId": "7099205290322",
+    "cliMsgId": "1760014346366",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014346591": {
+    "timestamp": "1760014346742",
+    "timestampString": "19:52:27",
+    "msgId": "7099205307286",
+    "cliMsgId": "1760014346591",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014346675": {
+    "timestamp": "1760014346779",
+    "timestampString": "19:52:27",
+    "msgId": "7099205313120",
+    "cliMsgId": "1760014346675",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014346895": {
+    "timestamp": "1760014346991",
+    "timestampString": "19:52:27",
+    "msgId": "7099205323876",
+    "cliMsgId": "1760014346895",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014347145": {
+    "timestamp": "1760014347232",
+    "timestampString": "19:52:27",
+    "msgId": "7099205340361",
+    "cliMsgId": "1760014347145",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014347310": {
+    "timestamp": "1760014347385",
+    "timestampString": "19:52:27",
+    "msgId": "7099205348247",
+    "cliMsgId": "1760014347310",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014347500": {
+    "timestamp": "1760014347575",
+    "timestampString": "19:52:27",
+    "msgId": "7099205360673",
+    "cliMsgId": "1760014347500",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014347724": {
+    "timestamp": "1760014347798",
+    "timestampString": "19:52:28",
+    "msgId": "7099205373111",
+    "cliMsgId": "1760014347724",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014347903": {
+    "timestamp": "1760014348000",
+    "timestampString": "19:52:28",
+    "msgId": "7099205384496",
+    "cliMsgId": "1760014347903",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014348103": {
+    "timestamp": "1760014348201",
+    "timestampString": "19:52:28",
+    "msgId": "7099205398697",
+    "cliMsgId": "1760014348103",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014348384": {
+    "timestamp": "1760014348471",
+    "timestampString": "19:52:28",
+    "msgId": "7099205414324",
+    "cliMsgId": "1760014348384",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014348858": {
+    "timestamp": "1760014348961",
+    "timestampString": "19:52:29",
+    "msgId": "7099205443863",
+    "cliMsgId": "1760014348858",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014348910": {
+    "timestamp": "1760014349084",
+    "timestampString": "19:52:29",
+    "msgId": "7099205452775",
+    "cliMsgId": "1760014348910",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014349136": {
+    "timestamp": "1760014349290",
+    "timestampString": "19:52:29",
+    "msgId": "7099205464238",
+    "cliMsgId": "1760014349136",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014349243": {
+    "timestamp": "1760014349371",
+    "timestampString": "19:52:29",
+    "msgId": "7099205469648",
+    "cliMsgId": "1760014349243",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014349640": {
+    "timestamp": "1760014349715",
+    "timestampString": "19:52:30",
+    "msgId": "7099205492036",
+    "cliMsgId": "1760014349640",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014348860": {
+    "timestamp": "1760014349070",
+    "timestampString": "19:52:30",
+    "msgId": "7099205452850",
+    "cliMsgId": "1760014348860",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014349825": {
+    "timestamp": "1760014349920",
+    "timestampString": "19:52:30",
+    "msgId": "7099205502871",
+    "cliMsgId": "1760014349825",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014350024": {
+    "timestamp": "1760014350101",
+    "timestampString": "19:52:30",
+    "msgId": "7099205513664",
+    "cliMsgId": "1760014350024",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014349423": {
+    "timestamp": "1760014349537",
+    "timestampString": "19:52:30",
+    "msgId": "7099205477703",
+    "cliMsgId": "1760014349423",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014350226": {
+    "timestamp": "1760014350484",
+    "timestampString": "19:52:30",
+    "msgId": "7099205535406",
+    "cliMsgId": "1760014350226",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014350408": {
+    "timestamp": "1760014350717",
+    "timestampString": "19:52:31",
+    "msgId": "7099205550159",
+    "cliMsgId": "1760014350408",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014350609": {
+    "timestamp": "1760014350839",
+    "timestampString": "19:52:31",
+    "msgId": "7099205559321",
+    "cliMsgId": "1760014350609",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014350810": {
+    "timestamp": "1760014350979",
+    "timestampString": "19:52:31",
+    "msgId": "7099205568205",
+    "cliMsgId": "1760014350810",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014351011": {
+    "timestamp": "1760014351214",
+    "timestampString": "19:52:31",
+    "msgId": "7099205582793",
+    "cliMsgId": "1760014351011",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014351206": {
+    "timestamp": "1760014351612",
+    "timestampString": "19:52:31",
+    "msgId": "7099205604467",
+    "cliMsgId": "1760014351206",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014351426": {
+    "timestamp": "1760014351614",
+    "timestampString": "19:52:32",
+    "msgId": "7099205604469",
+    "cliMsgId": "1760014351426",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014351863": {
+    "timestamp": "1760014351936",
+    "timestampString": "19:52:32",
+    "msgId": "7099205623980",
+    "cliMsgId": "1760014351863",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014351685": {
+    "timestamp": "1760014351786",
+    "timestampString": "19:52:32",
+    "msgId": "7099205615044",
+    "cliMsgId": "1760014351685",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014352046": {
+    "timestamp": "1760014352138",
+    "timestampString": "19:52:32",
+    "msgId": "7099205639211",
+    "cliMsgId": "1760014352046",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014352282": {
+    "timestamp": "1760014352352",
+    "timestampString": "19:52:32",
+    "msgId": "7099205651957",
+    "cliMsgId": "1760014352282",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014352513": {
+    "timestamp": "1760014352513",
+    "timestampString": "19:52:32",
+    "msgId": "7099205662258",
+    "cliMsgId": "1760014352513",
+    "msgType": "chat.recommended",
+    "uidFrom": "523291538404353400",
+    "idTo": "4699745045071009795",
+    "dName": "Quyhoang Bá Mà",
+    "content": {
+      "title": "/-li  LINK SHARE MK FILE TIỀN 🐠  /-li \n/-li  VÔ BÚ CÒN KỊP NHÉ CÁC BRO /-li \n•LINK BOX SHARE 500FILE + MẬT KHẨU FILE AIMLOCK TIỀN CẢ VÔ IK ĐỪNG HỎI MẬT KHẨU FILE VÔ LÀ CÓ FILE TIỀN FILE MÀ BÁ NHOÁ ⚙️\n•https://zalo.me/g/fvlevi750",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/fvlevi750",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2c331fb52591760014352aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvODY5M2MwYWJjM2NmMjk5MTcwZGU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"streamUrl\":\"\",\"stream_icon\":\"\",\"mediaTitle\":\"𝑨𝑰𝑴𝑳𝑶𝑪𝑲 𝑿 𝑸𝑼𝒀𝑯𝑶𝑨𝑵𝑮 🖥\",\"artist\":\"\",\"src\":\"zalo.me\",\"count\":\"\",\"type\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014352477": {
+    "timestamp": "1760014352568",
+    "timestampString": "19:52:32",
+    "msgId": "7099205663700",
+    "cliMsgId": "1760014352477",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014352692": {
+    "timestamp": "1760014352789",
+    "timestampString": "19:52:33",
+    "msgId": "7099205678213",
+    "cliMsgId": "1760014352692",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014352916": {
+    "timestamp": "1760014352999",
+    "timestampString": "19:52:33",
+    "msgId": "7099205691012",
+    "cliMsgId": "1760014352916",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353110": {
+    "timestamp": "1760014353209",
+    "timestampString": "19:52:33",
+    "msgId": "7099205706274",
+    "cliMsgId": "1760014353110",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353289": {
+    "timestamp": "1760014353375",
+    "timestampString": "19:52:33",
+    "msgId": "7099205715300",
+    "cliMsgId": "1760014353289",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353439": {
+    "timestamp": "1760014353521",
+    "timestampString": "19:52:33",
+    "msgId": "7099205720950",
+    "cliMsgId": "1760014353439",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353730": {
+    "timestamp": "1760014353840",
+    "timestampString": "19:52:34",
+    "msgId": "7099205741757",
+    "cliMsgId": "1760014353730",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353694": {
+    "timestamp": "1760014353784",
+    "timestampString": "19:52:34",
+    "msgId": "7099205739256",
+    "cliMsgId": "1760014353694",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353894": {
+    "timestamp": "1760014354000",
+    "timestampString": "19:52:34",
+    "msgId": "7099205754604",
+    "cliMsgId": "1760014353894",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014353841": {
+    "timestamp": "1760014354009",
+    "timestampString": "19:52:34",
+    "msgId": "7099205753986",
+    "cliMsgId": "1760014353841",
+    "msgType": "webchat",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": "Omg :)",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014354132": {
+    "timestamp": "1760014354250",
+    "timestampString": "19:52:34",
+    "msgId": "7099205766707",
+    "cliMsgId": "1760014354132",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014354244": {
+    "timestamp": "1760014354384",
+    "timestampString": "19:52:34",
+    "msgId": "7099205775344",
+    "cliMsgId": "1760014354244",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014354530": {
+    "timestamp": "1760014354624",
+    "timestampString": "19:52:35",
+    "msgId": "7099205790093",
+    "cliMsgId": "1760014354530",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014354811": {
+    "timestamp": "1760014354908",
+    "timestampString": "19:52:35",
+    "msgId": "7099205806736",
+    "cliMsgId": "1760014354811",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014354922": {
+    "timestamp": "1760014355012",
+    "timestampString": "19:52:35",
+    "msgId": "7099205814589",
+    "cliMsgId": "1760014354922",
+    "msgType": "chat.photo",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/37911a827a41db1f8250/6479191721498278250?sticker.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751957161145\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/37911a827a41db1f8250\\/6479191721498278250?sticker.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751957161145\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014355165": {
+    "timestamp": "1760014355256",
+    "timestampString": "19:52:35",
+    "msgId": "7099205829277",
+    "cliMsgId": "1760014355165",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014355351": {
+    "timestamp": "1760014355415",
+    "timestampString": "19:52:35",
+    "msgId": "7099205838974",
+    "cliMsgId": "1760014355351",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014355518": {
+    "timestamp": "1760014355600",
+    "timestampString": "19:52:35",
+    "msgId": "7099205849381",
+    "cliMsgId": "1760014355518",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014355720": {
+    "timestamp": "1760014355811",
+    "timestampString": "19:52:36",
+    "msgId": "7099205862209",
+    "cliMsgId": "1760014355720",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014355902": {
+    "timestamp": "1760014355978",
+    "timestampString": "19:52:36",
+    "msgId": "7099205872799",
+    "cliMsgId": "1760014355902",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014356095": {
+    "timestamp": "1760014356195",
+    "timestampString": "19:52:36",
+    "msgId": "7099205885267",
+    "cliMsgId": "1760014356095",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014356368": {
+    "timestamp": "1760014356456",
+    "timestampString": "19:52:36",
+    "msgId": "7099205900277",
+    "cliMsgId": "1760014356368",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014356549": {
+    "timestamp": "1760014356619",
+    "timestampString": "19:52:37",
+    "msgId": "7099205912777",
+    "cliMsgId": "1760014356549",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014356735": {
+    "timestamp": "1760014356819",
+    "timestampString": "19:52:37",
+    "msgId": "7099205925552",
+    "cliMsgId": "1760014356735",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014356963": {
+    "timestamp": "1760014357036",
+    "timestampString": "19:52:37",
+    "msgId": "7099205937347",
+    "cliMsgId": "1760014356963",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014357159": {
+    "timestamp": "1760014357232",
+    "timestampString": "19:52:37",
+    "msgId": "7099205951995",
+    "cliMsgId": "1760014357159",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014357336": {
+    "timestamp": "1760014357420",
+    "timestampString": "19:52:37",
+    "msgId": "7099205962645",
+    "cliMsgId": "1760014357336",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014357562": {
+    "timestamp": "1760014357641",
+    "timestampString": "19:52:38",
+    "msgId": "7099205974456",
+    "cliMsgId": "1760014357562",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014357762": {
+    "timestamp": "1760014357847",
+    "timestampString": "19:52:38",
+    "msgId": "7099205986722",
+    "cliMsgId": "1760014357762",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014357963": {
+    "timestamp": "1760014358040",
+    "timestampString": "19:52:38",
+    "msgId": "7099206000909",
+    "cliMsgId": "1760014357963",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014358222": {
+    "timestamp": "1760014358312",
+    "timestampString": "19:52:38",
+    "msgId": "7099206017302",
+    "cliMsgId": "1760014358222",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014358394": {
+    "timestamp": "1760014358476",
+    "timestampString": "19:52:38",
+    "msgId": "7099206027042",
+    "cliMsgId": "1760014358394",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014358605": {
+    "timestamp": "1760014358700",
+    "timestampString": "19:52:39",
+    "msgId": "7099206039187",
+    "cliMsgId": "1760014358605",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014358840": {
+    "timestamp": "1760014359016",
+    "timestampString": "19:52:39",
+    "msgId": "7099206059145",
+    "cliMsgId": "1760014358840",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014359259": {
+    "timestamp": "1760014359341",
+    "timestampString": "19:52:39",
+    "msgId": "7099206077751",
+    "cliMsgId": "1760014359259",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014359029": {
+    "timestamp": "1760014359151",
+    "timestampString": "19:52:39",
+    "msgId": "7099206067933",
+    "cliMsgId": "1760014359029",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014359494": {
+    "timestamp": "1760014359570",
+    "timestampString": "19:52:39",
+    "msgId": "7099206093624",
+    "cliMsgId": "1760014359494",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014359689": {
+    "timestamp": "1760014359773",
+    "timestampString": "19:52:40",
+    "msgId": "7099206105786",
+    "cliMsgId": "1760014359689",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014359876": {
+    "timestamp": "1760014359950",
+    "timestampString": "19:52:40",
+    "msgId": "7099206115296",
+    "cliMsgId": "1760014359876",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014360109": {
+    "timestamp": "1760014360175",
+    "timestampString": "19:52:40",
+    "msgId": "7099206130412",
+    "cliMsgId": "1760014360109",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014360339": {
+    "timestamp": "1760014360417",
+    "timestampString": "19:52:40",
+    "msgId": "7099206142759",
+    "cliMsgId": "1760014360339",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014360490": {
+    "timestamp": "1760014360574",
+    "timestampString": "19:52:40",
+    "msgId": "7099206153770",
+    "cliMsgId": "1760014360490",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014360741": {
+    "timestamp": "1760014360817",
+    "timestampString": "19:52:41",
+    "msgId": "7099206168799",
+    "cliMsgId": "1760014360741",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014360932": {
+    "timestamp": "1760014361022",
+    "timestampString": "19:52:41",
+    "msgId": "7099206180191",
+    "cliMsgId": "1760014360932",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014361127": {
+    "timestamp": "1760014361211",
+    "timestampString": "19:52:41",
+    "msgId": "7099206191818",
+    "cliMsgId": "1760014361127",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014361379": {
+    "timestamp": "1760014361462",
+    "timestampString": "19:52:41",
+    "msgId": "7099206208033",
+    "cliMsgId": "1760014361379",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014361582": {
+    "timestamp": "1760014361674",
+    "timestampString": "19:52:42",
+    "msgId": "7099206219622",
+    "cliMsgId": "1760014361582",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014361854": {
+    "timestamp": "1760014361910",
+    "timestampString": "19:52:42",
+    "msgId": "7099206235976",
+    "cliMsgId": "1760014361854",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "8311627129351719523",
+    "dName": "G I A T U Ấ N",
+    "content": "Box bán acc + reg idol.               https://zalo.me/g/eiynxr938.              .         https://zalo.me/g/rpoivt998",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014361800": {
+    "timestamp": "1760014361876",
+    "timestampString": "19:52:42",
+    "msgId": "7099206234846",
+    "cliMsgId": "1760014361800",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014362228": {
+    "timestamp": "1760014362320",
+    "timestampString": "19:52:42",
+    "msgId": "7099206262102",
+    "cliMsgId": "1760014362228",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014362476": {
+    "timestamp": "1760014362606",
+    "timestampString": "19:52:43",
+    "msgId": "7099206277146",
+    "cliMsgId": "1760014362476",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014362755": {
+    "timestamp": "1760014362868",
+    "timestampString": "19:52:43",
+    "msgId": "7099206295497",
+    "cliMsgId": "1760014362755",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014362030": {
+    "timestamp": "1760014362099",
+    "timestampString": "19:52:43",
+    "msgId": "7099206247732",
+    "cliMsgId": "1760014362030",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014363161": {
+    "timestamp": "1760014363238",
+    "timestampString": "19:52:43",
+    "msgId": "7099206317746",
+    "cliMsgId": "1760014363161",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014362972": {
+    "timestamp": "1760014363058",
+    "timestampString": "19:52:43",
+    "msgId": "7099206305568",
+    "cliMsgId": "1760014362972",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014363334": {
+    "timestamp": "1760014363452",
+    "timestampString": "19:52:43",
+    "msgId": "7099206329710",
+    "cliMsgId": "1760014363334",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014363596": {
+    "timestamp": "1760014363685",
+    "timestampString": "19:52:44",
+    "msgId": "7099206343305",
+    "cliMsgId": "1760014363596",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014362987": {
+    "timestamp": "1760014363059",
+    "timestampString": "19:52:44",
+    "msgId": "7099206305571",
+    "cliMsgId": "1760014362987",
+    "msgType": "webchat",
+    "uidFrom": "696110744603148690",
+    "idTo": "8311627129351719523",
+    "dName": "Thành Long",
+    "content": "Chủ box nứng à",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014363857": {
+    "timestamp": "1760014363976",
+    "timestampString": "19:52:44",
+    "msgId": "7099206363461",
+    "cliMsgId": "1760014363857",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014364135": {
+    "timestamp": "1760014364235",
+    "timestampString": "19:52:44",
+    "msgId": "7099206379678",
+    "cliMsgId": "1760014364135",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014364368": {
+    "timestamp": "1760014364456",
+    "timestampString": "19:52:45",
+    "msgId": "7099206390386",
+    "cliMsgId": "1760014364368",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014364569": {
+    "timestamp": "1760014364655",
+    "timestampString": "19:52:45",
+    "msgId": "7099206405530",
+    "cliMsgId": "1760014364569",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014364750": {
+    "timestamp": "1760014364807",
+    "timestampString": "19:52:45",
+    "msgId": "7099206414822",
+    "cliMsgId": "1760014364750",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "8311627129351719523",
+    "dName": "G I A T U Ấ N",
+    "content": "Box bán acc + reg idol.               https://zalo.me/g/eiynxr938.              .         https://zalo.me/g/rpoivt998",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014365016": {
+    "timestamp": "1760014365116",
+    "timestampString": "19:52:45",
+    "msgId": "7099206433046",
+    "cliMsgId": "1760014365016",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014364793": {
+    "timestamp": "1760014364879",
+    "timestampString": "19:52:45",
+    "msgId": "7099206417658",
+    "cliMsgId": "1760014364793",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014365221": {
+    "timestamp": "1760014365317",
+    "timestampString": "19:52:45",
+    "msgId": "7099206444972",
+    "cliMsgId": "1760014365221",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014365442": {
+    "timestamp": "1760014365537",
+    "timestampString": "19:52:45",
+    "msgId": "7099206458453",
+    "cliMsgId": "1760014365442",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014365688": {
+    "timestamp": "1760014365823",
+    "timestampString": "19:52:46",
+    "msgId": "7099206474212",
+    "cliMsgId": "1760014365688",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014365917": {
+    "timestamp": "1760014365999",
+    "timestampString": "19:52:46",
+    "msgId": "7099206488040",
+    "cliMsgId": "1760014365917",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014366146": {
+    "timestamp": "1760014366239",
+    "timestampString": "19:52:46",
+    "msgId": "7099206501413",
+    "cliMsgId": "1760014366146",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014366419": {
+    "timestamp": "1760014366518",
+    "timestampString": "19:52:46",
+    "msgId": "7099206519392",
+    "cliMsgId": "1760014366419",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014366570": {
+    "timestamp": "1760014366659",
+    "timestampString": "19:52:47",
+    "msgId": "7099206527355",
+    "cliMsgId": "1760014366570",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": ".var on",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014366639": {
+    "timestamp": "1760014366721",
+    "timestampString": "19:52:47",
+    "msgId": "7099206530953",
+    "cliMsgId": "1760014366639",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014366847": {
+    "timestamp": "1760014366957",
+    "timestampString": "19:52:47",
+    "msgId": "7099206547747",
+    "cliMsgId": "1760014366847",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367084": {
+    "timestamp": "1760014367185",
+    "timestampString": "19:52:47",
+    "msgId": "7099206559122",
+    "cliMsgId": "1760014367084",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367168": {
+    "timestamp": "1760014367235",
+    "timestampString": "19:52:47",
+    "msgId": "7099206561489",
+    "cliMsgId": "1760014367168",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367362": {
+    "timestamp": "1760014367452",
+    "timestampString": "19:52:47",
+    "msgId": "7099206575875",
+    "cliMsgId": "1760014367362",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367475": {
+    "timestamp": "1760014367492",
+    "timestampString": "19:52:47",
+    "msgId": "7099206531643",
+    "cliMsgId": "1760014367475",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": "🚀 Bắt đầu var với delay 0.3 giây.",
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367323": {
+    "timestamp": "1760014367425",
+    "timestampString": "19:52:48",
+    "msgId": "7099206575852",
+    "cliMsgId": "1760014367323",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367672": {
+    "timestamp": "1760014367727",
+    "timestampString": "19:52:48",
+    "msgId": "7099206592570",
+    "cliMsgId": "1760014367672",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367571": {
+    "timestamp": "1760014367630",
+    "timestampString": "19:52:48",
+    "msgId": "7099206585181",
+    "cliMsgId": "1760014367571",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367792": {
+    "timestamp": "1760014367931",
+    "timestampString": "19:52:48",
+    "msgId": "7099206604742",
+    "cliMsgId": "1760014367792",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367784": {
+    "timestamp": "1760014367886",
+    "timestampString": "19:52:48",
+    "msgId": "7099206603418",
+    "cliMsgId": "1760014367784",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368000": {
+    "timestamp": "1760014368099",
+    "timestampString": "19:52:48",
+    "msgId": "7099206615628",
+    "cliMsgId": "1760014368000",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367984": {
+    "timestamp": "1760014368155",
+    "timestampString": "19:52:48",
+    "msgId": "7099206619048",
+    "cliMsgId": "1760014367984",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368082": {
+    "timestamp": "1760014368203",
+    "timestampString": "19:52:48",
+    "msgId": "7099206622051",
+    "cliMsgId": "1760014368082",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368281": {
+    "timestamp": "1760014368341",
+    "timestampString": "19:52:48",
+    "msgId": "7099206632009",
+    "cliMsgId": "1760014368281",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014367543": {
+    "timestamp": "1760014367669",
+    "timestampString": "19:52:48",
+    "msgId": "7099206587819",
+    "cliMsgId": "1760014367543",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368431": {
+    "timestamp": "1760014368483",
+    "timestampString": "19:52:48",
+    "msgId": "7099206639010",
+    "cliMsgId": "1760014368431",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368376": {
+    "timestamp": "1760014368462",
+    "timestampString": "19:52:48",
+    "msgId": "7099206638784",
+    "cliMsgId": "1760014368376",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368548": {
+    "timestamp": "1760014368664",
+    "timestampString": "19:52:49",
+    "msgId": "7099206650765",
+    "cliMsgId": "1760014368548",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368599": {
+    "timestamp": "1760014368678",
+    "timestampString": "19:52:49",
+    "msgId": "7099206651070",
+    "cliMsgId": "1760014368599",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368718": {
+    "timestamp": "1760014368812",
+    "timestampString": "19:52:49",
+    "msgId": "7099206659994",
+    "cliMsgId": "1760014368718",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862085340": {
+    "timestamp": "1760014368801",
+    "timestampString": "19:52:49",
+    "msgId": "7099206645842",
+    "cliMsgId": "105600862085340",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟/꙰⃟꙰",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368946": {
+    "timestamp": "1760014369043",
+    "timestampString": "19:52:49",
+    "msgId": "7099206673508",
+    "cliMsgId": "1760014368946",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368990": {
+    "timestamp": "1760014369073",
+    "timestampString": "19:52:49",
+    "msgId": "7099206675320",
+    "cliMsgId": "1760014368990",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014368781": {
+    "timestamp": "1760014368894",
+    "timestampString": "19:52:49",
+    "msgId": "7099206662392",
+    "cliMsgId": "1760014368781",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369162": {
+    "timestamp": "1760014369216",
+    "timestampString": "19:52:49",
+    "msgId": "7099206685386",
+    "cliMsgId": "1760014369162",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369257": {
+    "timestamp": "1760014369320",
+    "timestampString": "19:52:49",
+    "msgId": "7099206691100",
+    "cliMsgId": "1760014369257",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369222": {
+    "timestamp": "1760014369326",
+    "timestampString": "19:52:49",
+    "msgId": "7099206691284",
+    "cliMsgId": "1760014369222",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369432": {
+    "timestamp": "1760014369478",
+    "timestampString": "19:52:49",
+    "msgId": "7099206699150",
+    "cliMsgId": "1760014369432",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369417": {
+    "timestamp": "1760014369499",
+    "timestampString": "19:52:49",
+    "msgId": "7099206700470",
+    "cliMsgId": "1760014369417",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369641": {
+    "timestamp": "1760014369697",
+    "timestampString": "19:52:50",
+    "msgId": "7099206715071",
+    "cliMsgId": "1760014369641",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369659": {
+    "timestamp": "1760014369746",
+    "timestampString": "19:52:50",
+    "msgId": "7099206715408",
+    "cliMsgId": "1760014369659",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862186680": {
+    "timestamp": "1760014369791",
+    "timestampString": "19:52:50",
+    "msgId": "7099206698596",
+    "cliMsgId": "105600862186680",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369809": {
+    "timestamp": "1760014369860",
+    "timestampString": "19:52:50",
+    "msgId": "7099206725240",
+    "cliMsgId": "1760014369809",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369848": {
+    "timestamp": "1760014369939",
+    "timestampString": "19:52:50",
+    "msgId": "7099206728767",
+    "cliMsgId": "1760014369848",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369963": {
+    "timestamp": "1760014370010",
+    "timestampString": "19:52:50",
+    "msgId": "7099206733103",
+    "cliMsgId": "1760014369963",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370069": {
+    "timestamp": "1760014370154",
+    "timestampString": "19:52:50",
+    "msgId": "7099206743203",
+    "cliMsgId": "1760014370069",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370131": {
+    "timestamp": "1760014370322",
+    "timestampString": "19:52:50",
+    "msgId": "7099206753115",
+    "cliMsgId": "1760014370131",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370314": {
+    "timestamp": "1760014370404",
+    "timestampString": "19:52:50",
+    "msgId": "7099206755490",
+    "cliMsgId": "1760014370314",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370322": {
+    "timestamp": "1760014370380",
+    "timestampString": "19:52:50",
+    "msgId": "7099206755349",
+    "cliMsgId": "1760014370322",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370469": {
+    "timestamp": "1760014370578",
+    "timestampString": "19:52:50",
+    "msgId": "7099206766103",
+    "cliMsgId": "1760014370469",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370531": {
+    "timestamp": "1760014370605",
+    "timestampString": "19:52:50",
+    "msgId": "7099206768425",
+    "cliMsgId": "1760014370531",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370654": {
+    "timestamp": "1760014370744",
+    "timestampString": "19:52:51",
+    "msgId": "7099206776265",
+    "cliMsgId": "1760014370654",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862248540": {
+    "timestamp": "1760014370821",
+    "timestampString": "19:52:51",
+    "msgId": "7099206748162",
+    "cliMsgId": "105600862248540",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370773": {
+    "timestamp": "1760014370862",
+    "timestampString": "19:52:51",
+    "msgId": "7099206784339",
+    "cliMsgId": "1760014370773",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370834": {
+    "timestamp": "1760014370905",
+    "timestampString": "19:52:51",
+    "msgId": "7099206784561",
+    "cliMsgId": "1760014370834",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014370969": {
+    "timestamp": "1760014371056",
+    "timestampString": "19:52:51",
+    "msgId": "7099206795960",
+    "cliMsgId": "1760014370969",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371075": {
+    "timestamp": "1760014371131",
+    "timestampString": "19:52:51",
+    "msgId": "7099206801827",
+    "cliMsgId": "1760014371075",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371133": {
+    "timestamp": "1760014371246",
+    "timestampString": "19:52:51",
+    "msgId": "7099206807904",
+    "cliMsgId": "1760014371133",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371228": {
+    "timestamp": "1760014371316",
+    "timestampString": "19:52:51",
+    "msgId": "7099206811493",
+    "cliMsgId": "1760014371228",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371304": {
+    "timestamp": "1760014371388",
+    "timestampString": "19:52:51",
+    "msgId": "7099206818842",
+    "cliMsgId": "1760014371304",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862282740": {
+    "timestamp": "1760014371397",
+    "timestampString": "19:52:51",
+    "msgId": "7099206804236",
+    "cliMsgId": "105600862282740",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟/꙰⃟꙰",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371493": {
+    "timestamp": "1760014371493",
+    "timestampString": "19:52:51",
+    "msgId": "7099206822461",
+    "cliMsgId": "1760014371493",
+    "msgType": "share.file",
+    "uidFrom": "523291538404353400",
+    "idTo": "4699745045071009795",
+    "dName": "Quyhoang Bá Mà",
+    "content": {
+      "title": "Adr + Ios _150k 📲 .zip",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/3c737b84c71666483f07/5070069738002458813",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":38387,\"checksum\":\"1ed5928cf579a24b6fdbfee445848613\",\"fileExt\":\"zip\"}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371479": {
+    "timestamp": "1760014371556",
+    "timestampString": "19:52:51",
+    "msgId": "7099206827301",
+    "cliMsgId": "1760014371479",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371474": {
+    "timestamp": "1760014371523",
+    "timestampString": "19:52:52",
+    "msgId": "7099206825030",
+    "cliMsgId": "1760014371474",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862304160": {
+    "timestamp": "1760014371753",
+    "timestampString": "19:52:52",
+    "msgId": "7099206832222",
+    "cliMsgId": "105600862304160",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371688": {
+    "timestamp": "1760014371758",
+    "timestampString": "19:52:52",
+    "msgId": "7099206838881",
+    "cliMsgId": "1760014371688",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371678": {
+    "timestamp": "1760014371762",
+    "timestampString": "19:52:52",
+    "msgId": "7099206839094",
+    "cliMsgId": "1760014371678",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371853": {
+    "timestamp": "1760014371953",
+    "timestampString": "19:52:52",
+    "msgId": "7099206850546",
+    "cliMsgId": "1760014371853",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371910": {
+    "timestamp": "1760014371996",
+    "timestampString": "19:52:52",
+    "msgId": "7099206855457",
+    "cliMsgId": "1760014371910",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014371998": {
+    "timestamp": "1760014372049",
+    "timestampString": "19:52:52",
+    "msgId": "7099206857268",
+    "cliMsgId": "1760014371998",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862325880": {
+    "timestamp": "1760014372111",
+    "timestampString": "19:52:52",
+    "msgId": "7099206832268",
+    "cliMsgId": "105600862325880",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372210": {
+    "timestamp": "1760014372268",
+    "timestampString": "19:52:52",
+    "msgId": "7099206869510",
+    "cliMsgId": "1760014372210",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372162": {
+    "timestamp": "1760014372280",
+    "timestampString": "19:52:52",
+    "msgId": "7099206871564",
+    "cliMsgId": "1760014372162",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862347060": {
+    "timestamp": "1760014372472",
+    "timestampString": "19:52:52",
+    "msgId": "7099206876934",
+    "cliMsgId": "105600862347060",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟/꙰⃟꙰",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372383": {
+    "timestamp": "1760014372460",
+    "timestampString": "19:52:52",
+    "msgId": "7099206882511",
+    "cliMsgId": "1760014372383",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372477": {
+    "timestamp": "1760014372583",
+    "timestampString": "19:52:52",
+    "msgId": "7099206889015",
+    "cliMsgId": "1760014372477",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372599": {
+    "timestamp": "1760014372677",
+    "timestampString": "19:52:53",
+    "msgId": "7099206895941",
+    "cliMsgId": "1760014372599",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372324": {
+    "timestamp": "1760014372478",
+    "timestampString": "19:52:53",
+    "msgId": "7099206885750",
+    "cliMsgId": "1760014372324",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372685": {
+    "timestamp": "1760014372730",
+    "timestampString": "19:52:53",
+    "msgId": "7099206898254",
+    "cliMsgId": "1760014372685",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862368600": {
+    "timestamp": "1760014372870",
+    "timestampString": "19:52:53",
+    "msgId": "7099206876971",
+    "cliMsgId": "105600862368600",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372790": {
+    "timestamp": "1760014372881",
+    "timestampString": "19:52:53",
+    "msgId": "7099206907337",
+    "cliMsgId": "1760014372790",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373036": {
+    "timestamp": "1760014373118",
+    "timestampString": "19:52:53",
+    "msgId": "7099206924821",
+    "cliMsgId": "1760014373036",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862392300": {
+    "timestamp": "1760014373217",
+    "timestampString": "19:52:53",
+    "msgId": "7099206876996",
+    "cliMsgId": "105600862392300",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372982": {
+    "timestamp": "1760014373253",
+    "timestampString": "19:52:53",
+    "msgId": "7099206930612",
+    "cliMsgId": "1760014372982",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373155": {
+    "timestamp": "1760014373348",
+    "timestampString": "19:52:53",
+    "msgId": "7099206936534",
+    "cliMsgId": "1760014373155",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014369616": {
+    "timestamp": "1760014373426",
+    "timestampString": "19:52:53",
+    "msgId": "7099206941534",
+    "cliMsgId": "1760014369616",
+    "msgType": "chat.recommended",
+    "uidFrom": "571281485669141462",
+    "idTo": "5464956150740844012",
+    "dName": "Doris You",
+    "content": {
+      "title": "https://zalo.me/g/tlrefa942 xp chéo tự trả phiền = xóa",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/tlrefa942",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2c4d4204aaa1760013953aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvM2EzOGFkYTRlMGMyMGE5YzUzZDM=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Hap pi neu zia 🙆💗\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/tlrefa942\",\"owner\":{\"id\":442088960,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/0\\/f\\/c\\/e\\/3\\/120\\/45ea2a7ee9d0793c55058de65a971bd5.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014372838": {
+    "timestamp": "1760014372900",
+    "timestampString": "19:52:53",
+    "msgId": "7099206907327",
+    "cliMsgId": "1760014372838",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862413240": {
+    "timestamp": "1760014373566",
+    "timestampString": "19:52:53",
+    "msgId": "7099206940435",
+    "cliMsgId": "105600862413240",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟/꙰⃟꙰",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373373": {
+    "timestamp": "1760014373549",
+    "timestampString": "19:52:53",
+    "msgId": "7099206949447",
+    "cliMsgId": "1760014373373",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373263": {
+    "timestamp": "1760014373360",
+    "timestampString": "19:52:53",
+    "msgId": "7099206940034",
+    "cliMsgId": "1760014373263",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373500": {
+    "timestamp": "1760014373574",
+    "timestampString": "19:52:53",
+    "msgId": "7099206952301",
+    "cliMsgId": "1760014373500",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373554": {
+    "timestamp": "1760014373657",
+    "timestampString": "19:52:54",
+    "msgId": "7099206954614",
+    "cliMsgId": "1760014373554",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373713": {
+    "timestamp": "1760014373800",
+    "timestampString": "19:52:54",
+    "msgId": "7099206963948",
+    "cliMsgId": "1760014373713",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862434420": {
+    "timestamp": "1760014373925",
+    "timestampString": "19:52:54",
+    "msgId": "7099206940473",
+    "cliMsgId": "105600862434420",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎꙰⃟‎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373893": {
+    "timestamp": "1760014373963",
+    "timestampString": "19:52:54",
+    "msgId": "7099206972688",
+    "cliMsgId": "1760014373893",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373875": {
+    "timestamp": "1760014373962",
+    "timestampString": "19:52:54",
+    "msgId": "7099206974227",
+    "cliMsgId": "1760014373875",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014374075": {
+    "timestamp": "1760014374126",
+    "timestampString": "19:52:54",
+    "msgId": "7099206986286",
+    "cliMsgId": "1760014374075",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014374193": {
+    "timestamp": "1760014374247",
+    "timestampString": "19:52:54",
+    "msgId": "7099206991879",
+    "cliMsgId": "1760014374193",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014374138": {
+    "timestamp": "1760014374242",
+    "timestampString": "19:52:54",
+    "msgId": "7099206990526",
+    "cliMsgId": "1760014374138",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862455720": {
+    "timestamp": "1760014374281",
+    "timestampString": "19:52:54",
+    "msgId": "7099206987416",
+    "cliMsgId": "105600862455720",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎﻿꙰⃟⃟⃟⃟⃟⃟⃟⃟⃟⃟͏͏⁣⁤᠎",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014374396": {
+    "timestamp": "1760014374451",
+    "timestampString": "19:52:54",
+    "msgId": "7099207007346",
+    "cliMsgId": "1760014374396",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014373741": {
+    "timestamp": "1760014373805",
+    "timestampString": "19:52:54",
+    "msgId": "7099206963205",
+    "cliMsgId": "1760014373741",
+    "msgType": "chat.sticker",
+    "uidFrom": "7822046987144593590",
+    "idTo": "8311627129351719523",
+    "dName": "Phan Lê Huy",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014374380": {
+    "timestamp": "1760014374483",
+    "timestampString": "19:52:54",
+    "msgId": "7099207007591",
+    "cliMsgId": "1760014374380",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "105600862477020": {
+    "timestamp": "1760014374628",
+    "timestampString": "19:52:55",
+    "msgId": "7099207011231",
+    "cliMsgId": "105600862477020",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "8311627129351719523",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟/꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟/꙰⃟꙰",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 100000, \"st\": \"f_10000000\"}, {\"start\": 0, \"len\": 10000, \"st\": \"b\"}, {\"start\": 0, \"len\": 10000, \"st\": \"c_db342e\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760014374592": {
+    "timestamp": "1760014374695",
+    "timestampString": "19:52:55",
+    "msgId": "7099207018905",
+    "cliMsgId": "1760014374592",
+    "msgType": "chat.sticker",
+    "uidFrom": "6635421595800578094",
+    "idTo": "8311627129351719523",
+    "dName": "Khoa Đăng",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "8311627129351719523",
+    "type": 1,
+    "isUndo": false
   }
 }
