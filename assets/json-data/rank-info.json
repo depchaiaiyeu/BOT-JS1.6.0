@@ -1411,8 +1411,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 561,
-          "messageCountToday": 150,
+          "Rank": 563,
+          "messageCountToday": 152,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1530,8 +1530,8 @@
         {
           "UserName": "Bánh Bông Lan",
           "UID": "8602274286000699226",
-          "Rank": 69,
-          "messageCountToday": 23,
+          "Rank": 71,
+          "messageCountToday": 25,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -5276,6 +5276,13 @@
           "UID": "2469710224594830717",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Tú Duy",
+          "UID": "7430511557236889637",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         }
       ],
