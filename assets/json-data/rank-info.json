@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 5693,
-          "messageCountToday": 14,
+          "Rank": 5695,
+          "messageCountToday": 16,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1357,8 +1357,8 @@
         {
           "UserName": "Bùi Huy",
           "UID": "6021129168336076212",
-          "Rank": 5,
-          "messageCountToday": 5,
+          "Rank": 8,
+          "messageCountToday": 8,
           "lastMessageDate": "2025-10-09"
         }
       ],
@@ -1376,8 +1376,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 477,
-          "messageCountToday": 66,
+          "Rank": 479,
+          "messageCountToday": 68,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1460,8 +1460,8 @@
         {
           "UserName": "Haruo",
           "UID": "5515030358762529970",
-          "Rank": 72,
-          "messageCountToday": 34,
+          "Rank": 74,
+          "messageCountToday": 36,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3806,6 +3806,13 @@
           "Rank": 1,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-08"
+        },
+        {
+          "UserName": "Hoàng Thanh Tùng",
+          "UID": "5518548593240783022",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
