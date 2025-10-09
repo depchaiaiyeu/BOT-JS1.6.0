@@ -2841,8 +2841,8 @@
         {
           "UserName": "Bắc",
           "UID": "7159173789925726305",
-          "Rank": 52,
-          "messageCountToday": 10,
+          "Rank": 53,
+          "messageCountToday": 11,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3555,6 +3555,13 @@
         {
           "UserName": "Võ Sang",
           "UID": "1019956689473128476",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Xuaan Mai",
+          "UID": "8504879938679869500",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
