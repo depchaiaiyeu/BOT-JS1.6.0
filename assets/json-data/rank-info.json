@@ -1689,8 +1689,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 316,
-          "messageCountToday": 182,
+          "Rank": 317,
+          "messageCountToday": 183,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3807,6 +3807,13 @@
         {
           "UserName": "Cậu Hai Miền Tây",
           "UID": "596900117921407347",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Nb",
+          "UID": "2011995125119063767",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-09"
