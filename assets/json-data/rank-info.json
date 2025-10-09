@@ -986,8 +986,8 @@
         {
           "UserName": "Gwen",
           "UID": "3069685413937500834",
-          "Rank": 29,
-          "messageCountToday": 1,
+          "Rank": 33,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -1371,8 +1371,8 @@
         {
           "UserName": "Ehvn",
           "UID": "7146211764988620311",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         }
       ],
@@ -1390,8 +1390,8 @@
         {
           "UserName": "Ktctue",
           "UID": "7932651424748149037",
-          "Rank": 494,
-          "messageCountToday": 83,
+          "Rank": 495,
+          "messageCountToday": 84,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -2334,15 +2334,15 @@
         {
           "UserName": "Dell Yêu Ai",
           "UID": "2275317996891696552",
-          "Rank": 771,
-          "messageCountToday": 84,
+          "Rank": 772,
+          "messageCountToday": 85,
           "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "N G H",
           "UID": "7903661198985601940",
-          "Rank": 23,
-          "messageCountToday": 1,
+          "Rank": 24,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -3927,8 +3927,8 @@
         {
           "UserName": "Triều Đông",
           "UID": "7654139448969933571",
-          "Rank": 10,
-          "messageCountToday": 3,
+          "Rank": 11,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4889,22 +4889,22 @@
         {
           "UserName": "Triều Đông",
           "UID": "7654139448969933571",
-          "Rank": 1,
-          "messageCountToday": 1,
-          "lastMessageDate": "2025-10-09"
-        },
-        {
-          "UserName": "Bảo Ngọc",
-          "UID": "4645706868334156099",
           "Rank": 2,
           "messageCountToday": 2,
           "lastMessageDate": "2025-10-09"
         },
         {
+          "UserName": "Bảo Ngọc",
+          "UID": "4645706868334156099",
+          "Rank": 4,
+          "messageCountToday": 4,
+          "lastMessageDate": "2025-10-09"
+        },
+        {
           "UserName": "Mai Lê",
           "UID": "8659697562202878998",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 3,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-09"
         }
       ],
