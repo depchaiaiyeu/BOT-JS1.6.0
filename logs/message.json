@@ -22,57 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760017957212": {
-    "timestamp": "1760017962911",
-    "timestampString": "20:52:44",
-    "msgId": "7099431310432",
-    "cliMsgId": "1760017957212",
-    "msgType": "chat.photo",
-    "uidFrom": "3304301946210293728",
-    "idTo": "8220006906780909608",
-    "dName": "Chín Điểm Môn Anh",
-    "content": {
-      "title": "Nhiều vk qus,nhỏ n chính thất nma bị thất sủng vs e ghệ t ms quen r😏",
-      "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/jpg/4978915369500467966/08218fce049c89c2d08d.jpg",
-      "thumb": "https://f65-zpg-r.zdn.vn/jpg/4978915369500467966/08218fce049c89c2d08d.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":948,\"height\":1907,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/4978915369500467966\\/08218fce049c89c2d08d.jpg\",\"is_group_layout\":0,\"contentId\":\"1000030171\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "8220006906780909608",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760017970863": {
-    "timestamp": "1760017970913",
-    "timestampString": "20:52:51",
-    "msgId": "7099431803123",
-    "cliMsgId": "1760017970863",
-    "msgType": "webchat",
-    "uidFrom": "1080751283556847812",
-    "idTo": "7897564732983285154",
-    "dName": "Nguyễn Hồng Anh Đức",
-    "content": "Mới ăn cơm",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760017974823": {
-    "timestamp": "1760017974860",
-    "timestampString": "20:52:55",
-    "msgId": "7099432046757",
-    "cliMsgId": "1760017974823",
-    "msgType": "webchat",
-    "uidFrom": "1080751283556847812",
-    "idTo": "7897564732983285154",
-    "dName": "Nguyễn Hồng Anh Đức",
-    "content": "Đã quá các em ơi",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760017990033": {
     "timestamp": "1760017990099",
     "timestampString": "20:53:10",
