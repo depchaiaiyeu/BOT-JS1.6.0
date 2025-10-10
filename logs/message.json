@@ -45,57 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026020423": {
-    "timestamp": "1760026024774",
-    "timestampString": "23:07:05",
-    "msgId": "7099848613814",
-    "cliMsgId": "1760026020423",
-    "msgType": "chat.video.msg",
-    "uidFrom": "7358024069168372519",
-    "idTo": "4699745045071009795",
-    "dName": "Thanh Bin",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f112-zvc.dlmd.me/gr/e688e2e96873852ddc62/4914624927481248355",
-      "thumb": "https://f61-zpg-r.zdn.vn/2180324639795000226/9098d75a6707ea59b316.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"duration\":109000,\"is_group_layout\":0,\"video_original_width\":720,\"video_original_height\":1036,\"video_width\":720,\"video_height\":1036,\"video_rotation\":0,\"fileSize\":7745712,\"isHD\":1}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026047333": {
-    "timestamp": "1760026047375",
-    "timestampString": "23:07:28",
-    "msgId": "7099849353450",
-    "cliMsgId": "1760026047333",
-    "msgType": "webchat",
-    "uidFrom": "7509156789270166542",
-    "idTo": "1367422010794969537",
-    "dName": "Anh Tú",
-    "content": "em coi cgiz🥰",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026076783": {
-    "timestamp": "1760026076822",
-    "timestampString": "23:07:58",
-    "msgId": "7099850308586",
-    "cliMsgId": "1760026076783",
-    "msgType": "webchat",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": "Sì cà lố😛😛😛🐿️",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "1760026096720": {
     "timestamp": "1760026096869",
     "timestampString": "23:08:17",
