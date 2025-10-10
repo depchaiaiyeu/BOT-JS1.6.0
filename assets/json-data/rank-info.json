@@ -2705,8 +2705,8 @@
         {
           "UserName": "Chiêm Thị Cúc",
           "UID": "2330822676623202659",
-          "Rank": 101,
-          "messageCountToday": 3,
+          "Rank": 102,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -2917,6 +2917,13 @@
           "UID": "3585195700709757434",
           "Rank": 6,
           "messageCountToday": 6,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Nguyễn Chí Thành",
+          "UID": "6872987713981931354",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
         }
       ],
