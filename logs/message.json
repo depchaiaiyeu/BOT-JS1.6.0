@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "105601791744060": {
-    "timestamp": "1760029862665",
-    "timestampString": "00:11:03",
-    "msgId": "7099939015059",
-    "cliMsgId": "105601791744060",
-    "msgType": "chat.photo",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": {
-      "title": "@Nguyễn Phước Thọ",
-      "description": "",
-      "href": "https://f59-zpg-r.zdn.vn/8922746519222594225/94e750e210be9de0c4af.jpg",
-      "thumb": "https://t-f59-zpg-r.zdn.vn/480/8922746519222594225/94e750e210be9de0c4af.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/8922746519222594225\\/94e750e210be9de0c4af.jpg\",\"hdSize\":344622,\"height\":760}",
-      "type": ""
-    },
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1056017953671000": {
     "timestamp": "1760029922834",
     "timestampString": "00:12:03",
