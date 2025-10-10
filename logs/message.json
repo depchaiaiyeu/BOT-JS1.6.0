@@ -21252,5 +21252,33 @@
     "threadId": "2963005498718311973",
     "type": 0,
     "isUndo": false
+  },
+  "1760138616214": {
+    "timestamp": "1760138616445",
+    "timestampString": "06:23:37",
+    "msgId": "7103891155246",
+    "cliMsgId": "1760138616214",
+    "msgType": "webchat",
+    "uidFrom": "2963005498718311973",
+    "idTo": "5464956150740844012",
+    "dName": "Vinh",
+    "content": "@Vũ Xuân Kiên =))",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "105608317610400": {
+    "timestamp": "1760138626821",
+    "timestampString": "06:23:47",
+    "msgId": "7103891310896",
+    "cliMsgId": "105608317610400",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": "Sale file 500k còn 50k , đảm bảo 100% tác dụng , khi mua còn dc tặng thêm dpi nút bắn , độ nhạy cho từng máy",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
