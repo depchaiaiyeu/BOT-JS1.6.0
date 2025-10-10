@@ -19552,5 +19552,56 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760137536410": {
+    "timestamp": "1760137536474",
+    "timestampString": "06:05:37",
+    "msgId": "7103876581961",
+    "cliMsgId": "1760137536410",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".bot welcome on",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137540590": {
+    "timestamp": "1760137540647",
+    "timestampString": "06:05:41",
+    "msgId": "7103876633557",
+    "cliMsgId": "1760137540590",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "sao t k có",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137542341": {
+    "timestamp": "1760137542509",
+    "timestampString": "06:05:42",
+    "msgId": "7103876656711",
+    "cliMsgId": "1760137542341",
+    "msgType": "chat.recommended",
+    "uidFrom": "8224114751356416538",
+    "idTo": "2760006576081013366",
+    "dName": "Sunn",
+    "content": {
+      "title": "chéo nhớ ghi trả Vào nch + id nhận acc https://zalo.me/g/xufivl113",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xufivl113",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv259ebb1d0c61760137439aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvYWI2YTAxNWI1OTNkYjM2M2VhMmM=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"🐥isenkai🐥\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xufivl113\",\"owner\":{\"id\":443467253,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/4\\/f\\/2\\/e\\/4\\/120\\/d22892a0911b1acb98e0cfe49a14bce0.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
   }
 }
