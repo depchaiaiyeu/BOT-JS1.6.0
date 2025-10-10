@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026000874": {
-    "timestamp": "1760026001081",
-    "timestampString": "23:06:42",
-    "msgId": "7099847842652",
-    "cliMsgId": "1760026000874",
-    "msgType": "chat.video.msg",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f151-zvc.dlmd.me/gr/7018dca44b3ea660ff2f/3932250699856626248",
-      "thumb": "https://f56-zpg-r.zdn.vn/7265713390506122510/8e4fc1067e5bf305aa4a.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"fileSize\":3120970,\"video_height\":1024,\"video_width\":576,\"video_rotation\":0,\"duration\":29000}",
-      "type": ""
-    },
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026004794": {
-    "timestamp": "1760026004879",
-    "timestampString": "23:06:45",
-    "msgId": "7099847967665",
-    "cliMsgId": "1760026004794",
-    "msgType": "webchat",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": "Cười điên",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "1760026020423": {
     "timestamp": "1760026024774",
     "timestampString": "23:07:05",
