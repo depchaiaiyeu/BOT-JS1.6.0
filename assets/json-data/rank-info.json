@@ -1460,9 +1460,9 @@
         {
           "UserName": "Nminh",
           "UID": "8606917999821023050",
-          "Rank": 28,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 29,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Thái Bình",
@@ -1717,8 +1717,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 409,
-          "messageCountToday": 20,
+          "Rank": 411,
+          "messageCountToday": 22,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -1990,6 +1990,13 @@
         {
           "UserName": "Trung Anh",
           "UID": "1817492018187813122",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Mai",
+          "UID": "333989407218354073",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
