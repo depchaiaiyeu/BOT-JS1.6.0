@@ -23499,5 +23499,19 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1760139761281": {
+    "timestamp": "1760139761346",
+    "timestampString": "06:42:42",
+    "msgId": "7103910194802",
+    "cliMsgId": "1760139761281",
+    "msgType": "webchat",
+    "uidFrom": "7098937673462319039",
+    "idTo": "9104968216656954464",
+    "dName": "Ng Thịnh",
+    "content": "@Mink Khiêm 1.5/1 tự động all luôn-))",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
