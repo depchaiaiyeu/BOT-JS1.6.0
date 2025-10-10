@@ -45,34 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760028010653": {
-    "timestamp": "1760028010688",
-    "timestampString": "23:40:11",
-    "msgId": "7099903562810",
-    "cliMsgId": "1760028010653",
-    "msgType": "webchat",
-    "uidFrom": "1180088772966682971",
-    "idTo": "7585160044864555896",
-    "dName": "Đặng Hoài Ân",
-    "content": "/likefd 6891666732",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760028015783": {
-    "timestamp": "1760028015833",
-    "timestampString": "23:40:16",
-    "msgId": "7099903680494",
-    "cliMsgId": "1760028015783",
-    "msgType": "webchat",
-    "uidFrom": "1180088772966682971",
-    "idTo": "7585160044864555896",
-    "dName": "Đặng Hoài Ân",
-    "content": "/likeff 6891666732",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760028245429": {
     "timestamp": "1760028245488",
     "timestampString": "23:44:07",
