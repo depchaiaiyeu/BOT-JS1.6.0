@@ -27053,5 +27053,102 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1056084021609000": {
+    "timestamp": "1760140036029",
+    "timestampString": "06:47:17",
+    "msgId": "7103915341330",
+    "cliMsgId": "1056084021609000",
+    "msgType": "webchat",
+    "uidFrom": "1990597441153292955",
+    "idTo": "3453989112147091924",
+    "dName": "Đệ Của Hoàng",
+    "content": "[ BOT HA HUY HOANG AUTO RẢI ]\nNhận rải thuê 10k/ngày\nCho thuê bot 70k/1 tháng\nLink box bot: https://zalo.me/g/aoosnn075\nLh thuê bot +rải card bên dưới\n\nBên mình sẵn nhiều kênh TikTok 1 - 500k Follow đủ chức năng bảo hành ✅\nNhận Oder Kênh theo tệp tuổi, giới tính, lượng Follow ✅\nMọi người vào nhóm xem kênh nha: https://zalo.me/g/gkjcic891\nCall: 0986.226.914 ( hỗ trợ nhanh ) ☎️\nGiao dịch trực tiếp hoặc qua trung gian AD có cọc bảo hiểm ✅\n\n\n- 1k tym toptop = 1k\n- 1k f.lâu toptop = 10k\n-1k f.lâu facebook = 5k\nVà nhiều dv đa dạng khác giá siêu rẻ..\n🌐 Tại web: subsale.vn\n🔔 Tham gia kênh thông báo xem hướng dẫn thêm: \nNhóm 1 : https://zalo.me/g/atilkb482\nNhóm 2 : https://zalo.me/g/yedxlw309\nNhóm 3 : https://zalo.me/g/irecjj359",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056084021646800": {
+    "timestamp": "1760140036097",
+    "timestampString": "06:47:17",
+    "msgId": "7103915342725",
+    "cliMsgId": "1056084021646800",
+    "msgType": "chat.recommended",
+    "uidFrom": "1990597441153292955",
+    "idTo": "3453989112147091924",
+    "dName": "Đệ Của Hoàng",
+    "content": {
+      "title": "Hà Huy Hoàng",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/2\\/477206840\\/19f4ac8f64d38d8dd4c2.jpg\",\"gUid\":\"VHMD8DLF4BE9BB9FU8FS95L7S5K482O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/1/c/c/a/15/120/7e16ea9688da7e27b859bbdfa324e03a.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "5365572569803808077",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140030695": {
+    "timestamp": "1760140037230",
+    "timestampString": "06:47:17",
+    "msgId": "7103915364902",
+    "cliMsgId": "1760140030695",
+    "msgType": "webchat",
+    "uidFrom": "2872366830826822375",
+    "idTo": "3453989112147091924",
+    "dName": "Tuấn Anh",
+    "content": "📌Đăng ký  MBV bank  (không thu acc)\n📍Giá: 40k\n🚫Yêu cầu:\n+ Chưa có MBV\n+ Đủ 15 tuổi \n+ Máy hỗ trợ NFC \n+ Cccd\n+ Giao dịch chuyển khoản 100k",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140030691": {
+    "timestamp": "1760140038049",
+    "timestampString": "06:47:18",
+    "msgId": "7103915379127",
+    "cliMsgId": "1760140030691",
+    "msgType": "chat.photo",
+    "uidFrom": "2872366830826822375",
+    "idTo": "3453989112147091924",
+    "dName": "Tuấn Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/7400956549465793529/80ef7c5a183a9564cc2b.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/7400956549465793529/80ef7c5a183a9564cc2b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":2048,\"thumb_width\":320,\"thumb_height\":694,\"total_item_in_group\":2,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":944,\"convertible\":\"jxl\",\"id_in_group\":0,\"group_layout_id\":1760140030690,\"is_group_layout\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140030693": {
+    "timestamp": "1760140039083",
+    "timestampString": "06:47:19",
+    "msgId": "7103915400429",
+    "cliMsgId": "1760140030693",
+    "msgType": "chat.photo",
+    "uidFrom": "2872366830826822375",
+    "idTo": "3453989112147091924",
+    "dName": "Tuấn Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/c2b44da18245761b2f54/3832092161932581999.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/c2b44da18245761b2f54/3832092161932581999.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":1280,\"thumb_width\":320,\"thumb_height\":427,\"total_item_in_group\":2,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":960,\"convertible\":\"jxl\",\"id_in_group\":1,\"group_layout_id\":1760140030690,\"is_group_layout\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
