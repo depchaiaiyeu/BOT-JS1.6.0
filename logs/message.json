@@ -22,43 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760017336092": {
-    "timestamp": "1760017337132",
-    "timestampString": "20:42:17",
-    "msgId": "7099392427766",
-    "cliMsgId": "1760017336092",
-    "msgType": "chat.recommended",
-    "uidFrom": "4403431173397495847",
-    "idTo": "7585160044864555896",
-    "dName": "Thiên Bách",
-    "content": {
-      "title": "https://zalo.me/g/esklcg028",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/esklcg028",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2fec6b125b01760017218aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNDdjNmM1N2VjZDE4Mjc0NjdlMDk=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"streamUrl\":\"\",\"stream_icon\":\"\",\"mediaTitle\":\"Group Thông Tin Vinhomes Cần Giờ\",\"artist\":\"\",\"src\":\"zalo.me\",\"count\":\"\",\"width\":486,\"type\":0,\"height\":256}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760017360355": {
-    "timestamp": "1760017360422",
-    "timestampString": "20:42:41",
-    "msgId": "7099393895702",
-    "cliMsgId": "1760017360355",
-    "msgType": "webchat",
-    "uidFrom": "7159173789925726305",
-    "idTo": "4699745045071009795",
-    "dName": "Bắc",
-    "content": "@Tran Luc Nhi phiền vãi",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760017380246": {
     "timestamp": "1760017380333",
     "timestampString": "20:43:01",
