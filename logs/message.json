@@ -22,53 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760018191197": {
-    "timestamp": "1760018191331",
-    "timestampString": "20:56:32",
-    "msgId": "7099445477073",
-    "cliMsgId": "1760018191197",
-    "msgType": "chat.photo",
-    "uidFrom": "8060317385247643104",
-    "idTo": "2760006576081013366",
-    "dName": "Sỹ Nguyên",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/jpg/196341316914830577/8d8da158190a9454cd1b.jpg",
-      "thumb": "https://f65-zpg-r.zdn.vn/jpg/196341316914830577/8d8da158190a9454cd1b.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":575,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"1000043256\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760018214812": {
-    "timestamp": "1760018214866",
-    "timestampString": "20:56:55",
-    "msgId": "7099446931925",
-    "cliMsgId": "1760018214812",
-    "msgType": "chat.delete",
-    "uidFrom": "9124822914203860634",
-    "idTo": "5601607522756268167",
-    "dName": "Nguyễn Trung Hiếu",
-    "content": [
-      {
-        "type": 3,
-        "actionType": 1,
-        "uidFrom": 8606917999821023000,
-        "uidTo": 5601607522756268000,
-        "clientDelMsgId": 1760015198030,
-        "globalDelMsgId": 7099258185925,
-        "destId": 5601607522756268000
-      }
-    ],
-    "threadId": "5601607522756268167",
-    "type": 1,
-    "isUndo": false
-  },
   "1760018033355": {
     "timestamp": "1760018229728",
     "timestampString": "20:57:10",
