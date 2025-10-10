@@ -19808,5 +19808,145 @@
     "threadId": "2760006576081013366",
     "type": 1,
     "isUndo": false
+  },
+  "1056082685914800": {
+    "timestamp": "1760137809896",
+    "timestampString": "06:10:11",
+    "msgId": "7103879989175",
+    "cliMsgId": "1056082685914800",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "༺━Xin Phép Các Admin━༻\n   Kết Bạn Acc Này Giúp Tui Với\n༺━━━━━━━━━━━༻\n💭 Nơi mình chia sẻ những điều hay ho mỗi ngày – từ học tập, kỹ năng sống đến những câu chuyện chill giữa cuộc đời 💙\n🌐 Follow fanpage để cùng đồng hành nhé!\n👉 https://www.facebook.com/share/1A4xZkHHkL/?mibextid=wwXIfr\n༺━━Thuê Bot━━༻\nThuê Bot Auto Rãi-Quản Lí Nhóm🚦\nBot War🔥\nNhiều Chức Năng Khác💯\nỔn Định⚡\nAn Toàn☄️\nGiá Cực Rẻ Chỉ Từ 70K??!!💥\nTư Vấn Từ A Tới Á\nIB Để Thuê Bot\n༺━━━Em Cảm Ơn━━━༻",
+      "description": "https://www.facebook.com/share/1A4xZkHHkL/?mibextid=wwXIfr",
+      "href": "https://www.facebook.com/share/1A4xZkHHkL/?mibextid=wwXIfr",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2d3da6400f61760137809aHR0cHM6Ly9yZXMtemFsby56YWRuLnZuL3VwbG9hZC9tZWRpYS8yMDE5LzEwLzE1L2ZlZWRfdGh1bWJfbGlua19fMV9fMTU3MTEzMzEyMjc3OF85Mzc4MC5wbmc=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"streamUrl\":\"\",\"mediaTitle\":\"https:\\/\\/www.facebook.com\\/share\\/1A4xZkHHkL\\/?mibextid=wwXIfr\",\"stream_icon\":\"\",\"src\":\"www.facebook.com\",\"artist\":\"\",\"type\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056082686111600": {
+    "timestamp": "1760137810212",
+    "timestampString": "06:10:11",
+    "msgId": "7103879994354",
+    "cliMsgId": "1056082686111600",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bánh Bông Lan",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/669739264\\/a4a01cfce4a00dfe54b1.jpg\",\"gUid\":\"1K6AQHC56N8RV1OBR0HDQNDIT9JJ67O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/c/3/b/16/120/df6bc0e893d61d227cc2526fa56edc41.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8602274286000699226",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137810250": {
+    "timestamp": "1760137810240",
+    "timestampString": "06:10:11",
+    "msgId": "7103879994480",
+    "cliMsgId": "1760137810250",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8602274286000699000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1056082685914800,
+        "globalDelMsgId": 7103879989175,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137810319": {
+    "timestamp": "1760137810307",
+    "timestampString": "06:10:11",
+    "msgId": "7103879994862",
+    "cliMsgId": "1760137810319",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nBánh Bông Lan\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137810335": {
+    "timestamp": "1760137810366",
+    "timestampString": "06:10:11",
+    "msgId": "7103879996071",
+    "cliMsgId": "1760137810335",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8602274286000699000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1056082686111600,
+        "globalDelMsgId": 7103879994354,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137810478": {
+    "timestamp": "1760137810471",
+    "timestampString": "06:10:11",
+    "msgId": "7103879997386",
+    "cliMsgId": "1760137810478",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nBánh Bông Lan\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 2/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
