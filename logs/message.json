@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760031592060": {
-    "timestamp": "1760031592239",
-    "timestampString": "00:39:53",
-    "msgId": "7099958897983",
-    "cliMsgId": "1760031592060",
-    "msgType": "chat.voice",
-    "uidFrom": "1315478595488264826",
-    "idTo": "7897564732983285154",
-    "dName": "Hoàng Phúc",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f2-voice-aac-dl.zdn.vn/4544592851697320548/d363bafe087de623bf6c.aac",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"fileSize\":54953,\"waveformSamples\":[384,508,11598,12103,14728,13350,13828,11548,12789,15603,14499,15055,14163,13250,10085,7005,8866,9726,8613,14942,15810,15135,11172],\"m4a\":\"https:\\/\\/f2-voice-aac-dl.zdn.vn\\/4544592851697320548\\/d363bafe087de623bf6c.aac\",\"duration\":6500}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "105601895815020": {
-    "timestamp": "1760031596921",
-    "timestampString": "00:39:57",
-    "msgId": "7099958944885",
-    "cliMsgId": "105601895815020",
-    "msgType": "webchat",
-    "uidFrom": "6902260644256511986",
-    "idTo": "5464956150740844012",
-    "dName": "Đệ An Lov Quỳnh",
-    "content": "Bên mình sẵn nhiều kênh TikTok 1 - 500k Follow đủ chức năng bảo hành ✅\nNhận Oder Kênh theo tệp tuổi, giới tính, lượng Follow ✅\nMọi người vào nhóm xem kênh nha: https://zalo.me/g/gkjcic891\nCall: 0986.226.914 ( hỗ trợ nhanh ) ☎️\nGiao dịch trực tiếp hoặc qua trung gian AD có cọc bảo hiểm ✅",
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760031596992": {
-    "timestamp": "1760031597005",
-    "timestampString": "00:39:57",
-    "msgId": "7099958944887",
-    "cliMsgId": "1760031596992",
-    "msgType": "chat.recommended",
-    "uidFrom": "6902260644256511986",
-    "idTo": "5464956150740844012",
-    "dName": "Đệ An Lov Quỳnh",
-    "content": {
-      "title": "Hoàng Sơn",
-      "description": "{\"phone\":\"Mua kênh tiktok ib Sơn\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/5\\/5\\/9\\/5\\/2\\/120\\/840e707b302157405b0c775de2103855.jpg\",\"gUid\":\"T4S5AES9EQFB72TMQHM499F0QULBQFG0\"}",
-      "href": "www.zaloapp.com",
-      "thumb": "https://s120.avatar.talk.zdn.vn/5/5/9/5/2/120/840e707b302157405b0c775de2103855.jpg",
-      "childnumber": 0,
-      "action": "recommened.user",
-      "params": "4116894665881254425",
-      "type": ""
-    },
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
   "1760031664909": {
     "timestamp": "1760031665007",
     "timestampString": "00:41:06",
