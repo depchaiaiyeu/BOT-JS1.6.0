@@ -22233,5 +22233,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760139140800": {
+    "timestamp": "1760139140972",
+    "timestampString": "06:32:21",
+    "msgId": "7103899426146",
+    "cliMsgId": "1760139140800",
+    "msgType": "webchat",
+    "uidFrom": "2639595206037759130",
+    "idTo": "6512342651301747547",
+    "dName": "Hoàng Tử Bảo",
+    "content": "@Ha Trung Son",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
