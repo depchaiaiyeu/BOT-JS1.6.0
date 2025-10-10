@@ -1,12 +1,12 @@
 {
   "1759975893906": {
-    "timestamp": "1760137231694",
-    "timestampString": "06:00:32",
-    "msgId": "7103872910998",
+    "timestamp": "1760139286112",
+    "timestampString": "06:34:57",
+    "msgId": "7103901854956",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
-    "idTo": "7897564732983285154",
+    "idTo": "5464956150740844012",
     "dName": "Ha Trung Son",
     "content": {
       "title": "",
@@ -18,7 +18,7 @@
       "params": "{\"sendSource\":1,\"fileSize\":25006,\"width\":236,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/3095009715816529506\\/7800d34ed0045d5a0415.jpg\",\"height\":350}",
       "type": ""
     },
-    "threadId": "7897564732983285154",
+    "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
   },
@@ -22300,6 +22300,67 @@
       "type": ""
     },
     "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139287456": {
+    "timestamp": "1760139287584",
+    "timestampString": "06:34:48",
+    "msgId": "7103901878855",
+    "cliMsgId": "1760139287456",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2873500016463783400,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1759975893906,
+        "globalDelMsgId": 7103901854956,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139287709": {
+    "timestamp": "1760139287836",
+    "timestampString": "06:34:48",
+    "msgId": "7103901884629",
+    "cliMsgId": "1760139287709",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Ha Trung Son > Tin nhắn bị xóa vì phát hiện bot\nCảnh cáo lần 3/3\n⚠️ Vi phạm 3 lần, bạn bị chặn khỏi nhóm!",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139294611": {
+    "timestamp": "1760139294762",
+    "timestampString": "06:34:55",
+    "msgId": "7103902001197",
+    "cliMsgId": "1760139294611",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/5296634946943616947/c46e7d4f142f9971c03e.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/5296634946943616947/c46e7d4f142f9971c03e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/5296634946943616947\\/c46e7d4f142f9971c03e.jpg\",\"hdSize\":165881,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
   }
