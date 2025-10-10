@@ -19784,5 +19784,29 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760137780824": {
+    "timestamp": "1760137780842",
+    "timestampString": "06:09:41",
+    "msgId": "7103879617689",
+    "cliMsgId": "1760137780824",
+    "msgType": "chat.delete",
+    "uidFrom": "2716137648060265866",
+    "idTo": "2760006576081013366",
+    "dName": "Linh W Witt",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8224114751356417000,
+        "uidTo": 2760006576081013000,
+        "clientDelMsgId": 1760137542341,
+        "globalDelMsgId": 7103876656711,
+        "destId": 2760006576081013000
+      }
+    ],
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
   }
 }
