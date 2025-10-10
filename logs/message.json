@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022787070": {
-    "timestamp": "1760022787233",
-    "timestampString": "22:13:08",
-    "msgId": "7099712636799",
-    "cliMsgId": "1760022787070",
-    "msgType": "chat.photo",
-    "uidFrom": "4264248021246899990",
-    "idTo": "4699745045071009795",
-    "dName": "ᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://fg42.dlfl.vn/548b8633cdc96c9735d8/7786580918515327679/25a4b1a3-c916-4e70-a411-287c506a2162_a_sin.webp",
-      "thumb": "https://fg42.dlfl.vn/548b8633cdc96c9735d8/7786580918515327679/25a4b1a3-c916-4e70-a411-287c506a2162_a_sin.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1080,\"height\":1131,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757677386373\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg42.dlfl.vn\\/548b8633cdc96c9735d8\\/7786580918515327679\\/25a4b1a3-c916-4e70-a411-287c506a2162_a_sin.webp\",\"width\":1080,\"height\":1131,\"thumb\":\"\"},\"contentId\":\"1757677386373\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022889171": {
     "timestamp": "1760022889268",
     "timestampString": "22:14:50",
