@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760024448512": {
-    "timestamp": "1760024448719",
-    "timestampString": "22:40:50",
-    "msgId": "7099790332147",
-    "cliMsgId": "1760024448512",
-    "msgType": "chat.video.msg",
-    "uidFrom": "1903342543859028305",
-    "idTo": "8220006906780909608",
-    "dName": "Hanh",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f149-zvc.dlmd.me/gr/cdac00fb97617a3f2370/4982468821161091403",
-      "thumb": "https://f64-zpg-r.zdn.vn/4746258330993004988/363328cdc0904dce1481.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"fileSize\":1868082,\"video_height\":960,\"video_width\":540,\"isHD\":1,\"video_rotation\":0,\"duration\":13000}",
-      "type": ""
-    },
-    "threadId": "8220006906780909608",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760024454592": {
-    "timestamp": "1760024456226",
-    "timestampString": "22:40:57",
-    "msgId": "7099790643116",
-    "cliMsgId": "1760024454592",
-    "msgType": "chat.voice",
-    "uidFrom": "8581162754795175981",
-    "idTo": "4699745045071009795",
-    "dName": "Nezha",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f2-voice-aac-dl.zdn.vn/2261934514669671772/efed6d3823bbcde594aa.aac",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"m4a\":\"https:\\/\\/f2-voice-aac-dl.zdn.vn\\/2261934514669671772\\/efed6d3823bbcde594aa.aac\",\"duration\":39567,\"fileSize\":584329,\"waveformSamples\":[92,185,370,741,965,2723,4610,5467,5205,4746,5154,6659,8358,8841,7293,4220,1235,0,1120,3757,1878,939,469]}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760024469331": {
     "timestamp": "1760024469403",
     "timestampString": "22:41:10",
