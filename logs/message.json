@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760024522669": {
-    "timestamp": "1760024522699",
-    "timestampString": "22:42:03",
-    "msgId": "7099793396049",
-    "cliMsgId": "1760024522669",
-    "msgType": "chat.sticker",
-    "uidFrom": "1060756472491235203",
-    "idTo": "5166581134204343688",
-    "dName": "Nhan Dinh",
-    "content": {
-      "id": 42829,
-      "catId": 11752,
-      "type": 3
-    },
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760024523111": {
-    "timestamp": "1760024523151",
-    "timestampString": "22:42:04",
-    "msgId": "7099793413336",
-    "cliMsgId": "1760024523111",
-    "msgType": "webchat",
-    "uidFrom": "2984537146898391888",
-    "idTo": "5166581134204343688",
-    "dName": "Hồ Xuân Phú",
-    "content": "@Phạm Nhật cc",
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760024555810": {
-    "timestamp": "1760024555945",
-    "timestampString": "22:42:37",
-    "msgId": "7099794764900",
-    "cliMsgId": "1760024555810",
-    "msgType": "webchat",
-    "uidFrom": "5608758931030964973",
-    "idTo": "4699745045071009795",
-    "dName": "Hh",
-    "content": "càn vón",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760024688545": {
     "timestamp": "1760024690355",
     "timestampString": "22:44:51",
