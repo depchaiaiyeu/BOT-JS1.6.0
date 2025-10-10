@@ -20634,5 +20634,19 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760138480368": {
+    "timestamp": "1760138480396",
+    "timestampString": "06:21:21",
+    "msgId": "7103889147011",
+    "cliMsgId": "1760138480368",
+    "msgType": "webchat",
+    "uidFrom": "7430511557236889637",
+    "idTo": "5464956150740844012",
+    "dName": "Tú Duy",
+    "content": "Scl nhạc xuân",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
