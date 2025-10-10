@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026415250": {
-    "timestamp": "1760026415320",
-    "timestampString": "23:13:36",
-    "msgId": "7099860922710",
-    "cliMsgId": "1760026415250",
-    "msgType": "webchat",
-    "uidFrom": "1095648567490206223",
-    "idTo": "1367422010794969537",
-    "dName": "Hoa Ank Đào",
-    "content": ":$",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026428623": {
-    "timestamp": "1760026429120",
-    "timestampString": "23:13:50",
-    "msgId": "7099861340526",
-    "cliMsgId": "1760026428623",
-    "msgType": "chat.recommended",
-    "uidFrom": "8271561092887501297",
-    "idTo": "5166581134204343688",
-    "dName": "Nguyen Cao Minhᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ",
-    "content": {
-      "title": "Ae vô đây để đc admin tặng acc via cổ mỗi ngày nhé +tool cày xu tds no key https://zalo.me/g/bxduak049",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/bxduak049",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv29c7e8f9d4d1759761227aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMTU1OWQxZGY0NmI4YWNlNmY1YTk=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"streamUrl\":\"\",\"owner\":{\"dispname\":\"zalo.me\",\"id\":433456648,\"avt\":\"\"},\"video_duration\":0,\"arid\":0,\"errorMap\":\"{}\",\"dimen\":{\"created_time\":0,\"file_name\":\"\",\"latitude\":0,\"width\":0,\"has_device_info\":false,\"file_size\":0,\"height\":0,\"longitude\":0},\"stream_icon\":\"\",\"tType\":1,\"artist\":\"\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"count\":\"\",\"tHeight\":256,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/a\\/b\\/5\\/0\\/12\\/120\\/d1f7dc34f7e2a545eecc5befe69c998a.jpg\",\"type\":12,\"mediaId\":\"\",\"params\":{\"autoplay\":0},\"link_sub_type\":2,\"mediaTitle\":\"TÀI NGUYÊN MMO🏧\",\"linkType\":12,\"href\":\"https:\\/\\/zalo.me\\/g\\/bxduak049\",\"redirect_url\":\"\",\"tWidth\":486}",
-      "type": ""
-    },
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
   "1760026459207": {
     "timestamp": "1760026459263",
     "timestampString": "23:14:20",
