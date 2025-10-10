@@ -45,48 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022340364": {
-    "timestamp": "1760022340621",
-    "timestampString": "22:05:41",
-    "msgId": "7099688733930",
-    "cliMsgId": "1760022340364",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "Bung công",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022354015": {
-    "timestamp": "1760022354285",
-    "timestampString": "22:05:55",
-    "msgId": "7099689480145",
-    "cliMsgId": "1760022354015",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "Vong cung",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022358847": {
-    "timestamp": "1760022359106",
-    "timestampString": "22:05:59",
-    "msgId": "7099689747183",
-    "cliMsgId": "1760022358847",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "Vong cong",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022362880": {
     "timestamp": "1760022363133",
     "timestampString": "22:06:03",
