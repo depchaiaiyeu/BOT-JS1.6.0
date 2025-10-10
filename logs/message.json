@@ -45,34 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760021880309": {
-    "timestamp": "1760021880375",
-    "timestampString": "21:58:00",
-    "msgId": "7099663441815",
-    "cliMsgId": "1760021880309",
-    "msgType": "webchat",
-    "uidFrom": "3146105781462786962",
-    "idTo": "8311627129351719523",
-    "dName": "Nguyễn Đức Tuân",
-    "content": "Adr data obb kdl ngâm 15-20p",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760021936822": {
-    "timestamp": "1760021936891",
-    "timestampString": "21:58:58",
-    "msgId": "7099666511718",
-    "cliMsgId": "1760021936822",
-    "msgType": "webchat",
-    "uidFrom": "9186197335392085312",
-    "idTo": "4825567233436439756",
-    "dName": "Tài Tấn",
-    "content": "!spotify văn mẫn &&50",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760021942222": {
     "timestamp": "1760021962952",
     "timestampString": "21:59:23",
