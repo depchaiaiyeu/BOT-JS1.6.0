@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 6035,
-          "messageCountToday": 51,
+          "Rank": 6037,
+          "messageCountToday": 53,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -1063,8 +1063,8 @@
         {
           "UserName": "Bùi Hiếu",
           "UID": "2623964646848540497",
-          "Rank": 148,
-          "messageCountToday": 4,
+          "Rank": 149,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -1077,8 +1077,8 @@
         {
           "UserName": "Phạm Hồng Nhật",
           "UID": "5726988841569768513",
-          "Rank": 369,
-          "messageCountToday": 2,
+          "Rank": 371,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -2072,8 +2072,8 @@
         {
           "UserName": "Vu Huynh Nhi",
           "UID": "994613064562975222",
-          "Rank": 196,
-          "messageCountToday": 10,
+          "Rank": 197,
+          "messageCountToday": 11,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -2142,9 +2142,9 @@
         {
           "UserName": "Ánh Tuyết",
           "UID": "8540062109564474303",
-          "Rank": 11,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 13,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Nguyễn Hồng Anh Đức",
@@ -2156,8 +2156,8 @@
         {
           "UserName": "Văn Định",
           "UID": "9019710325137354775",
-          "Rank": 128,
-          "messageCountToday": 21,
+          "Rank": 129,
+          "messageCountToday": 22,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -2268,9 +2268,9 @@
         {
           "UserName": "Dũng",
           "UID": "8963550240679491935",
-          "Rank": 29,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 32,
+          "messageCountToday": 3,
+          "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Nguyễn Gia Kiên",
@@ -2401,8 +2401,8 @@
         {
           "UserName": "̀nguyễn Duy Khang",
           "UID": "310916094085117291",
-          "Rank": 7,
-          "messageCountToday": 1,
+          "Rank": 9,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -6429,6 +6429,18 @@
         }
       ],
       "nameGroup": "hoiucngocrong.com ra mắt sever 3,18h00 10/10"
+    },
+    "206503079877623526": {
+      "users": [
+        {
+          "UserName": "Dương",
+          "UID": "986745654356237706",
+          "Rank": 3,
+          "messageCountToday": 3,
+          "lastMessageDate": "2025-10-10"
+        }
+      ],
+      "nameGroup": "𝔹𝕚𝕟𝕙 ℕ𝕘𝕦𝕪𝕖𝕟 𝕍𝕠 𝕋𝕒𝕟 𝔾𝕣𝕠𝕦𝕡"
     }
   }
 }
