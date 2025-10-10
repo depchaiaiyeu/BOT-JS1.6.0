@@ -20050,5 +20050,51 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760137978684": {
+    "timestamp": "1760137978862",
+    "timestampString": "06:13:00",
+    "msgId": "7103882192031",
+    "cliMsgId": "1760137978684",
+    "msgType": "chat.photo",
+    "uidFrom": "8199770650497997808",
+    "idTo": "3453989112147091924",
+    "dName": "Na",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/6604911021966800296/2d1475c809a884f6ddb9.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/6604911021966800296/2d1475c809a884f6ddb9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":858,\"height\":1908,\"is_group_layout\":1,\"group_layout_id\":1760137978311,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"62261\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137978960": {
+    "timestamp": "1760137979149",
+    "timestampString": "06:13:00",
+    "msgId": "7103882194992",
+    "cliMsgId": "1760137978960",
+    "msgType": "chat.photo",
+    "uidFrom": "8199770650497997808",
+    "idTo": "3453989112147091924",
+    "dName": "Na",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/jpg/7881491800019897136/e0841b5d673dea63b32c.jpg",
+      "thumb": "https://f58-zpg-r.zdn.vn/jpg/7881491800019897136/e0841b5d673dea63b32c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":858,\"height\":1908,\"is_group_layout\":1,\"group_layout_id\":1760137978311,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"62249\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
