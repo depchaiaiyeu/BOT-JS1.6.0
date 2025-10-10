@@ -22,57 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760019182019": {
-    "timestamp": "1760019182235",
-    "timestampString": "21:13:02",
-    "msgId": "7099506503644",
-    "cliMsgId": "1760019182019",
-    "msgType": "chat.photo",
-    "uidFrom": "9196605977515605659",
-    "idTo": "2760006576081013366",
-    "dName": "Thiên Ngọc",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f57-zpg-r.zdn.vn/jpg/9160200944431992004/b039eb9ebac3379d6ed2.jpg",
-      "thumb": "https://f57-zpg-r.zdn.vn/jpg/9160200944431992004/b039eb9ebac3379d6ed2.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1280,\"height\":549,\"is_group_layout\":0,\"contentId\":\"139475\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760019228778": {
-    "timestamp": "1760019228960",
-    "timestampString": "21:13:49",
-    "msgId": "7099509300278",
-    "cliMsgId": "1760019228778",
-    "msgType": "webchat",
-    "uidFrom": "1238363753987858196",
-    "idTo": "7897564732983285154",
-    "dName": "Bich Ngoc",
-    "content": "dm",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760019233513": {
-    "timestamp": "1760019233753",
-    "timestampString": "21:13:54",
-    "msgId": "7099509580200",
-    "cliMsgId": "1760019233513",
-    "msgType": "webchat",
-    "uidFrom": "1238363753987858196",
-    "idTo": "7897564732983285154",
-    "dName": "Bich Ngoc",
-    "content": "buồn vl",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760019247885": {
     "timestamp": "1760019247972",
     "timestampString": "21:14:09",
