@@ -45,57 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760027761948": {
-    "timestamp": "1760027761990",
-    "timestampString": "23:36:03",
-    "msgId": "7099897624230",
-    "cliMsgId": "1760027761948",
-    "msgType": "webchat",
-    "uidFrom": "1180088772966682971",
-    "idTo": "7585160044864555896",
-    "dName": "Đặng Hoài Ân",
-    "content": "!menu",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760027773516": {
-    "timestamp": "1760027774217",
-    "timestampString": "23:36:15",
-    "msgId": "7099897921898",
-    "cliMsgId": "1760027773516",
-    "msgType": "chat.photo",
-    "uidFrom": "1180088772966682971",
-    "idTo": "7585160044864555896",
-    "dName": "Đặng Hoài Ân",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/jpg/5638435959299867492/af0c269a7dc6f098a9d7.jpg",
-      "thumb": "https://f65-zpg-r.zdn.vn/jpg/5638435959299867492/af0c269a7dc6f098a9d7.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1080,\"height\":2400,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/5638435959299867492\\/af0c269a7dc6f098a9d7.jpg\",\"is_group_layout\":0,\"contentId\":\"24438\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760027781710": {
-    "timestamp": "1760027781741",
-    "timestampString": "23:36:22",
-    "msgId": "7099898104462",
-    "cliMsgId": "1760027781710",
-    "msgType": "webchat",
-    "uidFrom": "1180088772966682971",
-    "idTo": "7585160044864555896",
-    "dName": "Đặng Hoài Ân",
-    "content": "S nó đứng im ru v ae",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760027905866": {
     "timestamp": "1760027905920",
     "timestampString": "23:38:27",
