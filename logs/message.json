@@ -45,48 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760020923771": {
-    "timestamp": "1760020923818",
-    "timestampString": "21:42:04",
-    "msgId": "7099609767720",
-    "cliMsgId": "1760020923771",
-    "msgType": "webchat",
-    "uidFrom": "7719842335991277593",
-    "idTo": "7897564732983285154",
-    "dName": "Trọng Nghĩaᅐᅡ",
-    "content": "Two steps ahead",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760020928857": {
-    "timestamp": "1760020928896",
-    "timestampString": "21:42:09",
-    "msgId": "7099610063924",
-    "cliMsgId": "1760020928857",
-    "msgType": "webchat",
-    "uidFrom": "9090621766324729619",
-    "idTo": "7897564732983285154",
-    "dName": "Xre",
-    "content": "@Hiếu gay",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760020973917": {
-    "timestamp": "1760020973933",
-    "timestampString": "21:42:55",
-    "msgId": "7099612665538",
-    "cliMsgId": "1760020973917",
-    "msgType": "webchat",
-    "uidFrom": "6372955719969556554",
-    "idTo": "4699745045071009795",
-    "dName": "Ngọc Yến",
-    "content": "Đứa nào nhận gay á bay",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760021046067": {
     "timestamp": "1760021046242",
     "timestampString": "21:44:07",
