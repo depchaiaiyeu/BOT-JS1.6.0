@@ -22,34 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760016963735": {
-    "timestamp": "1760016963951",
-    "timestampString": "20:36:05",
-    "msgId": "7099369051693",
-    "cliMsgId": "1760016963735",
-    "msgType": "webchat",
-    "uidFrom": "6698910511481637580",
-    "idTo": "4699745045071009795",
-    "dName": "Việt",
-    "content": "tuyển tv đi",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760016965565": {
-    "timestamp": "1760016965690",
-    "timestampString": "20:36:06",
-    "msgId": "7099369163107",
-    "cliMsgId": "1760016965565",
-    "msgType": "webchat",
-    "uidFrom": "6698910511481637580",
-    "idTo": "4699745045071009795",
-    "dName": "Việt",
-    "content": "key l",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760017041079": {
     "timestamp": "1760017041190",
     "timestampString": "20:37:22",
