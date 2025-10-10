@@ -23536,5 +23536,1270 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760139819384": {
+    "timestamp": "1760139820926",
+    "timestampString": "06:43:42",
+    "msgId": "7103911290451",
+    "cliMsgId": "1760139819384",
+    "msgType": "chat.photo",
+    "uidFrom": "6561683081131996468",
+    "idTo": "9104968216656954464",
+    "dName": "Bùi Sỹ Bình",
+    "content": {
+      "title": "Sell or Trade",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/jpg/8656084484505763992/565ae61e877e0a20536f.jpg",
+      "thumb": "https://f58-zpg-r.zdn.vn/jpg/8656084484505763992/565ae61e877e0a20536f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":750,\"thumb_width\":202,\"thumb_height\":192,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/f58-zpg-r.zdn.vn\\/jpg\\/8656084484505763992\\/565ae61e877e0a20536f.jpg\",\"width\":791,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139824738": {
+    "timestamp": "1760139824468",
+    "timestampString": "06:43:45",
+    "msgId": "7103911355641",
+    "cliMsgId": "1760139824738",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139825284": {
+    "timestamp": "1760139824999",
+    "timestampString": "06:43:45",
+    "msgId": "7103911364680",
+    "cliMsgId": "1760139825284",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139824940": {
+    "timestamp": "1760139824645",
+    "timestampString": "06:43:45",
+    "msgId": "7103911356027",
+    "cliMsgId": "1760139824940",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139825129": {
+    "timestamp": "1760139824849",
+    "timestampString": "06:43:45",
+    "msgId": "7103911362588",
+    "cliMsgId": "1760139825129",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139827580": {
+    "timestamp": "1760139827303",
+    "timestampString": "06:43:47",
+    "msgId": "7103911408511",
+    "cliMsgId": "1760139827580",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139827732": {
+    "timestamp": "1760139827453",
+    "timestampString": "06:43:48",
+    "msgId": "7103911410699",
+    "cliMsgId": "1760139827732",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139828077": {
+    "timestamp": "1760139827817",
+    "timestampString": "06:43:48",
+    "msgId": "7103911417914",
+    "cliMsgId": "1760139828077",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139828249": {
+    "timestamp": "1760139827952",
+    "timestampString": "06:43:48",
+    "msgId": "7103911420108",
+    "cliMsgId": "1760139828249",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139828422": {
+    "timestamp": "1760139828153",
+    "timestampString": "06:43:48",
+    "msgId": "7103911421777",
+    "cliMsgId": "1760139828422",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139828611": {
+    "timestamp": "1760139828318",
+    "timestampString": "06:43:48",
+    "msgId": "7103911425735",
+    "cliMsgId": "1760139828611",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139828784": {
+    "timestamp": "1760139828504",
+    "timestampString": "06:43:48",
+    "msgId": "7103911429375",
+    "cliMsgId": "1760139828784",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139828956": {
+    "timestamp": "1760139828661",
+    "timestampString": "06:43:49",
+    "msgId": "7103911432734",
+    "cliMsgId": "1760139828956",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139829111": {
+    "timestamp": "1760139828832",
+    "timestampString": "06:43:49",
+    "msgId": "7103911436612",
+    "cliMsgId": "1760139829111",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139829284": {
+    "timestamp": "1760139828990",
+    "timestampString": "06:43:49",
+    "msgId": "7103911439576",
+    "cliMsgId": "1760139829284",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139829456": {
+    "timestamp": "1760139829186",
+    "timestampString": "06:43:49",
+    "msgId": "7103911440938",
+    "cliMsgId": "1760139829456",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139829628": {
+    "timestamp": "1760139829339",
+    "timestampString": "06:43:49",
+    "msgId": "7103911444809",
+    "cliMsgId": "1760139829628",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139829801": {
+    "timestamp": "1760139829518",
+    "timestampString": "06:43:49",
+    "msgId": "7103911447980",
+    "cliMsgId": "1760139829801",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139829990": {
+    "timestamp": "1760139829707",
+    "timestampString": "06:43:50",
+    "msgId": "7103911452163",
+    "cliMsgId": "1760139829990",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139830180": {
+    "timestamp": "1760139829908",
+    "timestampString": "06:43:50",
+    "msgId": "7103911454581",
+    "cliMsgId": "1760139830180",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139830370": {
+    "timestamp": "1760139830074",
+    "timestampString": "06:43:50",
+    "msgId": "7103911458362",
+    "cliMsgId": "1760139830370",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139830559": {
+    "timestamp": "1760139830281",
+    "timestampString": "06:43:50",
+    "msgId": "7103911462242",
+    "cliMsgId": "1760139830559",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139830749": {
+    "timestamp": "1760139830453",
+    "timestampString": "06:43:50",
+    "msgId": "7103911466685",
+    "cliMsgId": "1760139830749",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139830939": {
+    "timestamp": "1760139830660",
+    "timestampString": "06:43:51",
+    "msgId": "7103911469863",
+    "cliMsgId": "1760139830939",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139831128": {
+    "timestamp": "1760139830838",
+    "timestampString": "06:43:51",
+    "msgId": "7103911473069",
+    "cliMsgId": "1760139831128",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139831318": {
+    "timestamp": "1760139831030",
+    "timestampString": "06:43:51",
+    "msgId": "7103911477731",
+    "cliMsgId": "1760139831318",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139831525": {
+    "timestamp": "1760139831247",
+    "timestampString": "06:43:51",
+    "msgId": "7103911481499",
+    "cliMsgId": "1760139831525",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139831714": {
+    "timestamp": "1760139831419",
+    "timestampString": "06:43:51",
+    "msgId": "7103911484394",
+    "cliMsgId": "1760139831714",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139831904": {
+    "timestamp": "1760139831625",
+    "timestampString": "06:43:52",
+    "msgId": "7103911485642",
+    "cliMsgId": "1760139831904",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139832094": {
+    "timestamp": "1760139831804",
+    "timestampString": "06:43:52",
+    "msgId": "7103911491554",
+    "cliMsgId": "1760139832094",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139832283": {
+    "timestamp": "1760139831991",
+    "timestampString": "06:43:52",
+    "msgId": "7103911494895",
+    "cliMsgId": "1760139832283",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139832473": {
+    "timestamp": "1760139832204",
+    "timestampString": "06:43:52",
+    "msgId": "7103911499517",
+    "cliMsgId": "1760139832473",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139832662": {
+    "timestamp": "1760139832374",
+    "timestampString": "06:43:52",
+    "msgId": "7103911500827",
+    "cliMsgId": "1760139832662",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139832817": {
+    "timestamp": "1760139832593",
+    "timestampString": "06:43:52",
+    "msgId": "7103911506086",
+    "cliMsgId": "1760139832817",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139833024": {
+    "timestamp": "1760139832745",
+    "timestampString": "06:43:53",
+    "msgId": "7103911507197",
+    "cliMsgId": "1760139833024",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139833214": {
+    "timestamp": "1760139832917",
+    "timestampString": "06:43:53",
+    "msgId": "7103911511623",
+    "cliMsgId": "1760139833214",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139833386": {
+    "timestamp": "1760139833109",
+    "timestampString": "06:43:53",
+    "msgId": "7103911515763",
+    "cliMsgId": "1760139833386",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139833593": {
+    "timestamp": "1760139833319",
+    "timestampString": "06:43:53",
+    "msgId": "7103911518345",
+    "cliMsgId": "1760139833593",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139833800": {
+    "timestamp": "1760139833515",
+    "timestampString": "06:43:53",
+    "msgId": "7103911522120",
+    "cliMsgId": "1760139833800",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139833989": {
+    "timestamp": "1760139833716",
+    "timestampString": "06:43:54",
+    "msgId": "7103911527435",
+    "cliMsgId": "1760139833989",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139834197": {
+    "timestamp": "1760139833895",
+    "timestampString": "06:43:54",
+    "msgId": "7103911531094",
+    "cliMsgId": "1760139834197",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139834386": {
+    "timestamp": "1760139834115",
+    "timestampString": "06:43:54",
+    "msgId": "7103911532646",
+    "cliMsgId": "1760139834386",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139834575": {
+    "timestamp": "1760139834300",
+    "timestampString": "06:43:54",
+    "msgId": "7103911538545",
+    "cliMsgId": "1760139834575",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139834782": {
+    "timestamp": "1760139834521",
+    "timestampString": "06:43:54",
+    "msgId": "7103911540167",
+    "cliMsgId": "1760139834782",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139834972": {
+    "timestamp": "1760139834692",
+    "timestampString": "06:43:55",
+    "msgId": "7103911545890",
+    "cliMsgId": "1760139834972",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139835179": {
+    "timestamp": "1760139834884",
+    "timestampString": "06:43:55",
+    "msgId": "7103911547258",
+    "cliMsgId": "1760139835179",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139835386": {
+    "timestamp": "1760139835104",
+    "timestampString": "06:43:55",
+    "msgId": "7103911553857",
+    "cliMsgId": "1760139835386",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139835593": {
+    "timestamp": "1760139835325",
+    "timestampString": "06:43:55",
+    "msgId": "7103911556648",
+    "cliMsgId": "1760139835593",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139835765": {
+    "timestamp": "1760139835482",
+    "timestampString": "06:43:55",
+    "msgId": "7103911558676",
+    "cliMsgId": "1760139835765",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139835954": {
+    "timestamp": "1760139835659",
+    "timestampString": "06:43:56",
+    "msgId": "7103911562288",
+    "cliMsgId": "1760139835954",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139836127": {
+    "timestamp": "1760139835830",
+    "timestampString": "06:43:56",
+    "msgId": "7103911567246",
+    "cliMsgId": "1760139836127",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139836316": {
+    "timestamp": "1760139836042",
+    "timestampString": "06:43:56",
+    "msgId": "7103911570017",
+    "cliMsgId": "1760139836316",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139836506": {
+    "timestamp": "1760139836207",
+    "timestampString": "06:43:56",
+    "msgId": "7103911573705",
+    "cliMsgId": "1760139836506",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139836678": {
+    "timestamp": "1760139836399",
+    "timestampString": "06:43:56",
+    "msgId": "7103911577409",
+    "cliMsgId": "1760139836678",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139836868": {
+    "timestamp": "1760139836597",
+    "timestampString": "06:43:56",
+    "msgId": "7103911579230",
+    "cliMsgId": "1760139836868",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139837075": {
+    "timestamp": "1760139836801",
+    "timestampString": "06:43:57",
+    "msgId": "7103911584637",
+    "cliMsgId": "1760139837075",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139837264": {
+    "timestamp": "1760139836970",
+    "timestampString": "06:43:57",
+    "msgId": "7103911587697",
+    "cliMsgId": "1760139837264",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139837471": {
+    "timestamp": "1760139837191",
+    "timestampString": "06:43:57",
+    "msgId": "7103911590981",
+    "cliMsgId": "1760139837471",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139837695": {
+    "timestamp": "1760139837444",
+    "timestampString": "06:43:57",
+    "msgId": "7103911595553",
+    "cliMsgId": "1760139837695",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139837884": {
+    "timestamp": "1760139837609",
+    "timestampString": "06:43:57",
+    "msgId": "7103911597980",
+    "cliMsgId": "1760139837884",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139838143": {
+    "timestamp": "1760139837862",
+    "timestampString": "06:43:58",
+    "msgId": "7103911602387",
+    "cliMsgId": "1760139838143",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139838350": {
+    "timestamp": "1760139838056",
+    "timestampString": "06:43:58",
+    "msgId": "7103911606872",
+    "cliMsgId": "1760139838350",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139838539": {
+    "timestamp": "1760139838254",
+    "timestampString": "06:43:58",
+    "msgId": "7103911609170",
+    "cliMsgId": "1760139838539",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139838746": {
+    "timestamp": "1760139838451",
+    "timestampString": "06:43:58",
+    "msgId": "7103911611435",
+    "cliMsgId": "1760139838746",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139838936": {
+    "timestamp": "1760139838654",
+    "timestampString": "06:43:59",
+    "msgId": "7103911615680",
+    "cliMsgId": "1760139838936",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139839143": {
+    "timestamp": "1760139838863",
+    "timestampString": "06:43:59",
+    "msgId": "7103911622227",
+    "cliMsgId": "1760139839143",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139839332": {
+    "timestamp": "1760139839035",
+    "timestampString": "06:43:59",
+    "msgId": "7103911624454",
+    "cliMsgId": "1760139839332",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139839522": {
+    "timestamp": "1760139839253",
+    "timestampString": "06:43:59",
+    "msgId": "7103911627748",
+    "cliMsgId": "1760139839522",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139839729": {
+    "timestamp": "1760139839453",
+    "timestampString": "06:43:59",
+    "msgId": "7103911632127",
+    "cliMsgId": "1760139839729",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139839918": {
+    "timestamp": "1760139839623",
+    "timestampString": "06:44:00",
+    "msgId": "7103911636747",
+    "cliMsgId": "1760139839918",
+    "msgType": "chat.sticker",
+    "uidFrom": "8570328087576869076",
+    "idTo": "3453989112147091924",
+    "dName": "Phung Ba Hiep",
+    "content": {
+      "id": 23339,
+      "catId": 10425,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
