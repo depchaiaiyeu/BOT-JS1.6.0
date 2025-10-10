@@ -274,7 +274,7 @@
     "activeGame": false,
     "welcomeGroup": false,
     "byeGroup": false,
-    "antiSpam": false,
+    "antiSpam": true,
     "filterBadWords": false,
     "filterBot": true,
     "removeLinks": true,
