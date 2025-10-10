@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760023814593": {
-    "timestamp": "1760023814622",
-    "timestampString": "22:30:15",
-    "msgId": "7099762836753",
-    "cliMsgId": "1760023814593",
-    "msgType": "chat.recommended",
-    "uidFrom": "3864129996706641051",
-    "idTo": "1367422010794969537",
-    "dName": "Phạm Gia Phúc",
-    "content": {
-      "title": "https://zalo.me/g/xsbfrw024",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/xsbfrw024",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv28f88333f331760021551aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZjAzNjA5OGIwMmVmZThiMWIxZmU=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"✐♪ 𝐂𝐚𝐥𝐥 ♫ 𝐢𝐬 ☼ 𝐌𝐞𝐞☚\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xsbfrw024\",\"owner\":{\"id\":342442802,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/c\\/0\\/5\\/3\\/36\\/120\\/db70c2923d483f8551b724388dc63738.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
-      "type": ""
-    },
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760023855225": {
-    "timestamp": "1760023855239",
-    "timestampString": "22:30:56",
-    "msgId": "7099764682706",
-    "cliMsgId": "1760023855225",
-    "msgType": "chat.recommended",
-    "uidFrom": "460097460067239257",
-    "idTo": "6512342651301747547",
-    "dName": "Hoàng Văn Thụy",
-    "content": {
-      "title": "Thụy Mmo",
-      "description": "{\"phone\":\"Thông Tin Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/344796502\\/d2b17776ec2a05745c3b.jpg\",\"gUid\":\"NAKPLG83PN63I0D3BPED5OCJO3ACAPG0\"}",
-      "href": "www.zaloapp.com",
-      "thumb": "https://s120.avatar.talk.zdn.vn/b/c/c/e/7/120/d9e6e22a3ef036d9dc741a8ff8e1677f.jpg",
-      "childnumber": 0,
-      "action": "recommened.user",
-      "params": "655717954929783074",
-      "type": ""
-    },
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
-  "17600238552787": {
-    "timestamp": "1760023855283",
-    "timestampString": "22:30:56",
-    "msgId": "7099764688268",
-    "cliMsgId": "17600238552787",
-    "msgType": "webchat",
-    "uidFrom": "460097460067239257",
-    "idTo": "6512342651301747547",
-    "dName": "Hoàng Văn Thụy",
-    "content": "Làm miễn phí không mất gì cả, sau khi đăng kí xong bạn sẽ nhận được 250k.\n• Dưới 18t nhận tổng 250k\n• Trên 18t thì nhận thêm 600k tổng 850k\n• Đã có tài khoản sẽ nhận được 600k\n\nZalo : 0383545886 ( Thụy MMO )",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1760023895524": {
     "timestamp": "1760023895611",
     "timestampString": "22:31:36",
