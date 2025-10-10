@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026747471": {
-    "timestamp": "1760026747519",
-    "timestampString": "23:19:08",
-    "msgId": "7099870771274",
-    "cliMsgId": "1760026747471",
-    "msgType": "chat.photo",
-    "uidFrom": "7509156789270166542",
-    "idTo": "1367422010794969537",
-    "dName": "Anh Tú",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f34-zfcloud.zdn.vn/98507bd8ef014e5f1710/1230399301645149784?Webp_Video_Cua_DNgoc.webp",
-      "thumb": "https://f34-zfcloud.zdn.vn/98507bd8ef014e5f1710/1230399301645149784?Webp_Video_Cua_DNgoc.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754281432004\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/98507bd8ef014e5f1710\\/1230399301645149784?Webp_Video_Cua_DNgoc.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1754281432004\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "1760026886096": {
     "timestamp": "1760026885670",
     "timestampString": "23:21:26",
