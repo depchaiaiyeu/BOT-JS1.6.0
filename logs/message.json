@@ -21280,5 +21280,28 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760138655944": {
+    "timestamp": "1760138656501",
+    "timestampString": "06:24:17",
+    "msgId": "7103891755799",
+    "cliMsgId": "1760138655944",
+    "msgType": "chat.photo",
+    "uidFrom": "6988599456249707975",
+    "idTo": "1367422010794969537",
+    "dName": "Poiuyt",
+    "content": {
+      "title": "@Trần Gia Long",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/948095590040135572/4857442d354db813e15c.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/948095590040135572/4857442d354db813e15c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/948095590040135572\\/4857442d354db813e15c.jpg\",\"hdSize\":344622,\"height\":450}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
