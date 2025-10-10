@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022209458": {
-    "timestamp": "1760022210279",
-    "timestampString": "22:03:31",
-    "msgId": "7099681537740",
-    "cliMsgId": "1760022209458",
-    "msgType": "webchat",
-    "uidFrom": "227886665729461010",
-    "idTo": "4825567233436439756",
-    "dName": "Take Care For Groups",
-    "content": {
-      "title": "Thanh Hue\nDQT Bot Team\n🎉 Chúc mừng! Bạn đã đoán đúng từ \"máy móc\", +7 điểm 🎉.",
-      "description": "",
-      "href": "",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "rtf",
-      "params": "{\"styles\":[{\"start\":10,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
-      "type": ""
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022209190": {
-    "timestamp": "1760022210036",
-    "timestampString": "22:03:31",
-    "msgId": "7099681528339",
-    "cliMsgId": "1760022209190",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "Máy móc",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022212238": {
-    "timestamp": "1760022213352",
-    "timestampString": "22:03:33",
-    "msgId": "7099681713847",
-    "cliMsgId": "1760022212238",
-    "msgType": "chat.photo",
-    "uidFrom": "227886665729461010",
-    "idTo": "4825567233436439756",
-    "dName": "Take Care For Groups",
-    "content": {
-      "title": "🎮 Câu hỏi mới!\nHãy đoán từ dựa trên hình ảnh bên trên\n\n📝 Đáp án (2 từ): 🔲🔲🔲🔲  🔲🔲🔲🔲\n🔤 Gợi ý chữ cái: Ⓐ Ⓖ Ⓚ Ⓒ Ⓙ Ⓕ Ⓡ Ⓘ Ⓞ Ⓑ Ⓜ Ⓓ Ⓔ Ⓗ Ⓝ Ⓟ Ⓣ Ⓛ",
-      "description": "",
-      "href": "https://h.uguu.se/qnYVizbv.jpg",
-      "thumb": "https://h.uguu.se/qnYVizbv.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":468,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/h.uguu.se\\/qnYVizbv.jpg\",\"hdSize\":126991,\"height\":320}",
-      "type": ""
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022281034": {
     "timestamp": "1760022281243",
     "timestampString": "22:04:42",
