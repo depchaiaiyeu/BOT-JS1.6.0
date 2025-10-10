@@ -27795,5 +27795,89 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760140632931": {
+    "timestamp": "1760140632967",
+    "timestampString": "06:57:14",
+    "msgId": "7103927370435",
+    "cliMsgId": "1760140632931",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "??? @Kim Thanhh",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140635813": {
+    "timestamp": "1760140635868",
+    "timestampString": "06:57:16",
+    "msgId": "7103927431657",
+    "cliMsgId": "1760140635813",
+    "msgType": "chat.photo",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/810773d65555f40bad44/4757255648235607578?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/810773d65555f40bad44/4757255648235607578?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":528,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758372133590\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/810773d65555f40bad44\\/4757255648235607578?creator=Tahn_bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758372133590\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140636006": {
+    "timestamp": "1760140635980",
+    "timestampString": "06:57:16",
+    "msgId": "7103927435017",
+    "cliMsgId": "1760140636006",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4349248820197918000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760140635813,
+        "globalDelMsgId": 7103927431657,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140636070": {
+    "timestamp": "1760140636044",
+    "timestampString": "06:57:16",
+    "msgId": "7103927436236",
+    "cliMsgId": "1760140636070",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nHuỳnh Đức\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
