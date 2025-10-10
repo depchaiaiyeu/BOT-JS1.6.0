@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760031899250": {
-    "timestamp": "1760031899399",
-    "timestampString": "00:45:00",
-    "msgId": "7099961874969",
-    "cliMsgId": "1760031899250",
-    "msgType": "webchat",
-    "uidFrom": "6922441510545788970",
-    "idTo": "4699745045071009795",
-    "dName": "Long",
-    "content": "No",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760032305312": {
     "timestamp": "1760032305357",
     "timestampString": "00:51:46",
