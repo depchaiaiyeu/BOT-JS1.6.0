@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760025126025": {
-    "timestamp": "1760025126072",
-    "timestampString": "22:52:06",
-    "msgId": "7099817078455",
-    "cliMsgId": "1760025126025",
-    "msgType": "chat.photo",
-    "uidFrom": "6658938181466805330",
-    "idTo": "7897564732983285154",
-    "dName": "Vtàiᅠᅠdv",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f33-zfcloud.zdn.vn/c2749c827947d8198156/1293220751261637781?creator=Tahn_bot.webp",
-      "thumb": "https://f33-zfcloud.zdn.vn/c2749c827947d8198156/1293220751261637781?creator=Tahn_bot.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1080,\"height\":1080,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751373253049\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/c2749c827947d8198156\\/1293220751261637781?creator=Tahn_bot.webp\",\"width\":1080,\"height\":1080,\"thumb\":\"\"},\"contentId\":\"1751373253049\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760025152533": {
-    "timestamp": "1760025152586",
-    "timestampString": "22:52:34",
-    "msgId": "7099818069770",
-    "cliMsgId": "1760025152533",
-    "msgType": "chat.photo",
-    "uidFrom": "7159173789925726305",
-    "idTo": "4699745045071009795",
-    "dName": "Bắc",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://files.catbox.moe/qya3jn.webp?creator=khangapi",
-      "thumb": "https://files.catbox.moe/qya3jn.webp?creator=khangapi",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757918421755\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/qya3jn.webp?creator=khangapi\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1757918421755\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760025179743": {
-    "timestamp": "1760025179874",
-    "timestampString": "22:53:00",
-    "msgId": "7099819083717",
-    "cliMsgId": "1760025179743",
-    "msgType": "webchat",
-    "uidFrom": "3973770325197419294",
-    "idTo": "8311627129351719523",
-    "dName": "G I A T U Ấ N",
-    "content": "Nhập lô acc 50 🐟 chỉ có 10 con th nhé @All",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
   "1760025223140": {
     "timestamp": "1760025223204",
     "timestampString": "22:53:44",
