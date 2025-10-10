@@ -22085,5 +22085,28 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760139018320": {
+    "timestamp": "1760139019146",
+    "timestampString": "06:30:20",
+    "msgId": "7103897396490",
+    "cliMsgId": "1760139018320",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "-> SendTask 06:30 <-\nChào buổi sáng\nTổng quan thời tiết một trong những thành phố trực thuộc Trung Ương của nước ta!!!",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/8853474409933614635/8bf48bbffddf708129ce.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/8853474409933614635/8bf48bbffddf708129ce.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f63-zpg-r.zdn.vn\\/8853474409933614635\\/8bf48bbffddf708129ce.jpg\",\"hdSize\":638739,\"height\":1920}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
