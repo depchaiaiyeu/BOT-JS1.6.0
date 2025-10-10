@@ -45,38 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760020836093": {
-    "timestamp": "1760020836157",
-    "timestampString": "21:40:37",
-    "msgId": "7099604694978",
-    "cliMsgId": "1760020836093",
-    "msgType": "webchat",
-    "uidFrom": "5665338112475148452",
-    "idTo": "7897564732983285154",
-    "dName": "Hiếu",
-    "content": "@Xre Như Lê ok nhất r",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760020837125": {
-    "timestamp": "1760020837145",
-    "timestampString": "21:40:37",
-    "msgId": "7099604749757",
-    "cliMsgId": "1760020837125",
-    "msgType": "chat.sticker",
-    "uidFrom": "5665338112475148452",
-    "idTo": "7897564732983285154",
-    "dName": "Hiếu",
-    "content": {
-      "id": 46953,
-      "catId": 12002,
-      "type": 3
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760020865154": {
     "timestamp": "1760020865179",
     "timestampString": "21:41:06",
