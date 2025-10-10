@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022539900": {
-    "timestamp": "1760022540014",
-    "timestampString": "22:09:01",
-    "msgId": "7099699551429",
-    "cliMsgId": "1760022539900",
-    "msgType": "webchat",
-    "uidFrom": "8988024984416036480",
-    "idTo": "8281509084603580118",
-    "dName": "Tên",
-    "content": "@Nhon ok 👌",
-    "threadId": "8281509084603580118",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022553068": {
     "timestamp": "1760022554064",
     "timestampString": "22:09:15",
