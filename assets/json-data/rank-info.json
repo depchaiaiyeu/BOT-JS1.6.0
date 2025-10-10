@@ -3947,8 +3947,8 @@
         {
           "UserName": "Minh",
           "UID": "7743646927399910477",
-          "Rank": 4,
-          "messageCountToday": 4,
+          "Rank": 5,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -4520,6 +4520,13 @@
           "Rank": 1,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Tiến",
+          "UID": "2435953923077574389",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         }
       ],
       "nameGroup": "NgTuwNET (Python)"
