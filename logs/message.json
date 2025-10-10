@@ -22973,5 +22973,179 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760139562066": {
+    "timestamp": "1760139562192",
+    "timestampString": "06:39:22",
+    "msgId": "7103906611866",
+    "cliMsgId": "1760139562066",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "⚠️ Cảnh cáo @Tú Duy!\nỞ đây Đại Ca tao cấm gửi link",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139561815": {
+    "timestamp": "1760139561943",
+    "timestampString": "06:39:22",
+    "msgId": "7103906606762",
+    "cliMsgId": "1760139561815",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7430511557236890000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1760139560378,
+        "globalDelMsgId": 7103906580152,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139560378": {
+    "timestamp": "1760139560465",
+    "timestampString": "06:39:23",
+    "msgId": "7103906580152",
+    "cliMsgId": "1760139560378",
+    "msgType": "chat.recommended",
+    "uidFrom": "7430511557236889637",
+    "idTo": "5464956150740844012",
+    "dName": "Tú Duy",
+    "content": {
+      "title": "📣 BOT ĐỔI BUILD X WORLD MỚI 🔥\n🔗🔗🔗🔗  https://t.me/XworldVip2025_bot?start=7873244513\n\n➡️ Mời 1 bạn= 250 Build 💵\n➡️ Min rút 2k build = 8 Bạn ✔️\n\n🆗 Bot rút duyệt siêu nhanh, bot của mình vốn to chạy lâu dài . Ae Share bạn bạn rút mạnh nhé 🚨",
+      "description": "You can contact @XworldVip2025_bot right away.",
+      "href": "https://t.me/XworldVip2025_bot?start=7873244513",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"t.me\",\"mediaTitle\":\"Bot X World 2025\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/t.me\\/XworldVip2025_bot?start=7873244513\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"\\/\\/telegram.org\\/img\\/website_icon.svg?4\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139563334": {
+    "timestamp": "1760139563391",
+    "timestampString": "06:39:24",
+    "msgId": "7103906631884",
+    "cliMsgId": "1760139563334",
+    "msgType": "webchat",
+    "uidFrom": "3814313025013430996",
+    "idTo": "3453989112147091924",
+    "dName": "Bùi Minh Công",
+    "content": "Cần người xtzl ko cần cccd",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139562314": {
+    "timestamp": "1760139563180",
+    "timestampString": "06:39:24",
+    "msgId": "7103906628118",
+    "cliMsgId": "1760139562314",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "7430511557236889637",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Admin đã chặn gửi link trong nhóm, link của Tú Duy bị xóa!",
+    "threadId": "7430511557236889637",
+    "type": 0,
+    "isUndo": false
+  },
+  "1760139566086": {
+    "timestamp": "1760139566217",
+    "timestampString": "06:39:26",
+    "msgId": "7103906682829",
+    "cliMsgId": "1760139566086",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7430511557236890000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1760139565445,
+        "globalDelMsgId": 7103906671087,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139565445": {
+    "timestamp": "1760139565700",
+    "timestampString": "06:39:26",
+    "msgId": "7103906671087",
+    "cliMsgId": "1760139565445",
+    "msgType": "chat.recommended",
+    "uidFrom": "7430511557236889637",
+    "idTo": "5464956150740844012",
+    "dName": "Tú Duy",
+    "content": {
+      "title": "📣 BOT ĐỔI BUILD X WORLD MỚI 🔥\n🔗🔗🔗🔗  https://t.me/XworldVip2025_bot?start=7873244513\n\n➡️ Mời 1 bạn= 250 Build 💵\n➡️ Min rút 2k build = 8 Bạn ✔️\n\n🆗 Bot rút duyệt siêu nhanh, bot của mình vốn to chạy lâu dài . Ae Share bạn bạn rút mạnh nhé 🚨",
+      "description": "You can contact @XworldVip2025_bot right away.",
+      "href": "https://t.me/XworldVip2025_bot?start=7873244513",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"t.me\",\"mediaTitle\":\"Bot X World 2025\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/t.me\\/XworldVip2025_bot?start=7873244513\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"\\/\\/telegram.org\\/img\\/website_icon.svg?4\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139566340": {
+    "timestamp": "1760139566470",
+    "timestampString": "06:39:26",
+    "msgId": "7103906686524",
+    "cliMsgId": "1760139566340",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "⚠️ Cảnh cáo @Tú Duy!\nNgừng send link, trước khi, mọi chuyện dần tồi tệ hơn!",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139566930": {
+    "timestamp": "1760139567056",
+    "timestampString": "06:39:27",
+    "msgId": "7103906697273",
+    "cliMsgId": "1760139566930",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7430511557236890000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1760139566273,
+        "globalDelMsgId": 7103906686615,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }

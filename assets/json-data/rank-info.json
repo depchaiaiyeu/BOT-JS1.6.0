@@ -5673,8 +5673,8 @@
         {
           "UserName": "Tú Duy",
           "UID": "7430511557236889637",
-          "Rank": 17,
-          "messageCountToday": 13,
+          "Rank": 20,
+          "messageCountToday": 16,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -6662,6 +6662,13 @@
         {
           "UserName": "Cao Phát",
           "UID": "1461570013017357683",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Bùi Minh Công",
+          "UID": "3814313025013430996",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
