@@ -22363,5 +22363,102 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760139398113": {
+    "timestamp": "1760139398229",
+    "timestampString": "06:36:39",
+    "msgId": "7103903763601",
+    "cliMsgId": "1760139398113",
+    "msgType": "chat.recommended",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": {
+      "title": "Không Tên",
+      "description": "{\"phone\":\"0328351037\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/0\\/980316742\\/7168b9a0c0fc29a270ed.jpg\"}",
+      "href": "https://zalo.me",
+      "thumb": "https://s160-ava-talk.zadn.vn/9/8/a/9/9/160/f837435bf20fb6ef0f4de68012feaae2.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "501056120325739471",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139398109": {
+    "timestamp": "1760139398190",
+    "timestampString": "06:36:39",
+    "msgId": "7103903763589",
+    "cliMsgId": "1760139398109",
+    "msgType": "webchat",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": "💰 ĐĂNG KÍ APP MUA SẮM LUCKYBUY - 2k ⛅️\n\n📢 Vào Zalo tìm Luckybuy -> Ấn đăng kí,... LƯU Ý QUAN TRỌNG: Mật khẩu đặt theo dạng chữ cái, số và kí tự [VD : Thao12345@ ]\n\n📍Nhập mã: 0328351037\n\n✅ Chụp 2 ảnh + gửi sđt đăng kí (sđt hiện danh thiếp Zalo)\n\n💸 Công bank ngay sau khi check xong <3.",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139401792": {
+    "timestamp": "1760139402474",
+    "timestampString": "06:36:43",
+    "msgId": "7103903834704",
+    "cliMsgId": "1760139401792",
+    "msgType": "chat.photo",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/5721807798240425347/db952fdd44bdc9e390ac.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/5721807798240425347/db952fdd44bdc9e390ac.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":976,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760139401125,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"1000009657\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139401923": {
+    "timestamp": "1760139402510",
+    "timestampString": "06:36:43",
+    "msgId": "7103903839266",
+    "cliMsgId": "1760139401923",
+    "msgType": "chat.photo",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/3050043113328589361/6af4f3b398d3158d4cc2.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/3050043113328589361/6af4f3b398d3158d4cc2.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":951,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760139401125,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"1000009656\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139414176": {
+    "timestamp": "1760139415428",
+    "timestampString": "06:36:56",
+    "msgId": "7103904062732",
+    "cliMsgId": "1760139414176",
+    "msgType": "webchat",
+    "uidFrom": "5615657997135987413",
+    "idTo": "3453989112147091924",
+    "dName": "Truong Giang 乂 Cheats",
+    "content": "BOX DAG SHARE NHIỀU FILE BÁ ADR VÀ IOS Ở GHIM MN VÔ BÚ LẸ🔥\nBOX VIP👑:https://zalo.me/g/prmfjj536\nBOX VIP⚡️:https://zalo.me/g/veurcp711\nBOX VIP⚜️:https://zalo.me/g/fnmljh711",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
