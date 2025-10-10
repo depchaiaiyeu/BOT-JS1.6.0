@@ -1322,9 +1322,9 @@
         {
           "UserName": "Deep",
           "UID": "5288304310636923736",
-          "Rank": 1,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Yêu Em",
@@ -5529,6 +5529,13 @@
           "Rank": 1,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Lê Y Công Tips",
+          "UID": "4971651455913384901",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         }
       ],
       "nameGroup": "Multi AI Coder [ Chat ]"
