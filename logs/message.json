@@ -20036,5 +20036,19 @@
     "threadId": "4403847187196952870",
     "type": 1,
     "isUndo": false
+  },
+  "1760137972614": {
+    "timestamp": "1760137972690",
+    "timestampString": "06:12:53",
+    "msgId": "7103882107989",
+    "cliMsgId": "1760137972614",
+    "msgType": "webchat",
+    "uidFrom": "8199770650497997808",
+    "idTo": "3453989112147091924",
+    "dName": "Na",
+    "content": "Tuyển ctv luơng 30-150 tuỳ có thể cao không cọc không vốn ib để nhận việc lương ngày",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
