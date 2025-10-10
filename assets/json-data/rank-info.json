@@ -958,8 +958,8 @@
         {
           "UserName": "Take Care For Groups",
           "UID": "227886665729461010",
-          "Rank": 6056,
-          "messageCountToday": 72,
+          "Rank": 6059,
+          "messageCountToday": 75,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -2114,8 +2114,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 75,
-          "messageCountToday": 17,
+          "Rank": 76,
+          "messageCountToday": 18,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -6474,6 +6474,18 @@
         }
       ],
       "nameGroup": "📢Plan Vs Brainrot 🇻🇳"
+    },
+    "3453989112147091924": {
+      "users": [
+        {
+          "UserName": "Hoàng Văn Thụy",
+          "UID": "460097460067239257",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-10"
+        }
+      ],
+      "nameGroup": "Kyc - Rải Link"
     }
   }
 }
