@@ -6606,8 +6606,8 @@
         {
           "UserName": "Không Tên",
           "UID": "501056120325739471",
-          "Rank": 10,
-          "messageCountToday": 10,
+          "Rank": 12,
+          "messageCountToday": 12,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -6641,13 +6641,27 @@
         {
           "UserName": "Trọng Hoàng",
           "UID": "1203603442666915215",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Nminh",
           "UID": "8606917999821023050",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Ng Hoang Nam",
+          "UID": "4944062938750925223",
+          "Rank": 11,
+          "messageCountToday": 11,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Cao Phát",
+          "UID": "1461570013017357683",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
