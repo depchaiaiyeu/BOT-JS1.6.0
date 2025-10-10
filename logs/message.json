@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026631698": {
-    "timestamp": "1760026631724",
-    "timestampString": "23:17:13",
-    "msgId": "7099867396552",
-    "cliMsgId": "1760026631698",
-    "msgType": "webchat",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": "Đùa",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026634497": {
-    "timestamp": "1760026634543",
-    "timestampString": "23:17:14",
-    "msgId": "7099867478836",
-    "cliMsgId": "1760026634497",
-    "msgType": "chat.photo",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://fg42.dlfl.vn/731366f2cc216d7f3430/7167279117773722903/e45c19cb-8e17-4639-8766-7b10876463d1_a_sin.webp",
-      "thumb": "https://fg42.dlfl.vn/731366f2cc216d7f3430/7167279117773722903/e45c19cb-8e17-4639-8766-7b10876463d1_a_sin.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"contentId\":\"1753689684158\",\"height\":302,\"thumb_height\":302,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":479,\"width\":479,\"webp\":{\"url\":\"https:\\/\\/fg42.dlfl.vn\\/731366f2cc216d7f3430\\/7167279117773722903\\/e45c19cb-8e17-4639-8766-7b10876463d1_a_sin.webp\"}}",
-      "type": ""
-    },
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "1760026683204": {
     "timestamp": "1760026683358",
     "timestampString": "23:18:04",
