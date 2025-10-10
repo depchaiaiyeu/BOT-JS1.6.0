@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760023895524": {
-    "timestamp": "1760023895611",
-    "timestampString": "22:31:36",
-    "msgId": "7099766509982",
-    "cliMsgId": "1760023895524",
-    "msgType": "chat.photo",
-    "uidFrom": "5608758931030964973",
-    "idTo": "4699745045071009795",
-    "dName": "Hh",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f61-zpg-r.zdn.vn/jpg/2873209141054797520/7fc6549997d11a8f43c0.jpg",
-      "thumb": "https://f61-zpg-r.zdn.vn/jpg/2873209141054797520/7fc6549997d11a8f43c0.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"height\":1486,\"thumb_width\":360,\"thumb_height\":494,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/2873209141054797520\\/7fc6549997d11a8f43c0.jpg\",\"width\":1082,\"convertible\":\"jxl\"}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760023901815": {
-    "timestamp": "1760023901879",
-    "timestampString": "22:31:42",
-    "msgId": "7099766793466",
-    "cliMsgId": "1760023901815",
-    "msgType": "webchat",
-    "uidFrom": "5608758931030964973",
-    "idTo": "4699745045071009795",
-    "dName": "Hh",
-    "content": "có tele ib hd bào 500k đến 2m",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760023944144": {
     "timestamp": "1760023944307",
     "timestampString": "22:32:25",
