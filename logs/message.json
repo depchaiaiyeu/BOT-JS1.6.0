@@ -27591,5 +27591,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760140415210": {
+    "timestamp": "1760140415951",
+    "timestampString": "06:53:39",
+    "msgId": "7103922862413",
+    "cliMsgId": "1760140415210",
+    "msgType": "chat.photo",
+    "uidFrom": "2469710224594830717",
+    "idTo": "5464956150740844012",
+    "dName": "Tiểu Sơn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/5687004748087857937/deaabb20a1402c1e7551.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/5687004748087857937/deaabb20a1402c1e7551.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":1656,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/5687004748087857937\\/deaabb20a1402c1e7551.jpg\",\"height\":1656}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "105608425655100": {
+    "timestamp": "1760140427567",
+    "timestampString": "06:53:48",
+    "msgId": "7103923100905",
+    "cliMsgId": "105608425655100",
+    "msgType": "webchat",
+    "uidFrom": "9099069487081281917",
+    "idTo": "3453989112147091924",
+    "dName": "Qthai",
+    "content": "⚜️Cuối ob 50 nên tui sẽ sale  all file adr-ios \nKhi mua anh em sẽ đc tặng kèm độ nhạy📦 + nút bắn👾 + dpi🎇 để ae có thể kéo dễ dàng full đỏ💀\n🔰Bản giá sau khi sale🔱\n50.000vnd  → 10.000vnd\n100.000vnd → 20.000vnd\n200.000vnd → 500.000vnd\n300.000vnd → 100.000vnd\n400.000vnd → 150.000vnd \n500.000vnd → 200.000vnd\n600.000vnd → 250.000vnd\n700.000vnd → 300.000vnd\n800.000vnd → 350.000vnd\n900.000vnd → 400.000vnd\n⭐1.000.000vnd → 20.000vnd cho 1 slot\nFAKE AIM HEX \n500.000VND → 20.000VND CHO 2 SLOT\nTRICK SHOT VVIP\n200.000VND → 10.000VND CHO 2 SLOT\nAIMLOCK PRO VVIP\n400.000VND → 20.000VND CHO 3 SLOT\nAnh em có bnhiu thì cứ inbox mình mình sẽ tư vấn và báo giá cho ae 24/7\n💬Liên hệ ngay!!!!\n📩: admin qthai adr-ios\n☎️ Sdt : 0943049553\n📱 Tiktok : qthai.x.adr\nBox share file siêu bá \nLink 1:\nhttps://zalo.me/g/jvzuec804",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
