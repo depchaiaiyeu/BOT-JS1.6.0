@@ -18388,5 +18388,172 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760137146836": {
+    "timestamp": "1760137146912",
+    "timestampString": "05:59:11",
+    "msgId": "7103871994559",
+    "cliMsgId": "1760137146836",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".scl nắng có mang em về",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137151355": {
+    "timestamp": "1760137151495",
+    "timestampString": "05:59:11",
+    "msgId": "7103872041861",
+    "cliMsgId": "1760137151355",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/2410436591153625601/4894b29cf0fc7da224ed.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/2410436591153625601/4894b29cf0fc7da224ed.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1589,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/2410436591153625601\\/4894b29cf0fc7da224ed.jpg\",\"hdSize\":396599,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137159251": {
+    "timestamp": "1760137159385",
+    "timestampString": "05:59:19",
+    "msgId": "7103872123793",
+    "cliMsgId": "1760137159251",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ 3. Nắng Có Mang Em Về - Shartnuss Ft Tr.D & Phankeo",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":101,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137159006": {
+    "timestamp": "1760137159141",
+    "timestampString": "05:59:20",
+    "msgId": "7103872121121",
+    "cliMsgId": "1760137159006",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 206503079877623520,
+        "clientDelMsgId": 1760137151355,
+        "globalDelMsgId": 7103872041861,
+        "destId": 206503079877623520
+      }
+    ],
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137164732": {
+    "timestamp": "1760137164867",
+    "timestampString": "05:59:25",
+    "msgId": "7103872180486",
+    "cliMsgId": "1760137164732",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137165225": {
+    "timestamp": "1760137165362",
+    "timestampString": "05:59:25",
+    "msgId": "7103872185781",
+    "cliMsgId": "1760137165225",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/2695587622382715323/e56caa7ce91c64423d0d.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/2695587622382715323/e56caa7ce91c64423d0d.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/2695587622382715323\\/e56caa7ce91c64423d0d.jpg\",\"hdSize\":127931,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137157856": {
+    "timestamp": "1760137157905",
+    "timestampString": "05:59:27",
+    "msgId": "7103872107947",
+    "cliMsgId": "1760137157856",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": "1",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137166774": {
+    "timestamp": "1760137166912",
+    "timestampString": "05:59:27",
+    "msgId": "7103872201561",
+    "cliMsgId": "1760137166774",
+    "msgType": "chat.voice",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/64ca9f1f0d82acdcf593/5240396064916408766/Vu-Xuan-Kien-Service-Bot.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":4159110,\"m4a\":\"https:\\/\\/fg42.dlfl.vn\\/64ca9f1f0d82acdcf593\\/5240396064916408766\\/Vu-Xuan-Kien-Service-Bot.aac\"}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
