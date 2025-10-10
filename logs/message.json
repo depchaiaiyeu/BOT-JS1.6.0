@@ -21140,5 +21140,117 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "105608315337960": {
+    "timestamp": "1760138588947",
+    "timestampString": "06:23:10",
+    "msgId": "7103890748056",
+    "cliMsgId": "105608315337960",
+    "msgType": "webchat",
+    "uidFrom": "1527436670916511241",
+    "idTo": "3453989112147091924",
+    "dName": "B O T",
+    "content": "kết bạn nhắn tin nhận file aim đầu",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138603559": {
+    "timestamp": "1760138604378",
+    "timestampString": "06:23:25",
+    "msgId": "7103890977604",
+    "cliMsgId": "1760138603559",
+    "msgType": "chat.recommended",
+    "uidFrom": "2963005498718311973",
+    "idTo": "1367422010794969537",
+    "dName": "Vinh",
+    "content": {
+      "title": "📢 Tuyển thành viên cho server Discord!\n\nChào mọi người 👋\nDo mới lập sever 亗𝖔𝖓𝖑𝖎𝖓𝖊*𝖜𝖔𝖗𝖑𝖉ϟ đang cần thêm bạn bè cùng tham gia để trò chuyện, chơi game và giao lưu cho vui\n\n•      Có thể đóng góp ý tưởng giúp server phát triển\n\n•      Thành viên luôn vui vẻ, không xích mích nhau, có khó khăn cùng nhau giúp đỡ\n \n•      Có nơi để nghe nhạc thư giãn, treo máy, call chơi game \n\n•      Chat chít kể những chuyện độc lạ, vui thú vị, xàm xàm\n\n• Server không có vụ bơ thành viên nên các bạn đừng lo về việc không ai nói chuyện cùng https://discord.gg/uWH79Sk3",
+      "description": "Check out the 亗𝖔𝖓𝖑𝖎𝖓𝖊*𝖜𝖔𝖗𝖑𝖉ϟ community on Discord – hang out with 2 other members and enjoy free voice and text chat.",
+      "href": "https://discord.com/invite/uWH79Sk3",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"tWidth\":0,\"thumb_src_type\":1,\"src\":\"discord.com\",\"tHeight\":0,\"tType\":2,\"linkType\":0,\"type\":0,\"expired_time\":0,\"mediaTitle\":\"Join the 亗𝖔𝖓𝖑𝖎𝖓𝖊*𝖜𝖔𝖗𝖑𝖉ϟ Discord Server!\",\"brand_name\":\"Zalo Video\"}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138605213": {
+    "timestamp": "1760138605345",
+    "timestampString": "06:23:25",
+    "msgId": "7103890993246",
+    "cliMsgId": "1760138605213",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2963005498718312000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1760138603547,
+        "globalDelMsgId": 7103890971390,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138605465": {
+    "timestamp": "1760138605596",
+    "timestampString": "06:23:25",
+    "msgId": "7103890997137",
+    "cliMsgId": "1760138605465",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "⚠️ Cảnh cáo @Vinh!\nỞ đây Đại Ca tao cấm gửi link",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138603547": {
+    "timestamp": "1760138603966",
+    "timestampString": "06:23:26",
+    "msgId": "7103890971390",
+    "cliMsgId": "1760138603547",
+    "msgType": "chat.recommended",
+    "uidFrom": "2963005498718311973",
+    "idTo": "5464956150740844012",
+    "dName": "Vinh",
+    "content": {
+      "title": "📢 Tuyển thành viên cho server Discord!\n\nChào mọi người 👋\nDo mới lập sever 亗𝖔𝖓𝖑𝖎𝖓𝖊*𝖜𝖔𝖗𝖑𝖉ϟ đang cần thêm bạn bè cùng tham gia để trò chuyện, chơi game và giao lưu cho vui\n\n•      Có thể đóng góp ý tưởng giúp server phát triển\n\n•      Thành viên luôn vui vẻ, không xích mích nhau, có khó khăn cùng nhau giúp đỡ\n \n•      Có nơi để nghe nhạc thư giãn, treo máy, call chơi game \n\n•      Chat chít kể những chuyện độc lạ, vui thú vị, xàm xàm\n\n• Server không có vụ bơ thành viên nên các bạn đừng lo về việc không ai nói chuyện cùng https://discord.gg/uWH79Sk3",
+      "description": "Check out the 亗𝖔𝖓𝖑𝖎𝖓𝖊*𝖜𝖔𝖗𝖑𝖉ϟ community on Discord – hang out with 2 other members and enjoy free voice and text chat.",
+      "href": "https://discord.com/invite/uWH79Sk3",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"tWidth\":0,\"thumb_src_type\":1,\"src\":\"discord.com\",\"tHeight\":0,\"tType\":2,\"linkType\":0,\"type\":0,\"expired_time\":0,\"mediaTitle\":\"Join the 亗𝖔𝖓𝖑𝖎𝖓𝖊*𝖜𝖔𝖗𝖑𝖉ϟ Discord Server!\",\"brand_name\":\"Zalo Video\"}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138605717": {
+    "timestamp": "1760138606575",
+    "timestampString": "06:23:27",
+    "msgId": "7103891011320",
+    "cliMsgId": "1760138605717",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "2963005498718311973",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Admin đã chặn gửi link trong nhóm, link của Vinh bị xóa!",
+    "threadId": "2963005498718311973",
+    "type": 0,
+    "isUndo": false
   }
 }

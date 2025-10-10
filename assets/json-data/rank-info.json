@@ -2560,9 +2560,9 @@
         {
           "UserName": "Vinh",
           "UID": "2963005498718311973",
-          "Rank": 2,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 3,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Võ Sang",
@@ -5645,9 +5645,9 @@
         {
           "UserName": "Vinh",
           "UID": "2963005498718311973",
-          "Rank": 1,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Tiểu Sơn",
@@ -6564,6 +6564,13 @@
         {
           "UserName": "Wiliamz - Ng Truong Giang",
           "UID": "2590342790905082057",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "B O T",
+          "UID": "1527436670916511241",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
