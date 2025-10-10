@@ -22168,5 +22168,70 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1056083462388000": {
+    "timestamp": "1760139104006",
+    "timestampString": "06:31:45",
+    "msgId": "7103898808937",
+    "cliMsgId": "1056083462388000",
+    "msgType": "webchat",
+    "uidFrom": "2781878962941353120",
+    "idTo": "3453989112147091924",
+    "dName": "Thảo Nguyễn",
+    "content": "⌛Buff Dịch Vụ Mạng Xã Hội Giá Rẻ🚨\n\n➡️1000 Follow Facebook 3.600VND\n➡️1000 Like Bài Viết Facebook 3.500VND\n➡️1000 Tim Video TikTok 600Đ\n➡️1000 Điểm PK TikTok 6.000VND\n⏰ Và Nhiều Dịch Vụ Khác⭕️\n\n🔗Truy Cập Ngay: https://viplike1s.top/",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056083462415600": {
+    "timestamp": "1760139104050",
+    "timestampString": "06:31:45",
+    "msgId": "7103898810588",
+    "cliMsgId": "1056083462415600",
+    "msgType": "chat.recommended",
+    "uidFrom": "2781878962941353120",
+    "idTo": "3453989112147091924",
+    "dName": "Thảo Nguyễn",
+    "content": {
+      "title": "Minhh Tamm",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/746717233\\/47f29fbf08e3e1bdb8f2.jpg\",\"gUid\":\"LBHNAOVK9EOSTTLGL4MKABL64KN8AUO0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/0/d/d/2/120/efba751692e51b63b8d3d8fddef5c503.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8655748669320136228",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056083465197200": {
+    "timestamp": "1760139108643",
+    "timestampString": "06:31:49",
+    "msgId": "7103898885443",
+    "cliMsgId": "1056083465197200",
+    "msgType": "webchat",
+    "uidFrom": "1062307541770981765",
+    "idTo": "3453989112147091924",
+    "dName": "Hwyn",
+    "content": "📌 Dịch vụ Game NRO ✅\n 1️⃣ Bán Source NRO \n⚡Nhận fix lỗi, thêm tính năng\n⚡Build Mod HTL/ HTT \n⚡Project Build Mod HTL/ HTT \n⚡Up Tf Chỉ Từ 500/1 Tháng\n⚡Bán Anti Ddos \n⚡Dải Link + Pr Sv + Live Tiktok\n⚡Hỗ trợ Setup Sv từ A->Z\n2️⃣ Website Bán Vps Treo Game - Mở Server\n⚡️ https://vuavps.vn/ \n3️⃣ Cho Thuê Bot + Bán Bot Zalo ( Sale 18x lệnh siêu múp giá hạt rẻ bảo hành 1-1 )\n⚡️ Quản Lí Box + Rải Và Nhiều Chức Năng\n⚡️ https://zalo.me/vugiahuy",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139115980": {
+    "timestamp": "1760139116164",
+    "timestampString": "06:31:56",
+    "msgId": "7103899010643",
+    "cliMsgId": "1760139115980",
+    "msgType": "webchat",
+    "uidFrom": "8606917999821023050",
+    "idTo": "5601607522756268167",
+    "dName": "Nminh",
+    "content": "Vô box ib nhận 2 acc 3s hoặc mục tuỳ chọn  xịn bên NMinh ạ !  https://zalo.me/g/wylcke984",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
