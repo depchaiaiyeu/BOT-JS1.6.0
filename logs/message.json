@@ -20880,5 +20880,61 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760138525089": {
+    "timestamp": "1760138525107",
+    "timestampString": "06:22:05",
+    "msgId": "7103889804463",
+    "cliMsgId": "1760138525089",
+    "msgType": "webchat",
+    "uidFrom": "7430511557236889637",
+    "idTo": "5464956150740844012",
+    "dName": "Tú Duy",
+    "content": "@Vũ Xuân Kiên 1",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138532433": {
+    "timestamp": "1760138532515",
+    "timestampString": "06:22:12",
+    "msgId": "7103889911804",
+    "cliMsgId": "1760138532433",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "scl lại",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138544439": {
+    "timestamp": "1760138544611",
+    "timestampString": "06:22:26",
+    "msgId": "7103890093725",
+    "cliMsgId": "1760138544439",
+    "msgType": "webchat",
+    "uidFrom": "2590342790905082057",
+    "idTo": "3453989112147091924",
+    "dName": "Wiliamz - Ng Truong Giang",
+    "content": "Sale 2 slot bản 500 còn 50 1 slot 700 còn 100 td 100% mua dc tặng dpi ae qtam ib",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138544996": {
+    "timestamp": "1760138545172",
+    "timestampString": "06:22:26",
+    "msgId": "7103890100653",
+    "cliMsgId": "1760138544996",
+    "msgType": "webchat",
+    "uidFrom": "2757672362236838526",
+    "idTo": "3453989112147091924",
+    "dName": "Dev Tezoss",
+    "content": "https://zalo.me/g/yahwze884    \nhttps://zalo.me/g/qcrjej166 vô húp file nhiều lắm còn phát card nữa anh emm\n💵💵SALE LỚN ANH EM ƠII!!‼️‼️\n💸💸FILE 100.000₫ còn 20.000₫💸💸\n💸💸FILE 250.000₫ còn 40.000₫💸💸\n💸💸FILE 300.000 còn 50.000₫💸💸\n💸💸FILE 400.000₫ còn 100.000₫💸💸\n💸💸FILE 500.000₫còn 200.000₫💸💸\n😈CHỨC NĂNG:\n✅NHẸ TÂM\n✅BÁM VÙNG CỔ\n✅FIX AUTO RUNG TÂM 🎯 \n✅NHẠY MÀN\n✅AIM ẨN CHẠY MAIN\n✅TĂNG FPS\n✅ỔN ĐỊNH PIN 🔋 \n✅NHẠY TÂM \n✅GIẢM DELAY CHẬM \n✅CÒN NHIỀU CHỨC NĂNG KHÁC✅\n💸🎯GIÁ CẢ HỢP LÝ CHO CÁC BẢN SALE ANH EM MUA VỀ LÀ CHỈ CẦN VÀO KH td HOÀN 1000% CHO ANH EM IB LẸ NHA ANH EM‼️‼️‼️✅✅\n💵zalo: 0965502717",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
