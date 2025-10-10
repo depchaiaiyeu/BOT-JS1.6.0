@@ -45,57 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022362880": {
-    "timestamp": "1760022363133",
-    "timestampString": "22:06:03",
-    "msgId": "7099689964362",
-    "cliMsgId": "1760022362880",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "Vong cung",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022394843": {
-    "timestamp": "1760022400524",
-    "timestampString": "22:06:41",
-    "msgId": "7099691994844",
-    "cliMsgId": "1760022394843",
-    "msgType": "webchat",
-    "uidFrom": "2359098671970024582",
-    "idTo": "4825567233436439756",
-    "dName": "Tiến Dũng",
-    "content": "🌟 DỊCH VỤ ONLINE GIÁ RẺ – UY TÍN – CHẤT LƯỢNG 🌟\n💥 BẢO HÀNH – HỖ TRỢ 24/7 – GIÁ SIÊU RẺ 💥\n🔥 Dịch vụ nổi bật:\n✍️ Viết báo PR cá nhân, doanh nghiệp, top google, lên báo nhanh, uy tín!\n🎥 Xác minh đủ tuổi mở live, chuỗi Toptop – hỗ trợ trọn gói!\n🎬 CapCut Pro 12 tháng – giá chỉ 3xxx, full tính năng bản quyền.\n🎨 Canva Pro – gói 30 ngày / 1 năm – thiết kế chuyên nghiệp siêu tiện!\n🔑 Key HMA 30 ngày – tốc độ cao, ổn định, riêng tư tuyệt đối.\n🤖 ChatGPT Plus – chỉ 70k/tháng, hỏi gì cũng có lời giải cực nhanh.\n💗 Tăng like, follow đa nền tảng (FB, TikTok, Insta, YouTube...) – lên nhanh, an toàn 100%.\n📢 Nhận chạy Ads Facebook – tối ưu chi phí, hiệu quả cực cao.\n💎 Nhận up tick xanh (cá nhân / fanpage) – uy tín\n🔓 Nhận unlock các lỗi: 282 – 811 – 277 – 583 – 956 – 2FA – 035 – xử lý nhanh, tỉ lệ cao.",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022401433": {
-    "timestamp": "1760022402387",
-    "timestampString": "22:06:42",
-    "msgId": "7099692100670",
-    "cliMsgId": "1760022401433",
-    "msgType": "chat.photo",
-    "uidFrom": "3486411217532891993",
-    "idTo": "5464956150740844012",
-    "dName": "Công Trần",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f62-zpg-r.zdn.vn/jpg/5410194450471438553/1d4fb8f269afe4f1bdbe.jpg",
-      "thumb": "https://f62-zpg-r.zdn.vn/jpg/5410194450471438553/1d4fb8f269afe4f1bdbe.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":301,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f62-zpg-r.zdn.vn\\/jpg\\/5410194450471438553\\/1d4fb8f269afe4f1bdbe.jpg\",\"hdSize\":79380,\"height\":719}",
-      "type": ""
-    },
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022442032": {
     "timestamp": "1760022442095",
     "timestampString": "22:07:23",
