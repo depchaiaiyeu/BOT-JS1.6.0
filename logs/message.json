@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026886096": {
-    "timestamp": "1760026885670",
-    "timestampString": "23:21:26",
-    "msgId": "7099874709296",
-    "cliMsgId": "1760026886096",
-    "msgType": "chat.photo",
-    "uidFrom": "6988599456249707975",
-    "idTo": "7585160044864555896",
-    "dName": "Chill",
-    "content": {
-      "title": "@Đặng Hoài Ân",
-      "description": "",
-      "href": "https://f64-zpg-r.zdn.vn/5332735167368083802/a6edc1aa6ff7e2a9bbe6.jpg",
-      "thumb": "https://t-f64-zpg-r.zdn.vn/480/5332735167368083802/a6edc1aa6ff7e2a9bbe6.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/5332735167368083802\\/a6edc1aa6ff7e2a9bbe6.jpg\",\"hdSize\":344622,\"height\":450}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760027145736": {
     "timestamp": "1760027145741",
     "timestampString": "23:25:46",
