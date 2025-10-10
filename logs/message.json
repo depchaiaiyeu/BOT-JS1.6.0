@@ -23346,5 +23346,88 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760139690726": {
+    "timestamp": "1760139690916",
+    "timestampString": "06:41:32",
+    "msgId": "7103908915603",
+    "cliMsgId": "1760139690726",
+    "msgType": "webchat",
+    "uidFrom": "2757672362236838526",
+    "idTo": "3453989112147091924",
+    "dName": "Dev Tezoss",
+    "content": "https://zalo.me/g/yahwze884    \nhttps://zalo.me/g/qcrjej166 vô húp file nhiều lắm còn phát card nữa anh emm\n💵💵SALE LỚN ANH EM ƠII!!‼️‼️\n💸💸FILE 100.000₫ còn 20.000₫💸💸\n💸💸FILE 250.000₫ còn 40.000₫💸💸\n💸💸FILE 300.000 còn 50.000₫💸💸\n💸💸FILE 400.000₫ còn 100.000₫💸💸\n💸💸FILE 500.000₫còn 200.000₫💸💸\n😈CHỨC NĂNG:\n✅NHẸ TÂM\n✅BÁM VÙNG CỔ\n✅FIX AUTO RUNG TÂM 🎯 \n✅NHẠY MÀN\n✅AIM ẨN CHẠY MAIN\n✅TĂNG FPS\n✅ỔN ĐỊNH PIN 🔋 \n✅NHẠY TÂM \n✅GIẢM DELAY CHẬM \n✅CÒN NHIỀU CHỨC NĂNG KHÁC✅\n💸🎯GIÁ CẢ HỢP LÝ CHO CÁC BẢN SALE ANH EM MUA VỀ LÀ CHỈ CẦN VÀO KH td HOÀN 1000% CHO ANH EM IB LẸ NHA ANH EM‼️‼️‼️✅✅\n💵zalo: 0965502717",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139707394": {
+    "timestamp": "1760139708201",
+    "timestampString": "06:41:49",
+    "msgId": "7103909228195",
+    "cliMsgId": "1760139707394",
+    "msgType": "chat.photo",
+    "uidFrom": "6684539579669314047",
+    "idTo": "4699745045071009795",
+    "dName": "亗彡ヅnakashima Misakiヅ彡亗",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/7224344202002511173/946d22a442c4cf9a96d5.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/7224344202002511173/946d22a442c4cf9a96d5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1600,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/7224344202002511173\\/946d22a442c4cf9a96d5.jpg\",\"is_group_layout\":0,\"contentId\":\"12106\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139708359": {
+    "timestamp": "1760139709017",
+    "timestampString": "06:41:49",
+    "msgId": "7103909243987",
+    "cliMsgId": "1760139708359",
+    "msgType": "chat.photo",
+    "uidFrom": "6988599456249707975",
+    "idTo": "1367422010794969537",
+    "dName": "Poiuyt",
+    "content": {
+      "title": "@Thao Linhvanthaogmailcom",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/6564585377363924592/96b5def2b0923dcc6483.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/6564585377363924592/96b5def2b0923dcc6483.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/6564585377363924592\\/96b5def2b0923dcc6483.jpg\",\"hdSize\":344622,\"height\":450}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139714131": {
+    "timestamp": "1760139714247",
+    "timestampString": "06:41:54",
+    "msgId": "7103909339114",
+    "cliMsgId": "1760139714131",
+    "msgType": "chat.recommended",
+    "uidFrom": "6684539579669314047",
+    "idTo": "4699745045071009795",
+    "dName": "亗彡ヅnakashima Misakiヅ彡亗",
+    "content": {
+      "title": "https://zalo.me/g/vsuoam997 chéo",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/vsuoam997",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2068a686bdd1760138560aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMzM4MTU1ZjE5ZTk1NzRjYjJkODQ=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"🌸_ ⁠❛⁠ ⁠ᴗ✨_Động_Loli_✨‿⁠♡_🌸\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/vsuoam997\",\"owner\":{\"id\":435338331,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/4\\/1\\/2\\/c\\/12\\/120\\/99464094f49ec544ef62139cfe8f0d99.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
