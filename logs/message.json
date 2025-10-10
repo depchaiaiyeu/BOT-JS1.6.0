@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760025554968": {
-    "timestamp": "1760025555039",
-    "timestampString": "22:59:16",
-    "msgId": "7099832625472",
-    "cliMsgId": "1760025554968",
-    "msgType": "webchat",
-    "uidFrom": "3973770325197419294",
-    "idTo": "8311627129351719523",
-    "dName": "G I A T U Ấ N",
-    "content": "Hết slot @All =}",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
-  "105601534458240": {
-    "timestamp": "1760025574530",
-    "timestampString": "22:59:35",
-    "msgId": "7099833308149",
-    "cliMsgId": "105601534458240",
-    "msgType": "chat.photo",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f59-zpg-r.zdn.vn/2758458428599631546/9fe72ca3aafe27a07eef.jpg",
-      "thumb": "https://t-f59-zpg-r.zdn.vn/480/2758458428599631546/9fe72ca3aafe27a07eef.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/2758458428599631546\\/9fe72ca3aafe27a07eef.jpg\",\"hdSize\":344622,\"height\":760}",
-      "type": ""
-    },
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1760025605894": {
     "timestamp": "1760025603445",
     "timestampString": "23:00:03",
