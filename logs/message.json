@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760020647232": {
-    "timestamp": "1760020647223",
-    "timestampString": "21:37:28",
-    "msgId": "7099593717190",
-    "cliMsgId": "1760020647232",
-    "msgType": "chat.photo",
-    "uidFrom": "9090621766324729619",
-    "idTo": "7897564732983285154",
-    "dName": "Xre",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
-      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":402,\"height\":220,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760020652346": {
-    "timestamp": "1760020652656",
-    "timestampString": "21:37:33",
-    "msgId": "7099594034980",
-    "cliMsgId": "1760020652346",
-    "msgType": "chat.photo",
-    "uidFrom": "9090621766324729619",
-    "idTo": "7897564732983285154",
-    "dName": "Xre",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f58-zpg-r.zdn.vn/jpg/2665763671467818983/3123acbbb3e63eb867f7.jpg",
-      "thumb": "https://f58-zpg-r.zdn.vn/jpg/2665763671467818983/3123acbbb3e63eb867f7.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1080,\"height\":1396,\"hd\":\"https:\\/\\/f58-zpg-r.zdn.vn\\/jpg\\/2665763671467818983\\/3123acbbb3e63eb867f7.jpg\",\"is_group_layout\":0,\"contentId\":\"201819\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760020742744": {
     "timestamp": "1760020742778",
     "timestampString": "21:39:03",
