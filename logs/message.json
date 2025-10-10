@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760025837252": {
-    "timestamp": "1760025837490",
-    "timestampString": "23:03:58",
-    "msgId": "7099842415198",
-    "cliMsgId": "1760025837252",
-    "msgType": "chat.photo",
-    "uidFrom": "9026595573905447039",
-    "idTo": "4699745045071009795",
-    "dName": "Nguyen",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f56-zpg-r.zdn.vn/jpg/7882984556416993395/837b6a9da604165a4f15.jpg",
-      "thumb": "https://f56-zpg-r.zdn.vn/jpg/7882984556416993395/837b6a9da604165a4f15.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1743690806926\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/e1pkse.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1743690806926\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760025840206": {
     "timestamp": "1760025840402",
     "timestampString": "23:04:01",
