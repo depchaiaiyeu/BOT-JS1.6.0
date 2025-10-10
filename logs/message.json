@@ -22,43 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760017041079": {
-    "timestamp": "1760017041190",
-    "timestampString": "20:37:22",
-    "msgId": "7099373906959",
-    "cliMsgId": "1760017041079",
-    "msgType": "chat.photo",
-    "uidFrom": "7719842335991277593",
-    "idTo": "7897564732983285154",
-    "dName": "Trọng Nghĩaᅐᅡ",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f57-zpg-r.zdn.vn/jpg/8499095795823796181/f0fc21c7d7955acb0384.jpg",
-      "thumb": "https://f57-zpg-r.zdn.vn/jpg/8499095795823796181/f0fc21c7d7955acb0384.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":643,\"height\":477,\"is_group_layout\":0,\"contentId\":\"1000027266\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760017042499": {
-    "timestamp": "1760017042609",
-    "timestampString": "20:37:22",
-    "msgId": "7099373996709",
-    "cliMsgId": "1760017042499",
-    "msgType": "webchat",
-    "uidFrom": "6658938181466805330",
-    "idTo": "5975420422762749911",
-    "dName": "Vtàiᅠᅠdv",
-    "content": "@Dell Yêu Ai có mẹ j đâu tr",
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760017125159": {
     "timestamp": "1760017127031",
     "timestampString": "20:38:48",
