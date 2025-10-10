@@ -20393,5 +20393,42 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760138397204": {
+    "timestamp": "1760138397270",
+    "timestampString": "06:19:58",
+    "msgId": "7103887936244",
+    "cliMsgId": "1760138397204",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138398620": {
+    "timestamp": "1760138398748",
+    "timestampString": "06:19:59",
+    "msgId": "7103887959139",
+    "cliMsgId": "1760138398620",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nNếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n.help - Xem các lệnh cơ bản\n.game - Xem các lệnh game\n.command - Xem toàn bộ danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
