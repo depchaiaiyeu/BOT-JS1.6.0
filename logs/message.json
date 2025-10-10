@@ -45,48 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760020742744": {
-    "timestamp": "1760020742778",
-    "timestampString": "21:39:03",
-    "msgId": "7099599287255",
-    "cliMsgId": "1760020742744",
-    "msgType": "webchat",
-    "uidFrom": "9196605977515605659",
-    "idTo": "2760006576081013366",
-    "dName": "Thiên Ngọc",
-    "content": "🤨",
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760020759432": {
-    "timestamp": "1760020759496",
-    "timestampString": "21:39:20",
-    "msgId": "7099600256796",
-    "cliMsgId": "1760020759432",
-    "msgType": "webchat",
-    "uidFrom": "8961012939333846624",
-    "idTo": "2760006576081013366",
-    "dName": "Lê Minh Tâm",
-    "content": "G v",
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760020791757": {
-    "timestamp": "1760020791878",
-    "timestampString": "21:39:52",
-    "msgId": "7099602130683",
-    "cliMsgId": "1760020791757",
-    "msgType": "webchat",
-    "uidFrom": "1238363753987858196",
-    "idTo": "7897564732983285154",
-    "dName": "Bich Ngoc",
-    "content": "K ai ứng hả",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760020836093": {
     "timestamp": "1760020836157",
     "timestampString": "21:40:37",
