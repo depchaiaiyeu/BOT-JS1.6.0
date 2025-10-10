@@ -18,6 +18,7 @@ import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache
 import { deleteFile } from "../../../utils/util.js";
 import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js";
 import { getBotId, isAdmin } from "../../../index.js";
+import { sendReactionWaitingCountdown } from '../../../manager-command/check-countdown.js';
 
 let clientId;
 
@@ -187,22 +188,9 @@ export async function handleMusicCommand(api, message, aliasCommand) {
       const object = {
         caption: `Không tìm thấy bài hát nào với từ khóa: ${question}`,
       };
-      await sendMessageWarningRequest(api, message, object, TIME_TO_SELECT);
+      await sendMessageWarningRequest(api, message, object, 30000);
       return;
     }
-
-    // musicListTxt += musicInfo.collection
-    //   .map((music, index) => {
-    //     const stats = [
-    //       music.playback_count && `${music.playback_count.toLocaleString()} 👂`,
-    //       music.likes_count && `${music.likes_count.toLocaleString()} ❤️`,
-    //       music.comment_count && `${music.comment_count.toLocaleString()} 💬`
-    //     ].filter(Boolean);
-
-    //     return `${index + 1}. ${music.title}${music.user?.username ? ` _ ${music.user.username}` : ""}` +
-    //       `${stats.length ? `\n(${stats.join(" | ")})` : ""}`
-    //   })
-    //   .join("\n\n");
 
     const songs = musicInfo.collection.map(track => ({
       title: track.title,
@@ -219,14 +207,22 @@ export async function handleMusicCommand(api, message, aliasCommand) {
       caption: musicListTxt,
       imagePath: imagePath,
     };
-    const musicListMessage = await sendMessageCompleteRequest(api, message, object, 30000);
 
-    const quotedMsgId = musicListMessage?.message?.msgId || musicListMessage?.attachment[0]?.msgId;
+    const TIME_TO_SELECT = 30000;
+    const ttlSeconds = TIME_TO_SELECT / 1000;
+
+    const musicListMessage = await sendMessageCompleteRequest(api, message, object, TIME_TO_SELECT);
+    await sendReactionWaitingCountdown(api, message, ttlSeconds);
+
+    const quotedMsgId = musicListMessage?.message?.msgId || musicListMessage?.attachment?.[0]?.msgId;
+    if (!quotedMsgId) return;
+
     musicSelectionsMap.set(quotedMsgId.toString(), {
       userRequest: senderId,
       collection: musicInfo.collection,
       timestamp: Date.now(),
     });
+
     setSelectionsMapData(senderId, {
       quotedMsgId: quotedMsgId.toString(),
       collection: musicInfo.collection,
