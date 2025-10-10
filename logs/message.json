@@ -18976,5 +18976,19 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1760137365538": {
+    "timestamp": "1760137365606",
+    "timestampString": "06:02:46",
+    "msgId": "7103874523433",
+    "cliMsgId": "1760137365538",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "206503079877623526",
+    "dName": "Vũ Xuân Kiên",
+    "content": "đoạn 2:5x chill vl",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
