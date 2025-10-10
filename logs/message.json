@@ -23258,5 +23258,65 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760139599037": {
+    "timestamp": "1760139600994",
+    "timestampString": "06:40:01",
+    "msgId": "7103907294998",
+    "cliMsgId": "1760139599037",
+    "msgType": "webchat",
+    "uidFrom": "8581465980330180908",
+    "idTo": "5464956150740844012",
+    "dName": "Nguyễn Quang Huy",
+    "content": "🔥 BÁN ACC CLONE FACEBOOK – FULL 2FA – NGÂM TRÂU 8 THÁNG 🔥\n✅ Hỗ trợ spam tay + tool, bảo hành acc die/ checkpoint trong 7 ngày đầu 1 đổi 1\n✅ Cân mọi giao dịch trung gian \n✅ Full bạn bè, avt, ảnh bìa – acc trâu chuyên spam\n\n⚠️ Anh em lưu ý: Chọn nguồn clone cực kỳ quan trọng – bên em chỉ cung cấp acc đã ngâm spam trên 8 tháng, chịu spam tốt – tránh tình trạng mua acc trên các web mới log 30p đã die, spam vài cmt đã die/checkpoint. Vì các acc trên web hầu hết là ních mới hoặc mới chỉ ngâm vài ngày đến vài tuần còn rất yếu\n\n🎯 Acc bên em có gì?\n• Full 2FA – qua spam trâu trên 8 tháng\nđã qua gỡ checkpoint nhiều lần\n• Sẵn bạn bè \n• Avt + ảnh bìa – độ trust cao\n• Hỗ trợ quy trình spam bên em (Tool + trick spam sống lâu)\n• Cam kết bảo hành 7 ngày – lỗi đổi acc mới 1:1\n\n📩 Inbox ngay Z.A.L.O 0787076429  để test acc – dùng thử quy trình spam hiệu quả!\n🛡️ Uy tín tạo nên thương hiệu – bán acc là phải có bảo hành!",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139599039": {
+    "timestamp": "1760139606242",
+    "timestampString": "06:40:08",
+    "msgId": "7103907386959",
+    "cliMsgId": "1760139599039",
+    "msgType": "chat.photo",
+    "uidFrom": "8581465980330180908",
+    "idTo": "5464956150740844012",
+    "dName": "Nguyễn Quang Huy",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/5d9ce43a66d2928ccbc3/3579595819494506714.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/5d9ce43a66d2928ccbc3/3579595819494506714.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_height\":320,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":960,\"height\":566,\"thumb_width\":543}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139621303": {
+    "timestamp": "1760139621677",
+    "timestampString": "06:40:23",
+    "msgId": "7103907665255",
+    "cliMsgId": "1760139621303",
+    "msgType": "chat.recommended",
+    "uidFrom": "5378242811968948376",
+    "idTo": "3453989112147091924",
+    "dName": "Nguyễn Lam",
+    "content": {
+      "title": "https://zalo.me/g/gyywts514",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/gyywts514",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv28832cf8d1f1760139571aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvODNlN2VlMWViZDc4NTcyNjBlNjk=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"xác thực zl ko cccd s9\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/gyywts514\",\"owner\":{\"id\":368956493,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"http:\\/\\/s120.ava.grp.talk.zdn.vn\\/default\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }

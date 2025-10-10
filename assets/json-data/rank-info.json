@@ -5617,8 +5617,8 @@
         {
           "UserName": "Nguyễn Quang Huy",
           "UID": "8581465980330180908",
-          "Rank": 7,
-          "messageCountToday": 3,
+          "Rank": 8,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -6669,6 +6669,13 @@
         {
           "UserName": "Bùi Minh Công",
           "UID": "3814313025013430996",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Nguyễn Lam",
+          "UID": "5378242811968948376",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
