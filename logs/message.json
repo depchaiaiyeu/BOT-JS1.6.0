@@ -18953,5 +18953,28 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760137344177": {
+    "timestamp": "1760137344177",
+    "timestampString": "06:02:25",
+    "msgId": "7103874266136",
+    "cliMsgId": "1760137344177",
+    "msgType": "webchat",
+    "uidFrom": "4645706868334156099",
+    "idTo": "8281509084603580118",
+    "dName": "Bảo Ngọc",
+    "content": {
+      "title": "Bảo Ngọc cho phép tất cả thành viên được gửi tin nhắn vào cộng đồng.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "msginfo.actionlist",
+      "params": "{\"msg\":{\"vi\":\"%1$s cho phép tất cả thành viên được gửi tin nhắn vào cộng đồng.\",\"en\":\"%1$s allowed everyone to send messages in this community.\",\"my\":\"%1$s allowed everyone to send messages in this community.\"},\"avatarUrl\":[\"https://s160-ava-talk.zadn.vn/1/6/d/8/52/160/bf89caea5461e16d8ec3c42f83624257.jpg\"],\"simpleInfos\":[{\"uid\":4645706868334156099,\"dpn\":\"Bảo Ngọc\",\"avt\":\"https://s160-ava-talk.zadn.vn/1/6/d/8/52/160/bf89caea5461e16d8ec3c42f83624257.jpg\"}],\"highLightsV2\":[{\"uid\":4645706868334156099,\"dpn\":\"Bảo Ngọc\",\"ignoreNickname\":0,\"type\":0,\"ts\":0}],\"iconUrl\":\"\",\"actions\":[{\"actionType\":\"\",\"actionColor\":-16538118,\"actionData\":\"\",\"actionLabel\":\"\"}],\"totalUpdateMem\":1,\"highLights\":[{\"uid\":4645706868334156099,\"len\":8,\"pos\":0}]}",
+      "type": ""
+    },
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
