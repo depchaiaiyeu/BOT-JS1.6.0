@@ -18147,5 +18147,42 @@
     "threadId": "1747464985521437051",
     "type": 1,
     "isUndo": false
+  },
+  "1760137064280": {
+    "timestamp": "1760137064316",
+    "timestampString": "05:57:45",
+    "msgId": "7103871159497",
+    "cliMsgId": "1760137064280",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "....",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137065401": {
+    "timestamp": "1760137065538",
+    "timestampString": "05:57:45",
+    "msgId": "7103871172707",
+    "cliMsgId": "1760137065401",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nKhông tìm thấy lệnh \"...\". Vui lòng sử dụng:\n.help - Xem hướng dẫn sử dụng\n.game - Xem hướng dẫn chơi game\n.command - Xem danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
