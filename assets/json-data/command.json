@@ -288,7 +288,9 @@
       "type": 1,
       "author": "Vũ Xuân Kiên",
       "active": true,
-      "alias": []
+      "alias": [
+        "i4"
+      ]
     },
     {
       "name": "card",
