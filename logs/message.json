@@ -45,57 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760026459207": {
-    "timestamp": "1760026459263",
-    "timestampString": "23:14:20",
-    "msgId": "7099862255760",
-    "cliMsgId": "1760026459207",
-    "msgType": "webchat",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": "@Anh Tú vc",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026462893": {
-    "timestamp": "1760026462992",
-    "timestampString": "23:14:23",
-    "msgId": "7099862365303",
-    "cliMsgId": "1760026462893",
-    "msgType": "chat.photo",
-    "uidFrom": "5059187806609084942",
-    "idTo": "1367422010794969537",
-    "dName": "Ngyyenngocc Ahtw",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://photo-stal-4.zdn.vn/gr/jpg/d7ac302205c7f199a8d6/1299705516119595984.jpg",
-      "thumb": "https://photo-stal-4.zdn.vn/gr/jpg/d7ac302205c7f199a8d6/1299705516119595984.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"thumb_height\":430,\"convertible\":\"jxl\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":1125,\"height\":1511,\"thumb_width\":320}",
-      "type": ""
-    },
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760026482829": {
-    "timestamp": "1760026482919",
-    "timestampString": "23:14:44",
-    "msgId": "7099862971152",
-    "cliMsgId": "1760026482829",
-    "msgType": "webchat",
-    "uidFrom": "7509156789270166542",
-    "idTo": "1367422010794969537",
-    "dName": "Anh Tú",
-    "content": "@Ngyyenngocc Ahtw xạo chó á:)))))",
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "1760026631698": {
     "timestamp": "1760026631724",
     "timestampString": "23:17:13",
