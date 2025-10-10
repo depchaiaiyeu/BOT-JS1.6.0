@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022632118": {
-    "timestamp": "1760022632180",
-    "timestampString": "22:10:33",
-    "msgId": "7099704480101",
-    "cliMsgId": "1760022632118",
-    "msgType": "webchat",
-    "uidFrom": "3973770325197419294",
-    "idTo": "8311627129351719523",
-    "dName": "G I A T U Ấ N",
-    "content": "Dịch vụ acc UT rá rẻ chỉ cần 120k trở lên là đã có 1 con ếch để trang bị đi khoe bạn bè sĩ gái trong hôm nay tất cả acc đều giảm 20% Ai có nhu cầu liên hệ ngay.                                  965698353                                            (admin G I A T U Ấ N để được hỗ trợ tư vấn mua acc ngay) @All",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022632122": {
-    "timestamp": "1760022632226",
-    "timestampString": "22:10:33",
-    "msgId": "7099704481703",
-    "cliMsgId": "1760022632122",
-    "msgType": "chat.recommended",
-    "uidFrom": "3973770325197419294",
-    "idTo": "8311627129351719523",
-    "dName": "G I A T U Ấ N",
-    "content": {
-      "title": "G I A T U Ấ N",
-      "description": "{\"phone\":\"965698353\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/0\\/369489155\\/e4867172e42f0d71543e.jpg\"}",
-      "href": "https://zalo.me",
-      "thumb": "https://s160-ava-talk.zadn.vn/d/e/5/c/4/160/b7b68413d29fcef88976188d142be94f.jpg",
-      "childnumber": 0,
-      "action": "recommened.user",
-      "params": "3973770325197419294",
-      "type": ""
-    },
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022699791": {
     "timestamp": "1760022699796",
     "timestampString": "22:11:40",
