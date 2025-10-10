@@ -23318,5 +23318,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760139641038": {
+    "timestamp": "1760139641435",
+    "timestampString": "06:40:42",
+    "msgId": "7103908020450",
+    "cliMsgId": "1760139641038",
+    "msgType": "webchat",
+    "uidFrom": "239007218654196586",
+    "idTo": "3453989112147091924",
+    "dName": "Vanh Yyy",
+    "content": "Ai cho em được không ạ",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
