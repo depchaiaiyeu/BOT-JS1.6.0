@@ -20430,5 +20430,79 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760138400057": {
+    "timestamp": "1760138400114",
+    "timestampString": "06:20:00",
+    "msgId": "7103887977542",
+    "cliMsgId": "1760138400057",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".bot on",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138400481": {
+    "timestamp": "1760138400610",
+    "timestampString": "06:20:00",
+    "msgId": "7103887986276",
+    "cliMsgId": "1760138400481",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nĐã kích hoạt tương tác với bot trong nhóm này.\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138420032": {
+    "timestamp": "1760138420086",
+    "timestampString": "06:20:25",
+    "msgId": "7103888263090",
+    "cliMsgId": "1760138420032",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".scl nhạc remix hot tiktok",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138425071": {
+    "timestamp": "1760138425205",
+    "timestampString": "06:20:25",
+    "msgId": "7103888340318",
+    "cliMsgId": "1760138425071",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/1125123721873586274/aa8519a966c9eb97b2d8.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/1125123721873586274/aa8519a966c9eb97b2d8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1565,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/1125123721873586274\\/aa8519a966c9eb97b2d8.jpg\",\"hdSize\":323913,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
