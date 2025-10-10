@@ -18916,5 +18916,42 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1056082384858200": {
+    "timestamp": "1760137308125",
+    "timestampString": "06:01:49",
+    "msgId": "7103873838295",
+    "cliMsgId": "1056082384858200",
+    "msgType": "webchat",
+    "uidFrom": "2781878962941353120",
+    "idTo": "3453989112147091924",
+    "dName": "Thảo Nguyễn",
+    "content": "⌛Buff Dịch Vụ Mạng Xã Hội Giá Rẻ🚨\n\n➡️1000 Follow Facebook 3.600VND\n➡️1000 Like Bài Viết Facebook 3.500VND\n➡️1000 Tim Video TikTok 600Đ\n➡️1000 Điểm PK TikTok 6.000VND\n⏰ Và Nhiều Dịch Vụ Khác⭕️\n\n🔗Truy Cập Ngay: https://viplike1s.top/",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056082384874400": {
+    "timestamp": "1760137308153",
+    "timestampString": "06:01:49",
+    "msgId": "7103873838421",
+    "cliMsgId": "1056082384874400",
+    "msgType": "chat.recommended",
+    "uidFrom": "2781878962941353120",
+    "idTo": "3453989112147091924",
+    "dName": "Thảo Nguyễn",
+    "content": {
+      "title": "Minhh Tamm",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/746717233\\/47f29fbf08e3e1bdb8f2.jpg\",\"gUid\":\"LBHNAOVK9EOSTTLGL4MKABL64KN8AUO0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/0/d/d/2/120/efba751692e51b63b8d3d8fddef5c503.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8655748669320136228",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
