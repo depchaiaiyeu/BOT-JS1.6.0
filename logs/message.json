@@ -27150,5 +27150,28 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760140136491": {
+    "timestamp": "1760140136583",
+    "timestampString": "06:48:58",
+    "msgId": "7103917281987",
+    "cliMsgId": "1760140136491",
+    "msgType": "chat.recommended",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": {
+      "title": "https://zalo.me/g/kpcdzb779",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/kpcdzb779",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2e8943c3d651760139793aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNzFiYWVhZGNhZGJhNDdlNDFlYWI=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"App kiếm tiền lẻ uy tín 💝💝💝\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/kpcdzb779\",\"owner\":{\"id\":423967489,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"http:\\/\\/s120.ava.grp.talk.zdn.vn\\/default\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
