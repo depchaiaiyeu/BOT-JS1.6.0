@@ -1,12 +1,12 @@
 {
   "1759975893906": {
-    "timestamp": "1760077585653",
-    "timestampString": "13:26:26",
-    "msgId": "7101557070874",
+    "timestamp": "1760137097475",
+    "timestampString": "05:58:19",
+    "msgId": "7103871493379",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
-    "idTo": "7897564732983285154",
+    "idTo": "9104968216656954464",
     "dName": "Ha Trung Son",
     "content": {
       "title": "",
@@ -18,7 +18,7 @@
       "params": "{\"sendSource\":1,\"fileSize\":25006,\"width\":236,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/3095009715816529506\\/7800d34ed0045d5a0415.jpg\",\"height\":350}",
       "type": ""
     },
-    "threadId": "7897564732983285154",
+    "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
   },
@@ -18179,6 +18179,80 @@
       "childnumber": 0,
       "action": "rtf",
       "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137089827": {
+    "timestamp": "1760137089866",
+    "timestampString": "05:58:19",
+    "msgId": "7103871416357",
+    "cliMsgId": "1760137089827",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137099656": {
+    "timestamp": "1760137099792",
+    "timestampString": "05:58:20",
+    "msgId": "7103871516691",
+    "cliMsgId": "1760137099656",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nNếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n.help - Xem các lệnh cơ bản\n.game - Xem các lệnh game\n.command - Xem toàn bộ danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137076408": {
+    "timestamp": "1760137076444",
+    "timestampString": "05:58:21",
+    "msgId": "7103871281110",
+    "cliMsgId": "1760137076408",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".scl tình yêu anh như nắng đợi",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137100905": {
+    "timestamp": "1760137101045",
+    "timestampString": "05:58:21",
+    "msgId": "7103871529404",
+    "cliMsgId": "1760137100905",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/8121221976589489506/8613f161b3013e5f6710.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/8121221976589489506/8613f161b3013e5f6710.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1541,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/8121221976589489506\\/8613f161b3013e5f6710.jpg\",\"hdSize\":308378,\"height\":790}",
       "type": ""
     },
     "threadId": "4699745045071009795",
