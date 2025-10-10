@@ -20304,5 +20304,94 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760138312748": {
+    "timestamp": "1760138312884",
+    "timestampString": "06:18:33",
+    "msgId": "7103886742703",
+    "cliMsgId": "1760138312748",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "⚠️ Cảnh cáo @Tú Duy!\nỞ đây Đại Ca tao cấm gửi link",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138312492": {
+    "timestamp": "1760138312629",
+    "timestampString": "06:18:33",
+    "msgId": "7103886738702",
+    "cliMsgId": "1760138312492",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7430511557236890000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1760138311764,
+        "globalDelMsgId": 7103886729040,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138311764": {
+    "timestamp": "1760138312119",
+    "timestampString": "06:18:34",
+    "msgId": "7103886729040",
+    "cliMsgId": "1760138311764",
+    "msgType": "chat.recommended",
+    "uidFrom": "7430511557236889637",
+    "idTo": "5464956150740844012",
+    "dName": "Tú Duy",
+    "content": {
+      "title": "📣 BOT ĐỔI BUILD X WORLD MỚI 🔥\n🔗🔗🔗🔗  https://t.me/XworldVip2025_bot?start=7873244513\n\n➡️ Mời 1 bạn= 250 Build 💵\n➡️ Min rút 2k build = 8 Bạn ✔️\n\n🆗 Bot rút duyệt siêu nhanh, bot của mình vốn to chạy lâu dài . Ae Share bạn bạn rút mạnh nhé 🚨",
+      "description": "You can contact @XworldVip2025_bot right away.",
+      "href": "https://t.me/XworldVip2025_bot?start=7873244513",
+      "thumb": "https://f63-zpg-r.zdn.vn/4630477490774122020/d9a1df17a0772d297466.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"t.me\",\"mediaTitle\":\"Bot X World 2025\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/t.me\\/XworldVip2025_bot?start=7873244513\",\"tType\":1,\"tWidth\":320,\"tHeight\":320,\"icon\":\"\\/\\/telegram.org\\/img\\/website_icon.svg?4\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/semicache\\/thumb_link\\/708e3aeb6e0c1db7c6ed042a00ee04b3.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760138313000": {
+    "timestamp": "1760138314110",
+    "timestampString": "06:18:35",
+    "msgId": "7103886760193",
+    "cliMsgId": "1760138313000",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "7430511557236889637",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Admin đã chặn gửi link trong nhóm, link của Tú Duy bị xóa!",
+    "threadId": "7430511557236889637",
+    "type": 0,
+    "isUndo": false
+  },
+  "1760138325361": {
+    "timestamp": "1760138325440",
+    "timestampString": "06:18:46",
+    "msgId": "7103886916762",
+    "cliMsgId": "1760138325361",
+    "msgType": "webchat",
+    "uidFrom": "7430511557236889637",
+    "idTo": "5464956150740844012",
+    "dName": "Tú Duy",
+    "content": "@V Ũ X U Â N K I Ê N nôn",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
