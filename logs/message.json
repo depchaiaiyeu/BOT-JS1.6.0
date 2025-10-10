@@ -19120,5 +19120,163 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760137440097": {
+    "timestamp": "1760137440147",
+    "timestampString": "06:04:00",
+    "msgId": "7103875417391",
+    "cliMsgId": "1760137440097",
+    "msgType": "webchat",
+    "uidFrom": "5518548593240783022",
+    "idTo": "5464956150740844012",
+    "dName": "Hoàng Thanh Tùng",
+    "content": "@Vũ Xuân Kiên m làm đc cái call group chưa",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137440134": {
+    "timestamp": "1760137451400",
+    "timestampString": "06:04:12",
+    "msgId": "7103875553238",
+    "cliMsgId": "1760137440134",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 227886665729461020,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1760137440134,
+        "globalDelMsgId": 7103875429372,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137451233": {
+    "timestamp": "1760137451276",
+    "timestampString": "06:04:12",
+    "msgId": "7103875552250",
+    "cliMsgId": "1760137451233",
+    "msgType": "webchat",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": "4",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137452552": {
+    "timestamp": "1760137453382",
+    "timestampString": "06:04:13",
+    "msgId": "7103875576861",
+    "cliMsgId": "1760137452552",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Tài Tấn\n> From Spotify <\nNhạc Bạn Chọn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":8,\"len\":37,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137452739": {
+    "timestamp": "1760137453611",
+    "timestampString": "06:04:13",
+    "msgId": "7103875580982",
+    "cliMsgId": "1760137452739",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/1155524484270347473/555ae9f0af9022ce7b81.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/1155524484270347473/555ae9f0af9022ce7b81.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":678,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/1155524484270347473\\/555ae9f0af9022ce7b81.jpg\",\"hdSize\":184050,\"height\":212}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137452812": {
+    "timestamp": "1760137453642",
+    "timestampString": "06:04:14",
+    "msgId": "7103875581201",
+    "cliMsgId": "1760137452812",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/93b9e9b04722e67cbf33/2091955401679489778?createby=NDQ_Bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/93b9e9b04722e67cbf33/2091955401679489778?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":512,\"thumb_height\":512,\"width\":512,\"contentId\":\"1760137452812\",\"pStickerType\":1,\"webp\":{\"width\":512,\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/93b9e9b04722e67cbf33\\/2091955401679489778?createby=NDQ_Bot.webp\",\"height\":512},\"hd\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/93b9e9b04722e67cbf33\\/2091955401679489778?createby=NDQ_Bot.webp\",\"height\":512}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137452843": {
+    "timestamp": "1760137453782",
+    "timestampString": "06:04:14",
+    "msgId": "7103875582708",
+    "cliMsgId": "1760137452843",
+    "msgType": "chat.voice",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/1cc319d2b740161e4f51/2283675160476267331?createby=NDQ_Bot/1760021979465.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":4172304,\"m4a\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/1cc319d2b740161e4f51\\/2283675160476267331?createby=NDQ_Bot\\/1760021979465.aac\"}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137456687": {
+    "timestamp": "1760137456749",
+    "timestampString": "06:04:17",
+    "msgId": "7103875617031",
+    "cliMsgId": "1760137456687",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "có làm đâu",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
