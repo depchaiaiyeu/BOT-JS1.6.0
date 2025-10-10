@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760021795247": {
-    "timestamp": "1760021795297",
-    "timestampString": "21:56:36",
-    "msgId": "7099658786918",
-    "cliMsgId": "1760021795247",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "!dhbc",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760021794746": {
-    "timestamp": "1760021795572",
-    "timestampString": "21:56:36",
-    "msgId": "7099658763715",
-    "cliMsgId": "1760021794746",
-    "msgType": "webchat",
-    "uidFrom": "227886665729461010",
-    "idTo": "4825567233436439756",
-    "dName": "Take Care For Groups",
-    "content": {
-      "title": "Thanh Hue\nDQT Bot Team\n🎮 Chào Mừng Đến Với Trò Chơi > Đuổi Hình Bắt Chữ <!\n🔗 !dhbc join: tham gia game.\n🚪 !dhbc leave: rời khỏi cuộc chơi.\n💡 Có thể dùng điểm để lấy gợi ý bằng cách chat goiy\n📝 Khi đã tham gia, ghi chữ check để xem lại hình ảnh\n🏆 !dhbc rank: xem bảng xếp hạng trò chơi",
-      "description": "",
-      "href": "",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "rtf",
-      "params": "{\"styles\":[{\"start\":10,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
-      "type": ""
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760021807606": {
-    "timestamp": "1760021808505",
-    "timestampString": "21:56:49",
-    "msgId": "7099659471184",
-    "cliMsgId": "1760021807606",
-    "msgType": "chat.photo",
-    "uidFrom": "227886665729461010",
-    "idTo": "4825567233436439756",
-    "dName": "Take Care For Groups",
-    "content": {
-      "title": "🎮 Câu hỏi mới!\nHãy đoán từ dựa trên hình ảnh bên trên\n\n📝 Đáp án (2 từ): 🔲🔲🔲🔲  🔲🔲\n🔤 Gợi ý chữ cái: Ⓑ Ⓕ Ⓓ Ⓙ Ⓚ Ⓞ Ⓖ Ⓜ Ⓐ Ⓝ Ⓔ Ⓣ Ⓘ Ⓟ Ⓛ Ⓗ Ⓔ Ⓒ",
-      "description": "",
-      "href": "https://n.uguu.se/wGAFPUfp.jpg",
-      "thumb": "https://n.uguu.se/wGAFPUfp.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":468,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/n.uguu.se\\/wGAFPUfp.jpg\",\"hdSize\":96673,\"height\":320}",
-      "type": ""
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760021820134": {
     "timestamp": "1760021820214",
     "timestampString": "21:57:01",
