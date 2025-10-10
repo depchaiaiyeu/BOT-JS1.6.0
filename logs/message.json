@@ -22945,5 +22945,33 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760139509669": {
+    "timestamp": "1760139509763",
+    "timestampString": "06:38:30",
+    "msgId": "7103905692914",
+    "cliMsgId": "1760139509669",
+    "msgType": "webchat",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": "Ngày kiếm 20k",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139513278": {
+    "timestamp": "1760139513371",
+    "timestampString": "06:38:33",
+    "msgId": "7103905756626",
+    "cliMsgId": "1760139513278",
+    "msgType": "webchat",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": "Ai làm ib",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
