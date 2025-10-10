@@ -18,7 +18,7 @@ import { getCachedMedia, setCacheData } from "../../../utils/link-platform-cache
 import { deleteFile } from "../../../utils/util.js";
 import { createSearchResultImage } from "../../../utils/canvas/search-canvas.js";
 import { getBotId, isAdmin } from "../../../index.js";
-import { sendReactionWaitingCountdown } from '../../../manager-command/check-countdown.js';
+import { sendReactionWaitingCountdown } from '../../../commands/manager-command/check-countdown.js';
 
 let clientId;
 
