@@ -4190,8 +4190,8 @@
         {
           "UserName": "T Rex",
           "UID": "4769828224334762506",
-          "Rank": 25,
-          "messageCountToday": 9,
+          "Rank": 26,
+          "messageCountToday": 10,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -4642,7 +4642,7 @@
           "UserName": "Bảo Ngọc",
           "UID": "4645706868334156099",
           "Rank": 42,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4677,14 +4677,14 @@
           "UserName": "Triều Đông",
           "UID": "7654139448969933571",
           "Rank": 12,
-          "messageCountToday": 5,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Mai Lê",
           "UID": "8659697562202878998",
           "Rank": 18,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
         },
         {
@@ -4712,22 +4712,29 @@
           "UserName": "Tzyッ",
           "UID": "5806490357849400751",
           "Rank": 2,
-          "messageCountToday": 2,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "Nguyenx Linh",
           "UID": "590846684218350088",
           "Rank": 1,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
         },
         {
           "UserName": "玉米",
           "UID": "1804122200160629042",
           "Rank": 2,
-          "messageCountToday": 2,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "ㅣ Cel Star ツ K ㅅ Aㅣ",
+          "UID": "9163395675201090577",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
         }
       ],
       "nameGroup": "Cộng đồng vietsub ♤♡◇♧¤"
@@ -4967,6 +4974,13 @@
           "UserName": "Tên",
           "UID": "8988024984416036480",
           "Rank": 2,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "ㅣ Cel Star ツ K ㅅ Aㅣ",
+          "UID": "9163395675201090577",
+          "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
         }
