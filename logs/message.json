@@ -26768,5 +26768,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760139883965": {
+    "timestamp": "1760139884221",
+    "timestampString": "06:44:45",
+    "msgId": "7103912462033",
+    "cliMsgId": "1760139883965",
+    "msgType": "webchat",
+    "uidFrom": "1817492018187813122",
+    "idTo": "3453989112147091924",
+    "dName": "Trung Anh",
+    "content": "Thuê visa mb tech 100-150/1 bộ",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
