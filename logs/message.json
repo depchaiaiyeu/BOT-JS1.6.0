@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022769874": {
-    "timestamp": "1760022770022",
-    "timestampString": "22:12:51",
-    "msgId": "7099711742489",
-    "cliMsgId": "1760022769874",
-    "msgType": "chat.photo",
-    "uidFrom": "4349248820197918304",
-    "idTo": "4699745045071009795",
-    "dName": "Huỳnh Đức",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://fg43.dlfl.vn/02a2e88f071da643ff0c/2069111783503378844?createby=ere.webp",
-      "thumb": "https://fg43.dlfl.vn/02a2e88f071da643ff0c/2069111783503378844?createby=ere.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":720,\"height\":837,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":2,\\\"keyword\\\":\\\"\\\"}\",\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/02a2e88f071da643ff0c\\/2069111783503378844?createby=ere.webp\",\"width\":720,\"height\":837,\"thumb\":\"\"},\"contentId\":\"1760001396297\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022787070": {
     "timestamp": "1760022787233",
     "timestampString": "22:13:08",
