@@ -18096,5 +18096,56 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760137032858": {
+    "timestamp": "1760137033021",
+    "timestampString": "05:57:14",
+    "msgId": "7103870846731",
+    "cliMsgId": "1760137032858",
+    "msgType": "webchat",
+    "uidFrom": "4367122490781681312",
+    "idTo": "9104968216656954464",
+    "dName": "Bé Heo",
+    "content": "✦━━━━━━━━━━━━━━✦\n💕Khai Trương Web 💕\n--- Subgiare1s.online -----\n👉 Tặng ngay 10% giá trị nạp cho tất cả tài khoản trong tuần khai trương!\n✦━━━━━━━━━━━━━━✦\n• ❤️10k tim tiktok chỉ : 2k\n• 🧡1000 follow tiktok chỉ : 5k\n• 💛100000 view video chỉ : 700đ\n• 💚10000 yêu thích tiktok chỉ : 500đ\n• 💙1000 follow fb chỉ 2k\n• 💜1000 view video fb chỉ 2k\n 💝 Nhóm tặng card : https://zalo.me/g/dbibre816 💝",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137042368": {
+    "timestamp": "1760137042528",
+    "timestampString": "05:57:23",
+    "msgId": "7103870942187",
+    "cliMsgId": "1760137042368",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "1747464985521437051",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760137043388": {
+    "timestamp": "1760137043523",
+    "timestampString": "05:57:23",
+    "msgId": "7103870952056",
+    "cliMsgId": "1760137043388",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "1747464985521437051",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nNếu Bạn Thắc Mắc Tôi Có Những Lệnh Gì, Hãy...\n.help - Xem các lệnh cơ bản\n.game - Xem các lệnh game\n.command - Xem toàn bộ danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
