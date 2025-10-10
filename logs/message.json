@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760023944144": {
-    "timestamp": "1760023944307",
-    "timestampString": "22:32:25",
-    "msgId": "7099768694089",
-    "cliMsgId": "1760023944144",
-    "msgType": "webchat",
-    "uidFrom": "1238363753987858196",
-    "idTo": "7897564732983285154",
-    "dName": "Bich Ngoc",
-    "content": "Cc",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760023947216": {
-    "timestamp": "1760023947255",
-    "timestampString": "22:32:27",
-    "msgId": "7099768827875",
-    "cliMsgId": "1760023947216",
-    "msgType": "chat.photo",
-    "uidFrom": "870210148577148456",
-    "idTo": "7897564732983285154",
-    "dName": "Nguyễn Duy Khánh",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f34-zfcloud.zdn.vn/62df62919370322e6b61/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp",
-      "thumb": "https://f34-zfcloud.zdn.vn/62df62919370322e6b61/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"contentId\":\"1758444739614\",\"height\":64,\"thumb_height\":64,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":64,\"width\":64,\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/62df62919370322e6b61\\/1329471676081536535?createby=NguyễnPhiHoàng_Bot.webp\"}}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760024076910": {
     "timestamp": "1760024077121",
     "timestampString": "22:34:38",
