@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760023752344": {
-    "timestamp": "1760023752472",
-    "timestampString": "22:29:13",
-    "msgId": "7099759980281",
-    "cliMsgId": "1760023752344",
-    "msgType": "webchat",
-    "uidFrom": "2984537146898391888",
-    "idTo": "5166581134204343688",
-    "dName": "Hồ Xuân Phú",
-    "content": "xin tool reg fb",
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
   "1760023814593": {
     "timestamp": "1760023814622",
     "timestampString": "22:30:15",
