@@ -22,48 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760019432370": {
-    "timestamp": "1760019432412",
-    "timestampString": "21:17:13",
-    "msgId": "7099521571985",
-    "cliMsgId": "1760019432370",
-    "msgType": "webchat",
-    "uidFrom": "1080751283556847812",
-    "idTo": "7897564732983285154",
-    "dName": "Nguyễn Hồng Anh Đức",
-    "content": "Mặt búng ra Toán Lý Hoá",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760019460986": {
-    "timestamp": "1760019461648",
-    "timestampString": "21:17:42",
-    "msgId": "7099523324434",
-    "cliMsgId": "1760019460986",
-    "msgType": "webchat",
-    "uidFrom": "556077260507140492",
-    "idTo": "7734313716342939502",
-    "dName": "Mink Khiêm",
-    "content": "X35 nấm 3/1 ai mua ib:>",
-    "threadId": "7734313716342939502",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760019471148": {
-    "timestamp": "1760019471203",
-    "timestampString": "21:17:52",
-    "msgId": "7099523893825",
-    "cliMsgId": "1760019471148",
-    "msgType": "webchat",
-    "uidFrom": "6658938181466805330",
-    "idTo": "7897564732983285154",
-    "dName": "Vtàiᅠᅠdv",
-    "content": "Toán lý hoá",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
   "1760019494298": {
     "timestamp": "1760019494357",
     "timestampString": "21:18:15",
