@@ -22,66 +22,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760019119701": {
-    "timestamp": "1760019120387",
-    "timestampString": "21:12:01",
-    "msgId": "7099502757987",
-    "cliMsgId": "1760019119701",
-    "msgType": "chat.voice",
-    "uidFrom": "8060317385247643104",
-    "idTo": "2760006576081013366",
-    "dName": "Sỹ Nguyên",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://voice-aac-dl.zdn.vn/4560394480708201560/34bbe54c92cf7c9125de.aac",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/4560394480708201560\\/34bbe54c92cf7c9125de.aac\",\"duration\":2944,\"fileSize\":23874,\"waveformSamples\":[92,371,7824,19702,28351,26024,25385,26750,24704,23542,23052,24062,22002,21880,16602,11080,9817,19025,23820,23574,18120,10818,2832]}",
-      "type": ""
-    },
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760019170838": {
-    "timestamp": "1760019171006",
-    "timestampString": "21:12:52",
-    "msgId": "7099505825278",
-    "cliMsgId": "1760019170838",
-    "msgType": "chat.photo",
-    "uidFrom": "2011995125119063767",
-    "idTo": "4699745045071009795",
-    "dName": "Nb",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://fg41.dlfl.vn/94faac1aead54b8b12c4/6312117124165330560/d8767606-c560-4774-9598-81bbafa3a122_a_sin.webp",
-      "thumb": "https://fg41.dlfl.vn/94faac1aead54b8b12c4/6312117124165330560/d8767606-c560-4774-9598-81bbafa3a122_a_sin.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":200,\"height\":180,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1752380542580\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg41.dlfl.vn\\/94faac1aead54b8b12c4\\/6312117124165330560\\/d8767606-c560-4774-9598-81bbafa3a122_a_sin.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1752380542580\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760019178953": {
-    "timestamp": "1760019178992",
-    "timestampString": "21:12:59",
-    "msgId": "7099506308168",
-    "cliMsgId": "1760019178953",
-    "msgType": "webchat",
-    "uidFrom": "9196605977515605659",
-    "idTo": "2760006576081013366",
-    "dName": "Thiên Ngọc",
-    "content": "@Sỹ Nguyên cái style của e thì ló sẽ kiểu như lày",
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
   "1760019182019": {
     "timestamp": "1760019182235",
     "timestampString": "21:13:02",
