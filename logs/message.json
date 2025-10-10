@@ -21521,5 +21521,28 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760138843625": {
+    "timestamp": "1760138844468",
+    "timestampString": "06:27:25",
+    "msgId": "7103894634560",
+    "cliMsgId": "1760138843625",
+    "msgType": "chat.recommended",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": {
+      "title": "🔗 Link mời của bạn:: \nhttps://t.me/TeamCayTien_bot?start=7951214882\n\n❗️👥 Phần thưởng: 1000 VNĐ mỗi người\nBạn bè tham gia nhóm và xác minh thành công mới được tính vào tiền giới thiệu!!!!",
+      "description": "Tham Gia @cacvithan để được duyệt rút",
+      "href": "https://t.me/TeamCayTien_bot?start=7951214882",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"t.me\",\"mediaTitle\":\"Team Cày Tiền 🔥\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/t.me\\/TeamCayTien_bot?start=7951214882\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"\\/\\/telegram.org\\/img\\/website_icon.svg?4\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
