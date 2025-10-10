@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022281034": {
-    "timestamp": "1760022281243",
-    "timestampString": "22:04:42",
-    "msgId": "7099685474285",
-    "cliMsgId": "1760022281034",
-    "msgType": "webchat",
-    "uidFrom": "7144802708633232668",
-    "idTo": "4825567233436439756",
-    "dName": "Thanh Hue",
-    "content": "Công kích",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022340364": {
     "timestamp": "1760022340621",
     "timestampString": "22:05:41",
