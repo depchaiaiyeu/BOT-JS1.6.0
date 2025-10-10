@@ -45,34 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760025223140": {
-    "timestamp": "1760025223204",
-    "timestampString": "22:53:44",
-    "msgId": "7099820669884",
-    "cliMsgId": "1760025223140",
-    "msgType": "webchat",
-    "uidFrom": "174405475544467536",
-    "idTo": "4699745045071009795",
-    "dName": "Ô Nô",
-    "content": "Ae",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760025224217": {
-    "timestamp": "1760025224276",
-    "timestampString": "22:53:45",
-    "msgId": "7099820711228",
-    "cliMsgId": "1760025224217",
-    "msgType": "webchat",
-    "uidFrom": "174405475544467536",
-    "idTo": "4699745045071009795",
-    "dName": "Ô Nô",
-    "content": "Lên",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760025247010": {
     "timestamp": "1760025247986",
     "timestampString": "22:54:08",
