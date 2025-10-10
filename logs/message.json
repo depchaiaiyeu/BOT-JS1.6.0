@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760022699791": {
-    "timestamp": "1760022699796",
-    "timestampString": "22:11:40",
-    "msgId": "7099708054881",
-    "cliMsgId": "1760022699791",
-    "msgType": "chat.recommended",
-    "uidFrom": "6902260644256511986",
-    "idTo": "5464956150740844012",
-    "dName": "Đệ An Lov Quỳnh",
-    "content": {
-      "title": "Hoàng Sơn",
-      "description": "{\"phone\":\"Mua kênh tiktok ib Sơn\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/5\\/5\\/9\\/5\\/2\\/120\\/840e707b302157405b0c775de2103855.jpg\",\"gUid\":\"T4S5AES9EQFB72TMQHM499F0QULBQFG0\"}",
-      "href": "www.zaloapp.com",
-      "thumb": "https://s120.avatar.talk.zdn.vn/5/5/9/5/2/120/840e707b302157405b0c775de2103855.jpg",
-      "childnumber": 0,
-      "action": "recommened.user",
-      "params": "4116894665881254425",
-      "type": ""
-    },
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
-  "105601361982180": {
-    "timestamp": "1760022699704",
-    "timestampString": "22:11:40",
-    "msgId": "7099708047465",
-    "cliMsgId": "105601361982180",
-    "msgType": "webchat",
-    "uidFrom": "6902260644256511986",
-    "idTo": "5464956150740844012",
-    "dName": "Đệ An Lov Quỳnh",
-    "content": "Bên mình sẵn nhiều kênh TikTok 1 - 500k Follow đủ chức năng bảo hành ✅\nNhận Oder Kênh theo tệp tuổi, giới tính, lượng Follow ✅\nMọi người vào nhóm xem kênh nha: https://zalo.me/g/gkjcic891\nCall: 0986.226.914 ( hỗ trợ nhanh ) ☎️\nGiao dịch trực tiếp hoặc qua trung gian AD có cọc bảo hiểm ✅",
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760022713110": {
-    "timestamp": "1760022715695",
-    "timestampString": "22:11:56",
-    "msgId": "7099708891882",
-    "cliMsgId": "1760022713110",
-    "msgType": "chat.recommended",
-    "uidFrom": "1095648567490206223",
-    "idTo": "1367422010794969537",
-    "dName": "Hoa Ank Đào",
-    "content": {
-      "title": "xp chep ql nhau  mn vo tra dum",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/rxgrdv103",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2619c67af971760013464aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNmI0OGIxNGQ2NjEyOGM0Y2Q1MDM=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"🎀 Tình💏 Yêu💏 onlai\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/rxgrdv103\",\"owner\":{\"id\":220437896,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/4\\/6\\/e\\/a\\/41\\/120\\/31d8a4476ff4ccd2b43f98536f45d505.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
-      "type": ""
-    },
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "1760022769874": {
     "timestamp": "1760022770022",
     "timestampString": "22:12:51",
