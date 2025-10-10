@@ -45,48 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760031664909": {
-    "timestamp": "1760031665007",
-    "timestampString": "00:41:06",
-    "msgId": "7099959617418",
-    "cliMsgId": "1760031664909",
-    "msgType": "webchat",
-    "uidFrom": "958866044338512501",
-    "idTo": "4699745045071009795",
-    "dName": "Duy Đức",
-    "content": "lô ạ",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760031670707": {
-    "timestamp": "1760031670795",
-    "timestampString": "00:41:11",
-    "msgId": "7099959673004",
-    "cliMsgId": "1760031670707",
-    "msgType": "webchat",
-    "uidFrom": "958866044338512501",
-    "idTo": "4699745045071009795",
-    "dName": "Duy Đức",
-    "content": "mình là đức 205",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760031677514": {
-    "timestamp": "1760031677569",
-    "timestampString": "00:41:18",
-    "msgId": "7099959738971",
-    "cliMsgId": "1760031677514",
-    "msgType": "webchat",
-    "uidFrom": "958866044338512501",
-    "idTo": "4699745045071009795",
-    "dName": "Duy Đức",
-    "content": "có phải sô gì k",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "105601904039880": {
     "timestamp": "1760031734016",
     "timestampString": "00:42:15",
