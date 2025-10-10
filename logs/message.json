@@ -27173,5 +27173,51 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760140157271": {
+    "timestamp": "1760140157329",
+    "timestampString": "06:49:20",
+    "msgId": "7103917685845",
+    "cliMsgId": "1760140157271",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "@Vũ Xuân Kiên của m js chắc lệnh khác=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140160605": {
+    "timestamp": "1760140160724",
+    "timestampString": "06:49:21",
+    "msgId": "7103917754045",
+    "cliMsgId": "1760140160605",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Hí hí xạo đó",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140165891": {
+    "timestamp": "1760140165957",
+    "timestampString": "06:49:26",
+    "msgId": "7103917855852",
+    "cliMsgId": "1760140165891",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 42833,
+      "catId": 11752,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
