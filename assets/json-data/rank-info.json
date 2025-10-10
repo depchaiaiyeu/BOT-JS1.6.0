@@ -1745,8 +1745,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 503,
-          "messageCountToday": 114,
+          "Rank": 505,
+          "messageCountToday": 116,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -2055,6 +2055,13 @@
           "UID": "2639595206037759130",
           "Rank": 3,
           "messageCountToday": 3,
+          "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Heo Labubu ム",
+          "UID": "4417081372275118199",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-10"
         }
       ],

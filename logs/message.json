@@ -23429,5 +23429,75 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "105608383588560": {
+    "timestamp": "1760139726727",
+    "timestampString": "06:42:07",
+    "msgId": "7103909568923",
+    "cliMsgId": "105608383588560",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@Phú Quý Villas Shophouse",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/325243071439626346/321c0dd163b1eeefb7a0.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/325243071439626346/321c0dd163b1eeefb7a0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/325243071439626346\\/321c0dd163b1eeefb7a0.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139727122": {
+    "timestamp": "1760139727157",
+    "timestampString": "06:42:07",
+    "msgId": "7103909576664",
+    "cliMsgId": "1760139727122",
+    "msgType": "chat.photo",
+    "uidFrom": "4417081372275118199",
+    "idTo": "6512342651301747547",
+    "dName": "Heo Labubu ム",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/2569842740020815915/d3a9d290bdf030ae69e1.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/2569842740020815915/d3a9d290bdf030ae69e1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/2569842740020815915\\/d3a9d290bdf030ae69e1.jpg\",\"hdSize\":272706,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760139727328": {
+    "timestamp": "1760139727329",
+    "timestampString": "06:42:08",
+    "msgId": "7103909580261",
+    "cliMsgId": "1760139727328",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4417081372275118000,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1760139727122,
+        "globalDelMsgId": 7103909576664,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
