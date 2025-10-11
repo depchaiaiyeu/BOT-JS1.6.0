@@ -24599,5 +24599,102 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180660991": {
+    "timestamp": "1760180661019",
+    "timestampString": "18:04:21",
+    "msgId": "7105957045814",
+    "cliMsgId": "1760180660991",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Upload progress: 1/1 chunks (100.00%)Upload speed: 0.36 chunk(s)/s (1 chunks in 2.80s)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180662925": {
+    "timestamp": "1760180662954",
+    "timestampString": "18:04:23",
+    "msgId": "7105957150335",
+    "cliMsgId": "1760180662925",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/a93a69ab837a22247b6b/6183341524689765781?createby=PVT_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/a93a69ab837a22247b6b/6183341524689765781?createby=PVT_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":96,\"height\":96,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754726169028\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/a93a69ab837a22247b6b\\/6183341524689765781?createby=PVT_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1754726169028\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610839797940": {
+    "timestamp": "1760180663289",
+    "timestampString": "18:04:23",
+    "msgId": "7105957124859",
+    "cliMsgId": "105610839797940",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "/-li Cho Thuê Bot Zalo - Quản Lý Nhóm\n/-li Bảo Vệ Nhóm, Chống Spm\n/-li Bán Bot Zalo \n/-li Anti Kick Chống Bọn Lồn Kickall\n/-li Bot War / Spam / Lag\n/-li Bot Auto Reply \n/-li Nhiều Lệnh Vui - Mở Rộng Tính Năng Theo Yc\n/-li Cài Đặt Dễ - Uy Tín - Bảo Mật - Nhanh Gọn ‼️\n\n📱 Cho Thuê Sim Ảo Tạo Tài Khoản Zalo.\n➜  Mã Ảo Tạo Tài Khoản Zô La 🤪\n\n                    FACEBOOK 📌\n🔹Nhận Dame Acc Face Theo Uid / Link ⚡\n▫️Mở Khoá Tài Khoản - UnLock✅\n▪️Up Nhạc Lên Trang Cá Nhân ✅\n🔸Up Tick Xanh Chính Chủ ✅\n🔹Seding Page 📉\n\nBuff Like FF \nLưu Ý : Mỗi Một Ngày 100like ( 100like /1day )\n\nNhóm Clip Sex Có Video Mỗi Ngày \n➜https://zalo.me/g/seqvsw398\n➜https://zalo.me/g/ivkkhs431\n\nVào Nghịch Nhóm Nè\n➜ https://zalo.me/g/rqgxjk534\n\n  📞    Chi Tiết Xin Vui Lòng Liên Hệ \n  Những Vấn Đề Khác Xin Đừng Kp Làm Phiền",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180663362": {
+    "timestamp": "1760180663355",
+    "timestampString": "18:04:24",
+    "msgId": "7105957124865",
+    "cliMsgId": "1760180663362",
+    "msgType": "chat.recommended",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "Kim Thanhh",
+      "description": "{\"phone\":\"thuê bot ib\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/7\\/8\\/6\\/5\\/45\\/120\\/2a92f7d4be271a50b3cce7b231776fd9.jpg\",\"gUid\":\"IJPEM65K5C6OTDM5T4735SJ54KKT3L80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/7/8/6/5/45/120/2a92f7d4be271a50b3cce7b231776fd9.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "6593064319472911684",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180661447": {
+    "timestamp": "1760180666557",
+    "timestampString": "18:04:28",
+    "msgId": "7105957341377",
+    "cliMsgId": "1760180661447",
+    "msgType": "chat.photo",
+    "uidFrom": "9030808754540072808",
+    "idTo": "5464956150740844012",
+    "dName": "Hphucc",
+    "content": {
+      "title": "20/1 ạ\nsell trong ngày",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/866639109854143698/78d325e00b8e86d0df9f.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/866639109854143698/78d325e00b8e86d0df9f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":207,\"hd\":\"https:\\/\\/f67-zpg-r.zdn.vn\\/jpg\\/866639109854143698\\/78d325e00b8e86d0df9f.jpg\",\"is_group_layout\":0,\"contentId\":\"1000030226\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
