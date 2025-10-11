@@ -45,30 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064038995": {
-    "timestamp": "1760064039337",
-    "timestampString": "09:40:40",
-    "msgId": "7100609530731",
-    "cliMsgId": "1760064038995",
-    "msgType": "chat.delete",
-    "uidFrom": "9210252485480501226",
-    "idTo": "7585160044864555896",
-    "dName": "Con Mèo",
-    "content": [
-      {
-        "type": 3,
-        "actionType": 1,
-        "uidFrom": 986745654356237700,
-        "uidTo": 7585160044864556000,
-        "clientDelMsgId": 1760063458605,
-        "globalDelMsgId": 7100565357554,
-        "destId": 7585160044864556000
-      }
-    ],
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760064075970": {
     "timestamp": "1760064076586",
     "timestampString": "09:41:17",
