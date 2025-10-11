@@ -10328,5 +10328,42 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "105610324588680": {
+    "timestamp": "1760172076480",
+    "timestampString": "15:41:17",
+    "msgId": "7105508881808",
+    "cliMsgId": "105610324588680",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "/-li Cho Thuê Bot Zalo - Quản Lý Nhóm\n/-li Bảo Vệ Nhóm, Chống Spm\n/-li Bán Bot Zalo \n/-li Anti Kick Chống Bọn Lồn Kickall\n/-li Bot War / Spam / Lag\n/-li Bot Auto Reply \n/-li Nhiều Lệnh Vui - Mở Rộng Tính Năng Theo Yc\n/-li Cài Đặt Dễ - Uy Tín - Bảo Mật - Nhanh Gọn ‼️\n\n📱 Cho Thuê Sim Ảo Tạo Tài Khoản Zalo.\n➜  Mã Ảo Tạo Tài Khoản Zô La 🤪\n\n                    FACEBOOK 📌\n🔹Nhận Dame Acc Face Theo Uid / Link ⚡\n▫️Mở Khoá Tài Khoản - UnLock✅\n▪️Up Nhạc Lên Trang Cá Nhân ✅\n🔸Up Tick Xanh Chính Chủ ✅\n🔹Seding Page 📉\n\nBuff Like FF \nLưu Ý : Mỗi Một Ngày 100like ( 100like /1day )\n\nNhóm Clip Sex Có Video Mỗi Ngày \n➜https://zalo.me/g/seqvsw398\n➜https://zalo.me/g/ivkkhs431\n\nVào Nghịch Nhóm Nè\n➜ https://zalo.me/g/rqgxjk534\n\n  📞    Chi Tiết Xin Vui Lòng Liên Hệ \n  Những Vấn Đề Khác Xin Đừng Kp Làm Phiền",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172076535": {
+    "timestamp": "1760172076552",
+    "timestampString": "15:41:17",
+    "msgId": "7105508881822",
+    "cliMsgId": "1760172076535",
+    "msgType": "chat.recommended",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "Kim Thanhh",
+      "description": "{\"phone\":\"thuê bot ib\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/7\\/8\\/6\\/5\\/45\\/120\\/2a92f7d4be271a50b3cce7b231776fd9.jpg\",\"gUid\":\"IJPEM65K5C6OTDM5T4735SJ54KKT3L80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/7/8/6/5/45/120/2a92f7d4be271a50b3cce7b231776fd9.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "6593064319472911684",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
