@@ -18104,5 +18104,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178290736": {
+    "timestamp": "1760178290894",
+    "timestampString": "17:24:51",
+    "msgId": "7105833726166",
+    "cliMsgId": "1760178290736",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": "bệnh tùm lum hết r",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
