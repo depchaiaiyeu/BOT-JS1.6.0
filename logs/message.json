@@ -7582,5 +7582,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "633660857624520000": {
+    "timestamp": "1760169049190",
+    "timestampString": "14:50:50",
+    "msgId": "7105346397148",
+    "cliMsgId": "633660857624520000",
+    "msgType": "chat.photo",
+    "uidFrom": "1097350646085407745",
+    "idTo": "1367422010794969537",
+    "dName": "Hà Y",
+    "content": {
+      "title": "/-li CHO THUÊ BOT QUẢN LÝ NHÓM ZALO /-li\n\n🌟 Tính năng nổi bật\n✅ Sử dụng tài khoản Zalo bạn cung cấp để thiết lập bot \n✅ Quản lý thành viên: auto chào mừng, lọc từ cấm, chống spam hiệu quả\n✅ Giải trí cực vui: nhiều mini game, auto trả lời, tăng tương tác nhóm\n✅ Tự động gửi thông báo, rải link tiện lợi\n\n\n🎯 Lợi ích khi sử dụng bot\n🚀 Tiết kiệm tối đa thời gian quản lý nhóm\n👥 Tăng tương tác, gắn kết & giữ chân thành viên\n🔒 Bảo vệ nhóm sạch sẽ, chuyên nghiệp, không lo spam\n\n\n💰 Chỉ từ 60k/tháng → có ngay trợ lý quản trị Zalo siêu hiệu quả!\n\n\n📩 Nhắn tin ngay để được tư vấn & kích hoạt trong vài phút!",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/3179281004774740710/06d95e17d37b5e25076a.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/3179281004774740710/06d95e17d37b5e25076a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f60-zpg-r.zdn.vn\\/3179281004774740710\\/06d95e17d37b5e25076a.jpg\",\"hdSize\":76487,\"height\":900}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
