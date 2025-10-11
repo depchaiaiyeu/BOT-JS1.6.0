@@ -20471,5 +20471,65 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760179532908": {
+    "timestamp": "1760179532928",
+    "timestampString": "17:45:33",
+    "msgId": "7105897181127",
+    "cliMsgId": "1760179532908",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "cre phúc(stdhex)",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179547053": {
+    "timestamp": "1760179547086",
+    "timestampString": "17:45:47",
+    "msgId": "7105897922388",
+    "cliMsgId": "1760179547053",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "7897564732983285154",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://b-f64-zpg-r.zdn.vn/3927888006154108143/de7a2e4acb8a79d4209b.jxl?jxlstatus=1",
+      "thumb": "https://b-f64-zpg-r.zdn.vn/3927888006154108143/de7a2e4acb8a79d4209b.jxl?jxlstatus=1",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1200,\"height\":675,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1746277199568\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/ymlzz8.webp\",\"width\":1200,\"height\":675,\"thumb\":\"\"},\"contentId\":\"1746277199568\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179548264": {
+    "timestamp": "1760179548285",
+    "timestampString": "17:45:48",
+    "msgId": "7105897984217",
+    "cliMsgId": "1760179548264",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "7897564732983285154",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/o0m3q5.webp",
+      "thumb": "https://files.catbox.moe/o0m3q5.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1760169493182\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/o0m3q5.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1760169493182\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
