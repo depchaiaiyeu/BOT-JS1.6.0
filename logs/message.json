@@ -20545,5 +20545,61 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760179627493": {
+    "timestamp": "1760179627555",
+    "timestampString": "17:47:08",
+    "msgId": "7105902127167",
+    "cliMsgId": "1760179627493",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Lính Đánh Thuê Campuchia",
+    "content": "@Trọng Man bt =))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179635608": {
+    "timestamp": "1760179635682",
+    "timestampString": "17:47:16",
+    "msgId": "7105902553594",
+    "cliMsgId": "1760179635608",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Lính Đánh Thuê Campuchia",
+    "content": "tao là bố m mà=))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179638587": {
+    "timestamp": "1760179638731",
+    "timestampString": "17:47:19",
+    "msgId": "7105902715771",
+    "cliMsgId": "1760179638587",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Lính Đánh Thuê Campuchia",
+    "content": "đk=))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179642929": {
+    "timestamp": "1760179642982",
+    "timestampString": "17:47:23",
+    "msgId": "7105902935816",
+    "cliMsgId": "1760179642929",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Lính Đánh Thuê Campuchia",
+    "content": "=))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
