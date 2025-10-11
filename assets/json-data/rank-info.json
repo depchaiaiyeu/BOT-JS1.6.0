@@ -2184,8 +2184,8 @@
         {
           "UserName": "Ha Trung Son",
           "UID": "2873500016463783643",
-          "Rank": 80,
-          "messageCountToday": 3,
+          "Rank": 81,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -7066,6 +7066,13 @@
           "UID": "6988599456249707975",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Tú",
+          "UID": "5454095973494758027",
+          "Rank": 3,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-11"
         }
       ],

@@ -2224,9 +2224,9 @@
     "isUndo": false
   },
   "1759975893906": {
-    "timestamp": "1760165859589",
-    "timestampString": "13:57:40",
-    "msgId": "7105198053942",
+    "timestamp": "1760168062371",
+    "timestampString": "14:34:23",
+    "msgId": "7105299217908",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
@@ -4719,6 +4719,70 @@
     "dName": "Sdang X Ds",
     "content": "@Karic stk mượt nhất zalo",
     "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168050331": {
+    "timestamp": "1760168050367",
+    "timestampString": "14:34:11",
+    "msgId": "7105298654424",
+    "cliMsgId": "1760168050331",
+    "msgType": "chat.sticker",
+    "uidFrom": "5454095973494758027",
+    "idTo": "3228108398535377399",
+    "dName": "Tú",
+    "content": {
+      "id": 30826,
+      "catId": 10961,
+      "type": 3
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168051530": {
+    "timestamp": "1760168051547",
+    "timestampString": "14:34:11",
+    "msgId": "7105298710923",
+    "cliMsgId": "1760168051530",
+    "msgType": "chat.photo",
+    "uidFrom": "5454095973494758027",
+    "idTo": "3228108398535377399",
+    "dName": "Tú",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://sticker-f3-zsocial.zadn.vn/1019381e772f9771ce3e.webp",
+      "thumb": "https://sticker-f3-zsocial.zadn.vn/1019381e772f9771ce3e.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":360,\"height\":360,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1954191838\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/sticker-f3-zsocial.zadn.vn\\/1019381e772f9771ce3e.webp\",\"width\":360,\"height\":360,\"thumb\":\"\"},\"contentId\":\"1954191838\",\"pStickerType\":1,\"pStickerRootCateId\":10371,\"pStickerId\":1954191838,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168055315": {
+    "timestamp": "1760168055436",
+    "timestampString": "14:34:15",
+    "msgId": "7105298896850",
+    "cliMsgId": "1760168055315",
+    "msgType": "chat.photo",
+    "uidFrom": "5454095973494758027",
+    "idTo": "3228108398535377399",
+    "dName": "Tú",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/0628fcc2c50664583d17/4028853463500978224?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/0628fcc2c50664583d17/4028853463500978224?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751599523630\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/0628fcc2c50664583d17\\/4028853463500978224?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":512,\"height\":512,\"thumb\":\"\"},\"contentId\":\"1751599523630\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
   }
