@@ -40195,5 +40195,47 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760187038495": {
+    "timestamp": "1760187038554",
+    "timestampString": "19:50:39",
+    "msgId": "7106296568149",
+    "cliMsgId": "1760187038495",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": "@Nhl chắc kh t nghe tin nhiều thk nói",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760187042686": {
+    "timestamp": "1760187042720",
+    "timestampString": "19:50:43",
+    "msgId": "7106296798751",
+    "cliMsgId": "1760187042686",
+    "msgType": "webchat",
+    "uidFrom": "940157411263340599",
+    "idTo": "9104968216656954464",
+    "dName": "Nhl",
+    "content": ":)",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760187061994": {
+    "timestamp": "1760187062032",
+    "timestampString": "19:51:03",
+    "msgId": "7106297870121",
+    "cliMsgId": "1760187061994",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "M phải tự ngộ ra cơ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
