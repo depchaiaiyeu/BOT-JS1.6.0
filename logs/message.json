@@ -29976,5 +29976,97 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760141703173": {
+    "timestamp": "1760141703211",
+    "timestampString": "07:15:04",
+    "msgId": "7103954477787",
+    "cliMsgId": "1760141703173",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Ba bot cứt",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141708082": {
+    "timestamp": "1760141708189",
+    "timestampString": "07:15:08",
+    "msgId": "7103954620861",
+    "cliMsgId": "1760141708082",
+    "msgType": "chat.sticker",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "id": 46970,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141711718": {
+    "timestamp": "1760141711779",
+    "timestampString": "07:15:12",
+    "msgId": "7103954726717",
+    "cliMsgId": "1760141711718",
+    "msgType": "chat.sticker",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": {
+      "id": 34834,
+      "catId": 11150,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141714659": {
+    "timestamp": "1760141714698",
+    "timestampString": "07:15:15",
+    "msgId": "7103954810370",
+    "cliMsgId": "1760141714659",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Màu mè mấy ccho cụt",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141725923": {
+    "timestamp": "1760141725984",
+    "timestampString": "07:15:26",
+    "msgId": "7103955131647",
+    "cliMsgId": "1760141725923",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "thì m đợi nó onl đi",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141729035": {
+    "timestamp": "1760141729091",
+    "timestampString": "07:15:29",
+    "msgId": "7103955221261",
+    "cliMsgId": "1760141729035",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "r nói gì nói",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
