@@ -32024,5 +32024,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760184243160": {
+    "timestamp": "1760184243215",
+    "timestampString": "19:04:04",
+    "msgId": "7106144975092",
+    "cliMsgId": "1760184243160",
+    "msgType": "chat.photo",
+    "uidFrom": "8975791456801459627",
+    "idTo": "7897564732983285154",
+    "dName": "Hoàng Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1754576471445\",\"height\":454,\"thumb_height\":454,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/31a981164bf3eaadb3e2\\/6375889373527688225?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
