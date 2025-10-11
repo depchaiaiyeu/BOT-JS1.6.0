@@ -34204,5 +34204,56 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760143261119": {
+    "timestamp": "1760143261538",
+    "timestampString": "07:41:02",
+    "msgId": "7104000662267",
+    "cliMsgId": "1760143261119",
+    "msgType": "webchat",
+    "uidFrom": "8107161292215817145",
+    "idTo": "3453989112147091924",
+    "dName": "Thành Ios",
+    "content": "con mẹ nhóm rác tag cc",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143280687": {
+    "timestamp": "1760143281047",
+    "timestampString": "07:41:22",
+    "msgId": "7104001289633",
+    "cliMsgId": "1760143280687",
+    "msgType": "chat.photo",
+    "uidFrom": "1013740581836979754",
+    "idTo": "3453989112147091924",
+    "dName": "Trần Nhật Long",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/535273504780988003/db0218f12291afcff680.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/535273504780988003/db0218f12291afcff680.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1640,\"hd\":\"https:\\/\\/f63-zpg-r.zdn.vn\\/jpg\\/535273504780988003\\/db0218f12291afcff680.jpg\",\"is_group_layout\":0,\"contentId\":\"2623\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143287933": {
+    "timestamp": "1760143287982",
+    "timestampString": "07:41:29",
+    "msgId": "7104001514751",
+    "cliMsgId": "1760143287933",
+    "msgType": "webchat",
+    "uidFrom": "8937360702219819580",
+    "idTo": "3453989112147091924",
+    "dName": "Beautiful",
+    "content": "Cần 1b kyc freecash ( yêu cầu chưa từng làm )",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
