@@ -13580,5 +13580,75 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760176417661": {
+    "timestamp": "1760176417654",
+    "timestampString": "16:53:38",
+    "msgId": "7105737752502",
+    "cliMsgId": "1760176417661",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nTkh\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176417271": {
+    "timestamp": "1760176417390",
+    "timestampString": "16:53:38",
+    "msgId": "7105737764824",
+    "cliMsgId": "1760176417271",
+    "msgType": "chat.photo",
+    "uidFrom": "4151380426396550311",
+    "idTo": "5601607522756268167",
+    "dName": "Tkh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/7cbdf74c27bd86e3dfac/1316463799096703944?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/7cbdf74c27bd86e3dfac/1316463799096703944?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":430,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1756603848133\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/7cbdf74c27bd86e3dfac\\/1316463799096703944?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":512,\"height\":430,\"thumb\":\"\"},\"contentId\":\"1756603848133\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176417597": {
+    "timestamp": "1760176417590",
+    "timestampString": "16:53:38",
+    "msgId": "7105737752494",
+    "cliMsgId": "1760176417597",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4151380426396550000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760176417271,
+        "globalDelMsgId": 7105737764824,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
