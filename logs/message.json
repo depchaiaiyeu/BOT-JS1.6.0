@@ -29878,5 +29878,79 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760183089904": {
+    "timestamp": "1760183090084",
+    "timestampString": "18:44:51",
+    "msgId": "7106083839813",
+    "cliMsgId": "1760183089904",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "@Tài Tấn vcl",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183093075": {
+    "timestamp": "1760183093230",
+    "timestampString": "18:44:53",
+    "msgId": "7106084008177",
+    "cliMsgId": "1760183093075",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "Nhạc đỏ à",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183095229": {
+    "timestamp": "1760183095369",
+    "timestampString": "18:44:55",
+    "msgId": "7106084123868",
+    "cliMsgId": "1760183095229",
+    "msgType": "chat.photo",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/46232c84c413654d3c02/3396542947457580468?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/46232c84c413654d3c02/3396542947457580468?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1759511058847\",\"height\":48,\"thumb_height\":48,\"thumb_width\":48,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":48,\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/46232c84c413654d3c02\\/3396542947457580468?createby=NDQ_Bot.webp\"},\"pStickerType\":1}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183098158": {
+    "timestamp": "1760183099032",
+    "timestampString": "18:44:59",
+    "msgId": "7106084317129",
+    "cliMsgId": "1760183098158",
+    "msgType": "chat.photo",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/7014973586235237486/f3e1e2092e60a33efa71.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/7014973586235237486/f3e1e2092e60a33efa71.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1604,\"hd\":\"https:\\/\\/f67-zpg-r.zdn.vn\\/jpg\\/7014973586235237486\\/f3e1e2092e60a33efa71.jpg\",\"is_group_layout\":0,\"contentId\":\"\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
