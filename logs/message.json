@@ -20415,5 +20415,19 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760179380409": {
+    "timestamp": "1760179380484",
+    "timestampString": "17:43:01",
+    "msgId": "7105889256249",
+    "cliMsgId": "1760179380409",
+    "msgType": "webchat",
+    "uidFrom": "8223546026622716964",
+    "idTo": "1367422010794969537",
+    "dName": "Vũ VĂN Dũng",
+    "content": "À",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
