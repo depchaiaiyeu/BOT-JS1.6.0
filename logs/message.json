@@ -8410,5 +8410,290 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760170204050": {
+    "timestamp": "1760170204115",
+    "timestampString": "15:10:04",
+    "msgId": "7105406396895",
+    "cliMsgId": "1760170204050",
+    "msgType": "webchat",
+    "uidFrom": "5345445945853805845",
+    "idTo": "9104968216656954464",
+    "dName": "Khoa Chad",
+    "content": "Có lô acc 1.5k  bao log,hàng đã qua tool lọc nên yên tâm LƯU Ý: HÀNG NÀY KO BẢO HÀNH SAI MK NẾU SAI THÌ DO CHỦ ĐỔI ✅ACC DÍNH BẢO MẬT IB ADMIN ĐỤC FREE",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170211362": {
+    "timestamp": "1760170211427",
+    "timestampString": "15:10:12",
+    "msgId": "7105406805689",
+    "cliMsgId": "1760170211362",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2301775511182971000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760166386266,
+        "globalDelMsgId": 7105221737136,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170203448": {
+    "timestamp": "1760170217590",
+    "timestampString": "15:10:17",
+    "msgId": "7105407144775",
+    "cliMsgId": "1760170203448",
+    "msgType": "chat.photo",
+    "uidFrom": "1060629329272133507",
+    "idTo": "9104968216656954464",
+    "dName": "Trần Thiên Bảo",
+    "content": {
+      "title": "vô rbl là nó hiện z :/",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/4292286282579330027/232cd0b8d5d7588901c6.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/4292286282579330027/232cd0b8d5d7588901c6.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":471,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f56-zpg-r.zdn.vn\\/jpg\\/4292286282579330027\\/232cd0b8d5d7588901c6.jpg\",\"hdSize\":11858,\"height\":221}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170220363": {
+    "timestamp": "1760170220414",
+    "timestampString": "15:10:21",
+    "msgId": "7105407306871",
+    "cliMsgId": "1760170220363",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078833,
+        "globalDelMsgId": 7105253588026,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078868,
+        "globalDelMsgId": 7105253590577,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078892,
+        "globalDelMsgId": 7105253592836,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078916,
+        "globalDelMsgId": 7105253593666,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078940,
+        "globalDelMsgId": 7105253597951,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078964,
+        "globalDelMsgId": 7105253598021,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078988,
+        "globalDelMsgId": 7105253600940,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079012,
+        "globalDelMsgId": 7105253602036,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079035,
+        "globalDelMsgId": 7105253604697,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079059,
+        "globalDelMsgId": 7105253609376,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079082,
+        "globalDelMsgId": 7105253608832,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079106,
+        "globalDelMsgId": 7105253611590,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079129,
+        "globalDelMsgId": 7105253613906,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079152,
+        "globalDelMsgId": 7105253617924,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079176,
+        "globalDelMsgId": 7105253621407,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079199,
+        "globalDelMsgId": 7105253622808,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079222,
+        "globalDelMsgId": 7105253625681,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079244,
+        "globalDelMsgId": 7105253628557,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079266,
+        "globalDelMsgId": 7105253676939,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170223629": {
+    "timestamp": "1760170223877",
+    "timestampString": "15:10:24",
+    "msgId": "7105407494364",
+    "cliMsgId": "1760170223629",
+    "msgType": "webchat",
+    "uidFrom": "5345445945853805845",
+    "idTo": "9104968216656954464",
+    "dName": "Khoa Chad",
+    "content": "Có lô acc 1.5k  bao log,hàng đã qua tool lọc nên yên tâm LƯU Ý: HÀNG NÀY KO BẢO HÀNH SAI MK NẾU SAI THÌ DO CHỦ ĐỔI ✅ACC DÍNH BẢO MẬT IB ADMIN ĐỤC FREE",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170225146": {
+    "timestamp": "1760170225198",
+    "timestampString": "15:10:25",
+    "msgId": "7105407564427",
+    "cliMsgId": "1760170225146",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 377481986890946800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167785744,
+        "globalDelMsgId": 7105286143329,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
