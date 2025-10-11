@@ -32588,5 +32588,42 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142538903": {
+    "timestamp": "1760142543089",
+    "timestampString": "07:29:03",
+    "msgId": "7103978587643",
+    "cliMsgId": "1760142538903",
+    "msgType": "chat.voice",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/7805708377840896725/c35c428fc702295c7013.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/7805708377840896725\\/c35c428fc702295c7013.aac\",\"duration\":3776,\"fileSize\":30625,\"waveformSamples\":[34,144,1336,2670,2669,3208,5409,6291,5193,3966,4051,4436,3277,3752,3531,1865,2447,3844,4037,4267,3830,3084,2080]}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142567477": {
+    "timestamp": "1760142567543",
+    "timestampString": "07:29:28",
+    "msgId": "7103979304366",
+    "cliMsgId": "1760142567477",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "Tờ nô này ghê quá",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
