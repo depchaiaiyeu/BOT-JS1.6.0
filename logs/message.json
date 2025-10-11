@@ -35548,5 +35548,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760144132578": {
+    "timestamp": "1760144132660",
+    "timestampString": "07:55:33",
+    "msgId": "7104030424013",
+    "cliMsgId": "1760144132578",
+    "msgType": "webchat",
+    "uidFrom": "6886661089325427881",
+    "idTo": "7585160044864555896",
+    "dName": "Long",
+    "content": ".help",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
