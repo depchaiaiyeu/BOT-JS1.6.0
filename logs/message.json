@@ -24765,5 +24765,102 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180715122": {
+    "timestamp": "1760180715147",
+    "timestampString": "18:05:16",
+    "msgId": "7105959930678",
+    "cliMsgId": "1760180715122",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "@Exception",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180716517": {
+    "timestamp": "1760180716543",
+    "timestampString": "18:05:16",
+    "msgId": "7105960004702",
+    "cliMsgId": "1760180716517",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":402,\"height\":220,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180719184": {
+    "timestamp": "1760180719213",
+    "timestampString": "18:05:19",
+    "msgId": "7105960147673",
+    "cliMsgId": "1760180719184",
+    "msgType": "chat.photo",
+    "uidFrom": "920174855750822142",
+    "idTo": "7897564732983285154",
+    "dName": "宝英 Bao Anh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/38ca4ce8a82d0973503c/7548655063979849143?creator=Tahn_bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/38ca4ce8a82d0973503c/7548655063979849143?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":960,\"height\":960,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751372464694\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/38ca4ce8a82d0973503c\\/7548655063979849143?creator=Tahn_bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751372464694\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180725595": {
+    "timestamp": "1760180725613",
+    "timestampString": "18:05:27",
+    "msgId": "7105960485376",
+    "cliMsgId": "1760180725595",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@̀nguyễn Duy Khang .gl",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180727409": {
+    "timestamp": "1760180727516",
+    "timestampString": "18:05:27",
+    "msgId": "7105960574892",
+    "cliMsgId": "1760180727409",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nLink: https://f2-voice-aac-dl.zdn.vn/9119747306923084056/36962788f3041d5a4415.aac",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
