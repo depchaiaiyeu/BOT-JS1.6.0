@@ -9250,5 +9250,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760171410645": {
+    "timestamp": "1760171411510",
+    "timestampString": "15:30:12",
+    "msgId": "7105472631143",
+    "cliMsgId": "1760171410645",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "-> SendTask 15:30 <-\nChào buổi chiều\nNhắc bạn thông tin âm lịch của hôm nay!!!",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/3516855345785297689/cbc25c62910d1c53451c.jpg",
+      "thumb": "https://f64-zpg-r.zdn.vn/3516855345785297689/cbc25c62910d1c53451c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f64-zpg-r.zdn.vn\\/3516855345785297689\\/cbc25c62910d1c53451c.jpg\",\"hdSize\":472344,\"height\":1920}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
