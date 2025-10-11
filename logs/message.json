@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760069960978": {
-    "timestamp": "1760069962920",
-    "timestampString": "11:19:24",
-    "msgId": "7101069034552",
-    "cliMsgId": "1760069960978",
-    "msgType": "chat.recommended",
-    "uidFrom": "2224078478875632358",
-    "idTo": "4699745045071009795",
-    "dName": "Sói Đơn Độc",
-    "content": {
-      "title": "https://zalo.me/g/unbntn627",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/unbntn627",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv21f7d3c4c961760069916aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNDU2N2ZkNjUyNDAwY2U1ZTk3MTE=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":2,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"tâm sự đêm khuya\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/f\\/a\\/0\\/0\\/2\\/120\\/c2ee691891ad9afca9a0acf5f25596cc.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760070020713": {
     "timestamp": "1760070020772",
     "timestampString": "11:20:21",
