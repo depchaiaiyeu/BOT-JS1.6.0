@@ -31447,5 +31447,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183894827": {
+    "timestamp": "1760183895854",
+    "timestampString": "18:58:17",
+    "msgId": "7106126426334",
+    "cliMsgId": "1760183894827",
+    "msgType": "chat.photo",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": {
+      "title": "Mệt k",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/4210908310395669610/ac0a5a33b05a3d04644b.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/4210908310395669610/ac0a5a33b05a3d04644b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1920,\"height\":2496,\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/4210908310395669610\\/ac0a5a33b05a3d04644b.jpg\",\"is_group_layout\":0,\"contentId\":\"1000008077\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
