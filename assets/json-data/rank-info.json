@@ -6634,8 +6634,8 @@
         {
           "UserName": "Không Tên",
           "UID": "501056120325739471",
-          "Rank": 36,
-          "messageCountToday": 11,
+          "Rank": 37,
+          "messageCountToday": 12,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6734,6 +6734,13 @@
           "UID": "4802332726802384542",
           "Rank": 9,
           "messageCountToday": 9,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Trường An",
+          "UID": "4925066687983811682",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],

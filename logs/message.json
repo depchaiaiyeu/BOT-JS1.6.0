@@ -28822,5 +28822,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760141230148": {
+    "timestamp": "1760141230316",
+    "timestampString": "07:07:11",
+    "msgId": "7103941756367",
+    "cliMsgId": "1760141230148",
+    "msgType": "webchat",
+    "uidFrom": "4925066687983811682",
+    "idTo": "3453989112147091924",
+    "dName": "Trường An",
+    "content": "Menu adr cân acc chính 100%, giá menu 50k ib riêng để show menu",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
