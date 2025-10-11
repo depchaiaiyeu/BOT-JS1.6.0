@@ -30990,5 +30990,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142076210": {
+    "timestamp": "1760142076297",
+    "timestampString": "07:21:17",
+    "msgId": "7103965192800",
+    "cliMsgId": "1760142076210",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "bot cầm quản nhóm k cho xài hả",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
