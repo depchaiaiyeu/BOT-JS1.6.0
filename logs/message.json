@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760060935439": {
-    "timestamp": "1760060935536",
-    "timestampString": "08:48:56",
-    "msgId": "7100387235169",
-    "cliMsgId": "1760060935439",
-    "msgType": "webchat",
-    "uidFrom": "2275317996891696552",
-    "idTo": "5975420422762749911",
-    "dName": "Dell Yêu Ai",
-    "content": "@scl",
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760060942398": {
     "timestamp": "1760060942466",
     "timestampString": "08:49:03",
