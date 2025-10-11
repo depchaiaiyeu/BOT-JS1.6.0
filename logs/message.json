@@ -45,30 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760069335834": {
-    "timestamp": "1760069335925",
-    "timestampString": "11:08:57",
-    "msgId": "7101020422228",
-    "cliMsgId": "1760069335834",
-    "msgType": "chat.delete",
-    "uidFrom": "7159173789925726305",
-    "idTo": "4699745045071009795",
-    "dName": "Bắc",
-    "content": [
-      {
-        "type": 3,
-        "actionType": 1,
-        "uidFrom": 2224078478875632400,
-        "uidTo": 4699745045071010000,
-        "clientDelMsgId": 1760068215035,
-        "globalDelMsgId": 7100933209580,
-        "destId": 4699745045071010000
-      }
-    ],
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "105604163642280": {
     "timestamp": "1760069394048",
     "timestampString": "11:09:54",
