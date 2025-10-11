@@ -16063,5 +16063,47 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760177611227": {
+    "timestamp": "1760177611258",
+    "timestampString": "17:13:31",
+    "msgId": "7105799810795",
+    "cliMsgId": "1760177611227",
+    "msgType": "webchat",
+    "uidFrom": "3029158015934153266",
+    "idTo": "4825567233436439756",
+    "dName": "Lee Hằngg",
+    "content": "Off có tí",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177611354": {
+    "timestamp": "1760177611378",
+    "timestampString": "17:13:32",
+    "msgId": "7105799819577",
+    "cliMsgId": "1760177611354",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Thua",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177621736": {
+    "timestamp": "1760177621761",
+    "timestampString": "17:13:42",
+    "msgId": "7105800344592",
+    "cliMsgId": "1760177621736",
+    "msgType": "webchat",
+    "uidFrom": "3526509774493065675",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Khôii",
+    "content": "@Lee Hằngg add em vào với:)",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
