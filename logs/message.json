@@ -33579,5 +33579,93 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760184703965": {
+    "timestamp": "1760184704043",
+    "timestampString": "19:11:44",
+    "msgId": "7106169491575",
+    "cliMsgId": "1760184703965",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "118",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184705571": {
+    "timestamp": "1760184706476",
+    "timestampString": "19:11:46",
+    "msgId": "7106169609475",
+    "cliMsgId": "1760184705571",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@Bùi Hiếu\n🎮 Bùi Hiếu đánh ô số 118\n\n👉 Lượt của <@Phạm Hồng Nhật>!\n⏱️ Thời gian: 60 giây\nChọn số từ 1-256 để đánh quân cờ.",
+      "description": "",
+      "href": "https://d.uguu.se/EUVsHwAA.png",
+      "thumb": "https://d.uguu.se/EUVsHwAA.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":520,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/d.uguu.se\\/EUVsHwAA.png\",\"height\":600}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184716048": {
+    "timestamp": "1760184716104",
+    "timestampString": "19:11:56",
+    "msgId": "7106170133747",
+    "cliMsgId": "1760184716048",
+    "msgType": "webchat",
+    "uidFrom": "5726988841569768513",
+    "idTo": "4825567233436439756",
+    "dName": "Phạm Hồng Nhật",
+    "content": "86",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184716257": {
+    "timestamp": "1760184716819",
+    "timestampString": "19:11:57",
+    "msgId": "7106170172776",
+    "cliMsgId": "1760184716257",
+    "msgType": "webchat",
+    "uidFrom": "4940406687373339316",
+    "idTo": "9104968216656954464",
+    "dName": "Tiến",
+    "content": "@Nguyen Minh Huy có mr carrot k?",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184717759": {
+    "timestamp": "1760184718643",
+    "timestampString": "19:11:59",
+    "msgId": "7106170256535",
+    "cliMsgId": "1760184717759",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@Phạm Hồng Nhật\n🎮 Phạm Hồng Nhật đánh ô số 86\n\n👉 Lượt của <@Bùi Hiếu>!\n⏱️ Thời gian: 60 giây\nChọn số từ 1-256 để đánh quân cờ.",
+      "description": "",
+      "href": "https://d.uguu.se/QSFwrJlz.png",
+      "thumb": "https://d.uguu.se/QSFwrJlz.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":520,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/d.uguu.se\\/QSFwrJlz.png\",\"height\":600}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
