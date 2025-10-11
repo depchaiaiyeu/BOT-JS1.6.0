@@ -18285,5 +18285,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760178340003": {
+    "timestamp": "1760178340033",
+    "timestampString": "17:25:40",
+    "msgId": "7105836178682",
+    "cliMsgId": "1760178340003",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "T hổm h ho",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178354357": {
+    "timestamp": "1760178354521",
+    "timestampString": "17:25:55",
+    "msgId": "7105836901534",
+    "cliMsgId": "1760178354357",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": "Bắc bão mà ở Nam lạnh cực kì",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
