@@ -25728,5 +25728,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180957119": {
+    "timestamp": "1760180957131",
+    "timestampString": "18:09:18",
+    "msgId": "7105972700966",
+    "cliMsgId": "1760180957119",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".meme",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
