@@ -2205,9 +2205,9 @@
         {
           "UserName": "Hoàng Khôi",
           "UID": "8975791456801459627",
-          "Rank": 26,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-10"
+          "Rank": 27,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Trâm Anh",
@@ -6993,6 +6993,13 @@
         {
           "UserName": "Minh Tú",
           "UID": "2445240967781625812",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Bảo Võ",
+          "UID": "272079515441571069",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"

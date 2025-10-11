@@ -12783,5 +12783,42 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760175255223": {
+    "timestamp": "1760175255719",
+    "timestampString": "16:34:16",
+    "msgId": "7105677293297",
+    "cliMsgId": "1760175255223",
+    "msgType": "chat.photo",
+    "uidFrom": "8975791456801459627",
+    "idTo": "7897564732983285154",
+    "dName": "Hoàng Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1754576471445\",\"height\":454,\"thumb_height\":454,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/31a981164bf3eaadb3e2\\/6375889373527688225?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175259735": {
+    "timestamp": "1760175259844",
+    "timestampString": "16:34:20",
+    "msgId": "7105677499746",
+    "cliMsgId": "1760175259735",
+    "msgType": "webchat",
+    "uidFrom": "272079515441571069",
+    "idTo": "9104968216656954464",
+    "dName": "Bảo Võ",
+    "content": "@Minh Tú nhiêu",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
