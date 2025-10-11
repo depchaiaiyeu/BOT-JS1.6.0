@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760069892252": {
-    "timestamp": "1760069892694",
-    "timestampString": "11:18:13",
-    "msgId": "7101063586533",
-    "cliMsgId": "1760069892252",
-    "msgType": "chat.photo",
-    "uidFrom": "7953749493600382554",
-    "idTo": "8281509084603580118",
-    "dName": "Trung Đoàn",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f61-zpg-r.zdn.vn/jpg/7467236815384703221/cccb6f53e20a6f54361b.jpg",
-      "thumb": "https://f61-zpg-r.zdn.vn/jpg/7467236815384703221/cccb6f53e20a6f54361b.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":500,\"height\":500,\"is_group_layout\":0,\"contentId\":\"1000015701\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "8281509084603580118",
-    "type": 1,
-    "isUndo": false
-  },
   "1760069960978": {
     "timestamp": "1760069962920",
     "timestampString": "11:19:24",
