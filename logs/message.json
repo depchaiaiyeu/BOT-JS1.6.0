@@ -17936,5 +17936,47 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760178152997": {
+    "timestamp": "1760178153057",
+    "timestampString": "17:22:34",
+    "msgId": "7105826871428",
+    "cliMsgId": "1760178152997",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "Link ko cap trả chắc t bt à",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178160732": {
+    "timestamp": "1760178160793",
+    "timestampString": "17:22:41",
+    "msgId": "7105827257778",
+    "cliMsgId": "1760178160732",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "Qua này tâm trạng kh vui, bị bỏ lại phía sau -.- nay về có lẽ nên nghịch nghịch vài thứ cần nghịch nhỉ",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178175031": {
+    "timestamp": "1760178175083",
+    "timestampString": "17:22:55",
+    "msgId": "7105827950422",
+    "cliMsgId": "1760178175031",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "@N D Q Nên đó",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
