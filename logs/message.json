@@ -22239,5 +22239,79 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180251818": {
+    "timestamp": "1760180251858",
+    "timestampString": "17:57:34",
+    "msgId": "7105935086165",
+    "cliMsgId": "1760180251818",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Exception .object",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180253796": {
+    "timestamp": "1760180253895",
+    "timestampString": "17:57:34",
+    "msgId": "7105935182279",
+    "cliMsgId": "1760180253796",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n📡 Dữ liệu tin nhắn được reply:\n\n{\n  \"ownerId\": 8903446192643249000,\n  \"cliMsgId\": 1760180231105,\n  \"globalMsgId\": 7105933950403,\n  \"cliMsgType\": 32,\n  \"ts\": 1760180231463,\n  \"msg\": \"\",\n  \"attach\": {\n    \"thumb\": \"https://t-f56-zpg-r.zdn.vn/480/7647393497221557802/09603c9a40f3cdad94e2.jpg\",\n    \"mentions\": [\n      {\n        \"uid\": 8903446192643249000,\n        \"ignoreNickname\": 0,\n        \"len\": 10,\n        \"pos\": 2,\n        \"type\": 0\n      }\n    ],\n    \"description\": \"\",\n    \"action\": \"\",\n    \"childnumber\": \"0\",\n    \"href\": \"https://f56-zpg-r.zdn.vn/7647393497221557802/09603c9a40f3cdad94e2.jpg\",\n    \"title\": \"❤️@Exception, Hãy Đắm Chìm Vào Bài Hát Nào...\",\n    \"params\": {\n      \"width\": 2400,\n      \"height\": 840,\n      \"hd\": \"https://b-f56-zpg-r.zdn.vn/7647393497221557802/09603c9a40f3cdad94e2.jpg\",\n      \"is_group_layout\": 0,\n      \"contentId\": \"\",\n      \"fileSize\": 247671,\n      \"hdSize\": 344622,\n      \"thumbSize\": 53932,\n      \"convertible\": \"jxl\",\n      \"is_original\": 0\n    }\n  },\n  \"fromD\": \"Exception\",\n  \"ttl\": 600000\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":1040,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180270886": {
+    "timestamp": "1760180270948",
+    "timestampString": "17:57:51",
+    "msgId": "7105936104237",
+    "cliMsgId": "1760180270886",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/717214a7be2a1f74463b/5566751261414982227/fb300a1e-2f55-4f1a-8913-57d970b87cf8_a_sin.webp",
+      "thumb": "https://fg42.dlfl.vn/717214a7be2a1f74463b/5566751261414982227/fb300a1e-2f55-4f1a-8913-57d970b87cf8_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":588,\"height\":680,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758626399043\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg42.dlfl.vn\\/717214a7be2a1f74463b\\/5566751261414982227\\/fb300a1e-2f55-4f1a-8913-57d970b87cf8_a_sin.webp\",\"width\":588,\"height\":680,\"thumb\":\"\"},\"contentId\":\"1758626399043\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180276471": {
+    "timestamp": "1760180276534",
+    "timestampString": "17:57:56",
+    "msgId": "7105936403025",
+    "cliMsgId": "1760180276471",
+    "msgType": "webchat",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": "mấy b add dis của tui i",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
