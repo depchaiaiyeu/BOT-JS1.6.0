@@ -2393,5 +2393,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760166386266": {
+    "timestamp": "1760166387007",
+    "timestampString": "14:06:28",
+    "msgId": "7105221737136",
+    "cliMsgId": "1760166386266",
+    "msgType": "chat.photo",
+    "uidFrom": "2301775511182970826",
+    "idTo": "4699745045071009795",
+    "dName": "Chài Tương Long",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/7859f4075cf0a8aef1e1/3422142258782592869.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/7859f4075cf0a8aef1e1/3422142258782592869.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":984,\"height\":1200,\"is_group_layout\":0,\"contentId\":\"1000003157\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
