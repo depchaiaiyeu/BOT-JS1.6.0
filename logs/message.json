@@ -11727,5 +11727,28 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760173509722": {
+    "timestamp": "1760173510550",
+    "timestampString": "16:05:11",
+    "msgId": "7105587105555",
+    "cliMsgId": "1760173509722",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "-> SendTask 16:05 <-\nChào một buổi xế chiều đầy năng lượng!\n\nCung cấp vitamin gái cực sexy cho anh em đây!!!",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/ddfa8917b58b14d54d9a/244072843785014314?createby=NDQ_Bot",
+      "thumb": "https://f12-zpc.zdn.vn/2659784184418769392/93ef283e8a51070f5e40.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":19466,\"video_height\":1706,\"fileSize\":12924601,\"video_width\":960}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
