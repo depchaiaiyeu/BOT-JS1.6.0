@@ -10365,5 +10365,70 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760172155741": {
+    "timestamp": "1760172156218",
+    "timestampString": "15:42:37",
+    "msgId": "7105513336230",
+    "cliMsgId": "1760172155741",
+    "msgType": "chat.photo",
+    "uidFrom": "6078954320375605607",
+    "idTo": "3228108398535377399",
+    "dName": "Thiên Phúc",
+    "content": {
+      "title": "🥳 Chào mừng Che Viet Hung Thinhh \n🎉 đã tham gia HP-TOOL \nvào lúc 11/10/2025 [15:22:00] \nsố thành viên: 104",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/5366827020665380546/05d704e4e48b69d5309a.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/5366827020665380546/05d704e4e48b69d5309a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":600,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/5366827020665380546\\/05d704e4e48b69d5309a.jpg\",\"hdSize\":344622,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172166636": {
+    "timestamp": "1760172166674",
+    "timestampString": "15:42:47",
+    "msgId": "7105513938058",
+    "cliMsgId": "1760172166636",
+    "msgType": "webchat",
+    "uidFrom": "3246726307428516405",
+    "idTo": "3228108398535377399",
+    "dName": "Che Viet Hung Thinhh",
+    "content": "lol @Nguyen Huu Phuc",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172167830": {
+    "timestamp": "1760172167869",
+    "timestampString": "15:42:48",
+    "msgId": "7105514007277",
+    "cliMsgId": "1760172167830",
+    "msgType": "webchat",
+    "uidFrom": "3246726307428516405",
+    "idTo": "3228108398535377399",
+    "dName": "Che Viet Hung Thinhh",
+    "content": "cho t",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172174164": {
+    "timestamp": "1760172174203",
+    "timestampString": "15:42:55",
+    "msgId": "7105514361922",
+    "cliMsgId": "1760172174164",
+    "msgType": "webchat",
+    "uidFrom": "3246726307428516405",
+    "idTo": "3228108398535377399",
+    "dName": "Che Viet Hung Thinhh",
+    "content": "key bac di",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
