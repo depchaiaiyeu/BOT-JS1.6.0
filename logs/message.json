@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760070810853": {
-    "timestamp": "1760070811433",
-    "timestampString": "11:33:32",
-    "msgId": "7101134641303",
-    "cliMsgId": "1760070810853",
-    "msgType": "chat.photo",
-    "uidFrom": "2469710224594830717",
-    "idTo": "5464956150740844012",
-    "dName": "Tiểu Sơn",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/jpg/3596005145255783477/2981efc2bb9a36c46f8b.jpg",
-      "thumb": "https://f65-zpg-r.zdn.vn/jpg/3596005145255783477/2981efc2bb9a36c46f8b.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1656,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/3596005145255783477\\/2981efc2bb9a36c46f8b.jpg\",\"height\":1656}",
-      "type": ""
-    },
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
   "1760070942053": {
     "timestamp": "1760070942218",
     "timestampString": "11:35:43",
