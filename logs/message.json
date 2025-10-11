@@ -6030,5 +6030,56 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760168617569": {
+    "timestamp": "1760168617660",
+    "timestampString": "14:43:38",
+    "msgId": "7105325641972",
+    "cliMsgId": "1760168617569",
+    "msgType": "webchat",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": "@Lữ Huyền Nhi trả",
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168624085": {
+    "timestamp": "1760168624160",
+    "timestampString": "14:43:45",
+    "msgId": "7105325948376",
+    "cliMsgId": "1760168624085",
+    "msgType": "webchat",
+    "uidFrom": "7304261875357473126",
+    "idTo": "5166581134204343688",
+    "dName": "Cường",
+    "content": "@Nguyễn Duy Anh share file đi",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168634693": {
+    "timestamp": "1760168634855",
+    "timestampString": "14:43:55",
+    "msgId": "7105326460399",
+    "cliMsgId": "1760168634693",
+    "msgType": "chat.photo",
+    "uidFrom": "607598759060047701",
+    "idTo": "2760006576081013366",
+    "dName": "Lữ Huyền Nhi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/e095263df3ca07945edb/2127126454980414220.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/e095263df3ca07945edb/2127126454980414220.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":2340,\"hd\":\"https:\\/\\/photo-stal-2.zdn.vn\\/gr\\/jpg\\/e095263df3ca07945edb\\/2127126454980414220.jpg\",\"is_group_layout\":0,\"contentId\":\"1000092266\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
   }
 }
