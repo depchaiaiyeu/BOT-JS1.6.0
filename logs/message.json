@@ -36567,5 +36567,120 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760185134681": {
+    "timestamp": "1760185134778",
+    "timestampString": "19:19:44",
+    "msgId": "7106192570712",
+    "cliMsgId": "1760185134681",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "@Phạm Hồng Nhật !caro pvp 0",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185144649": {
+    "timestamp": "1760185144742",
+    "timestampString": "19:19:49",
+    "msgId": "7106193106071",
+    "cliMsgId": "1760185144649",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "cuối nè",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185179762": {
+    "timestamp": "1760185182622",
+    "timestampString": "19:19:50",
+    "msgId": "7106195149038",
+    "cliMsgId": "1760185179762",
+    "msgType": "chat.recommended",
+    "uidFrom": "8537950840142261063",
+    "idTo": "9104968216656954464",
+    "dName": "Đỗ Hoàng Anh",
+    "content": {
+      "title": "Đang event🔞🔞🔞🔞 🦋 cực ngon 🥵🥵🥵🥵🥵 tại https://zalo.me/g/xrwsgr399",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xrwsgr399",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2a87334a1ee1760185130aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDkyZTA3NGE4NzE0NmQ0YTM0MDU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":2,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"RANDOM ROBLOX.STORE\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/4\\/a\\/6\\/d\\/30\\/120\\/a5583d69e03b599afb711092239d31e7.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056111109709400": {
+    "timestamp": "1760185182756",
+    "timestampString": "19:19:50",
+    "msgId": "7106195119998",
+    "cliMsgId": "1056111109709400",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Đỗ Hoàng Anh\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185153582": {
+    "timestamp": "1760185155952",
+    "timestampString": "19:19:50",
+    "msgId": "7106193710895",
+    "cliMsgId": "1760185153582",
+    "msgType": "chat.voice",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/4969976696775790147/ee671f703effd0a189ee.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/4969976696775790147\\/ee671f703effd0a189ee.aac\",\"duration\":1920,\"fileSize\":15570,\"waveformSamples\":[0,34,148,1295,1568,1472,4632,3079,4484,8117,11061,11246,7831,8204,6422,6533,6649,5644,5376,4794,3285,3826,0]}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185158320": {
+    "timestamp": "1760185158395",
+    "timestampString": "19:19:50",
+    "msgId": "7106193841478",
+    "cliMsgId": "1760185158320",
+    "msgType": "chat.sticker",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "id": 47236,
+      "catId": 12017,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
