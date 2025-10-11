@@ -4841,5 +4841,112 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760168177299": {
+    "timestamp": "1760168177307",
+    "timestampString": "14:36:18",
+    "msgId": "7105304669060",
+    "cliMsgId": "1760168177299",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nAnh Kiệt\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168170604": {
+    "timestamp": "1760168177056",
+    "timestampString": "14:36:18",
+    "msgId": "7105304665040",
+    "cliMsgId": "1760168170604",
+    "msgType": "chat.photo",
+    "uidFrom": "2994670458420610996",
+    "idTo": "5601607522756268167",
+    "dName": "Anh Kiệt",
+    "content": {
+      "title": "Cần Bán Mua iB Show Full\nLog ggttt Cấp Mail XT\n9xx Nhỏ Cân All GD\nTham Gia Box Chat FF:\nhttps://zalo.me/g/ghijto879 (tự trả)",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/4154596830670423961/8311f18656eadbb482fb.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/4154596830670423961/8311f18656eadbb482fb.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1650,\"height\":720,\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/4154596830670423961\\/8311f18656eadbb482fb.jpg\",\"is_group_layout\":0,\"contentId\":\"1000042189\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168177229": {
+    "timestamp": "1760168177239",
+    "timestampString": "14:36:18",
+    "msgId": "7105304669045",
+    "cliMsgId": "1760168177229",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2994670458420611000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760168170604,
+        "globalDelMsgId": 7105304665040,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168183915": {
+    "timestamp": "1760168185842",
+    "timestampString": "14:36:26",
+    "msgId": "7105305081097",
+    "cliMsgId": "1760168183915",
+    "msgType": "webchat",
+    "uidFrom": "331314569060252834",
+    "idTo": "9104968216656954464",
+    "dName": "Lương Điền Đông",
+    "content": "💦 WEB ĐỔI THẺ CÀO 💦\n🔗 GACHTHEFAST .COM DO AD CHECKSCAM Lương Điền Đông quản lí🔗\n 🔥 NẠP ROBUX,KC Ff,Thẻ tuần,Thẻ tháng , thẻ lên cấp giá rẻ ...\n🔥 CHIẾT KHẤU RẺ NHẤT VN\n🔥 RÚT MIN 2K - 30S TIỀN VỀ\n🔥 HOÀN TOÀN TỰ ĐỘNG 24/24",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168186399": {
+    "timestamp": "1760168186472",
+    "timestampString": "14:36:27",
+    "msgId": "7105305111666",
+    "cliMsgId": "1760168186399",
+    "msgType": "chat.photo",
+    "uidFrom": "4335876764763844887",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Trường An",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/700ca43fdeb17fef26a0/2928522522930127956?createby=TTN_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/700ca43fdeb17fef26a0/2928522522930127956?createby=TTN_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":54,\"height\":54,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758803089480\\\",\\\"send_method\\\":1}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/700ca43fdeb17fef26a0\\/2928522522930127956?createby=TTN_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758803089480\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
