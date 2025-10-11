@@ -2644,8 +2644,8 @@
         {
           "UserName": "Nguyen Thuy An",
           "UID": "4044003254599435812",
-          "Rank": 34,
-          "messageCountToday": 3,
+          "Rank": 35,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -4276,8 +4276,15 @@
         {
           "UserName": "Trọng Man",
           "UID": "5576109141632962137",
-          "Rank": 5,
-          "messageCountToday": 5,
+          "Rank": 6,
+          "messageCountToday": 6,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Vô Danh",
+          "UID": "3746763984487001540",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],

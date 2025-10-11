@@ -19719,5 +19719,56 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760178753784": {
+    "timestamp": "1760178753842",
+    "timestampString": "17:32:34",
+    "msgId": "7105856986903",
+    "cliMsgId": "1760178753784",
+    "msgType": "webchat",
+    "uidFrom": "5576109141632962137",
+    "idTo": "4699745045071009795",
+    "dName": "Trọng Man",
+    "content": "Ko bt sủa vô mic để chạy chữ đâu con gái yêu",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178762904": {
+    "timestamp": "1760178764635",
+    "timestampString": "17:32:45",
+    "msgId": "7105857524837",
+    "cliMsgId": "1760178762904",
+    "msgType": "chat.photo",
+    "uidFrom": "4044003254599435812",
+    "idTo": "1367422010794969537",
+    "dName": "Nguyen Thuy An",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/6672401624916695895/b71d8c903cfeb1a0e8ef.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/6672401624916695895/b71d8c903cfeb1a0e8ef.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/6672401624916695895\\/b71d8c903cfeb1a0e8ef.jpg\",\"hdSize\":344622,\"height\":392}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178708779": {
+    "timestamp": "1760178769276",
+    "timestampString": "17:32:49",
+    "msgId": "7105857780119",
+    "cliMsgId": "1760178708779",
+    "msgType": "webchat",
+    "uidFrom": "3746763984487001540",
+    "idTo": "4699745045071009795",
+    "dName": "Vô Danh",
+    "content": "@Trọng Man mik biết",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
