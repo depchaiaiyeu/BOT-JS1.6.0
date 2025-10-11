@@ -20387,5 +20387,33 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760179353750": {
+    "timestamp": "1760179353641",
+    "timestampString": "17:42:34",
+    "msgId": "7105887864167",
+    "cliMsgId": "1760179353750",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Có dép lào đc k",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179366087": {
+    "timestamp": "1760179366310",
+    "timestampString": "17:42:47",
+    "msgId": "7105888522012",
+    "cliMsgId": "1760179366087",
+    "msgType": "webchat",
+    "uidFrom": "2963005498718311973",
+    "idTo": "1367422010794969537",
+    "dName": "Vinh",
+    "content": "@Vũ VĂN Dũng nch vv thôi chả có j",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
