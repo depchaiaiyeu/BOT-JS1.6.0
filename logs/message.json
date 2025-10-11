@@ -32047,5 +32047,51 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760184305692": {
+    "timestamp": "1760184305838",
+    "timestampString": "19:05:07",
+    "msgId": "7106148309930",
+    "cliMsgId": "1760184305692",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/b1eb40d57e268a78d337/3376555803536253059.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/b1eb40d57e268a78d337/3376555803536253059.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1080,\"is_group_layout\":0,\"contentId\":\"1000027330\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184311630": {
+    "timestamp": "1760184312256",
+    "timestampString": "19:05:13",
+    "msgId": "7106148653044",
+    "cliMsgId": "1760184311630",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/jpg/8042252863451490577/78dee1217a48f716ae59.jpg",
+      "thumb": "https://f58-zpg-r.zdn.vn/jpg/8042252863451490577/78dee1217a48f716ae59.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":986,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"1000027336\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
