@@ -4633,5 +4633,79 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760167853982": {
+    "timestamp": "1760167854080",
+    "timestampString": "14:30:55",
+    "msgId": "7105289361953",
+    "cliMsgId": "1760167853982",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": "@Nguyễn Trường An vô có ai kh",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167856067": {
+    "timestamp": "1760167856146",
+    "timestampString": "14:30:56",
+    "msgId": "7105289460935",
+    "cliMsgId": "1760167856067",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": "Chụp t xem",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167857119": {
+    "timestamp": "1760167857184",
+    "timestampString": "14:30:57",
+    "msgId": "7105289509511",
+    "cliMsgId": "1760167857119",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f15-zpc.zdn.vn/2522322664810466779/1e8eeefc88f702a95be6.png",
+      "thumb": "https://f15-zpc.zdn.vn/2522322664810466779/1e8eeefc88f702a95be6.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758551721381\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f21-zpc.zdn.vn\\/6433596270915565337\\/5d974eea28e1a2bffbf0.webp\",\"width\":256,\"height\":256,\"thumb\":\"\"},\"contentId\":\"1758551721381\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167857569": {
+    "timestamp": "1760167857648",
+    "timestampString": "14:30:58",
+    "msgId": "7105289530932",
+    "cliMsgId": "1760167857569",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/700ca43fdeb17fef26a0/2928522522930127956?createby=TTN_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/700ca43fdeb17fef26a0/2928522522930127956?createby=TTN_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":54,\"height\":54,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758803089480\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/700ca43fdeb17fef26a0\\/2928522522930127956?createby=TTN_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758803089480\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
