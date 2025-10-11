@@ -33769,5 +33769,42 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760184764310": {
+    "timestamp": "1760184764413",
+    "timestampString": "19:12:45",
+    "msgId": "7106172708189",
+    "cliMsgId": "1760184764310",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "114",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184765945": {
+    "timestamp": "1760184766834",
+    "timestampString": "19:12:47",
+    "msgId": "7106172801967",
+    "cliMsgId": "1760184765945",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@Bùi Hiếu\n🎮 Bùi Hiếu đánh ô số 114\n\n👉 Lượt của <@Phạm Hồng Nhật>!\n⏱️ Thời gian: 60 giây\nChọn số từ 1-256 để đánh quân cờ.",
+      "description": "",
+      "href": "https://n.uguu.se/veRVXGil.png",
+      "thumb": "https://n.uguu.se/veRVXGil.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":520,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/n.uguu.se\\/veRVXGil.png\",\"height\":600}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
