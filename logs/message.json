@@ -19668,5 +19668,42 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760178692302": {
+    "timestamp": "1760178692367",
+    "timestampString": "17:31:33",
+    "msgId": "7105853832003",
+    "cliMsgId": "1760178692302",
+    "msgType": "webchat",
+    "uidFrom": "5576109141632962137",
+    "idTo": "4699745045071009795",
+    "dName": "Trọng Man",
+    "content": "Ko hiểu con",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178700306": {
+    "timestamp": "1760178700403",
+    "timestampString": "17:31:41",
+    "msgId": "7105854241387",
+    "cliMsgId": "1760178700306",
+    "msgType": "chat.photo",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/a6b94fe38e702f2e7661/8284036330217397483?createby=NDQ_Bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/a6b94fe38e702f2e7661/8284036330217397483?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1759926325957\",\"height\":506,\"thumb_height\":506,\"thumb_width\":512,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/a6b94fe38e702f2e7661\\/8284036330217397483?createby=NDQ_Bot.webp\"},\"pStickerType\":1}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
