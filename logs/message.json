@@ -10615,5 +10615,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "105610342085340": {
+    "timestamp": "1760172368119",
+    "timestampString": "15:46:09",
+    "msgId": "7105525179203",
+    "cliMsgId": "105610342085340",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@English Is Damn Easy",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/4880811081132214473/240a12ce89a104ff5db0.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/4880811081132214473/240a12ce89a104ff5db0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/4880811081132214473\\/240a12ce89a104ff5db0.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
