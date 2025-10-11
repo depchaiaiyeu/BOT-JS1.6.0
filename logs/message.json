@@ -6016,5 +6016,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760168602735": {
+    "timestamp": "1760168602809",
+    "timestampString": "14:43:24",
+    "msgId": "7105324933167",
+    "cliMsgId": "1760168602735",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": "Vẫn còn acc 50k có súng nâng cấp @All  .",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
