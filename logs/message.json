@@ -20624,5 +20624,33 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760179711008": {
+    "timestamp": "1760179711160",
+    "timestampString": "17:48:31",
+    "msgId": "7105906500523",
+    "cliMsgId": "1760179711008",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": "@All coccotank",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179715375": {
+    "timestamp": "1760179715445",
+    "timestampString": "17:48:35",
+    "msgId": "7105906724229",
+    "cliMsgId": "1760179715375",
+    "msgType": "webchat",
+    "uidFrom": "1235268235302360095",
+    "idTo": "3228108398535377399",
+    "dName": "Ha",
+    "content": "Còn ít xu tiktok, sếp nào thu không.",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
