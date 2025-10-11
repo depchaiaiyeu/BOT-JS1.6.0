@@ -2205,8 +2205,8 @@
         {
           "UserName": "Hoàng Khôi",
           "UID": "8975791456801459627",
-          "Rank": 27,
-          "messageCountToday": 1,
+          "Rank": 28,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -2495,6 +2495,13 @@
           "Rank": 1,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Do Ngoc Truc Linh",
+          "UID": "5109433059533672403",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         }
       ],
       "nameGroup": "𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟 𝐷𝑖𝑔𝑖𝑡𝑎𝑙 𝑇𝑒𝑎𝑚"

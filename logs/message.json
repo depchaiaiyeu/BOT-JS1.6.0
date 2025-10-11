@@ -13701,5 +13701,51 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760176516276": {
+    "timestamp": "1760176516340",
+    "timestampString": "16:55:17",
+    "msgId": "7105742959518",
+    "cliMsgId": "1760176516276",
+    "msgType": "chat.photo",
+    "uidFrom": "8975791456801459627",
+    "idTo": "7897564732983285154",
+    "dName": "Hoàng Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1754576471445\",\"height\":454,\"thumb_height\":454,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/31a981164bf3eaadb3e2\\/6375889373527688225?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176527427": {
+    "timestamp": "1760176527456",
+    "timestampString": "16:55:28",
+    "msgId": "7105743523934",
+    "cliMsgId": "1760176527427",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f22-zpc.zdn.vn/5784289209462115217/6e9b9910f67d7b23226c.jpg",
+      "thumb": "https://f22-zpc.zdn.vn/5784289209462115217/6e9b9910f67d7b23226c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"394F12A2-51D2-4D7C-A90D-AC34F218601C1\\\",\\\"send_method\\\":0}\",\"contentId\":\"394F12A2-51D2-4D7C-A90D-AC34F218601C1\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
