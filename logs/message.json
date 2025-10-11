@@ -9092,5 +9092,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760170718826": {
+    "timestamp": "1760170718989",
+    "timestampString": "15:18:39",
+    "msgId": "7105434787342",
+    "cliMsgId": "1760170718826",
+    "msgType": "chat.photo",
+    "uidFrom": "2716137648060265866",
+    "idTo": "2760006576081013366",
+    "dName": "Linh W Witt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/1442097102825210419/f376057b3114bc4ae505.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/1442097102825210419/f376057b3114bc4ae505.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":360,\"height\":360,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"9ce46539e6e3aa42119c9f6906e15b00\\\",\\\"send_method\\\":0}\",\"contentId\":\"9ce46539e6e3aa42119c9f6906e15b00\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
   }
 }
