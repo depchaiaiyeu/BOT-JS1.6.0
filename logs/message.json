@@ -12156,5 +12156,60 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760174216627": {
+    "timestamp": "1760174223662",
+    "timestampString": "16:17:04",
+    "msgId": "7105624369572",
+    "cliMsgId": "1760174216627",
+    "msgType": "chat.recommended",
+    "uidFrom": "4693555911012450841",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Trường Thái",
+    "content": {
+      "title": "https://www.roblox.com/share?code=0e4291eb0b387a4da28bade603dbe656&type=Server\nJoin",
+      "description": "Check out Steal a Brainrot. It’s one of the millions of unique, user-generated 3D experiences created on Roblox. 🗣️ Welcome to Steal a Brainrot!👍 Like the game and join the groupHow to Play:👽 Buy a…",
+      "href": "https://www.roblox.com/share?code=0e4291eb0b387a4da28bade603dbe656&type=Server",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/2d3aa85d92ac66f23fbd/3365698457599390456.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"www.roblox.com\",\"mediaTitle\":\"Join Private Server\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/www.roblox.com\\/share?code=0e4291eb0b387a4da28bade603dbe656&type=Server\",\"tType\":1,\"tWidth\":498,\"tHeight\":280,\"icon\":\"https:\\/\\/images.rbxcdn.com\\/7c5fe83dffa97250aaddd54178900ea7.png\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/recommend_link\\/0e15de77f8f03b97dca17d167fa5c9a1.jpg\",\"thumb_renew\":\"https:\\/\\/photo-stal-3.zdn.vn\\/gr\\/064ba1b598446c1a3555\\/213404541638276143.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174230981": {
+    "timestamp": "1760174231016",
+    "timestampString": "16:17:11",
+    "msgId": "7105624745635",
+    "cliMsgId": "1760174230981",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 45041,
+      "catId": 11883,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174232539": {
+    "timestamp": "1760174232645",
+    "timestampString": "16:17:13",
+    "msgId": "7105624830543",
+    "cliMsgId": "1760174232539",
+    "msgType": "webchat",
+    "uidFrom": "6902966209577120503",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyen Minh Huy",
+    "content": "@Nguyễn Trường Thái bn có mè",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }

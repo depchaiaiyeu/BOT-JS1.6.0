@@ -2733,8 +2733,8 @@
         {
           "UserName": "Núp Gầm Giường",
           "UID": "2275317996891696552",
-          "Rank": 1109,
-          "messageCountToday": 69,
+          "Rank": 1110,
+          "messageCountToday": 70,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6965,6 +6965,13 @@
         {
           "UserName": "Nguyễn Trường Thái",
           "UID": "4693555911012450841",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nguyen Minh Huy",
+          "UID": "6902966209577120503",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
