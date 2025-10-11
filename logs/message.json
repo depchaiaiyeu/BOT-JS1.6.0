@@ -25951,5 +25951,120 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "105610860542760": {
+    "timestamp": "1760181009125",
+    "timestampString": "18:10:09",
+    "msgId": "7105975385759",
+    "cliMsgId": "105610860542760",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@Minh Chiến",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/1115366616597299869/a12e3c4d2724aa7af335.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/1115366616597299869/a12e3c4d2724aa7af335.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/1115366616597299869\\/a12e3c4d2724aa7af335.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181008118": {
+    "timestamp": "1760181008171",
+    "timestampString": "18:10:09",
+    "msgId": "7105975382528",
+    "cliMsgId": "1760181008118",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "@Nhật Tân .src",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181009674": {
+    "timestamp": "1760181009774",
+    "timestampString": "18:10:10",
+    "msgId": "7105975441284",
+    "cliMsgId": "1760181009674",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n📡 Dữ liệu tin nhắn được reply:\n\n{\n  \"ownerId\": 3157504084480695300,\n  \"cliMsgId\": 1760180997697,\n  \"globalMsgId\": 7105974796462,\n  \"cliMsgType\": 1,\n  \"ts\": 1760180997963,\n  \"msg\": \"cc\",\n  \"attach\": \"\",\n  \"fromD\": \"Nhật Tân\",\n  \"ttl\": 600000\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":243,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181019030": {
+    "timestamp": "1760181019088",
+    "timestampString": "18:10:21",
+    "msgId": "7105975956297",
+    "cliMsgId": "1760181019030",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".src",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181021079": {
+    "timestamp": "1760181021183",
+    "timestampString": "18:10:21",
+    "msgId": "7105976024850",
+    "cliMsgId": "1760181021079",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n📡 Dữ liệu tin nhắn được reply:\n\n{\n  \"ownerId\": 690483581226941800,\n  \"cliMsgId\": 105610859385540,\n  \"globalMsgId\": 7105974373369,\n  \"cliMsgType\": 1,\n  \"ts\": 1760180989860,\n  \"msg\": \"cc\",\n  \"attach\": \"\",\n  \"fromD\": \"Vũ Xuân Kiên\",\n  \"ttl\": 0\n}",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":243,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181027839": {
+    "timestamp": "1760181027855",
+    "timestampString": "18:10:28",
+    "msgId": "7105976416087",
+    "cliMsgId": "1760181027839",
+    "msgType": "chat.sticker",
+    "uidFrom": "3689896893330581262",
+    "idTo": "7897564732983285154",
+    "dName": "Gray",
+    "content": {
+      "id": 47632,
+      "catId": 12045,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
