@@ -34162,5 +34162,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "105608581812840": {
+    "timestamp": "1760143030182",
+    "timestampString": "07:37:11",
+    "msgId": "7103993347571",
+    "cliMsgId": "105608581812840",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": "Sale file 500k còn 50k , đảm bảo 100% tác dụng , khi mua còn dc tặng thêm dpi nút bắn , độ nhạy cho từng máy",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
