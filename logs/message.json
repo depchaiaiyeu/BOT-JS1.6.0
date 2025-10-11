@@ -11750,5 +11750,60 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760173539851": {
+    "timestamp": "1760173541786",
+    "timestampString": "16:05:42",
+    "msgId": "7105588779149",
+    "cliMsgId": "1760173539851",
+    "msgType": "webchat",
+    "uidFrom": "331314569060252834",
+    "idTo": "9104968216656954464",
+    "dName": "Lương Điền Đông",
+    "content": "💦 WEB ĐỔI THẺ CÀO 💦\n🔗 GACHTHEFAST .COM DO AD CHECKSCAM Lương Điền Đông quản lí🔗\n 🔥 NẠP ROBUX,KC Ff,Thẻ tuần,Thẻ tháng , thẻ lên cấp giá rẻ ...\n🔥 CHIẾT KHẤU RẺ NHẤT VN\n🔥 RÚT MIN 2K - 30S TIỀN VỀ\n🔥 HOÀN TOÀN TỰ ĐỘNG 24/24",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173543507": {
+    "timestamp": "1760173543527",
+    "timestampString": "16:05:43",
+    "msgId": "7105588870358",
+    "cliMsgId": "1760173543507",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 45050,
+      "catId": 11883,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173552458": {
+    "timestamp": "1760173552486",
+    "timestampString": "16:05:53",
+    "msgId": "7105589347068",
+    "cliMsgId": "1760173552458",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "1367422010794969537",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f22-zpc.zdn.vn/5784289209462115217/6e9b9910f67d7b23226c.jpg",
+      "thumb": "https://f22-zpc.zdn.vn/5784289209462115217/6e9b9910f67d7b23226c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"394F12A2-51D2-4D7C-A90D-AC34F218601C1\\\",\\\"send_method\\\":0}\",\"contentId\":\"394F12A2-51D2-4D7C-A90D-AC34F218601C1\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
