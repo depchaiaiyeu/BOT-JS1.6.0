@@ -26736,5 +26736,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760181332487": {
+    "timestamp": "1760181333073",
+    "timestampString": "18:15:33",
+    "msgId": "7105992217952",
+    "cliMsgId": "1760181332487",
+    "msgType": "webchat",
+    "uidFrom": "6254335090438536432",
+    "idTo": "6512342651301747547",
+    "dName": "English Is Damn Easy",
+    "content": "còn 154acc clone cổ radom 2k9-2k15 acc k vô đc acc vô đc chưa very j hết giá 1k 1acc min 10acc ai mua ib em nhé",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181358243": {
+    "timestamp": "1760181358608",
+    "timestampString": "18:15:59",
+    "msgId": "7105993558954",
+    "cliMsgId": "1760181358243",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Lính Đánh Thuê Campuchia",
+    "content": "hi chị nhi tộc choa",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
