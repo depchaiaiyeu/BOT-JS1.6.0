@@ -8778,5 +8778,33 @@
     "threadId": "2760006576081013366",
     "type": 1,
     "isUndo": false
+  },
+  "1760170318521": {
+    "timestamp": "1760170318604",
+    "timestampString": "15:11:59",
+    "msgId": "7105412723705",
+    "cliMsgId": "1760170318521",
+    "msgType": "webchat",
+    "uidFrom": "2436492213014237419",
+    "idTo": "4699745045071009795",
+    "dName": "Phát Hotboy",
+    "content": "Có nữ nào fa ko",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170319655": {
+    "timestamp": "1760170319748",
+    "timestampString": "15:12:00",
+    "msgId": "7105412782021",
+    "cliMsgId": "1760170319655",
+    "msgType": "webchat",
+    "uidFrom": "2436492213014237419",
+    "idTo": "4699745045071009795",
+    "dName": "Phát Hotboy",
+    "content": "kb",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
