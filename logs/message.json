@@ -30861,5 +30861,65 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142004231": {
+    "timestamp": "1760142004319",
+    "timestampString": "07:20:05",
+    "msgId": "7103963105997",
+    "cliMsgId": "1760142004231",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "ovtk à",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142003102": {
+    "timestamp": "1760142005067",
+    "timestampString": "07:20:06",
+    "msgId": "7103963127945",
+    "cliMsgId": "1760142003102",
+    "msgType": "chat.photo",
+    "uidFrom": "1013740581836979754",
+    "idTo": "3453989112147091924",
+    "dName": "Trần Nhật Long",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/6cd81796e37e17204e6f/1568065490914891670.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/6cd81796e37e17204e6f/1568065490914891670.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"1000021100\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142000225": {
+    "timestamp": "1760142012488",
+    "timestampString": "07:20:13",
+    "msgId": "7103963344307",
+    "cliMsgId": "1760142000225",
+    "msgType": "chat.voice",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f2-voice-aac-dl.zdn.vn/640767972896879258/6e3b3372b4ff5aa103ee.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/f2-voice-aac-dl.zdn.vn\\/640767972896879258\\/6e3b3372b4ff5aa103ee.aac\",\"duration\":11776,\"fileSize\":95496,\"waveformSamples\":[5318,4316,2246,2695,983,1260,4793,1315,1686,5089,4590,3809,5161,2837,2703,2892,767,3116,2799,892,663,303,2840]}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
