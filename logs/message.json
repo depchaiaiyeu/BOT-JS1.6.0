@@ -19000,5 +19000,51 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760178540020": {
+    "timestamp": "1760178540051",
+    "timestampString": "17:29:00",
+    "msgId": "7105846138306",
+    "cliMsgId": "1760178540020",
+    "msgType": "chat.sticker",
+    "uidFrom": "5518548593240783022",
+    "idTo": "5464956150740844012",
+    "dName": "Hoàng Thanh Tùng",
+    "content": {
+      "id": 46953,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178539366": {
+    "timestamp": "1760178539460",
+    "timestampString": "17:29:00",
+    "msgId": "7105846108221",
+    "cliMsgId": "1760178539366",
+    "msgType": "webchat",
+    "uidFrom": "5576109141632962137",
+    "idTo": "4699745045071009795",
+    "dName": "Trọng Man",
+    "content": "M bt bố m là ai k",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178553020": {
+    "timestamp": "1760178553068",
+    "timestampString": "17:29:13",
+    "msgId": "7105846790148",
+    "cliMsgId": "1760178553020",
+    "msgType": "webchat",
+    "uidFrom": "7836374865116483067",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Tuấn Khang",
+    "content": "@Mai Quoc Trieu btri r",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
