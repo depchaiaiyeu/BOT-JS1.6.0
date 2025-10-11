@@ -10212,5 +10212,29 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760171954381": {
+    "timestamp": "1760171954368",
+    "timestampString": "15:39:15",
+    "msgId": "7105502116898",
+    "cliMsgId": "1760171954381",
+    "msgType": "chat.delete",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7897044775466704000,
+        "uidTo": 7897564732983285000,
+        "clientDelMsgId": 1760171400281,
+        "globalDelMsgId": 7105471939422,
+        "destId": 7897564732983285000
+      }
+    ],
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
