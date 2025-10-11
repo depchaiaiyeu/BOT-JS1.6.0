@@ -28693,5 +28693,97 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760141138604": {
+    "timestamp": "1760141138699",
+    "timestampString": "07:05:39",
+    "msgId": "7103939425958",
+    "cliMsgId": "1760141138604",
+    "msgType": "chat.recommended",
+    "uidFrom": "501056120325739471",
+    "idTo": "3453989112147091924",
+    "dName": "Không Tên",
+    "content": {
+      "title": "https://zalo.me/g/kpcdzb779",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/kpcdzb779",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2e8943c3d651760139793aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNzFiYWVhZGNhZGJhNDdlNDFlYWI=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"App kiếm tiền lẻ uy tín 💝💝💝\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/kpcdzb779\",\"owner\":{\"id\":423967489,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"http:\\/\\/s120.ava.grp.talk.zdn.vn\\/default\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141153911": {
+    "timestamp": "1760141154226",
+    "timestampString": "07:05:55",
+    "msgId": "7103939818662",
+    "cliMsgId": "1760141153911",
+    "msgType": "chat.recommended",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "Bạn đã cài đặt nó chưa? Chỉ cần nhập ID lời mời 30909901 và bạn có thể nhận được ₫26K.https://d2abani1vmq5hb.cloudfront.net/cr/index_8.html?s=MzIxMzEzMjQ&id=30909901",
+      "description": "",
+      "href": "https://d2abani1vmq5hb.cloudfront.net/cr/index_8.html?s=MzIxMzEzMjQ&id=30909901",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"d2abani1vmq5hb.cloudfront.net\",\"mediaTitle\":\"Crazy Rock\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/d2abani1vmq5hb.cloudfront.net\\/cr\\/index_8.html?s=MzIxMzEzMjQ&id=30909901\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"\\/assets\\/img\\/logo.png\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141156162": {
+    "timestamp": "1760141156450",
+    "timestampString": "07:05:57",
+    "msgId": "7103939876112",
+    "cliMsgId": "1760141156162",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/3828091220844323417/702c81159e75132b4a64.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/3828091220844323417/702c81159e75132b4a64.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760141154723,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"799\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141156205": {
+    "timestamp": "1760141156499",
+    "timestampString": "07:05:57",
+    "msgId": "7103939877865",
+    "cliMsgId": "1760141156205",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/6612461434369273600/82d1f6e8e98864d63d99.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/6612461434369273600/82d1f6e8e98864d63d99.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760141154723,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"798\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
