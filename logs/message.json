@@ -922,5 +922,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760164595332": {
+    "timestamp": "1760164595260",
+    "timestampString": "13:36:36",
+    "msgId": "7105143829421",
+    "cliMsgId": "1760164595332",
+    "msgType": "webchat",
+    "uidFrom": "3120218143259821942",
+    "idTo": "9104968216656954464",
+    "dName": "Triệu Thịnh",
+    "content": "Đổi USDT sang Việt Nam Đồng. Vui lòng liên hệ với tôi nếu bạn cần.",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
