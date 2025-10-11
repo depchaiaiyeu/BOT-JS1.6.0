@@ -20299,5 +20299,42 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760179300404": {
+    "timestamp": "1760179300463",
+    "timestampString": "17:41:41",
+    "msgId": "7105885111224",
+    "cliMsgId": "1760179300404",
+    "msgType": "webchat",
+    "uidFrom": "1240053237398521102",
+    "idTo": "9104968216656954464",
+    "dName": "Vương Tấn Phát",
+    "content": "Ai có dilo rb rb > 22-23kg ib",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610758744840": {
+    "timestamp": "1760179312623",
+    "timestampString": "17:41:53",
+    "msgId": "7105885702042",
+    "cliMsgId": "105610758744840",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@Ngọc Giàu",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/1762249715547593498/4d15c521634fee11b75e.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/1762249715547593498/4d15c521634fee11b75e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/1762249715547593498\\/4d15c521634fee11b75e.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
