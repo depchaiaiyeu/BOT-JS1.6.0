@@ -37086,5 +37086,65 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760144700910": {
+    "timestamp": "1760144701568",
+    "timestampString": "08:05:02",
+    "msgId": "7104053663587",
+    "cliMsgId": "1760144700910",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "206503079877623526",
+    "dName": "Dương",
+    "content": "Sao chậm?",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144705923": {
+    "timestamp": "1760144705987",
+    "timestampString": "08:05:06",
+    "msgId": "7104053889156",
+    "cliMsgId": "1760144705923",
+    "msgType": "chat.photo",
+    "uidFrom": "5739927769350407827",
+    "idTo": "7585160044864555896",
+    "dName": "Văn Tám",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f35-zfcloud.zdn.vn/907cbcad8723267d7f32/1349624702313821222?createby=NDQ_Bot.webp",
+      "thumb": "https://f35-zfcloud.zdn.vn/907cbcad8723267d7f32/1349624702313821222?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758851848253\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f35-zfcloud.zdn.vn\\/907cbcad8723267d7f32\\/1349624702313821222?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758851848253\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144708347": {
+    "timestamp": "1760144709940",
+    "timestampString": "08:05:10",
+    "msgId": "7104054075098",
+    "cliMsgId": "1760144708347",
+    "msgType": "chat.photo",
+    "uidFrom": "9210252485480501226",
+    "idTo": "206503079877623526",
+    "dName": "Con Mèo",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/e182ed58ab650a3b5374/2990395453257325147",
+      "thumb": "https://fg43.dlfl.vn/e182ed58ab650a3b5374/2990395453257325147",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1750596494195\",\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":218,\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/e182ed58ab650a3b5374\\/2990395453257325147\"},\"height\":214}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
