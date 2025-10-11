@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064394675": {
-    "timestamp": "1760064394870",
-    "timestampString": "09:46:35",
-    "msgId": "7100636695989",
-    "cliMsgId": "1760064394675",
-    "msgType": "chat.recommended",
-    "uidFrom": "3614609483692603922",
-    "idTo": "5166581134204343688",
-    "dName": "Trần Duy Trọng",
-    "content": {
-      "title": "https://zalo.me/g/ikblua102",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/ikblua102",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25c7ed129771760064394aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvN2VjMTlkOWFmZWZjMTRhMjRkZWQ=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"HACK MAP LQ NO KEY( Chộ Đó)\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/ikblua102\",\"owner\":{\"id\":445196981,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/b\\/b\\/1\\/5\\/2\\/120\\/06c1cb6ed546b6685ec56157a72569ac.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
-      "type": ""
-    },
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
-  "105603865095000": {
-    "timestamp": "1760064418390",
-    "timestampString": "09:46:59",
-    "msgId": "7100638477284",
-    "cliMsgId": "105603865095000",
-    "msgType": "chat.photo",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": {
-      "title": "@Attack By Cún ツ",
-      "description": "",
-      "href": "https://f64-zpg-r.zdn.vn/5292193909660051783/02b8d2cbe6956bcb3284.jpg",
-      "thumb": "https://t-f64-zpg-r.zdn.vn/480/5292193909660051783/02b8d2cbe6956bcb3284.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/5292193909660051783\\/02b8d2cbe6956bcb3284.jpg\",\"hdSize\":344622,\"height\":760}",
-      "type": ""
-    },
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "105603867334260": {
     "timestamp": "1760064455577",
     "timestampString": "09:47:36",
