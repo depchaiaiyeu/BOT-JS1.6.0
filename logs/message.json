@@ -15572,5 +15572,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760177186786": {
+    "timestamp": "1760177186887",
+    "timestampString": "17:06:28",
+    "msgId": "7105778148219",
+    "cliMsgId": "1760177186786",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/2900482759852848784/f72d254cd822557c0c33.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/2900482759852848784/f72d254cd822557c0c33.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/2900482759852848784\\/f72d254cd822557c0c33.jpg\",\"hdSize\":375775,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
