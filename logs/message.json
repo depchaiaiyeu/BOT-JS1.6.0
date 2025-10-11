@@ -20601,5 +20601,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760179664278": {
+    "timestamp": "1760179664879",
+    "timestampString": "17:47:45",
+    "msgId": "7105904080182",
+    "cliMsgId": "1760179664278",
+    "msgType": "chat.recommended",
+    "uidFrom": "4692712418377940772",
+    "idTo": "5166581134204343688",
+    "dName": "Thiệu Hoàng",
+    "content": {
+      "title": "https://youtu.be/ShXLD3_xwdU?si=JCyUPgFRe4YLFv0U",
+      "description": "Thưởng thức video và nhạc bạn yêu thích, tải nội dung do bạn sáng tạo lên và chia sẻ nội dung đó với gia đình, bạn bè cũng như mọi người trên YouTube.",
+      "href": "https://youtu.be/ShXLD3_xwdU?si=JCyUPgFRe4YLFv0U",
+      "thumb": "https://f64-zpg-r.zdn.vn/2302544761601305874/2e78cb379e5e13004a4f.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"youtu.be\",\"mediaTitle\":\"Share Tool Golike Instargam Siêu Vip Ngày Kiếm 100k - 200k \",\"streamUrl\":\"\",\"type\":0,\"linkType\":2,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/youtu.be\\/ShXLD3_xwdU?si=JCyUPgFRe4YLFv0U\",\"tType\":1,\"tWidth\":480,\"tHeight\":360,\"icon\":\"https:\\/\\/www.youtube.com\\/s\\/desktop\\/26a38178\\/img\\/favicon.ico\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/semicache\\/thumb_link\\/592882093430919433f70a2fe8e996c7.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
