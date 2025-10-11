@@ -31592,5 +31592,56 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760142250563": {
+    "timestamp": "1760142250658",
+    "timestampString": "07:24:11",
+    "msgId": "7103970147682",
+    "cliMsgId": "1760142250563",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "nào nó onl tui mở chat cho bạn nc nha",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142259301": {
+    "timestamp": "1760142259400",
+    "timestampString": "07:24:20",
+    "msgId": "7103970394457",
+    "cliMsgId": "1760142259301",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "box này của ngt đừng ồn ào",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142257758": {
+    "timestamp": "1760142266328",
+    "timestampString": "07:24:27",
+    "msgId": "7103970592572",
+    "cliMsgId": "1760142257758",
+    "msgType": "chat.voice",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/8539569294501419374/d5e0b05e36d3d88d81c2.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/8539569294501419374\\/d5e0b05e36d3d88d81c2.aac\",\"duration\":8192,\"fileSize\":66432,\"waveformSamples\":[1673,9846,11621,2266,760,9298,21216,9273,1471,13387,22297,18199,18843,17573,18959,14011,16319,18361,14708,7061,12688,19286,17319]}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
