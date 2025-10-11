@@ -19784,5 +19784,112 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178851630": {
+    "timestamp": "1760178851679",
+    "timestampString": "17:34:12",
+    "msgId": "7105862018344",
+    "cliMsgId": "1760178851630",
+    "msgType": "chat.photo",
+    "uidFrom": "7836374865116483067",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Tuấn Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg40.dlfl.vn/b31b5ca47482d5dc8c93/8387794766324026640",
+      "thumb": "https://fg40.dlfl.vn/b31b5ca47482d5dc8c93/8387794766324026640",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":576,\"height\":768,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1748574756023\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg40.dlfl.vn\\/b31b5ca47482d5dc8c93\\/8387794766324026640\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1748574756023\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178851253": {
+    "timestamp": "1760178851355",
+    "timestampString": "17:34:12",
+    "msgId": "7105862002765",
+    "cliMsgId": "1760178851253",
+    "msgType": "webchat",
+    "uidFrom": "5576109141632962137",
+    "idTo": "4699745045071009795",
+    "dName": "Trọng Man",
+    "content": "@Vô Danh bt thì làm đc j bn",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178865504": {
+    "timestamp": "1760178865581",
+    "timestampString": "17:34:26",
+    "msgId": "7105862733105",
+    "cliMsgId": "1760178865504",
+    "msgType": "chat.recommended",
+    "uidFrom": "4340393619394552071",
+    "idTo": "6512342651301747547",
+    "dName": "Bùi Văn Thành",
+    "content": {
+      "title": "✦━━━━━━━━━━━━━━✦\n💕Khai Trương Web 💕\n--- tuongtac5sao.online -----\n👉 Tặng ngay 10% giá trị nạp cho tất cả tài khoản trong tuần khai trương!\n✦━━━━━━━━━━━━━━✦\n• ❤️10k tim tiktok chỉ : 7k\n• 🧡1000 follow tiktok chỉ : 20k\n• 💛100000 view video chỉ : 700đ\n• 💚10000 yêu thích tiktok chỉ : 500đ\n• 💙1000 follow fb chỉ 3k\n• 💜1000 view video fb chỉ 2k\n 💝 Nhóm tặng card : https://zalo.me/g/hulpmy851 💝",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/hulpmy851",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv232228c9f2c1760173413aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMTliY2FkNzRhYjJkNDE3MzE4M2M=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Tăng Tương Tác Facebook Tik Tok Instagram\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/hulpmy851\",\"owner\":{\"id\":355081403,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/a\\/f\\/3\\/3\\/8\\/120\\/570896ca57b618d3238472c3359b12b3.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178865776": {
+    "timestamp": "1760178865782",
+    "timestampString": "17:34:26",
+    "msgId": "7105862736184",
+    "cliMsgId": "1760178865776",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4340393619394552300,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1760178865504,
+        "globalDelMsgId": 7105862733105,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178865845": {
+    "timestamp": "1760178865851",
+    "timestampString": "17:34:26",
+    "msgId": "7105862736189",
+    "cliMsgId": "1760178865845",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "➜ [ANTI-LINK]\n1302280640517787634\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi link vào nhóm. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
