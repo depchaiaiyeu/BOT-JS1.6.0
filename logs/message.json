@@ -37614,5 +37614,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760145086852": {
+    "timestamp": "1760145087538",
+    "timestampString": "08:11:28",
+    "msgId": "7104072088701",
+    "cliMsgId": "1760145086852",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "206503079877623526",
+    "dName": "Dương",
+    "content": "Đỉnh chưa?",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
