@@ -27068,7 +27068,7 @@
     "content": "@Kiet ủa e kiệt",
     "threadId": "4699745045071009795",
     "type": 1,
-    "isUndo": false
+    "isUndo": true
   },
   "1760181483783": {
     "timestamp": "1760181483863",
@@ -27350,6 +27350,132 @@
       "type": ""
     },
     "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181662765": {
+    "timestamp": "1760181666003",
+    "timestampString": "18:21:06",
+    "msgId": "7106009099595",
+    "cliMsgId": "1760181662765",
+    "msgType": "webchat",
+    "uidFrom": "2401473588733154152",
+    "idTo": "9104968216656954464",
+    "dName": "Hoàng Phát",
+    "content": "Nhóm Tài Nguyên MMO Và FB Cho Ae Tham Khảo: https://zalo.me/g/fgripr476",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056108999712200": {
+    "timestamp": "1760181666123",
+    "timestampString": "18:21:06",
+    "msgId": "7106009099608",
+    "cliMsgId": "1056108999712200",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hoàng Phát\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056109001501400": {
+    "timestamp": "1760181669096",
+    "timestampString": "18:21:09",
+    "msgId": "7106009277635",
+    "cliMsgId": "1056109001501400",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "2990969618896538297",
+    "dName": "Hà Y",
+    "content": "Xp Chéo Link \nhttps://zalo.me/g/yriczl799\nhttps://zalo.me/g/hcbwok299",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056109001515200": {
+    "timestamp": "1760181669117",
+    "timestampString": "18:21:09",
+    "msgId": "7106009277637",
+    "cliMsgId": "1056109001515200",
+    "msgType": "chat.recommended",
+    "uidFrom": "1097350646085407745",
+    "idTo": "2990969618896538297",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hà Y",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/213354056\\/57fb6c876fdb8685dfca.jpg\",\"gUid\":\"F2IGHPH6TP91O91DFDD3VBPFQDEPPL80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/c/5/8/9/21/120/7f0bfe5ec785bc16adc8bd247c0fdc83.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "1097350646085407745",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181677289": {
+    "timestamp": "1760181677361",
+    "timestampString": "18:21:18",
+    "msgId": "7106009714566",
+    "cliMsgId": "1760181677289",
+    "msgType": "webchat",
+    "uidFrom": "5072417198178059103",
+    "idTo": "5166581134204343688",
+    "dName": "Ngô Quang Đạt",
+    "content": "@Phạm Bá Phúc đột biến đó là lấy tb số đông:))",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181685537": {
+    "timestamp": "1760181686577",
+    "timestampString": "18:21:27",
+    "msgId": "7106010152713",
+    "cliMsgId": "1760181685537",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "👤 Tran Luc Nhi đã thu hồi tin nhắn sau...\n⏰ Thời gian gửi: 18:18:01\n🔔 Thời gian thu hồi: 18:21:25\n📝 Nội Dung: @Kiet ủa e kiệt",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181688591": {
+    "timestamp": "1760181688754",
+    "timestampString": "18:21:29",
+    "msgId": "7106010288982",
+    "cliMsgId": "1760181688591",
+    "msgType": "chat.delete",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5047084489515675000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760181483783,
+        "globalDelMsgId": 7105999927186,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
   }
