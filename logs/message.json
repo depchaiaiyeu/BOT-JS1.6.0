@@ -308,5 +308,79 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760164285246": {
+    "timestamp": "1760164285335",
+    "timestampString": "13:31:26",
+    "msgId": "7105130821528",
+    "cliMsgId": "1760164285246",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "@Văn Chiếnツム oke",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164291223": {
+    "timestamp": "1760164291320",
+    "timestampString": "13:31:31",
+    "msgId": "7105131072827",
+    "cliMsgId": "1760164291223",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "@Văn Chiếnツム thank you",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164296666": {
+    "timestamp": "1760164296761",
+    "timestampString": "13:31:37",
+    "msgId": "7105131300383",
+    "cliMsgId": "1760164296666",
+    "msgType": "chat.photo",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/f747b9b7f78556db0f94/8501868268331058046?createby=NDQ_Bot.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/f747b9b7f78556db0f94/8501868268331058046?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":498,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758262906678\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/f747b9b7f78556db0f94\\/8501868268331058046?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758262906678\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164306564": {
+    "timestamp": "1760164307372",
+    "timestampString": "13:31:48",
+    "msgId": "7105131743200",
+    "cliMsgId": "1760164306564",
+    "msgType": "chat.photo",
+    "uidFrom": "4601459890677024224",
+    "idTo": "1747464985521437051",
+    "dName": "Lê Tuấn Vỹ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/4009716169599637077/ec4c1471101d9d43c40c.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/4009716169599637077/ec4c1471101d9d43c40c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":324,\"thumb_width\":1038,\"thumb_height\":324,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/f57-zpg-r.zdn.vn\\/jpg\\/4009716169599637077\\/ec4c1471101d9d43c40c.jpg\",\"width\":1038,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
