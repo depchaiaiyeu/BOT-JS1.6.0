@@ -12484,5 +12484,85 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760174610640": {
+    "timestamp": "1760174610678",
+    "timestampString": "16:23:31",
+    "msgId": "7105644207523",
+    "cliMsgId": "1760174610640",
+    "msgType": "webchat",
+    "uidFrom": "1561495027624533904",
+    "idTo": "3228108398535377399",
+    "dName": "布阿什 安 Nguyễn Lương Trung 布阿什 安",
+    "content": "@mrtrungvip_bot @All buff view đã đc bật ko hỗ trợ vid ảnh key 10h",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174627182": {
+    "timestamp": "1760174627288",
+    "timestampString": "16:23:47",
+    "msgId": "7105645050580",
+    "cliMsgId": "1760174627182",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": "⚠️ Cảnh cáo @种地!\nỞ đây Đại Ca tao cấm gửi link",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174626946": {
+    "timestamp": "1760174627053",
+    "timestampString": "16:23:47",
+    "msgId": "7105645050526",
+    "cliMsgId": "1760174626946",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5464956150740844012",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4321385379093947000,
+        "uidTo": 5464956150740844000,
+        "clientDelMsgId": 1760174625874,
+        "globalDelMsgId": 7105645001159,
+        "destId": 5464956150740844000
+      }
+    ],
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174625874": {
+    "timestamp": "1760174626114",
+    "timestampString": "16:23:48",
+    "msgId": "7105645001159",
+    "cliMsgId": "1760174625874",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5464956150740844012",
+    "dName": "种地",
+    "content": "https://zalo.me/g/fsowtu294\n👹bot diêm vương 👺\nXp boss mk chéo ạ mọi người vào nhóm để trả nhé -3",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174627413": {
+    "timestamp": "1760174628220",
+    "timestampString": "16:23:49",
+    "msgId": "7105645080755",
+    "cliMsgId": "1760174627413",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4321385379093947075",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Admin đã chặn gửi link trong nhóm, link của 种地 bị xóa!",
+    "threadId": "4321385379093947075",
+    "type": 0,
+    "isUndo": false
   }
 }
