@@ -45,48 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760067901702": {
-    "timestamp": "1760067901718",
-    "timestampString": "10:45:02",
-    "msgId": "7100908719179",
-    "cliMsgId": "1760067901702",
-    "msgType": "webchat",
-    "uidFrom": "5594840110292207775",
-    "idTo": "8311627129351719523",
-    "dName": "Dthinh",
-    "content": "Sao lại là site",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760067906658": {
-    "timestamp": "1760067906664",
-    "timestampString": "10:45:07",
-    "msgId": "7100909102020",
-    "cliMsgId": "1760067906658",
-    "msgType": "webchat",
-    "uidFrom": "5594840110292207775",
-    "idTo": "8311627129351719523",
-    "dName": "Dthinh",
-    "content": ".com đi",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760067908588": {
-    "timestamp": "1760067908613",
-    "timestampString": "10:45:09",
-    "msgId": "7100909254349",
-    "cliMsgId": "1760067908588",
-    "msgType": "webchat",
-    "uidFrom": "5594840110292207775",
-    "idTo": "8311627129351719523",
-    "dName": "Dthinh",
-    "content": ":)))",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
   "1760068155821": {
     "timestamp": "1760068156035",
     "timestampString": "10:49:17",
