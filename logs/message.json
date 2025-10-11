@@ -7994,5 +7994,60 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760169447418": {
+    "timestamp": "1760169450222",
+    "timestampString": "14:57:31",
+    "msgId": "7105365995350",
+    "cliMsgId": "1760169447418",
+    "msgType": "webchat",
+    "uidFrom": "2401473588733154152",
+    "idTo": "9104968216656954464",
+    "dName": "Hoàng Phát",
+    "content": "Nhóm Tài Nguyên MMO Và FB Cho Ae Tham Khảo: https://zalo.me/g/fgripr476",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056101670177000": {
+    "timestamp": "1760169450519",
+    "timestampString": "14:57:31",
+    "msgId": "7105365995402",
+    "cliMsgId": "1056101670177000",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hoàng Phát\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169456012": {
+    "timestamp": "1760169456138",
+    "timestampString": "14:57:36",
+    "msgId": "7105366293063",
+    "cliMsgId": "1760169456012",
+    "msgType": "chat.sticker",
+    "uidFrom": "6698910511481637580",
+    "idTo": "4699745045071009795",
+    "dName": "Việt",
+    "content": {
+      "id": 18009,
+      "catId": 10130,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
