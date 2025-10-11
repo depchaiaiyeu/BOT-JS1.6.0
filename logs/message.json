@@ -722,5 +722,98 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "105609871248300": {
+    "timestamp": "1760164521040",
+    "timestampString": "13:35:21",
+    "msgId": "7105140702985",
+    "cliMsgId": "105609871248300",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Hoa Bằng Lăng",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/8976028178715337911/098342bf7ed3f38daac2.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/8976028178715337911/098342bf7ed3f38daac2.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/8976028178715337911\\/098342bf7ed3f38daac2.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164520397": {
+    "timestamp": "1760164521365",
+    "timestampString": "13:35:22",
+    "msgId": "7105140703046",
+    "cliMsgId": "1760164520397",
+    "msgType": "chat.photo",
+    "uidFrom": "6988599456249707975",
+    "idTo": "5601607522756268167",
+    "dName": "Poiuyt",
+    "content": {
+      "title": "@Hoa Bằng Lăng",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/2549987513329275207/80cffaf7c69b4bc5128a.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/2549987513329275207/80cffaf7c69b4bc5128a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/2549987513329275207\\/80cffaf7c69b4bc5128a.jpg\",\"hdSize\":344622,\"height\":450}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164521508": {
+    "timestamp": "1760164521516",
+    "timestampString": "13:35:22",
+    "msgId": "7105140730652",
+    "cliMsgId": "1760164521508",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6988599456249708000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164520397,
+        "globalDelMsgId": 7105140703046,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164521580": {
+    "timestamp": "1760164521579",
+    "timestampString": "13:35:22",
+    "msgId": "7105140730660",
+    "cliMsgId": "1760164521580",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nPoiuyt\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
