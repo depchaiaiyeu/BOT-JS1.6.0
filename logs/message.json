@@ -2584,5 +2584,74 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760166696959": {
+    "timestamp": "1760166696977",
+    "timestampString": "14:11:38",
+    "msgId": "7105236002665",
+    "cliMsgId": "1760166696959",
+    "msgType": "chat.recommended",
+    "uidFrom": "9094715627876854029",
+    "idTo": "9104968216656954464",
+    "dName": "Minh Khang",
+    "content": {
+      "title": "Nhóm zalo cộng đồng 𝗥𝗼𝗯𝗹𝗼𝘅 𝗦𝘂𝗽𝗲𝗿𝗺𝗮𝗿𝗸𝗲𝘁✨\nhttps://zalo.me/g/mnmwlx095",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/mnmwlx095",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2255a6725b31760166696aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvYWZmOTYxYTQ3MWMzOWI5ZGMyZDI=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"𝗥𝗼𝗯𝗹𝗼𝘅 𝗦𝘂𝗽𝗲𝗿𝗺𝗮𝗿𝗸𝗲𝘁✨\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/mnmwlx095\",\"owner\":{\"id\":285458425,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/b\\/e\\/c\\/b\\/2\\/120\\/e7ef0a6bf3171c6cad82b0c559783fb2.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056100018113000": {
+    "timestamp": "1760166697112",
+    "timestampString": "14:11:38",
+    "msgId": "7105235984252",
+    "cliMsgId": "1056100018113000",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Minh Khang\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056100018680600": {
+    "timestamp": "1760166697826",
+    "timestampString": "14:11:38",
+    "msgId": "7105236038437",
+    "cliMsgId": "1056100018680600",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "9104968216656954464",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Minh Khang\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
