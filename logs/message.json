@@ -39345,5 +39345,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760186842112": {
+    "timestamp": "1760186842326",
+    "timestampString": "19:47:23",
+    "msgId": "7106285680985",
+    "cliMsgId": "1760186842112",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": "vcl",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
