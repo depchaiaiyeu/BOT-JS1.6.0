@@ -8257,5 +8257,56 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1760170049788": {
+    "timestamp": "1760170049844",
+    "timestampString": "15:07:30",
+    "msgId": "7105397958808",
+    "cliMsgId": "1760170049788",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "/leave",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170050129": {
+    "timestamp": "1760170050116",
+    "timestampString": "15:07:30",
+    "msgId": "7105397968207",
+    "cliMsgId": "1760170050129",
+    "msgType": "webchat",
+    "uidFrom": "7996546437749110466",
+    "idTo": "1747464985521437051",
+    "dName": "Thư",
+    "content": {
+      "title": "BOT Bảo Hưng\n\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":0,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170076914": {
+    "timestamp": "1760170077062",
+    "timestampString": "15:07:58",
+    "msgId": "7105399402967",
+    "cliMsgId": "1760170076914",
+    "msgType": "webchat",
+    "uidFrom": "3680633055661213231",
+    "idTo": "1747464985521437051",
+    "dName": "Nem G",
+    "content": "/help",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }

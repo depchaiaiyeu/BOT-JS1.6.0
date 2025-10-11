@@ -5591,9 +5591,9 @@
         {
           "UserName": "Nguyễn Hoàng Bảo Hưng",
           "UID": "1847479899180587928",
-          "Rank": 2,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 3,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Briar",
@@ -5696,6 +5696,13 @@
         {
           "UserName": "Thư",
           "UID": "7996546437749110466",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nem G",
+          "UID": "3680633055661213231",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
