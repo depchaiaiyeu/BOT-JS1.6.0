@@ -35664,5 +35664,61 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760144190120": {
+    "timestamp": "1760144190184",
+    "timestampString": "07:56:30",
+    "msgId": "7104032515942",
+    "cliMsgId": "1760144190120",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "Lắm font v",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144199765": {
+    "timestamp": "1760144199815",
+    "timestampString": "07:56:40",
+    "msgId": "7104032865328",
+    "cliMsgId": "1760144199765",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Trên google",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144204692": {
+    "timestamp": "1760144204778",
+    "timestampString": "07:56:45",
+    "msgId": "7104033046787",
+    "cliMsgId": "1760144204692",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144219007": {
+    "timestamp": "1760144219075",
+    "timestampString": "07:56:59",
+    "msgId": "7104033569372",
+    "cliMsgId": "1760144219007",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "T dùng ari với emoji thôi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
