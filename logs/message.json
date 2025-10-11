@@ -28977,5 +28977,149 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760182508885": {
+    "timestamp": "1760182508951",
+    "timestampString": "18:35:09",
+    "msgId": "7106052908950",
+    "cliMsgId": "1760182508885",
+    "msgType": "webchat",
+    "uidFrom": "3016906608329168613",
+    "idTo": "4825567233436439756",
+    "dName": "Văn",
+    "content": "!scl nơi tình yêu bắt đầu",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182509549": {
+    "timestamp": "1760182521181",
+    "timestampString": "18:35:22",
+    "msgId": "7106053517304",
+    "cliMsgId": "1760182509549",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 227886665729461020,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1760182509549,
+        "globalDelMsgId": 7106052962637,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182520983": {
+    "timestamp": "1760182521072",
+    "timestampString": "18:35:21",
+    "msgId": "7106053558363",
+    "cliMsgId": "1760182520983",
+    "msgType": "webchat",
+    "uidFrom": "3016906608329168613",
+    "idTo": "4825567233436439756",
+    "dName": "Văn",
+    "content": "1",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182521622": {
+    "timestamp": "1760182522424",
+    "timestampString": "18:35:22",
+    "msgId": "7106053626401",
+    "cliMsgId": "1760182521622",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Văn\nChờ lấy nhạc một chút, xong sẽ gọi cho hay.\n\n⏳ Nơi Tình Yêu Bắt Đầu - Bùi Anh Tuấn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":4,\"len\":82,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182523236": {
+    "timestamp": "1760182524039",
+    "timestampString": "18:35:24",
+    "msgId": "7106053682706",
+    "cliMsgId": "1760182523236",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Văn\n> From SoundCloud <\nNhạc Bạn Chọn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":4,\"len\":40,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182523303": {
+    "timestamp": "1760182524105",
+    "timestampString": "18:35:24",
+    "msgId": "7106053682714",
+    "cliMsgId": "1760182523303",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/3126037911460992979/52f64caf69c6e498bdd7.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/3126037911460992979/52f64caf69c6e498bdd7.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":678,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/3126037911460992979\\/52f64caf69c6e498bdd7.jpg\",\"hdSize\":143458,\"height\":212}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182523333": {
+    "timestamp": "1760182524222",
+    "timestampString": "18:35:25",
+    "msgId": "7106053682728",
+    "cliMsgId": "1760182523333",
+    "msgType": "chat.voice",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/c78c0f9b25078459dd16/7879320767585283318?createby=NDQ_Bot/1760182522584.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":4253987,\"m4a\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/c78c0f9b25078459dd16\\/7879320767585283318?createby=NDQ_Bot\\/1760182522584.aac\"}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
