@@ -1371,9 +1371,9 @@
         {
           "UserName": "Ehvn",
           "UID": "7146211764988620311",
-          "Rank": 8,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 9,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Nguyễn Ngọc Duy",
@@ -1450,6 +1450,13 @@
           "UID": "3591378198389065708",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Bùi Hữu Hùng",
+          "UID": "5369350707826141368",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],
@@ -2118,6 +2125,13 @@
           "UID": "7520156140404430183",
           "Rank": 3,
           "messageCountToday": 3,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "English Is Damn Easy",
+          "UID": "6254335090438536432",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],

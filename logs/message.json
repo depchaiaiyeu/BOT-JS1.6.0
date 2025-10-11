@@ -10638,5 +10638,47 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1760172394807": {
+    "timestamp": "1760172394852",
+    "timestampString": "15:46:35",
+    "msgId": "7105526670954",
+    "cliMsgId": "1760172394807",
+    "msgType": "webchat",
+    "uidFrom": "5369350707826141368",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hữu Hùng",
+    "content": "Zalo có spam call box hả",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172398372": {
+    "timestamp": "1760172399099",
+    "timestampString": "15:46:39",
+    "msgId": "7105526894871",
+    "cliMsgId": "1760172398372",
+    "msgType": "webchat",
+    "uidFrom": "6254335090438536432",
+    "idTo": "6512342651301747547",
+    "dName": "English Is Damn Easy",
+    "content": "có web buff tiktok k ạ các cậu",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172407916": {
+    "timestamp": "1760172408699",
+    "timestampString": "15:46:49",
+    "msgId": "7105527406686",
+    "cliMsgId": "1760172407916",
+    "msgType": "webchat",
+    "uidFrom": "7146211764988620311",
+    "idTo": "4825567233436439756",
+    "dName": "Ehvn",
+    "content": "@Bùi Hiếu vc",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
