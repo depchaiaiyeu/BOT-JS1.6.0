@@ -29682,5 +29682,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760182949739": {
+    "timestamp": "1760182949867",
+    "timestampString": "18:42:30",
+    "msgId": "7106076410243",
+    "cliMsgId": "1760182949739",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Có r s sài :))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
