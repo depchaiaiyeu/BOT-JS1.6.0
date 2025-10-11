@@ -12741,5 +12741,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760175034199": {
+    "timestamp": "1760175034263",
+    "timestampString": "16:30:38",
+    "msgId": "7105666002568",
+    "cliMsgId": "1760175034199",
+    "msgType": "webchat",
+    "uidFrom": "8479968392931130005",
+    "idTo": "4699745045071009795",
+    "dName": "Mèo",
+    "content": "@Vũ Xuân Kiên nhắn lộn 3 ơi😭",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175038016": {
+    "timestamp": "1760175038121",
+    "timestampString": "16:30:38",
+    "msgId": "7105666193555",
+    "cliMsgId": "1760175038016",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "u",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
