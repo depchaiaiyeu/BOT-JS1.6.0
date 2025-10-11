@@ -5942,5 +5942,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760168467631": {
+    "timestamp": "1760168467958",
+    "timestampString": "14:41:08",
+    "msgId": "7105318465463",
+    "cliMsgId": "1760168467631",
+    "msgType": "webchat",
+    "uidFrom": "1905170892564597579",
+    "idTo": "5166581134204343688",
+    "dName": "Nguyễn Duy Anh",
+    "content": "C chó nào lại spam gọi",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
