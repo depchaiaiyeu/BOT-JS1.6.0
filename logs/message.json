@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760070557688": {
-    "timestamp": "1760070559383",
-    "timestampString": "11:29:20",
-    "msgId": "7101115253616",
-    "cliMsgId": "1760070557688",
-    "msgType": "webchat",
-    "uidFrom": "9210252485480501226",
-    "idTo": "7585160044864555896",
-    "dName": "Con Mèo",
-    "content": "mua thì có",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760070616997": {
     "timestamp": "1760070617142",
     "timestampString": "11:30:17",
