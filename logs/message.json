@@ -11592,5 +11592,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760173377564": {
+    "timestamp": "1760173377651",
+    "timestampString": "16:02:58",
+    "msgId": "7105580000089",
+    "cliMsgId": "1760173377564",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@Nhân Trương kè var bên box đây",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
