@@ -6901,5 +6901,140 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760168819266": {
+    "timestamp": "1760168819935",
+    "timestampString": "14:47:00",
+    "msgId": "7105335363559",
+    "cliMsgId": "1760168819266",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "@种地 add tui vao nhieu gr vcl",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168824210": {
+    "timestamp": "1760168824831",
+    "timestampString": "14:47:05",
+    "msgId": "7105335597899",
+    "cliMsgId": "1760168824210",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ":(",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168825926": {
+    "timestamp": "1760168825972",
+    "timestampString": "14:47:06",
+    "msgId": "7105335656880",
+    "cliMsgId": "1760168825926",
+    "msgType": "chat.delete",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3230551378165897000,
+        "uidTo": 2760006576081013000,
+        "clientDelMsgId": 1760168813351,
+        "globalDelMsgId": 7105335064439,
+        "destId": 2760006576081013000
+      }
+    ],
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168835903": {
+    "timestamp": "1760168835945",
+    "timestampString": "14:47:17",
+    "msgId": "7105336141338",
+    "cliMsgId": "1760168835903",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "@Minh Tuan ;)) thêm nào má",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168840913": {
+    "timestamp": "1760168841564",
+    "timestampString": "14:47:21",
+    "msgId": "7105336405695",
+    "cliMsgId": "1760168840913",
+    "msgType": "chat.sticker",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": {
+      "id": 9,
+      "catId": 0,
+      "type": 7
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168843354": {
+    "timestamp": "1760168843983",
+    "timestampString": "14:47:24",
+    "msgId": "7105336510213",
+    "cliMsgId": "1760168843354",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ",",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056101306377800": {
+    "timestamp": "1760168844012",
+    "timestampString": "14:47:24",
+    "msgId": "7105336510220",
+    "cliMsgId": "1056101306377800",
+    "msgType": "webchat",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "Minh Tuan\nBot Cua Minh Tuan 👀 /-break\nNếu Bạn Thắc Mắc Tao Có Những Lệnh Gì, Hãy:\n,help - Xem hướng dẫn sử dụng\n,game - Xem hướng dẫn chơi game\n,command - Xem danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":28,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168848587": {
+    "timestamp": "1760168848620",
+    "timestampString": "14:47:28",
+    "msgId": "7105336756728",
+    "cliMsgId": "1760168848587",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "Mọe nãy nó rãi mà bật bot anti",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
