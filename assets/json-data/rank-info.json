@@ -2663,8 +2663,8 @@
         {
           "UserName": "Núp Gầm Giường",
           "UID": "2275317996891696552",
-          "Rank": 1060,
-          "messageCountToday": 20,
+          "Rank": 1063,
+          "messageCountToday": 23,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -4319,6 +4319,13 @@
           "Rank": 5,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Đức Tuyển",
+          "UID": "8283789010151171790",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         }
       ],
       "nameGroup": "Tiện Ích 🛡 🪲"

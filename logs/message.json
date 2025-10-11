@@ -35311,5 +35311,70 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760143952187": {
+    "timestamp": "1760143952245",
+    "timestampString": "07:52:32",
+    "msgId": "7104024000569",
+    "cliMsgId": "1760143952187",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "Tối làm lại",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143962288": {
+    "timestamp": "1760143962366",
+    "timestampString": "07:52:43",
+    "msgId": "7104024355700",
+    "cliMsgId": "1760143962288",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "*gif 🔥🔥🔥🔥🔥",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143969338": {
+    "timestamp": "1760143969413",
+    "timestampString": "07:52:50",
+    "msgId": "7104024606338",
+    "cliMsgId": "1760143969338",
+    "msgType": "webchat",
+    "uidFrom": "8283789010151171790",
+    "idTo": "7585160044864555896",
+    "dName": "Đức Tuyển",
+    "content": "@Con Mèo 1 năm đi=)",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143980228": {
+    "timestamp": "1760143975601",
+    "timestampString": "07:52:56",
+    "msgId": "7104024819296",
+    "cliMsgId": "1760143980228",
+    "msgType": "chat.gif",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/6d563ebca621077f5e30/2219728660270129503",
+      "thumb": "https://f63-zpg-r.zdn.vn/8792640360163857102/6da22b4fe72f6a71333e.jpg",
+      "childnumber": 0,
+      "action": "recommend.gif",
+      "params": "{\"width\":600,\"height\":200}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
