@@ -28059,5 +28059,79 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760140840427": {
+    "timestamp": "1760140840419",
+    "timestampString": "07:00:41",
+    "msgId": "7103931928860",
+    "cliMsgId": "1760140840427",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "Light snow",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140841771": {
+    "timestamp": "1760140841765",
+    "timestampString": "07:00:42",
+    "msgId": "7103931961858",
+    "cliMsgId": "1760140841771",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/82b70185cf0c6e52371d/549359185738081577/5302815e-06fb-4e06-8406-79fd54214f79_a_sin.webp",
+      "thumb": "https://fg41.dlfl.vn/82b70185cf0c6e52371d/549359185738081577/5302815e-06fb-4e06-8406-79fd54214f79_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":164,\"height\":128,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758975854250\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg41.dlfl.vn\\/82b70185cf0c6e52371d\\/549359185738081577\\/5302815e-06fb-4e06-8406-79fd54214f79_a_sin.webp\",\"width\":164,\"height\":128,\"thumb\":\"\"},\"contentId\":\"1758975854250\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140848598": {
+    "timestamp": "1760140848573",
+    "timestampString": "07:00:49",
+    "msgId": "7103932135416",
+    "cliMsgId": "1760140848598",
+    "msgType": "chat.recommended",
+    "uidFrom": "460097460067239257",
+    "idTo": "3453989112147091924",
+    "dName": "Hoàng Văn Thụy",
+    "content": {
+      "title": "Thụy Mmo",
+      "description": "{\"phone\":\"Thông Tin Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/344796502\\/d2b17776ec2a05745c3b.jpg\",\"gUid\":\"NAKPLG83PN63I0D3BPED5OCJO3ACAPG0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/b/c/c/e/7/120/d9e6e22a3ef036d9dc741a8ff8e1677f.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "655717954929783074",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "17601408489168": {
+    "timestamp": "1760140848893",
+    "timestampString": "07:00:49",
+    "msgId": "7103932143507",
+    "cliMsgId": "17601408489168",
+    "msgType": "webchat",
+    "uidFrom": "460097460067239257",
+    "idTo": "3453989112147091924",
+    "dName": "Hoàng Văn Thụy",
+    "content": "Làm miễn phí không mất gì cả, sau khi đăng kí xong bạn sẽ nhận được 250k.\n• Dưới 18t nhận tổng 250k\n• Trên 18t thì nhận thêm 600k tổng 850k\n• Đã có tài khoản sẽ nhận được 600k\n\nZalo : 0383545886 ( Thụy MMO )",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
