@@ -29483,5 +29483,93 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760182688893": {
+    "timestamp": "1760182688936",
+    "timestampString": "18:38:10",
+    "msgId": "7106062556463",
+    "cliMsgId": "1760182688893",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "Tí tui mời vô lại cho",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182693300": {
+    "timestamp": "1760182693403",
+    "timestampString": "18:38:13",
+    "msgId": "7106062794622",
+    "cliMsgId": "1760182693300",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "9104968216656954464",
+    "dName": "Văn Chiếnツム",
+    "content": "Sao ko hiện",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182696174": {
+    "timestamp": "1760182696267",
+    "timestampString": "18:38:16",
+    "msgId": "7106062944719",
+    "cliMsgId": "1760182696174",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "9104968216656954464",
+    "dName": "Văn Chiếnツム",
+    "content": "!bye on",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182696354": {
+    "timestamp": "1760182696406",
+    "timestampString": "18:38:17",
+    "msgId": "7106062920549",
+    "cliMsgId": "1760182696354",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "9104968216656954464",
+    "dName": "Văn Chiếnツム",
+    "content": {
+      "title": "Văn Chiếnツム\nHà Huy Hoàng\nĐã bật chức năng tạm biệt thành viên rời nhóm!\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":12,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182699523": {
+    "timestamp": "1760182700816",
+    "timestampString": "18:38:21",
+    "msgId": "7106063188923",
+    "cliMsgId": "1760182699523",
+    "msgType": "chat.video.msg",
+    "uidFrom": "2651698727644760567",
+    "idTo": "2990969618896538297",
+    "dName": "Quốc Kiệt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://video-stal-6.dlmd.me/gr/154d0b9ae56a1134487b/4112062680704036161",
+      "thumb": "https://f62-zpg-r.zdn.vn/256081594050571615/cda4d6a60acf8791dede.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":5000,\"is_group_layout\":0,\"video_original_width\":220,\"video_original_height\":220,\"video_width\":220,\"video_height\":220,\"video_rotation\":0,\"fileSize\":399375,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
