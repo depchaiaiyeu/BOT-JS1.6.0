@@ -29121,5 +29121,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760182562529": {
+    "timestamp": "1760182562684",
+    "timestampString": "18:36:03",
+    "msgId": "7106055792442",
+    "cliMsgId": "1760182562529",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "@̀nguyễn Duy Khang cgi v",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
