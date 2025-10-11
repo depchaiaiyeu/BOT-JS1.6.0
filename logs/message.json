@@ -37181,5 +37181,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760186240688": {
+    "timestamp": "1760186244099",
+    "timestampString": "19:37:25",
+    "msgId": "7106252765110",
+    "cliMsgId": "1760186240688",
+    "msgType": "chat.voice",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/6535942405083218523/393bc1f9de7630286967.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/6535942405083218523\\/393bc1f9de7630286967.aac\",\"duration\":3008,\"fileSize\":24393,\"waveformSamples\":[2111,5711,11322,14269,14811,12369,9023,7625,7700,6888,4597,2782,5428,6480,6712,8050,9937,8910,4944,2467,3461,5739,6482]}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
