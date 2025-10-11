@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760059501787": {
-    "timestamp": "1760059502230",
-    "timestampString": "08:25:03",
-    "msgId": "7100298910197",
-    "cliMsgId": "1760059501787",
-    "msgType": "webchat",
-    "uidFrom": "986745654356237706",
-    "idTo": "7585160044864555896",
-    "dName": "Dương",
-    "content": "xxx",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760059576135": {
     "timestamp": "1760059579361",
     "timestampString": "08:26:20",
