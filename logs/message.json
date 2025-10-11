@@ -13826,5 +13826,93 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760176631468": {
+    "timestamp": "1760176631520",
+    "timestampString": "16:57:12",
+    "msgId": "7105749011493",
+    "cliMsgId": "1760176631468",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.me/3cecbd4aa51f04415d0e/1300831019137685599/87588ce6-c382-42f1-bec4-1156bd3b1019.webp",
+      "thumb": "https://fg42.dlfl.me/3cecbd4aa51f04415d0e/1300831019137685599/87588ce6-c382-42f1-bec4-1156bd3b1019.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":64,\"height\":64,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1740731265657\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg42.dlfl.me\\/3cecbd4aa51f04415d0e\\/1300831019137685599\\/87588ce6-c382-42f1-bec4-1156bd3b1019.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1740731265657\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176632409": {
+    "timestamp": "1760176632458",
+    "timestampString": "16:57:12",
+    "msgId": "7105749058822",
+    "cliMsgId": "1760176632409",
+    "msgType": "webchat",
+    "uidFrom": "3689896893330581262",
+    "idTo": "7897564732983285154",
+    "dName": "Gray",
+    "content": "dcmm",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176638947": {
+    "timestamp": "1760176639525",
+    "timestampString": "16:57:20",
+    "msgId": "7105749433706",
+    "cliMsgId": "1760176638947",
+    "msgType": "chat.photo",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/570cf38a4817e949b006/345802606125983572?createby=HaHuyHoang_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/570cf38a4817e949b006/345802606125983572?createby=HaHuyHoang_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1760101730808\",\"height\":512,\"thumb_height\":512,\"thumb_width\":512,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/570cf38a4817e949b006\\/345802606125983572?createby=HaHuyHoang_Bot.webp\"},\"pStickerType\":1}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176642251": {
+    "timestamp": "1760176642890",
+    "timestampString": "16:57:23",
+    "msgId": "7105749610466",
+    "cliMsgId": "1760176642251",
+    "msgType": "webchat",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": "@ゑ﹕tl xin nha",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176646777": {
+    "timestamp": "1760176646848",
+    "timestampString": "16:57:27",
+    "msgId": "7105749820254",
+    "cliMsgId": "1760176646777",
+    "msgType": "webchat",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": "@Nguyễn Duy Khánh dạ",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
