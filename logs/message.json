@@ -37363,5 +37363,19 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760144852872": {
+    "timestamp": "1760144852957",
+    "timestampString": "08:07:34",
+    "msgId": "7104060830561",
+    "cliMsgId": "1760144852872",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Chê ngta avt bẩn",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
