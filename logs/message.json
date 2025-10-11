@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760070965014": {
-    "timestamp": "1760070965043",
-    "timestampString": "11:36:05",
-    "msgId": "7101146184814",
-    "cliMsgId": "1760070965014",
-    "msgType": "webchat",
-    "uidFrom": "6291471045773392244",
-    "idTo": "4825567233436439756",
-    "dName": "Mèo Cam",
-    "content": "Húp",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760071039524": {
     "timestamp": "1760071039546",
     "timestampString": "11:37:20",
