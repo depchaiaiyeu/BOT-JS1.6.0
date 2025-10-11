@@ -18313,5 +18313,56 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760178366315": {
+    "timestamp": "1760178366305",
+    "timestampString": "17:26:07",
+    "msgId": "7105837467463",
+    "cliMsgId": "1760178366315",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "Vui ta mà nó đếu duyệt",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178384924": {
+    "timestamp": "1760178384957",
+    "timestampString": "17:26:25",
+    "msgId": "7105838410750",
+    "cliMsgId": "1760178384924",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "T ở miền tây còn lạnh",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178385773": {
+    "timestamp": "1760178385806",
+    "timestampString": "17:26:26",
+    "msgId": "7105838453917",
+    "cliMsgId": "1760178385773",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/1c596ff74f22ee7cb733/5363832390017154856/378dee17-727a-47d9-aefc-ceaada14f0e8_a_sin.webp",
+      "thumb": "https://fg41.dlfl.vn/1c596ff74f22ee7cb733/5363832390017154856/378dee17-727a-47d9-aefc-ceaada14f0e8_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":589,\"height\":534,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1753033051795\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg41.dlfl.vn\\/1c596ff74f22ee7cb733\\/5363832390017154856\\/378dee17-727a-47d9-aefc-ceaada14f0e8_a_sin.webp\",\"width\":589,\"height\":534,\"thumb\":\"\"},\"contentId\":\"1753033051795\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
