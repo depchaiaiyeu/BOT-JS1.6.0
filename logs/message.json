@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760070311694": {
-    "timestamp": "1760070315016",
-    "timestampString": "11:25:16",
-    "msgId": "7101096320507",
-    "cliMsgId": "1760070311694",
-    "msgType": "chat.voice",
-    "uidFrom": "994613064562975222",
-    "idTo": "7897564732983285154",
-    "dName": "Vu Huynh Nhi",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://voice-aac-dl.zdn.vn/3906064270624368875/e00b08a8272ac974903b.aac",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/3906064270624368875\\/e00b08a8272ac974903b.aac\",\"duration\":2880,\"fileSize\":23355,\"waveformSamples\":[153,213,260,3388,8519,10953,8155,3744,6096,5406,3325,2288,3965,5321,4030,3666,3747,3636,5936,9002,9963,9784,10100]}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760070319029": {
-    "timestamp": "1760070319029",
-    "timestampString": "11:25:19",
-    "msgId": "7101096632143",
-    "cliMsgId": "1760070319029",
-    "msgType": "share.file",
-    "uidFrom": "523291538404353400",
-    "idTo": "4699745045071009795",
-    "dName": "Quyhoang Bá Mà",
-    "content": {
-      "title": "Adr + Ios _150k 📲 .zip",
-      "description": "",
-      "href": "https://fg41.dlfl.vn/7ca1f6d6c54b64153d5a/7909861671683393190",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"fileSize\":38387,\"checksum\":\"1ed5928cf579a24b6fdbfee445848613\",\"fileExt\":\"zip\"}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760070413502": {
     "timestamp": "1760070413536",
     "timestampString": "11:26:54",
