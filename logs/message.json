@@ -16105,5 +16105,61 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760177642001": {
+    "timestamp": "1760177642082",
+    "timestampString": "17:14:03",
+    "msgId": "7105801371508",
+    "cliMsgId": "1760177642001",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@Lee Hằngg @Gwen",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177645264": {
+    "timestamp": "1760177645327",
+    "timestampString": "17:14:05",
+    "msgId": "7105801536861",
+    "cliMsgId": "1760177645264",
+    "msgType": "webchat",
+    "uidFrom": "3029158015934153266",
+    "idTo": "4825567233436439756",
+    "dName": "Lee Hằngg",
+    "content": "@Nguyễn Khôii má thật",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177656730": {
+    "timestamp": "1760177656856",
+    "timestampString": "17:14:17",
+    "msgId": "7105802119576",
+    "cliMsgId": "1760177656730",
+    "msgType": "webchat",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": "oi",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177656988": {
+    "timestamp": "1760177657075",
+    "timestampString": "17:14:17",
+    "msgId": "7105802131331",
+    "cliMsgId": "1760177656988",
+    "msgType": "webchat",
+    "uidFrom": "3029158015934153266",
+    "idTo": "4825567233436439756",
+    "dName": "Lee Hằngg",
+    "content": "@Văn Tám sao",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
