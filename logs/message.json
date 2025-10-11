@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064665197": {
-    "timestamp": "1760064665480",
-    "timestampString": "09:51:06",
-    "msgId": "7100657393943",
-    "cliMsgId": "1760064665197",
-    "msgType": "chat.video.msg",
-    "uidFrom": "8060317385247643104",
-    "idTo": "2760006576081013366",
-    "dName": "Sỹ Nguyên",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://video-stal-1.dlmd.me/gr/c72df6311cd6e888b1c7/4098073174495879629",
-      "thumb": "https://photo-stal-2.zdn.vn/gr/19b079a9934e67103e5f/4098073174495879629.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"duration\":67000,\"is_group_layout\":0,\"video_original_width\":576,\"video_original_height\":768,\"video_width\":576,\"video_height\":768,\"video_rotation\":0,\"fileSize\":11595261,\"isHD\":0}",
-      "type": ""
-    },
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
   "1760064813234": {
     "timestamp": "1760064815368",
     "timestampString": "09:53:36",
