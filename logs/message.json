@@ -13497,5 +13497,88 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "105610575013020": {
+    "timestamp": "1760176250209",
+    "timestampString": "16:50:51",
+    "msgId": "7105728986006",
+    "cliMsgId": "105610575013020",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "/-li Cho Thuê Bot Zalo - Quản Lý Nhóm\n/-li Bảo Vệ Nhóm, Chống Spm\n/-li Bán Bot Zalo \n/-li Anti Kick Chống Bọn Lồn Kickall\n/-li Bot War / Spam / Lag\n/-li Bot Auto Reply \n/-li Nhiều Lệnh Vui - Mở Rộng Tính Năng Theo Yc\n/-li Cài Đặt Dễ - Uy Tín - Bảo Mật - Nhanh Gọn ‼️\n\n📱 Cho Thuê Sim Ảo Tạo Tài Khoản Zalo.\n➜  Mã Ảo Tạo Tài Khoản Zô La 🤪\n\n                    FACEBOOK 📌\n🔹Nhận Dame Acc Face Theo Uid / Link ⚡\n▫️Mở Khoá Tài Khoản - UnLock✅\n▪️Up Nhạc Lên Trang Cá Nhân ✅\n🔸Up Tick Xanh Chính Chủ ✅\n🔹Seding Page 📉\n\nBuff Like FF \nLưu Ý : Mỗi Một Ngày 100like ( 100like /1day )\n\nNhóm Clip Sex Có Video Mỗi Ngày \n➜https://zalo.me/g/seqvsw398\n➜https://zalo.me/g/ivkkhs431\n\nVào Nghịch Nhóm Nè\n➜ https://zalo.me/g/rqgxjk534\n\n  📞    Chi Tiết Xin Vui Lòng Liên Hệ \n  Những Vấn Đề Khác Xin Đừng Kp Làm Phiền",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176250287": {
+    "timestamp": "1760176250285",
+    "timestampString": "16:50:51",
+    "msgId": "7105728986022",
+    "cliMsgId": "1760176250287",
+    "msgType": "chat.recommended",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "Kim Thanhh",
+      "description": "{\"phone\":\"thuê bot ib\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/7\\/8\\/6\\/5\\/45\\/120\\/2a92f7d4be271a50b3cce7b231776fd9.jpg\",\"gUid\":\"IJPEM65K5C6OTDM5T4735SJ54KKT3L80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/7/8/6/5/45/120/2a92f7d4be271a50b3cce7b231776fd9.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "6593064319472911684",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176254393": {
+    "timestamp": "1760176254464",
+    "timestampString": "16:50:54",
+    "msgId": "7105729215799",
+    "cliMsgId": "1760176254393",
+    "msgType": "chat.photo",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":402,\"height\":220,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176256379": {
+    "timestamp": "1760176256463",
+    "timestampString": "16:50:56",
+    "msgId": "7105729321128",
+    "cliMsgId": "1760176256379",
+    "msgType": "chat.photo",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":454,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754576471445\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/31a981164bf3eaadb3e2\\/6375889373527688225?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1754576471445\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
