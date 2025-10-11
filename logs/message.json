@@ -11320,5 +11320,33 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760173156907": {
+    "timestamp": "1760173156945",
+    "timestampString": "15:59:17",
+    "msgId": "7105568099052",
+    "cliMsgId": "1760173156907",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "T đã nghe lời đám bạn và làm 1 lệnh vô tri khác tên là -sigma để cho vui chứ t ko bt có tác dụng gì:))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173155922": {
+    "timestamp": "1760173157092",
+    "timestampString": "15:59:17",
+    "msgId": "7105568079635",
+    "cliMsgId": "1760173155922",
+    "msgType": "webchat",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": "🗿 ヅtrần Ân Ânヅ có độ Sigma là 45%!\n💬 Nhận xét: 😎 Cân bằng giữa trầm và ngầu, gần tới cảnh giới rồi.",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
