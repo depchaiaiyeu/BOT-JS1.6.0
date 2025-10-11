@@ -11920,5 +11920,56 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760173785738": {
+    "timestamp": "1760173785850",
+    "timestampString": "16:09:46",
+    "msgId": "7105601654351",
+    "cliMsgId": "1760173785738",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "-sigma",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173784986": {
+    "timestamp": "1760173786160",
+    "timestampString": "16:09:46",
+    "msgId": "7105601649804",
+    "cliMsgId": "1760173784986",
+    "msgType": "webchat",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": "🗿 Vtàiᅠᅠdv có độ Sigma là 60%!\n💬 Nhận xét: 🔥 Khí chất bắt đầu toát ra, người khác tự khắc phải nể.",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173792398": {
+    "timestamp": "1760173792476",
+    "timestampString": "16:09:53",
+    "msgId": "7105602000180",
+    "cliMsgId": "1760173792398",
+    "msgType": "chat.photo",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/c50fd30a13d0b28eebc1/5881991277185832612?creator=Tahn_bot.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/c50fd30a13d0b28eebc1/5881991277185832612?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754489428612\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/34a392b95263f33daa72\\/5169780932133642078?creator=Tahn_bot.webp\",\"width\":320,\"height\":320,\"thumb\":\"\"},\"contentId\":\"1754489428612\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
