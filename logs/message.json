@@ -45,24 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760068382669": {
-    "timestamp": "1760068382722",
-    "timestampString": "10:53:03",
-    "msgId": "7100946112653",
-    "cliMsgId": "1760068382669",
-    "msgType": "chat.sticker",
-    "uidFrom": "2275317996891696552",
-    "idTo": "5975420422762749911",
-    "dName": "Dell Yêu Ai",
-    "content": {
-      "id": 45591,
-      "catId": 11917,
-      "type": 3
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760068493115": {
     "timestamp": "1760068493021",
     "timestampString": "10:54:54",
