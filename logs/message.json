@@ -1918,5 +1918,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760165383324": {
+    "timestamp": "1760165383355",
+    "timestampString": "13:49:52",
+    "msgId": "7105177371199",
+    "cliMsgId": "1760165383324",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "@Núp Gầm Giường menu à",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165385145": {
+    "timestamp": "1760165385188",
+    "timestampString": "13:49:53",
+    "msgId": "7105177450099",
+    "cliMsgId": "1760165385145",
+    "msgType": "chat.photo",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://files.catbox.moe/mc40pp.webp?creator=khangapi",
+      "thumb": "https://files.catbox.moe/mc40pp.webp?creator=khangapi",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1755264537236\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/mc40pp.webp?creator=khangapi\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1755264537236\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
