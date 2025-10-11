@@ -6081,5 +6081,42 @@
     "threadId": "2760006576081013366",
     "type": 1,
     "isUndo": false
+  },
+  "1760168641277": {
+    "timestamp": "1760168641324",
+    "timestampString": "14:44:01",
+    "msgId": "7105326769379",
+    "cliMsgId": "1760168641277",
+    "msgType": "chat.photo",
+    "uidFrom": "607598759060047701",
+    "idTo": "2760006576081013366",
+    "dName": "Lữ Huyền Nhi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/e6a6e14244dfe581bcce/270823981079661635/4ace5227-e214-485f-9a84-db4fc2aa3522.webp",
+      "thumb": "https://fg43.dlfl.vn/e6a6e14244dfe581bcce/270823981079661635/4ace5227-e214-485f-9a84-db4fc2aa3522.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":448,\"height\":428,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1760102952263\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/e6a6e14244dfe581bcce\\/270823981079661635\\/4ace5227-e214-485f-9a84-db4fc2aa3522.webp\",\"width\":448,\"height\":428,\"thumb\":\"\"},\"contentId\":\"1760102952263\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168659629": {
+    "timestamp": "1760168659687",
+    "timestampString": "14:44:20",
+    "msgId": "7105327648012",
+    "cliMsgId": "1760168659629",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "chó nào spam call v",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
