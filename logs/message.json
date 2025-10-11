@@ -2047,5 +2047,143 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760165827375": {
+    "timestamp": "1760165827485",
+    "timestampString": "13:57:08",
+    "msgId": "7105196653877",
+    "cliMsgId": "1760165827375",
+    "msgType": "chat.sticker",
+    "uidFrom": "7259937427317147131",
+    "idTo": "5601607522756268167",
+    "dName": "Bùi Kh Huyền",
+    "content": {
+      "id": 29557,
+      "catId": 10882,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165829769": {
+    "timestamp": "1760165830053",
+    "timestampString": "13:57:10",
+    "msgId": "7105196765665",
+    "cliMsgId": "1760165829769",
+    "msgType": "chat.photo",
+    "uidFrom": "2606653011908126999",
+    "idTo": "9104968216656954464",
+    "dName": "Kray",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/3050958561008371590/bbcbcb9e0af287acdee3.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/3050958561008371590/bbcbcb9e0af287acdee3.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1911,\"height\":857,\"is_group_layout\":0,\"contentId\":\"1000062314\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165828645": {
+    "timestamp": "1760165830080",
+    "timestampString": "13:57:10",
+    "msgId": "7105196768670",
+    "cliMsgId": "1760165828645",
+    "msgType": "chat.recommended",
+    "uidFrom": "6164242129945182128",
+    "idTo": "1284711774600897775",
+    "dName": "Con Mèo Cute",
+    "content": {
+      "title": "https://zalo.me/g/bcnesx654 \nphải chịu",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/bcnesx654",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25ebcb108451760165694aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMGFhYWNmZTQ4YTgyNjBkYzM5OTM=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"100 người 10 tomato 5 nam\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/bcnesx654\",\"owner\":{\"id\":413739090,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/8\\/a\\/2\\/1\\/14\\/120\\/6b6f4a990455f8f4367309626a158243.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "1284711774600897775",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165828829": {
+    "timestamp": "1760165830773",
+    "timestampString": "13:57:11",
+    "msgId": "7105196799478",
+    "cliMsgId": "1760165828829",
+    "msgType": "chat.recommended",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": {
+      "title": "https://zalo.me/g/bcnesx654 \nphải chịu",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/bcnesx654",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25ebcb108451760165694aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMGFhYWNmZTQ4YTgyNjBkYzM5OTM=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"100 người 10 tomato 5 nam\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/bcnesx654\",\"owner\":{\"id\":413739090,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/8\\/a\\/2\\/1\\/14\\/120\\/6b6f4a990455f8f4367309626a158243.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165831957": {
+    "timestamp": "1760165831998",
+    "timestampString": "13:57:12",
+    "msgId": "7105196853465",
+    "cliMsgId": "1760165831957",
+    "msgType": "webchat",
+    "uidFrom": "2606653011908126999",
+    "idTo": "9104968216656954464",
+    "dName": "Kray",
+    "content": "Dc j kh ae",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165839351": {
+    "timestamp": "1760165839407",
+    "timestampString": "13:57:20",
+    "msgId": "7105197178904",
+    "cliMsgId": "1760165839351",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": "*autu",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056099503545200": {
+    "timestamp": "1760165839492",
+    "timestampString": "13:57:20",
+    "msgId": "7105197160919",
+    "cliMsgId": "1056099503545200",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hà Y\nHà Y\nKhông tìm thấy lệnh \"autu\"\nCó phải bạn muốn dùng:\n*nhaccuatui [Tất Cả Người Dùng]",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":5,\"len\":4,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }

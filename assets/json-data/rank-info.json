@@ -1537,9 +1537,9 @@
         {
           "UserName": "Bùi Kh Huyền",
           "UID": "7259937427317147131",
-          "Rank": 9,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 10,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Duy Khang",
@@ -4913,7 +4913,7 @@
           "UserName": "Vũ Ngọc Linh Nhi",
           "UID": "5012745540986549419",
           "Rank": 5,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -4929,6 +4929,13 @@
           "Rank": 1,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-09"
+        },
+        {
+          "UserName": "Con Mèo Cute",
+          "UID": "6164242129945182128",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         }
       ],
       "nameGroup": "《Trao Đổi•Học Tập☆》"
@@ -6694,6 +6701,27 @@
           "UID": "3120218143259821942",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Kray",
+          "UID": "2606653011908126999",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Con Mèo Cute",
+          "UID": "6164242129945182128",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Hà Y",
+          "UID": "1097350646085407745",
+          "Rank": 4,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-11"
         }
       ],
