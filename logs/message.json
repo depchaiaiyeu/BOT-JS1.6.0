@@ -30319,5 +30319,167 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760183251079": {
+    "timestamp": "1760183251181",
+    "timestampString": "18:47:31",
+    "msgId": "7106092315072",
+    "cliMsgId": "1760183251079",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183251543": {
+    "timestamp": "1760183251647",
+    "timestampString": "18:47:32",
+    "msgId": "7106092368459",
+    "cliMsgId": "1760183251543",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/6967142767394092777/d9b247b886d10b8f52c0.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/6967142767394092777/d9b247b886d10b8f52c0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/6967142767394092777\\/d9b247b886d10b8f52c0.jpg\",\"hdSize\":192454,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183247217": {
+    "timestamp": "1760183247258",
+    "timestampString": "18:47:32",
+    "msgId": "7106092149737",
+    "cliMsgId": "1760183247217",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "1",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183252670": {
+    "timestamp": "1760183252775",
+    "timestampString": "18:47:33",
+    "msgId": "7106092421705",
+    "cliMsgId": "1760183252670",
+    "msgType": "chat.voice",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/d782e0b9cb256a7b3334/120498945101236541/Vu-Xuan-Kien-Service-Bot.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":2349347,\"m4a\":\"https:\\/\\/fg43.dlfl.vn\\/d782e0b9cb256a7b3334\\/120498945101236541\\/Vu-Xuan-Kien-Service-Bot.aac\"}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183257162": {
+    "timestamp": "1760183259071",
+    "timestampString": "18:47:39",
+    "msgId": "7106092777178",
+    "cliMsgId": "1760183257162",
+    "msgType": "webchat",
+    "uidFrom": "331314569060252834",
+    "idTo": "9104968216656954464",
+    "dName": "Lương Điền Đông",
+    "content": "💦 WEB ĐỔI THẺ CÀO 💦\n🔗 GACHTHEFAST .COM DO AD CHECKSCAM Lương Điền Đông quản lí🔗\n 🔥 NẠP ROBUX,KC Ff,Thẻ tuần,Thẻ tháng , thẻ lên cấp giá rẻ ...\n🔥 CHIẾT KHẤU RẺ NHẤT VN\n🔥 RÚT MIN 2K - 30S TIỀN VỀ\n🔥 HOÀN TOÀN TỰ ĐỘNG 24/24",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183274542": {
+    "timestamp": "1760183275018",
+    "timestampString": "18:47:55",
+    "msgId": "7106093621485",
+    "cliMsgId": "1760183274542",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-8.zdn.vn/gr/jpg/dc227684bc74482a1165/4416921127325832382.jpg",
+      "thumb": "https://photo-stal-8.zdn.vn/gr/jpg/dc227684bc74482a1165/4416921127325832382.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":736,\"height\":736,\"hd\":\"https:\\/\\/photo-stal-8.zdn.vn\\/gr\\/jpg\\/dc227684bc74482a1165\\/4416921127325832382.jpg\",\"is_group_layout\":0,\"contentId\":\"1000046398\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183276679": {
+    "timestamp": "1760183276742",
+    "timestampString": "18:47:57",
+    "msgId": "7106093712038",
+    "cliMsgId": "1760183276679",
+    "msgType": "chat.delete",
+    "uidFrom": "3875953011135749873",
+    "idTo": "8281509084603580118",
+    "dName": "Thành Nhân",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6629934461404922000,
+        "uidTo": 8281509084603580000,
+        "clientDelMsgId": 1760181785797,
+        "globalDelMsgId": 7106015250364,
+        "destId": 8281509084603580000
+      }
+    ],
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183278450": {
+    "timestamp": "1760183278610",
+    "timestampString": "18:47:59",
+    "msgId": "7106093809312",
+    "cliMsgId": "1760183278450",
+    "msgType": "chat.sticker",
+    "uidFrom": "3875953011135749873",
+    "idTo": "8281509084603580118",
+    "dName": "Thành Nhân",
+    "content": {
+      "id": 46954,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
