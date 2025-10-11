@@ -13803,5 +13803,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760176613465": {
+    "timestamp": "1760176614044",
+    "timestampString": "16:56:55",
+    "msgId": "7105748085362",
+    "cliMsgId": "1760176613465",
+    "msgType": "chat.photo",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/570cf38a4817e949b006/345802606125983572?createby=HaHuyHoang_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/570cf38a4817e949b006/345802606125983572?createby=HaHuyHoang_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1760101730808\",\"height\":512,\"thumb_height\":512,\"thumb_width\":512,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/570cf38a4817e949b006\\/345802606125983572?createby=HaHuyHoang_Bot.webp\"},\"pStickerType\":1}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
