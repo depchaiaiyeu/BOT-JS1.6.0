@@ -7693,5 +7693,19 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760169231399": {
+    "timestamp": "1760169231944",
+    "timestampString": "14:53:52",
+    "msgId": "7105355289337",
+    "cliMsgId": "1760169231399",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "/-break",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
