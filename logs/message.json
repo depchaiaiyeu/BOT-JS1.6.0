@@ -294,5 +294,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760164220229": {
+    "timestamp": "1760164220313",
+    "timestampString": "13:30:20",
+    "msgId": "7105128094980",
+    "cliMsgId": "1760164220229",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "5975420422762749911",
+    "dName": "Văn Chiếnツム",
+    "content": "@Minh Tuan phần info",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
