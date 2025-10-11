@@ -19770,5 +19770,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760178818466": {
+    "timestamp": "1760178818529",
+    "timestampString": "17:33:39",
+    "msgId": "7105860314117",
+    "cliMsgId": "1760178818466",
+    "msgType": "webchat",
+    "uidFrom": "5781299823049181696",
+    "idTo": "4825567233436439756",
+    "dName": "Tạ Văn Chiến",
+    "content": "@Mai Quoc Trieu ngầu",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
