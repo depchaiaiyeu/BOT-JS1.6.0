@@ -20652,5 +20652,79 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760179749712": {
+    "timestamp": "1760179749821",
+    "timestampString": "17:49:10",
+    "msgId": "7105908522904",
+    "cliMsgId": "1760179749712",
+    "msgType": "webchat",
+    "uidFrom": "7098937673462319039",
+    "idTo": "9104968216656954464",
+    "dName": "Ng Thịnh",
+    "content": "@Karic real???",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179752905": {
+    "timestamp": "1760179753029",
+    "timestampString": "17:49:13",
+    "msgId": "7105908689957",
+    "cliMsgId": "1760179752905",
+    "msgType": "webchat",
+    "uidFrom": "7952370821979394919",
+    "idTo": "5975420422762749911",
+    "dName": "Tờ Quang广报",
+    "content": "@Núp Gầm Giường share",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179759046": {
+    "timestamp": "1760179759333",
+    "timestampString": "17:49:20",
+    "msgId": "7105909017959",
+    "cliMsgId": "1760179759046",
+    "msgType": "chat.sticker",
+    "uidFrom": "5719811533797477979",
+    "idTo": "9104968216656954464",
+    "dName": "Duy Khang",
+    "content": {
+      "id": 46953,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179765885": {
+    "timestamp": "1760179766000",
+    "timestampString": "17:49:26",
+    "msgId": "7105909366278",
+    "cliMsgId": "1760179765885",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": "@Núp Gầm Giường -)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179766564": {
+    "timestamp": "1760179766589",
+    "timestampString": "17:49:27",
+    "msgId": "7105909396587",
+    "cliMsgId": "1760179766564",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "@Núp Gầm Giường lỏ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
