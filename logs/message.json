@@ -32668,5 +32668,97 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760184453043": {
+    "timestamp": "1760184454097",
+    "timestampString": "19:07:35",
+    "msgId": "7106156171989",
+    "cliMsgId": "1760184453043",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Phạm Hồng Nhật\nDQT Bot Team\n⏰ Phạm Hồng Nhật - Còn 10 giây để đánh! Nếu không đánh sẽ bị xử thua.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":15,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184459574": {
+    "timestamp": "1760184459727",
+    "timestampString": "19:07:40",
+    "msgId": "7106156493101",
+    "cliMsgId": "1760184459574",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/99bcb7019c9d3dc3648c/3845202706974313932?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/99bcb7019c9d3dc3648c/3845202706974313932?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1760183680777\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/99bcb7019c9d3dc3648c\\/3845202706974313932?createby=NDQ_Bot.webp\",\"width\":512,\"height\":512,\"thumb\":\"\"},\"contentId\":\"1760183680777\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184462996": {
+    "timestamp": "1760184463804",
+    "timestampString": "19:07:44",
+    "msgId": "7106156659492",
+    "cliMsgId": "1760184462996",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Phạm Hồng Nhật\nDQT Bot Team\n⏰ Phạm Hồng Nhật bị loại khỏi trận đấu do không đánh nước tiếp theo trong 60 giây!\n🏆 Bùi Hiếu chiến thắng ván cờ này!\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":15,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184468389": {
+    "timestamp": "1760184468464",
+    "timestampString": "19:07:48",
+    "msgId": "7106156959061",
+    "cliMsgId": "1760184468389",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f35-zfcloud.zdn.vn/ed94b7fcba761b284267/3265533753855991175?createby=HaHuyHoang_Bot.webp",
+      "thumb": "https://f35-zfcloud.zdn.vn/ed94b7fcba761b284267/3265533753855991175?createby=HaHuyHoang_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":480,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759259992404\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f35-zfcloud.zdn.vn\\/ed94b7fcba761b284267\\/3265533753855991175?createby=HaHuyHoang_Bot.webp\",\"width\":512,\"height\":480,\"thumb\":\"\"},\"contentId\":\"1759259992404\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
