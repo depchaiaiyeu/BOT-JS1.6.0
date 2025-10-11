@@ -1612,5 +1612,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760164850619": {
+    "timestamp": "1760164856491",
+    "timestampString": "13:40:57",
+    "msgId": "7105154876246",
+    "cliMsgId": "1760164850619",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "5601607522756268167",
+    "dName": "Văn Chiếnツム",
+    "content": "Alo",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
