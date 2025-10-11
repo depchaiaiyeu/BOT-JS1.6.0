@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760068508570": {
-    "timestamp": "1760068509246",
-    "timestampString": "10:55:09",
-    "msgId": "7100955999993",
-    "cliMsgId": "1760068508570",
-    "msgType": "chat.photo",
-    "uidFrom": "7719842335991277593",
-    "idTo": "7897564732983285154",
-    "dName": "Trọng Nghĩaᅐᅡ",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://photo-stal-2.zdn.vn/gr/jpg/45bc893f6dd99987c0c8/430625111319108767.jpg",
-      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/45bc893f6dd99987c0c8/430625111319108767.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1024,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"1000027309\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760068555555": {
-    "timestamp": "1760068556080",
-    "timestampString": "10:55:57",
-    "msgId": "7100959666650",
-    "cliMsgId": "1760068555555",
-    "msgType": "chat.recommended",
-    "uidFrom": "1232592388347751200",
-    "idTo": "5464956150740844012",
-    "dName": "Phi Hùng",
-    "content": {
-      "title": "Zô chơi event 1.000 qh hoặc 2500kc và 500k card Garena ,... nào mn ơi link box : https://zalo.me/g/rzrwph725",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/rzrwph725",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2c271560cfa1760068483aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvOTM0ODQwNDEzYTI1ZDA3Yjg5MzQ=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":2,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"Box Phi Hùng - SHOPRDVIPS1.COM\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/2\\/6\\/9\\/1\\/6\\/120\\/5156daa7ba81942421fd33ea2ff37737.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
-      "type": ""
-    },
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
   "1760068571302": {
     "timestamp": "1760068571279",
     "timestampString": "10:56:11",
