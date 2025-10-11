@@ -10560,5 +10560,60 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760172303710": {
+    "timestamp": "1760172303798",
+    "timestampString": "15:45:04",
+    "msgId": "7105521623857",
+    "cliMsgId": "1760172303710",
+    "msgType": "chat.photo",
+    "uidFrom": "6626704731319782605",
+    "idTo": "3228108398535377399",
+    "dName": "Nguyen Huu Phuc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/225ab2aa1779b627ef68/2149652806282550688/5b007820-cf1a-4203-add7-eb2e7f30eb21_a_sin.webp",
+      "thumb": "https://fg43.dlfl.vn/225ab2aa1779b627ef68/2149652806282550688/5b007820-cf1a-4203-add7-eb2e7f30eb21_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":586,\"height\":594,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1753688082889\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/225ab2aa1779b627ef68\\/2149652806282550688\\/5b007820-cf1a-4203-add7-eb2e7f30eb21_a_sin.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1753688082889\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172305581": {
+    "timestamp": "1760172305613",
+    "timestampString": "15:45:05",
+    "msgId": "7105521708098",
+    "cliMsgId": "1760172305581",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "1367422010794969537",
+    "dName": "Karic",
+    "content": "🐧 Box của ae mình https://zalo.me/g/aqnsnu019 🐧 \n🎨 Nhận thiết kế banner, hình ảnh đẹp mắt – chuyên nghiệp – theo yêu cầu\n🚀 Nhận buff MXH all nền tảng: Facebook, TikTok, Instagram, YouTube… tăng tương tác cực nhanh\n⭐ Buff fl FB: 3k – 1k follow – kéo số dễ dàng, lên profile nhìn xịn sò ngay\n\n👉 Tất cả dịch vụ được triển khai bởi Thái An – làm việc uy tín, nhanh gọn, chất lượng cao 💯\nLiên hệ ngay để trải nghiệm dịch vụ tốt nhất ✨",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172309207": {
+    "timestamp": "1760172309246",
+    "timestampString": "15:45:09",
+    "msgId": "7105521932959",
+    "cliMsgId": "1760172309207",
+    "msgType": "chat.sticker",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "id": 26275,
+      "catId": 10653,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
