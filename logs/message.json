@@ -17890,5 +17890,51 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178135998": {
+    "timestamp": "1760178135998",
+    "timestampString": "17:22:16",
+    "msgId": "7105825984908",
+    "cliMsgId": "1760178135998",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "@Đạt Để qua nhóm học hành j đó xem có drama k",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178139019": {
+    "timestamp": "1760178139027",
+    "timestampString": "17:22:19",
+    "msgId": "7105826175809",
+    "cliMsgId": "1760178139019",
+    "msgType": "chat.sticker",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": {
+      "id": 46964,
+      "catId": 12003,
+      "type": 7
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178144407": {
+    "timestamp": "1760178144497",
+    "timestampString": "17:22:25",
+    "msgId": "7105826446082",
+    "cliMsgId": "1760178144407",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Ngọc Thúy ai bt dc",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
