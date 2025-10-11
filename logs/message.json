@@ -2224,9 +2224,9 @@
     "isUndo": false
   },
   "1759975893906": {
-    "timestamp": "1760181363704",
-    "timestampString": "18:16:04",
-    "msgId": "7105993800992",
+    "timestamp": "1760183568700",
+    "timestampString": "18:52:49",
+    "msgId": "7106109083349",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
@@ -30572,6 +30572,66 @@
     "dName": "̀nguyễn Duy Khang",
     "content": "@Duck m xem js đi là bt",
     "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183566468": {
+    "timestamp": "1760183566538",
+    "timestampString": "18:52:47",
+    "msgId": "7106109006885",
+    "cliMsgId": "1760183566468",
+    "msgType": "chat.photo",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f35-zfcloud.zdn.vn/1c7bcd12c08461da3895/4076276821362340870?creator=Tahn_bot.webp",
+      "thumb": "https://f35-zfcloud.zdn.vn/1c7bcd12c08461da3895/4076276821362340870?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":550,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759668059168\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f35-zfcloud.zdn.vn\\/1c7bcd12c08461da3895\\/4076276821362340870?creator=Tahn_bot.webp\",\"width\":720,\"height\":550,\"thumb\":\"\"},\"contentId\":\"1759668059168\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183573327": {
+    "timestamp": "1760183573479",
+    "timestampString": "18:52:53",
+    "msgId": "7106109373750",
+    "cliMsgId": "1760183573327",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "!ms như chưa từng chee",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183573973": {
+    "timestamp": "1760183574828",
+    "timestampString": "18:52:55",
+    "msgId": "7106109410949",
+    "cliMsgId": "1760183573973",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@N D Q\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/6808345116539106857/c93b8cd872b1ffefa6a0.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/6808345116539106857/c93b8cd872b1ffefa6a0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1683,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/6808345116539106857\\/c93b8cd872b1ffefa6a0.jpg\",\"hdSize\":359622,\"height\":630}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
   }
