@@ -7290,5 +7290,126 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760168883708": {
+    "timestamp": "1760168884403",
+    "timestampString": "14:48:05",
+    "msgId": "7105338471432",
+    "cliMsgId": "1760168883708",
+    "msgType": "chat.sticker",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": {
+      "id": 5,
+      "catId": 0,
+      "type": 7
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168885126": {
+    "timestamp": "1760168885260",
+    "timestampString": "14:48:05",
+    "msgId": "7105338513329",
+    "cliMsgId": "1760168885126",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": "Vẫn còn acc 50k có súng nâng cấp @All",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168890869": {
+    "timestamp": "1760168891523",
+    "timestampString": "14:48:12",
+    "msgId": "7105338793311",
+    "cliMsgId": "1760168890869",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ",del 10 all",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168891541": {
+    "timestamp": "1760168891639",
+    "timestampString": "14:48:12",
+    "msgId": "7105338821281",
+    "cliMsgId": "1760168891541",
+    "msgType": "chat.delete",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8883043929667296000,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1056101326657800,
+        "globalDelMsgId": 7105338141731,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056101336532000": {
+    "timestamp": "1760168894269",
+    "timestampString": "14:48:14",
+    "msgId": "7105338933647",
+    "cliMsgId": "1056101336532000",
+    "msgType": "webchat",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "Minh Tuan\nBot Cua Minh Tuan 👀 /-break\nThành công xóa 1 tin nhắn\nCó 9 tin nhắn Không xóa được\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":28,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168902162": {
+    "timestamp": "1760168902218",
+    "timestampString": "14:48:23",
+    "msgId": "7105339328244",
+    "cliMsgId": "1760168902162",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "Mọe nãy tức sôi máu lon",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168905502": {
+    "timestamp": "1760168905546",
+    "timestampString": "14:48:25",
+    "msgId": "7105339488591",
+    "cliMsgId": "1760168905502",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": ":((",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
