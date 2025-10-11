@@ -34255,5 +34255,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "105608599887960": {
+    "timestamp": "1760143331441",
+    "timestampString": "07:42:12",
+    "msgId": "7104002930597",
+    "cliMsgId": "105608599887960",
+    "msgType": "webchat",
+    "uidFrom": "1527436670916511241",
+    "idTo": "3453989112147091924",
+    "dName": "B O T",
+    "content": "kết bạn nhắn tin nhận file aim đầu",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
