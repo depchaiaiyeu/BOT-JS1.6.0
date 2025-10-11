@@ -35993,5 +35993,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760144385150": {
+    "timestamp": "1760144387124",
+    "timestampString": "07:59:48",
+    "msgId": "7104039817966",
+    "cliMsgId": "1760144385150",
+    "msgType": "chat.photo",
+    "uidFrom": "986745654356237706",
+    "idTo": "206503079877623526",
+    "dName": "Dương",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/7702547713677667318/405966669f0612584b17.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/7702547713677667318/405966669f0612584b17.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":662,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/7702547713677667318\\/405966669f0612584b17.jpg\",\"hdSize\":10670,\"height\":211}",
+      "type": ""
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
