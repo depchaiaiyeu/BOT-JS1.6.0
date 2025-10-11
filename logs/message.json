@@ -1835,5 +1835,33 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760165176436": {
+    "timestamp": "1760165176443",
+    "timestampString": "13:46:17",
+    "msgId": "7105168499310",
+    "cliMsgId": "1760165176436",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": "• Đã gỡ mute toàn bộ thành viên (0 người).",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165176205": {
+    "timestamp": "1760165176268",
+    "timestampString": "13:46:17",
+    "msgId": "7105168495459",
+    "cliMsgId": "1760165176205",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": ">unall",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
