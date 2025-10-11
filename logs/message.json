@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064131307": {
-    "timestamp": "1760064131528",
-    "timestampString": "09:42:12",
-    "msgId": "7100616568358",
-    "cliMsgId": "1760064131307",
-    "msgType": "webchat",
-    "uidFrom": "7743646927399910477",
-    "idTo": "4699745045071009795",
-    "dName": "Minh",
-    "content": "Xíc khao mã hầu kìaaaa",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760064134047": {
-    "timestamp": "1760064134270",
-    "timestampString": "09:42:14",
-    "msgId": "7100616778506",
-    "cliMsgId": "1760064134047",
-    "msgType": "chat.photo",
-    "uidFrom": "7743646927399910477",
-    "idTo": "4699745045071009795",
-    "dName": "Minh",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f33-zfcloud.zdn.vn/e55d950c82ea23b47afb/9119204541304700711?createby=UltraGPT.webp",
-      "thumb": "https://f33-zfcloud.zdn.vn/e55d950c82ea23b47afb/9119204541304700711?createby=UltraGPT.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"contentId\":\"1754900206552\",\"height\":542,\"thumb_height\":542,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/e55d950c82ea23b47afb\\/9119204541304700711?createby=UltraGPT.webp\"}}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760064232932": {
     "timestamp": "1760064233064",
     "timestampString": "09:43:53",
