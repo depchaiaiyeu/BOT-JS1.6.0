@@ -9375,5 +9375,708 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760171612651": {
+    "timestamp": "1760171612654",
+    "timestampString": "15:33:33",
+    "msgId": "7105483448821",
+    "cliMsgId": "1760171612651",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "Chỉ có 29 tin nhắn để xóa.",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612421": {
+    "timestamp": "1760171612465",
+    "timestampString": "15:33:33",
+    "msgId": "7105483457598",
+    "cliMsgId": "1760171612421",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "!delall",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612719": {
+    "timestamp": "1760171612722",
+    "timestampString": "15:33:33",
+    "msgId": "7105483448834",
+    "cliMsgId": "1760171612719",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5719811533797478000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164480793,
+        "globalDelMsgId": 7105139016003,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612683": {
+    "timestamp": "1760171612688",
+    "timestampString": "15:33:33",
+    "msgId": "7105483448826",
+    "cliMsgId": "1760171612683",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8725561116165083000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760168410702,
+        "globalDelMsgId": 7105315735771,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612783": {
+    "timestamp": "1760171612787",
+    "timestampString": "15:33:33",
+    "msgId": "7105483448852",
+    "cliMsgId": "1760171612783",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5719811533797478000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760163146429,
+        "globalDelMsgId": 7105083862397,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612862": {
+    "timestamp": "1760171612872",
+    "timestampString": "15:33:33",
+    "msgId": "7105483478241",
+    "cliMsgId": "1760171612862",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8602274286000699000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1056102281881200,
+        "globalDelMsgId": 7105421021446,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612815": {
+    "timestamp": "1760171612834",
+    "timestampString": "15:33:33",
+    "msgId": "7105483448861",
+    "cliMsgId": "1760171612815",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6708899122630765000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760155287421,
+        "globalDelMsgId": 7104680980320,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612905": {
+    "timestamp": "1760171612906",
+    "timestampString": "15:33:33",
+    "msgId": "7105483478250",
+    "cliMsgId": "1760171612905",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5719811533797478000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164483462,
+        "globalDelMsgId": 7105139128664,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612942": {
+    "timestamp": "1760171612947",
+    "timestampString": "15:33:33",
+    "msgId": "7105483478257",
+    "cliMsgId": "1760171612942",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164762256,
+        "globalDelMsgId": 7105150924269,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613646": {
+    "timestamp": "1760171613650",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505370",
+    "cliMsgId": "1760171613646",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164865297,
+        "globalDelMsgId": 7105155322423,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613677": {
+    "timestamp": "1760171613682",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505372",
+    "cliMsgId": "1760171613677",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4151380426396550000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164865232,
+        "globalDelMsgId": 7105155247413,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171612983": {
+    "timestamp": "1760171612994",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478263",
+    "cliMsgId": "1760171612983",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6708899122630765000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760155275540,
+        "globalDelMsgId": 7104680280804,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613021": {
+    "timestamp": "1760171613027",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478270",
+    "cliMsgId": "1760171613021",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6593064319472911000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760167774649,
+        "globalDelMsgId": 7105285612842,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613711": {
+    "timestamp": "1760171613721",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505378",
+    "cliMsgId": "1760171613711",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": "🚦Đã xóa 26 tin nhắn. Không thể xóa 3 tin nhắn.",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613093": {
+    "timestamp": "1760171613095",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478280",
+    "cliMsgId": "1760171613093",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6593064319472911000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 105610066474500,
+        "globalDelMsgId": 7105285612833,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613054": {
+    "timestamp": "1760171613060",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478273",
+    "cliMsgId": "1760171613054",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164882372,
+        "globalDelMsgId": 7105156044780,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613118": {
+    "timestamp": "1760171613127",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478288",
+    "cliMsgId": "1760171613118",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8725561116165083000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164727440,
+        "globalDelMsgId": 7105149423826,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613151": {
+    "timestamp": "1760171613163",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478299",
+    "cliMsgId": "1760171613151",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5719811533797478000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164479460,
+        "globalDelMsgId": 7105138961527,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613368": {
+    "timestamp": "1760171613371",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505311",
+    "cliMsgId": "1760171613368",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3120218143259822000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164492187,
+        "globalDelMsgId": 7105139477511,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613191": {
+    "timestamp": "1760171613197",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478305",
+    "cliMsgId": "1760171613191",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8606917999821023000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760171559584,
+        "globalDelMsgId": 7105480615831,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613403": {
+    "timestamp": "1760171613408",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505321",
+    "cliMsgId": "1760171613403",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164850619,
+        "globalDelMsgId": 7105154876246,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613230": {
+    "timestamp": "1760171613235",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478311",
+    "cliMsgId": "1760171613230",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8725561116165083000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164736071,
+        "globalDelMsgId": 7105149787823,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613512": {
+    "timestamp": "1760171613516",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505345",
+    "cliMsgId": "1760171613512",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6708899122630765000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760155284759,
+        "globalDelMsgId": 7104680826137,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613485": {
+    "timestamp": "1760171613482",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505335",
+    "cliMsgId": "1760171613485",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4151380426396550000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164873621,
+        "globalDelMsgId": 7105155607720,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613328": {
+    "timestamp": "1760171613338",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505306",
+    "cliMsgId": "1760171613328",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164850619,
+        "globalDelMsgId": 7105154634211,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613261": {
+    "timestamp": "1760171613269",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478318",
+    "cliMsgId": "1760171613261",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4151380426396550000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164658675,
+        "globalDelMsgId": 7105146523512,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613294": {
+    "timestamp": "1760171613304",
+    "timestampString": "15:33:34",
+    "msgId": "7105483478327",
+    "cliMsgId": "1760171613294",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6708899122630765000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760155278849,
+        "globalDelMsgId": 7104680473894,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613545": {
+    "timestamp": "1760171613550",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505349",
+    "cliMsgId": "1760171613545",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164759831,
+        "globalDelMsgId": 7105150819614,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171613583": {
+    "timestamp": "1760171613587",
+    "timestampString": "15:33:34",
+    "msgId": "7105483505360",
+    "cliMsgId": "1760171613583",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 1113816537494657900,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164864019,
+        "globalDelMsgId": 7105155217982,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171623195": {
+    "timestamp": "1760171626048",
+    "timestampString": "15:33:46",
+    "msgId": "7105484168830",
+    "cliMsgId": "1760171623195",
+    "msgType": "webchat",
+    "uidFrom": "2401473588733154152",
+    "idTo": "9104968216656954464",
+    "dName": "Hoàng Phát",
+    "content": "Nhóm Tài Nguyên MMO Và FB Cho Ae Tham Khảo: https://zalo.me/g/fgripr476",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056102975584400": {
+    "timestamp": "1760171626202",
+    "timestampString": "15:33:46",
+    "msgId": "7105484192765",
+    "cliMsgId": "1056102975584400",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hoàng Phát\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
