@@ -40237,5 +40237,65 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760187076777": {
+    "timestamp": "1760187076792",
+    "timestampString": "19:51:17",
+    "msgId": "7106298691492",
+    "cliMsgId": "1760187076777",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "@亗彡ヅnakashima Misakiヅ彡亗 t nè",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760187086035": {
+    "timestamp": "1760187086059",
+    "timestampString": "19:51:26",
+    "msgId": "7106299195278",
+    "cliMsgId": "1760187086035",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/4226077166317804247/0a35cce4a48c29d2709d.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/4226077166317804247/0a35cce4a48c29d2709d.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/4226077166317804247\\/0a35cce4a48c29d2709d.jpg\",\"hdSize\":366609,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760187086029": {
+    "timestamp": "1760187086115",
+    "timestampString": "19:51:26",
+    "msgId": "7106299195281",
+    "cliMsgId": "1760187086029",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/294131724947710645/131a1127664feb11b25e.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/294131724947710645/131a1127664feb11b25e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/294131724947710645\\/131a1127664feb11b25e.jpg\",\"hdSize\":362734,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
