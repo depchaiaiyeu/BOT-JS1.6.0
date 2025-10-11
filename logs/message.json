@@ -7605,5 +7605,51 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "633660864235200000": {
+    "timestamp": "1760169067552",
+    "timestampString": "14:51:08",
+    "msgId": "7105347294159",
+    "cliMsgId": "633660864235200000",
+    "msgType": "chat.photo",
+    "uidFrom": "1097350646085407745",
+    "idTo": "2990969618896538297",
+    "dName": "Hà Y",
+    "content": {
+      "title": "/-li CHO THUÊ BOT QUẢN LÝ NHÓM ZALO /-li\n\n🌟 Tính năng nổi bật\n✅ Sử dụng tài khoản Zalo bạn cung cấp để thiết lập bot \n✅ Quản lý thành viên: auto chào mừng, lọc từ cấm, chống spam hiệu quả\n✅ Giải trí cực vui: nhiều mini game, auto trả lời, tăng tương tác nhóm\n✅ Tự động gửi thông báo, rải link tiện lợi\n\n\n🎯 Lợi ích khi sử dụng bot\n🚀 Tiết kiệm tối đa thời gian quản lý nhóm\n👥 Tăng tương tác, gắn kết & giữ chân thành viên\n🔒 Bảo vệ nhóm sạch sẽ, chuyên nghiệp, không lo spam\n\n\n💰 Chỉ từ 60k/tháng → có ngay trợ lý quản trị Zalo siêu hiệu quả!\n\n\n📩 Nhắn tin ngay để được tư vấn & kích hoạt trong vài phút!",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/3179281004774740710/06d95e17d37b5e25076a.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/3179281004774740710/06d95e17d37b5e25076a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f60-zpg-r.zdn.vn\\/3179281004774740710\\/06d95e17d37b5e25076a.jpg\",\"hdSize\":76487,\"height\":900}",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169071250": {
+    "timestamp": "1760169071494",
+    "timestampString": "14:51:12",
+    "msgId": "7105347494309",
+    "cliMsgId": "1760169071250",
+    "msgType": "chat.recommended",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": {
+      "title": "https://zalo.me/g/ifpdse350 trả",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/ifpdse350",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv249c0b901111760169071aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvY2JmOWRkYmJhNmRkNGM4MzE1Y2M=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"HỘI GÁNH HÁT ONL ĐÊM\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/ifpdse350\",\"owner\":{\"id\":440323132,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/9\\/b\\/f\\/5\\/14\\/120\\/904db3b1a2ede2fa60ca9c8427fd74ea.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }

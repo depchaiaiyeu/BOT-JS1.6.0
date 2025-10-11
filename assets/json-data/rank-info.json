@@ -3793,8 +3793,8 @@
         {
           "UserName": "种地",
           "UID": "4321385379093947075",
-          "Rank": 5,
-          "messageCountToday": 1,
+          "Rank": 6,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -4943,8 +4943,15 @@
           "UserName": "ㅣ Cel Star ツ K ㅅ Aㅣ",
           "UID": "9163395675201090577",
           "Rank": 2,
-          "messageCountToday": 2,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Hà Y",
+          "UID": "1097350646085407745",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         }
       ],
       "nameGroup": "Cộng đồng vietsub ♤♡◇♧¤"
