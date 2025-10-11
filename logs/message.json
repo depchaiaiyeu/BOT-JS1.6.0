@@ -6643,5 +6643,263 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760168791293": {
+    "timestamp": "1760168791446",
+    "timestampString": "14:46:31",
+    "msgId": "7105333985961",
+    "cliMsgId": "1760168791293",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "@种地 bỏ tag ghi mỗi @scl 1 ms đc",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168795000": {
+    "timestamp": "1760168795068",
+    "timestampString": "14:46:35",
+    "msgId": "7105334162136",
+    "cliMsgId": "1760168795000",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "Mọe vừa chửi mấy thk bug tv bẩn xong",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168794870": {
+    "timestamp": "1760168795425",
+    "timestampString": "14:46:35",
+    "msgId": "7105334179365",
+    "cliMsgId": "1760168794870",
+    "msgType": "chat.video.msg",
+    "uidFrom": "3230551378165897454",
+    "idTo": "2760006576081013366",
+    "dName": "Long Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://video-stal-6.dlmd.me/gr/d2a5eaa8b65f42011b4e/2953368791560438839",
+      "thumb": "https://f64-zpg-r.zdn.vn/3347940177543779482/09ad0ee14d8ec0d0999f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":140000,\"is_group_layout\":0,\"video_original_width\":480,\"video_original_height\":852,\"video_width\":480,\"video_height\":852,\"video_rotation\":0,\"fileSize\":14719067,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168798142": {
+    "timestamp": "1760168798818",
+    "timestampString": "14:46:39",
+    "msgId": "7105334322318",
+    "cliMsgId": "1760168798142",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ",",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056101279281800": {
+    "timestamp": "1760168798852",
+    "timestampString": "14:46:39",
+    "msgId": "7105334322326",
+    "cliMsgId": "1056101279281800",
+    "msgType": "webchat",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "Minh Tuan\nBot Cua Minh Tuan 👀 /-break\nNếu Bạn Thắc Mắc Tao Có Những Lệnh Gì, Hãy:\n,help - Xem hướng dẫn sử dụng\n,game - Xem hướng dẫn chơi game\n,command - Xem danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":28,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168799335": {
+    "timestamp": "1760168799370",
+    "timestampString": "14:46:39",
+    "msgId": "7105334368046",
+    "cliMsgId": "1760168799335",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "@Tuan à",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168803286": {
+    "timestamp": "1760168803646",
+    "timestampString": "14:46:43",
+    "msgId": "7105334576061",
+    "cliMsgId": "1760168803286",
+    "msgType": "chat.video.msg",
+    "uidFrom": "3230551378165897454",
+    "idTo": "2760006576081013366",
+    "dName": "Long Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f140-zvc.dlmd.me/gr/2f5dd5c4a0614d3f1470/1951359049973242971",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/fc9403640d90f9cea081/255069986841353903.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":70000,\"is_group_layout\":0,\"video_original_width\":480,\"video_original_height\":852,\"video_width\":480,\"video_height\":852,\"video_rotation\":0,\"fileSize\":9338965,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168804156": {
+    "timestamp": "1760168804215",
+    "timestampString": "14:46:44",
+    "msgId": "7105334602708",
+    "cliMsgId": "1760168804156",
+    "msgType": "chat.delete",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3230551378165897000,
+        "uidTo": 2760006576081013000,
+        "clientDelMsgId": 1760168782170,
+        "globalDelMsgId": 7105333555931,
+        "destId": 2760006576081013000
+      }
+    ],
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168806868": {
+    "timestamp": "1760168806909",
+    "timestampString": "14:46:47",
+    "msgId": "7105334735112",
+    "cliMsgId": "1760168806868",
+    "msgType": "chat.delete",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3230551378165897000,
+        "uidTo": 2760006576081013000,
+        "clientDelMsgId": 1760168803286,
+        "globalDelMsgId": 7105334576061,
+        "destId": 2760006576081013000
+      }
+    ],
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168809222": {
+    "timestamp": "1760168809274",
+    "timestampString": "14:46:49",
+    "msgId": "7105334847029",
+    "cliMsgId": "1760168809222",
+    "msgType": "chat.delete",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3230551378165897000,
+        "uidTo": 2760006576081013000,
+        "clientDelMsgId": 1760168794870,
+        "globalDelMsgId": 7105334179365,
+        "destId": 2760006576081013000
+      }
+    ],
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168811445": {
+    "timestamp": "1760168811493",
+    "timestampString": "14:46:51",
+    "msgId": "7105334956623",
+    "cliMsgId": "1760168811445",
+    "msgType": "chat.delete",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3230551378165897000,
+        "uidTo": 2760006576081013000,
+        "clientDelMsgId": 1760168722395,
+        "globalDelMsgId": 7105330664037,
+        "destId": 2760006576081013000
+      }
+    ],
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168813351": {
+    "timestamp": "1760168813780",
+    "timestampString": "14:46:54",
+    "msgId": "7105335064439",
+    "cliMsgId": "1760168813351",
+    "msgType": "chat.video.msg",
+    "uidFrom": "3230551378165897454",
+    "idTo": "2760006576081013366",
+    "dName": "Long Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f110-zvc.dlmd.me/gr/91ae8923e0860dd85497/352643387812076833",
+      "thumb": "https://f67-zpg-r.zdn.vn/5538062203232565298/4c35f8b3bcdc318268cd.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":11000,\"is_group_layout\":0,\"video_original_width\":720,\"video_original_height\":1616,\"video_width\":480,\"video_height\":1080,\"video_rotation\":0,\"fileSize\":1257149,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168814947": {
+    "timestamp": "1760168814998",
+    "timestampString": "14:46:55",
+    "msgId": "7105335125143",
+    "cliMsgId": "1760168814947",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "Bên tlq á",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
