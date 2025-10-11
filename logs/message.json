@@ -11199,5 +11199,51 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "105610370749080": {
+    "timestamp": "1760172846100",
+    "timestampString": "15:54:07",
+    "msgId": "7105551569638",
+    "cliMsgId": "105610370749080",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@Thành Hoàng",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/4039116424421419243/59041ede9cb111ef48a0.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/4039116424421419243/59041ede9cb111ef48a0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/4039116424421419243\\/59041ede9cb111ef48a0.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172861468": {
+    "timestamp": "1760172861867",
+    "timestampString": "15:54:22",
+    "msgId": "7105552407116",
+    "cliMsgId": "1760172861468",
+    "msgType": "chat.photo",
+    "uidFrom": "6078954320375605607",
+    "idTo": "3228108398535377399",
+    "dName": "Thiên Phúc",
+    "content": {
+      "title": "🥳 Chào mừng Nguyễn Thanh Quốc \n🎉 đã tham gia HP-TOOL \nvào lúc 11/10/2025 [15:22:00] \nsố thành viên: 105",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/834978103802149698/a995c9bf4bd0c68e9fc1.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/834978103802149698/a995c9bf4bd0c68e9fc1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":600,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/834978103802149698\\/a995c9bf4bd0c68e9fc1.jpg\",\"hdSize\":344622,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
