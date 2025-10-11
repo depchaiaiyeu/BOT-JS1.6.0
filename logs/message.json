@@ -36305,5 +36305,71 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1760144463783": {
+    "timestamp": "1760144464675",
+    "timestampString": "08:01:05",
+    "msgId": "7104042993170",
+    "cliMsgId": "1760144463783",
+    "msgType": "chat.delete",
+    "uidFrom": "9210252485480501226",
+    "idTo": "7585160044864555896",
+    "dName": "Con Mèo",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7117924099084666000,
+        "uidTo": 7585160044864556000,
+        "clientDelMsgId": 1760144455274,
+        "globalDelMsgId": 7104042645546,
+        "destId": 7585160044864556000
+      }
+    ],
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144464724": {
+    "timestamp": "1760144464779",
+    "timestampString": "08:01:05",
+    "msgId": "7104042998821",
+    "cliMsgId": "1760144464724",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "7585160044864555896",
+    "dName": "Văn Tám",
+    "content": "~vdgirl",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144470592": {
+    "timestamp": "1760144470670",
+    "timestampString": "08:01:11",
+    "msgId": "7104043230965",
+    "cliMsgId": "1760144470592",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "7585160044864555896",
+    "dName": "Văn Tám",
+    "content": "~menu",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144475469": {
+    "timestamp": "1760144475540",
+    "timestampString": "08:01:15",
+    "msgId": "7104043437574",
+    "cliMsgId": "1760144475469",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "7585160044864555896",
+    "dName": "Văn Tám",
+    "content": "bot ngu r",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
