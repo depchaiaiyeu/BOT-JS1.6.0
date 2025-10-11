@@ -12986,5 +12986,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760175400814": {
+    "timestamp": "1760175400859",
+    "timestampString": "16:36:42",
+    "msgId": "7105684586950",
+    "cliMsgId": "1760175400814",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": "@Bắc mk chéo thì ngt trả có j đâu xóa link ngt",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175409395": {
+    "timestamp": "1760175409412",
+    "timestampString": "16:36:50",
+    "msgId": "7105685018310",
+    "cliMsgId": "1760175409395",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": "@陳龍 uy tín he bag",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
