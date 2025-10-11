@@ -1,12 +1,12 @@
 {
   "1759975893906": {
-    "timestamp": "1760141505607",
-    "timestampString": "07:11:46",
-    "msgId": "7103949028535",
+    "timestamp": "1760141637672",
+    "timestampString": "07:13:58",
+    "msgId": "7103952658974",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
-    "idTo": "9104968216656954464",
+    "idTo": "7897564732983285154",
     "dName": "Ha Trung Son",
     "content": {
       "title": "",
@@ -18,7 +18,7 @@
       "params": "{\"sendSource\":1,\"fileSize\":25006,\"width\":236,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/3095009715816529506\\/7800d34ed0045d5a0415.jpg\",\"height\":350}",
       "type": ""
     },
-    "threadId": "9104968216656954464",
+    "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
   },
@@ -29501,6 +29501,130 @@
     "idTo": "5601607522756268167",
     "dName": "Huỳnh Đức",
     "content": "@Kim Thanhh bọn m tag gì bố",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141612654": {
+    "timestamp": "1760141612699",
+    "timestampString": "07:13:33",
+    "msgId": "7103951975873",
+    "cliMsgId": "1760141612654",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "t tag à",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141614656": {
+    "timestamp": "1760141614754",
+    "timestampString": "07:13:35",
+    "msgId": "7103952032570",
+    "cliMsgId": "1760141614656",
+    "msgType": "chat.sticker",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": {
+      "id": 34834,
+      "catId": 11150,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141615265": {
+    "timestamp": "1760141615434",
+    "timestampString": "07:13:35",
+    "msgId": "7103952052008",
+    "cliMsgId": "1760141615265",
+    "msgType": "chat.photo",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/jpg/4920822018197752016/57100c6716079b59c216.jpg",
+      "thumb": "https://f56-zpg-r.zdn.vn/jpg/4920822018197752016/57100c6716079b59c216.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1520,\"hd\":\"https:\\/\\/f56-zpg-r.zdn.vn\\/jpg\\/4920822018197752016\\/57100c6716079b59c216.jpg\",\"is_group_layout\":1,\"group_layout_id\":1760141614249,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"338252\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141615308": {
+    "timestamp": "1760141615731",
+    "timestampString": "07:13:36",
+    "msgId": "7103952058863",
+    "cliMsgId": "1760141615308",
+    "msgType": "chat.photo",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/7946596115626380441/75e442db4dbbc0e599aa.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/7946596115626380441/75e442db4dbbc0e599aa.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1520,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/7946596115626380441\\/75e442db4dbbc0e599aa.jpg\",\"is_group_layout\":1,\"group_layout_id\":1760141614249,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"338253\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141618035": {
+    "timestamp": "1760141618092",
+    "timestampString": "07:13:38",
+    "msgId": "7103952125402",
+    "cliMsgId": "1760141618035",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "???",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141618664": {
+    "timestamp": "1760141618905",
+    "timestampString": "07:13:39",
+    "msgId": "7103952147305",
+    "cliMsgId": "1760141618664",
+    "msgType": "chat.sticker",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "id": 46970,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141637762": {
+    "timestamp": "1760141637824",
+    "timestampString": "07:13:58",
+    "msgId": "7103952665161",
+    "cliMsgId": "1760141637762",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "chuyện của cmay s hỏi t",
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
