@@ -35269,5 +35269,47 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1760143919816": {
+    "timestamp": "1760143919888",
+    "timestampString": "07:52:00",
+    "msgId": "7104022855856",
+    "cliMsgId": "1760143919816",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Nhưng của m đẹp💔",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143938519": {
+    "timestamp": "1760143938579",
+    "timestampString": "07:52:20",
+    "msgId": "7104023518002",
+    "cliMsgId": "1760143938519",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "Nó thả emoji ok r mà dell gửi lên=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143946891": {
+    "timestamp": "1760143946965",
+    "timestampString": "07:52:27",
+    "msgId": "7104023812315",
+    "cliMsgId": "1760143946891",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Lag🐧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
