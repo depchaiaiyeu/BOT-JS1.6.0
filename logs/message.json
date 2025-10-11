@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760070413502": {
-    "timestamp": "1760070413536",
-    "timestampString": "11:26:54",
-    "msgId": "7101103964801",
-    "cliMsgId": "1760070413502",
-    "msgType": "chat.photo",
-    "uidFrom": "7316233929819819187",
-    "idTo": "2760006576081013366",
-    "dName": "Cậu Không Thương Tớ",
-    "content": {
-      "title": "👋 Tạm biệt Lann Phươngg (8895368936077788216) đã rời khỏi Động Cappo.\n✨ Hiện tại nhóm còn lại 108 thành viên.",
-      "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/6673996995120189583/05272c2180780d265469.jpg",
-      "thumb": "https://t-f65-zpg-r.zdn.vn/480/6673996995120189583/05272c2180780d265469.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":120,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/6673996995120189583\\/05272c2180780d265469.jpg\",\"hdSize\":4789,\"height\":120}",
-      "type": ""
-    },
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
   "1760070478090": {
     "timestamp": "1760070491108",
     "timestampString": "11:28:11",
