@@ -30634,5 +30634,172 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183585876": {
+    "timestamp": "1760183586034",
+    "timestampString": "18:53:07",
+    "msgId": "7106110040161",
+    "cliMsgId": "1760183585876",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "!ms chưa từng cheely",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183586441": {
+    "timestamp": "1760183594916",
+    "timestampString": "18:53:15",
+    "msgId": "7106110488419",
+    "cliMsgId": "1760183586441",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 227886665729461020,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1760183586441,
+        "globalDelMsgId": 7106110058701,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183594655": {
+    "timestamp": "1760183594800",
+    "timestampString": "18:53:15",
+    "msgId": "7106110504410",
+    "cliMsgId": "1760183594655",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "2",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183594754": {
+    "timestamp": "1760183595565",
+    "timestampString": "18:53:15",
+    "msgId": "7106110545362",
+    "cliMsgId": "1760183594754",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "N D Q\nChờ lấy nhạc một chút, xong sẽ gọi cho hay.\n\n⏳ Chưa Từng Cheer Ly - YC",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":70,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183598082": {
+    "timestamp": "1760183598895",
+    "timestampString": "18:53:19",
+    "msgId": "7106110712920",
+    "cliMsgId": "1760183598082",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "N D Q\n> From SoundCloud <\nNhạc Bạn Chọn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":40,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183598145": {
+    "timestamp": "1760183599011",
+    "timestampString": "18:53:19",
+    "msgId": "7106110712925",
+    "cliMsgId": "1760183598145",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/3764745789693748710/df4e7d9582fc0fa256ed.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/3764745789693748710/df4e7d9582fc0fa256ed.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":678,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/3764745789693748710\\/df4e7d9582fc0fa256ed.jpg\",\"hdSize\":180798,\"height\":212}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183598223": {
+    "timestamp": "1760183599131",
+    "timestampString": "18:53:19",
+    "msgId": "7106110712936",
+    "cliMsgId": "1760183598223",
+    "msgType": "chat.voice",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f35-zfcloud.zdn.vn/f6bb6dfc4660e73ebe71/6900501385666933219?createby=NDQ_Bot/1760183597441.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":1805164,\"m4a\":\"https:\\/\\/f35-zfcloud.zdn.vn\\/f6bb6dfc4660e73ebe71\\/6900501385666933219?createby=NDQ_Bot\\/1760183597441.aac\"}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183599789": {
+    "timestamp": "1760183600287",
+    "timestampString": "18:53:20",
+    "msgId": "7106110758563",
+    "cliMsgId": "1760183599789",
+    "msgType": "chat.photo",
+    "uidFrom": "5365572569803808077",
+    "idTo": "4825567233436439756",
+    "dName": "Hà Huy Hoàng",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/70d2b5d4b85e1900404f/2920403140799587878?createby=HaHuyHoang_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/70d2b5d4b85e1900404f/2920403140799587878?createby=HaHuyHoang_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":512,\"thumb_height\":572,\"width\":512,\"contentId\":\"1759258646077\",\"pStickerType\":1,\"webp\":{\"width\":512,\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/70d2b5d4b85e1900404f\\/2920403140799587878?createby=HaHuyHoang_Bot.webp\",\"height\":572},\"hd\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/70d2b5d4b85e1900404f\\/2920403140799587878?createby=HaHuyHoang_Bot.webp\",\"height\":572}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
