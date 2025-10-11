@@ -45,66 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760068215035": {
-    "timestamp": "1760068216865",
-    "timestampString": "10:50:18",
-    "msgId": "7100933209580",
-    "cliMsgId": "1760068215035",
-    "msgType": "chat.recommended",
-    "uidFrom": "2224078478875632358",
-    "idTo": "4699745045071009795",
-    "dName": "Sói Đơn Độc",
-    "content": {
-      "title": "https://zalo.me/g/ttefbv747",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/ttefbv747",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2ca6f3a2f171760068129aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvOTYwM2Y2YTRhMWMyNGI5YzEyZDM=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":2,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"Gái xinh Tp Ngọc Lặc Thọ Xuân\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/b\\/6\\/1\\/4\\/2\\/120\\/e630ee3d9d3f4f2b334990899c892dfd.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760068246451": {
-    "timestamp": "1760068246614",
-    "timestampString": "10:50:47",
-    "msgId": "7100935511983",
-    "cliMsgId": "1760068246451",
-    "msgType": "chat.photo",
-    "uidFrom": "3585195700709757434",
-    "idTo": "5975420422762749911",
-    "dName": "Trọng Tấn",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://f61-zpg-r.zdn.vn/jpg/4578854246289291999/45112074142d9973c03c.jpg",
-      "thumb": "https://f61-zpg-r.zdn.vn/jpg/4578854246289291999/45112074142d9973c03c.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":1080,\"height\":2400,\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/4578854246289291999\\/45112074142d9973c03c.jpg\",\"is_group_layout\":0,\"contentId\":\"1000209658\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760068248388": {
-    "timestamp": "1760068248399",
-    "timestampString": "10:50:48",
-    "msgId": "7100935654408",
-    "cliMsgId": "1760068248388",
-    "msgType": "webchat",
-    "uidFrom": "3585195700709757434",
-    "idTo": "5975420422762749911",
-    "dName": "Trọng Tấn",
-    "content": ":)))",
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760068287781": {
     "timestamp": "1760068287993",
     "timestampString": "10:51:28",
