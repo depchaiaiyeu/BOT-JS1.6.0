@@ -36682,5 +36682,42 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760185199060": {
+    "timestamp": "1760185200564",
+    "timestampString": "19:20:01",
+    "msgId": "7106196069545",
+    "cliMsgId": "1760185199060",
+    "msgType": "chat.photo",
+    "uidFrom": "8540062109564474303",
+    "idTo": "7897564732983285154",
+    "dName": "Ánh Tuyết",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/8285611018007988250/6351522cef45621b3b54.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/8285611018007988250/6351522cef45621b3b54.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":432,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f57-zpg-r.zdn.vn\\/jpg\\/8285611018007988250\\/6351522cef45621b3b54.jpg\",\"hdSize\":28949,\"height\":617}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185226914": {
+    "timestamp": "1760185226986",
+    "timestampString": "19:20:27",
+    "msgId": "7106197538302",
+    "cliMsgId": "1760185226914",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "@Nguyenx Linh Tại sao",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
