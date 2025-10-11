@@ -11971,5 +11971,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760173820268": {
+    "timestamp": "1760173820345",
+    "timestampString": "16:10:21",
+    "msgId": "7105603464081",
+    "cliMsgId": "1760173820268",
+    "msgType": "webchat",
+    "uidFrom": "5306741553836592542",
+    "idTo": "4699745045071009795",
+    "dName": "Trí Huân",
+    "content": "Ai Vào nhóm mess ib mình",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
