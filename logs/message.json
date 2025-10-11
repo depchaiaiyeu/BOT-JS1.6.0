@@ -24696,5 +24696,74 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760180669957": {
+    "timestamp": "1760180669794",
+    "timestampString": "18:04:30",
+    "msgId": "7105957499294",
+    "cliMsgId": "1760180669957",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://i1.sndcdn.com/artworks-bagb9T4wHM1zVnAK-b9IuzQ-t500x500.jpg",
+      "thumb": "https://i1.sndcdn.com/artworks-bagb9T4wHM1zVnAK-b9IuzQ-t500x500.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":332,\"thumb_height\":498,\"width\":498,\"contentId\":\"1760180669957\",\"pStickerType\":1,\"webp\":{\"width\":498,\"url\":\"https:\\/\\/fg41.dlfl.vn\\/d92f378a1816b948e007\\/3480262689418410385?creator=khangapi.webp\",\"height\":332},\"hd\":\"https:\\/\\/i1.sndcdn.com\\/artworks-bagb9T4wHM1zVnAK-b9IuzQ-t500x500.jpg\",\"height\":332}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180670666": {
+    "timestamp": "1760180670506",
+    "timestampString": "18:04:30",
+    "msgId": "7105957551653",
+    "cliMsgId": "1760180670666",
+    "msgType": "chat.voice",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f2-voice-aac-dl.zdn.vn/9119747306923084056/36962788f3041d5a4415.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":2827492,\"m4a\":\"https:\\/\\/f2-voice-aac-dl.zdn.vn\\/9119747306923084056\\/36962788f3041d5a4415.aac\"}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180669698": {
+    "timestamp": "1760180670546",
+    "timestampString": "18:04:31",
+    "msgId": "7105957551655",
+    "cliMsgId": "1760180669698",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "🚦 @̀nguyễn Duy Khang Âm nhạc là thứ yên tĩnh, chữa lành 💞",
+      "description": "",
+      "href": "https://b-f63-zpg-r.zdn.vn/6442792806232636380/3860aa16c67f4b21126e.jpg",
+      "thumb": "https://b-f63-zpg-r.zdn.vn/6442792806232636380/3860aa16c67f4b21126e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/6442792806232636380\\/3860aa16c67f4b21126e.jpg\",\"height\":400}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
