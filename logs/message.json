@@ -30221,5 +30221,103 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183225822": {
+    "timestamp": "1760183225947",
+    "timestampString": "18:47:06",
+    "msgId": "7106091024826",
+    "cliMsgId": "1760183225822",
+    "msgType": "webchat",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": "Vcl nhạc 2000",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183239738": {
+    "timestamp": "1760183239787",
+    "timestampString": "18:47:24",
+    "msgId": "7106091754167",
+    "cliMsgId": "1760183239738",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".scl dont coi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183244280": {
+    "timestamp": "1760183244385",
+    "timestampString": "18:47:24",
+    "msgId": "7106091948412",
+    "cliMsgId": "1760183244280",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/488609862763933689/56f2eb4c2a25a77bfe34.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/488609862763933689/56f2eb4c2a25a77bfe34.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1477,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/488609862763933689\\/56f2eb4c2a25a77bfe34.jpg\",\"hdSize\":357054,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183247867": {
+    "timestamp": "1760183247967",
+    "timestampString": "18:47:28",
+    "msgId": "7106092164861",
+    "cliMsgId": "1760183247867",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ Don't Côi - RPT Orijinn X Ronboogz",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":84,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183247633": {
+    "timestamp": "1760183247733",
+    "timestampString": "18:47:28",
+    "msgId": "7106092164839",
+    "cliMsgId": "1760183247633",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760183244280,
+        "globalDelMsgId": 7106091948412,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
