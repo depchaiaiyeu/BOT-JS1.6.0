@@ -2663,8 +2663,8 @@
         {
           "UserName": "Núp Gầm Giường",
           "UID": "2275317996891696552",
-          "Rank": 1064,
-          "messageCountToday": 24,
+          "Rank": 1065,
+          "messageCountToday": 25,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -3156,9 +3156,9 @@
         {
           "UserName": "Bắc",
           "UID": "7159173789925726305",
-          "Rank": 101,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-10"
+          "Rank": 102,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "All",
@@ -6526,6 +6526,13 @@
         {
           "UserName": "Con Mèo",
           "UID": "9210252485480501226",
+          "Rank": 2,
+          "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Long",
+          "UID": "6886661089325427881",
           "Rank": 2,
           "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"

@@ -35492,5 +35492,61 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760144101401": {
+    "timestamp": "1760144101462",
+    "timestampString": "07:55:02",
+    "msgId": "7104029297765",
+    "cliMsgId": "1760144101401",
+    "msgType": "webchat",
+    "uidFrom": "6886661089325427881",
+    "idTo": "206503079877623526",
+    "dName": "Long",
+    "content": "/help",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144107447": {
+    "timestamp": "1760144107590",
+    "timestampString": "07:55:07",
+    "msgId": "7104029518985",
+    "cliMsgId": "1760144107447",
+    "msgType": "webchat",
+    "uidFrom": "6886661089325427881",
+    "idTo": "206503079877623526",
+    "dName": "Long",
+    "content": ".help",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144109647": {
+    "timestamp": "1760144109725",
+    "timestampString": "07:55:10",
+    "msgId": "7104029598433",
+    "cliMsgId": "1760144109647",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "@ヅtrần Ân Ânヅ thay tên font thành font của m là được mà=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144111044": {
+    "timestamp": "1760144111105",
+    "timestampString": "07:55:11",
+    "msgId": "7104029649863",
+    "cliMsgId": "1760144111044",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Nguyễn Minh Khôi",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
