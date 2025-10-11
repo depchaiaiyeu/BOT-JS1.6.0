@@ -30560,5 +30560,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183422956": {
+    "timestamp": "1760183422985",
+    "timestampString": "18:50:24",
+    "msgId": "7106101430206",
+    "cliMsgId": "1760183422956",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "@Duck m xem js đi là bt",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
