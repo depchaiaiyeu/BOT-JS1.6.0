@@ -17820,5 +17820,61 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178061699": {
+    "timestamp": "1760178061869",
+    "timestampString": "17:21:02",
+    "msgId": "7105822337802",
+    "cliMsgId": "1760178061699",
+    "msgType": "webchat",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": "@Văn Tám",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178070502": {
+    "timestamp": "1760178070699",
+    "timestampString": "17:21:11",
+    "msgId": "7105822777942",
+    "cliMsgId": "1760178070502",
+    "msgType": "webchat",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": "Thằng kia ngồi ko hưởng đạn",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178070927": {
+    "timestamp": "1760178071025",
+    "timestampString": "17:21:11",
+    "msgId": "7105822795937",
+    "cliMsgId": "1760178070927",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@Đạt hà",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178078025": {
+    "timestamp": "1760178078193",
+    "timestampString": "17:21:19",
+    "msgId": "7105823151380",
+    "cliMsgId": "1760178078025",
+    "msgType": "webchat",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": "@Văn Tám ác vcl",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
