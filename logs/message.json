@@ -7651,5 +7651,47 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760169093608": {
+    "timestamp": "1760169101963",
+    "timestampString": "14:51:43",
+    "msgId": "7105348980844",
+    "cliMsgId": "1760169093608",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "@Cường cần",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169098630": {
+    "timestamp": "1760169111321",
+    "timestampString": "14:51:52",
+    "msgId": "7105349438062",
+    "cliMsgId": "1760169098630",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "có api hay sao đó",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169101349": {
+    "timestamp": "1760169114286",
+    "timestampString": "14:51:54",
+    "msgId": "7105349581096",
+    "cliMsgId": "1760169101349",
+    "msgType": "webchat",
+    "uidFrom": "3219860439578141332",
+    "idTo": "5166581134204343688",
+    "dName": "Duy Trường",
+    "content": "t k nhớ nx",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
