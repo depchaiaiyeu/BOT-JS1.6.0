@@ -4948,5 +4948,144 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760168215379": {
+    "timestamp": "1760168216928",
+    "timestampString": "14:36:57",
+    "msgId": "7105306560252",
+    "cliMsgId": "1760168215379",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/xjvtrq366 kêu trả tag đợi xí lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xjvtrq366",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv271a793f6621760168088aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDgwOWYzY2FkYTgwMzBkZTY5OTE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"ᥫᩣngoanхιnнyêυ 🤡🌷\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xjvtrq366\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/8\\/1\\/5\\/e\\/26\\/120\\/27d34d7fd41da79734d5944a062b3e10.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168217906": {
+    "timestamp": "1760168217912",
+    "timestampString": "14:36:58",
+    "msgId": "7105306600482",
+    "cliMsgId": "1760168217906",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nNguyễn Minh Khôi\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168215667": {
+    "timestamp": "1760168217703",
+    "timestampString": "14:36:58",
+    "msgId": "7105306597220",
+    "cliMsgId": "1760168215667",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/xjvtrq366 kêu trả tag đợi xí lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xjvtrq366",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv271a793f6621760168088aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDgwOWYzY2FkYTgwMzBkZTY5OTE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"ᥫᩣngoanхιnнyêυ 🤡🌷\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xjvtrq366\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/8\\/1\\/5\\/e\\/26\\/120\\/27d34d7fd41da79734d5944a062b3e10.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168217843": {
+    "timestamp": "1760168217849",
+    "timestampString": "14:36:58",
+    "msgId": "7105306600466",
+    "cliMsgId": "1760168217843",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6782773072614203000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760168215667,
+        "globalDelMsgId": 7105306597220,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168215830": {
+    "timestamp": "1760168218368",
+    "timestampString": "14:36:58",
+    "msgId": "7105306630948",
+    "cliMsgId": "1760168215830",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/xjvtrq366 kêu trả tag đợi xí lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xjvtrq366",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv271a793f6621760168088aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDgwOWYzY2FkYTgwMzBkZTY5OTE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"ᥫᩣngoanхιnнyêυ 🤡🌷\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xjvtrq366\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/8\\/1\\/5\\/e\\/26\\/120\\/27d34d7fd41da79734d5944a062b3e10.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056100930956000": {
+    "timestamp": "1760168218505",
+    "timestampString": "14:36:58",
+    "msgId": "7105306631086",
+    "cliMsgId": "1056100930956000",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Nguyễn Minh Khôi\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":17,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
