@@ -8308,5 +8308,19 @@
     "threadId": "1747464985521437051",
     "type": 1,
     "isUndo": false
+  },
+  "1760170100334": {
+    "timestamp": "1760170101008",
+    "timestampString": "15:08:21",
+    "msgId": "7105400687459",
+    "cliMsgId": "1760170100334",
+    "msgType": "webchat",
+    "uidFrom": "1060629329272133507",
+    "idTo": "9104968216656954464",
+    "dName": "Trần Thiên Bảo",
+    "content": "ai bt k help vs roblox tui bị j r :/",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
