@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760065756485": {
-    "timestamp": "1760065756325",
-    "timestampString": "10:09:17",
-    "msgId": "7100742276359",
-    "cliMsgId": "1760065756485",
-    "msgType": "chat.photo",
-    "uidFrom": "4769828224334762506",
-    "idTo": "7585160044864555896",
-    "dName": "T Rex",
-    "content": {
-      "title": "✨ Ngọc Điệp",
-      "description": "",
-      "href": "https://f63-zpg-r.zdn.vn/3676419962872745441/d63bf0a261fceca2b5ed.jpg",
-      "thumb": "https://t-f63-zpg-r.zdn.vn/480/3676419962872745441/d63bf0a261fceca2b5ed.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"id_in_group\":0,\"is_group_layout\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":980,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/3676419962872745441\\/d63bf0a261fceca2b5ed.jpg\",\"hdSize\":344622,\"group_layout_id\":1760065756484,\"height\":350,\"total_item_in_group\":1}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1056039482736000": {
     "timestamp": "1760065804575",
     "timestampString": "10:10:05",
