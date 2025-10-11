@@ -12091,5 +12091,70 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760174189696": {
+    "timestamp": "1760174189764",
+    "timestampString": "16:16:31",
+    "msgId": "7105622625427",
+    "cliMsgId": "1760174189696",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Ô",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174203100": {
+    "timestamp": "1760174203136",
+    "timestampString": "16:16:43",
+    "msgId": "7105623316532",
+    "cliMsgId": "1760174203100",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Gemini làm đc cả code việt hóa hay phết này🐧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174208853": {
+    "timestamp": "1760174209686",
+    "timestampString": "16:16:50",
+    "msgId": "7105623652522",
+    "cliMsgId": "1760174208853",
+    "msgType": "chat.photo",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/482bb0b28b437f1d2652/4531485374673490795.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/482bb0b28b437f1d2652/4531485374673490795.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1640,\"is_group_layout\":0,\"contentId\":\"1000015134\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174216035": {
+    "timestamp": "1760174216081",
+    "timestampString": "16:16:56",
+    "msgId": "7105623979026",
+    "cliMsgId": "1760174216035",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Nhìn việt nam phết🐧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
