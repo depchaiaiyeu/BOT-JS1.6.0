@@ -37013,5 +37013,78 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760144677952": {
+    "timestamp": "1760144678031",
+    "timestampString": "08:04:39",
+    "msgId": "7104052581173",
+    "cliMsgId": "1760144677952",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Đi chạy golike đã k e nó dí",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144679775": {
+    "timestamp": "1760144679867",
+    "timestampString": "08:04:40",
+    "msgId": "7104052664485",
+    "cliMsgId": "1760144679775",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144679959": {
+    "timestamp": "1760144680039",
+    "timestampString": "08:04:41",
+    "msgId": "7104052671563",
+    "cliMsgId": "1760144679959",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144683991": {
+    "timestamp": "1760144684705",
+    "timestampString": "08:04:45",
+    "msgId": "7104052882666",
+    "cliMsgId": "1760144683991",
+    "msgType": "chat.photo",
+    "uidFrom": "6988599456249707975",
+    "idTo": "3228108398535377399",
+    "dName": "Poiuyt",
+    "content": {
+      "title": "@Bùi Hoàng Nguyên",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/9220824955969415232/677ad13f255fa801f14e.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/9220824955969415232/677ad13f255fa801f14e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/9220824955969415232\\/677ad13f255fa801f14e.jpg\",\"hdSize\":344622,\"height\":450}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
