@@ -11079,5 +11079,65 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760172663575": {
+    "timestamp": "1760172663572",
+    "timestampString": "15:51:03",
+    "msgId": "7105541760580",
+    "cliMsgId": "1760172663575",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/0c7c2f66aaef0bb152fe/3709790105557566414?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/0c7c2f66aaef0bb152fe/3709790105557566414?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759038220071\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/0c7c2f66aaef0bb152fe\\/3709790105557566414?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":256,\"height\":256,\"thumb\":\"\"},\"contentId\":\"1759038220071\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172663778": {
+    "timestamp": "1760172663778",
+    "timestampString": "15:51:04",
+    "msgId": "7105541771282",
+    "cliMsgId": "1760172663778",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/0c7c2f66aaef0bb152fe/3709790105557566414?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/0c7c2f66aaef0bb152fe/3709790105557566414?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759038220071\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/0c7c2f66aaef0bb152fe\\/3709790105557566414?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":256,\"height\":256,\"thumb\":\"\"},\"contentId\":\"1759038220071\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172681842": {
+    "timestamp": "1760172681891",
+    "timestampString": "15:51:22",
+    "msgId": "7105542788873",
+    "cliMsgId": "1760172681842",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@Nhân Trương chờ nhân làm",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
