@@ -29818,5 +29818,163 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760141674063": {
+    "timestamp": "1760141674117",
+    "timestampString": "07:14:34",
+    "msgId": "7103953669170",
+    "cliMsgId": "1760141674063",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "má",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141680002": {
+    "timestamp": "1760141680097",
+    "timestampString": "07:14:40",
+    "msgId": "7103953838466",
+    "cliMsgId": "1760141680002",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "@Kim Thanhh đợi nó onl hả",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141683723": {
+    "timestamp": "1760141683809",
+    "timestampString": "07:14:44",
+    "msgId": "7103953941048",
+    "cliMsgId": "1760141683723",
+    "msgType": "chat.photo",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/810773d65555f40bad44/4757255648235607578?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/810773d65555f40bad44/4757255648235607578?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":528,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758372133590\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/810773d65555f40bad44\\/4757255648235607578?creator=Tahn_bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758372133590\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141684005": {
+    "timestamp": "1760141683979",
+    "timestampString": "07:14:44",
+    "msgId": "7103953938869",
+    "cliMsgId": "1760141684005",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4349248820197918000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760141683723,
+        "globalDelMsgId": 7103953941048,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141686741": {
+    "timestamp": "1760141686800",
+    "timestampString": "07:14:47",
+    "msgId": "7103954023684",
+    "cliMsgId": "1760141686741",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "tùy m chớ",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141689148": {
+    "timestamp": "1760141689224",
+    "timestampString": "07:14:49",
+    "msgId": "7103954090731",
+    "cliMsgId": "1760141689148",
+    "msgType": "chat.sticker",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": {
+      "id": 34834,
+      "catId": 11150,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141691964": {
+    "timestamp": "1760141692026",
+    "timestampString": "07:14:52",
+    "msgId": "7103954167823",
+    "cliMsgId": "1760141691964",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Chửi chết mẹ nó chứ onl onl",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141693900": {
+    "timestamp": "1760141693956",
+    "timestampString": "07:14:54",
+    "msgId": "7103954223190",
+    "cliMsgId": "1760141693900",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "!detail",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "105608501737080": {
+    "timestamp": "1760141695823",
+    "timestampString": "07:14:56",
+    "msgId": "7103954273817",
+    "cliMsgId": "105608501737080",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/7000030587029082686/0331508850e8ddb684f9.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/7000030587029082686/0331508850e8ddb684f9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1920,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/7000030587029082686\\/0331508850e8ddb684f9.jpg\",\"hdSize\":344622,\"height\":2134}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
