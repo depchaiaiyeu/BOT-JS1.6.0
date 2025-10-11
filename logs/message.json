@@ -33659,5 +33659,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142890562": {
+    "timestamp": "1760142890642",
+    "timestampString": "07:34:52",
+    "msgId": "7103989031273",
+    "cliMsgId": "1760142890562",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "ủa v",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
