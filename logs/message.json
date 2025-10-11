@@ -8164,5 +8164,56 @@
     "threadId": "1747464985521437051",
     "type": 1,
     "isUndo": false
+  },
+  "1760169905188": {
+    "timestamp": "1760169906022",
+    "timestampString": "15:05:06",
+    "msgId": "7105390114227",
+    "cliMsgId": "1760169905188",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "-> SendTask 15:05 <-\nChào một buổi xế chiều đầy năng lượng!\n\nCung cấp vitamin gái cho anh em đây!!!",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/f4f3cf0e879226cc7f83/2543279706487509838?createby=NDQ_Bot",
+      "thumb": "https://f12-zpc.zdn.vn/1884209299827251994/9872841991761c284567.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":10066,\"video_height\":768,\"fileSize\":757128,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169923207": {
+    "timestamp": "1760169923294",
+    "timestampString": "15:05:24",
+    "msgId": "7105391087575",
+    "cliMsgId": "1760169923207",
+    "msgType": "webchat",
+    "uidFrom": "7996546437749110466",
+    "idTo": "1747464985521437051",
+    "dName": "Thư",
+    "content": "--b",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169924137": {
+    "timestamp": "1760169923408",
+    "timestampString": "15:05:24",
+    "msgId": "7105391072536",
+    "cliMsgId": "1760169924137",
+    "msgType": "webchat",
+    "uidFrom": "2794830227239735026",
+    "idTo": "1747464985521437051",
+    "dName": "Mỹ Nhân",
+    "content": "⚠️ Lệnh không tồn tại!",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
