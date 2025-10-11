@@ -12239,5 +12239,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760174345456": {
+    "timestamp": "1760174345551",
+    "timestampString": "16:19:06",
+    "msgId": "7105630620379",
+    "cliMsgId": "1760174345456",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@ヅtrần Ân Ânヅ check sex như nào đây",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174346887": {
+    "timestamp": "1760174346956",
+    "timestampString": "16:19:07",
+    "msgId": "7105630691997",
+    "cliMsgId": "1760174346887",
+    "msgType": "chat.photo",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/d46fb5286b1eca40930f/1521078719719223632?creator=Tahn_bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/d46fb5286b1eca40930f/1521078719719223632?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1750141451198\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/c95ae51e3b289a76c339\\/6709837813597239839?creator=Tahn_bot.webp\",\"width\":320,\"height\":320,\"thumb\":\"\"},\"contentId\":\"1750141451198\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
