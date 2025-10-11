@@ -12769,5 +12769,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760175175795": {
+    "timestamp": "1760175175851",
+    "timestampString": "16:32:56",
+    "msgId": "7105673252800",
+    "cliMsgId": "1760175175795",
+    "msgType": "webchat",
+    "uidFrom": "2445240967781625812",
+    "idTo": "9104968216656954464",
+    "dName": "Minh Tú",
+    "content": "ai thu rac mega giá ổn k",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
