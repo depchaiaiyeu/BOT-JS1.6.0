@@ -37204,5 +37204,51 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1056111789718200": {
+    "timestamp": "1760186316112",
+    "timestampString": "19:38:37",
+    "msgId": "7106256651157",
+    "cliMsgId": "1056111789718200",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Con Mèo Cute\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186314031": {
+    "timestamp": "1760186315944",
+    "timestampString": "19:38:37",
+    "msgId": "7106256689189",
+    "cliMsgId": "1760186314031",
+    "msgType": "chat.recommended",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": {
+      "title": "https://zalo.me/g/lbkdyi748",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/lbkdyi748",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2fa2e1a434a1760186222aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvM2U5OGYzNWZiMDM5NWE2NzAzMjg=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Nhóm j\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/lbkdyi748\",\"owner\":{\"id\":413739090,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"http:\\/\\/s120.ava.grp.talk.zdn.vn\\/default\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
