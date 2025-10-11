@@ -21437,5 +21437,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760179883746": {
+    "timestamp": "1760179883825",
+    "timestampString": "17:51:30",
+    "msgId": "7105915559751",
+    "cliMsgId": "1760179883746",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".eval for (let i = 0; i < 1000; i++) {\n  api.addReaction(\"LIKE\", message);\n  api.addReaction(\"HAHA\", message);\n  api.addReaction(\"HEART\", message);\n  api.addReaction(\"NGU\", message);\n}",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179888145": {
+    "timestamp": "1760179888250",
+    "timestampString": "17:51:32",
+    "msgId": "7105915794479",
+    "cliMsgId": "1760179888145",
+    "msgType": "webchat",
+    "uidFrom": "7952370821979394919",
+    "idTo": "5975420422762749911",
+    "dName": "Tờ Quang广报",
+    "content": "t chả có bot",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179916971": {
+    "timestamp": "1760179917028",
+    "timestampString": "17:51:58",
+    "msgId": "7105917318075",
+    "cliMsgId": "1760179916971",
+    "msgType": "webchat",
+    "uidFrom": "8963550240679491935",
+    "idTo": "7897564732983285154",
+    "dName": "Dũng",
+    "content": "@Trọng Nghĩaᅐᅡ wow trc có bò bay giờ có ngựa bay",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
