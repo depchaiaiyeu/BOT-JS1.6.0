@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760071202718": {
-    "timestamp": "1760071207449",
-    "timestampString": "11:40:08",
-    "msgId": "7101164271503",
-    "cliMsgId": "1760071202718",
-    "msgType": "webchat",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": "@Vinh hmm",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1760071316352": {
     "timestamp": "1760071316943",
     "timestampString": "11:41:57",
