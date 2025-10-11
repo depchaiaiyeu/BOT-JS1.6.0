@@ -29571,5 +29571,65 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760182716423": {
+    "timestamp": "1760182716608",
+    "timestampString": "18:38:37",
+    "msgId": "7106064031190",
+    "cliMsgId": "1760182716423",
+    "msgType": "chat.sticker",
+    "uidFrom": "8739349149579890803",
+    "idTo": "2990969618896538297",
+    "dName": "我喜欢快乐",
+    "content": {
+      "id": 34839,
+      "catId": 11190,
+      "type": 3
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182722196": {
+    "timestamp": "1760182722292",
+    "timestampString": "18:38:43",
+    "msgId": "7106064332145",
+    "cliMsgId": "1760182722196",
+    "msgType": "webchat",
+    "uidFrom": "5990436222192783385",
+    "idTo": "2990969618896538297",
+    "dName": "Phạm Hoàng Hải",
+    "content": "@Thành Nhân oki",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182724511": {
+    "timestamp": "1760182724687",
+    "timestampString": "18:38:45",
+    "msgId": "7106064457754",
+    "cliMsgId": "1760182724511",
+    "msgType": "webchat",
+    "uidFrom": "3689896893330581262",
+    "idTo": "7897564732983285154",
+    "dName": "Gray",
+    "content": "????",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182726687": {
+    "timestamp": "1760182726759",
+    "timestampString": "18:38:47",
+    "msgId": "7106064570295",
+    "cliMsgId": "1760182726687",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "@Phạm Hoàng Hải Ok",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
