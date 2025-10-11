@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760060214120": {
-    "timestamp": "1760060214179",
-    "timestampString": "08:36:54",
-    "msgId": "7100341300501",
-    "cliMsgId": "1760060214120",
-    "msgType": "webchat",
-    "uidFrom": "9186197335392085312",
-    "idTo": "4825567233436439756",
-    "dName": "Tài Tấn",
-    "content": "!spotify văn Mẫn &&50",
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760060218173": {
     "timestamp": "1760060232598",
     "timestampString": "08:37:13",
