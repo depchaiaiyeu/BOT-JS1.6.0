@@ -8146,5 +8146,23 @@
     "threadId": "1747464985521437051",
     "type": 1,
     "isUndo": false
+  },
+  "1760169884370": {
+    "timestamp": "1760169884415",
+    "timestampString": "15:04:45",
+    "msgId": "7105388927202",
+    "cliMsgId": "1760169884370",
+    "msgType": "chat.sticker",
+    "uidFrom": "6387879024110411677",
+    "idTo": "1747464985521437051",
+    "dName": "Toxic",
+    "content": {
+      "id": 30809,
+      "catId": 10961,
+      "type": 3
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
