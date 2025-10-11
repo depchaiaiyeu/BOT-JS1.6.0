@@ -35450,5 +35450,47 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760144043334": {
+    "timestamp": "1760144043385",
+    "timestampString": "07:54:04",
+    "msgId": "7104027225530",
+    "cliMsgId": "1760144043334",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "7585160044864555896",
+    "dName": "Con Mèo",
+    "content": "•_•",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144052110": {
+    "timestamp": "1760144052164",
+    "timestampString": "07:54:13",
+    "msgId": "7104027535408",
+    "cliMsgId": "1760144052110",
+    "msgType": "webchat",
+    "uidFrom": "5072417198178059103",
+    "idTo": "5166581134204343688",
+    "dName": "Ngô Quang Đạt",
+    "content": "Ngực lưng xô tay m xem m đc cái nào",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144065500": {
+    "timestamp": "1760144065544",
+    "timestampString": "07:54:26",
+    "msgId": "7104028014156",
+    "cliMsgId": "1760144065500",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "@Núp Gầm Giường thì tại t thấy nó bị lỗi font chữ nên viết tùm lum..💔💔",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
