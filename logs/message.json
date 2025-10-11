@@ -37335,5 +37335,33 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760144831896": {
+    "timestamp": "1760144831970",
+    "timestampString": "08:07:13",
+    "msgId": "7104059839121",
+    "cliMsgId": "1760144831896",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Đọc tn hài quá",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144843098": {
+    "timestamp": "1760144843194",
+    "timestampString": "08:07:24",
+    "msgId": "7104060371153",
+    "cliMsgId": "1760144843098",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Tháng kím 1m cơ",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
