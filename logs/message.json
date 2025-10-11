@@ -31643,5 +31643,61 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142270317": {
+    "timestamp": "1760142270360",
+    "timestampString": "07:24:30",
+    "msgId": "7103970706423",
+    "cliMsgId": "1760142270317",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "https://zalo.me/g/ohirpx207",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142295601": {
+    "timestamp": "1760142295656",
+    "timestampString": "07:24:57",
+    "msgId": "7103971427374",
+    "cliMsgId": "1760142295601",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": "https://zalo.me/g/eiynxr938.             .https://zalo.me/g/frsqcc439.           https://zalo.me/g/eiynxr938.              https://zalo.me/g/rpoivt998            Sell acc 50k có súng đỏ và nhều mặt hàng",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142297300": {
+    "timestamp": "1760142297388",
+    "timestampString": "07:24:58",
+    "msgId": "7103971478120",
+    "cliMsgId": "1760142297300",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": "https://zalo.me/g/eiynxr938.             .https://zalo.me/g/frsqcc439.           https://zalo.me/g/eiynxr938.              https://zalo.me/g/rpoivt998            Sell acc 50k có súng đỏ và nhều mặt hàng",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142298767": {
+    "timestamp": "1760142298904",
+    "timestampString": "07:24:59",
+    "msgId": "7103971522139",
+    "cliMsgId": "1760142298767",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": "https://zalo.me/g/eiynxr938.             .https://zalo.me/g/frsqcc439.           https://zalo.me/g/eiynxr938.              https://zalo.me/g/rpoivt998            Sell acc 50k có súng đỏ và nhều mặt hàng",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
