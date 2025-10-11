@@ -30291,5 +30291,79 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760141765532": {
+    "timestamp": "1760141765616",
+    "timestampString": "07:16:07",
+    "msgId": "7103956258921",
+    "cliMsgId": "1760141765532",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "t cho ửa trong box mà -))))))))",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141768424": {
+    "timestamp": "1760141768454",
+    "timestampString": "07:16:09",
+    "msgId": "7103956337926",
+    "cliMsgId": "1760141768424",
+    "msgType": "webchat",
+    "uidFrom": "1450163512963454235",
+    "idTo": "3453989112147091924",
+    "dName": "Nguyễn Xuân Thọ",
+    "content": "Sll payoneer cần cccd 2 mặt + sao kê 3 tháng + 1 thẻ visa chính chủ khách reg acc 120/1 ( duyệt tối đa trong vòng 3 ngày vì phải duyệt đủ 3 mục id + cccd + sao kê thì mới đc done . Mục up sao kê phải hiện ra up sao kê thì mới được có tài khoản hiện ra trong 1-2 tiếng có tk 1-2 ngày )",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141781672": {
+    "timestamp": "1760141781764",
+    "timestampString": "07:16:22",
+    "msgId": "7103956718243",
+    "cliMsgId": "1760141781672",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Sao block???",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141783363": {
+    "timestamp": "1760141783410",
+    "timestampString": "07:16:23",
+    "msgId": "7103956764015",
+    "cliMsgId": "1760141783363",
+    "msgType": "chat.sticker",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "id": 46970,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141787548": {
+    "timestamp": "1760141787610",
+    "timestampString": "07:16:28",
+    "msgId": "7103956884711",
+    "cliMsgId": "1760141787548",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Nói cái lồn mẹ mày",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
