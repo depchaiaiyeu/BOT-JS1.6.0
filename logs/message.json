@@ -7036,5 +7036,259 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760168849861": {
+    "timestamp": "1760168849885",
+    "timestampString": "14:47:30",
+    "msgId": "7105336816531",
+    "cliMsgId": "1760168849861",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "-)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168852966": {
+    "timestamp": "1760168853164",
+    "timestampString": "14:47:33",
+    "msgId": "7105336973351",
+    "cliMsgId": "1760168852966",
+    "msgType": "webchat",
+    "uidFrom": "8331781805972075163",
+    "idTo": "9104968216656954464",
+    "dName": "Sdang X Ds",
+    "content": "Tìm Huge Cocotank, carrot, tomatrio, shroombino, mango",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168854256": {
+    "timestamp": "1760168854450",
+    "timestampString": "14:47:34",
+    "msgId": "7105337034986",
+    "cliMsgId": "1760168854256",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "Tuan có lệnh kéo mem bẩn ý =))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168855706": {
+    "timestamp": "1760168855751",
+    "timestampString": "14:47:36",
+    "msgId": "7105337097412",
+    "cliMsgId": "1760168855706",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "Rồi nói đó trả đi",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168866570": {
+    "timestamp": "1760168867142",
+    "timestampString": "14:47:47",
+    "msgId": "7105337621705",
+    "cliMsgId": "1760168866570",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ":)))",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168868787": {
+    "timestamp": "1760168868883",
+    "timestampString": "14:47:49",
+    "msgId": "7105337726083",
+    "cliMsgId": "1760168868787",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": "@del all",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610132209900": {
+    "timestamp": "1760168870167",
+    "timestampString": "14:47:50",
+    "msgId": "7105337769434",
+    "cliMsgId": "105610132209900",
+    "msgType": "chat.delete",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5301958507346935000,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760168868787,
+        "globalDelMsgId": 7105337726083,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610132239840": {
+    "timestamp": "1760168870667",
+    "timestampString": "14:47:51",
+    "msgId": "7105337795907",
+    "cliMsgId": "105610132239840",
+    "msgType": "chat.delete",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5301958507346935000,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760168791293,
+        "globalDelMsgId": 7105333985961,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610132213860": {
+    "timestamp": "1760168870240",
+    "timestampString": "14:47:51",
+    "msgId": "7105337769449",
+    "cliMsgId": "105610132213860",
+    "msgType": "chat.delete",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5301958507346935000,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760168751165,
+        "globalDelMsgId": 7105332057723,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610132253940": {
+    "timestamp": "1760168870910",
+    "timestampString": "14:47:51",
+    "msgId": "7105337818377",
+    "cliMsgId": "105610132253940",
+    "msgType": "webchat",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": {
+      "title": "🚦 Đã xóa 4 tin nhắn. Không thể xóa 44 tin nhắn.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 2, \"st\": \"c_f38ba8\"}, {\"start\": 2, \"len\": 1000, \"st\": \"c_cdd6f4\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610132251120": {
+    "timestamp": "1760168870864",
+    "timestampString": "14:47:51",
+    "msgId": "7105337818363",
+    "cliMsgId": "105610132251120",
+    "msgType": "chat.delete",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5301958507346935000,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760168854256,
+        "globalDelMsgId": 7105337034986,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168874724": {
+    "timestamp": "1760168874783",
+    "timestampString": "14:47:55",
+    "msgId": "7105338008723",
+    "cliMsgId": "1760168874724",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "-)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168877093": {
+    "timestamp": "1760168877692",
+    "timestampString": "14:47:58",
+    "msgId": "7105338141709",
+    "cliMsgId": "1760168877093",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": ",del 10",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056101326657800": {
+    "timestamp": "1760168877812",
+    "timestampString": "14:47:58",
+    "msgId": "7105338141731",
+    "cliMsgId": "1056101326657800",
+    "msgType": "webchat",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "Minh Tuan\nBot Cua Minh Tuan 👀 /-break\nĐếch có tin nhắn nào được xóa\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":28,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
