@@ -11634,5 +11634,98 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "105610406725980": {
+    "timestamp": "1760173445687",
+    "timestampString": "16:04:06",
+    "msgId": "7105583625118",
+    "cliMsgId": "105610406725980",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Quỳnh Chị",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/6366967718286020701/cf6b17c8b8a735f96cb6.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/6366967718286020701/cf6b17c8b8a735f96cb6.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/6366967718286020701\\/cf6b17c8b8a735f96cb6.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173446585": {
+    "timestamp": "1760173446585",
+    "timestampString": "16:04:07",
+    "msgId": "7105583678740",
+    "cliMsgId": "1760173446585",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6988599456249708000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760173445381,
+        "globalDelMsgId": 7105583678706,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173445381": {
+    "timestamp": "1760173446444",
+    "timestampString": "16:04:07",
+    "msgId": "7105583678706",
+    "cliMsgId": "1760173445381",
+    "msgType": "chat.photo",
+    "uidFrom": "6988599456249707975",
+    "idTo": "5601607522756268167",
+    "dName": "Poiuyt",
+    "content": {
+      "title": "Welcome @Quỳnh Chị to War là j ăn đc kh?? 😏😋",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/687786384750146454/ff5b25e58a8a07d45e9b.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/687786384750146454/ff5b25e58a8a07d45e9b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/687786384750146454\\/ff5b25e58a8a07d45e9b.jpg\",\"hdSize\":344622,\"height\":450}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173446648": {
+    "timestamp": "1760173446647",
+    "timestampString": "16:04:07",
+    "msgId": "7105583678751",
+    "cliMsgId": "1760173446648",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nPoiuyt\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
