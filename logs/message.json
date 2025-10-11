@@ -28378,5 +28378,29 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760182019556": {
+    "timestamp": "1760182019602",
+    "timestampString": "18:27:00",
+    "msgId": "7106027257660",
+    "cliMsgId": "1760182019556",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760181916622,
+        "globalDelMsgId": 7106021825616,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
