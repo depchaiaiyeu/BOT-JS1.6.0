@@ -1084,8 +1084,8 @@
         {
           "UserName": "Đạt",
           "UID": "3314548215192236996",
-          "Rank": 495,
-          "messageCountToday": 24,
+          "Rank": 496,
+          "messageCountToday": 25,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -1266,8 +1266,8 @@
         {
           "UserName": "Nhân Trương",
           "UID": "8944544892270885914",
-          "Rank": 28,
-          "messageCountToday": 23,
+          "Rank": 31,
+          "messageCountToday": 26,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -2747,8 +2747,8 @@
         {
           "UserName": "Núp Gầm Giường",
           "UID": "2275317996891696552",
-          "Rank": 1112,
-          "messageCountToday": 72,
+          "Rank": 1113,
+          "messageCountToday": 73,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -4276,8 +4276,8 @@
         {
           "UserName": "Trọng Man",
           "UID": "5576109141632962137",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         }
       ],
@@ -5422,9 +5422,9 @@
         {
           "UserName": "Cậu Không Thương Tớ",
           "UID": "7316233929819819187",
-          "Rank": 52,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-10"
+          "Rank": 53,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Dolia",
@@ -5543,6 +5543,13 @@
           "UID": "3417449275018584918",
           "Rank": 3,
           "messageCountToday": 3,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Hoàng Tử Moscow",
+          "UID": "8315034321946048095",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],
