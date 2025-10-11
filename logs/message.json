@@ -28425,5 +28425,42 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1056109351988400": {
+    "timestamp": "1760182253233",
+    "timestampString": "18:30:54",
+    "msgId": "7106039317353",
+    "cliMsgId": "1056109351988400",
+    "msgType": "chat.recommended",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hà Y",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/213354056\\/57fb6c876fdb8685dfca.jpg\",\"gUid\":\"F2IGHPH6TP91O91DFDD3VBPFQDEPPL80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/c/5/8/9/21/120/7f0bfe5ec785bc16adc8bd247c0fdc83.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "1097350646085407745",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056109351968000": {
+    "timestamp": "1760182253200",
+    "timestampString": "18:30:54",
+    "msgId": "7106039317351",
+    "cliMsgId": "1056109351968000",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": "Xp Chéo Link \nhttps://zalo.me/g/yriczl799\nhttps://zalo.me/g/hcbwok299",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
