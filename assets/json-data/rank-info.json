@@ -3821,8 +3821,8 @@
         {
           "UserName": "种地",
           "UID": "4321385379093947075",
-          "Rank": 10,
-          "messageCountToday": 6,
+          "Rank": 13,
+          "messageCountToday": 9,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -7007,6 +7007,13 @@
         {
           "UserName": "Diễm My",
           "UID": "3538189469976709665",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nhl",
+          "UID": "940157411263340599",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
