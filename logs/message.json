@@ -37693,5 +37693,102 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760145240890": {
+    "timestamp": "1760145241128",
+    "timestampString": "08:14:02",
+    "msgId": "7104079467907",
+    "cliMsgId": "1760145240890",
+    "msgType": "webchat",
+    "uidFrom": "706385359471257078",
+    "idTo": "3453989112147091924",
+    "dName": "Dương Trần Khôi",
+    "content": "@All 🔥nền tảng đầu tư mới 10/10\n👉giao diện đẹp xịn sò \n🍁đăng ký nhận ngay 50k\n\n🔻𝐋𝐈𝐍𝐊 Đ𝐊: https://luminostream.com/register.html?invite_code=B5370B\n\n👉ae chú ý gói 100k chỉ mua\n1 lần thui nhé.. sp còn lại bth \n💵 đầu tư 100k ngày lãi 15k\n\n💵 đầu tư 200k ngày lãi 10k\n💵 đầu tư 400k ngày lãi 20k\n💵 đầu tư 600k ngày lãi 30k\n💵 đầu tư 900k ngày lãi 45k\n💵 đầu tư 1.200k ngày lãi 60k\n\n📣 lưu ý 24h trã lãi nhé\n🌻 min nạp 100k min rút 50k\n💯 tình trạng đang test\n\n🔻𝐋𝐈𝐍𝐊 Đ𝐊: https://luminostream.com/register.html?invite_code=B5370B",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760145244477": {
+    "timestamp": "1760145244590",
+    "timestampString": "08:14:05",
+    "msgId": "7104079637504",
+    "cliMsgId": "1760145244477",
+    "msgType": "chat.photo",
+    "uidFrom": "706385359471257078",
+    "idTo": "3453989112147091924",
+    "dName": "Dương Trần Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/cff47b356ede9a80c3cf/3309145460110029418.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/cff47b356ede9a80c3cf/3309145460110029418.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1047,\"is_group_layout\":1,\"group_layout_id\":1760145244107,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"1000022976\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760145244602": {
+    "timestamp": "1760145244779",
+    "timestampString": "08:14:05",
+    "msgId": "7104079646099",
+    "cliMsgId": "1760145244602",
+    "msgType": "chat.photo",
+    "uidFrom": "706385359471257078",
+    "idTo": "3453989112147091924",
+    "dName": "Dương Trần Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/1785383561309450408/678c8dc460a4edfab4b5.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/1785383561309450408/678c8dc460a4edfab4b5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1066,\"is_group_layout\":1,\"group_layout_id\":1760145244107,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"1000022975\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760145244377": {
+    "timestamp": "1760145247734",
+    "timestampString": "08:14:08",
+    "msgId": "7104079777341",
+    "cliMsgId": "1760145244377",
+    "msgType": "webchat",
+    "uidFrom": "4795449859426496439",
+    "idTo": "3453989112147091924",
+    "dName": "Zery X Dn",
+    "content": {
+      "title": "Box share make file chờ ae vô lấy nè 📦 \n1 https://zalo.me/g/osaquz259\n2 https://zalo.me/g/nnweyq863",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 99, \"st\": \"c_FFFFFF\"}, {\"start\": 0, \"len\": 99, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760145251597": {
+    "timestamp": "1760145251628",
+    "timestampString": "08:14:12",
+    "msgId": "7104079975490",
+    "cliMsgId": "1760145251597",
+    "msgType": "webchat",
+    "uidFrom": "706385359471257078",
+    "idTo": "3453989112147091924",
+    "dName": "Dương Trần Khôi",
+    "content": "Mik lì xì hoa hồng nhé",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
