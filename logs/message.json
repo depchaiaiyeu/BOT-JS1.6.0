@@ -573,5 +573,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "105609867798540": {
+    "timestamp": "1760164463559",
+    "timestampString": "13:34:24",
+    "msgId": "7105138267302",
+    "cliMsgId": "105609867798540",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "@Poiuyt",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/6967621432236164786/4511684d5221df7f8630.jpg",
+      "thumb": "https://t-f57-zpg-r.zdn.vn/480/6967621432236164786/4511684d5221df7f8630.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/6967621432236164786\\/4511684d5221df7f8630.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
