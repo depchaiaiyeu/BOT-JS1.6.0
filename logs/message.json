@@ -29840,5 +29840,43 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183028388": {
+    "timestamp": "1760183028738",
+    "timestampString": "18:43:50",
+    "msgId": "7106080596361",
+    "cliMsgId": "1760183028388",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Nguyễn Minh Khôi",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183031059": {
+    "timestamp": "1760183031284",
+    "timestampString": "18:43:51",
+    "msgId": "7106080730135",
+    "cliMsgId": "1760183031059",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3746763984487001600,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760182944887,
+        "globalDelMsgId": 7106076155472,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
