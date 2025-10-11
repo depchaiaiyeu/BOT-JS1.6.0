@@ -30921,5 +30921,74 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142040129": {
+    "timestamp": "1760142040200",
+    "timestampString": "07:20:41",
+    "msgId": "7103964144070",
+    "cliMsgId": "1760142040129",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "nào nó lên t mở cho cmay chửi",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142042375": {
+    "timestamp": "1760142042411",
+    "timestampString": "07:20:42",
+    "msgId": "7103964210470",
+    "cliMsgId": "1760142042375",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "mệt ghê",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142020861": {
+    "timestamp": "1760142045357",
+    "timestampString": "07:20:45",
+    "msgId": "7103964297163",
+    "cliMsgId": "1760142020861",
+    "msgType": "chat.voice",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f2-voice-aac-dl.zdn.vn/8016154061788961306/3c5e9aee1d63f33daa72.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/f2-voice-aac-dl.zdn.vn\\/8016154061788961306\\/3c5e9aee1d63f33daa72.aac\",\"duration\":24064,\"fileSize\":195144,\"waveformSamples\":[11560,17146,16592,17717,20320,20207,9836,11671,17742,20830,10260,7899,15514,19853,10950,14237,17192,19674,4375,14473,5428,17820,17529]}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142054042": {
+    "timestamp": "1760142054096",
+    "timestampString": "07:20:54",
+    "msgId": "7103964549662",
+    "cliMsgId": "1760142054042",
+    "msgType": "chat.sticker",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "id": 42837,
+      "catId": 11752,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
