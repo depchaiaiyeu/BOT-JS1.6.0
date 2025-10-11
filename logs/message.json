@@ -8215,5 +8215,33 @@
     "threadId": "1747464985521437051",
     "type": 1,
     "isUndo": false
+  },
+  "1760169929500": {
+    "timestamp": "1760169929503",
+    "timestampString": "15:05:30",
+    "msgId": "7105391431831",
+    "cliMsgId": "1760169929500",
+    "msgType": "webchat",
+    "uidFrom": "2353327682716920211",
+    "idTo": "9104968216656954464",
+    "dName": "Trần Hạo Namᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ卍",
+    "content": "@Con Mèo Cute duyệt",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169943698": {
+    "timestamp": "1760169943827",
+    "timestampString": "15:05:44",
+    "msgId": "7105392222772",
+    "cliMsgId": "1760169943698",
+    "msgType": "webchat",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": "@Trần Hạo Namᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠᅠ卍 ok",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
