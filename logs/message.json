@@ -7901,5 +7901,19 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760169390970": {
+    "timestamp": "1760169391989",
+    "timestampString": "14:56:32",
+    "msgId": "7105363124182",
+    "cliMsgId": "1760169390970",
+    "msgType": "webchat",
+    "uidFrom": "5365572569803808077",
+    "idTo": "1747464985521437051",
+    "dName": "Hà Huy Hoàng",
+    "content": "sv gờ gay",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
