@@ -15595,5 +15595,28 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760177241471": {
+    "timestamp": "1760177241516",
+    "timestampString": "17:07:22",
+    "msgId": "7105780964195",
+    "cliMsgId": "1760177241471",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "1367422010794969537",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f21-zpc.zdn.vn/6904612348200318610/140d579b93f51eab47e4.jpg",
+      "thumb": "https://f21-zpc.zdn.vn/6904612348200318610/140d579b93f51eab47e4.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":463,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"47a5eb303da220a69be072f507a2b751\\\",\\\"send_method\\\":0}\",\"contentId\":\"47a5eb303da220a69be072f507a2b751\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
