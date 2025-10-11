@@ -13014,5 +13014,33 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760175424952": {
+    "timestamp": "1760175425066",
+    "timestampString": "16:37:06",
+    "msgId": "7105685803965",
+    "cliMsgId": "1760175424952",
+    "msgType": "webchat",
+    "uidFrom": "377481986890946822",
+    "idTo": "4699745045071009795",
+    "dName": "陳龍",
+    "content": "@种地 còn nhóm thuơng anh nữa",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175442518": {
+    "timestamp": "1760175442649",
+    "timestampString": "16:37:23",
+    "msgId": "7105686692481",
+    "cliMsgId": "1760175442518",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": "@陳龍 để kiếm cái",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
