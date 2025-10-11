@@ -17533,5 +17533,88 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760177939797": {
+    "timestamp": "1760177939871",
+    "timestampString": "17:19:00",
+    "msgId": "7105816284481",
+    "cliMsgId": "1760177939797",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-8.zdn.vn/no/3830ce475ab6aee8f7a7/4241198704306770623.jpg",
+      "thumb": "https://photo-stal-8.zdn.vn/no/3830ce475ab6aee8f7a7/4241198704306770623.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":480,\"height\":498,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"b1eebcfd87b9125ae06779fc215ac948\\\",\\\"send_method\\\":0}\",\"contentId\":\"b1eebcfd87b9125ae06779fc215ac948\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177945275": {
+    "timestamp": "1760177945309",
+    "timestampString": "17:19:06",
+    "msgId": "7105816557727",
+    "cliMsgId": "1760177945275",
+    "msgType": "webchat",
+    "uidFrom": "7836374865116483067",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Tuấn Khang",
+    "content": "@Đạt cuoi ẻ",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177937723": {
+    "timestamp": "1760177957872",
+    "timestampString": "17:19:18",
+    "msgId": "7105817155369",
+    "cliMsgId": "1760177937723",
+    "msgType": "chat.photo",
+    "uidFrom": "9163395675201090577",
+    "idTo": "2990969618896538297",
+    "dName": "ㅣ Cel Star ツ K ㅅ Aㅣ",
+    "content": {
+      "title": "lm tí ppt nhỉ:)) bà cô cho cđ thuyết trình xàm vl",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/5476585107125921178/3a5705c59aab17f54eba.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/5476585107125921178/3a5705c59aab17f54eba.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":3,\"width\":1366,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f63-zpg-r.zdn.vn\\/jpg\\/5476585107125921178\\/3a5705c59aab17f54eba.jpg\",\"hdSize\":110855,\"height\":768}",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177937721": {
+    "timestamp": "1760177958291",
+    "timestampString": "17:19:19",
+    "msgId": "7105817182778",
+    "cliMsgId": "1760177937721",
+    "msgType": "chat.photo",
+    "uidFrom": "9163395675201090577",
+    "idTo": "8281509084603580118",
+    "dName": "ㅣ Cel Star ツ K ㅅ Aㅣ",
+    "content": {
+      "title": "lm tí ppt nhỉ:)) bà cô cho cđ thuyết trình xàm vl",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/477806216165490565/33dc894e16209b7ec231.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/477806216165490565/33dc894e16209b7ec231.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":3,\"width\":1366,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f67-zpg-r.zdn.vn\\/jpg\\/477806216165490565\\/33dc894e16209b7ec231.jpg\",\"hdSize\":110855,\"height\":768}",
+      "type": ""
+    },
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
