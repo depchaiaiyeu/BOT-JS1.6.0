@@ -11892,5 +11892,33 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760173748075": {
+    "timestamp": "1760173748182",
+    "timestampString": "16:09:09",
+    "msgId": "7105599670919",
+    "cliMsgId": "1760173748075",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "@Văn Tám đi cơm bát thui",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173757871": {
+    "timestamp": "1760173757988",
+    "timestampString": "16:09:18",
+    "msgId": "7105600171354",
+    "cliMsgId": "1760173757871",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "T phải tìm bằng đc nhóm của khuauws nyaf",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
