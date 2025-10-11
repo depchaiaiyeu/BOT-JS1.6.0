@@ -11500,5 +11500,97 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760173321276": {
+    "timestamp": "1760173321625",
+    "timestampString": "16:02:02",
+    "msgId": "7105576987052",
+    "cliMsgId": "1760173321276",
+    "msgType": "webchat",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": "@Văn Tám cn c",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173321718": {
+    "timestamp": "1760173322524",
+    "timestampString": "16:02:02",
+    "msgId": "7105577008645",
+    "cliMsgId": "1760173321718",
+    "msgType": "chat.photo",
+    "uidFrom": "7146211764988620311",
+    "idTo": "4825567233436439756",
+    "dName": "Ehvn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f15-zpcloud.zdn.vn/jpg/114440171832140605/68ff91cfbc9d31c3688c.webp?Author=Arona-chan&Library=ZepLaoSharp_by_ElectroHeavenVN",
+      "thumb": "https://f15-zpcloud.zdn.vn/jpg/114440171832140605/68ff91cfbc9d31c3688c.webp?Author=Arona-chan&Library=ZepLaoSharp_by_ElectroHeavenVN",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":500,\"thumb_height\":500,\"width\":500,\"contentId\":\"1760015756028\",\"pStickerType\":1,\"webp\":{\"width\":500,\"url\":\"https:\\/\\/f15-zpcloud.zdn.vn\\/jpg\\/114440171832140605\\/68ff91cfbc9d31c3688c.webp?Author=Arona-chan&Library=ZepLaoSharp_by_ElectroHeavenVN\",\"height\":500},\"hd\":\"https:\\/\\/f15-zpcloud.zdn.vn\\/jpg\\/114440171832140605\\/68ff91cfbc9d31c3688c.webp?Author=Arona-chan&Library=ZepLaoSharp_by_ElectroHeavenVN\",\"height\":500}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173323741": {
+    "timestamp": "1760173324095",
+    "timestampString": "16:02:04",
+    "msgId": "7105577115874",
+    "cliMsgId": "1760173323741",
+    "msgType": "chat.photo",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/40053f2b19a8b8f6e1b9/3738189757002887848?createby=NDQ_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/40053f2b19a8b8f6e1b9/3738189757002887848?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":516,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758371365301\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/40053f2b19a8b8f6e1b9\\/3738189757002887848?createby=NDQ_Bot.webp\",\"width\":512,\"height\":516,\"thumb\":\"\"},\"contentId\":\"1758371365301\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173324603": {
+    "timestamp": "1760173324736",
+    "timestampString": "16:02:05",
+    "msgId": "7105577143834",
+    "cliMsgId": "1760173324603",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "S đề cao t dị t biết làm đơu mà kêu",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173326081": {
+    "timestamp": "1760173326196",
+    "timestampString": "16:02:06",
+    "msgId": "7105577211099",
+    "cliMsgId": "1760173326081",
+    "msgType": "chat.sticker",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": {
+      "id": 26728,
+      "catId": 10690,
+      "type": 7
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
