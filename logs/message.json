@@ -13460,5 +13460,42 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760176158005": {
+    "timestamp": "1760176158465",
+    "timestampString": "16:49:19",
+    "msgId": "7105724168669",
+    "cliMsgId": "1760176158005",
+    "msgType": "webchat",
+    "uidFrom": "6254335090438536432",
+    "idTo": "6512342651301747547",
+    "dName": "English Is Damn Easy",
+    "content": "còn 154acc clone cổ radom 2k9-2k15 acc k vô đc acc vô đc chưa very j hết giá 1k 1acc min 10acc ai mua ib em nhé",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176160570": {
+    "timestamp": "1760176167622",
+    "timestampString": "16:49:29",
+    "msgId": "7105724659405",
+    "cliMsgId": "1760176160570",
+    "msgType": "chat.photo",
+    "uidFrom": "9030808754540072808",
+    "idTo": "5464956150740844012",
+    "dName": "Hphucc",
+    "content": {
+      "title": "20/1 ạ\nsell trong ngày",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/866639109854143698/78d325e00b8e86d0df9f.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/866639109854143698/78d325e00b8e86d0df9f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":207,\"hd\":\"https:\\/\\/f67-zpg-r.zdn.vn\\/jpg\\/866639109854143698\\/78d325e00b8e86d0df9f.jpg\",\"is_group_layout\":0,\"contentId\":\"1000030226\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
