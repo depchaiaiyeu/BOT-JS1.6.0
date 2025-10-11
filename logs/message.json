@@ -508,5 +508,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760164345889": {
+    "timestamp": "1760164345968",
+    "timestampString": "13:32:26",
+    "msgId": "7105133358250",
+    "cliMsgId": "1760164345889",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "➜ 🐞 Đã xảy ra lỗi gì đó 🤧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164346696": {
+    "timestamp": "1760164346398",
+    "timestampString": "13:32:26",
+    "msgId": "7105133377015",
+    "cliMsgId": "1760164346696",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": ":)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164347968": {
+    "timestamp": "1760164348036",
+    "timestampString": "13:32:28",
+    "msgId": "7105133446092",
+    "cliMsgId": "1760164347968",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "➜ 🐞 Đã xảy ra lỗi gì đó 🤧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
