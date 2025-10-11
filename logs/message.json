@@ -36513,5 +36513,115 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1760144517265": {
+    "timestamp": "1760144527090",
+    "timestampString": "08:02:08",
+    "msgId": "7104045653012",
+    "cliMsgId": "1760144517265",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": "Cần bán box , ai mua liên hệ",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144517385": {
+    "timestamp": "1760144527289",
+    "timestampString": "08:02:08",
+    "msgId": "7104045663519",
+    "cliMsgId": "1760144517385",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": "box mem sạch",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144530633": {
+    "timestamp": "1760144530733",
+    "timestampString": "08:02:11",
+    "msgId": "7104045812930",
+    "cliMsgId": "1760144530633",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "7m có khi bà già bảo cầm giúp bank cho ngta",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144534069": {
+    "timestamp": "1760144534175",
+    "timestampString": "08:02:14",
+    "msgId": "7104045960000",
+    "cliMsgId": "1760144534069",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144534255": {
+    "timestamp": "1760144534324",
+    "timestampString": "08:02:15",
+    "msgId": "7104045966071",
+    "cliMsgId": "1760144534255",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144534950": {
+    "timestamp": "1760144535113",
+    "timestampString": "08:02:15",
+    "msgId": "7104046003177",
+    "cliMsgId": "1760144534950",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "7585160044864555896",
+    "dName": "Con Mèo",
+    "content": "kick r",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144534424": {
+    "timestamp": "1760144534495",
+    "timestampString": "08:02:15",
+    "msgId": "7104045977539",
+    "cliMsgId": "1760144534424",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
