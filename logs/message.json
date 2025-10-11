@@ -2805,5 +2805,56 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760166939722": {
+    "timestamp": "1760166939788",
+    "timestampString": "14:15:41",
+    "msgId": "7105247087545",
+    "cliMsgId": "1760166939722",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "@scl khuôn mặt đáng thương",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166950808": {
+    "timestamp": "1760166950836",
+    "timestampString": "14:15:51",
+    "msgId": "7105247593775",
+    "cliMsgId": "1760166950808",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "1",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166949537": {
+    "timestamp": "1760166951485",
+    "timestampString": "14:15:52",
+    "msgId": "7105247609127",
+    "cliMsgId": "1760166949537",
+    "msgType": "chat.photo",
+    "uidFrom": "1070876624639243239",
+    "idTo": "5975420422762749911",
+    "dName": "A Sìn",
+    "content": {
+      "title": "🚦@种地 chọn: 1\n🎼Khuon Mat Dang Thuong - Son Tung M - TP [MP3 320kbps] ⏱ 4p30s\n⏳ Chờ xíu đợi lấy nhạc nhé 🎧️",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/7565082023406397406/d1960e039f6f12314b7e.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/7565082023406397406/d1960e039f6f12314b7e.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":500,\"convertible\":\"jpg\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/7565082023406397406\\/d1960e039f6f12314b7e.jpg\",\"height\":500}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
