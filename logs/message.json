@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760068802680": {
-    "timestamp": "1760068800250",
-    "timestampString": "11:00:00",
-    "msgId": "7100978710822",
-    "cliMsgId": "1760068802680",
-    "msgType": "chat.video.msg",
-    "uidFrom": "2275317996891696552",
-    "idTo": "5975420422762749911",
-    "dName": "Dell Yêu Ai",
-    "content": {
-      "title": "🕒 11:00 - Bot Dell Yêu Ai Autosend 👍\n🚦Chỉ còn một giờ nữa là đến giờ nghỉ trưa. Hãy chuẩn bị nhé!",
-      "description": "",
-      "href": "https://i.imgur.com/dmz3csF.mp4",
-      "thumb": "https://files.catbox.moe/3vy7ga.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"duration\":20,\"video_height\":1920,\"fileSize\":0,\"video_width\":1080}",
-      "type": ""
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760068987254": {
     "timestamp": "1760068987335",
     "timestampString": "11:03:08",
