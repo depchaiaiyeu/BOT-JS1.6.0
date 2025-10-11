@@ -28402,5 +28402,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760182187085": {
+    "timestamp": "1760182187173",
+    "timestampString": "18:29:48",
+    "msgId": "7106035956795",
+    "cliMsgId": "1760182187085",
+    "msgType": "chat.photo",
+    "uidFrom": "2784271520159982744",
+    "idTo": "4825567233436439756",
+    "dName": "Lê Quốc Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/bf8b9d135498f5c6ac89/5634292679360000203?createby=NDQ_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/bf8b9d135498f5c6ac89/5634292679360000203?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":512,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759205385667\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/bf8b9d135498f5c6ac89\\/5634292679360000203?createby=NDQ_Bot.webp\",\"width\":512,\"height\":512,\"thumb\":\"\"},\"contentId\":\"1759205385667\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
