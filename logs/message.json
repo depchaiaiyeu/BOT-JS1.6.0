@@ -2379,5 +2379,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760166302611": {
+    "timestamp": "1760166303438",
+    "timestampString": "14:05:04",
+    "msgId": "7105217893881",
+    "cliMsgId": "1760166302611",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": "-> SendTask 14:05 <-\nChào buổi trưa tràn đầy năng lượng!\n\n📊 Thống kê tương tác của hôm nay:\n💬 Tổng số tin nhắn: 589\n\n🏆 Top tương tác:\n1. N H L: 71 tin nhắn\n2. Lee Hằngg: 68 tin nhắn\n3. Lê Quốc Đạt: 67 tin nhắn\n4. L A T: 55 tin nhắn\n5. Nguyễn Hoàng Bảo Hưng: 50 tin nhắn\n6. Hà Huy Hoàng: 40 tin nhắn\n7. Văn Tám: 29 tin nhắn\n8. Tran Van Trung: 28 tin nhắn\n9. Nguyễn Phi Hoàng: 23 tin nhắn\n10. Trung: 22 tin nhắn",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
