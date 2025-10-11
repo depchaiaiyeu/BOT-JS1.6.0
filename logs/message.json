@@ -27953,5 +27953,111 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760140817234": {
+    "timestamp": "1760140812496",
+    "timestampString": "07:00:13",
+    "msgId": "7103931246788",
+    "cliMsgId": "1760140817234",
+    "msgType": "chat.video.msg",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "title": "🕒 07:00 - Bot Núp Gầm Giường Autosend ✨\n🚦Đã đến giờ uống cà phê! Thưởng thức một tách cà phê nhé.",
+      "description": "",
+      "href": "https://i.imgur.com/CmKjPtb.mp4",
+      "thumb": "https://files.catbox.moe/3vy7ga.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":20,\"video_height\":1920,\"fileSize\":0,\"video_width\":1080}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140824839": {
+    "timestamp": "1760140825148",
+    "timestampString": "07:00:26",
+    "msgId": "7103931551150",
+    "cliMsgId": "1760140824839",
+    "msgType": "chat.recommended",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "Bạn đã cài đặt nó chưa? Chỉ cần nhập ID lời mời 30909901 và bạn có thể nhận được ₫26K.https://d2abani1vmq5hb.cloudfront.net/cr/index_8.html?s=MzIxMzEzMjQ&id=30909901",
+      "description": "",
+      "href": "https://d2abani1vmq5hb.cloudfront.net/cr/index_8.html?s=MzIxMzEzMjQ&id=30909901",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"d2abani1vmq5hb.cloudfront.net\",\"mediaTitle\":\"Crazy Rock\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/d2abani1vmq5hb.cloudfront.net\\/cr\\/index_8.html?s=MzIxMzEzMjQ&id=30909901\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"\\/assets\\/img\\/logo.png\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140826880": {
+    "timestamp": "1760140827161",
+    "timestampString": "07:00:27",
+    "msgId": "7103931604133",
+    "cliMsgId": "1760140826880",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/3828091220844323417/702c81159e75132b4a64.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/3828091220844323417/702c81159e75132b4a64.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760140825439,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"799\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760140826911": {
+    "timestamp": "1760140827218",
+    "timestampString": "07:00:28",
+    "msgId": "7103931604213",
+    "cliMsgId": "1760140826911",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/6612461434369273600/82d1f6e8e98864d63d99.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/6612461434369273600/82d1f6e8e98864d63d99.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760140825439,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"798\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "105608449759920": {
+    "timestamp": "1760140829307",
+    "timestampString": "07:00:29",
+    "msgId": "7103931655169",
+    "cliMsgId": "105608449759920",
+    "msgType": "webchat",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": "Sale file 500k còn 50k , đảm bảo 100% tác dụng , khi mua còn dc tặng thêm dpi nút bắn , độ nhạy cho từng máy",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
