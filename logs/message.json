@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760060125754": {
-    "timestamp": "1760060125766",
-    "timestampString": "08:35:26",
-    "msgId": "7100335886111",
-    "cliMsgId": "1760060125754",
-    "msgType": "webchat",
-    "uidFrom": "7952370821979394919",
-    "idTo": "5975420422762749911",
-    "dName": "Tờ Quang广报",
-    "content": "🤦",
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760060214120": {
     "timestamp": "1760060214179",
     "timestampString": "08:36:54",
