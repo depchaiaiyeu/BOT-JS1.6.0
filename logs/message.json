@@ -19928,5 +19928,42 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178963438": {
+    "timestamp": "1760178963650",
+    "timestampString": "17:36:04",
+    "msgId": "7105867762766",
+    "cliMsgId": "1760178963438",
+    "msgType": "webchat",
+    "uidFrom": "5279300568861928312",
+    "idTo": "5464956150740844012",
+    "dName": "Tienn Dungg",
+    "content": "Cần sll ae lm my viettel giá cao.....",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178985965": {
+    "timestamp": "1760178986427",
+    "timestampString": "17:36:27",
+    "msgId": "7105868936536",
+    "cliMsgId": "1760178985965",
+    "msgType": "chat.photo",
+    "uidFrom": "3746763984487001540",
+    "idTo": "4699745045071009795",
+    "dName": "Vô Danh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/6537448260613765759/bad3db1e7170fc2ea561.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/6537448260613765759/bad3db1e7170fc2ea561.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":534,\"height\":534,\"is_group_layout\":0,\"contentId\":\"03bcb3f54ccdede4900284ecd1c44c42\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
