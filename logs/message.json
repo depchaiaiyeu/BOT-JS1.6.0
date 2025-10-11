@@ -30680,5 +30680,33 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760141872540": {
+    "timestamp": "1760141872606",
+    "timestampString": "07:17:53",
+    "msgId": "7103959331135",
+    "cliMsgId": "1760141872540",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Có cái box cặc thôi mà cầm cái bot ghẻ chặn tới chặn lui",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141876268": {
+    "timestamp": "1760141876325",
+    "timestampString": "07:17:56",
+    "msgId": "7103959436574",
+    "cliMsgId": "1760141876268",
+    "msgType": "webchat",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": "Clma lũ phèn",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
