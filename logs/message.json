@@ -11823,5 +11823,74 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "105610421005440": {
+    "timestamp": "1760173683675",
+    "timestampString": "16:08:04",
+    "msgId": "7105596279143",
+    "cliMsgId": "105610421005440",
+    "msgType": "chat.photo",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/909095382653349178/e20fcad491ba1ce445ab.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/909095382653349178/e20fcad491ba1ce445ab.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/909095382653349178\\/e20fcad491ba1ce445ab.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173682338": {
+    "timestamp": "1760173683920",
+    "timestampString": "16:08:04",
+    "msgId": "7105596302063",
+    "cliMsgId": "1760173682338",
+    "msgType": "chat.photo",
+    "uidFrom": "4044003254599435812",
+    "idTo": "1367422010794969537",
+    "dName": "Nguyen Thuy An",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/1392692954535825015/123e25de7eb0f3eeaaa1.jpg",
+      "thumb": "https://t-f63-zpg-r.zdn.vn/480/1392692954535825015/123e25de7eb0f3eeaaa1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f63-zpg-r.zdn.vn\\/1392692954535825015\\/123e25de7eb0f3eeaaa1.jpg\",\"hdSize\":344622,\"height\":392}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173684919": {
+    "timestamp": "1760173684937",
+    "timestampString": "16:08:05",
+    "msgId": "7105596333295",
+    "cliMsgId": "1760173684919",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/4046398636076769692/f350d4b48fda02845bcb.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/4046398636076769692/f350d4b48fda02845bcb.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/4046398636076769692\\/f350d4b48fda02845bcb.jpg\",\"hdSize\":358012,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
