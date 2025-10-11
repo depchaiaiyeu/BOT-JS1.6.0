@@ -19622,5 +19622,51 @@
     "threadId": "2760006576081013366",
     "type": 1,
     "isUndo": false
+  },
+  "1760178662707": {
+    "timestamp": "1760178662881",
+    "timestampString": "17:31:03",
+    "msgId": "7105852320427",
+    "cliMsgId": "1760178662707",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": "@Núp Gầm Giường share t đi..",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178663493": {
+    "timestamp": "1760178663601",
+    "timestampString": "17:31:04",
+    "msgId": "7105852357912",
+    "cliMsgId": "1760178663493",
+    "msgType": "webchat",
+    "uidFrom": "1338695414337202095",
+    "idTo": "4699745045071009795",
+    "dName": "Lê Dung",
+    "content": "@Trọng Man sao bố m ai",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178673180": {
+    "timestamp": "1760178673290",
+    "timestampString": "17:31:14",
+    "msgId": "7105852854413",
+    "cliMsgId": "1760178673180",
+    "msgType": "chat.sticker",
+    "uidFrom": "1338695414337202095",
+    "idTo": "4699745045071009795",
+    "dName": "Lê Dung",
+    "content": {
+      "id": 37973,
+      "catId": 11413,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
