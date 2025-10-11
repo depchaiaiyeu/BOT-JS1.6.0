@@ -11985,5 +11985,97 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760174060342": {
+    "timestamp": "1760174060458",
+    "timestampString": "16:14:21",
+    "msgId": "7105615943660",
+    "cliMsgId": "1760174060342",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "-sigma",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174059497": {
+    "timestamp": "1760174060676",
+    "timestampString": "16:14:21",
+    "msgId": "7105615940932",
+    "cliMsgId": "1760174059497",
+    "msgType": "webchat",
+    "uidFrom": "2330822676623202659",
+    "idTo": "5975420422762749911",
+    "dName": "Chiêm Thị Cúc",
+    "content": "🗿 Núp Gầm Giường có độ Sigma là 38%!\n💬 Nhận xét: 🧠 Biết suy nghĩ, biết tách mình khỏi đám đông – ổn áp đó.",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174060589": {
+    "timestamp": "1760174060631",
+    "timestampString": "16:14:21",
+    "msgId": "7105615949933",
+    "cliMsgId": "1760174060589",
+    "msgType": "chat.photo",
+    "uidFrom": "7952370821979394919",
+    "idTo": "5975420422762749911",
+    "dName": "Tờ Quang广报",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/f747b9b7f78556db0f94/8501868268331058046?createby=NDQ_Bot.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/f747b9b7f78556db0f94/8501868268331058046?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":498,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758262906678\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/f747b9b7f78556db0f94\\/8501868268331058046?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758262906678\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174060416": {
+    "timestamp": "1760174060434",
+    "timestampString": "16:14:21",
+    "msgId": "7105615941028",
+    "cliMsgId": "1760174060416",
+    "msgType": "chat.photo",
+    "uidFrom": "7952370821979394919",
+    "idTo": "5975420422762749911",
+    "dName": "Tờ Quang广报",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/f747b9b7f78556db0f94/8501868268331058046?createby=NDQ_Bot.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/f747b9b7f78556db0f94/8501868268331058046?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":498,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758262906678\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/f747b9b7f78556db0f94\\/8501868268331058046?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758262906678\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174066349": {
+    "timestamp": "1760174066399",
+    "timestampString": "16:14:26",
+    "msgId": "7105616247856",
+    "cliMsgId": "1760174066349",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 45050,
+      "catId": 11883,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
