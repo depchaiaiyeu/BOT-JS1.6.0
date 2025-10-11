@@ -27125,5 +27125,89 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760181520155": {
+    "timestamp": "1760181520330",
+    "timestampString": "18:18:44",
+    "msgId": "7106001771478",
+    "cliMsgId": "1760181520155",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": ".scl A thousand years",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181524595": {
+    "timestamp": "1760181524701",
+    "timestampString": "18:18:45",
+    "msgId": "7106001946227",
+    "cliMsgId": "1760181524595",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Tran Luc Nhi\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/9122574140575316515/816d5713587ad5248c6b.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/9122574140575316515/816d5713587ad5248c6b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1533,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/9122574140575316515\\/816d5713587ad5248c6b.jpg\",\"hdSize\":314794,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181533962": {
+    "timestamp": "1760181534066",
+    "timestampString": "18:18:54",
+    "msgId": "7106002448169",
+    "cliMsgId": "1760181533962",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Tran Luc Nhi\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ Christina Perri - A Thousand Years (Part 2)",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":93,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181533704": {
+    "timestamp": "1760181533809",
+    "timestampString": "18:18:54",
+    "msgId": "7106002448153",
+    "cliMsgId": "1760181533704",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760181524595,
+        "globalDelMsgId": 7106001946227,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
