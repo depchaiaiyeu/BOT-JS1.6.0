@@ -8243,5 +8243,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760170009856": {
+    "timestamp": "1760170010257",
+    "timestampString": "15:06:51",
+    "msgId": "7105395833380",
+    "cliMsgId": "1760170009856",
+    "msgType": "webchat",
+    "uidFrom": "7865523427196480284",
+    "idTo": "8281509084603580118",
+    "dName": "Nhon",
+    "content": "@Trần Ngọc Hiếu Ii gth và đc luật nha",
+    "threadId": "8281509084603580118",
+    "type": 1,
+    "isUndo": false
   }
 }
