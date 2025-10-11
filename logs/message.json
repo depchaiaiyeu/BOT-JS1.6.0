@@ -29631,5 +29631,19 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760182754465": {
+    "timestamp": "1760182754641",
+    "timestampString": "18:39:16",
+    "msgId": "7106066050464",
+    "cliMsgId": "1760182754465",
+    "msgType": "webchat",
+    "uidFrom": "5990436222192783385",
+    "idTo": "2990969618896538297",
+    "dName": "Phạm Hoàng Hải",
+    "content": "Vs lại trả t🗝️đc ko dợ>.<",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
