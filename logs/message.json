@@ -266,5 +266,33 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1760164190456": {
+    "timestamp": "1760164190540",
+    "timestampString": "13:29:54",
+    "msgId": "7105126845503",
+    "cliMsgId": "1760164190456",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "@Vũ Xuân Kiên có bít cái canvas detail ở đâu khong",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164193790": {
+    "timestamp": "1760164193910",
+    "timestampString": "13:29:54",
+    "msgId": "7105126969018",
+    "cliMsgId": "1760164193790",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "Tuyệt phẩm của Nu'est",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
