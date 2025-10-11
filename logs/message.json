@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760061686288": {
-    "timestamp": "1760061687390",
-    "timestampString": "09:01:28",
-    "msgId": "7100434850522",
-    "cliMsgId": "1760061686288",
-    "msgType": "chat.video.msg",
-    "uidFrom": "2330822676623202659",
-    "idTo": "5975420422762749911",
-    "dName": "Chiêm Thị Cúc",
-    "content": {
-      "title": "Chào buổi sáng! Chúc mọi người một ngày mới tràn đầy năng lượng. ☀️",
-      "description": "",
-      "href": "https://v45-eu.tiktokcdn.com/7b16e41bee07e379e24270faf24bd03f/68e9ba57/video/tos/alisg/tos-alisg-pve-0037c001/oUzTIqiB4mPA66iQUzd3CorE8Ei7iIAfhVAL6w/?a=1233&bti=NEBzNTY6QGo6OjZALnAjNDQuYCMxNDNg&ch=0&cr=0&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C0&cv=1&br=2394&bt=1197&cs=0&ds=6&ft=td_Ls8s6oA-O12NvHs~gWIxRtcGP9q_45SY&mime_type=video_mp4&qs=0&rc=O2VoZGc7Ojc0OTM0ZjNkOUBpajs6O3Q5cm9veTMzODczNEBfLjMvMV5jXzYxYGEtYzMyYSNpaWhnMmQ0M29gLS1kMTFzcw%3D%3D&vvpl=1&l=2025101010002167871A46F70E3422197E&btag=e0008d000",
-      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/o03zg9DAAInAFDfQHUfCR95sDydkV1EpAEBKSE~tplv-tiktokx-origin.image?biz_tag=musically_video.video_cover&dr=1370&idc=maliva&ps=933b5bde&refresh_token=085f7bfa&s=SEARCH&sc=cover&shcp=c1333099&shp=d05b14bd&t=bacd0480&x-expires=1760148000&x-signature=y7sTGZaXT%2FaW3aNw7G8kuntQZ8o%3D",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"duration\":90,\"video_height\":720,\"fileSize\":5124913,\"video_width\":1280}",
-      "type": ""
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760061848711": {
     "timestamp": "1760061849780",
     "timestampString": "09:04:10",
