@@ -26861,5 +26861,120 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760181421982": {
+    "timestamp": "1760181423132",
+    "timestampString": "18:17:03",
+    "msgId": "7105996847444",
+    "cliMsgId": "1760181421982",
+    "msgType": "chat.photo",
+    "uidFrom": "1979634759301071682",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Đức Long",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/67137f2bcfdb3b8562ca/1044695432524743112.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/67137f2bcfdb3b8562ca/1044695432524743112.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":670,\"thumb_width\":309,\"thumb_height\":288,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/photo-stal-3.zdn.vn\\/gr\\/jpg\\/67137f2bcfdb3b8562ca\\/1044695432524743112.jpg\",\"width\":716,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181424748": {
+    "timestamp": "1760181424969",
+    "timestampString": "18:17:05",
+    "msgId": "7105996940812",
+    "cliMsgId": "1760181424748",
+    "msgType": "webchat",
+    "uidFrom": "1979634759301071682",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Đức Long",
+    "content": "Ai có k",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181439363": {
+    "timestamp": "1760181439507",
+    "timestampString": "18:17:19",
+    "msgId": "7105997678957",
+    "cliMsgId": "1760181439363",
+    "msgType": "chat.photo",
+    "uidFrom": "2220137376758378740",
+    "idTo": "4699745045071009795",
+    "dName": "Kiet",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f24-zpc.zdn.vn/3524233448427762274/315259217d63f03da972.jpg",
+      "thumb": "https://f24-zpc.zdn.vn/3524233448427762274/315259217d63f03da972.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"0C4E2556-24AC-4EBF-8F00-651B53379C4E0\\\",\\\"send_method\\\":0}\",\"contentId\":\"0C4E2556-24AC-4EBF-8F00-651B53379C4E0\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181438250": {
+    "timestamp": "1760181438421",
+    "timestampString": "18:17:20",
+    "msgId": "7105997624953",
+    "cliMsgId": "1760181438250",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": ".scl",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181440692": {
+    "timestamp": "1760181440792",
+    "timestampString": "18:17:21",
+    "msgId": "7105997719378",
+    "cliMsgId": "1760181440692",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Tran Luc Nhi\nVui lòng nhập từ khóa tìm kiếm\nVí dụ:\n.scl Bài Hát Cần Tìm",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":58,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181446183": {
+    "timestamp": "1760181446224",
+    "timestampString": "18:17:27",
+    "msgId": "7105997989722",
+    "cliMsgId": "1760181446183",
+    "msgType": "chat.sticker",
+    "uidFrom": "6387879024110411677",
+    "idTo": "1747464985521437051",
+    "dName": "Toxic",
+    "content": {
+      "id": 46970,
+      "catId": 12003,
+      "type": 7
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }

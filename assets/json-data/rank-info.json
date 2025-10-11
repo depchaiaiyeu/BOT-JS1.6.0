@@ -3394,8 +3394,8 @@
         {
           "UserName": "Tran Luc Nhi",
           "UID": "5047084489515674929",
-          "Rank": 102,
-          "messageCountToday": 4,
+          "Rank": 103,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -3714,11 +3714,11 @@
           "lastMessageDate": "2025-10-07"
         },
         {
-          "UserName": "Ng Doan Đông",
+          "UserName": "Kiet",
           "UID": "2220137376758378740",
-          "Rank": 3,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-07"
+          "Rank": 4,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Nguyễn Tuấn Khang",
@@ -5773,8 +5773,8 @@
         {
           "UserName": "Toxic",
           "UID": "6387879024110411677",
-          "Rank": 3,
-          "messageCountToday": 2,
+          "Rank": 4,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -5873,6 +5873,13 @@
           "UID": "2593850282491461060",
           "Rank": 4,
           "messageCountToday": 4,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nguyễn Đức Long",
+          "UID": "1979634759301071682",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         }
       ],
