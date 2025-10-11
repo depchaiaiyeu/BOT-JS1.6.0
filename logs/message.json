@@ -35896,5 +35896,65 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760144316595": {
+    "timestamp": "1760144322169",
+    "timestampString": "07:58:43",
+    "msgId": "7104037379655",
+    "cliMsgId": "1760144316595",
+    "msgType": "chat.photo",
+    "uidFrom": "3767447436559457651",
+    "idTo": "3453989112147091924",
+    "dName": "Thánh Gióng",
+    "content": {
+      "title": "👉 kết quả là do mình tạo ra chỉ có sự cố gắng kiên trì thì chúng ta sẽ đạt được\n\n👉 mỗi người chúng ta đều có hoàn cảnh gia đình khác nhau nhưng cùng chung một sự khao khát kiếm xiềng. Đúng ko nào?\n\n👉 hãy tạo động lực cho mình bằng cách nhìn vào kết quả  người khác  để phấn đấu và cố gắng hơn cho bản thân\n\n🔑 và tin bản thân mình sẽ làm tốt nhất❤️",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/3978551848068167735/65e6b8f67d96f0c8a987.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/3978551848068167735/65e6b8f67d96f0c8a987.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":1638,\"thumb_width\":360,\"thumb_height\":456,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/f62-zpg-r.zdn.vn\\/jpg\\/3978551848068167735\\/65e6b8f67d96f0c8a987.jpg\",\"width\":1290,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144327831": {
+    "timestamp": "1760144327951",
+    "timestampString": "07:58:48",
+    "msgId": "7104037596165",
+    "cliMsgId": "1760144327831",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "7585160044864555896",
+    "dName": "Con Mèo",
+    "content": "aii log vào được chưa",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144335198": {
+    "timestamp": "1760144330606",
+    "timestampString": "07:58:50",
+    "msgId": "7104037692913",
+    "cliMsgId": "1760144335198",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "title": "🚦@Núp Gầm Giường\n\n📋 Tổng Quan Thiết Bị\n   📛 Tên máy: xiaomi Redmi Note 6 Pro\n   🤖 Android: 9\n   🛡️ Bản vá bảo mật: 2020-11-05\n\n📶 Kết Nối Mạng\n   📡 Loại: Di động\n   🌐 Thông tin: Termux/Android\n\n🚀 Tốc Độ Mạng\n   ⏱️ Ping: 18.11 ms\n   ⬇️ Download: 257.40 Mbps\n   ⬆️ Upload: 263.16 Mbps\n   📊 Đánh giá: 💪 Mạnh\n\n⚙️ Bộ Xử Lý (CPU)\n   🔧 Chip: Qualcomm Technologies, Inc SDM636\n   🏗️ Kiến trúc: aarch64\n   🔢 Số nhân: 8 nhân / 8 luồng\n\n💾 Bộ Nhớ RAM\n   🧠 Tổng cộng: 3.65 GB\n   📦 Đã dùng: 1.84 GB\n   🆓 Còn trống: 0.07 GB\n\n💿 Bộ Nhớ Trong\n   💾 Tổng cộng: 50.31 GB\n   📦 Đã dùng: 14.78 GB\n   🆓 Còn trống: 35.39 GB\n\n⏰ Thông Tin Khác\n   ⚡ Phản hồi: 19133.58 ms\n   🔄 Thời gian hoạt động: 7h 20m 30s\n   📲 Ứng dụng: Termux",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/1852614000011569324/d16422c2e5a268fc31b3.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/1852614000011569324/d16422c2e5a268fc31b3.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/1852614000011569324\\/d16422c2e5a268fc31b3.jpg\",\"hdSize\":344622,\"height\":400}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
