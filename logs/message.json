@@ -33338,5 +33338,93 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760142719453": {
+    "timestamp": "1760142719725",
+    "timestampString": "07:32:00",
+    "msgId": "7103983860013",
+    "cliMsgId": "1760142719453",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/4226906275384047234/ff7c5ba958c9d5978cd8.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/4226906275384047234/ff7c5ba958c9d5978cd8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760142718011,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"799\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142719714": {
+    "timestamp": "1760142719757",
+    "timestampString": "07:32:00",
+    "msgId": "7103983860035",
+    "cliMsgId": "1760142719714",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "=))))",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142719496": {
+    "timestamp": "1760142719752",
+    "timestampString": "07:32:00",
+    "msgId": "7103983860793",
+    "cliMsgId": "1760142719496",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/2185769048676645512/e721bed0bdb030ee69a1.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/2185769048676645512/e721bed0bdb030ee69a1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760142718011,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"798\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142729379": {
+    "timestamp": "1760142729439",
+    "timestampString": "07:32:10",
+    "msgId": "7103984150572",
+    "cliMsgId": "1760142729379",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "ủa mà nó 10h nó ngủ hả tr",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142730865": {
+    "timestamp": "1760142730918",
+    "timestampString": "07:32:11",
+    "msgId": "7103984194124",
+    "cliMsgId": "1760142730865",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "sớm",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
