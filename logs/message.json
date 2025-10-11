@@ -37250,5 +37250,37 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760186349117": {
+    "timestamp": "1760186349180",
+    "timestampString": "19:39:10",
+    "msgId": "7106258504886",
+    "cliMsgId": "1760186349117",
+    "msgType": "chat.sticker",
+    "uidFrom": "6424181692237029148",
+    "idTo": "4699745045071009795",
+    "dName": "Htth",
+    "content": {
+      "id": 50633,
+      "catId": 12658,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186359460": {
+    "timestamp": "1760186359529",
+    "timestampString": "19:39:20",
+    "msgId": "7106259074590",
+    "cliMsgId": "1760186359460",
+    "msgType": "webchat",
+    "uidFrom": "6424181692237029148",
+    "idTo": "4699745045071009795",
+    "dName": "Htth",
+    "content": "@All cup liqi di",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
