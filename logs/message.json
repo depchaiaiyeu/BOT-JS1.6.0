@@ -27780,7 +27780,7 @@
     },
     "threadId": "4699745045071009795",
     "type": 1,
-    "isUndo": false
+    "isUndo": true
   },
   "1760181811949": {
     "timestamp": "1760181812551",
@@ -28071,6 +28071,112 @@
       "type": ""
     },
     "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181902510": {
+    "timestamp": "1760181903540",
+    "timestampString": "18:25:04",
+    "msgId": "7106021098392",
+    "cliMsgId": "1760181902510",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "👤 Bùi Đình Thao đã thu hồi tin nhắn sau...\n⏰ Thời gian gửi: 18:23:28\n🔔 Thời gian thu hồi: 18:25:02\n📝 Nội Dung: Video...",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181903666": {
+    "timestamp": "1760181905065",
+    "timestampString": "18:25:05",
+    "msgId": "7106021215512",
+    "cliMsgId": "1760181903666",
+    "msgType": "chat.recommended",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": {
+      "title": "https://vt.tiktok.com/ZSUSk31cQ/",
+      "description": "12.1K lượt thích, 69 bình luận. “Thử thách đoán chiều cao🤧”",
+      "href": "https://vt.tiktok.com/ZSUSk31cQ/",
+      "thumb": "https://f63-zpg-r.zdn.vn/5409635851239251125/9a0c01863fefb2b1ebfe.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"vt.tiktok.com\",\"mediaTitle\":\"TikTok · Ht\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/vt.tiktok.com\\/ZSUSk31cQ\\/\",\"tType\":1,\"tWidth\":630,\"tHeight\":629,\"icon\":\"https:\\/\\/lf16-tiktok-common.ibytedtos.com\\/obj\\/tiktok-web-common-sg\\/mtact\\/static\\/images\\/tiktok-logo\\/logo.png\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/semicache\\/thumb_link\\/a68a012f293b84a1c2513a2c232312e4.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181906039": {
+    "timestamp": "1760181906038",
+    "timestampString": "18:25:06",
+    "msgId": "7106021214663",
+    "cliMsgId": "1760181906039",
+    "msgType": "webchat",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": {
+      "title": "Văn Định\nChờ lấy video một chút, xong sẽ gọi cho hay!\n📊 Chất lượng: 540p",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":9,\"len\":64,\"st\":\"b,c_f7b503,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181907244": {
+    "timestamp": "1760181907239",
+    "timestampString": "18:25:07",
+    "msgId": "7106021322345",
+    "cliMsgId": "1760181907244",
+    "msgType": "chat.video.msg",
+    "uidFrom": "9019710325137354775",
+    "idTo": "7897564732983285154",
+    "dName": "Văn Định",
+    "content": {
+      "title": "[ Văn Định ]\nAuthor: [tuishue] Ht\nDescription: Thử thách đoán chiều cao🤧\n📊 Chất lượng: 540p\n💗 Thả tim để nhận nội dung ngẫu nhiên khác từ author này",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/2606f562dcfe7da024ef/1839916006453083755",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/o0fokfRHE5D68pdE3zFucIhBBXazIgBgcdCUdA~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=f5ea89ac&x-expires=1760266800&x-signature=pT1iZQ9D6xizwhM7QP6gNK1jS1s%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":26333,\"video_height\":1024,\"fileSize\":3200335,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181916622": {
+    "timestamp": "1760181917180",
+    "timestampString": "18:25:18",
+    "msgId": "7106021825616",
+    "cliMsgId": "1760181916622",
+    "msgType": "chat.video.msg",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://video-stal-3.dlmd.me/gr/efe85e69dd9929c77088/1635979727732618588",
+      "thumb": "https://f57-zpg-r.zdn.vn/1088013987432518308/0aad58ba61d3ec8db5c2.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":15207,\"video_height\":1600,\"fileSize\":0,\"video_width\":720}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
   }
