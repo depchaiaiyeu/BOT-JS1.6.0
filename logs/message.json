@@ -4284,5 +4284,66 @@
     "threadId": "8281509084603580118",
     "type": 1,
     "isUndo": false
+  },
+  "1760167699429": {
+    "timestamp": "1760167699439",
+    "timestampString": "14:28:20",
+    "msgId": "7105282086453",
+    "cliMsgId": "1760167699429",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7520156140404430000,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1760167703001,
+        "globalDelMsgId": 7105282086405,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167703001": {
+    "timestamp": "1760167699249",
+    "timestampString": "14:28:20",
+    "msgId": "7105282086405",
+    "cliMsgId": "1760167703001",
+    "msgType": "webchat",
+    "uidFrom": "7520156140404430183",
+    "idTo": "6512342651301747547",
+    "dName": "Nguyên",
+    "content": "🎯 RandomLiQi – Chơi game phải có acc ngon! 🎯\nAnh em còn lo tìm acc xịn mà ví mỏng?\n💡 Giải pháp đây rồi 👉 https://randomliqi.click\n🚩 Tại shop có gì?\n⚔ Acc Lv Max + Godhuman\n🎲 Random acc rẻ bèo, tỉ lệ nổ skin SS, S+ cực cao\n💼 Acc dính mail, full skin vip cho anh em yên tâm sử dụng\n💸 Giá chỉ từ 20K, rẻ hơn ly trà sữa\n📌 Vào box Zalo nhận acc free : https://zalo.me/g/dyjsph729\n👉 RandomLiQi – nơi acc ngon nằm gọn trong tay bạn!",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167699504": {
+    "timestamp": "1760167699520",
+    "timestampString": "14:28:20",
+    "msgId": "7105282086466",
+    "cliMsgId": "1760167699504",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "➜ [ANTI-LINK]\n5076254408074558354\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi link vào nhóm. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
