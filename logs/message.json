@@ -29432,5 +29432,56 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760182653251": {
+    "timestamp": "1760182653304",
+    "timestampString": "18:37:34",
+    "msgId": "7106060650908",
+    "cliMsgId": "1760182653251",
+    "msgType": "webchat",
+    "uidFrom": "5990436222192783385",
+    "idTo": "2990969618896538297",
+    "dName": "Phạm Hoàng Hải",
+    "content": "Hi Thành Nhân nha",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182673245": {
+    "timestamp": "1760182673316",
+    "timestampString": "18:37:54",
+    "msgId": "7106061721663",
+    "cliMsgId": "1760182673245",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "@Phạm Hoàng Hải Hi",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182675839": {
+    "timestamp": "1760182675891",
+    "timestampString": "18:37:56",
+    "msgId": "7106061856704",
+    "cliMsgId": "1760182675839",
+    "msgType": "chat.photo",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/98507bd8ef014e5f1710/1230399301645149784?Webp_Video_Cua_DNgoc.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/98507bd8ef014e5f1710/1230399301645149784?Webp_Video_Cua_DNgoc.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754281432004\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/98507bd8ef014e5f1710\\/1230399301645149784?Webp_Video_Cua_DNgoc.webp\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1754281432004\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
