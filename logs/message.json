@@ -33538,5 +33538,47 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142792163": {
+    "timestamp": "1760142792216",
+    "timestampString": "07:33:13",
+    "msgId": "7103986039502",
+    "cliMsgId": "1760142792163",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "Chắc 21h là nên ngủ",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142798025": {
+    "timestamp": "1760142798073",
+    "timestampString": "07:33:18",
+    "msgId": "7103986218105",
+    "cliMsgId": "1760142798025",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "Còn t khối suy thận",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142801207": {
+    "timestamp": "1760142801256",
+    "timestampString": "07:33:21",
+    "msgId": "7103986313661",
+    "cliMsgId": "1760142801207",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "Nên thức trắng",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
