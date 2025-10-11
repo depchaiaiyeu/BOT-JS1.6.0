@@ -19965,5 +19965,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760179000140": {
+    "timestamp": "1760179000282",
+    "timestampString": "17:36:41",
+    "msgId": "7105869651097",
+    "cliMsgId": "1760179000140",
+    "msgType": "chat.photo",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "thumb": "https://f33-zfcloud.zdn.vn/31a981164bf3eaadb3e2/6375889373527688225?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":454,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754576471445\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f33-zfcloud.zdn.vn\\/31a981164bf3eaadb3e2\\/6375889373527688225?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1754576471445\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
