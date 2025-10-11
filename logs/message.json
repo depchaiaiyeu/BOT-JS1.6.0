@@ -31688,5 +31688,69 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760183943668": {
+    "timestamp": "1760183943715",
+    "timestampString": "18:59:04",
+    "msgId": "7106128959812",
+    "cliMsgId": "1760183943668",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/46232c84c413654d3c02/3396542947457580468?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/46232c84c413654d3c02/3396542947457580468?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":48,\"height\":48,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759511058847\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/46232c84c413654d3c02\\/3396542947457580468?createby=NDQ_Bot.webp\",\"width\":48,\"height\":48,\"thumb\":\"\"},\"contentId\":\"1759511058847\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183961244": {
+    "timestamp": "1760183961310",
+    "timestampString": "18:59:22",
+    "msgId": "7106129889948",
+    "cliMsgId": "1760183961244",
+    "msgType": "chat.photo",
+    "uidFrom": "3472044514489302548",
+    "idTo": "4825567233436439756",
+    "dName": "Chí Hải",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/523e08e0fa225b7c0233/1313288534540757858/300a0158-8672-442e-8ade-2cd8d85af596.webp",
+      "thumb": "https://fg43.dlfl.vn/523e08e0fa225b7c0233/1313288534540757858/300a0158-8672-442e-8ade-2cd8d85af596.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":336,\"height\":599,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1752062814707\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/523e08e0fa225b7c0233\\/1313288534540757858\\/300a0158-8672-442e-8ade-2cd8d85af596.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1752062814707\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183968660": {
+    "timestamp": "1760183968693",
+    "timestampString": "18:59:29",
+    "msgId": "7106130279538",
+    "cliMsgId": "1760183968660",
+    "msgType": "chat.sticker",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "id": 46975,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }

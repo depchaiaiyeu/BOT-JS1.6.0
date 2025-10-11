@@ -1063,8 +1063,8 @@
         {
           "UserName": "Bùi Hiếu",
           "UID": "2623964646848540497",
-          "Rank": 181,
-          "messageCountToday": 18,
+          "Rank": 183,
+          "messageCountToday": 20,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -1457,6 +1457,13 @@
           "UID": "5369350707826141368",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Chí Hải",
+          "UID": "3472044514489302548",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],
