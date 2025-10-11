@@ -13650,5 +13650,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760176443904": {
+    "timestamp": "1760176444098",
+    "timestampString": "16:54:04",
+    "msgId": "7105739161528",
+    "cliMsgId": "1760176443904",
+    "msgType": "webchat",
+    "uidFrom": "4151380426396550311",
+    "idTo": "5601607522756268167",
+    "dName": "Tkh",
+    "content": "@Ktctue ê t quạo nha t gửi stk mà ảnh đâu ra cắn đứt cặc m h",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
