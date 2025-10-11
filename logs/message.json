@@ -2856,5 +2856,97 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760166958117": {
+    "timestamp": "1760166960053",
+    "timestampString": "14:16:00",
+    "msgId": "7105248005369",
+    "cliMsgId": "1760166958117",
+    "msgType": "chat.photo",
+    "uidFrom": "1070876624639243239",
+    "idTo": "5975420422762749911",
+    "dName": "A Sìn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/fc2ad2b89524347a6d35/1431389587436415664/71d3ac01-8e47-4048-bbdd-9e4ee6552ea7_music_created_by=A_SIN.webp",
+      "thumb": "https://fg41.dlfl.vn/fc2ad2b89524347a6d35/1431389587436415664/71d3ac01-8e47-4048-bbdd-9e4ee6552ea7_music_created_by=A_SIN.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":254,\"thumb_height\":254,\"width\":254,\"contentId\":\"1760166958117\",\"webp\":{\"width\":254,\"url\":\"https:\\/\\/fg41.dlfl.vn\\/fc2ad2b89524347a6d35\\/1431389587436415664\\/71d3ac01-8e47-4048-bbdd-9e4ee6552ea7_music_created_by=A_SIN.webp\",\"height\":254},\"hd\":\"https:\\/\\/fg41.dlfl.vn\\/fc2ad2b89524347a6d35\\/1431389587436415664\\/71d3ac01-8e47-4048-bbdd-9e4ee6552ea7_music_created_by=A_SIN.webp\",\"height\":254}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166958136": {
+    "timestamp": "1760166960073",
+    "timestampString": "14:16:00",
+    "msgId": "7105248005377",
+    "cliMsgId": "1760166958136",
+    "msgType": "chat.voice",
+    "uidFrom": "1070876624639243239",
+    "idTo": "5975420422762749911",
+    "dName": "A Sìn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/5e8650151789b6d7ef98/8076942305729034420/71d3ac01-8e47-4048-bbdd-9e4ee6552ea7.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/fg41.dlfl.vn\\/5e8650151789b6d7ef98\\/8076942305729034420\\/71d3ac01-8e47-4048-bbdd-9e4ee6552ea7.aac\"}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166958157": {
+    "timestamp": "1760166960145",
+    "timestampString": "14:16:00",
+    "msgId": "7105248017560",
+    "cliMsgId": "1760166958157",
+    "msgType": "chat.photo",
+    "uidFrom": "1070876624639243239",
+    "idTo": "5975420422762749911",
+    "dName": "A Sìn",
+    "content": {
+      "title": "🚦@种地 thư giãn cùng giai điệu nhẹ nhàng 🎸",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/977384414082506242/6fca048e95e218bc41f3.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/977384414082506242/6fca048e95e218bc41f3.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1280,\"convertible\":\"jpg\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/977384414082506242\\/6fca048e95e218bc41f3.jpg\",\"height\":400}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610018605960": {
+    "timestamp": "1760166977340",
+    "timestampString": "14:16:18",
+    "msgId": "7105248794314",
+    "cliMsgId": "105610018605960",
+    "msgType": "chat.photo",
+    "uidFrom": "5301958507346934959",
+    "idTo": "5975420422762749911",
+    "dName": "Tuan",
+    "content": {
+      "title": "🚦@种地, Mời bạn chọn nhạc 🧸\n🕙 Bạn có 120s để chọn nhạc",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/599458674712905057/612e6995fbf976a72fe8.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/599458674712905057/612e6995fbf976a72fe8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2452,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/599458674712905057\\/612e6995fbf976a72fe8.jpg\",\"hdSize\":344622,\"height\":2340}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }

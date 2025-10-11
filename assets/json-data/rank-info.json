@@ -2691,9 +2691,9 @@
         {
           "UserName": "Tuan",
           "UID": "5301958507346934959",
-          "Rank": 255,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 256,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Duck",
@@ -2789,8 +2789,8 @@
         {
           "UserName": "A Sìn",
           "UID": "1070876624639243239",
-          "Rank": 7,
-          "messageCountToday": 1,
+          "Rank": 10,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-11"
         },
         {
