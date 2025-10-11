@@ -7725,5 +7725,42 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760169355137": {
+    "timestamp": "1760169355530",
+    "timestampString": "14:55:56",
+    "msgId": "7105361329016",
+    "cliMsgId": "1760169355137",
+    "msgType": "webchat",
+    "uidFrom": "5461000099680117746",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Bảo",
+    "content": "kkk",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760169351223": {
+    "timestamp": "1760169356183",
+    "timestampString": "14:55:56",
+    "msgId": "7105361355999",
+    "cliMsgId": "1760169351223",
+    "msgType": "chat.photo",
+    "uidFrom": "5461000099680117746",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Bảo",
+    "content": {
+      "title": "hài quá gwen",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/jpg/6667484278291839501/aa1289c3e4ac69f230bd.jpg",
+      "thumb": "https://f58-zpg-r.zdn.vn/jpg/6667484278291839501/aa1289c3e4ac69f230bd.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1022,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f58-zpg-r.zdn.vn\\/jpg\\/6667484278291839501\\/aa1289c3e4ac69f230bd.jpg\",\"hdSize\":25461,\"height\":819}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
