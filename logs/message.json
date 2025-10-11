@@ -11245,5 +11245,42 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760172956249": {
+    "timestamp": "1760172956334",
+    "timestampString": "15:55:57",
+    "msgId": "7105557434173",
+    "cliMsgId": "1760172956249",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "!i4 @Văn Tám",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172956206": {
+    "timestamp": "1760172957077",
+    "timestampString": "15:55:58",
+    "msgId": "7105557461072",
+    "cliMsgId": "1760172956206",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/8484649973783005873/2a7a9b161c799127c868.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/8484649973783005873/2a7a9b161c799127c868.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/8484649973783005873\\/2a7a9b161c799127c868.jpg\",\"hdSize\":255001,\"height\":430}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
