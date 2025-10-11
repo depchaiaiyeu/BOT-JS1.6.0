@@ -45,20 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760067015587": {
-    "timestamp": "1760067015766",
-    "timestampString": "10:30:17",
-    "msgId": "7100840018588",
-    "cliMsgId": "1760067015587",
-    "msgType": "webchat",
-    "uidFrom": "7159173789925726305",
-    "idTo": "4699745045071009795",
-    "dName": "Bắc",
-    "content": "@Nguyễn Minh Khôi",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
   "1760067060485": {
     "timestamp": "1760067060983",
     "timestampString": "10:31:01",
