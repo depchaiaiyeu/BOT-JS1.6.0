@@ -20429,5 +20429,47 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760179523661": {
+    "timestamp": "1760179523701",
+    "timestampString": "17:45:24",
+    "msgId": "7105896698331",
+    "cliMsgId": "1760179523661",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "@Minh fix gì",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179526093": {
+    "timestamp": "1760179526122",
+    "timestampString": "17:45:26",
+    "msgId": "7105896822821",
+    "cliMsgId": "1760179526093",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "xoá api r",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179526521": {
+    "timestamp": "1760179526654",
+    "timestampString": "17:45:27",
+    "msgId": "7105896851932",
+    "cliMsgId": "1760179526521",
+    "msgType": "webchat",
+    "uidFrom": "1338695414337202095",
+    "idTo": "4699745045071009795",
+    "dName": "Lê Dung",
+    "content": "@Trọng Man ờ hớ",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
