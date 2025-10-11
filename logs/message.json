@@ -9361,5 +9361,19 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760171559584": {
+    "timestamp": "1760171560040",
+    "timestampString": "15:32:40",
+    "msgId": "7105480615831",
+    "cliMsgId": "1760171559584",
+    "msgType": "webchat",
+    "uidFrom": "8606917999821023050",
+    "idTo": "5601607522756268167",
+    "dName": "Nminh",
+    "content": "Vô box ib nhận 2 acc 3s hoặc mục tuỳ chọn  xịn bên NMinh ạ !  https://zalo.me/g/wylcke984",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
