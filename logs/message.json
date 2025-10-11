@@ -36724,5 +36724,202 @@
     "threadId": "206503079877623526",
     "type": 1,
     "isUndo": false
+  },
+  "1760144583378": {
+    "timestamp": "1760144584053",
+    "timestampString": "08:03:04",
+    "msgId": "7104048227612",
+    "cliMsgId": "1760144583378",
+    "msgType": "chat.sticker",
+    "uidFrom": "9210252485480501226",
+    "idTo": "7585160044864555896",
+    "dName": "Con Mèo",
+    "content": {
+      "id": 18729,
+      "catId": 10170,
+      "type": 3
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144586100": {
+    "timestamp": "1760144586180",
+    "timestampString": "08:03:06",
+    "msgId": "7104048328370",
+    "cliMsgId": "1760144586100",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Nhìn tk tròn trĩnh là bt để chưng lâu bà già nhờ chụp capcut",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144592135": {
+    "timestamp": "1760144592234",
+    "timestampString": "08:03:13",
+    "msgId": "7104048605841",
+    "cliMsgId": "1760144592135",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Để nền mới chịu",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144595431": {
+    "timestamp": "1760144595493",
+    "timestampString": "08:03:16",
+    "msgId": "7104048753867",
+    "cliMsgId": "1760144595431",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144595648": {
+    "timestamp": "1760144595717",
+    "timestampString": "08:03:16",
+    "msgId": "7104048767177",
+    "cliMsgId": "1760144595648",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 50752,
+      "catId": 12676,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144595859": {
+    "timestamp": "1760144596516",
+    "timestampString": "08:03:16",
+    "msgId": "7104048798635",
+    "cliMsgId": "1760144595859",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "206503079877623526",
+    "dName": "Dương",
+    "content": "vaild email or password",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144601382": {
+    "timestamp": "1760144601587",
+    "timestampString": "08:03:22",
+    "msgId": "7104049028537",
+    "cliMsgId": "1760144601382",
+    "msgType": "webchat",
+    "uidFrom": "7986286978382519279",
+    "idTo": "5166581134204343688",
+    "dName": "Ng Quoc Huy",
+    "content": "mấy thg l có cái bill cũng khoe",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144602897": {
+    "timestamp": "1760144603112",
+    "timestampString": "08:03:23",
+    "msgId": "7104049098577",
+    "cliMsgId": "1760144602897",
+    "msgType": "chat.sticker",
+    "uidFrom": "7986286978382519279",
+    "idTo": "5166581134204343688",
+    "dName": "Ng Quoc Huy",
+    "content": {
+      "id": 34857,
+      "catId": 11190,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144605136": {
+    "timestamp": "1760144605924",
+    "timestampString": "08:03:26",
+    "msgId": "7104049222782",
+    "cliMsgId": "1760144605136",
+    "msgType": "chat.recommended",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "Bạn đã cài đặt nó chưa? Chỉ cần nhập ID lời mời 30909901 và bạn có thể nhận được ₫26K.https://d2abani1vmq5hb.cloudfront.net/cr/index_8.html?s=MzIxMzEzMjQ&id=30909901",
+      "description": "",
+      "href": "https://d2abani1vmq5hb.cloudfront.net/cr/index_8.html?s=MzIxMzEzMjQ&id=30909901",
+      "thumb": "https://f64-zpg-r.zdn.vn/6494893114381793673/7f612836d95654080d47.jpg",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"d2abani1vmq5hb.cloudfront.net\",\"mediaTitle\":\"Crazy Rock\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/d2abani1vmq5hb.cloudfront.net\\/cr\\/index_8.html?s=MzIxMzEzMjQ&id=30909901\",\"tType\":1,\"tWidth\":168,\"tHeight\":168,\"icon\":\"\\/assets\\/img\\/logo.png\",\"local_path_thumb_link\":\"\\/storage\\/emulated\\/0\\/Android\\/data\\/com.zing.zalo\\/files\\/zalo\\/semicache\\/thumb_link\\/81f9d4caa2a0e6b24394e871a86d30b9.jpg\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144607899": {
+    "timestamp": "1760144608148",
+    "timestampString": "08:03:28",
+    "msgId": "7104049324897",
+    "cliMsgId": "1760144607899",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/jpg/7130450497059276868/dfbc341013709e2ec761.jpg",
+      "thumb": "https://f64-zpg-r.zdn.vn/jpg/7130450497059276868/dfbc341013709e2ec761.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760144606419,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"798\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144607871": {
+    "timestamp": "1760144608114",
+    "timestampString": "08:03:29",
+    "msgId": "7104049323742",
+    "cliMsgId": "1760144607871",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/5888296194729482388/239f56327152fc0ca543.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/5888296194729482388/239f56327152fc0ca543.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":590,\"height\":1280,\"is_group_layout\":1,\"group_layout_id\":1760144606419,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"799\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
