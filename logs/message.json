@@ -11139,5 +11139,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760172697771": {
+    "timestamp": "1760172697819",
+    "timestampString": "15:51:38",
+    "msgId": "7105543682766",
+    "cliMsgId": "1760172697771",
+    "msgType": "webchat",
+    "uidFrom": "5369350707826141368",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hữu Hùng",
+    "content": "@Nhân Trương nó gọi liên tục vãi",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
