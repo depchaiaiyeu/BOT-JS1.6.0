@@ -9152,5 +9152,28 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760171004326": {
+    "timestamp": "1760171004786",
+    "timestampString": "15:23:28",
+    "msgId": "7105450595053",
+    "cliMsgId": "1760171004326",
+    "msgType": "chat.photo",
+    "uidFrom": "2469710224594830717",
+    "idTo": "5464956150740844012",
+    "dName": "Tiểu Sơn",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/5687004748087857937/deaabb20a1402c1e7551.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/5687004748087857937/deaabb20a1402c1e7551.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1656,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/5687004748087857937\\/deaabb20a1402c1e7551.jpg\",\"height\":1656}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
