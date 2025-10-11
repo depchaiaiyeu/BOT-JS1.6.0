@@ -30972,5 +30972,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760183747418": {
+    "timestamp": "1760183749245",
+    "timestampString": "18:55:50",
+    "msgId": "7106118641760",
+    "cliMsgId": "1760183747418",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/1944541855153080417/ef8505f8f1917ccf2580.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/1944541855153080417/ef8505f8f1917ccf2580.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/1944541855153080417\\/ef8505f8f1917ccf2580.jpg\",\"hdSize\":116215,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183752932": {
+    "timestamp": "1760183756649",
+    "timestampString": "18:55:57",
+    "msgId": "7106119062084",
+    "cliMsgId": "1760183752932",
+    "msgType": "webchat",
+    "uidFrom": "8581465980330180908",
+    "idTo": "5464956150740844012",
+    "dName": "Nguyễn Quang Huy",
+    "content": "🔥 BÁN ACC CLONE FACEBOOK – FULL 2FA – NGÂM TRÂU 8 THÁNG 🔥\n✅ Hỗ trợ spam tay + tool, bảo hành acc die/ checkpoint trong 7 ngày đầu 1 đổi 1\n✅ Cân mọi giao dịch trung gian \n✅ Full bạn bè, avt, ảnh bìa – acc trâu chuyên spam\n\n⚠️ Anh em lưu ý: Chọn nguồn clone cực kỳ quan trọng – bên em chỉ cung cấp acc đã ngâm spam trên 8 tháng, chịu spam tốt – tránh tình trạng mua acc trên các web mới log 30p đã die, spam vài cmt đã die/checkpoint. Vì các acc trên web hầu hết là ních mới hoặc mới chỉ ngâm vài ngày đến vài tuần còn rất yếu\n\n🎯 Acc bên em có gì?\n• Full 2FA – qua spam trâu trên 8 tháng\nđã qua gỡ checkpoint nhiều lần\n• Sẵn bạn bè \n• Avt + ảnh bìa – độ trust cao\n• Hỗ trợ quy trình spam bên em (Tool + trick spam sống lâu)\n• Cam kết bảo hành 7 ngày – lỗi đổi acc mới 1:1\n\n📩 Inbox ngay Z.A.L.O 0787076429  để test acc – dùng thử quy trình spam hiệu quả!\n🛡️ Uy tín tạo nên thương hiệu – bán acc là phải có bảo hành!",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
