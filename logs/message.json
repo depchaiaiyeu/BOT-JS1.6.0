@@ -20531,5 +20531,19 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760179608110": {
+    "timestamp": "1760179608181",
+    "timestampString": "17:46:49",
+    "msgId": "7105901110430",
+    "cliMsgId": "1760179608110",
+    "msgType": "webchat",
+    "uidFrom": "2577252855236527871",
+    "idTo": "4699745045071009795",
+    "dName": "Lính Đánh Thuê Campuchia",
+    "content": "🤪",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
