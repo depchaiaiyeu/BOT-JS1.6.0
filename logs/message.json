@@ -11051,5 +11051,33 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760172651537": {
+    "timestamp": "1760172651564",
+    "timestampString": "15:50:52",
+    "msgId": "7105541085256",
+    "cliMsgId": "1760172651537",
+    "msgType": "webchat",
+    "uidFrom": "9094715627876854029",
+    "idTo": "9104968216656954464",
+    "dName": "Minh Khang",
+    "content": "Mua Tictac Sahur",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172658527": {
+    "timestamp": "1760172658606",
+    "timestampString": "15:50:59",
+    "msgId": "7105541479870",
+    "cliMsgId": "1760172658527",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "@Văn Tám .delmsg",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
