@@ -34662,5 +34662,111 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760143742230": {
+    "timestamp": "1760143742308",
+    "timestampString": "07:49:03",
+    "msgId": "7104016682660",
+    "cliMsgId": "1760143742230",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "*stk",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143749047": {
+    "timestamp": "1760143744204",
+    "timestampString": "07:49:04",
+    "msgId": "7104016749327",
+    "cliMsgId": "1760143749047",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://ot54.dlfl.vn/3ca08df81565b43bed74/5234915675558896719",
+      "thumb": "https://ot54.dlfl.vn/3ca08df81565b43bed74/5234915675558896719",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":900,\"thumb_height\":699,\"width\":699,\"contentId\":\"1760143749047\",\"webp\":{\"width\":699,\"url\":\"https:\\/\\/ot54.dlfl.vn\\/3ca08df81565b43bed74\\/5234915675558896719\",\"height\":900},\"hd\":\"https:\\/\\/ot54.dlfl.vn\\/3ca08df81565b43bed74\\/5234915675558896719\",\"height\":900}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143749466": {
+    "timestamp": "1760143744608",
+    "timestampString": "07:49:04",
+    "msgId": "7104016763696",
+    "cliMsgId": "1760143749466",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "🚦 @Núp Gầm Giường sticker của bạn đây ⭐",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143756095": {
+    "timestamp": "1760143756259",
+    "timestampString": "07:49:17",
+    "msgId": "7104017165333",
+    "cliMsgId": "1760143756095",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "*gif ConCacDuma 😛",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143769662": {
+    "timestamp": "1760143765785",
+    "timestampString": "07:49:26",
+    "msgId": "7104017487753",
+    "cliMsgId": "1760143769662",
+    "msgType": "chat.photo",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://b-f56-zpg-r.zdn.vn/4935033309949014357/544a34abe1cb6c9535da.jpg",
+      "thumb": "https://b-f56-zpg-r.zdn.vn/4935033309949014357/544a34abe1cb6c9535da.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/4935033309949014357\\/544a34abe1cb6c9535da.jpg\",\"height\":460}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143766148": {
+    "timestamp": "1760143766160",
+    "timestampString": "07:49:27",
+    "msgId": "7104017505704",
+    "cliMsgId": "1760143766148",
+    "msgType": "chat.sticker",
+    "uidFrom": "3157504550156704746",
+    "idTo": "206503079877623526",
+    "dName": "Slatt",
+    "content": {
+      "id": 21232,
+      "catId": 10291,
+      "type": 3
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
