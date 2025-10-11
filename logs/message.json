@@ -10259,5 +10259,28 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760172014781": {
+    "timestamp": "1760172014854",
+    "timestampString": "15:40:16",
+    "msgId": "7105505478557",
+    "cliMsgId": "1760172014781",
+    "msgType": "chat.photo",
+    "uidFrom": "8433519804894354738",
+    "idTo": "5101276688001232112",
+    "dName": "Nguyen Anh",
+    "content": {
+      "title": "Vẫn lên đều nhé ae",
+      "description": "",
+      "href": "https://photo-stal-1.zdn.vn/gr/jpg/3f6bec0d6efb9aa5c3ea/4418898038012886895.jpg",
+      "thumb": "https://photo-stal-1.zdn.vn/gr/jpg/3f6bec0d6efb9aa5c3ea/4418898038012886895.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":2796,\"thumb_width\":360,\"thumb_height\":780,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/photo-stal-1.zdn.vn\\/gr\\/jpg\\/3f6bec0d6efb9aa5c3ea\\/4418898038012886895.jpg\",\"width\":1290,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "5101276688001232112",
+    "type": 1,
+    "isUndo": false
   }
 }
