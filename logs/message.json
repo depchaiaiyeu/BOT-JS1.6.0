@@ -13747,5 +13747,61 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760176540666": {
+    "timestamp": "1760176540714",
+    "timestampString": "16:55:41",
+    "msgId": "7105744200427",
+    "cliMsgId": "1760176540666",
+    "msgType": "webchat",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": "@Nguyễn Duy Khánh OMG",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176545629": {
+    "timestamp": "1760176545688",
+    "timestampString": "16:55:46",
+    "msgId": "7105744459692",
+    "cliMsgId": "1760176545629",
+    "msgType": "webchat",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": "xin nha",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176546667": {
+    "timestamp": "1760176546727",
+    "timestampString": "16:55:47",
+    "msgId": "7105744514335",
+    "cliMsgId": "1760176546667",
+    "msgType": "webchat",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": "nhìn",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176548079": {
+    "timestamp": "1760176548196",
+    "timestampString": "16:55:48",
+    "msgId": "7105744593728",
+    "cliMsgId": "1760176548079",
+    "msgType": "webchat",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": "nứn qus",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
