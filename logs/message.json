@@ -1900,5 +1900,23 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760165357367": {
+    "timestamp": "1760165357237",
+    "timestampString": "13:49:20",
+    "msgId": "7105176251892",
+    "cliMsgId": "1760165357367",
+    "msgType": "chat.sticker",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": {
+      "id": 50618,
+      "catId": 12658,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
