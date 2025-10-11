@@ -45,57 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760069717806": {
-    "timestamp": "1760069717898",
-    "timestampString": "11:15:18",
-    "msgId": "7101050040316",
-    "cliMsgId": "1760069717806",
-    "msgType": "webchat",
-    "uidFrom": "1238363753987858196",
-    "idTo": "7897564732983285154",
-    "dName": "Bich Ngoc",
-    "content": "Qq jv",
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760069720170": {
-    "timestamp": "1760069725144",
-    "timestampString": "11:15:25",
-    "msgId": "7101050600407",
-    "cliMsgId": "1760069720170",
-    "msgType": "chat.voice",
-    "uidFrom": "994613064562975222",
-    "idTo": "7897564732983285154",
-    "dName": "Vu Huynh Nhi",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://voice-aac-dl.zdn.vn/3961788485899998943/f660c76cf3ee1db044ff.aac",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/3961788485899998943\\/f660c76cf3ee1db044ff.aac\",\"duration\":4672,\"fileSize\":37887,\"waveformSamples\":[692,5088,12516,13940,11286,12758,14765,15311,14731,13438,11369,13511,15160,12844,14021,16205,13825,13488,11559,9682,14035,14065,10134]}",
-      "type": ""
-    },
-    "threadId": "7897564732983285154",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760069759766": {
-    "timestamp": "1760069759838",
-    "timestampString": "11:16:00",
-    "msgId": "7101053284640",
-    "cliMsgId": "1760069759766",
-    "msgType": "webchat",
-    "uidFrom": "3973770325197419294",
-    "idTo": "8311627129351719523",
-    "dName": "G I A T U Ấ N",
-    "content": "Còn 1 slot acc 50k bạn kia hủy cọc @All",
-    "threadId": "8311627129351719523",
-    "type": 1,
-    "isUndo": false
-  },
   "1760069858694": {
     "timestamp": "1760069859367",
     "timestampString": "11:17:40",
