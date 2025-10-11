@@ -26722,5 +26722,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760181326118": {
+    "timestamp": "1760181326320",
+    "timestampString": "18:15:27",
+    "msgId": "7105991904383",
+    "cliMsgId": "1760181326118",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": "@All hi bé",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
