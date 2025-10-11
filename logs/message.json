@@ -28736,5 +28736,65 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760182446264": {
+    "timestamp": "1760182446300",
+    "timestampString": "18:34:07",
+    "msgId": "7106049544060",
+    "cliMsgId": "1760182446264",
+    "msgType": "webchat",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": "!ms3 văn mẫn",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182447082": {
+    "timestamp": "1760182447929",
+    "timestampString": "18:34:08",
+    "msgId": "7106049609004",
+    "cliMsgId": "1760182447082",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "@Tài Tấn\nĐây là danh sách bài hát trên ZingMP3 mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn nghe!\nVD: 1 hoặc 1 lyric|lossless|timelyric...",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/1035415130987144682/10a508742a1da743fe0c.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/1035415130987144682/10a508742a1da743fe0c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1275,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/1035415130987144682\\/10a508742a1da743fe0c.jpg\",\"hdSize\":406571,\"height\":780}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760182452422": {
+    "timestamp": "1760182452713",
+    "timestampString": "18:34:13",
+    "msgId": "7106049889034",
+    "cliMsgId": "1760182452422",
+    "msgType": "chat.recommended",
+    "uidFrom": "5990436222192783385",
+    "idTo": "1367422010794969537",
+    "dName": "Phạm Hoàng Hải",
+    "content": {
+      "title": "https://zalo.me/g/mfebdy215",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/mfebdy215",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25baec3a0331760182452aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNjkxMDdhODU3MmUzOThiZGMxZjI=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Di Cư\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/mfebdy215\",\"owner\":{\"id\":421990356,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/6\\/6\\/0\\/6\\/12\\/120\\/c22a32b42bba73a9c8cc1c48849fd57c.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
