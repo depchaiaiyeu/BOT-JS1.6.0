@@ -11805,5 +11805,23 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760173561454": {
+    "timestamp": "1760173561510",
+    "timestampString": "16:06:02",
+    "msgId": "7105589830449",
+    "cliMsgId": "1760173561454",
+    "msgType": "chat.sticker",
+    "uidFrom": "9086134107963328291",
+    "idTo": "3228108398535377399",
+    "dName": "Nguyễn Thanh Quốc",
+    "content": {
+      "id": 47621,
+      "catId": 12045,
+      "type": 3
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
