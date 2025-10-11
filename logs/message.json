@@ -10763,5 +10763,56 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760172451208": {
+    "timestamp": "1760172451320",
+    "timestampString": "15:47:32",
+    "msgId": "7105529782917",
+    "cliMsgId": "1760172451208",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "@Bùi Hữu Hùng ừa thấy Gwen làm r đó",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172464651": {
+    "timestamp": "1760172464696",
+    "timestampString": "15:47:45",
+    "msgId": "7105530548391",
+    "cliMsgId": "1760172464651",
+    "msgType": "chat.recommended",
+    "uidFrom": "7256275390755911304",
+    "idTo": "1367422010794969537",
+    "dName": "Lê Hoàng Long",
+    "content": {
+      "title": "https://zalo.me/g/audynj659",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/audynj659",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2abd4024aed1760172284aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvOGE3OTQwMjVhMTQxNGIxZjEyNTA=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Thành Phố Việt\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/audynj659\",\"owner\":{\"id\":413309795,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/0\\/5\\/e\\/0\\/62\\/120\\/e87255784280e4da07e44e262a92ab6c.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172464750": {
+    "timestamp": "1760172466390",
+    "timestampString": "15:47:46",
+    "msgId": "7105530639412",
+    "cliMsgId": "1760172464750",
+    "msgType": "webchat",
+    "uidFrom": "4693555911012450841",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Trường Thái",
+    "content": "CẦN GẤP X10 LOS 67 NOR 30/1\nX10 67 NOR 30/1",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }

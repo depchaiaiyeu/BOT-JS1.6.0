@@ -1266,9 +1266,9 @@
         {
           "UserName": "Nhân Trương",
           "UID": "8944544892270885914",
-          "Rank": 5,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-08"
+          "Rank": 6,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Minh Du",
@@ -2682,6 +2682,13 @@
           "Rank": 2,
           "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
+        },
+        {
+          "UserName": "Lê Hoàng Long",
+          "UID": "7256275390755911304",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         }
       ],
       "nameGroup": "❥βєѕt ƒʀιєɴd."
@@ -6932,6 +6939,13 @@
           "UID": "5345445945853805845",
           "Rank": 2,
           "messageCountToday": 2,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nguyễn Trường Thái",
+          "UID": "4693555911012450841",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],
