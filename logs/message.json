@@ -28494,5 +28494,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760140922500": {
+    "timestamp": "1760140922550",
+    "timestampString": "07:02:02",
+    "msgId": "7103934005301",
+    "cliMsgId": "1760140922500",
+    "msgType": "webchat",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": "Chỉ là anh sẽ không cùng em, đi hết con đường...",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
