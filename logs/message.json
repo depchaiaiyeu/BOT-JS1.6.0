@@ -19705,5 +19705,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178727437": {
+    "timestamp": "1760178727511",
+    "timestampString": "17:32:08",
+    "msgId": "7105855632533",
+    "cliMsgId": "1760178727437",
+    "msgType": "webchat",
+    "uidFrom": "5576109141632962137",
+    "idTo": "4699745045071009795",
+    "dName": "Trọng Man",
+    "content": "Bố nhắn tiếng ng đc à",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
