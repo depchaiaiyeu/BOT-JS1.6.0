@@ -27478,5 +27478,142 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760181695050": {
+    "timestamp": "1760181695201",
+    "timestampString": "18:21:36",
+    "msgId": "7106010610309",
+    "cliMsgId": "1760181695050",
+    "msgType": "chat.delete",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5047084489515675000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760181485530,
+        "globalDelMsgId": 7106000014467,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181698362": {
+    "timestamp": "1760181698534",
+    "timestampString": "18:21:39",
+    "msgId": "7106010780895",
+    "cliMsgId": "1760181698362",
+    "msgType": "chat.delete",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5047084489515675000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760181492299,
+        "globalDelMsgId": 7106000359289,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181700782": {
+    "timestamp": "1760181700923",
+    "timestampString": "18:21:41",
+    "msgId": "7106010901844",
+    "cliMsgId": "1760181700782",
+    "msgType": "chat.delete",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5047084489515675000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760181494137,
+        "globalDelMsgId": 7106000452241,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181703642": {
+    "timestamp": "1760181703818",
+    "timestampString": "18:21:44",
+    "msgId": "7106011045614",
+    "cliMsgId": "1760181703642",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": "hih",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181709101": {
+    "timestamp": "1760181709280",
+    "timestampString": "18:21:50",
+    "msgId": "7106011320731",
+    "cliMsgId": "1760181709101",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": "tag nhầm",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056109025740800": {
+    "timestamp": "1760181709568",
+    "timestampString": "18:21:50",
+    "msgId": "7106011323581",
+    "cliMsgId": "1056109025740800",
+    "msgType": "webchat",
+    "uidFrom": "1990597441153292955",
+    "idTo": "1367422010794969537",
+    "dName": "Đệ Của Hoàng",
+    "content": "[ BOT HA HUY HOANG AUTO RẢI ]\nNhận rải thuê 10k/ngày\nCho thuê bot 70k/1 tháng\nLink box bot: https://zalo.me/g/aoosnn075\nLh thuê bot +rải card bên dưới\n\nBên mình sẵn nhiều kênh TikTok 1 - 500k Follow đủ chức năng bảo hành ✅\nNhận Oder Kênh theo tệp tuổi, giới tính, lượng Follow ✅\nMọi người vào nhóm xem kênh nha: https://zalo.me/g/gkjcic891\nCall: 0986.226.914 ( hỗ trợ nhanh ) ☎️\nGiao dịch trực tiếp hoặc qua trung gian AD có cọc bảo hiểm ✅\n\n\n- 1k tym toptop = 1k\n- 1k f.lâu toptop = 10k\n-1k f.lâu facebook = 5k\nVà nhiều dv đa dạng khác giá siêu rẻ..\n🌐 Tại web: subsale.vn\n🔔 Tham gia kênh thông báo xem hướng dẫn thêm: \nNhóm 1 : https://zalo.me/g/atilkb482\nNhóm 2 : https://zalo.me/g/yedxlw309\nNhóm 3 : https://zalo.me/g/irecjj359",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056109025778000": {
+    "timestamp": "1760181709629",
+    "timestampString": "18:21:50",
+    "msgId": "7106011323589",
+    "cliMsgId": "1056109025778000",
+    "msgType": "chat.recommended",
+    "uidFrom": "1990597441153292955",
+    "idTo": "1367422010794969537",
+    "dName": "Đệ Của Hoàng",
+    "content": {
+      "title": "Hà Huy Hoàng",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/2\\/477206840\\/19f4ac8f64d38d8dd4c2.jpg\",\"gUid\":\"VHMD8DLF4BE9BB9FU8FS95L7S5K482O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/1/c/c/a/15/120/7e16ea9688da7e27b859bbdfa324e03a.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "5365572569803808077",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
