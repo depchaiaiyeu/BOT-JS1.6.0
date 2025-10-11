@@ -7707,5 +7707,23 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760169297931": {
+    "timestamp": "1760169297992",
+    "timestampString": "14:54:59",
+    "msgId": "7105358523247",
+    "cliMsgId": "1760169297931",
+    "msgType": "chat.sticker",
+    "uidFrom": "7304261875357473126",
+    "idTo": "5166581134204343688",
+    "dName": "Cường",
+    "content": {
+      "id": 28377,
+      "catId": 10786,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
