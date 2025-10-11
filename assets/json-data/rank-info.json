@@ -1579,8 +1579,8 @@
         {
           "UserName": "Kim Thanhh",
           "UID": "6593064319472911684",
-          "Rank": 141,
-          "messageCountToday": 126,
+          "Rank": 142,
+          "messageCountToday": 127,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6750,6 +6750,13 @@
           "UID": "8331781805972075163",
           "Rank": 3,
           "messageCountToday": 3,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nguyễn Trường An",
+          "UID": "4335876764763844887",
+          "Rank": 1,
+          "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
         }
       ],

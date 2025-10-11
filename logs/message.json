@@ -4228,5 +4228,33 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760167366985": {
+    "timestamp": "1760167367089",
+    "timestampString": "14:22:48",
+    "msgId": "7105266687177",
+    "cliMsgId": "1760167366985",
+    "msgType": "webchat",
+    "uidFrom": "4335876764763844887",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Trường An",
+    "content": "@Hà Y kệ mày",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167371395": {
+    "timestamp": "1760167371442",
+    "timestampString": "14:22:51",
+    "msgId": "7105266888984",
+    "cliMsgId": "1760167371395",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "@Dương Hoàng Linh khóc ấy",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
