@@ -45,34 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064984555": {
-    "timestamp": "1760064986475",
-    "timestampString": "09:56:27",
-    "msgId": "7100682037090",
-    "cliMsgId": "1760064984555",
-    "msgType": "webchat",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": ">mutegr",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760064993797": {
-    "timestamp": "1760064993854",
-    "timestampString": "09:56:34",
-    "msgId": "7100682585081",
-    "cliMsgId": "1760064993797",
-    "msgType": "webchat",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": "✅ Hoàn tất.\nTắt thông báo thành công: 148\nThất bại: 0",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1760065171729": {
     "timestamp": "1760065171800",
     "timestampString": "09:59:32",
