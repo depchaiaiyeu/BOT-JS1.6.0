@@ -31537,5 +31537,60 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142211247": {
+    "timestamp": "1760142218811",
+    "timestampString": "07:23:39",
+    "msgId": "7103969243095",
+    "cliMsgId": "1760142211247",
+    "msgType": "chat.voice",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/5084407388770609557/42296068e6e508bb51f4.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/5084407388770609557\\/42296068e6e508bb51f4.aac\",\"duration\":7168,\"fileSize\":58128,\"waveformSamples\":[342,8852,22149,19237,19332,22577,21632,21250,21257,19332,18216,18595,20303,21873,21987,17183,12736,17125,4109,5785,17642,20999,11969]}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142233267": {
+    "timestamp": "1760142233344",
+    "timestampString": "07:23:54",
+    "msgId": "7103969655484",
+    "cliMsgId": "1760142233267",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "chịu luôn",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142238624": {
+    "timestamp": "1760142238702",
+    "timestampString": "07:23:59",
+    "msgId": "7103969805814",
+    "cliMsgId": "1760142238624",
+    "msgType": "chat.sticker",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "id": 25724,
+      "catId": 10610,
+      "type": 3
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
