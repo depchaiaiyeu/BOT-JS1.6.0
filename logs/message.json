@@ -11445,5 +11445,60 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760173291950": {
+    "timestamp": "1760173292046",
+    "timestampString": "16:01:32",
+    "msgId": "7105575394868",
+    "cliMsgId": "1760173291950",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@N H L .i4",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173298044": {
+    "timestamp": "1760173298076",
+    "timestampString": "16:01:38",
+    "msgId": "7105575694890",
+    "cliMsgId": "1760173298044",
+    "msgType": "chat.photo",
+    "uidFrom": "4539111004093292997",
+    "idTo": "4825567233436439756",
+    "dName": "P W ツ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/1480056553930396442/0607fc9254fdd9a380ec.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/1480056553930396442/0607fc9254fdd9a380ec.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/1480056553930396442\\/0607fc9254fdd9a380ec.jpg\",\"hdSize\":544464,\"height\":520}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760173305758": {
+    "timestamp": "1760173305951",
+    "timestampString": "16:01:46",
+    "msgId": "7105576143596",
+    "cliMsgId": "1760173305758",
+    "msgType": "chat.sticker",
+    "uidFrom": "3069685413937500834",
+    "idTo": "4825567233436439756",
+    "dName": "Gwen",
+    "content": {
+      "id": 50619,
+      "catId": 12658,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
