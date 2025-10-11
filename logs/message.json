@@ -17250,5 +17250,61 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760177880789": {
+    "timestamp": "1760177880838",
+    "timestampString": "17:18:02",
+    "msgId": "7105813350744",
+    "cliMsgId": "1760177880789",
+    "msgType": "webchat",
+    "uidFrom": "2593850282491461060",
+    "idTo": "1747464985521437051",
+    "dName": "Lê Xuân Sang",
+    "content": "nhím nào đấy ae",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177887949": {
+    "timestamp": "1760177888005",
+    "timestampString": "17:18:08",
+    "msgId": "7105813707077",
+    "cliMsgId": "1760177887949",
+    "msgType": "webchat",
+    "uidFrom": "2593850282491461060",
+    "idTo": "1747464985521437051",
+    "dName": "Lê Xuân Sang",
+    "content": "tôi thoát cái",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177891130": {
+    "timestamp": "1760177891187",
+    "timestampString": "17:18:11",
+    "msgId": "7105813865539",
+    "cliMsgId": "1760177891130",
+    "msgType": "webchat",
+    "uidFrom": "2593850282491461060",
+    "idTo": "1747464985521437051",
+    "dName": "Lê Xuân Sang",
+    "content": "mệt ghê",
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177900255": {
+    "timestamp": "1760177900310",
+    "timestampString": "17:18:21",
+    "msgId": "7105814318399",
+    "cliMsgId": "1760177900255",
+    "msgType": "webchat",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": "@Văn Tám phá, thằng kia hưởng :v",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
