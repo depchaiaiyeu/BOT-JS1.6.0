@@ -36797,5 +36797,47 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760185273455": {
+    "timestamp": "1760185273843",
+    "timestampString": "19:21:15",
+    "msgId": "7106200059888",
+    "cliMsgId": "1760185273455",
+    "msgType": "webchat",
+    "uidFrom": "8540062109564474303",
+    "idTo": "7897564732983285154",
+    "dName": "Ánh Tuyết",
+    "content": "@Nguyễn Duy Khánh ô helo chồng",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185277497": {
+    "timestamp": "1760185277563",
+    "timestampString": "19:21:17",
+    "msgId": "7106200262506",
+    "cliMsgId": "1760185277497",
+    "msgType": "webchat",
+    "uidFrom": "994613064562975222",
+    "idTo": "7897564732983285154",
+    "dName": "Vu Huynh Nhi",
+    "content": "@̀nguyễn Duy Khang tht ak",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185285974": {
+    "timestamp": "1760185286053",
+    "timestampString": "19:21:27",
+    "msgId": "7106200720540",
+    "cliMsgId": "1760185285974",
+    "msgType": "webchat",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": "@Ánh Tuyết gay",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
