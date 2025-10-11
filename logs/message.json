@@ -30801,5 +30801,47 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183644561": {
+    "timestamp": "1760183644613",
+    "timestampString": "18:54:05",
+    "msgId": "7106113138725",
+    "cliMsgId": "1760183644561",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "@Ngô Quang Đạt chịu",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183666474": {
+    "timestamp": "1760183666532",
+    "timestampString": "18:54:27",
+    "msgId": "7106114294646",
+    "cliMsgId": "1760183666474",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "@̀nguyễn Duy Khang nhập xong nó bj 404 :(",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183669524": {
+    "timestamp": "1760183669560",
+    "timestampString": "18:54:29",
+    "msgId": "7106114454312",
+    "cliMsgId": "1760183669524",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "Quãi lòng",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
