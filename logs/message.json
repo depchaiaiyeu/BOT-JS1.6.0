@@ -36371,5 +36371,147 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1760144504715": {
+    "timestamp": "1760144504923",
+    "timestampString": "08:01:45",
+    "msgId": "7104044704842",
+    "cliMsgId": "1760144504715",
+    "msgType": "webchat",
+    "uidFrom": "7273011347216100309",
+    "idTo": "7585160044864555896",
+    "dName": "黃維自",
+    "content": "hh",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144507069": {
+    "timestamp": "1760144507186",
+    "timestampString": "08:01:47",
+    "msgId": "7104044801311",
+    "cliMsgId": "1760144507069",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "@Quangminh Uytinvailon Ranh con",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144509411": {
+    "timestamp": "1760144509499",
+    "timestampString": "08:01:50",
+    "msgId": "7104044900118",
+    "cliMsgId": "1760144509411",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 33873,
+      "catId": 11135,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144509588": {
+    "timestamp": "1760144509662",
+    "timestampString": "08:01:51",
+    "msgId": "7104044908221",
+    "cliMsgId": "1760144509588",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 33873,
+      "catId": 11135,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144509742": {
+    "timestamp": "1760144509818",
+    "timestampString": "08:01:51",
+    "msgId": "7104044912110",
+    "cliMsgId": "1760144509742",
+    "msgType": "chat.sticker",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": {
+      "id": 33873,
+      "catId": 11135,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056086707053600": {
+    "timestamp": "1760144511772",
+    "timestampString": "08:01:52",
+    "msgId": "7104044998721",
+    "cliMsgId": "1056086707053600",
+    "msgType": "webchat",
+    "uidFrom": "2781878962941353120",
+    "idTo": "3453989112147091924",
+    "dName": "Thảo Nguyễn",
+    "content": "⌛Buff Dịch Vụ Mạng Xã Hội Giá Rẻ🚨\n\n➡️1000 Follow Facebook 3.600VND\n➡️1000 Like Bài Viết Facebook 3.500VND\n➡️1000 Tim Video TikTok 600Đ\n➡️1000 Điểm PK TikTok 6.000VND\n⏰ Và Nhiều Dịch Vụ Khác⭕️\n\n🔗Truy Cập Ngay: https://viplike1s.top/",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056086707071600": {
+    "timestamp": "1760144511803",
+    "timestampString": "08:01:52",
+    "msgId": "7104044998725",
+    "cliMsgId": "1056086707071600",
+    "msgType": "chat.recommended",
+    "uidFrom": "2781878962941353120",
+    "idTo": "3453989112147091924",
+    "dName": "Thảo Nguyễn",
+    "content": {
+      "title": "Minhh Tamm",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/746717233\\/47f29fbf08e3e1bdb8f2.jpg\",\"gUid\":\"LBHNAOVK9EOSTTLGL4MKABL64KN8AUO0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/0/d/d/2/120/efba751692e51b63b8d3d8fddef5c503.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8655748669320136228",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144516357": {
+    "timestamp": "1760144516331",
+    "timestampString": "08:01:56",
+    "msgId": "7104045159547",
+    "cliMsgId": "1760144516357",
+    "msgType": "chat.photo",
+    "uidFrom": "4243697785700564959",
+    "idTo": "7585160044864555896",
+    "dName": "Mạc Duy Thuần",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/2803454839096626008/132baf1d527ddf23866c.jpg",
+      "thumb": "https://t-f67-zpg-r.zdn.vn/480/2803454839096626008/132baf1d527ddf23866c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f67-zpg-r.zdn.vn\\/2803454839096626008\\/132baf1d527ddf23866c.jpg\",\"hdSize\":216695,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
