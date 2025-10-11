@@ -19891,5 +19891,19 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1760178872604": {
+    "timestamp": "1760178872695",
+    "timestampString": "17:34:33",
+    "msgId": "7105863096712",
+    "cliMsgId": "1760178872604",
+    "msgType": "webchat",
+    "uidFrom": "3412939609851564902",
+    "idTo": "1367422010794969537",
+    "dName": "Sancho",
+    "content": "@Karic ờ",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
