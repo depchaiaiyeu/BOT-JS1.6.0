@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064232932": {
-    "timestamp": "1760064233064",
-    "timestampString": "09:43:53",
-    "msgId": "7100624330717",
-    "cliMsgId": "1760064232932",
-    "msgType": "chat.photo",
-    "uidFrom": "986745654356237706",
-    "idTo": "7585160044864555896",
-    "dName": "Dương",
-    "content": {
-      "title": "\"[𝙶𝙾𝙳 𝙱𝚈𝙴] : Đặng Hoài Ân💌",
-      "description": "",
-      "href": "https://f65-zpg-r.zdn.vn/3088682256650209246/1629daa8ddf650a809e7.jpg",
-      "thumb": "https://t-f65-zpg-r.zdn.vn/480/3088682256650209246/1629daa8ddf650a809e7.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":600,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/3088682256650209246\\/1629daa8ddf650a809e7.jpg\",\"hdSize\":344622,\"height\":225}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760064235813": {
-    "timestamp": "1760064235596",
-    "timestampString": "09:43:55",
-    "msgId": "7100624517273",
-    "cliMsgId": "1760064235813",
-    "msgType": "chat.photo",
-    "uidFrom": "4769828224334762506",
-    "idTo": "7585160044864555896",
-    "dName": "T Rex",
-    "content": {
-      "title": "💔 Đặng Hoài Ân",
-      "description": "",
-      "href": "https://f59-zpg-r.zdn.vn/490201475636863906/2d2129202e7ea320fa6f.jpg",
-      "thumb": "https://t-f59-zpg-r.zdn.vn/480/490201475636863906/2d2129202e7ea320fa6f.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"id_in_group\":0,\"is_group_layout\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":980,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/490201475636863906\\/2d2129202e7ea320fa6f.jpg\",\"hdSize\":344622,\"group_layout_id\":1760064235812,\"height\":350,\"total_item_in_group\":1}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760064394675": {
     "timestamp": "1760064394870",
     "timestampString": "09:46:35",
