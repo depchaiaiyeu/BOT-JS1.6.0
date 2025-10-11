@@ -11153,5 +11153,51 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "105610363179420": {
+    "timestamp": "1760172719889",
+    "timestampString": "15:52:01",
+    "msgId": "7105544911144",
+    "cliMsgId": "105610363179420",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "@Nguyễn Thị Loan",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/2133873402799241269/4948f6197d76f028a967.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/2133873402799241269/4948f6197d76f028a967.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/2133873402799241269\\/4948f6197d76f028a967.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "105610364488260": {
+    "timestamp": "1760172741543",
+    "timestampString": "15:52:22",
+    "msgId": "7105546062882",
+    "cliMsgId": "105610364488260",
+    "msgType": "chat.photo",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/2251097957834948704/56c9252da842251c7c53.jpg",
+      "thumb": "https://t-f60-zpg-r.zdn.vn/480/2251097957834948704/56c9252da842251c7c53.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":2000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f60-zpg-r.zdn.vn\\/2251097957834948704\\/56c9252da842251c7c53.jpg\",\"hdSize\":344622,\"height\":760}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
