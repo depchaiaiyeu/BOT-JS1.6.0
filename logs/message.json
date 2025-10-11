@@ -45,67 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "105603581870280": {
-    "timestamp": "1760059697858",
-    "timestampString": "08:28:18",
-    "msgId": "7100310087959",
-    "cliMsgId": "105603581870280",
-    "msgType": "webchat",
-    "uidFrom": "8198644531700062204",
-    "idTo": "6512342651301747547",
-    "dName": "In X Kaka",
-    "content": "Box đang share file vip 300k và acc vip 8 , nhanh vô ko hết slot :https://zalo.me/g/vfmvzs594\nMua file ut giá rẻ ib anh ,giá đang sale :\nV1 50k còn 20k\nV2 100k còn 50k\nV3 200k còn 100k\nV4 400k còn 150k \nV5 600k còn 200k \n1 slot nhanh nhất sale file V4 còn 50k",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760059697960": {
-    "timestamp": "1760059697982",
-    "timestampString": "08:28:18",
-    "msgId": "7100310088004",
-    "cliMsgId": "1760059697960",
-    "msgType": "chat.delete",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": [
-      {
-        "type": 3,
-        "actionType": 1,
-        "uidFrom": 8198644531700062000,
-        "uidTo": 6512342651301748000,
-        "clientDelMsgId": 105603581870280,
-        "globalDelMsgId": 7100310087959,
-        "destId": 6512342651301748000
-      }
-    ],
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760059698027": {
-    "timestamp": "1760059698050",
-    "timestampString": "08:28:18",
-    "msgId": "7100310088022",
-    "cliMsgId": "1760059698027",
-    "msgType": "webchat",
-    "uidFrom": "2873500016463783643",
-    "idTo": "6512342651301747547",
-    "dName": "Ha Trung Son",
-    "content": {
-      "title": "➜ [ANTI-LINK]\nIn X Kaka\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi link vào nhóm. Đây là lần nhắc nhở đầu tiên.",
-      "description": "",
-      "href": "",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "rtf",
-      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
-      "type": ""
-    },
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1760059830910": {
     "timestamp": "1760059828378",
     "timestampString": "08:30:29",
