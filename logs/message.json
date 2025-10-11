@@ -1,12 +1,12 @@
 {
   "1759975893906": {
-    "timestamp": "1760141637672",
-    "timestampString": "07:13:58",
-    "msgId": "7103952658974",
+    "timestamp": "1760143710378",
+    "timestampString": "07:48:31",
+    "msgId": "7104015583282",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
-    "idTo": "7897564732983285154",
+    "idTo": "9104968216656954464",
     "dName": "Ha Trung Son",
     "content": {
       "title": "",
@@ -18,7 +18,7 @@
       "params": "{\"sendSource\":1,\"fileSize\":25006,\"width\":236,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/3095009715816529506\\/7800d34ed0045d5a0415.jpg\",\"height\":350}",
       "type": ""
     },
-    "threadId": "7897564732983285154",
+    "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
   },
