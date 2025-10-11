@@ -15687,5 +15687,42 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760177350562": {
+    "timestamp": "1760177351060",
+    "timestampString": "17:09:12",
+    "msgId": "7105786570050",
+    "cliMsgId": "1760177350562",
+    "msgType": "webchat",
+    "uidFrom": "4367122490781681312",
+    "idTo": "9104968216656954464",
+    "dName": "Bé Heo",
+    "content": "✦━━━━━━━━━━━━━━✦\n💕Khai Trương Web 💕\n--- Subgiare1s.online -----\n👉 Tặng ngay 10% giá trị nạp cho tất cả tài khoản trong tuần khai trương!\n✦━━━━━━━━━━━━━━✦\n• ❤️10k tim tiktok chỉ : 2k\n• 🧡1000 follow tiktok chỉ : 5k\n• 💛100000 view video chỉ : 700đ\n• 💚10000 yêu thích tiktok chỉ : 500đ\n• 💙1000 follow fb chỉ 2k\n• 💜1000 view video fb chỉ 2k\n 💝 Nhóm tặng card : https://zalo.me/g/dbibre816 💝",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056106411821000": {
+    "timestamp": "1760177353058",
+    "timestampString": "17:09:13",
+    "msgId": "7105786646936",
+    "cliMsgId": "1056106411821000",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "9104968216656954464",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bé Heo\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":7,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
