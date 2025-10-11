@@ -8927,5 +8927,23 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760170611214": {
+    "timestamp": "1760170611369",
+    "timestampString": "15:16:52",
+    "msgId": "7105428844056",
+    "cliMsgId": "1760170611214",
+    "msgType": "chat.sticker",
+    "uidFrom": "1238363753987858196",
+    "idTo": "7897564732983285154",
+    "dName": "Bich Ngoc",
+    "content": {
+      "id": 34843,
+      "catId": 11190,
+      "type": 3
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
