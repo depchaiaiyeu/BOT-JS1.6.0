@@ -35106,5 +35106,47 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760143859567": {
+    "timestamp": "1760143859618",
+    "timestampString": "07:51:00",
+    "msgId": "7104020749404",
+    "cliMsgId": "1760143859567",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "@Núp Gầm Giường vừa ms mất mạng nên nó tắt luôn web🐧🐧🐧",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143867467": {
+    "timestamp": "1760143867636",
+    "timestampString": "07:51:08",
+    "msgId": "7104021028222",
+    "cliMsgId": "1760143867467",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143878816": {
+    "timestamp": "1760143878868",
+    "timestampString": "07:51:20",
+    "msgId": "7104021420345",
+    "cliMsgId": "1760143878816",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "-gif 🤣🤣😇😇💦💦😭😭💔💔🤡🤡🔥🔥",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
