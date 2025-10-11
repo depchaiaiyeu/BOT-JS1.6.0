@@ -37282,5 +37282,47 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760186387563": {
+    "timestamp": "1760186387702",
+    "timestampString": "19:39:49",
+    "msgId": "7106260623914",
+    "cliMsgId": "1760186387563",
+    "msgType": "webchat",
+    "uidFrom": "6287671407186506873",
+    "idTo": "4699745045071009795",
+    "dName": "Dũng Lê",
+    "content": "@Htth oce",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186389883": {
+    "timestamp": "1760186389920",
+    "timestampString": "19:39:50",
+    "msgId": "7106260743567",
+    "cliMsgId": "1760186389883",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Htth vô ko",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186403805": {
+    "timestamp": "1760186403854",
+    "timestampString": "19:40:04",
+    "msgId": "7106261506586",
+    "cliMsgId": "1760186403805",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "Tính đơn mà th vô rủ ai chơi cho  vui",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
