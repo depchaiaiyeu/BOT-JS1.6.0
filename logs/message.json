@@ -33673,5 +33673,61 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142926843": {
+    "timestamp": "1760142926897",
+    "timestampString": "07:35:27",
+    "msgId": "7103990152628",
+    "cliMsgId": "1760142926843",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "s",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142927554": {
+    "timestamp": "1760142927616",
+    "timestampString": "07:35:28",
+    "msgId": "7103990173467",
+    "cliMsgId": "1760142927554",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "m",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142928205": {
+    "timestamp": "1760142928240",
+    "timestampString": "07:35:28",
+    "msgId": "7103990193927",
+    "cliMsgId": "1760142928205",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "k",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142929099": {
+    "timestamp": "1760142929136",
+    "timestampString": "07:35:29",
+    "msgId": "7103990221706",
+    "cliMsgId": "1760142929099",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "ngủ",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
