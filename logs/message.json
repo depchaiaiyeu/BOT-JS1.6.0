@@ -37665,5 +37665,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760145128428": {
+    "timestamp": "1760145129108",
+    "timestampString": "08:12:09",
+    "msgId": "7104074045687",
+    "cliMsgId": "1760145128428",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "206503079877623526",
+    "dName": "Dương",
+    "content": "@All Hiện tại bé sẽ mở bot nha",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
