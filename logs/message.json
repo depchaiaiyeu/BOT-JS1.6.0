@@ -20002,5 +20002,33 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1760179061870": {
+    "timestamp": "1760179062108",
+    "timestampString": "17:37:43",
+    "msgId": "7105872826113",
+    "cliMsgId": "1760179061870",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "4699745045071009795",
+    "dName": "Văn Chiếnツム",
+    "content": ">topchat",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179062428": {
+    "timestamp": "1760179062463",
+    "timestampString": "17:37:43",
+    "msgId": "7105872835275",
+    "cliMsgId": "1760179062428",
+    "msgType": "webchat",
+    "uidFrom": "1113816537494657870",
+    "idTo": "4699745045071009795",
+    "dName": "Văn Chiếnツム",
+    "content": "🏆 Bảng xếp hạng tin nhắn:\n\n1. Trọng Man: 6 tin nhắn\n2. 种地: 2 tin nhắn\n3. Lê Dung: 2 tin nhắn\n4. Vô Danh: 2 tin nhắn\n\nDùng >topchat today để xem top nhắn tin hàng ngày.",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
