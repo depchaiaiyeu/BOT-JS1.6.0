@@ -35762,5 +35762,60 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760144250453": {
+    "timestamp": "1760144250511",
+    "timestampString": "07:57:31",
+    "msgId": "7104034724859",
+    "cliMsgId": "1760144250453",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Nên nhồi nhét hết",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144254146": {
+    "timestamp": "1760144254222",
+    "timestampString": "07:57:34",
+    "msgId": "7104034860582",
+    "cliMsgId": "1760144254146",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 42839,
+      "catId": 11752,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144266919": {
+    "timestamp": "1760144267831",
+    "timestampString": "07:57:48",
+    "msgId": "7104035360060",
+    "cliMsgId": "1760144266919",
+    "msgType": "chat.photo",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/jpg/132573247982907296/b3c8bed07bb0f6eeafa1.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/jpg/132573247982907296/b3c8bed07bb0f6eeafa1.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1640,\"is_group_layout\":0,\"contentId\":\"1000015109\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
