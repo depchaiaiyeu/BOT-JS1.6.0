@@ -35390,5 +35390,65 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760144022351": {
+    "timestamp": "1760144022424",
+    "timestampString": "07:53:43",
+    "msgId": "7104026481218",
+    "cliMsgId": "1760144022351",
+    "msgType": "chat.photo",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/6419280987762117959/8404377dfa1d77432e0c.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/6419280987762117959/8404377dfa1d77432e0c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1060,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/6419280987762117959\\/8404377dfa1d77432e0c.jpg\",\"hdSize\":364561,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144021979": {
+    "timestamp": "1760144022671",
+    "timestampString": "07:53:43",
+    "msgId": "7104026485375",
+    "cliMsgId": "1760144021979",
+    "msgType": "chat.photo",
+    "uidFrom": "6988599456249707975",
+    "idTo": "9104968216656954464",
+    "dName": "Poiuyt",
+    "content": {
+      "title": "@Heo Labubu ム",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/6155236641365199174/0272aad867b8eae6b3a9.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/6155236641365199174/0272aad867b8eae6b3a9.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1500,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/6155236641365199174\\/0272aad867b8eae6b3a9.jpg\",\"hdSize\":344622,\"height\":450}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144031553": {
+    "timestamp": "1760144031569",
+    "timestampString": "07:53:52",
+    "msgId": "7104026804082",
+    "cliMsgId": "1760144031553",
+    "msgType": "webchat",
+    "uidFrom": "5072417198178059103",
+    "idTo": "5166581134204343688",
+    "dName": "Ngô Quang Đạt",
+    "content": "@Quangminh Uytinvailon thì t nói m đấy mà",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
