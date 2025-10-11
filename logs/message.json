@@ -8973,5 +8973,124 @@
     "threadId": "2760006576081013366",
     "type": 1,
     "isUndo": false
+  },
+  "1760170691243": {
+    "timestamp": "1760170691319",
+    "timestampString": "15:18:12",
+    "msgId": "7105433260873",
+    "cliMsgId": "1760170691243",
+    "msgType": "webchat",
+    "uidFrom": "2716137648060265866",
+    "idTo": "2760006576081013366",
+    "dName": "Linh W Witt",
+    "content": "@Trần nhớ...?",
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170698748": {
+    "timestamp": "1760170698789",
+    "timestampString": "15:18:19",
+    "msgId": "7105433674321",
+    "cliMsgId": "1760170698748",
+    "msgType": "webchat",
+    "uidFrom": "3417449275018584918",
+    "idTo": "2760006576081013366",
+    "dName": "Trần",
+    "content": "@Linh W Witt bt m là ai r",
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056102419402400": {
+    "timestamp": "1760170699025",
+    "timestampString": "15:18:19",
+    "msgId": "7105433678313",
+    "cliMsgId": "1056102419402400",
+    "msgType": "webchat",
+    "uidFrom": "1990597441153292955",
+    "idTo": "1367422010794969537",
+    "dName": "Đệ Của Hoàng",
+    "content": "[ BOT HA HUY HOANG AUTO RẢI ]\nNhận rải thuê 10k/ngày\nCho thuê bot 70k/1 tháng\nLink box bot: https://zalo.me/g/aoosnn075\nLh thuê bot +rải card bên dưới\n\nBên mình sẵn nhiều kênh TikTok 1 - 500k Follow đủ chức năng bảo hành ✅\nNhận Oder Kênh theo tệp tuổi, giới tính, lượng Follow ✅\nMọi người vào nhóm xem kênh nha: https://zalo.me/g/gkjcic891\nCall: 0986.226.914 ( hỗ trợ nhanh ) ☎️\nGiao dịch trực tiếp hoặc qua trung gian AD có cọc bảo hiểm ✅\n\n\n- 1k tym toptop = 1k\n- 1k f.lâu toptop = 10k\n-1k f.lâu facebook = 5k\nVà nhiều dv đa dạng khác giá siêu rẻ..\n🌐 Tại web: subsale.vn\n🔔 Tham gia kênh thông báo xem hướng dẫn thêm: \nNhóm 1 : https://zalo.me/g/atilkb482\nNhóm 2 : https://zalo.me/g/yedxlw309\nNhóm 3 : https://zalo.me/g/irecjj359",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056102419440200": {
+    "timestamp": "1760170699085",
+    "timestampString": "15:18:19",
+    "msgId": "7105433678327",
+    "cliMsgId": "1056102419440200",
+    "msgType": "chat.recommended",
+    "uidFrom": "1990597441153292955",
+    "idTo": "1367422010794969537",
+    "dName": "Đệ Của Hoàng",
+    "content": {
+      "title": "Hà Huy Hoàng",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/2\\/477206840\\/19f4ac8f64d38d8dd4c2.jpg\",\"gUid\":\"VHMD8DLF4BE9BB9FU8FS95L7S5K482O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/1/c/c/a/15/120/7e16ea9688da7e27b859bbdfa324e03a.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "5365572569803808077",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170703667": {
+    "timestamp": "1760170703765",
+    "timestampString": "15:18:24",
+    "msgId": "7105433947293",
+    "cliMsgId": "1760170703667",
+    "msgType": "chat.sticker",
+    "uidFrom": "434898703350132274",
+    "idTo": "4699745045071009795",
+    "dName": "Tao Đã Chết",
+    "content": {
+      "id": 25787,
+      "catId": 10615,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170704023": {
+    "timestamp": "1760170704099",
+    "timestampString": "15:18:24",
+    "msgId": "7105433966277",
+    "cliMsgId": "1760170704023",
+    "msgType": "chat.sticker",
+    "uidFrom": "434898703350132274",
+    "idTo": "4699745045071009795",
+    "dName": "Tao Đã Chết",
+    "content": {
+      "id": 25787,
+      "catId": 10615,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170704864": {
+    "timestamp": "1760170704941",
+    "timestampString": "15:18:25",
+    "msgId": "7105434013924",
+    "cliMsgId": "1760170704864",
+    "msgType": "chat.sticker",
+    "uidFrom": "434898703350132274",
+    "idTo": "4699745045071009795",
+    "dName": "Tao Đã Chết",
+    "content": {
+      "id": 25787,
+      "catId": 10615,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
