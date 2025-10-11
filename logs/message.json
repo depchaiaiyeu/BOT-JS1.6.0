@@ -13153,5 +13153,223 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760175601686": {
+    "timestamp": "1760175602116",
+    "timestampString": "16:40:02",
+    "msgId": "7105695017857",
+    "cliMsgId": "1760175601686",
+    "msgType": "chat.delete",
+    "uidFrom": "7336355608886049",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Tt Huyền",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078833,
+        "globalDelMsgId": 7105253588026,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078868,
+        "globalDelMsgId": 7105253590577,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078892,
+        "globalDelMsgId": 7105253592836,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078916,
+        "globalDelMsgId": 7105253593666,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078940,
+        "globalDelMsgId": 7105253597951,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078964,
+        "globalDelMsgId": 7105253598021,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167078988,
+        "globalDelMsgId": 7105253600940,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079012,
+        "globalDelMsgId": 7105253602036,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079035,
+        "globalDelMsgId": 7105253604697,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079059,
+        "globalDelMsgId": 7105253609376,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079082,
+        "globalDelMsgId": 7105253608832,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079106,
+        "globalDelMsgId": 7105253611590,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079129,
+        "globalDelMsgId": 7105253613906,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079152,
+        "globalDelMsgId": 7105253617924,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079176,
+        "globalDelMsgId": 7105253621407,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079199,
+        "globalDelMsgId": 7105253622808,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079222,
+        "globalDelMsgId": 7105253625681,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079244,
+        "globalDelMsgId": 7105253628557,
+        "destId": 4699745045071010000
+      },
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 2149077303031443500,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760167079266,
+        "globalDelMsgId": 7105253676939,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175618296": {
+    "timestamp": "1760175618466",
+    "timestampString": "16:40:19",
+    "msgId": "7105695879160",
+    "cliMsgId": "1760175618296",
+    "msgType": "webchat",
+    "uidFrom": "7336355608886049",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Tt Huyền",
+    "content": "@种地 ô ke",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175620454": {
+    "timestamp": "1760175620569",
+    "timestampString": "16:40:21",
+    "msgId": "7105695988384",
+    "cliMsgId": "1760175620454",
+    "msgType": "chat.sticker",
+    "uidFrom": "7336355608886049",
+    "idTo": "4699745045071009795",
+    "dName": "Hoàng Tt Huyền",
+    "content": {
+      "id": 33791,
+      "catId": 11130,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
