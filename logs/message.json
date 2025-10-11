@@ -12624,5 +12624,94 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760174974184": {
+    "timestamp": "1760174974233",
+    "timestampString": "16:29:35",
+    "msgId": "7105662874552",
+    "cliMsgId": "1760174974184",
+    "msgType": "webchat",
+    "uidFrom": "8479968392931130005",
+    "idTo": "4699745045071009795",
+    "dName": "Mèo",
+    "content": "Ê:)))",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174982538": {
+    "timestamp": "1760174983125",
+    "timestampString": "16:29:43",
+    "msgId": "7105663332535",
+    "cliMsgId": "1760174982538",
+    "msgType": "webchat",
+    "uidFrom": "9094715627876854029",
+    "idTo": "9104968216656954464",
+    "dName": "Minh Khang",
+    "content": "Mua Tictac Sahur",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174992676": {
+    "timestamp": "1760174988770",
+    "timestampString": "16:29:49",
+    "msgId": "7105663616148",
+    "cliMsgId": "1760174992676",
+    "msgType": "webchat",
+    "uidFrom": "7520156140404430183",
+    "idTo": "6512342651301747547",
+    "dName": "Nguyên",
+    "content": "🎯 RandomLiQi – Chơi game phải có acc ngon! 🎯\nAnh em còn lo tìm acc xịn mà ví mỏng?\n💡 Giải pháp đây rồi 👉 https://randomliqi.click\n🚩 Tại shop có gì?\n⚔ Acc Lv Max + Godhuman\n🎲 Random acc rẻ bèo, tỉ lệ nổ skin SS, S+ cực cao\n💼 Acc dính mail, full skin vip cho anh em yên tâm sử dụng\n💸 Giá chỉ từ 20K, rẻ hơn ly trà sữa\n📌 Vào box Zalo nhận acc free : https://zalo.me/g/dyjsph729\n👉 RandomLiQi – nơi acc ngon nằm gọn trong tay bạn!",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174989025": {
+    "timestamp": "1760174989039",
+    "timestampString": "16:29:49",
+    "msgId": "7105663616201",
+    "cliMsgId": "1760174989025",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "➜ [ANTI-LINK]\n5076254408074558354\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi link vào nhóm. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174988956": {
+    "timestamp": "1760174988965",
+    "timestampString": "16:29:49",
+    "msgId": "7105663616185",
+    "cliMsgId": "1760174988956",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7520156140404430000,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1760174992676,
+        "globalDelMsgId": 7105663616148,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
   }
 }
