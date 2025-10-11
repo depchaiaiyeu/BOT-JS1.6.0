@@ -26685,5 +26685,42 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760181228165": {
+    "timestamp": "1760181231362",
+    "timestampString": "18:13:52",
+    "msgId": "7105987018295",
+    "cliMsgId": "1760181228165",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/3290576843331654456/396268117c78f126a869.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/3290576843331654456/396268117c78f126a869.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":858,\"height\":1908,\"is_group_layout\":0,\"contentId\":\"1000700976\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181231065": {
+    "timestamp": "1760181231126",
+    "timestampString": "18:13:52",
+    "msgId": "7105987006043",
+    "cliMsgId": "1760181231065",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Dùng làm j nhỉ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
