@@ -2455,8 +2455,8 @@
         {
           "UserName": "Karic",
           "UID": "4405826118661077023",
-          "Rank": 30,
-          "messageCountToday": 1,
+          "Rank": 31,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -4325,6 +4325,13 @@
           "UID": "8283789010151171790",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Trần Văn Hoàng",
+          "UID": "7117924099084666108",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         }
       ],
@@ -6512,8 +6519,8 @@
         {
           "UserName": "Dương",
           "UID": "986745654356237706",
-          "Rank": 6,
-          "messageCountToday": 1,
+          "Rank": 8,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6526,8 +6533,8 @@
         {
           "UserName": "Con Mèo",
           "UID": "9210252485480501226",
-          "Rank": 4,
-          "messageCountToday": 4,
+          "Rank": 6,
+          "messageCountToday": 6,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6559,8 +6566,8 @@
         {
           "UserName": "Karic",
           "UID": "4405826118661077023",
-          "Rank": 7,
-          "messageCountToday": 2,
+          "Rank": 8,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6870,6 +6877,13 @@
           "UID": "5619751697024045510",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Tài Lê",
+          "UID": "9196332173114737060",
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         }
       ],
