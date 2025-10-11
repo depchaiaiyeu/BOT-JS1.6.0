@@ -15526,5 +15526,51 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760177101771": {
+    "timestamp": "1760177101825",
+    "timestampString": "17:05:02",
+    "msgId": "7105773737363",
+    "cliMsgId": "1760177101771",
+    "msgType": "chat.photo",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://media-ten.z-cdn.me/SsXEN-yHFqgAAAAM/exploding-car-explode.gif",
+      "thumb": "https://media-ten.z-cdn.me/SsXEN-yHFqgAAAAM/exploding-car-explode.gif",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1732689919768\",\"height\":332,\"thumb_height\":332,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":498,\"width\":498,\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/c8kszv.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177115997": {
+    "timestamp": "1760177120056",
+    "timestampString": "17:05:21",
+    "msgId": "7105774689081",
+    "cliMsgId": "1760177115997",
+    "msgType": "chat.voice",
+    "uidFrom": "5576109141632962137",
+    "idTo": "4699745045071009795",
+    "dName": "Trọng Man",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/311453079057049047/7b8dc47031fcdfa286ed.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/311453079057049047\\/7b8dc47031fcdfa286ed.aac\",\"duration\":3584,\"fileSize\":29064,\"waveformSamples\":[0,214,5757,12207,15838,16075,16161,16422,16407,16249,16211,16139,16257,15613,15693,16357,16163,16092,16160,16314,11903,5611,1584]}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
