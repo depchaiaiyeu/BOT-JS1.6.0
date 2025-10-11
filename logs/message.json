@@ -36623,5 +36623,106 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760144517317": {
+    "timestamp": "1760144549956",
+    "timestampString": "08:02:31",
+    "msgId": "7104046684797",
+    "cliMsgId": "1760144517317",
+    "msgType": "chat.photo",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/8549496120960711876/a57e645b9a3b17654e2a.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/8549496120960711876/a57e645b9a3b17654e2a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1640,\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/8549496120960711876\\/a57e645b9a3b17654e2a.jpg\",\"is_group_layout\":1,\"group_layout_id\":1760144516853,\"id_in_group\":0,\"total_item_in_group\":2,\"contentId\":\"2623\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144517343": {
+    "timestamp": "1760144550006",
+    "timestampString": "08:02:31",
+    "msgId": "7104046685834",
+    "cliMsgId": "1760144517343",
+    "msgType": "chat.photo",
+    "uidFrom": "8198644531700062204",
+    "idTo": "3453989112147091924",
+    "dName": "In X Kaka",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/943351ae5445a01bf954/657287827346866072.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/943351ae5445a01bf954/657287827346866072.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1640,\"hd\":\"https:\\/\\/photo-stal-2.zdn.vn\\/gr\\/jpg\\/943351ae5445a01bf954\\/657287827346866072.jpg\",\"is_group_layout\":1,\"group_layout_id\":1760144516853,\"id_in_group\":1,\"total_item_in_group\":2,\"contentId\":\"2622\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144553465": {
+    "timestamp": "1760144553504",
+    "timestampString": "08:02:34",
+    "msgId": "7104046845141",
+    "cliMsgId": "1760144553465",
+    "msgType": "chat.sticker",
+    "uidFrom": "4692712418377940772",
+    "idTo": "5166581134204343688",
+    "dName": "Thiệu Hoàng",
+    "content": {
+      "id": 21467,
+      "catId": 10302,
+      "type": 3
+    },
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144571862": {
+    "timestamp": "1760144571924",
+    "timestampString": "08:02:53",
+    "msgId": "7104047670682",
+    "cliMsgId": "1760144571862",
+    "msgType": "chat.photo",
+    "uidFrom": "5739927769350407827",
+    "idTo": "7585160044864555896",
+    "dName": "Văn Tám",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/d7dc23decd496c173558/6187014016639587188?createby=NDQ_Bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/d7dc23decd496c173558/6187014016639587188?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":540,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759507761595\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/d7dc23decd496c173558\\/6187014016639587188?createby=NDQ_Bot.webp\",\"width\":512,\"height\":540,\"thumb\":\"\"},\"contentId\":\"1759507761595\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144576727": {
+    "timestamp": "1760144577417",
+    "timestampString": "08:02:57",
+    "msgId": "7104047921756",
+    "cliMsgId": "1760144576727",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "206503079877623526",
+    "dName": "Con Mèo",
+    "content": "được chưa",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
