@@ -11282,5 +11282,29 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760172968140": {
+    "timestamp": "1760172968354",
+    "timestampString": "15:56:09",
+    "msgId": "7105558067001",
+    "cliMsgId": "1760172968140",
+    "msgType": "chat.delete",
+    "uidFrom": "5440985416542136505",
+    "idTo": "4825567233436439756",
+    "dName": "N D Q",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5739927769350408000,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1760172517925,
+        "globalDelMsgId": 7105533554156,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
