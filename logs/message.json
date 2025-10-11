@@ -31152,5 +31152,79 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183804287": {
+    "timestamp": "1760183804840",
+    "timestampString": "18:56:45",
+    "msgId": "7106121573499",
+    "cliMsgId": "1760183804287",
+    "msgType": "webchat",
+    "uidFrom": "4367122490781681312",
+    "idTo": "9104968216656954464",
+    "dName": "Bé Heo",
+    "content": "✦━━━━━━━━━━━━━━✦\n💕Khai Trương Web 💕\n--- Subgiare1s.online -----\n👉 Tặng ngay 10% giá trị nạp cho tất cả tài khoản trong tuần khai trương!\n✦━━━━━━━━━━━━━━✦\n• ❤️10k tim tiktok chỉ : 2k\n• 🧡1000 follow tiktok chỉ : 5k\n• 💛100000 view video chỉ : 700đ\n• 💚10000 yêu thích tiktok chỉ : 500đ\n• 💙1000 follow fb chỉ 2k\n• 💜1000 view video fb chỉ 2k\n 💝 Nhóm tặng card : https://zalo.me/g/dbibre816 💝",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056110282994000": {
+    "timestamp": "1760183805002",
+    "timestampString": "18:56:45",
+    "msgId": "7106121573516",
+    "cliMsgId": "1056110282994000",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "9104968216656954464",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bé Heo\nĐã gửi yêu cầu tham gia nhóm, đang chờ phê duyệt!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":7,\"len\":49,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056110283198000": {
+    "timestamp": "1760183805234",
+    "timestampString": "18:56:46",
+    "msgId": "7106121625972",
+    "cliMsgId": "1056110283198000",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Bé Heo\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":7,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183818548": {
+    "timestamp": "1760183818599",
+    "timestampString": "18:56:59",
+    "msgId": "7106122337244",
+    "cliMsgId": "1760183818548",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "@Văn Tám solo",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
