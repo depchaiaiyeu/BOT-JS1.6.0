@@ -8322,5 +8322,42 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760170085362": {
+    "timestamp": "1760170118578",
+    "timestampString": "15:08:39",
+    "msgId": "7105401672688",
+    "cliMsgId": "1760170085362",
+    "msgType": "share.file",
+    "uidFrom": "1060629329272133507",
+    "idTo": "9104968216656954464",
+    "dName": "Trần Thiên Bảo",
+    "content": {
+      "title": "HYPBE35.tmp",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/744728f46168c0369979/3700107650402346826",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":\"31442935\", \"checksum\":\"053c833cc1d6c2a2d4ccf6319bd5bba3\", \"checksumSha\":\"null\", \"fileExt\":\"tmp\", \"fdata\":\"{}\", \"fType\":1}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170128501": {
+    "timestamp": "1760170128587",
+    "timestampString": "15:08:49",
+    "msgId": "7105402231169",
+    "cliMsgId": "1760170128501",
+    "msgType": "webchat",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": "@Trần Thiên Bảo gì vậy",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
