@@ -4981,7 +4981,7 @@
           "UserName": "Nhon",
           "UID": "7865523427196480284",
           "Rank": 28,
-          "messageCountToday": 2,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -5002,7 +5002,7 @@
           "UserName": "Nguyễn Tuấn Khang",
           "UID": "9174094872528572011",
           "Rank": 35,
-          "messageCountToday": 2,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -5065,15 +5065,15 @@
           "UserName": "Trung Đoàn",
           "UID": "7953749493600382554",
           "Rank": 3,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "Trần Tổng",
           "UID": "717224590695865551",
-          "Rank": 18,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-09"
+          "Rank": 19,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Nguyễn Thu Thuỷ",
@@ -5093,7 +5093,7 @@
           "UserName": "Bảo Ngọc",
           "UID": "4645706868334156099",
           "Rank": 19,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         },
         {
@@ -5149,14 +5149,14 @@
           "UserName": "Tên",
           "UID": "8988024984416036480",
           "Rank": 2,
-          "messageCountToday": 1,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         },
         {
           "UserName": "ㅣ Cel Star ツ K ㅅ Aㅣ",
           "UID": "9163395675201090577",
           "Rank": 2,
-          "messageCountToday": 2,
+          "messageCountToday": 0,
           "lastMessageDate": "2025-10-10"
         }
       ],
@@ -6736,6 +6736,13 @@
           "UID": "9094715627876854029",
           "Rank": 1,
           "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Sdang X Ds",
+          "UID": "8331781805972075163",
+          "Rank": 3,
+          "messageCountToday": 3,
           "lastMessageDate": "2025-10-11"
         }
       ],
