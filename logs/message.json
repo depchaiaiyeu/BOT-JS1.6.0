@@ -30805,5 +30805,61 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760141972272": {
+    "timestamp": "1760141972338",
+    "timestampString": "07:19:33",
+    "msgId": "7103962185886",
+    "cliMsgId": "1760141972272",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "t chặn chat cho cno k pr mà",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141975759": {
+    "timestamp": "1760141976014",
+    "timestampString": "07:19:36",
+    "msgId": "7103962291675",
+    "cliMsgId": "1760141975759",
+    "msgType": "webchat",
+    "uidFrom": "4925066687983811682",
+    "idTo": "3453989112147091924",
+    "dName": "Trường An",
+    "content": "Menu adr cân acc chính 100%, giá menu 50k ib riêng để show menu",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141992122": {
+    "timestamp": "1760141992185",
+    "timestampString": "07:19:53",
+    "msgId": "7103962756640",
+    "cliMsgId": "1760141992122",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "box tao t chặn",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141994471": {
+    "timestamp": "1760141994525",
+    "timestampString": "07:19:54",
+    "msgId": "7103962825667",
+    "cliMsgId": "1760141994471",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "😂😂",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
