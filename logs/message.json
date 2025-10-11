@@ -10129,5 +10129,28 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1056103037337000": {
+    "timestamp": "1760171729323",
+    "timestampString": "15:35:30",
+    "msgId": "7105489769033",
+    "cliMsgId": "1056103037337000",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "7585160044864555896",
+    "dName": "Dương",
+    "content": {
+      "title": "Dương\n /-li TKhang x-) /-li\nNếu Bạn Thắc Mắc Tao Có Những Lệnh Gì, Hãy:\n.help - Xem hướng dẫn sử dụng\n.game - Xem hướng dẫn chơi game\n.command - Xem danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":21,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
