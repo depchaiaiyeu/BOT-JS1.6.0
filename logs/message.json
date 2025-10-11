@@ -39331,5 +39331,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760186797486": {
+    "timestamp": "1760186797537",
+    "timestampString": "19:46:37",
+    "msgId": "7106283193940",
+    "cliMsgId": "1760186797486",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Đi ngủ mẹ đi spamcall cặc",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
