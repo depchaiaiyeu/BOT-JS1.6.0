@@ -40297,5 +40297,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760187100796": {
+    "timestamp": "1760187100897",
+    "timestampString": "19:51:41",
+    "msgId": "7106300029445",
+    "cliMsgId": "1760187100796",
+    "msgType": "webchat",
+    "uidFrom": "6684539579669314047",
+    "idTo": "5975420422762749911",
+    "dName": "亗彡ヅnakashima Misakiヅ彡亗",
+    "content": "Spamcall lm đéo j..?",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
