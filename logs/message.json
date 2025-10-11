@@ -36999,5 +36999,19 @@
     "threadId": "206503079877623526",
     "type": 1,
     "isUndo": false
+  },
+  "1760144663394": {
+    "timestamp": "1760144663483",
+    "timestampString": "08:04:24",
+    "msgId": "7104051901181",
+    "cliMsgId": "1760144663394",
+    "msgType": "webchat",
+    "uidFrom": "6076560750836343151",
+    "idTo": "5166581134204343688",
+    "dName": "Phạm Bá Phúc",
+    "content": "Nhức cái đầu khấc",
+    "threadId": "5166581134204343688",
+    "type": 1,
+    "isUndo": false
   }
 }
