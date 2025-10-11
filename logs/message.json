@@ -4785,5 +4785,61 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760168134522": {
+    "timestamp": "1760168135880",
+    "timestampString": "14:35:36",
+    "msgId": "7105302714699",
+    "cliMsgId": "1760168134522",
+    "msgType": "webchat",
+    "uidFrom": "5678295095064617718",
+    "idTo": "9104968216656954464",
+    "dName": "Tấn Thành",
+    "content": "×100 acc god max rt 5/1\n×30 acc god max + sgt  7/1\n×10 god max + mm  10/1 \n×5 god max + yeti rương 25/1 ( alll điều ttt )",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168141949": {
+    "timestamp": "1760168141981",
+    "timestampString": "14:35:42",
+    "msgId": "7105303004423",
+    "cliMsgId": "1760168141949",
+    "msgType": "webchat",
+    "uidFrom": "7431213830601319963",
+    "idTo": "3228108398535377399",
+    "dName": "Trần Đình Đạt",
+    "content": "Ae cứu",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168146047": {
+    "timestamp": "1760168146070",
+    "timestampString": "14:35:46",
+    "msgId": "7105303198388",
+    "cliMsgId": "1760168146047",
+    "msgType": "webchat",
+    "uidFrom": "7431213830601319963",
+    "idTo": "3228108398535377399",
+    "dName": "Trần Đình Đạt",
+    "content": "T bị spam ca",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168151177": {
+    "timestamp": "1760168151256",
+    "timestampString": "14:35:51",
+    "msgId": "7105303444575",
+    "cliMsgId": "1760168151177",
+    "msgType": "webchat",
+    "uidFrom": "7431213830601319963",
+    "idTo": "3228108398535377399",
+    "dName": "Trần Đình Đạt",
+    "content": "Call box lon nào",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
