@@ -2416,5 +2416,173 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760166625136": {
+    "timestamp": "1760166625144",
+    "timestampString": "14:10:25",
+    "msgId": "7105232669282",
+    "cliMsgId": "1760166625136",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8602274286000699000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1056099974988000,
+        "globalDelMsgId": 7105232669262,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056099974937600": {
+    "timestamp": "1760166624920",
+    "timestampString": "14:10:25",
+    "msgId": "7105232644221",
+    "cliMsgId": "1056099974937600",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": "༺━Xin Phép Các Admin━༻\n       𝙉𝙝𝙖𝙣 𝙍𝙖𝙞 𝙇𝙞𝙣𝙠 𝙏𝙝𝙪𝙚 𝙄𝙗 𝙏𝙪𝙞\n༺━━Điểm mạnh━━༻\nHoạt động 24/7🦾\nỔn định💯\n༺━━Bảng giá━━━༻\n➣Ngày 5K\n➣Tuần 30K\n➣Tháng 60K\n༺━━Buff MXH━━༻\nSub mượt anh em chạy sub rate 3.5 nhắn tele @cskhlike1s nhé, ngày done 3-500k sub tuỳ thời điểm, tốc độ có thể thay đổi\n100.000 follow chỉ 350k quá ok anh em\n1tr fl chỉ 3tr5\nZl 0364057777\nBao k tụt, cân t.g anh em g.d\n༺━━━Em Cảm Ơn━━━༻",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056099974988000": {
+    "timestamp": "1760166625003",
+    "timestampString": "14:10:26",
+    "msgId": "7105232669262",
+    "cliMsgId": "1056099974988000",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "5601607522756268167",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bánh Bông Lan",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/669739264\\/a4a01cfce4a00dfe54b1.jpg\",\"gUid\":\"1K6AQHC56N8RV1OBR0HDQNDIT9JJ67O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/c/3/b/16/120/df6bc0e893d61d227cc2526fa56edc41.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8602274286000699226",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166625201": {
+    "timestamp": "1760166625205",
+    "timestampString": "14:10:26",
+    "msgId": "7105232669300",
+    "cliMsgId": "1760166625201",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nBánh Bông Lan\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166651458": {
+    "timestamp": "1760166651479",
+    "timestampString": "14:10:52",
+    "msgId": "7105233890332",
+    "cliMsgId": "1760166651458",
+    "msgType": "chat.photo",
+    "uidFrom": "4417081372275118199",
+    "idTo": "6512342651301747547",
+    "dName": "Heo Labubu ム",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f64-zpg-r.zdn.vn/2565126512156118210/29be363dd2515f0f0640.jpg",
+      "thumb": "https://t-f64-zpg-r.zdn.vn/480/2565126512156118210/29be363dd2515f0f0640.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1000,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f64-zpg-r.zdn.vn\\/2565126512156118210\\/29be363dd2515f0f0640.jpg\",\"hdSize\":283488,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166651661": {
+    "timestamp": "1760166651663",
+    "timestampString": "14:10:52",
+    "msgId": "7105233890376",
+    "cliMsgId": "1760166651661",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4417081372275118000,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1760166651458,
+        "globalDelMsgId": 7105233890332,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166654798": {
+    "timestamp": "1760166654958",
+    "timestampString": "14:10:55",
+    "msgId": "7105234053914",
+    "cliMsgId": "1760166654798",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": ".prs on",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166655282": {
+    "timestamp": "1760166655328",
+    "timestampString": "14:10:55",
+    "msgId": "7105234055970",
+    "cliMsgId": "1760166655282",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "Karic\n/-li Thai An /-li\nĐã kích hoạt tính năng gửi tin nhắn định kỳ đến đa cộng đồng/nhóm.\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":17,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
