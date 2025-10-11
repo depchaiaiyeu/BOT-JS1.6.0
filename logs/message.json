@@ -4154,5 +4154,79 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760167261763": {
+    "timestamp": "1760167261808",
+    "timestampString": "14:21:02",
+    "msgId": "7105261843819",
+    "cliMsgId": "1760167261763",
+    "msgType": "chat.recommended",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": {
+      "title": "https://zalo.me/g/nsqklv762",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/nsqklv762",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2d4e05ffd781760156443aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvYjE1ODg5N2NjZjFhMjU0NDdjMGI=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"RẢI LINK\",\"streamUrl\":\"\",\"type\":12,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/nsqklv762\",\"owner\":{\"id\":413730480,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/7\\/c\\/f\\/3\\/2\\/120\\/339b09adb66ad34128c90724b7045464.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167271724": {
+    "timestamp": "1760167274510",
+    "timestampString": "14:21:15",
+    "msgId": "7105262403909",
+    "cliMsgId": "1760167271724",
+    "msgType": "webchat",
+    "uidFrom": "2401473588733154152",
+    "idTo": "9104968216656954464",
+    "dName": "Hoàng Phát",
+    "content": "Nhóm Tài Nguyên MMO Và FB Cho Ae Tham Khảo: https://zalo.me/g/fgripr476",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056100364594400": {
+    "timestamp": "1760167274570",
+    "timestampString": "14:21:15",
+    "msgId": "7105262429853",
+    "cliMsgId": "1056100364594400",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hoàng Phát\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760167281629": {
+    "timestamp": "1760167282053",
+    "timestampString": "14:21:22",
+    "msgId": "7105262750246",
+    "cliMsgId": "1760167281629",
+    "msgType": "webchat",
+    "uidFrom": "8606917999821023050",
+    "idTo": "5601607522756268167",
+    "dName": "Nminh",
+    "content": "Vô box ib nhận 2 acc 3s hoặc mục tuỳ chọn  xịn bên NMinh ạ !  https://zalo.me/g/wylcke984",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
