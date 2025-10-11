@@ -31392,5 +31392,60 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183867981": {
+    "timestamp": "1760183869329",
+    "timestampString": "18:57:50",
+    "msgId": "7106125022043",
+    "cliMsgId": "1760183867981",
+    "msgType": "chat.photo",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f60-zpg-r.zdn.vn/jpg/7712423637456587820/802793127a7bf725ae6a.jpg",
+      "thumb": "https://f60-zpg-r.zdn.vn/jpg/7712423637456587820/802793127a7bf725ae6a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"height\":4032,\"thumb_width\":320,\"thumb_height\":427,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"hd\":\"https:\\/\\/f60-zpg-r.zdn.vn\\/jpg\\/7712423637456587820\\/802793127a7bf725ae6a.jpg\",\"width\":3024,\"convertible\":\"jxl\"}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183872880": {
+    "timestamp": "1760183872930",
+    "timestampString": "18:57:53",
+    "msgId": "7106125212732",
+    "cliMsgId": "1760183872880",
+    "msgType": "webchat",
+    "uidFrom": "1080751283556847812",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Hồng Anh Đức",
+    "content": "Quá mệt mỏi",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183874764": {
+    "timestamp": "1760183874802",
+    "timestampString": "18:57:55",
+    "msgId": "7106125313040",
+    "cliMsgId": "1760183874764",
+    "msgType": "chat.sticker",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "id": 26275,
+      "catId": 10653,
+      "type": 3
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
