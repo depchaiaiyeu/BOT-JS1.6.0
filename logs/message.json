@@ -35376,5 +35376,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760143992817": {
+    "timestamp": "1760143993012",
+    "timestampString": "07:53:13",
+    "msgId": "7104025438269",
+    "cliMsgId": "1760143992817",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "@ヅtrần Ân Ânヅ t share cho m cũng giống v mà m làm sao nó to ra xong nó lag=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
