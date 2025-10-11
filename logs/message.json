@@ -16309,5 +16309,102 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760177704835": {
+    "timestamp": "1760177704865",
+    "timestampString": "17:15:06",
+    "msgId": "7105804511926",
+    "cliMsgId": "1760177704835",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "1367422010794969537",
+    "dName": "Karic",
+    "content": "🐧 Box của ae mình https://zalo.me/g/aqnsnu019 🐧 \n🎨 Nhận thiết kế banner, hình ảnh đẹp mắt – chuyên nghiệp – theo yêu cầu\n🚀 Nhận buff MXH all nền tảng: Facebook, TikTok, Instagram, YouTube… tăng tương tác cực nhanh\n⭐ Buff fl FB: 3k – 1k follow – kéo số dễ dàng, lên profile nhìn xịn sò ngay\n\n👉 Tất cả dịch vụ được triển khai bởi Thái An – làm việc uy tín, nhanh gọn, chất lượng cao 💯\nLiên hệ ngay để trải nghiệm dịch vụ tốt nhất ✨",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177715311": {
+    "timestamp": "1760177715417",
+    "timestampString": "17:15:16",
+    "msgId": "7105805074803",
+    "cliMsgId": "1760177715311",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-3.zdn.vn/gr/jpg/edea1463e09214cc4d83/1757130764245658613.jpg",
+      "thumb": "https://photo-stal-3.zdn.vn/gr/jpg/edea1463e09214cc4d83/1757130764245658613.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":680,\"is_group_layout\":0,\"contentId\":\"1000027335\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177721623": {
+    "timestamp": "1760177721655",
+    "timestampString": "17:15:22",
+    "msgId": "7105805388636",
+    "cliMsgId": "1760177721623",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f27-zfcloud.zdn.vn/73c13a39e67f47211e6e/3816636992979585868",
+      "thumb": "https://f27-zfcloud.zdn.vn/73c13a39e67f47211e6e/3816636992979585868",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1280,\"height\":1280,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1739452387288\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f27-zfcloud.zdn.vn\\/73c13a39e67f47211e6e\\/3816636992979585868\",\"width\":1280,\"height\":1280,\"thumb\":\"\"},\"contentId\":\"1739452387288\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177723035": {
+    "timestamp": "1760177723142",
+    "timestampString": "17:15:23",
+    "msgId": "7105805463915",
+    "cliMsgId": "1760177723035",
+    "msgType": "chat.photo",
+    "uidFrom": "3412939609851564902",
+    "idTo": "1367422010794969537",
+    "dName": "Sancho",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/510c93013c9c9dc2c48d/4766481878148644530?createby=JS-PVT_Projects.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/510c93013c9c9dc2c48d/4766481878148644530?createby=JS-PVT_Projects.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":200,\"height\":200,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1760108154654\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/510c93013c9c9dc2c48d\\/4766481878148644530?createby=JS-PVT_Projects.webp\",\"width\":200,\"height\":200,\"thumb\":\"\"},\"contentId\":\"1760108154654\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177726573": {
+    "timestamp": "1760177726644",
+    "timestampString": "17:15:27",
+    "msgId": "7105805639152",
+    "cliMsgId": "1760177726573",
+    "msgType": "webchat",
+    "uidFrom": "5739927769350407827",
+    "idTo": "4825567233436439756",
+    "dName": "Văn Tám",
+    "content": "@Lê Tuấn Khang địt mi spam",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
