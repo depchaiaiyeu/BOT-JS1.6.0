@@ -33580,5 +33580,47 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142815036": {
+    "timestamp": "1760142815111",
+    "timestampString": "07:33:35",
+    "msgId": "7103986731680",
+    "cliMsgId": "1760142815036",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "là h m bị đó ha",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142821781": {
+    "timestamp": "1760142821847",
+    "timestampString": "07:33:43",
+    "msgId": "7103986935920",
+    "cliMsgId": "1760142821781",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "Chưa",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142825560": {
+    "timestamp": "1760142825610",
+    "timestampString": "07:33:46",
+    "msgId": "7103987049131",
+    "cliMsgId": "1760142825560",
+    "msgType": "webchat",
+    "uidFrom": "2085183954203315659",
+    "idTo": "5601607522756268167",
+    "dName": "Nhân",
+    "content": "Sắp 😡😡",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
