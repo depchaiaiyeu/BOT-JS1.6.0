@@ -37146,5 +37146,51 @@
     "threadId": "206503079877623526",
     "type": 1,
     "isUndo": false
+  },
+  "1760144731017": {
+    "timestamp": "1760144731692",
+    "timestampString": "08:05:32",
+    "msgId": "7104055084292",
+    "cliMsgId": "1760144731017",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "206503079877623526",
+    "dName": "Dương",
+    "content": "Capcut PRO HẢ?",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144734598": {
+    "timestamp": "1760144735119",
+    "timestampString": "08:05:35",
+    "msgId": "7104055260079",
+    "cliMsgId": "1760144734598",
+    "msgType": "chat.sticker",
+    "uidFrom": "9210252485480501226",
+    "idTo": "7585160044864555896",
+    "dName": "Con Mèo",
+    "content": {
+      "id": 18729,
+      "catId": 10170,
+      "type": 3
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144741188": {
+    "timestamp": "1760144741696",
+    "timestampString": "08:05:42",
+    "msgId": "7104055569021",
+    "cliMsgId": "1760144741188",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "206503079877623526",
+    "dName": "Con Mèo",
+    "content": "dr",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
