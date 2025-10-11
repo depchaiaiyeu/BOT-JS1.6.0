@@ -5963,6 +5963,13 @@
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nguyen Duc",
+          "UID": "8625204399256773769",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         }
       ],
       "nameGroup": "Multi AI Coder [ Chat ]"
@@ -7232,15 +7239,15 @@
         {
           "UserName": "Nguyen Huu Phuc",
           "UID": "6626704731319782605",
-          "Rank": 1,
-          "messageCountToday": 1,
+          "Rank": 2,
+          "messageCountToday": 2,
           "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Thiên Phúc",
           "UID": "6078954320375605607",
-          "Rank": 4,
-          "messageCountToday": 4,
+          "Rank": 5,
+          "messageCountToday": 5,
           "lastMessageDate": "2025-10-11"
         },
         {
