@@ -30949,5 +30949,28 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183715906": {
+    "timestamp": "1760183715936",
+    "timestampString": "18:55:16",
+    "msgId": "7106116908513",
+    "cliMsgId": "1760183715906",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/a93a69ab837a22247b6b/6183341524689765781?createby=PVT_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/a93a69ab837a22247b6b/6183341524689765781?createby=PVT_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":96,\"height\":96,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754726169028\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/a93a69ab837a22247b6b\\/6183341524689765781?createby=PVT_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1754726169028\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
