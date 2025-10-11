@@ -35165,5 +35165,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760184958546": {
+    "timestamp": "1760184958595",
+    "timestampString": "19:16:19",
+    "msgId": "7106183126909",
+    "cliMsgId": "1760184958546",
+    "msgType": "webchat",
+    "uidFrom": "3791364168540047526",
+    "idTo": "5975420422762749911",
+    "dName": "Duck",
+    "content": "@̀nguyễn Duy Khang mua nhiêu rứa",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760184956358": {
+    "timestamp": "1760184956386",
+    "timestampString": "19:16:25",
+    "msgId": "7106183006268",
+    "cliMsgId": "1760184956358",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Khang suy nghĩ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
