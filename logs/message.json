@@ -21887,5 +21887,19 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760180177402": {
+    "timestamp": "1760180177468",
+    "timestampString": "17:56:18",
+    "msgId": "7105931126174",
+    "cliMsgId": "1760180177402",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "@Tờ Quang广报 thế thì nhịn=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
