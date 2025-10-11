@@ -45,57 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760065689002": {
-    "timestamp": "1760065689555",
-    "timestampString": "10:08:10",
-    "msgId": "7100737051629",
-    "cliMsgId": "1760065689002",
-    "msgType": "webchat",
-    "uidFrom": "2435953923077574389",
-    "idTo": "5166581134204343688",
-    "dName": "Tiến",
-    "content": "ai biết dec pyc từ marshal load sang py k",
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760065696434": {
-    "timestamp": "1760065696985",
-    "timestampString": "10:08:17",
-    "msgId": "7100737637774",
-    "cliMsgId": "1760065696434",
-    "msgType": "webchat",
-    "uidFrom": "2435953923077574389",
-    "idTo": "5166581134204343688",
-    "dName": "Tiến",
-    "content": "vì dùng python 3.13 nó k hỗ trợ",
-    "threadId": "5166581134204343688",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760065734362": {
-    "timestamp": "1760065734515",
-    "timestampString": "10:08:55",
-    "msgId": "7100740572324",
-    "cliMsgId": "1760065734362",
-    "msgType": "chat.photo",
-    "uidFrom": "986745654356237706",
-    "idTo": "7585160044864555896",
-    "dName": "Dương",
-    "content": {
-      "title": "[𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾] : Tiện Ích 🛡 🪲",
-      "description": "",
-      "href": "https://f62-zpg-r.zdn.vn/7092085062570821174/941d4dfcdda250fc09b3.jpg",
-      "thumb": "https://t-f62-zpg-r.zdn.vn/480/7092085062570821174/941d4dfcdda250fc09b3.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":600,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/7092085062570821174\\/941d4dfcdda250fc09b3.jpg\",\"hdSize\":344622,\"height\":225}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760065756485": {
     "timestamp": "1760065756325",
     "timestampString": "10:09:17",
