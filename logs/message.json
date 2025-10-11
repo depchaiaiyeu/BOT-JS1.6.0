@@ -5161,5 +5161,42 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760168263766": {
+    "timestamp": "1760168263828",
+    "timestampString": "14:37:44",
+    "msgId": "7105308780277",
+    "cliMsgId": "1760168263766",
+    "msgType": "webchat",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": "@Hà Y what",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168278708": {
+    "timestamp": "1760168278358",
+    "timestampString": "14:37:59",
+    "msgId": "7105309464480",
+    "cliMsgId": "1760168278708",
+    "msgType": "chat.photo",
+    "uidFrom": "4335876764763844887",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Trường An",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
+      "thumb": "https://f16-zpc.zdn.vn/7325800769224807635/8a4f08166d1de743be0c.png",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":256,\"height\":256,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758551749029\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f18-zpc.zdn.vn\\/2419567078040627963\\/16e6d4bdb1b63be862a7.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758551749029\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
