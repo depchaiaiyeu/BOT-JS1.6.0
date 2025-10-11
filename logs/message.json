@@ -1,1 +1,63 @@
-{}
+{
+  "1760164060911": {
+    "timestamp": "1760164057229",
+    "timestampString": "13:27:38",
+    "msgId": "7105121315532",
+    "cliMsgId": "1760164060911",
+    "msgType": "webchat",
+    "uidFrom": "7520156140404430183",
+    "idTo": "6512342651301747547",
+    "dName": "Nguyên",
+    "content": "🎯 RandomLiQi – Chơi game phải có acc ngon! 🎯\nAnh em còn lo tìm acc xịn mà ví mỏng?\n💡 Giải pháp đây rồi 👉 https://randomliqi.click\n🚩 Tại shop có gì?\n⚔ Acc Lv Max + Godhuman\n🎲 Random acc rẻ bèo, tỉ lệ nổ skin SS, S+ cực cao\n💼 Acc dính mail, full skin vip cho anh em yên tâm sử dụng\n💸 Giá chỉ từ 20K, rẻ hơn ly trà sữa\n📌 Vào box Zalo nhận acc free : https://zalo.me/g/dyjsph729\n👉 RandomLiQi – nơi acc ngon nằm gọn trong tay bạn!",
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164057401": {
+    "timestamp": "1760164057399",
+    "timestampString": "13:27:38",
+    "msgId": "7105121342789",
+    "cliMsgId": "1760164057401",
+    "msgType": "chat.delete",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 7520156140404430000,
+        "uidTo": 6512342651301748000,
+        "clientDelMsgId": 1760164060911,
+        "globalDelMsgId": 7105121315532,
+        "destId": 6512342651301748000
+      }
+    ],
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164057471": {
+    "timestamp": "1760164057470",
+    "timestampString": "13:27:38",
+    "msgId": "7105121342797",
+    "cliMsgId": "1760164057471",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "6512342651301747547",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "➜ [ANTI-LINK]\n5076254408074558354\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi link vào nhóm. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "6512342651301747547",
+    "type": 1,
+    "isUndo": false
+  }
+}
