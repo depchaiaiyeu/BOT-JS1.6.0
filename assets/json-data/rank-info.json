@@ -6711,8 +6711,8 @@
         {
           "UserName": "B O T",
           "UID": "1527436670916511241",
-          "Rank": 6,
-          "messageCountToday": 3,
+          "Rank": 7,
+          "messageCountToday": 4,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -6886,6 +6886,13 @@
         {
           "UserName": "Vũ Đào",
           "UID": "4542058145181881907",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Dương Trần Khôi",
+          "UID": "706385359471257078",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
