@@ -1,12 +1,12 @@
 {
   "1759975893906": {
-    "timestamp": "1760139432601",
-    "timestampString": "06:37:12",
-    "msgId": "7103904359272",
+    "timestamp": "1760141505607",
+    "timestampString": "07:11:46",
+    "msgId": "7103949028535",
     "cliMsgId": "1759975893906",
     "msgType": "chat.photo",
     "uidFrom": "2873500016463783643",
-    "idTo": "7897564732983285154",
+    "idTo": "9104968216656954464",
     "dName": "Ha Trung Son",
     "content": {
       "title": "",
@@ -18,7 +18,7 @@
       "params": "{\"sendSource\":1,\"fileSize\":25006,\"width\":236,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f57-zpg-r.zdn.vn\\/3095009715816529506\\/7800d34ed0045d5a0415.jpg\",\"height\":350}",
       "type": ""
     },
-    "threadId": "7897564732983285154",
+    "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
   },
@@ -29034,6 +29034,43 @@
       "type": ""
     },
     "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056084909083400": {
+    "timestamp": "1760141515161",
+    "timestampString": "07:11:56",
+    "msgId": "7103949291057",
+    "cliMsgId": "1056084909083400",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "3453989112147091924",
+    "dName": "Bánh Bông Lan",
+    "content": "༺━Xin Phép Các Admin━༻\n   Kết Bạn Acc Này Giúp Tui Với\n༺━━━━━━━━━━━༻\n💭 Nơi mình chia sẻ những điều hay ho mỗi ngày – từ học tập, kỹ năng sống đến những câu chuyện chill giữa cuộc đời 💙\n🌐 Follow fanpage để cùng đồng hành nhé!\n👉 https://www.facebook.com/share/1A4xZkHHkL/?mibextid=wwXIfr\n༺━━Thuê Bot━━༻\nThuê Bot Auto Rãi-Quản Lí Nhóm🚦\nBot War🔥\nNhiều Chức Năng Khác💯\nỔn Định⚡\nAn Toàn☄️\nGiá Cực Rẻ Chỉ Từ 70K??!!💥\nTư Vấn Từ A Tới Á\nIB Để Thuê Bot\n༺━━━Em Cảm Ơn━━━༻",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056084909130200": {
+    "timestamp": "1760141515236",
+    "timestampString": "07:11:56",
+    "msgId": "7103949291061",
+    "cliMsgId": "1056084909130200",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "3453989112147091924",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bánh Bông Lan",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/669739264\\/a4a01cfce4a00dfe54b1.jpg\",\"gUid\":\"1K6AQHC56N8RV1OBR0HDQNDIT9JJ67O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/c/3/b/16/120/df6bc0e893d61d227cc2526fa56edc41.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8602274286000699226",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
   }
