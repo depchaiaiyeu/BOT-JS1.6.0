@@ -8123,5 +8123,28 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760169760699": {
+    "timestamp": "1760169763064",
+    "timestampString": "15:02:44",
+    "msgId": "7105382258413",
+    "cliMsgId": "1760169760699",
+    "msgType": "chat.photo",
+    "uidFrom": "5461000099680117746",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Bảo",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f57-zpg-r.zdn.vn/jpg/963822793057834936/a09ac1a8dec753990ad6.jpg",
+      "thumb": "https://f57-zpg-r.zdn.vn/jpg/963822793057834936/a09ac1a8dec753990ad6.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1203,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f57-zpg-r.zdn.vn\\/jpg\\/963822793057834936\\/a09ac1a8dec753990ad6.jpg\",\"hdSize\":28862,\"height\":803}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
