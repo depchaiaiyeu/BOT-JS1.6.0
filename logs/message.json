@@ -596,5 +596,131 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760164476410": {
+    "timestamp": "1760164476438",
+    "timestampString": "13:34:37",
+    "msgId": "7105138833509",
+    "cliMsgId": "1760164476410",
+    "msgType": "chat.recommended",
+    "uidFrom": "5719811533797477979",
+    "idTo": "5601607522756268167",
+    "dName": "Duy Khang",
+    "content": {
+      "title": "https://zalo.me/g/tpsgsz239 trả",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/tpsgsz239",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv208cfbc724c1760148606aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZjNlZDUyYjIyMWQ0Y2I4YTkyYzU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/3\\/0\\/7\\/9\\/4\\/120\\/d8e5a51ca6ff5b47cac91c17c460c11b.jpg\",\"link_sub_type\":2,\"thumb_src_type\":0,\"src\":\"zalo.me\",\"tWidth\":486,\"tHeight\":256,\"tType\":1,\"linkType\":12,\"type\":12,\"expired_time\":0,\"mediaTitle\":\"404 Not Found\"}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164476619": {
+    "timestamp": "1760164476622",
+    "timestampString": "13:34:37",
+    "msgId": "7105138829168",
+    "cliMsgId": "1760164476619",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 5719811533797478000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164476410,
+        "globalDelMsgId": 7105138833509,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164476684": {
+    "timestamp": "1760164476686",
+    "timestampString": "13:34:37",
+    "msgId": "7105138829181",
+    "cliMsgId": "1760164476684",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nDuy Khang\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164479460": {
+    "timestamp": "1760164479492",
+    "timestampString": "13:34:39",
+    "msgId": "7105138961527",
+    "cliMsgId": "1760164479460",
+    "msgType": "webchat",
+    "uidFrom": "5719811533797477979",
+    "idTo": "5601607522756268167",
+    "dName": "Duy Khang",
+    "content": "Ê",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164480793": {
+    "timestamp": "1760164480807",
+    "timestampString": "13:34:41",
+    "msgId": "7105139016003",
+    "cliMsgId": "1760164480793",
+    "msgType": "webchat",
+    "uidFrom": "5719811533797477979",
+    "idTo": "5601607522756268167",
+    "dName": "Duy Khang",
+    "content": "Nha",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164483462": {
+    "timestamp": "1760164483507",
+    "timestampString": "13:34:43",
+    "msgId": "7105139128664",
+    "cliMsgId": "1760164483462",
+    "msgType": "webchat",
+    "uidFrom": "5719811533797477979",
+    "idTo": "5601607522756268167",
+    "dName": "Duy Khang",
+    "content": "Trả link",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164492187": {
+    "timestamp": "1760164492115",
+    "timestampString": "13:34:53",
+    "msgId": "7105139477511",
+    "cliMsgId": "1760164492187",
+    "msgType": "webchat",
+    "uidFrom": "3120218143259821942",
+    "idTo": "5601607522756268167",
+    "dName": "Triệu Thịnh",
+    "content": "Đổi USDT sang Việt Nam Đồng. Vui lòng liên hệ với tôi nếu bạn cần.",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
