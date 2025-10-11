@@ -45,53 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760067060485": {
-    "timestamp": "1760067060983",
-    "timestampString": "10:31:01",
-    "msgId": "7100843554779",
-    "cliMsgId": "1760067060485",
-    "msgType": "chat.photo",
-    "uidFrom": "6782773072614202906",
-    "idTo": "4699745045071009795",
-    "dName": "Nguyễn Minh Khôi",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://photo-stal-2.zdn.vn/gr/jpg/5952f576bc9048ce1181/4541523440487196400.jpg",
-      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/5952f576bc9048ce1181/4541523440487196400.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":720,\"height\":1604,\"hd\":\"https:\\/\\/photo-stal-2.zdn.vn\\/gr\\/jpg\\/5952f576bc9048ce1181\\/4541523440487196400.jpg\",\"is_group_layout\":0,\"contentId\":\"\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760067094925": {
-    "timestamp": "1760067094927",
-    "timestampString": "10:31:36",
-    "msgId": "7100846199947",
-    "cliMsgId": "1760067094925",
-    "msgType": "chat.delete",
-    "uidFrom": "5378522194723737503",
-    "idTo": "1367422010794969537",
-    "dName": "Sweetie",
-    "content": [
-      {
-        "type": 3,
-        "actionType": 1,
-        "uidFrom": 8602274286000699000,
-        "uidTo": 1367422010794969600,
-        "clientDelMsgId": 1056039560225400,
-        "globalDelMsgId": 7100756155545,
-        "destId": 1367422010794969600
-      }
-    ],
-    "threadId": "1367422010794969537",
-    "type": 1,
-    "isUndo": false
-  },
   "105604030237020": {
     "timestamp": "1760067170618",
     "timestampString": "10:32:51",
