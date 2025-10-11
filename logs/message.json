@@ -27615,5 +27615,51 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760181720515": {
+    "timestamp": "1760181720630",
+    "timestampString": "18:22:01",
+    "msgId": "7106011892686",
+    "cliMsgId": "1760181720515",
+    "msgType": "chat.photo",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://media-ten.z-cdn.me/SsXEN-yHFqgAAAAM/exploding-car-explode.gif",
+      "thumb": "https://media-ten.z-cdn.me/SsXEN-yHFqgAAAAM/exploding-car-explode.gif",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1732689919768\",\"height\":332,\"thumb_height\":332,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":498,\"width\":498,\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/c8kszv.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181739984": {
+    "timestamp": "1760181740047",
+    "timestampString": "18:22:20",
+    "msgId": "7106012870987",
+    "cliMsgId": "1760181739984",
+    "msgType": "chat.photo",
+    "uidFrom": "9090621766324729619",
+    "idTo": "7897564732983285154",
+    "dName": "Xre",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":402,\"height\":220,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
