@@ -1789,5 +1789,37 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760165065031": {
+    "timestamp": "1760165065116",
+    "timestampString": "13:44:25",
+    "msgId": "7105163747159",
+    "cliMsgId": "1760165065031",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "Share menu",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165068664": {
+    "timestamp": "1760165068759",
+    "timestampString": "13:44:29",
+    "msgId": "7105163901678",
+    "cliMsgId": "1760165068664",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 45050,
+      "catId": 11883,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
