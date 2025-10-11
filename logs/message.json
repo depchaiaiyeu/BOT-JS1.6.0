@@ -21873,5 +21873,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180080255": {
+    "timestamp": "1760180080319",
+    "timestampString": "17:54:41",
+    "msgId": "7105925959828",
+    "cliMsgId": "1760180080255",
+    "msgType": "webchat",
+    "uidFrom": "3973770325197419294",
+    "idTo": "3453989112147091924",
+    "dName": "G I A T U Ấ N",
+    "content": "Sell acc súng nâng cấp 40k @All",
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
