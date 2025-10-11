@@ -35956,5 +35956,42 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760144348630": {
+    "timestamp": "1760144348732",
+    "timestampString": "07:59:09",
+    "msgId": "7104038375761",
+    "cliMsgId": "1760144348630",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "206503079877623526",
+    "dName": "Con Mèo",
+    "content": "aii log vào được chưa",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144348460": {
+    "timestamp": "1760144349073",
+    "timestampString": "07:59:10",
+    "msgId": "7104038389044",
+    "cliMsgId": "1760144348460",
+    "msgType": "chat.photo",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/jpg/6127652502628179082/8d141744ef24627a3b35.jpg",
+      "thumb": "https://f65-zpg-r.zdn.vn/jpg/6127652502628179082/8d141744ef24627a3b35.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":1604,\"hd\":\"https:\\/\\/f65-zpg-r.zdn.vn\\/jpg\\/6127652502628179082\\/8d141744ef24627a3b35.jpg\",\"is_group_layout\":0,\"contentId\":\"\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
