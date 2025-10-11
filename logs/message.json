@@ -27209,5 +27209,88 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760181539475": {
+    "timestamp": "1760181539580",
+    "timestampString": "18:19:00",
+    "msgId": "7106002708983",
+    "cliMsgId": "1760181539475",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Tran Luc Nhi\n> From SoundCloud <\nNhạc Của Bạn Đây!!!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":39,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181539958": {
+    "timestamp": "1760181540062",
+    "timestampString": "18:19:00",
+    "msgId": "7106002760784",
+    "cliMsgId": "1760181539958",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/7829372248067923874/11adef40ef2962773b38.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/7829372248067923874/11adef40ef2962773b38.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":700,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/7829372248067923874\\/11adef40ef2962773b38.jpg\",\"hdSize\":189945,\"height\":214}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181532222": {
+    "timestamp": "1760181532387",
+    "timestampString": "18:19:01",
+    "msgId": "7106002383990",
+    "cliMsgId": "1760181532222",
+    "msgType": "webchat",
+    "uidFrom": "5047084489515674929",
+    "idTo": "4699745045071009795",
+    "dName": "Tran Luc Nhi",
+    "content": "1",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760181541398": {
+    "timestamp": "1760181541503",
+    "timestampString": "18:19:02",
+    "msgId": "7106002812428",
+    "cliMsgId": "1760181541398",
+    "msgType": "chat.voice",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/b4d5ce31e6ad47f31ebc/8195978203133851397/Vu-Xuan-Kien-Service-Bot.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"fileSize\":4914363,\"m4a\":\"https:\\/\\/fg43.dlfl.vn\\/b4d5ce31e6ad47f31ebc\\/8195978203133851397\\/Vu-Xuan-Kien-Service-Bot.aac\"}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
