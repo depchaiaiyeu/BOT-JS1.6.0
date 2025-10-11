@@ -15664,5 +15664,28 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760177300689": {
+    "timestamp": "1760177300956",
+    "timestampString": "17:08:21",
+    "msgId": "7105784018621",
+    "cliMsgId": "1760177300689",
+    "msgType": "chat.recommended",
+    "uidFrom": "3763785301649747456",
+    "idTo": "3228108398535377399",
+    "dName": "Phước",
+    "content": {
+      "title": "https://zalo.me/g/lhbkba409",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/lhbkba409",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv27fecbe62ed1760177286aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvYzQxMjE1ZjY0NjkwYWNjZWY1ODE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"HCPA - Học Cách Phá Ảo V2\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/lhbkba409\",\"owner\":{\"id\":375640755,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/0\\/1\\/9\\/5\\/2\\/120\\/0581000ad55b37bc095ffa83e9e04839.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
