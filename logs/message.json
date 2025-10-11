@@ -21572,5 +21572,149 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760179952148": {
+    "timestamp": "1760179952172",
+    "timestampString": "17:52:32",
+    "msgId": "7105919174797",
+    "cliMsgId": "1760179952148",
+    "msgType": "chat.photo",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "thumb": "https://f28-zfcloud.zdn.vn/c487050b89bc27e27ead/7446728214724120585",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759485659742\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f28-zfcloud.zdn.vn\\/c487050b89bc27e27ead\\/7446728214724120585\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1759485659742\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179958572": {
+    "timestamp": "1760179958627",
+    "timestampString": "17:52:40",
+    "msgId": "7105919515823",
+    "cliMsgId": "1760179958572",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "....",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179959903": {
+    "timestamp": "1760179960002",
+    "timestampString": "17:52:40",
+    "msgId": "7105919545653",
+    "cliMsgId": "1760179959903",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChúng Ta Rồi Sẽ Hạnh Phúc\nKhông tìm thấy lệnh \"...\". Vui lòng sử dụng:\n.help - Xem hướng dẫn sử dụng\n.game - Xem hướng dẫn chơi game\n.command - Xem danh sách lệnh có sẵn",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":25,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179966739": {
+    "timestamp": "1760179966789",
+    "timestampString": "17:52:52",
+    "msgId": "7105919947348",
+    "cliMsgId": "1760179966739",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".scl chung ta k thuoc ve nhau",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179972721": {
+    "timestamp": "1760179972827",
+    "timestampString": "17:52:53",
+    "msgId": "7105920230446",
+    "cliMsgId": "1760179972721",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách bài hát trên SoundCloud mà tôi tìm thấy:\nHãy trả lời tin nhắn này với số index của bài hát bạn muốn tìm!",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/1295807629559455827/43eec5f4849d09c3508c.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/1295807629559455827/43eec5f4849d09c3508c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1630,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/1295807629559455827\\/43eec5f4849d09c3508c.jpg\",\"hdSize\":354658,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179976342": {
+    "timestamp": "1760179976441",
+    "timestampString": "17:52:56",
+    "msgId": "7105920424322",
+    "cliMsgId": "1760179976342",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChờ bé lấy nhạc một chút, xong bé gọi cho hay.\n\n⏳ Chúng Ta Không Thuộc Về Nhau Remix",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":84,\"st\":\"b,c_15a85f,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179976106": {
+    "timestamp": "1760179976207",
+    "timestampString": "17:52:57",
+    "msgId": "7105920424298",
+    "cliMsgId": "1760179976106",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760179972721,
+        "globalDelMsgId": 7105920230446,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
