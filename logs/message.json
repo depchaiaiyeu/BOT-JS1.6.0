@@ -40371,5 +40371,56 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760187161217": {
+    "timestamp": "1760187161262",
+    "timestampString": "19:52:42",
+    "msgId": "7106303380576",
+    "cliMsgId": "1760187161217",
+    "msgType": "webchat",
+    "uidFrom": "5518548593240783022",
+    "idTo": "3228108398535377399",
+    "dName": "Hoàng Thanh Tùng",
+    "content": "@⠒̫⃝vtaiᶻzzᅠ ᅠᅠ ᅠᅠ ᅠꔷ⃟ꔹ͓͓͓͓͓͓͓͓͓͓͓͓͓͓͓͓͓̽ chất v",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760187161600": {
+    "timestamp": "1760187161706",
+    "timestampString": "19:52:42",
+    "msgId": "7106303404220",
+    "cliMsgId": "1760187161600",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": ".kb @All",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760187162353": {
+    "timestamp": "1760187162397",
+    "timestampString": "19:52:42",
+    "msgId": "7106303411619",
+    "cliMsgId": "1760187162353",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "Karic\n/-li Thai An /-li\n(@Karic) ❌ Không thể gửi lời mời kết bạn đến bất kỳ ai.\n❌❌❌",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":17,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
