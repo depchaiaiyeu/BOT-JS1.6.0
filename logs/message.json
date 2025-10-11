@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760064505456": {
-    "timestamp": "1760064505510",
-    "timestampString": "09:48:26",
-    "msgId": "7100645156994",
-    "cliMsgId": "1760064505456",
-    "msgType": "webchat",
-    "uidFrom": "7336355608886049",
-    "idTo": "4699745045071009795",
-    "dName": "Hoàng Tt Huyền",
-    "content": "Vụ j hót",
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760064523556": {
-    "timestamp": "1760064524883",
-    "timestampString": "09:48:46",
-    "msgId": "7100646633315",
-    "cliMsgId": "1760064523556",
-    "msgType": "chat.recommended",
-    "uidFrom": "4403431173397495847",
-    "idTo": "7585160044864555896",
-    "dName": "Thiên Bách",
-    "content": {
-      "title": "https://zalo.me/g/esklcg028",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/esklcg028",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv26ade346b3a1760064405aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNDdjNmM1N2VjZDE4Mjc0NjdlMDk=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"streamUrl\":\"\",\"stream_icon\":\"\",\"mediaTitle\":\"Group Thông Tin Vinhomes Cần Giờ\",\"artist\":\"\",\"src\":\"zalo.me\",\"count\":\"\",\"width\":486,\"type\":0,\"height\":256}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760064616686": {
     "timestamp": "1760064617331",
     "timestampString": "09:50:18",
