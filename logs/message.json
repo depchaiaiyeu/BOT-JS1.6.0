@@ -8359,5 +8359,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760170144839": {
+    "timestamp": "1760170145414",
+    "timestampString": "15:09:06",
+    "msgId": "7105403126199",
+    "cliMsgId": "1760170144839",
+    "msgType": "webchat",
+    "uidFrom": "1060629329272133507",
+    "idTo": "9104968216656954464",
+    "dName": "Trần Thiên Bảo",
+    "content": "link lỗi",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
