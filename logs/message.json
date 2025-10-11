@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760061060203": {
-    "timestamp": "1760061060252",
-    "timestampString": "08:51:00",
-    "msgId": "7100394981635",
-    "cliMsgId": "1760061060203",
-    "msgType": "chat.photo",
-    "uidFrom": "3770122344910096233",
-    "idTo": "4825567233436439756",
-    "dName": "ヅtrần Ân Ânヅ",
-    "content": {
-      "title": "",
-      "description": "",
-      "href": "https://ichinomakatsu.serveo.net/sticker/sticker_5357.webp",
-      "thumb": "https://ichinomakatsu.serveo.net/sticker/sticker_5357.webp",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1760060938941\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"http:\\/\\/ichinomakatsu.serveo.net\\/sticker\\/sticker_5357.webp\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1760060938941\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4825567233436439756",
-    "type": 1,
-    "isUndo": false
-  },
   "1760061372134": {
     "timestamp": "1760061372192",
     "timestampString": "08:56:13",
