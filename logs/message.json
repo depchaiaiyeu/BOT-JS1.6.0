@@ -1332,5 +1332,52 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760164678025": {
+    "timestamp": "1760164678103",
+    "timestampString": "13:37:58",
+    "msgId": "7105147339013",
+    "cliMsgId": "1760164678025",
+    "msgType": "chat.photo",
+    "uidFrom": "4151380426396550311",
+    "idTo": "5601607522756268167",
+    "dName": "Tkh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f32-zfcloud.zdn.vn/7cbdf74c27bd86e3dfac/1316463799096703944?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f32-zfcloud.zdn.vn/7cbdf74c27bd86e3dfac/1316463799096703944?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":430,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1756603848133\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f32-zfcloud.zdn.vn\\/7cbdf74c27bd86e3dfac\\/1316463799096703944?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":512,\"height\":430,\"thumb\":\"\"},\"contentId\":\"1756603848133\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760164678313": {
+    "timestamp": "1760164678311",
+    "timestampString": "13:37:59",
+    "msgId": "7105147344108",
+    "cliMsgId": "1760164678313",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4151380426396550000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760164678025,
+        "globalDelMsgId": 7105147339013,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
