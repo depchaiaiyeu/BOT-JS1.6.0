@@ -8373,5 +8373,42 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760170185291": {
+    "timestamp": "1760170185367",
+    "timestampString": "15:09:46",
+    "msgId": "7105405365167",
+    "cliMsgId": "1760170185291",
+    "msgType": "webchat",
+    "uidFrom": "1095648567490206223",
+    "idTo": "2760006576081013366",
+    "dName": "Hoa Ank Đào",
+    "content": ":)",
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170179794": {
+    "timestamp": "1760170188776",
+    "timestampString": "15:09:49",
+    "msgId": "7105405529224",
+    "cliMsgId": "1760170179794",
+    "msgType": "chat.photo",
+    "uidFrom": "1060629329272133507",
+    "idTo": "9104968216656954464",
+    "dName": "Trần Thiên Bảo",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/4637124589230948296/3b8ab7bdb4d2398c60c3.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/4637124589230948296/3b8ab7bdb4d2398c60c3.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":483,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f62-zpg-r.zdn.vn\\/jpg\\/4637124589230948296\\/3b8ab7bdb4d2398c60c3.jpg\",\"hdSize\":12883,\"height\":249}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
