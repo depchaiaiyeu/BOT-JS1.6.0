@@ -36921,5 +36921,83 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760144622352": {
+    "timestamp": "1760144624611",
+    "timestampString": "08:03:45",
+    "msgId": "7104050086295",
+    "cliMsgId": "1760144622352",
+    "msgType": "chat.recommended",
+    "uidFrom": "1095648567490206223",
+    "idTo": "1367422010794969537",
+    "dName": "Hoa Ank Đào",
+    "content": {
+      "title": "nhom mới xp bot cho minh tuyen nhờ",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/qnpokb026",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2c3b759229d1760144520aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNTYwM2YyNTJiNTM0NWY2YTA2MjU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Cuw Qwe Ew Zay Đy\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/qnpokb026\",\"owner\":{\"id\":220437896,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/e\\/e\\/8\\/8\\/4\\/120\\/911df564f2d05c4f595d13d92222c6f6.jpg\",\"thumb_src_type\":0,\"link_sub_type\":1}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144629357": {
+    "timestamp": "1760144632712",
+    "timestampString": "08:03:54",
+    "msgId": "7104050451650",
+    "cliMsgId": "1760144629357",
+    "msgType": "webchat",
+    "uidFrom": "4795449859426496439",
+    "idTo": "3453989112147091924",
+    "dName": "Zery X Dn",
+    "content": {
+      "title": "Box share make file chờ ae vô lấy nè 📦 \n1 https://zalo.me/g/osaquz259\n2 https://zalo.me/g/nnweyq863",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 99, \"st\": \"c_FFFFFF\"}, {\"start\": 0, \"len\": 99, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144631798": {
+    "timestamp": "1760144632905",
+    "timestampString": "08:03:54",
+    "msgId": "7104050475311",
+    "cliMsgId": "1760144631798",
+    "msgType": "webchat",
+    "uidFrom": "9210252485480501226",
+    "idTo": "206503079877623526",
+    "dName": "Con Mèo",
+    "content": "vậy là mày chậm r",
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760144635064": {
+    "timestamp": "1760144636154",
+    "timestampString": "08:03:56",
+    "msgId": "7104050625676",
+    "cliMsgId": "1760144635064",
+    "msgType": "chat.sticker",
+    "uidFrom": "9210252485480501226",
+    "idTo": "206503079877623526",
+    "dName": "Con Mèo",
+    "content": {
+      "id": 18729,
+      "catId": 10170,
+      "type": 3
+    },
+    "threadId": "206503079877623526",
+    "type": 1,
+    "isUndo": false
   }
 }
