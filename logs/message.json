@@ -20029,6 +20029,57 @@
     "content": "🏆 Bảng xếp hạng tin nhắn:\n\n1. Trọng Man: 6 tin nhắn\n2. 种地: 2 tin nhắn\n3. Lê Dung: 2 tin nhắn\n4. Vô Danh: 2 tin nhắn\n\nDùng >topchat today để xem top nhắn tin hàng ngày.",
     "threadId": "4699745045071009795",
     "type": 1,
+    "isUndo": true
+  },
+  "1760179083359": {
+    "timestamp": "1760179084416",
+    "timestampString": "17:38:05",
+    "msgId": "7105873937873",
+    "cliMsgId": "1760179083359",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": "👤 Văn Chiếnツム đã thu hồi tin nhắn sau...\n⏰ Thời gian gửi: 17:37:43\n🔔 Thời gian thu hồi: 17:38:03\n📝 Nội Dung: 🏆 Bảng xếp hạng tin nhắn:\n\n1. Trọng Man: 6 tin nhắn\n2. 种地: 2 tin nhắn\n3. Lê Dung: 2 tin nhắn\n4. Vô Danh: 2 tin nhắn\n\nDùng >topchat today để xem top nhắn tin hàng ngày.",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179106124": {
+    "timestamp": "1760179109077",
+    "timestampString": "17:38:29",
+    "msgId": "7105875215934",
+    "cliMsgId": "1760179106124",
+    "msgType": "webchat",
+    "uidFrom": "2401473588733154152",
+    "idTo": "9104968216656954464",
+    "dName": "Hoàng Phát",
+    "content": "Nhóm Tài Nguyên MMO Và FB Cho Ae Tham Khảo: https://zalo.me/g/fgripr476",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056107465521200": {
+    "timestamp": "1760179109142",
+    "timestampString": "17:38:29",
+    "msgId": "7105875215940",
+    "cliMsgId": "1056107465521200",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Hoàng Phát\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":11,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
     "isUndo": false
   }
 }
