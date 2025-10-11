@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760059998648": {
-    "timestamp": "1760060000188",
-    "timestampString": "08:33:21",
-    "msgId": "7100328154500",
-    "cliMsgId": "1760059998648",
-    "msgType": "chat.recommended",
-    "uidFrom": "3085991445847546088",
-    "idTo": "2760006576081013366",
-    "dName": "Minh Tú",
-    "content": {
-      "title": "Cheo ",
-      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
-      "href": "https://zalo.me/g/xyewvn919",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2c4b417e2771760059954aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZTg3ZGRjMmM2ZDcyODcyY2RlNjM=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":2,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"Tục Tưng💗\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/5\\/2\\/1\\/d\\/4\\/120\\/770d2710f2904d56f22b927e86b0b2e1.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
-      "type": ""
-    },
-    "threadId": "2760006576081013366",
-    "type": 1,
-    "isUndo": false
-  },
   "1760060125754": {
     "timestamp": "1760060125766",
     "timestampString": "08:35:26",
