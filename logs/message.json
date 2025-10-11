@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760065435944": {
-    "timestamp": "1760065436092",
-    "timestampString": "10:03:57",
-    "msgId": "7100717165318",
-    "cliMsgId": "1760065435944",
-    "msgType": "chat.recommended",
-    "uidFrom": "4971651455913384901",
-    "idTo": "5464956150740844012",
-    "dName": "Lê Y Công Tips",
-    "content": {
-      "title": "https://app.bumx.vn/register?code_affiliate=jzkd74rclrke1ko2",
-      "description": "BumX - Tool đăng video 2 ô, SEO Website, Traffic user, Backlink, dịch vụ tăng tương tác",
-      "href": "https://app.bumx.vn/register?code_affiliate=jzkd74rclrke1ko2",
-      "thumb": "",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"redirect_url\":\"\",\"src\":\"app.bumx.vn\",\"mediaTitle\":\"BumX - Tool video 2 ô - Link rút gọn Rate cao\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/app.bumx.vn\\/register?code_affiliate=jzkd74rclrke1ko2\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"\\/logo.png\",\"thumb_src_type\":1}",
-      "type": ""
-    },
-    "threadId": "5464956150740844012",
-    "type": 1,
-    "isUndo": false
-  },
   "1760065440505": {
     "timestamp": "1760065441131",
     "timestampString": "10:04:01",
