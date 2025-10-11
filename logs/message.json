@@ -36950,5 +36950,88 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760185319834": {
+    "timestamp": "1760185320009",
+    "timestampString": "19:22:00",
+    "msgId": "7106202553994",
+    "cliMsgId": "1760185319834",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/8286482156430015777/2bc8c9647b0df653af1c.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/8286482156430015777/2bc8c9647b0df653af1c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":576,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"1000027355\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185333591": {
+    "timestamp": "1760185333695",
+    "timestampString": "19:22:14",
+    "msgId": "7106203293157",
+    "cliMsgId": "1760185333591",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "@Nguyenx Linh đr nek",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185337176": {
+    "timestamp": "1760185337250",
+    "timestampString": "19:22:17",
+    "msgId": "7106203484927",
+    "cliMsgId": "1760185337176",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "5975420422762749911",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "Kệ bn",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185343149": {
+    "timestamp": "1760185343268",
+    "timestampString": "19:22:24",
+    "msgId": "7106203809931",
+    "cliMsgId": "1760185343149",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "Cs j đi vs tui",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760185345308": {
+    "timestamp": "1760185345374",
+    "timestampString": "19:22:25",
+    "msgId": "7106203924934",
+    "cliMsgId": "1760185345308",
+    "msgType": "chat.sticker",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": {
+      "id": 46953,
+      "catId": 12002,
+      "type": 3
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
