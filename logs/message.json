@@ -34306,5 +34306,42 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "105608604436980": {
+    "timestamp": "1760143407269",
+    "timestampString": "07:43:28",
+    "msgId": "7104005405949",
+    "cliMsgId": "105608604436980",
+    "msgType": "webchat",
+    "uidFrom": "2873500016463783643",
+    "idTo": "9104968216656954464",
+    "dName": "Ha Trung Son",
+    "content": "Box Giao Lưu Tool\nTool Buff View TikTok \nhttps://zalo.me/g/uxapkc369",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760143407343": {
+    "timestamp": "1760143407337",
+    "timestampString": "07:43:28",
+    "msgId": "7104005405955",
+    "cliMsgId": "1760143407343",
+    "msgType": "chat.recommended",
+    "uidFrom": "2873500016463783643",
+    "idTo": "9104968216656954464",
+    "dName": "Ha Trung Son",
+    "content": {
+      "title": "Ha Trung Son",
+      "description": "{\"phone\":\"Thuê Bot Liên Hệ 👇\",\"qrCodeUrl\":\"https:\\/\\/s120-ava-talk.zadn.vn\\/0\\/2\\/5\\/d\\/52\\/120\\/2d1ce49e88da289c0628bacca0ff4dde.jpg\",\"gUid\":\"JKO0JAUNMJLERLCSHBPA0RNC181QAD80\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/0/2/5/d/52/120/2d1ce49e88da289c0628bacca0ff4dde.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "2873500016463783643",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
