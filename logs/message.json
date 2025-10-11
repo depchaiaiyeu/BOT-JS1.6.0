@@ -12610,5 +12610,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760174784304": {
+    "timestamp": "1760174787193",
+    "timestampString": "16:26:27",
+    "msgId": "7105653241177",
+    "cliMsgId": "1760174784304",
+    "msgType": "webchat",
+    "uidFrom": "2401473588733154152",
+    "idTo": "9104968216656954464",
+    "dName": "Hoàng Phát",
+    "content": "Nhóm Tài Nguyên MMO Và FB Cho Ae Tham Khảo: https://zalo.me/g/fgripr476",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
