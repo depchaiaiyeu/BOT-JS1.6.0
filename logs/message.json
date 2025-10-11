@@ -37400,5 +37400,28 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760144933765": {
+    "timestamp": "1760144937129",
+    "timestampString": "08:08:58",
+    "msgId": "7104064844929",
+    "cliMsgId": "1760144933765",
+    "msgType": "webchat",
+    "uidFrom": "4795449859426496439",
+    "idTo": "3453989112147091924",
+    "dName": "Zery X Dn",
+    "content": {
+      "title": "Box share make file chờ ae vô lấy nè 📦 \n1 https://zalo.me/g/osaquz259\n2 https://zalo.me/g/nnweyq863",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 0, \"len\": 99, \"st\": \"c_FFFFFF\"}, {\"start\": 0, \"len\": 99, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
