@@ -25103,5 +25103,111 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180820378": {
+    "timestamp": "1760180820304",
+    "timestampString": "18:07:00",
+    "msgId": "7105965486694",
+    "cliMsgId": "1760180820378",
+    "msgType": "chat.video.msg",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": {
+      "title": "🎬 Title: Cưới Chính - Remix | Hồ Phi Nal\n🧑‍💻 Author: _ Phát Đoàn _\n▶️ 1.9M ❤️ 137.4K 🔁 10.2K\n🌏 Region: VN\n💕 Asked by: ̀nguyễn Duy Khang",
+      "description": "",
+      "href": "https://v16-coin.tiktokcdn.com/8b675f3799f5644f3c84d56dc3f22085/68ea8ed0/video/tos/alisg/tos-alisg-pve-0037c001/o8IZUHgAo6AW4Qucexjevv8ctaMyDCWR2A5R4f/?a=0&bti=OUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg&ch=0&cr=13&dr=0&er=0&lr=all&net=0&cd=0%7C0%7C0%7C&cv=1&br=3142&bt=1571&cs=0&ds=6&ft=EKFC~tZWD0EI12NvEuqgWIxRMHmy8q_45SY&mime_type=video_mp4&qs=0&rc=ZGlpZzxpM2Y2aTs3aDg3OEBpM3Fmam85cmpxNjMzODczNEA2MzNeYi4tNWIxMjU2M19gYSNrcXBzMmRzM2NhLS1kMTFzcw%3D%3D&vvpl=1&l=202510111906592BFE9A9C1F1EB3E84648&btag=e00088000",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/oYAA6NEQIBgoTk3fYcFUfwG6U5O3lEAyDC3RA3~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=6b4d899b&x-expires=1760266800&x-signature=B69mKWZc%2Bfq1KnVYg2DPXINY%2Fh8%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":29,\"video_height\":1600,\"fileSize\":5955352,\"video_width\":1200}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180820515": {
+    "timestamp": "1760180820506",
+    "timestampString": "18:07:01",
+    "msgId": "7105965511405",
+    "cliMsgId": "1760180820515",
+    "msgType": "chat.photo",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/98507bd8ef014e5f1710/1230399301645149784?Webp_Video_Cua_DNgoc.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/98507bd8ef014e5f1710/1230399301645149784?Webp_Video_Cua_DNgoc.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":498,\"height\":332,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1754281432004\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/98507bd8ef014e5f1710\\/1230399301645149784?Webp_Video_Cua_DNgoc.webp\",\"width\":498,\"height\":332,\"thumb\":\"\"},\"contentId\":\"1754281432004\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180827119": {
+    "timestamp": "1760180827185",
+    "timestampString": "18:07:08",
+    "msgId": "7105965862642",
+    "cliMsgId": "1760180827119",
+    "msgType": "webchat",
+    "uidFrom": "8903446192643249588",
+    "idTo": "5975420422762749911",
+    "dName": "Exception",
+    "content": "@Núp Gầm Giường t deo lam duoc",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180833009": {
+    "timestamp": "1760180833076",
+    "timestampString": "18:07:13",
+    "msgId": "7105966175065",
+    "cliMsgId": "1760180833009",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "@Exception ok=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180841837": {
+    "timestamp": "1760180841903",
+    "timestampString": "18:07:22",
+    "msgId": "7105966638906",
+    "cliMsgId": "1760180841837",
+    "msgType": "chat.sticker",
+    "uidFrom": "5454095973494758027",
+    "idTo": "3228108398535377399",
+    "dName": "Tú",
+    "content": {
+      "id": 34841,
+      "catId": 11190,
+      "type": 3
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180846162": {
+    "timestamp": "1760180846207",
+    "timestampString": "18:07:26",
+    "msgId": "7105966865946",
+    "cliMsgId": "1760180846162",
+    "msgType": "webchat",
+    "uidFrom": "5454095973494758027",
+    "idTo": "3228108398535377399",
+    "dName": "Tú",
+    "content": "Cảm ơn bạn đã nhắn tin. Mình có thể giúp gì cho bạn?",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
