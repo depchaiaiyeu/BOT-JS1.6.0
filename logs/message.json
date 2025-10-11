@@ -11306,5 +11306,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760173110650": {
+    "timestamp": "1760173110933",
+    "timestampString": "15:58:31",
+    "msgId": "7105565650452",
+    "cliMsgId": "1760173110650",
+    "msgType": "webchat",
+    "uidFrom": "5345445945853805845",
+    "idTo": "9104968216656954464",
+    "dName": "Khoa Chad",
+    "content": "Ai có acc fc mobile ib",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
