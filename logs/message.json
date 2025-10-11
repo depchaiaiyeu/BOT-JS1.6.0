@@ -30532,5 +30532,33 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760183313598": {
+    "timestamp": "1760183313652",
+    "timestampString": "18:48:34",
+    "msgId": "7106095661824",
+    "cliMsgId": "1760183313598",
+    "msgType": "webchat",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": "Hay mà ^^!",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183336048": {
+    "timestamp": "1760183336101",
+    "timestampString": "18:48:56",
+    "msgId": "7106096844764",
+    "cliMsgId": "1760183336048",
+    "msgType": "webchat",
+    "uidFrom": "9186197335392085312",
+    "idTo": "4825567233436439756",
+    "dName": "Tài Tấn",
+    "content": "Thích nghe những bài như này và của Quang Lê",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
