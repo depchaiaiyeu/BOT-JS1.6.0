@@ -9273,5 +9273,79 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760171426568": {
+    "timestamp": "1760171431959",
+    "timestampString": "15:30:32",
+    "msgId": "7105473741105",
+    "cliMsgId": "1760171426568",
+    "msgType": "chat.photo",
+    "uidFrom": "6078954320375605607",
+    "idTo": "3228108398535377399",
+    "dName": "Thiên Phúc",
+    "content": {
+      "title": "🥳 Chào mừng Tuyết Mai \n🎉 đã tham gia HP-TOOL \nvào lúc 11/10/2025 [15:22:00] \nsố thành viên: 101",
+      "description": "",
+      "href": "https://f58-zpg-r.zdn.vn/1523414460683718110/7ea42d4de3226e7c3733.jpg",
+      "thumb": "https://t-f58-zpg-r.zdn.vn/480/1523414460683718110/7ea42d4de3226e7c3733.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":600,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f58-zpg-r.zdn.vn\\/1523414460683718110\\/7ea42d4de3226e7c3733.jpg\",\"hdSize\":344622,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171447443": {
+    "timestamp": "1760171447496",
+    "timestampString": "15:30:48",
+    "msgId": "7105474579846",
+    "cliMsgId": "1760171447443",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "@mybot",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171447014": {
+    "timestamp": "1760171448983",
+    "timestampString": "15:30:49",
+    "msgId": "7105474658851",
+    "cliMsgId": "1760171447014",
+    "msgType": "chat.photo",
+    "uidFrom": "1070876624639243239",
+    "idTo": "5975420422762749911",
+    "dName": "A Sìn",
+    "content": {
+      "title": "🚦@Núp Gầm Giường\n   ➜ @mybot create: 🤖 Tạo Bot\n   ➜ @mybot reset: 🔄 Khởi động lại Bot\n   ➜ @mybot info/@bot: ♨️ Xem thông tin Bot mình hoặc Bot người khác [@bot]\n   ➜ @mybot list: ➡️ Danh sách Bot\n   ➜ @mybot prefix [prefix]/@bot: 📟 Đổi lệnh dùng Bot\n   ➜ @mybot update: 🔢 Cập nhật Bot\n   ➜ @mybot qrlog: 📲 Đăng nhập bằng mã QR tạo Bot\n   ➜ @mybot qrup: 🍭 Cập nhật Bot bằng mã QR\n   ➜ @mybot qrck: 🔑 Get IMEI, Cookies, Key bằng mã QR\n   ➜ @mybot cookie: 🍬 Get Cookies của Bot cho bạn\n   ➜ @mybot share: 🤝 Share ngày sử dụng (d=ngày, h=giờ, m=phút)\n   ➜ @mybot active [number] @bot: 🚀 Kích hoạt thời gian sử dụng Bot(OA)\n   ➜ @mybot setbox: 📬 Thiết lập Box quản lý Bot(OA)\n   ➜ @mybot lock/unlock @bot: 🔒 Khóa/Mở khóa Bot\n   ➜ @mybot del @bot: 🗑️ Xóa Bot",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/7131235117426850761/b3dc900e5f61d23f8b70.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/7131235117426850761/b3dc900e5f61d23f8b70.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"width\":1300,\"convertible\":\"jpg\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/7131235117426850761\\/b3dc900e5f61d23f8b70.jpg\",\"height\":450}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171457227": {
+    "timestamp": "1760171457423",
+    "timestampString": "15:30:58",
+    "msgId": "7105475104611",
+    "cliMsgId": "1760171457227",
+    "msgType": "webchat",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": "Ơi gì đó bạn êi? :3",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
