@@ -29073,5 +29073,144 @@
     "threadId": "3453989112147091924",
     "type": 1,
     "isUndo": false
+  },
+  "1760141536383": {
+    "timestamp": "1760141537828",
+    "timestampString": "07:12:18",
+    "msgId": "7103949910158",
+    "cliMsgId": "1760141536383",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "4699745045071009795",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/xjvtrq366 kêu trả tag đợi xí lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xjvtrq366",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25ccb92313c1760141465aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDgwOWYzY2FkYTgwMzBkZTY5OTE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Nhóm gái dú bự\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xjvtrq366\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/6\\/1\\/d\\/9\\/24\\/120\\/27d34d7fd41da79734d5944a062b3e10.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141536716": {
+    "timestamp": "1760141538826",
+    "timestampString": "07:12:19",
+    "msgId": "7103949938392",
+    "cliMsgId": "1760141536716",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/xjvtrq366 kêu trả tag đợi xí lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xjvtrq366",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25ccb92313c1760141465aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDgwOWYzY2FkYTgwMzBkZTY5OTE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Nhóm gái dú bự\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xjvtrq366\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/6\\/1\\/d\\/9\\/24\\/120\\/27d34d7fd41da79734d5944a062b3e10.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141536875": {
+    "timestamp": "1760141539265",
+    "timestampString": "07:12:19",
+    "msgId": "7103949950124",
+    "cliMsgId": "1760141536875",
+    "msgType": "chat.recommended",
+    "uidFrom": "6782773072614202906",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Minh Khôi",
+    "content": {
+      "title": "https://zalo.me/g/xjvtrq366 kêu trả tag đợi xí lag",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/xjvtrq366",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv25ccb92313c1760141465aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvZDgwOWYzY2FkYTgwMzBkZTY5OTE=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"Nhóm gái dú bự\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/xjvtrq366\",\"owner\":{\"id\":436806361,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/6\\/1\\/d\\/9\\/24\\/120\\/27d34d7fd41da79734d5944a062b3e10.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141538964": {
+    "timestamp": "1760141538945",
+    "timestampString": "07:12:19",
+    "msgId": "7103949938503",
+    "cliMsgId": "1760141538964",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 6782773072614203000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760141536716,
+        "globalDelMsgId": 7103949938392,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141539028": {
+    "timestamp": "1760141539013",
+    "timestampString": "07:12:19",
+    "msgId": "7103949938504",
+    "cliMsgId": "1760141539028",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-CARD]\nNguyễn Minh Khôi\n➜ không được phép gửi danh thiếp vào nhóm!\n➜ Cảnh báo lần 1/3. Vui lòng không tái phạm!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 11, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 11, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760141540920": {
+    "timestamp": "1760141541320",
+    "timestampString": "07:12:21",
+    "msgId": "7103950006879",
+    "cliMsgId": "1760141540920",
+    "msgType": "chat.photo",
+    "uidFrom": "4802332726802384542",
+    "idTo": "3453989112147091924",
+    "dName": "Jerry",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/jpg/7169686929790535172/f9f62ed8adb920e779a8.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/jpg/7169686929790535172/f9f62ed8adb920e779a8.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":840,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"716\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
