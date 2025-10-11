@@ -17978,5 +17978,131 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178212377": {
+    "timestamp": "1760178212463",
+    "timestampString": "17:23:33",
+    "msgId": "7105829825753",
+    "cliMsgId": "1760178212377",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": "::)",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178214580": {
+    "timestamp": "1760178214678",
+    "timestampString": "17:23:35",
+    "msgId": "7105829935047",
+    "cliMsgId": "1760178214580",
+    "msgType": "chat.photo",
+    "uidFrom": "4321385379093947075",
+    "idTo": "4699745045071009795",
+    "dName": "种地",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg42.dlfl.vn/548b8633cdc96c9735d8/7786580918515327679/25a4b1a3-c916-4e70-a411-287c506a2162_a_sin.webp",
+      "thumb": "https://fg42.dlfl.vn/548b8633cdc96c9735d8/7786580918515327679/25a4b1a3-c916-4e70-a411-287c506a2162_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1080,\"height\":1131,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1757677386373\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg42.dlfl.vn\\/548b8633cdc96c9735d8\\/7786580918515327679\\/25a4b1a3-c916-4e70-a411-287c506a2162_a_sin.webp\",\"width\":1080,\"height\":1131,\"thumb\":\"\"},\"contentId\":\"1757677386373\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178216823": {
+    "timestamp": "1760178217067",
+    "timestampString": "17:23:37",
+    "msgId": "7105830020830",
+    "cliMsgId": "1760178216823",
+    "msgType": "chat.delete",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 3314548215192237000,
+        "uidTo": 4825567233436440000,
+        "clientDelMsgId": 1760178216823,
+        "globalDelMsgId": 7105830048530,
+        "destId": 4825567233436440000
+      }
+    ],
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178216284": {
+    "timestamp": "1760178217106",
+    "timestampString": "17:23:37",
+    "msgId": "7105830020838",
+    "cliMsgId": "1760178216284",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": "⚠️ Cảnh cáo @Đạt!\nỞ đây không được phép gửi link này!",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178221235": {
+    "timestamp": "1760178221344",
+    "timestampString": "17:23:41",
+    "msgId": "7105830266890",
+    "cliMsgId": "1760178221235",
+    "msgType": "chat.photo",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f35-zfcloud.zdn.vn/7565148de31b42451b0a/1440711664859106956?Createby=HàHuyHoàng_Bot.webp",
+      "thumb": "https://f35-zfcloud.zdn.vn/7565148de31b42451b0a/1440711664859106956?Createby=HàHuyHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"tracking\":{\"subsource\":\"0\",\"source\":0},\"contentId\":\"1759673904637\",\"pStickerType\":1,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f35-zfcloud.zdn.vn\\/7565148de31b42451b0a\\/1440711664859106956?Createby=HàHuyHoàng_Bot.webp\"},\"height\":512}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178223888": {
+    "timestamp": "1760178223973",
+    "timestampString": "17:23:44",
+    "msgId": "7105830396467",
+    "cliMsgId": "1760178223888",
+    "msgType": "webchat",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": "Ơ kè",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760178227122": {
+    "timestamp": "1760178227126",
+    "timestampString": "17:23:47",
+    "msgId": "7105830513997",
+    "cliMsgId": "1760178227122",
+    "msgType": "webchat",
+    "uidFrom": "8944544892270885914",
+    "idTo": "4825567233436439756",
+    "dName": "Nhân Trương",
+    "content": "@N D Q xem drama do Nhân mở hàng cũng dui lắm",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
