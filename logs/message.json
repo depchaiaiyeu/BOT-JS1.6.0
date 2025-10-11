@@ -8695,5 +8695,42 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760170230885": {
+    "timestamp": "1760170230946",
+    "timestampString": "15:10:31",
+    "msgId": "7105407884808",
+    "cliMsgId": "1760170230885",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Nguyễn Minh Khôi",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760170238056": {
+    "timestamp": "1760170240117",
+    "timestampString": "15:10:40",
+    "msgId": "7105408387037",
+    "cliMsgId": "1760170238056",
+    "msgType": "chat.video.msg",
+    "uidFrom": "6626704731319782605",
+    "idTo": "3228108398535377399",
+    "dName": "Nguyen Huu Phuc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f140-zvc.dlmd.me/gr/650c1ead8b3766693f26/5118451092203019623",
+      "thumb": "https://f61-zpg-r.zdn.vn/8752576466249818154/badeff5df932746c2d23.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":22000,\"is_group_layout\":0,\"video_original_width\":576,\"video_original_height\":358,\"video_width\":576,\"video_height\":358,\"video_rotation\":0,\"fileSize\":641798,\"isHD\":0}",
+      "type": ""
+    },
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
