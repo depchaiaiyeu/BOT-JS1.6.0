@@ -20276,5 +20276,28 @@
     "threadId": "7585160044864555896",
     "type": 1,
     "isUndo": false
+  },
+  "1760179274927": {
+    "timestamp": "1760179275236",
+    "timestampString": "17:41:16",
+    "msgId": "7105883810508",
+    "cliMsgId": "1760179274927",
+    "msgType": "chat.recommended",
+    "uidFrom": "2963005498718311973",
+    "idTo": "1367422010794969537",
+    "dName": "Vinh",
+    "content": {
+      "title": "https://zalo.me/g/qnpokb026 xp bs chéo nhé ",
+      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
+      "href": "https://zalo.me/g/qnpokb026",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv2f6c0a1bd1e1760179252aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvNTYwM2YyNTJiNTM0NWY2YTA2MjU=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"tWidth\":486,\"expired_time\":0,\"link_sub_type\":1,\"brand_name\":\"Zalo Video\",\"src\":\"zalo.me\",\"thumb_src_type\":0,\"mediaTitle\":\"Cuw Qwe Ew Zay Đy\",\"type\":12,\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/e\\/e\\/8\\/8\\/4\\/120\\/911df564f2d05c4f595d13d92222c6f6.jpg\",\"tHeight\":256,\"linkType\":12,\"tType\":1}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
