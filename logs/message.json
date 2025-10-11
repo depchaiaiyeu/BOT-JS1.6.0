@@ -2948,5 +2948,19 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760167011585": {
+    "timestamp": "1760167011619",
+    "timestampString": "14:16:52",
+    "msgId": "7105250366716",
+    "cliMsgId": "1760167011585",
+    "msgType": "webchat",
+    "uidFrom": "4321385379093947075",
+    "idTo": "5975420422762749911",
+    "dName": "种地",
+    "content": "@Tuan @scl 1",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
