@@ -30843,5 +30843,111 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760183674961": {
+    "timestamp": "1760183675369",
+    "timestampString": "18:54:36",
+    "msgId": "7106114765455",
+    "cliMsgId": "1760183674961",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/203141619979206624/4685a637545ed900804f.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/203141619979206624/4685a637545ed900804f.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1139,\"height\":1280,\"is_group_layout\":0,\"contentId\":\"68592\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183680704": {
+    "timestamp": "1760183680748",
+    "timestampString": "18:54:41",
+    "msgId": "7106115047206",
+    "cliMsgId": "1760183680704",
+    "msgType": "webchat",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": "!stk",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183680246": {
+    "timestamp": "1760183681068",
+    "timestampString": "18:54:41",
+    "msgId": "7106115054853",
+    "cliMsgId": "1760183680246",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Bùi Hiếu\nDQT Bot Team\nTiến hành tạo sticker, vui lòng chờ một chút.\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":9,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183680746": {
+    "timestamp": "1760183681562",
+    "timestampString": "18:54:41",
+    "msgId": "7106115054878",
+    "cliMsgId": "1760183680746",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "Bùi Hiếu\nDQT Bot Team\nSticker của bạn đây!\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":9,\"len\":12,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183680777": {
+    "timestamp": "1760183681596",
+    "timestampString": "18:54:42",
+    "msgId": "7106115054883",
+    "cliMsgId": "1760183680777",
+    "msgType": "chat.photo",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/99bcb7019c9d3dc3648c/3845202706974313932?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/99bcb7019c9d3dc3648c/3845202706974313932?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"thumb_width\":512,\"thumb_height\":512,\"width\":512,\"contentId\":\"1760183680777\",\"pStickerType\":1,\"webp\":{\"width\":512,\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/99bcb7019c9d3dc3648c\\/3845202706974313932?createby=NDQ_Bot.webp\",\"height\":512},\"hd\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/99bcb7019c9d3dc3648c\\/3845202706974313932?createby=NDQ_Bot.webp\",\"height\":512}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
