@@ -15364,5 +15364,56 @@
     "threadId": "7897564732983285154",
     "type": 1,
     "isUndo": false
+  },
+  "1760177055384": {
+    "timestamp": "1760177055502",
+    "timestampString": "17:04:16",
+    "msgId": "7105771335088",
+    "cliMsgId": "1760177055384",
+    "msgType": "chat.photo",
+    "uidFrom": "3412939609851564902",
+    "idTo": "1367422010794969537",
+    "dName": "Sancho",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/a2808ee9b27b13254a6a/7768520804667104115/84f5ed68-1c81-4fa8-8db1-771d9d55bcc5_a_sin.webp",
+      "thumb": "https://fg43.dlfl.vn/a2808ee9b27b13254a6a/7768520804667104115/84f5ed68-1c81-4fa8-8db1-771d9d55bcc5_a_sin.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":272,\"height\":258,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759987694997\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/fg43.dlfl.vn\\/a2808ee9b27b13254a6a\\/7768520804667104115\\/84f5ed68-1c81-4fa8-8db1-771d9d55bcc5_a_sin.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1759987694997\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177060146": {
+    "timestamp": "1760177060360",
+    "timestampString": "17:04:21",
+    "msgId": "7105771584996",
+    "cliMsgId": "1760177060146",
+    "msgType": "webchat",
+    "uidFrom": "377481986890946822",
+    "idTo": "4699745045071009795",
+    "dName": "陳龍",
+    "content": "@Bắc ý tớ hỏi cậu biết làm Phó kg",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177062104": {
+    "timestamp": "1760177062150",
+    "timestampString": "17:04:22",
+    "msgId": "7105771679164",
+    "cliMsgId": "1760177062104",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": "@Bảo Võ co",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
