@@ -17876,5 +17876,19 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760178096340": {
+    "timestamp": "1760178096521",
+    "timestampString": "17:21:37",
+    "msgId": "7105824062518",
+    "cliMsgId": "1760178096340",
+    "msgType": "webchat",
+    "uidFrom": "3314548215192236996",
+    "idTo": "4825567233436439756",
+    "dName": "Đạt",
+    "content": "@Nhân Trương ai biết, nãy t xin thử ai ngờ duyệt. Vừa vào cái dính call",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
