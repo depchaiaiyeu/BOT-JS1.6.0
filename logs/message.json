@@ -20253,5 +20253,28 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760179253786": {
+    "timestamp": "1760179252757",
+    "timestampString": "17:40:54",
+    "msgId": "7105882619770",
+    "cliMsgId": "1760179253786",
+    "msgType": "chat.photo",
+    "uidFrom": "4769828224334762506",
+    "idTo": "7585160044864555896",
+    "dName": "T Rex",
+    "content": {
+      "title": "💔 Người dùng",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/5549081343672999952/8a973014947a1924406b.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/5549081343672999952/8a973014947a1924406b.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"id_in_group\":0,\"is_group_layout\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":980,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/5549081343672999952\\/8a973014947a1924406b.jpg\",\"hdSize\":344622,\"group_layout_id\":1760179253785,\"height\":350,\"total_item_in_group\":1}",
+      "type": ""
+    },
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }
