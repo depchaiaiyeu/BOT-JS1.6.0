@@ -20225,5 +20225,33 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760179203233": {
+    "timestamp": "1760179203317",
+    "timestampString": "17:40:04",
+    "msgId": "7105880082667",
+    "cliMsgId": "1760179203233",
+    "msgType": "webchat",
+    "uidFrom": "4715218496669962068",
+    "idTo": "7897564732983285154",
+    "dName": "Minh",
+    "content": "bảo on check cloudflare business để nm23 fix:)",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179204838": {
+    "timestamp": "1760179204924",
+    "timestampString": "17:40:05",
+    "msgId": "7105880179934",
+    "cliMsgId": "1760179204838",
+    "msgType": "webchat",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": "M gà k cho=)",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
