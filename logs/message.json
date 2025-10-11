@@ -4707,5 +4707,19 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760168005078": {
+    "timestamp": "1760168005154",
+    "timestampString": "14:33:26",
+    "msgId": "7105296515838",
+    "cliMsgId": "1760168005078",
+    "msgType": "webchat",
+    "uidFrom": "8331781805972075163",
+    "idTo": "9104968216656954464",
+    "dName": "Sdang X Ds",
+    "content": "@Karic stk mượt nhất zalo",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
