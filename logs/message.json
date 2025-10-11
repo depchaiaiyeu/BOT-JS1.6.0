@@ -4256,5 +4256,19 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760167381878": {
+    "timestamp": "1760167381915",
+    "timestampString": "14:23:02",
+    "msgId": "7105267369320",
+    "cliMsgId": "1760167381878",
+    "msgType": "webchat",
+    "uidFrom": "4335876764763844887",
+    "idTo": "9104968216656954464",
+    "dName": "Nguyễn Trường An",
+    "content": "@Hà Y kệ mày",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
