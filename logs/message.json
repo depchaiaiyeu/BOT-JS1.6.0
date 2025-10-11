@@ -45,29 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760063458605": {
-    "timestamp": "1760063459220",
-    "timestampString": "09:30:59",
-    "msgId": "7100565357554",
-    "cliMsgId": "1760063458605",
-    "msgType": "chat.recommended",
-    "uidFrom": "986745654356237706",
-    "idTo": "7585160044864555896",
-    "dName": "Dương",
-    "content": {
-      "title": "https://zalo.me/g/adtizv535",
-      "description": "Bấm vào đây để tham gia nhóm trên Zalo",
-      "href": "https://zalo.me/g/adtizv535",
-      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv27d250ada641760063004aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMzk5MWQ5ZTY4ZjgwNjVkZTNjOTE=",
-      "childnumber": 0,
-      "action": "recommened.link",
-      "params": "{\"streamUrl\":\"\",\"mediaTitle\":\"𝔹𝕚𝕟𝕙 ℕ𝕘𝕦𝕪𝕖𝕟 𝕍𝕠 𝕋𝕒𝕟 𝔾𝕣𝕠𝕦𝕡\",\"stream_icon\":\"\",\"src\":\"zalo.me\",\"artist\":\"\",\"type\":0}",
-      "type": ""
-    },
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760063476156": {
     "timestamp": "1760063479915",
     "timestampString": "09:31:20",
