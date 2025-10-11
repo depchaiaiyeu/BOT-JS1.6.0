@@ -13385,5 +13385,43 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760175974028": {
+    "timestamp": "1760175974069",
+    "timestampString": "16:46:15",
+    "msgId": "7105714527248",
+    "cliMsgId": "1760175974028",
+    "msgType": "chat.delete",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 4802332726802385000,
+        "uidTo": 4699745045071010000,
+        "clientDelMsgId": 1760173275024,
+        "globalDelMsgId": 7105574480958,
+        "destId": 4699745045071010000
+      }
+    ],
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760175980295": {
+    "timestamp": "1760175980390",
+    "timestampString": "16:46:21",
+    "msgId": "7105714858923",
+    "cliMsgId": "1760175980295",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "@Ngọc Thúy key j",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
