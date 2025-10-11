@@ -12211,5 +12211,33 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760174265527": {
+    "timestamp": "1760174265603",
+    "timestampString": "16:17:46",
+    "msgId": "7105626524775",
+    "cliMsgId": "1760174265527",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Mà thôi bỏ",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760174272261": {
+    "timestamp": "1760174272316",
+    "timestampString": "16:17:53",
+    "msgId": "7105626867906",
+    "cliMsgId": "1760174272261",
+    "msgType": "webchat",
+    "uidFrom": "3770122344910096233",
+    "idTo": "5975420422762749911",
+    "dName": "ヅtrần Ân Ânヅ",
+    "content": "Lỗi chán",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
