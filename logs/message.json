@@ -45,43 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760066071106": {
-    "timestamp": "1760066071697",
-    "timestampString": "10:14:32",
-    "msgId": "7100766867390",
-    "cliMsgId": "1760066071106",
-    "msgType": "chat.recommended",
-    "uidFrom": "3192404472044781686",
-    "idTo": "6512342651301747547",
-    "dName": "Attack By Cún ツ",
-    "content": {
-      "title": "Attack By Cún ツ",
-      "description": "{\"phone\":\"Xin 1 Kết Bạn Acc Này❗\",\"qrCodeUrl\":\"https:\\/\\/f63-zpg-r.zdn.vn\\/jxl\\/527519073487074700\\/a18f7ffea16d17334e7c.jxl\",\"gUid\":\"KVTSBVJHJ4FKMSRC5HSJFDIS94NE3T00\"}",
-      "href": "www.zaloapp.com",
-      "thumb": "https://s120.avatar.talk.zdn.vn/4/f/9/8/5611/120/1d1c021baea168386b8c44c6ffc53437.jpg",
-      "childnumber": 0,
-      "action": "recommened.user",
-      "params": "3192404472044781686",
-      "type": ""
-    },
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760066071016": {
-    "timestamp": "1760066071618",
-    "timestampString": "10:14:32",
-    "msgId": "7100766854517",
-    "cliMsgId": "1760066071016",
-    "msgType": "webchat",
-    "uidFrom": "3192404472044781686",
-    "idTo": "6512342651301747547",
-    "dName": "Attack By Cún ツ",
-    "content": "<> Event 10 Card 100K + Share File 1M5 + 100 Acc FF + 100 Acc LQ + 100 Acc Roblox Vô Các Box Để Nhận ✅\n1. https://zalo.me/g/anutkd449\n2. https://zalo.me/g/vfqnjq442\n3. https://zalo.me/g/ubwqot992\n4. https://zalo.me/g/ltidqb070\n5. https://zalo.me/g/dpbusk119\n6. https://zalo.me/g/tujccc788 \n7. https://zalo.me/g/zpvepx042\n\nMua File Hỗ Trợ Kéo Tâm - Aim - Config - Reg - Data Inbox",
-    "threadId": "6512342651301747547",
-    "type": 1,
-    "isUndo": false
-  },
   "1760066176418": {
     "timestamp": "1760066177411",
     "timestampString": "10:16:18",
