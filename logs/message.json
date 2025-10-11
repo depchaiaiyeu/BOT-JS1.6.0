@@ -20336,5 +20336,56 @@
     "threadId": "6512342651301747547",
     "type": 1,
     "isUndo": false
+  },
+  "1760179343812": {
+    "timestamp": "1760179343726",
+    "timestampString": "17:42:24",
+    "msgId": "7105887355541",
+    "cliMsgId": "1760179343812",
+    "msgType": "webchat",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": "@Minh kco tele",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179345274": {
+    "timestamp": "1760179345215",
+    "timestampString": "17:42:25",
+    "msgId": "7105887429815",
+    "cliMsgId": "1760179345274",
+    "msgType": "chat.photo",
+    "uidFrom": "7719842335991277593",
+    "idTo": "7897564732983285154",
+    "dName": "Trọng Nghĩaᅐᅡ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/7aaa8db8b73b16654f2a/7039018201812154510?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":402,\"height\":220,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758368314608\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/7aaa8db8b73b16654f2a\\/7039018201812154510?creator=Tahn_bot.webp\",\"width\":402,\"height\":220,\"thumb\":\"\"},\"contentId\":\"1758368314608\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760179348985": {
+    "timestamp": "1760179349082",
+    "timestampString": "17:42:29",
+    "msgId": "7105887630020",
+    "cliMsgId": "1760179348985",
+    "msgType": "webchat",
+    "uidFrom": "8223546026622716964",
+    "idTo": "1367422010794969537",
+    "dName": "Vũ VĂN Dũng",
+    "content": "@Vinh nhóm hoạt động về cái gì vậy",
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
