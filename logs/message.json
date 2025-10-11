@@ -1955,5 +1955,28 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760165695825": {
+    "timestamp": "1760165697200",
+    "timestampString": "13:54:58",
+    "msgId": "7105190958305",
+    "cliMsgId": "1760165695825",
+    "msgType": "chat.photo",
+    "uidFrom": "5024283440221658498",
+    "idTo": "2760006576081013366",
+    "dName": "Nhímツ",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/983161086421588557/4fc42e6ffe03735d2a12.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/983161086421588557/4fc42e6ffe03735d2a12.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":720,\"height\":518,\"is_group_layout\":0,\"contentId\":\"1000000343\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "2760006576081013366",
+    "type": 1,
+    "isUndo": false
   }
 }
