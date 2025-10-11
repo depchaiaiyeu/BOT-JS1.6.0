@@ -10954,5 +10954,65 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760172572287": {
+    "timestamp": "1760172572351",
+    "timestampString": "15:49:33",
+    "msgId": "7105536618999",
+    "cliMsgId": "1760172572287",
+    "msgType": "webchat",
+    "uidFrom": "1847479899180587928",
+    "idTo": "4825567233436439756",
+    "dName": "Nguyễn Hoàng Bảo Hưng",
+    "content": "Chuyển file qua js mà ko tương thích quái lạ",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172575482": {
+    "timestamp": "1760172575848",
+    "timestampString": "15:49:36",
+    "msgId": "7105536816477",
+    "cliMsgId": "1760172575482",
+    "msgType": "chat.photo",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f37-zfcloud.zdn.vn/40053f2b19a8b8f6e1b9/3738189757002887848?createby=NDQ_Bot.webp",
+      "thumb": "https://f37-zfcloud.zdn.vn/40053f2b19a8b8f6e1b9/3738189757002887848?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":516,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758371365301\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f37-zfcloud.zdn.vn\\/40053f2b19a8b8f6e1b9\\/3738189757002887848?createby=NDQ_Bot.webp\",\"width\":512,\"height\":516,\"thumb\":\"\"},\"contentId\":\"1758371365301\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172592701": {
+    "timestamp": "1760172594464",
+    "timestampString": "15:49:55",
+    "msgId": "7105537847135",
+    "cliMsgId": "1760172592701",
+    "msgType": "chat.photo",
+    "uidFrom": "4044003254599435812",
+    "idTo": "1367422010794969537",
+    "dName": "Nguyen Thuy An",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f65-zpg-r.zdn.vn/1499254833493887112/dd2d63e8f58778d92196.jpg",
+      "thumb": "https://t-f65-zpg-r.zdn.vn/480/1499254833493887112/dd2d63e8f58778d92196.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1280,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f65-zpg-r.zdn.vn\\/1499254833493887112\\/dd2d63e8f58778d92196.jpg\",\"hdSize\":344622,\"height\":392}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
