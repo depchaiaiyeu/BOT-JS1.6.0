@@ -10101,5 +10101,33 @@
     "threadId": "5464956150740844012",
     "type": 1,
     "isUndo": false
+  },
+  "1760171710785": {
+    "timestamp": "1760171710833",
+    "timestampString": "15:35:12",
+    "msgId": "7105488775971",
+    "cliMsgId": "1760171710785",
+    "msgType": "webchat",
+    "uidFrom": "1142387018011915489",
+    "idTo": "5464956150740844012",
+    "dName": "Nguyễn Đức Anh",
+    "content": "còn 154acc clone cổ radom 2k9-2k15 acc k vô đc acc vô đc chưa very j hết giá 1k 1acc min 10acc ai mua ib em nhé",
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760171728749": {
+    "timestamp": "1760171729200",
+    "timestampString": "15:35:30",
+    "msgId": "7105489769004",
+    "cliMsgId": "1760171728749",
+    "msgType": "webchat",
+    "uidFrom": "986745654356237706",
+    "idTo": "7585160044864555896",
+    "dName": "Dương",
+    "content": ".",
+    "threadId": "7585160044864555896",
+    "type": 1,
+    "isUndo": false
   }
 }

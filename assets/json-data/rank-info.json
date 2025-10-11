@@ -4281,8 +4281,8 @@
         {
           "UserName": "Dương",
           "UID": "986745654356237706",
-          "Rank": 34,
-          "messageCountToday": 9,
+          "Rank": 36,
+          "messageCountToday": 11,
           "lastMessageDate": "2025-10-11"
         },
         {
@@ -5953,6 +5953,13 @@
         {
           "UserName": "Nguyen Huu Phuc",
           "UID": "6626704731319782605",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Nguyễn Đức Anh",
+          "UID": "1142387018011915489",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"
