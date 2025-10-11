@@ -45,52 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760066503406": {
-    "timestamp": "1760066506294",
-    "timestampString": "10:21:47",
-    "msgId": "7100800548829",
-    "cliMsgId": "1760066503406",
-    "msgType": "chat.photo",
-    "uidFrom": "6684539579669314047",
-    "idTo": "4699745045071009795",
-    "dName": "亗彡ヅnakashima Misakiヅ彡亗",
-    "content": {
-      "title": "Đt cần thở oxy gấp💔💔💔",
-      "description": "",
-      "href": "https://f59-zpg-r.zdn.vn/jpg/3708047087795266561/538c827e2120ac7ef531.jpg",
-      "thumb": "https://f59-zpg-r.zdn.vn/jpg/3708047087795266561/538c827e2120ac7ef531.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":720,\"height\":155,\"hd\":\"https:\\/\\/f59-zpg-r.zdn.vn\\/jpg\\/3708047087795266561\\/538c827e2120ac7ef531.jpg\",\"is_group_layout\":0,\"contentId\":\"12061\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "4699745045071009795",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760066503681": {
-    "timestamp": "1760066507178",
-    "timestampString": "10:21:47",
-    "msgId": "7100800615104",
-    "cliMsgId": "1760066503681",
-    "msgType": "chat.photo",
-    "uidFrom": "6684539579669314047",
-    "idTo": "5975420422762749911",
-    "dName": "亗彡ヅnakashima Misakiヅ彡亗",
-    "content": {
-      "title": "Đt cần thở oxy gấp💔💔💔",
-      "description": "",
-      "href": "https://f59-zpg-r.zdn.vn/jpg/3708047087795266561/538c827e2120ac7ef531.jpg",
-      "thumb": "https://f59-zpg-r.zdn.vn/jpg/3708047087795266561/538c827e2120ac7ef531.jpg",
-      "childnumber": 0,
-      "action": "",
-      "params": "{\"width\":720,\"height\":155,\"hd\":\"https:\\/\\/f59-zpg-r.zdn.vn\\/jpg\\/3708047087795266561\\/538c827e2120ac7ef531.jpg\",\"is_group_layout\":0,\"contentId\":\"12061\",\"convertible\":\"jxl\",\"is_original\":0}",
-      "type": ""
-    },
-    "threadId": "5975420422762749911",
-    "type": 1,
-    "isUndo": false
-  },
   "1760066703441": {
     "timestamp": "1760066703564",
     "timestampString": "10:25:04",
