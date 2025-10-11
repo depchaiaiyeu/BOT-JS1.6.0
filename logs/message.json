@@ -2319,5 +2319,65 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760166126773": {
+    "timestamp": "1760166126865",
+    "timestampString": "14:02:07",
+    "msgId": "7105209944865",
+    "cliMsgId": "1760166126773",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": ".prs edit noidung 🐧 Box của ae mình https://zalo.me/g/aqnsnu019 🐧 \n🎨 Nhận thiết kế banner, hình ảnh đẹp mắt – chuyên nghiệp – theo yêu cầu\n🚀 Nhận buff MXH all nền tảng: Facebook, TikTok, Instagram, YouTube… tăng tương tác cực nhanh\n⭐ Buff fl FB: 3k – 1k follow – kéo số dễ dàng, lên profile nhìn xịn sò ngay\n\n👉 Tất cả dịch vụ được triển khai bởi Thái An – làm việc uy tín, nhanh gọn, chất lượng cao 💯\nLiên hệ ngay để trải nghiệm dịch vụ tốt nhất ✨",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056099676027200": {
+    "timestamp": "1760166126960",
+    "timestampString": "14:02:07",
+    "msgId": "7105209930032",
+    "cliMsgId": "1056099676027200",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "Karic\nTao đã là thành viên của nhóm này!",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":34,\"st\":\"b,c_db342e,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760166127354": {
+    "timestamp": "1760166127397",
+    "timestampString": "14:02:08",
+    "msgId": "7105209957109",
+    "cliMsgId": "1760166127354",
+    "msgType": "webchat",
+    "uidFrom": "4405826118661077023",
+    "idTo": "9104968216656954464",
+    "dName": "Karic",
+    "content": {
+      "title": "Karic\n/-li Thai An /-li\nĐã cập nhật nội dung cấu hình cho tính năng gửi tin nhắn định kỳ.\n✅✅✅",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":17,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
   }
 }
