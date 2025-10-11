@@ -6118,5 +6118,42 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1056101209714200": {
+    "timestamp": "1760168682917",
+    "timestampString": "14:44:44",
+    "msgId": "7105328757817",
+    "cliMsgId": "1056101209714200",
+    "msgType": "webchat",
+    "uidFrom": "8883043929667296381",
+    "idTo": "5975420422762749911",
+    "dName": "Bot Của Minh Tuan",
+    "content": {
+      "title": "Minh Tuan\nBot Cua Minh Tuan 👀 /-break\nLink: https://b-f59-zpg-r.zdn.vn/977384414082506242/6fca048e95e218bc41f3.jpg",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":10,\"len\":28,\"st\":\"b,c_db342e,f_18\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168681900": {
+    "timestamp": "1760168682817",
+    "timestampString": "14:44:44",
+    "msgId": "7105328735292",
+    "cliMsgId": "1760168681900",
+    "msgType": "webchat",
+    "uidFrom": "4001210754401849788",
+    "idTo": "5975420422762749911",
+    "dName": "Minh Tuan",
+    "content": "@A Sìn ,gl",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
