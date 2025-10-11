@@ -30003,5 +30003,79 @@
     "threadId": "4825567233436439756",
     "type": 1,
     "isUndo": false
+  },
+  "1760183165809": {
+    "timestamp": "1760183165867",
+    "timestampString": "18:46:12",
+    "msgId": "7106087854798",
+    "cliMsgId": "1760183165809",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".listadmin",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183172703": {
+    "timestamp": "1760183172815",
+    "timestampString": "18:46:13",
+    "msgId": "7106088203021",
+    "cliMsgId": "1760183172703",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "4699745045071009795",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Danh sách quản trị viên",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/4893028646322287196/1fe805f8cb9146cf1f80.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/4893028646322287196/1fe805f8cb9146cf1f80.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":800,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/4893028646322287196\\/1fe805f8cb9146cf1f80.jpg\",\"hdSize\":109340,\"height\":770}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183181462": {
+    "timestamp": "1760183181460",
+    "timestampString": "18:46:26",
+    "msgId": "7106088678868",
+    "cliMsgId": "1760183181462",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".listadmin",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183186013": {
+    "timestamp": "1760183186118",
+    "timestampString": "18:46:26",
+    "msgId": "7106088920040",
+    "cliMsgId": "1760183186013",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Danh sách quản trị viên",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/4315366794186401494/1d787fddb0b43dea64a5.jpg",
+      "thumb": "https://t-f62-zpg-r.zdn.vn/480/4315366794186401494/1d787fddb0b43dea64a5.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":800,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f62-zpg-r.zdn.vn\\/4315366794186401494\\/1d787fddb0b43dea64a5.jpg\",\"hdSize\":91370,\"height\":650}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
