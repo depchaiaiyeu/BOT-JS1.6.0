@@ -37352,5 +37352,97 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760186438968": {
+    "timestamp": "1760186439425",
+    "timestampString": "19:40:40",
+    "msgId": "7106263424178",
+    "cliMsgId": "1760186438968",
+    "msgType": "chat.photo",
+    "uidFrom": "6078954320375605607",
+    "idTo": "5975420422762749911",
+    "dName": "Thiên Phúc",
+    "content": {
+      "title": "💔 Chào tạm biệt Mai Ngoc Han 🤧 \nvào lúc 11/10/2025 [19:10:34] \nsố thành viên còn lại: 140",
+      "description": "",
+      "href": "https://f59-zpg-r.zdn.vn/6305743876643422347/8dff173e5956d4088d47.jpg",
+      "thumb": "https://t-f59-zpg-r.zdn.vn/480/6305743876643422347/8dff173e5956d4088d47.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":600,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f59-zpg-r.zdn.vn\\/6305743876643422347\\/8dff173e5956d4088d47.jpg\",\"hdSize\":344622,\"height\":300}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186439560": {
+    "timestamp": "1760186439754",
+    "timestampString": "19:40:40",
+    "msgId": "7106263479338",
+    "cliMsgId": "1760186439560",
+    "msgType": "chat.photo",
+    "uidFrom": "3655986617792360327",
+    "idTo": "5975420422762749911",
+    "dName": "Vịt Con",
+    "content": {
+      "title": "💔 Mai Ngoc Han",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/1908289502645084336/ec011fd951b1dcef85a0.jpg",
+      "thumb": "https://t-f61-zpg-r.zdn.vn/480/1908289502645084336/ec011fd951b1dcef85a0.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"sendSource\":1,\"id_in_group\":0,\"is_group_layout\":1,\"fileSize\":247671,\"thumbSize\":53932,\"width\":1010,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f61-zpg-r.zdn.vn\\/1908289502645084336\\/ec011fd951b1dcef85a0.jpg\",\"hdSize\":344622,\"group_layout_id\":1760186439555,\"height\":435,\"total_item_in_group\":1}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186453246": {
+    "timestamp": "1760186453253",
+    "timestampString": "19:40:54",
+    "msgId": "7106264225854",
+    "cliMsgId": "1760186453246",
+    "msgType": "chat.sticker",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": {
+      "id": 6,
+      "catId": 0,
+      "type": 2
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186456065": {
+    "timestamp": "1760186456163",
+    "timestampString": "19:40:56",
+    "msgId": "7106264371945",
+    "cliMsgId": "1760186456065",
+    "msgType": "webchat",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": "bruh",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760186463725": {
+    "timestamp": "1760186463754",
+    "timestampString": "19:41:04",
+    "msgId": "7106264800746",
+    "cliMsgId": "1760186463725",
+    "msgType": "webchat",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": "V th t đi rủ mấy thg gánh t cái",
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
