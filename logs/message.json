@@ -550,5 +550,28 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760164424481": {
+    "timestamp": "1760164424539",
+    "timestampString": "13:33:45",
+    "msgId": "7105136654797",
+    "cliMsgId": "1760164424481",
+    "msgType": "chat.photo",
+    "uidFrom": "7159173789925726305",
+    "idTo": "4699745045071009795",
+    "dName": "Bắc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/299632e15a6efb30a27f/6369645281810494206?createby=NDQ_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/299632e15a6efb30a27f/6369645281810494206?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":282,\"height\":282,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1758734105898\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/299632e15a6efb30a27f\\/6369645281810494206?createby=NDQ_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1758734105898\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
