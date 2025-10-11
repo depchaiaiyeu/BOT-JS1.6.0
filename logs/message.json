@@ -5514,5 +5514,257 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760168366876": {
+    "timestamp": "1760168369401",
+    "timestampString": "14:39:30",
+    "msgId": "7105313768801",
+    "cliMsgId": "1760168366876",
+    "msgType": "chat.photo",
+    "uidFrom": "8725561116165082924",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Hoài Hậu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/8727880130322882311/f06dfdefad8020de7991.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/8727880130322882311/f06dfdefad8020de7991.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1176,\"height\":720,\"is_group_layout\":0,\"contentId\":\"1000361870\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168369541": {
+    "timestamp": "1760168369554",
+    "timestampString": "14:39:30",
+    "msgId": "7105313768037",
+    "cliMsgId": "1760168369541",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8725561116165083000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760168366876,
+        "globalDelMsgId": 7105313768801,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168369603": {
+    "timestamp": "1760168369621",
+    "timestampString": "14:39:30",
+    "msgId": "7105313768057",
+    "cliMsgId": "1760168369603",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nNguyễn Hoài Hậu\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168370372": {
+    "timestamp": "1760168370441",
+    "timestampString": "14:39:30",
+    "msgId": "7105313819150",
+    "cliMsgId": "1760168370372",
+    "msgType": "webchat",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": "@Con Mèo Cute nghe",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168374214": {
+    "timestamp": "1760168374303",
+    "timestampString": "14:39:34",
+    "msgId": "7105314001923",
+    "cliMsgId": "1760168374214",
+    "msgType": "chat.photo",
+    "uidFrom": "1097350646085407745",
+    "idTo": "9104968216656954464",
+    "dName": "Hà Y",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/a822aac1e6fb47a51eea/1004662211639104675?createby=NguyễnPhiHoàng_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/a822aac1e6fb47a51eea/1004662211639104675?createby=NguyễnPhiHoàng_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":432,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1751271183655\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/a822aac1e6fb47a51eea\\/1004662211639104675?createby=NguyễnPhiHoàng_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1751271183655\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168377678": {
+    "timestamp": "1760168377934",
+    "timestampString": "14:39:38",
+    "msgId": "7105314173645",
+    "cliMsgId": "1760168377678",
+    "msgType": "chat.photo",
+    "uidFrom": "8725561116165082924",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Hoài Hậu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f67-zpg-r.zdn.vn/jpg/8727880130322882311/f06dfdefad8020de7991.jpg",
+      "thumb": "https://f67-zpg-r.zdn.vn/jpg/8727880130322882311/f06dfdefad8020de7991.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1176,\"height\":720,\"is_group_layout\":0,\"contentId\":\"1000361870\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168378091": {
+    "timestamp": "1760168378126",
+    "timestampString": "14:39:39",
+    "msgId": "7105314182241",
+    "cliMsgId": "1760168378091",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8725561116165083000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760168377678,
+        "globalDelMsgId": 7105314173645,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168379378": {
+    "timestamp": "1760168379434",
+    "timestampString": "14:39:39",
+    "msgId": "7105314245229",
+    "cliMsgId": "1760168379378",
+    "msgType": "webchat",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": "@Hà Y :))",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168391226": {
+    "timestamp": "1760168391314",
+    "timestampString": "14:39:52",
+    "msgId": "7105314807645",
+    "cliMsgId": "1760168391226",
+    "msgType": "webchat",
+    "uidFrom": "6164242129945182128",
+    "idTo": "9104968216656954464",
+    "dName": "Con Mèo Cute",
+    "content": "@Hà Y quen quen",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168391484": {
+    "timestamp": "1760168391674",
+    "timestampString": "14:39:52",
+    "msgId": "7105314823482",
+    "cliMsgId": "1760168391484",
+    "msgType": "chat.photo",
+    "uidFrom": "8725561116165082924",
+    "idTo": "5601607522756268167",
+    "dName": "Nguyễn Hoài Hậu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://photo-stal-2.zdn.vn/gr/jpg/7fddf3693a9ecec0978f/3607620501980968800.jpg",
+      "thumb": "https://photo-stal-2.zdn.vn/gr/jpg/7fddf3693a9ecec0978f/3607620501980968800.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":976,\"height\":720,\"is_group_layout\":0,\"contentId\":\"1000361864\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168391807": {
+    "timestamp": "1760168391821",
+    "timestampString": "14:39:52",
+    "msgId": "7105314830389",
+    "cliMsgId": "1760168391807",
+    "msgType": "chat.delete",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 8725561116165083000,
+        "uidTo": 5601607522756268000,
+        "clientDelMsgId": 1760168391484,
+        "globalDelMsgId": 7105314823482,
+        "destId": 5601607522756268000
+      }
+    ],
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760168391871": {
+    "timestamp": "1760168391882",
+    "timestampString": "14:39:52",
+    "msgId": "7105314830411",
+    "cliMsgId": "1760168391871",
+    "msgType": "webchat",
+    "uidFrom": "7932651424748149037",
+    "idTo": "5601607522756268167",
+    "dName": "Ktctue",
+    "content": {
+      "title": "➜ [ANTI-PHOTO]\nNguyễn Hoài Hậu\n➜ 🚦 Nhóm chúng tôi có quy định không được gửi ảnh. Đây là lần nhắc nhở đầu tiên.",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\": [{\"start\": 2, \"len\": 12, \"st\": \"c_db342e\"}, {\"start\": 2, \"len\": 12, \"st\": \"b\"}], \"ver\": 0}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
