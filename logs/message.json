@@ -29645,5 +29645,19 @@
     "threadId": "2990969618896538297",
     "type": 1,
     "isUndo": false
+  },
+  "1760182805014": {
+    "timestamp": "1760182805517",
+    "timestampString": "18:40:06",
+    "msgId": "7106068759262",
+    "cliMsgId": "1760182805014",
+    "msgType": "webchat",
+    "uidFrom": "3875953011135749873",
+    "idTo": "2990969618896538297",
+    "dName": "Thành Nhân",
+    "content": "@Phạm Hoàng Hải Hỏ",
+    "threadId": "2990969618896538297",
+    "type": 1,
+    "isUndo": false
   }
 }
