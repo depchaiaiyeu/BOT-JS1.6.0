@@ -31004,5 +31004,74 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760142081940": {
+    "timestamp": "1760142093773",
+    "timestampString": "07:21:34",
+    "msgId": "7103965702477",
+    "cliMsgId": "1760142081940",
+    "msgType": "chat.voice",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://voice-aac-dl.zdn.vn/2703602452672730548/5c9f147193fc7da224ed.aac",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"m4a\":\"https:\\/\\/voice-aac-dl.zdn.vn\\/2703602452672730548\\/5c9f147193fc7da224ed.aac\",\"duration\":11456,\"fileSize\":92901,\"waveformSamples\":[1264,10598,22795,15903,25388,18402,19541,21079,22622,20512,18948,15321,18942,23355,19117,18322,13875,17498,22244,13520,13007,20384,15467]}",
+      "type": ""
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142107785": {
+    "timestamp": "1760142107863",
+    "timestampString": "07:21:48",
+    "msgId": "7103966112276",
+    "cliMsgId": "1760142107785",
+    "msgType": "chat.sticker",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "id": 46970,
+      "catId": 12003,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142113431": {
+    "timestamp": "1760142113495",
+    "timestampString": "07:21:53",
+    "msgId": "7103966275262",
+    "cliMsgId": "1760142113431",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "sáng t cũng có rảnh đâu=))))))))",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760142117761": {
+    "timestamp": "1760142117841",
+    "timestampString": "07:21:58",
+    "msgId": "7103966395741",
+    "cliMsgId": "1760142117761",
+    "msgType": "webchat",
+    "uidFrom": "6593064319472911684",
+    "idTo": "5601607522756268167",
+    "dName": "Kim Thanhh",
+    "content": "hùa theo lj",
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
