@@ -1063,9 +1063,9 @@
         {
           "UserName": "Bùi Hiếu",
           "UID": "2623964646848540497",
-          "Rank": 163,
-          "messageCountToday": 0,
-          "lastMessageDate": "2025-10-10"
+          "Rank": 164,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
         },
         {
           "UserName": "Phúc Lâmッ",
@@ -7260,6 +7260,13 @@
         {
           "UserName": "Minh An",
           "UID": "7574622702772295205",
+          "Rank": 1,
+          "messageCountToday": 1,
+          "lastMessageDate": "2025-10-11"
+        },
+        {
+          "UserName": "Quang Thanh",
+          "UID": "3020852789065032919",
           "Rank": 1,
           "messageCountToday": 1,
           "lastMessageDate": "2025-10-11"

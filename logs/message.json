@@ -10523,5 +10523,42 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760172273384": {
+    "timestamp": "1760172273516",
+    "timestampString": "15:44:34",
+    "msgId": "7105519919197",
+    "cliMsgId": "1760172273384",
+    "msgType": "webchat",
+    "uidFrom": "3020852789065032919",
+    "idTo": "3228108398535377399",
+    "dName": "Quang Thanh",
+    "content": "Haizzz",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172295511": {
+    "timestamp": "1760172295574",
+    "timestampString": "15:44:56",
+    "msgId": "7105521166472",
+    "cliMsgId": "1760172295511",
+    "msgType": "chat.photo",
+    "uidFrom": "2623964646848540497",
+    "idTo": "4825567233436439756",
+    "dName": "Bùi Hiếu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f36-zfcloud.zdn.vn/321c4227e1b440ea19a5/4974075336062261184?createby=TTN_Bot.webp",
+      "thumb": "https://f36-zfcloud.zdn.vn/321c4227e1b440ea19a5/4974075336062261184?createby=TTN_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":512,\"height\":554,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759956764016\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f36-zfcloud.zdn.vn\\/321c4227e1b440ea19a5\\/4974075336062261184?createby=TTN_Bot.webp\",\"width\":0,\"height\":0,\"thumb\":\"\"},\"contentId\":\"1759956764016\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
