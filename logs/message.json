@@ -15822,5 +15822,88 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760177567343": {
+    "timestamp": "1760177567383",
+    "timestampString": "17:12:48",
+    "msgId": "7105797592207",
+    "cliMsgId": "1760177567343",
+    "msgType": "webchat",
+    "uidFrom": "3029158015934153266",
+    "idTo": "4825567233436439756",
+    "dName": "Lee Hằngg",
+    "content": "Duma mấy con chó",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056106541403000": {
+    "timestamp": "1760177569018",
+    "timestampString": "17:12:49",
+    "msgId": "7105797646698",
+    "cliMsgId": "1056106541403000",
+    "msgType": "webchat",
+    "uidFrom": "8602274286000699226",
+    "idTo": "9104968216656954464",
+    "dName": "Bánh Bông Lan",
+    "content": "༺━Xin Phép Các Admin━༻\n       𝙉𝙝𝙖𝙣 𝙍𝙖𝙞 𝙇𝙞𝙣𝙠 𝙏𝙝𝙪𝙚 𝙄𝙗 𝙏𝙪𝙞\n༺━━Điểm mạnh━━༻\nHoạt động 24/7🦾\nỔn định💯\n༺━━Bảng giá━━━༻\n➣Ngày 5K\n➣Tuần 30K\n➣Tháng 60K\n༺━━Buff MXH━━༻\nSub mượt anh em chạy sub rate 3.5 nhắn tele @cskhlike1s nhé, ngày done 3-500k sub tuỳ thời điểm, tốc độ có thể thay đổi\n100.000 follow chỉ 350k quá ok anh em\n1tr fl chỉ 3tr5\nZl 0364057777\nBao k tụt, cân t.g anh em g.d\n༺━━━Em Cảm Ơn━━━༻",
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1056106541431200": {
+    "timestamp": "1760177569086",
+    "timestampString": "17:12:49",
+    "msgId": "7105797646710",
+    "cliMsgId": "1056106541431200",
+    "msgType": "chat.recommended",
+    "uidFrom": "8602274286000699226",
+    "idTo": "9104968216656954464",
+    "dName": "Bánh Bông Lan",
+    "content": {
+      "title": "Bánh Bông Lan",
+      "description": "{\"phone\":\"Danh Thiếp Liên Hệ\",\"qrCodeUrl\":\"https:\\/\\/qr-talk.zdn.vn\\/1\\/669739264\\/a4a01cfce4a00dfe54b1.jpg\",\"gUid\":\"1K6AQHC56N8RV1OBR0HDQNDIT9JJ67O0\"}",
+      "href": "www.zaloapp.com",
+      "thumb": "https://s120.avatar.talk.zdn.vn/5/c/3/b/16/120/df6bc0e893d61d227cc2526fa56edc41.jpg",
+      "childnumber": 0,
+      "action": "recommened.user",
+      "params": "8602274286000699226",
+      "type": ""
+    },
+    "threadId": "9104968216656954464",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177577322": {
+    "timestamp": "1760177577360",
+    "timestampString": "17:12:58",
+    "msgId": "7105798096149",
+    "cliMsgId": "1760177577322",
+    "msgType": "webchat",
+    "uidFrom": "3029158015934153266",
+    "idTo": "4825567233436439756",
+    "dName": "Lee Hằngg",
+    "content": "Ai vô nhóm em call box vậy?",
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177579235": {
+    "timestamp": "1760177579288",
+    "timestampString": "17:12:59",
+    "msgId": "7105798195062",
+    "cliMsgId": "1760177579235",
+    "msgType": "chat.sticker",
+    "uidFrom": "6424181692237029148",
+    "idTo": "4699745045071009795",
+    "dName": "Htth",
+    "content": {
+      "id": 50614,
+      "catId": 12658,
+      "type": 3
+    },
+    "threadId": "4699745045071009795",
+    "type": 1,
+    "isUndo": false
   }
 }
