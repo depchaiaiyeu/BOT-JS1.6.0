@@ -30077,5 +30077,149 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760183195904": {
+    "timestamp": "1760183195959",
+    "timestampString": "18:46:45",
+    "msgId": "7106089443681",
+    "cliMsgId": "1760183195904",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": ".tt sao phải khóc",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183204898": {
+    "timestamp": "1760183205002",
+    "timestampString": "18:46:45",
+    "msgId": "7106089920844",
+    "cliMsgId": "1760183204898",
+    "msgType": "chat.photo",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "@Vũ Xuân Kiên\nĐây là danh sách video tôi tìm thấy:\nHãy trả lời tin nhắn này với số thứ tự video bạn muốn xem!\nVD: 1 hoặc 1 audio",
+      "description": "",
+      "href": "https://f56-zpg-r.zdn.vn/7640415237044854627/9ab67822b74b3a15635a.jpg",
+      "thumb": "https://t-f56-zpg-r.zdn.vn/480/7640415237044854627/9ab67822b74b3a15635a.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1538,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/b-f56-zpg-r.zdn.vn\\/7640415237044854627\\/9ab67822b74b3a15635a.jpg\",\"hdSize\":419914,\"height\":790}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183209416": {
+    "timestamp": "1760183209524",
+    "timestampString": "18:46:49",
+    "msgId": "7106090133034",
+    "cliMsgId": "1760183209416",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "Vũ Xuân Kiên\nChờ bé lấy video một chút, xong bé gọi cho hay!\n📊 Chất lượng: 540p",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":13,\"len\":67,\"st\":\"b,c_f7b503,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183209179": {
+    "timestamp": "1760183209283",
+    "timestampString": "18:46:50",
+    "msgId": "7106090133023",
+    "cliMsgId": "1760183209179",
+    "msgType": "chat.delete",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": [
+      {
+        "type": 3,
+        "actionType": 1,
+        "uidFrom": 690483581226941800,
+        "uidTo": 5975420422762750000,
+        "clientDelMsgId": 1760183204898,
+        "globalDelMsgId": 7106089920844,
+        "destId": 5975420422762750000
+      }
+    ],
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183208745": {
+    "timestamp": "1760183208784",
+    "timestampString": "18:46:56",
+    "msgId": "7106090122432",
+    "cliMsgId": "1760183208745",
+    "msgType": "webchat",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": "1",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183215869": {
+    "timestamp": "1760183215979",
+    "timestampString": "18:46:57",
+    "msgId": "7106090454904",
+    "cliMsgId": "1760183215869",
+    "msgType": "chat.video.msg",
+    "uidFrom": "690483581226941870",
+    "idTo": "5975420422762749911",
+    "dName": "Vũ Xuân Kiên",
+    "content": {
+      "title": "[ Vũ Xuân Kiên ]\nAuthor: [nhth2306] Suy🌕\nDescription: Sao phải khóc… 😔 #lyrics #nhachaymoingay #tamtrang #rap \n📊 Chất lượng: 540p\n💗 Thả tim để xem thông tin author",
+      "description": "",
+      "href": "https://fg43.dlfl.vn/ce978958a3c4029a5bd5/7631292975908579844",
+      "thumb": "https://fg43.dlfl.vn/ce978958a3c4029a5bd5/7631292975908579844",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":36866,\"video_height\":1024,\"fileSize\":1375454,\"video_width\":576}",
+      "type": ""
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760183217918": {
+    "timestamp": "1760183218053",
+    "timestampString": "18:46:58",
+    "msgId": "7106090610664",
+    "cliMsgId": "1760183217918",
+    "msgType": "chat.photo",
+    "uidFrom": "7251491771286693785",
+    "idTo": "4825567233436439756",
+    "dName": "Mai Quoc Trieu",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f34-zfcloud.zdn.vn/cbe7e92635cd9493cddc/2511917487322670827?createby=NDQ_Bot.webp",
+      "thumb": "https://f34-zfcloud.zdn.vn/cbe7e92635cd9493cddc/2511917487322670827?createby=NDQ_Bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1756024052901\",\"height\":328,\"thumb_height\":328,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":512,\"width\":512,\"webp\":{\"url\":\"https:\\/\\/f34-zfcloud.zdn.vn\\/cbe7e92635cd9493cddc\\/2511917487322670827?createby=NDQ_Bot.webp\"}}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
