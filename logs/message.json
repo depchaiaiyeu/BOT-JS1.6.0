@@ -30708,5 +30708,23 @@
     "threadId": "5601607522756268167",
     "type": 1,
     "isUndo": false
+  },
+  "1760141882315": {
+    "timestamp": "1760141882387",
+    "timestampString": "07:18:03",
+    "msgId": "7103959612329",
+    "cliMsgId": "1760141882315",
+    "msgType": "chat.sticker",
+    "uidFrom": "4349248820197918304",
+    "idTo": "5601607522756268167",
+    "dName": "Huỳnh Đức",
+    "content": {
+      "id": 16715,
+      "catId": 10047,
+      "type": 3
+    },
+    "threadId": "5601607522756268167",
+    "type": 1,
+    "isUndo": false
   }
 }
