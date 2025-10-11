@@ -37377,5 +37377,28 @@
     "threadId": "5166581134204343688",
     "type": 1,
     "isUndo": false
+  },
+  "1760144900040": {
+    "timestamp": "1760144901493",
+    "timestampString": "08:08:23",
+    "msgId": "7104063152649",
+    "cliMsgId": "1760144900040",
+    "msgType": "chat.recommended",
+    "uidFrom": "4542058145181881907",
+    "idTo": "3453989112147091924",
+    "dName": "Vũ Đào",
+    "content": {
+      "title": "https://zalo.me/g/abuwsv334 ae đủ 350tv t cho even lớn",
+      "description": "Bấm vào đây để tham gia cộng đồng trên Zalo",
+      "href": "https://zalo.me/g/abuwsv334",
+      "thumb": "https://photo-link-talk.zadn.vn/photolinkv2/720/zlv253d93348611760144811aHR0cHM6Ly9xci56YWxvLm1lL3NsLzIvMzAyY2YzOWM5ZGZhNzdhNDJlZWI=",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"zalo.me\",\"mediaTitle\":\"KYC VŨ ĐÀO (DRAGON)\",\"streamUrl\":\"\",\"type\":0,\"linkType\":12,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/zalo.me\\/g\\/abuwsv334\",\"owner\":{\"id\":443872952,\"avt\":\"\",\"dispname\":\"zalo.me\"},\"params\":{\"autoplay\":0},\"dimen\":{\"width\":0,\"height\":0,\"latitude\":0,\"longitude\":0,\"created_time\":0,\"file_name\":\"\",\"file_size\":0,\"has_device_info\":false},\"tType\":1,\"tWidth\":486,\"tHeight\":256,\"errorMap\":\"{}\",\"avatar\":\"https:\\/\\/s120-ava-grp-talk.zadn.vn\\/7\\/c\\/6\\/d\\/4\\/120\\/51ee9f93997756d90e2c84b6aa1d36ca.jpg\",\"thumb_src_type\":0,\"link_sub_type\":2}",
+      "type": ""
+    },
+    "threadId": "3453989112147091924",
+    "type": 1,
+    "isUndo": false
   }
 }
