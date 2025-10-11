@@ -45,34 +45,6 @@
     "type": 1,
     "isUndo": false
   },
-  "1760063101947": {
-    "timestamp": "1760063102348",
-    "timestampString": "09:25:03",
-    "msgId": "7100538537678",
-    "cliMsgId": "1760063101947",
-    "msgType": "webchat",
-    "uidFrom": "9210252485480501226",
-    "idTo": "7585160044864555896",
-    "dName": "Con Mèo",
-    "content": "mời bot là tới em luôn á",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
-  "1760063155080": {
-    "timestamp": "1760063155314",
-    "timestampString": "09:25:56",
-    "msgId": "7100542496983",
-    "cliMsgId": "1760063155080",
-    "msgType": "webchat",
-    "uidFrom": "9210252485480501226",
-    "idTo": "7585160044864555896",
-    "dName": "Con Mèo",
-    "content": "@Danny roi thk này nữa",
-    "threadId": "7585160044864555896",
-    "type": 1,
-    "isUndo": false
-  },
   "1760063166581": {
     "timestamp": "1760063166612",
     "timestampString": "09:26:07",
