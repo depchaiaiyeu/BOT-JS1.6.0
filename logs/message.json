@@ -10078,5 +10078,28 @@
     "threadId": "9104968216656954464",
     "type": 1,
     "isUndo": false
+  },
+  "1760171653213": {
+    "timestamp": "1760171653255",
+    "timestampString": "15:34:15",
+    "msgId": "7105485658421",
+    "cliMsgId": "1760171653213",
+    "msgType": "chat.photo",
+    "uidFrom": "6626704731319782605",
+    "idTo": "5464956150740844012",
+    "dName": "Nguyen Huu Phuc",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/e8ea4528bebf1fe146ae/5373971911299930920?creator=Tahn_bot.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/e8ea4528bebf1fe146ae/5373971911299930920?creator=Tahn_bot.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":219,\"height\":216,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1759500885494\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/e8ea4528bebf1fe146ae\\/5373971911299930920?creator=Tahn_bot.webp\",\"width\":219,\"height\":216,\"thumb\":\"\"},\"contentId\":\"1759500885494\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "5464956150740844012",
+    "type": 1,
+    "isUndo": false
   }
 }
