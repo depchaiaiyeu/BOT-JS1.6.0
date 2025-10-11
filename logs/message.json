@@ -15618,5 +15618,51 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760177255411": {
+    "timestamp": "1760177255521",
+    "timestampString": "17:07:36",
+    "msgId": "7105781684225",
+    "cliMsgId": "1760177255411",
+    "msgType": "chat.photo",
+    "uidFrom": "3412939609851564902",
+    "idTo": "1367422010794969537",
+    "dName": "Sancho",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f38-zfcloud.zdn.vn/510c93013c9c9dc2c48d/4766481878148644530?createby=JS-PVT_Projects.webp",
+      "thumb": "https://f38-zfcloud.zdn.vn/510c93013c9c9dc2c48d/4766481878148644530?createby=JS-PVT_Projects.webp",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":200,\"height\":200,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"1760108154654\\\",\\\"send_method\\\":0}\",\"webp\":{\"url\":\"https:\\/\\/f38-zfcloud.zdn.vn\\/510c93013c9c9dc2c48d\\/4766481878148644530?createby=JS-PVT_Projects.webp\",\"width\":200,\"height\":200,\"thumb\":\"\"},\"contentId\":\"1760108154654\",\"pStickerType\":1,\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760177268032": {
+    "timestamp": "1760177268062",
+    "timestampString": "17:07:48",
+    "msgId": "7105782328797",
+    "cliMsgId": "1760177268032",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "1367422010794969537",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f62-zpg-r.zdn.vn/6893106190785618882/88fd52cfe39d6ec3378c.jpg",
+      "thumb": "https://f62-zpg-r.zdn.vn/6893106190785618882/88fd52cfe39d6ec3378c.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":320,\"height\":320,\"is_group_layout\":0,\"tracking\":\"{\\\"source\\\":7,\\\"keyword\\\":\\\"\\\",\\\"contentID\\\":\\\"E6E44DD2-1B26-4D42-AE38-304F4FF9EE6C1\\\",\\\"send_method\\\":0}\",\"contentId\":\"E6E44DD2-1B26-4D42-AE38-304F4FF9EE6C1\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "1367422010794969537",
+    "type": 1,
+    "isUndo": false
   }
 }
