@@ -15008,5 +15008,79 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760176876292": {
+    "timestamp": "1760176876391",
+    "timestampString": "17:01:17",
+    "msgId": "7105761951670",
+    "cliMsgId": "1760176876292",
+    "msgType": "webchat",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": "@ゑ﹕tl call nhanh",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176877392": {
+    "timestamp": "1760176877451",
+    "timestampString": "17:01:17",
+    "msgId": "7105762005444",
+    "cliMsgId": "1760176877392",
+    "msgType": "webchat",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": "dcmmm",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176877988": {
+    "timestamp": "1760176878041",
+    "timestampString": "17:01:18",
+    "msgId": "7105762038097",
+    "cliMsgId": "1760176877988",
+    "msgType": "chat.photo",
+    "uidFrom": "870210148577148456",
+    "idTo": "7897564732983285154",
+    "dName": "Nguyễn Duy Khánh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://media-ten.z-cdn.me/SsXEN-yHFqgAAAAM/exploding-car-explode.gif",
+      "thumb": "https://media-ten.z-cdn.me/SsXEN-yHFqgAAAAM/exploding-car-explode.gif",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"contentId\":\"1732689919768\",\"height\":332,\"thumb_height\":332,\"tracking\":{\"subsource\":\"0\",\"source\":0},\"thumb_width\":498,\"width\":498,\"webp\":{\"url\":\"https:\\/\\/files.catbox.moe\\/c8kszv.webp\"}}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760176880458": {
+    "timestamp": "1760176880595",
+    "timestampString": "17:01:20",
+    "msgId": "7105762171891",
+    "cliMsgId": "1760176880458",
+    "msgType": "chat.photo",
+    "uidFrom": "5109433059533672403",
+    "idTo": "7897564732983285154",
+    "dName": "Do Ngoc Truc Linh",
+    "content": {
+      "title": "",
+      "description": "",
+      "href": "https://f61-zpg-r.zdn.vn/jpg/4608171357424507170/07c8281ae874652a3c65.jpg",
+      "thumb": "https://f61-zpg-r.zdn.vn/jpg/4608171357424507170/07c8281ae874652a3c65.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":735,\"height\":490,\"hd\":\"https:\\/\\/f61-zpg-r.zdn.vn\\/jpg\\/4608171357424507170\\/07c8281ae874652a3c65.jpg\",\"is_group_layout\":0,\"contentId\":\"1000046366\",\"convertible\":\"jxl\",\"is_original\":0}",
+      "type": ""
+    },
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
