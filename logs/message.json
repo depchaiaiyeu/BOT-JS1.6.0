@@ -24955,5 +24955,37 @@
     "threadId": "5975420422762749911",
     "type": 1,
     "isUndo": false
+  },
+  "1760180763806": {
+    "timestamp": "1760180763828",
+    "timestampString": "18:06:04",
+    "msgId": "7105962513056",
+    "cliMsgId": "1760180763806",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "5975420422762749911",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "@Exception t mò tới js ms thâý",
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760180764206": {
+    "timestamp": "1760180764270",
+    "timestampString": "18:06:05",
+    "msgId": "7105962535444",
+    "cliMsgId": "1760180764206",
+    "msgType": "chat.sticker",
+    "uidFrom": "2275317996891696552",
+    "idTo": "5975420422762749911",
+    "dName": "Núp Gầm Giường",
+    "content": {
+      "id": 28405,
+      "catId": 10788,
+      "type": 3
+    },
+    "threadId": "5975420422762749911",
+    "type": 1,
+    "isUndo": false
   }
 }
