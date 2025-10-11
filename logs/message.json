@@ -37056,5 +37056,19 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760186174541": {
+    "timestamp": "1760186174579",
+    "timestampString": "19:36:15",
+    "msgId": "7106248970545",
+    "cliMsgId": "1760186174541",
+    "msgType": "webchat",
+    "uidFrom": "310916094085117291",
+    "idTo": "7897564732983285154",
+    "dName": "̀nguyễn Duy Khang",
+    "content": "Đoán vội",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
