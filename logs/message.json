@@ -8049,5 +8049,28 @@
     "threadId": "4699745045071009795",
     "type": 1,
     "isUndo": false
+  },
+  "1760169580854": {
+    "timestamp": "1760169584497",
+    "timestampString": "14:59:45",
+    "msgId": "7105372576113",
+    "cliMsgId": "1760169580854",
+    "msgType": "chat.photo",
+    "uidFrom": "5461000099680117746",
+    "idTo": "1747464985521437051",
+    "dName": "Nguyễn Bảo",
+    "content": {
+      "title": "kkk hài điên",
+      "description": "",
+      "href": "https://f63-zpg-r.zdn.vn/jpg/4511519746777759231/9b2aa77dc0124d4c1403.jpg",
+      "thumb": "https://f63-zpg-r.zdn.vn/jpg/4511519746777759231/9b2aa77dc0124d4c1403.jpg",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"width\":1151,\"convertible\":\"jxl\",\"hd\":\"https:\\/\\/f63-zpg-r.zdn.vn\\/jpg\\/4511519746777759231\\/9b2aa77dc0124d4c1403.jpg\",\"hdSize\":24100,\"height\":793}",
+      "type": ""
+    },
+    "threadId": "1747464985521437051",
+    "type": 1,
+    "isUndo": false
   }
 }
