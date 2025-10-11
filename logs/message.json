@@ -10430,5 +10430,47 @@
     "threadId": "3228108398535377399",
     "type": 1,
     "isUndo": false
+  },
+  "1760172187505": {
+    "timestamp": "1760172187578",
+    "timestampString": "15:43:08",
+    "msgId": "7105515109497",
+    "cliMsgId": "1760172187505",
+    "msgType": "webchat",
+    "uidFrom": "7574622702772295205",
+    "idTo": "3228108398535377399",
+    "dName": "Minh An",
+    "content": "@Che Viet Hung Thinhh cac",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172200151": {
+    "timestamp": "1760172200188",
+    "timestampString": "15:43:21",
+    "msgId": "7105515814102",
+    "cliMsgId": "1760172200151",
+    "msgType": "webchat",
+    "uidFrom": "3246726307428516405",
+    "idTo": "3228108398535377399",
+    "dName": "Che Viet Hung Thinhh",
+    "content": "nhanh",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760172204438": {
+    "timestamp": "1760172204451",
+    "timestampString": "15:43:24",
+    "msgId": "7105516049433",
+    "cliMsgId": "1760172204438",
+    "msgType": "webchat",
+    "uidFrom": "3246726307428516405",
+    "idTo": "3228108398535377399",
+    "dName": "Che Viet Hung Thinhh",
+    "content": "t  còn lọ",
+    "threadId": "3228108398535377399",
+    "type": 1,
+    "isUndo": false
   }
 }
