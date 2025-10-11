@@ -1978,5 +1978,74 @@
     "threadId": "2760006576081013366",
     "type": 1,
     "isUndo": false
+  },
+  "1760165745165": {
+    "timestamp": "1760165745532",
+    "timestampString": "13:55:46",
+    "msgId": "7105193073379",
+    "cliMsgId": "1760165745165",
+    "msgType": "chat.recommended",
+    "uidFrom": "8347261672526530028",
+    "idTo": "4825567233436439756",
+    "dName": "N H L",
+    "content": {
+      "title": "https://vm.tiktok.com/ZNdWJLRLK/",
+      "description": "100.3K lượt thích, 239 bình luận. “không cúi đầu trước ai ,nhưng em là ngoại lệ 🥺”",
+      "href": "https://vm.tiktok.com/ZNdWJLRLK/",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "recommened.link",
+      "params": "{\"redirect_url\":\"\",\"src\":\"vm.tiktok.com\",\"mediaTitle\":\"TikTok · cá.\",\"streamUrl\":\"\",\"type\":0,\"linkType\":0,\"artist\":\"\",\"count\":\"\",\"stream_icon\":\"\",\"mediaId\":\"\",\"video_duration\":0,\"arid\":0,\"href\":\"https:\\/\\/vm.tiktok.com\\/ZNdWJLRLK\\/\",\"tType\":1,\"tWidth\":0,\"tHeight\":0,\"icon\":\"https:\\/\\/lf16-tiktok-common.ibytedtos.com\\/obj\\/tiktok-web-common-sg\\/mtact\\/static\\/images\\/tiktok-logo\\/logo.png\",\"thumb_src_type\":1}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165745878": {
+    "timestamp": "1760165746717",
+    "timestampString": "13:55:47",
+    "msgId": "7105193124865",
+    "cliMsgId": "1760165745878",
+    "msgType": "webchat",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "N H L\nChờ lấy video một chút, xong sẽ gọi cho hay!\n📊 Chất lượng: 540p",
+      "description": "",
+      "href": "",
+      "thumb": "",
+      "childnumber": 0,
+      "action": "rtf",
+      "params": "{\"styles\":[{\"start\":6,\"len\":64,\"st\":\"b,c_f7b503,f_14\"}],\"ver\":0}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
+  },
+  "1760165746674": {
+    "timestamp": "1760165747505",
+    "timestampString": "13:55:47",
+    "msgId": "7105193157696",
+    "cliMsgId": "1760165746674",
+    "msgType": "chat.video.msg",
+    "uidFrom": "227886665729461010",
+    "idTo": "4825567233436439756",
+    "dName": "Take Care For Groups",
+    "content": {
+      "title": "[ N H L ]\nAuthor: [hyo.hwuhjn] cá.\nDescription: không cúi đầu trước ai ,nhưng em là ngoại lệ 🥺 #baesuzy #kimwoobin #geniemakeawish #unity_team🕊️ \n📊 Chất lượng: 540p\n💗 Thả tim để nhận nội dung ngẫu nhiên khác từ author này",
+      "description": "",
+      "href": "https://fg41.dlfl.vn/e5358e42cade6b8032cf/7826086296070697782",
+      "thumb": "https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/o0IErfEAoYAFgE4wTrjCfzfgkGDMDCtIZAdR2n~tplv-tiktokx-cropcenter-q:300:400:q72.jpeg?dr=14782&refresh_token=ab5871c1&x-expires=1760248800&x-signature=o725l2UVcdq8PNvyNH0iDGoTC0A%3D&t=bacd0480&ps=933b5bde&shp=d05b14bd&shcp=1d1a97fc&idc=maliva&biz_tag=tt_video&s=AWEME_DETAIL&sc=cover",
+      "childnumber": 0,
+      "action": "",
+      "params": "{\"duration\":38000,\"video_height\":576,\"fileSize\":3446359,\"video_width\":1024}",
+      "type": ""
+    },
+    "threadId": "4825567233436439756",
+    "type": 1,
+    "isUndo": false
   }
 }
