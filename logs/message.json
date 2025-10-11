@@ -31766,5 +31766,19 @@
     "threadId": "1367422010794969537",
     "type": 1,
     "isUndo": false
+  },
+  "1760184033027": {
+    "timestamp": "1760184033157",
+    "timestampString": "19:00:34",
+    "msgId": "7106133714979",
+    "cliMsgId": "1760184033027",
+    "msgType": "webchat",
+    "uidFrom": "6658938181466805330",
+    "idTo": "7897564732983285154",
+    "dName": "Vtàiᅠᅠdv",
+    "content": "@Văn Định j thế",
+    "threadId": "7897564732983285154",
+    "type": 1,
+    "isUndo": false
   }
 }
